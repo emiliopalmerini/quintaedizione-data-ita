@@ -1,0 +1,5 @@
+{
+  "_comment": "TODO: Extract XP thresholds and multipliers from website's hardcoded Go code",
+  "thresholds_by_level": {},
+  "multipliers": {}
+}

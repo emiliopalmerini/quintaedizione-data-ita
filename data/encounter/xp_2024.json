@@ -1,0 +1,4 @@
+{
+  "_comment": "TODO: Extract XP tables from website's hardcoded Go code",
+  "xp_by_level": {}
+}
