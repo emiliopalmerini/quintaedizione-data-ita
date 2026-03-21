@@ -1,5 +1,7 @@
 package srd
 
+import "strings"
+
 // Spell represents a D&D 5e spell.
 type Spell struct {
 	ID             string   `json:"id"`
@@ -17,6 +19,21 @@ type Spell struct {
 	Source         string   `json:"-"`
 }
 
-func (s Spell) SearchID() string       { return s.ID }
-func (s Spell) SearchTitle() string     { return s.Name }
+func (s Spell) SearchID() string        { return s.ID }
+func (s Spell) SearchTitle() string      { return s.Name }
 func (s Spell) SearchKeywords() []string { return s.Classes }
+
+func (s Spell) FilterValue(field string) any {
+	switch field {
+	case "scuola":
+		return s.School
+	case "livello":
+		return s.Level
+	case "classe":
+		return strings.Join(s.Classes, ", ")
+	case "rituale":
+		return s.Ritual
+	default:
+		return nil
+	}
+}

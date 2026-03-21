@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	datasrd "github.com/emiliopalmerini/quintaedizione-data-ita/data/srd"
+	"github.com/emiliopalmerini/quintaedizione-data-ita/search"
 	"github.com/emiliopalmerini/quintaedizione-data-ita/srd"
 )
 
@@ -34,6 +35,7 @@ type Store struct {
 	species      []srd.Species
 	speciesIndex map[string]int
 	sources      []srd.Source
+	searchSvc    *search.Service
 }
 
 // Load creates a Store from the embedded JSON data.
@@ -71,6 +73,7 @@ func LoadFrom(fsys fs.FS) (*Store, error) {
 	}
 
 	s.buildIndexes()
+	s.buildSearch()
 	return s, nil
 }
 
@@ -342,4 +345,45 @@ func (s *Store) Count(collection string) int {
 	default:
 		return 0
 	}
+}
+
+// Search performs a fuzzy search across all collections.
+func (s *Store) Search(query string, limitPerCollection int) []search.SearchResultSet {
+	return s.searchSvc.Search(query, limitPerCollection)
+}
+
+func (s *Store) buildSearch() {
+	items := make(map[string][]search.SearchableItem)
+
+	addItems := func(collection string, searchables []srd.Searchable) {
+		for _, item := range searchables {
+			items[collection] = append(items[collection], search.SearchableItem{
+				ID:         item.SearchID(),
+				Collection: collection,
+				Title:      item.SearchTitle(),
+				Keywords:   item.SearchKeywords(),
+			})
+		}
+	}
+
+	addItems(srd.Incantesimi.String(), toSearchable(s.spells))
+	addItems(srd.Mostri.String(), toSearchable(s.monsters))
+	addItems(srd.Classi.String(), toSearchable(s.classes))
+	addItems(srd.Backgrounds.String(), toSearchable(s.backgrounds))
+	addItems(srd.Equipaggiamenti.String(), toSearchable(s.equipment))
+	addItems(srd.OggettiMagici.String(), toSearchable(s.magicItems))
+	addItems(srd.Talenti.String(), toSearchable(s.feats))
+	addItems(srd.Regole.String(), toSearchable(s.rules))
+	addItems(srd.Glossario.String(), toSearchable(s.glossary))
+	addItems(srd.Specie.String(), toSearchable(s.species))
+
+	s.searchSvc = search.NewService(items)
+}
+
+func toSearchable[T srd.Searchable](items []T) []srd.Searchable {
+	result := make([]srd.Searchable, len(items))
+	for i, item := range items {
+		result[i] = item
+	}
+	return result
 }

@@ -14,3 +14,12 @@ type Equipment struct {
 func (e Equipment) SearchID() string        { return e.ID }
 func (e Equipment) SearchTitle() string      { return e.Name }
 func (e Equipment) SearchKeywords() []string { return []string{e.Category, e.Subcategory} }
+
+func (e Equipment) FilterValue(field string) any {
+	switch field {
+	case "categoria":
+		return e.Subcategory
+	default:
+		return nil
+	}
+}

@@ -21,3 +21,14 @@ type Species struct {
 func (s Species) SearchID() string        { return s.ID }
 func (s Species) SearchTitle() string      { return s.Name }
 func (s Species) SearchKeywords() []string { return []string{s.CreatureType} }
+
+func (s Species) FilterValue(field string) any {
+	switch field {
+	case "tipo_creatura":
+		return s.CreatureType
+	case "taglia":
+		return s.Size
+	default:
+		return nil
+	}
+}

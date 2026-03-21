@@ -114,6 +114,33 @@ func TestCollections(t *testing.T) {
 	}
 }
 
+func TestSearch(t *testing.T) {
+	s, err := Load()
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	results := s.Search("fuoco", 5)
+	if len(results) == 0 {
+		t.Fatal("expected search results for 'fuoco'")
+	}
+
+	// Verify results have scores
+	for _, set := range results {
+		for _, r := range set.Results {
+			if r.Score <= 0 {
+				t.Errorf("result %q has non-positive score %d", r.Title, r.Score)
+			}
+		}
+	}
+
+	// Empty query returns nil
+	empty := s.Search("", 5)
+	if empty != nil {
+		t.Error("expected nil for empty query")
+	}
+}
+
 func TestSearchable(t *testing.T) {
 	s, err := Load()
 	if err != nil {

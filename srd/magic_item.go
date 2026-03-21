@@ -15,3 +15,14 @@ type MagicItem struct {
 func (m MagicItem) SearchID() string        { return m.ID }
 func (m MagicItem) SearchTitle() string      { return m.Name }
 func (m MagicItem) SearchKeywords() []string { return []string{m.Type, m.Rarity} }
+
+func (m MagicItem) FilterValue(field string) any {
+	switch field {
+	case "rarita":
+		return m.Rarity
+	case "tipo":
+		return m.Type
+	default:
+		return nil
+	}
+}

@@ -42,3 +42,18 @@ type Monster struct {
 func (m Monster) SearchID() string        { return m.ID }
 func (m Monster) SearchTitle() string      { return m.Name }
 func (m Monster) SearchKeywords() []string { return []string{m.Type, m.CR} }
+
+func (m Monster) FilterValue(field string) any {
+	switch field {
+	case "tipo":
+		return m.Type
+	case "taglia":
+		return m.Size
+	case "allineamento":
+		return m.Alignment
+	case "grado_sfida":
+		return m.CR
+	default:
+		return nil
+	}
+}
