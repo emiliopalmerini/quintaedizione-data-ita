@@ -1,5 +1,33 @@
 {
-  "_comment": "TODO: Extract XP thresholds and multipliers from website's hardcoded Go code",
-  "thresholds_by_level": {},
-  "multipliers": {}
+  "thresholds": {
+    "1":  {"Facile": 25, "Media": 50, "Difficile": 75, "Letale": 100},
+    "2":  {"Facile": 50, "Media": 100, "Difficile": 150, "Letale": 200},
+    "3":  {"Facile": 75, "Media": 150, "Difficile": 225, "Letale": 400},
+    "4":  {"Facile": 125, "Media": 250, "Difficile": 375, "Letale": 500},
+    "5":  {"Facile": 250, "Media": 500, "Difficile": 750, "Letale": 1100},
+    "6":  {"Facile": 300, "Media": 600, "Difficile": 900, "Letale": 1400},
+    "7":  {"Facile": 350, "Media": 750, "Difficile": 1100, "Letale": 1700},
+    "8":  {"Facile": 450, "Media": 900, "Difficile": 1400, "Letale": 2100},
+    "9":  {"Facile": 550, "Media": 1100, "Difficile": 1600, "Letale": 2400},
+    "10": {"Facile": 600, "Media": 1200, "Difficile": 1900, "Letale": 2800},
+    "11": {"Facile": 800, "Media": 1600, "Difficile": 2400, "Letale": 3600},
+    "12": {"Facile": 1000, "Media": 2000, "Difficile": 3000, "Letale": 4500},
+    "13": {"Facile": 1100, "Media": 2200, "Difficile": 3400, "Letale": 5100},
+    "14": {"Facile": 1250, "Media": 2500, "Difficile": 3800, "Letale": 5700},
+    "15": {"Facile": 1400, "Media": 2800, "Difficile": 4300, "Letale": 6400},
+    "16": {"Facile": 1600, "Media": 3200, "Difficile": 4800, "Letale": 7200},
+    "17": {"Facile": 2000, "Media": 3900, "Difficile": 5900, "Letale": 8800},
+    "18": {"Facile": 2100, "Media": 4200, "Difficile": 6300, "Letale": 9500},
+    "19": {"Facile": 2400, "Media": 4900, "Difficile": 7300, "Letale": 10900},
+    "20": {"Facile": 2800, "Media": 5700, "Difficile": 8500, "Letale": 12700}
+  },
+  "multipliers": [
+    {"max_monsters": 1, "multiplier": 1.0},
+    {"max_monsters": 2, "multiplier": 1.5},
+    {"max_monsters": 3, "multiplier": 2.0},
+    {"max_monsters": 7, "multiplier": 2.5},
+    {"max_monsters": 11, "multiplier": 3.0},
+    {"max_monsters": 15, "multiplier": 4.0},
+    {"max_monsters": 99, "multiplier": 5.0}
+  ]
 }

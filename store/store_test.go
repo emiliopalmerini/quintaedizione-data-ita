@@ -141,6 +141,95 @@ func TestSearch(t *testing.T) {
 	}
 }
 
+func TestMappe(t *testing.T) {
+	s, err := Load()
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	mappe := s.Mappe()
+	if len(mappe) == 0 {
+		t.Fatal("expected maps to be loaded")
+	}
+
+	// Lookup by slug
+	first := mappe[0]
+	got, err := s.Mappa(first.Slug)
+	if err != nil {
+		t.Fatalf("Mappa(%q) error: %v", first.Slug, err)
+	}
+	if got.Nome != first.Nome {
+		t.Errorf("Mappa(%q).Nome = %q, want %q", first.Slug, got.Nome, first.Nome)
+	}
+
+	// Tags
+	tags := s.MappeTags()
+	if len(tags) == 0 {
+		t.Error("expected map tags")
+	}
+}
+
+func TestGenerators(t *testing.T) {
+	s, err := Load()
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	tables := s.GeneratorTables()
+	if len(tables) == 0 {
+		t.Fatal("expected generator tables to be loaded")
+	}
+
+	// Lookup by ID
+	first := tables[0]
+	got, err := s.GeneratorTable(first.ID)
+	if err != nil {
+		t.Fatalf("GeneratorTable(%q) error: %v", first.ID, err)
+	}
+	if got.Name != first.Name {
+		t.Errorf("GeneratorTable(%q).Name = %q, want %q", first.ID, got.Name, first.Name)
+	}
+}
+
+func TestXPTables(t *testing.T) {
+	s, err := Load()
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	xp := s.XPTables()
+	if xp == nil {
+		t.Fatal("expected XP tables to be loaded")
+	}
+
+	// Test 2024 XP
+	val, err := xp.GetXPFor2024(5, "High")
+	if err != nil {
+		t.Fatalf("GetXPFor2024(5, High) error: %v", err)
+	}
+	if val != 1100 {
+		t.Errorf("GetXPFor2024(5, High) = %d, want 1100", val)
+	}
+
+	// Test 2014 threshold
+	threshold, err := xp.GetThresholdFor2014(1, "Facile")
+	if err != nil {
+		t.Fatalf("GetThresholdFor2014(1, Facile) error: %v", err)
+	}
+	if threshold != 25 {
+		t.Errorf("GetThresholdFor2014(1, Facile) = %d, want 25", threshold)
+	}
+
+	// Test multiplier
+	mult, err := xp.GetMultiplierFor2014(2)
+	if err != nil {
+		t.Fatalf("GetMultiplierFor2014(2) error: %v", err)
+	}
+	if mult != 1.5 {
+		t.Errorf("GetMultiplierFor2014(2) = %f, want 1.5", mult)
+	}
+}
+
 func TestSearchable(t *testing.T) {
 	s, err := Load()
 	if err != nil {

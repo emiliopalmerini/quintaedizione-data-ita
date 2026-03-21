@@ -1,4 +1,22 @@
 {
-  "_comment": "TODO: Extract XP tables from website's hardcoded Go code",
-  "xp_by_level": {}
+  "1":  {"Low": 50, "Moderate": 75, "High": 100},
+  "2":  {"Low": 100, "Moderate": 150, "High": 200},
+  "3":  {"Low": 150, "Moderate": 225, "High": 400},
+  "4":  {"Low": 250, "Moderate": 375, "High": 500},
+  "5":  {"Low": 500, "Moderate": 750, "High": 1100},
+  "6":  {"Low": 600, "Moderate": 1000, "High": 1400},
+  "7":  {"Low": 750, "Moderate": 1300, "High": 1700},
+  "8":  {"Low": 900, "Moderate": 1500, "High": 2100},
+  "9":  {"Low": 1100, "Moderate": 1800, "High": 2400},
+  "10": {"Low": 1250, "Moderate": 2000, "High": 2800},
+  "11": {"Low": 1400, "Moderate": 2300, "High": 3200},
+  "12": {"Low": 1600, "Moderate": 2500, "High": 3600},
+  "13": {"Low": 1800, "Moderate": 2800, "High": 4000},
+  "14": {"Low": 2000, "Moderate": 3100, "High": 4400},
+  "15": {"Low": 2200, "Moderate": 3400, "High": 4800},
+  "16": {"Low": 2400, "Moderate": 3700, "High": 5200},
+  "17": {"Low": 2700, "Moderate": 4000, "High": 5700},
+  "18": {"Low": 2900, "Moderate": 4300, "High": 6100},
+  "19": {"Low": 3100, "Moderate": 4600, "High": 6600},
+  "20": {"Low": 3400, "Moderate": 5000, "High": 7000}
 }

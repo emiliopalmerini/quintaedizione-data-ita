@@ -7,7 +7,13 @@ import (
 	"sort"
 	"strings"
 
+	dataenc "github.com/emiliopalmerini/quintaedizione-data-ita/data/encounter"
+	datagen "github.com/emiliopalmerini/quintaedizione-data-ita/data/generatori"
+	datamappe "github.com/emiliopalmerini/quintaedizione-data-ita/data/mappe"
 	datasrd "github.com/emiliopalmerini/quintaedizione-data-ita/data/srd"
+	"github.com/emiliopalmerini/quintaedizione-data-ita/encounter"
+	"github.com/emiliopalmerini/quintaedizione-data-ita/generators"
+	"github.com/emiliopalmerini/quintaedizione-data-ita/maps"
 	"github.com/emiliopalmerini/quintaedizione-data-ita/search"
 	"github.com/emiliopalmerini/quintaedizione-data-ita/srd"
 )
@@ -36,15 +42,38 @@ type Store struct {
 	speciesIndex map[string]int
 	sources      []srd.Source
 	searchSvc    *search.Service
+	mappe        []maps.Mappa
+	mappeIndex   map[string]int
+	tables       []generators.Table
+	xpTables     *encounter.XPTables
 }
 
-// Load creates a Store from the embedded JSON data.
+// Load creates a Store from all embedded JSON data.
 func Load() (*Store, error) {
-	return LoadFrom(datasrd.Files)
+	s, err := LoadSRD(datasrd.Files)
+	if err != nil {
+		return nil, err
+	}
+
+	if err := s.loadMappe(datamappe.Files); err != nil {
+		return nil, fmt.Errorf("maps: %w", err)
+	}
+
+	if err := s.loadGenerators(datagen.Files); err != nil {
+		return nil, fmt.Errorf("generators: %w", err)
+	}
+
+	xp, err := encounter.LoadXPTables(dataenc.Files)
+	if err != nil {
+		return nil, fmt.Errorf("encounter xp: %w", err)
+	}
+	s.xpTables = xp
+
+	return s, nil
 }
 
-// LoadFrom creates a Store from a custom filesystem (useful for testing).
-func LoadFrom(fsys fs.FS) (*Store, error) {
+// LoadSRD creates a Store from an SRD filesystem. Use Load() for the full embedded dataset.
+func LoadSRD(fsys fs.FS) (*Store, error) {
 	s := &Store{}
 
 	entries, err := fs.ReadDir(fsys, ".")
@@ -387,3 +416,89 @@ func toSearchable[T srd.Searchable](items []T) []srd.Searchable {
 	}
 	return result
 }
+
+// --- Maps ---
+
+func (s *Store) loadMappe(fsys fs.FS) error {
+	data, err := fs.ReadFile(fsys, "mappe.json")
+	if err != nil {
+		return err
+	}
+	if err := json.Unmarshal(data, &s.mappe); err != nil {
+		return err
+	}
+	sort.Slice(s.mappe, func(i, j int) bool { return s.mappe[i].Nome < s.mappe[j].Nome })
+	s.mappeIndex = make(map[string]int, len(s.mappe))
+	for i, m := range s.mappe {
+		s.mappeIndex[m.Slug] = i
+	}
+	return nil
+}
+
+func (s *Store) Mappe() []maps.Mappa { return s.mappe }
+
+func (s *Store) Mappa(slug string) (maps.Mappa, error) {
+	return lookup(s.mappe, s.mappeIndex, slug, "mappa")
+}
+
+func (s *Store) MappeTags() []string {
+	seen := make(map[string]bool)
+	var tags []string
+	for _, m := range s.mappe {
+		for _, t := range m.Tag {
+			if !seen[t] {
+				seen[t] = true
+				tags = append(tags, t)
+			}
+		}
+	}
+	sort.Strings(tags)
+	return tags
+}
+
+// --- Generators ---
+
+func (s *Store) loadGenerators(fsys fs.FS) error {
+	entries, err := fs.ReadDir(fsys, ".")
+	if err != nil {
+		return err
+	}
+	for _, e := range entries {
+		if !strings.HasSuffix(e.Name(), ".json") {
+			continue
+		}
+		data, err := fs.ReadFile(fsys, e.Name())
+		if err != nil {
+			continue
+		}
+		var table generators.Table
+		if err := json.Unmarshal(data, &table); err != nil {
+			continue
+		}
+		if table.ID != "" {
+			s.tables = append(s.tables, table)
+		}
+	}
+	sort.Slice(s.tables, func(i, j int) bool {
+		if s.tables[i].Group != s.tables[j].Group {
+			return s.tables[i].Group < s.tables[j].Group
+		}
+		return s.tables[i].Order < s.tables[j].Order
+	})
+	return nil
+}
+
+func (s *Store) GeneratorTables() []generators.Table { return s.tables }
+
+func (s *Store) GeneratorTable(id string) (generators.Table, error) {
+	for _, t := range s.tables {
+		if t.ID == id {
+			return t, nil
+		}
+	}
+	return generators.Table{}, fmt.Errorf("generator table %q not found", id)
+}
+
+// --- Encounter XP ---
+
+func (s *Store) XPTables() *encounter.XPTables { return s.xpTables }
