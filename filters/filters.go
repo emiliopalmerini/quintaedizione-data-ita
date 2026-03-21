@@ -61,8 +61,8 @@ func NewSet(collection srd.CollectionName) *Set {
 	return &Set{Collection: collection, Filters: make([]Value, 0)}
 }
 
-func (s *Set) Add(v Value)       { s.Filters = append(s.Filters, v) }
-func (s *Set) HasFilters() bool  { return len(s.Filters) > 0 }
+func (s *Set) Add(v Value)      { s.Filters = append(s.Filters, v) }
+func (s *Set) HasFilters() bool { return len(s.Filters) > 0 }
 
 // Predicate tests whether a Filterable entity matches.
 type Predicate func(Filterable) bool

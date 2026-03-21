@@ -12,7 +12,7 @@ type MagicItem struct {
 	Source            string `json:"-"`
 }
 
-func (m MagicItem) SearchID() string        { return m.ID }
+func (m MagicItem) SearchID() string         { return m.ID }
 func (m MagicItem) SearchTitle() string      { return m.Name }
 func (m MagicItem) SearchKeywords() []string { return []string{m.Type, m.Rarity} }
 

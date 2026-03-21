@@ -13,6 +13,6 @@ type Background struct {
 	Source             string `json:"-"`
 }
 
-func (b Background) SearchID() string        { return b.ID }
+func (b Background) SearchID() string         { return b.ID }
 func (b Background) SearchTitle() string      { return b.Name }
 func (b Background) SearchKeywords() []string { return nil }

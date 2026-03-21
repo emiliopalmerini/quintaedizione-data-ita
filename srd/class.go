@@ -27,6 +27,6 @@ type Class struct {
 	Source        string         `json:"-"`
 }
 
-func (c Class) SearchID() string        { return c.ID }
+func (c Class) SearchID() string         { return c.ID }
 func (c Class) SearchTitle() string      { return c.Name }
 func (c Class) SearchKeywords() []string { return nil }

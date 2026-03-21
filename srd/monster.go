@@ -39,7 +39,7 @@ type Monster struct {
 	SourceEdition       string            `json:"-"`
 }
 
-func (m Monster) SearchID() string        { return m.ID }
+func (m Monster) SearchID() string         { return m.ID }
 func (m Monster) SearchTitle() string      { return m.Name }
 func (m Monster) SearchKeywords() []string { return []string{m.Type, m.CR} }
 

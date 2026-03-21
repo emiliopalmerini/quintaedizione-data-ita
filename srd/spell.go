@@ -19,7 +19,7 @@ type Spell struct {
 	Source         string   `json:"-"`
 }
 
-func (s Spell) SearchID() string        { return s.ID }
+func (s Spell) SearchID() string         { return s.ID }
 func (s Spell) SearchTitle() string      { return s.Name }
 func (s Spell) SearchKeywords() []string { return s.Classes }
 

@@ -11,7 +11,7 @@ type Feat struct {
 	Source       string `json:"-"`
 }
 
-func (f Feat) SearchID() string        { return f.ID }
+func (f Feat) SearchID() string         { return f.ID }
 func (f Feat) SearchTitle() string      { return f.Name }
 func (f Feat) SearchKeywords() []string { return []string{f.Category} }
 

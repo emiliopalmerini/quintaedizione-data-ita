@@ -10,7 +10,7 @@ type GlossaryEntry struct {
 	Source     string   `json:"-"`
 }
 
-func (g GlossaryEntry) SearchID() string        { return g.ID }
+func (g GlossaryEntry) SearchID() string         { return g.ID }
 func (g GlossaryEntry) SearchTitle() string      { return g.Term }
 func (g GlossaryEntry) SearchKeywords() []string { return g.SeeAlso }
 

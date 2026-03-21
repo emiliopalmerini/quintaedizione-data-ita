@@ -18,7 +18,7 @@ type Species struct {
 	Source       string         `json:"-"`
 }
 
-func (s Species) SearchID() string        { return s.ID }
+func (s Species) SearchID() string         { return s.ID }
 func (s Species) SearchTitle() string      { return s.Name }
 func (s Species) SearchKeywords() []string { return []string{s.CreatureType} }
 

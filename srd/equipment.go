@@ -11,7 +11,7 @@ type Equipment struct {
 	Source      string            `json:"-"`
 }
 
-func (e Equipment) SearchID() string        { return e.ID }
+func (e Equipment) SearchID() string         { return e.ID }
 func (e Equipment) SearchTitle() string      { return e.Name }
 func (e Equipment) SearchKeywords() []string { return []string{e.Category, e.Subcategory} }
 

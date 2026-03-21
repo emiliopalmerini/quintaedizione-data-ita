@@ -283,16 +283,16 @@ func buildIndex[T any](items []T, id func(T) string) map[string]int {
 // --- Typed accessors ---
 
 func (s *Store) Spells() []srd.Spell           { return s.spells }
-func (s *Store) Monsters() []srd.Monster        { return s.monsters }
-func (s *Store) Classes() []srd.Class            { return s.classes }
-func (s *Store) Backgrounds() []srd.Background   { return s.backgrounds }
-func (s *Store) Equipment() []srd.Equipment      { return s.equipment }
-func (s *Store) MagicItems() []srd.MagicItem     { return s.magicItems }
-func (s *Store) Feats() []srd.Feat               { return s.feats }
-func (s *Store) Rules() []srd.Rule               { return s.rules }
-func (s *Store) Glossary() []srd.GlossaryEntry   { return s.glossary }
-func (s *Store) Species() []srd.Species           { return s.species }
-func (s *Store) Sources() []srd.Source             { return s.sources }
+func (s *Store) Monsters() []srd.Monster       { return s.monsters }
+func (s *Store) Classes() []srd.Class          { return s.classes }
+func (s *Store) Backgrounds() []srd.Background { return s.backgrounds }
+func (s *Store) Equipment() []srd.Equipment    { return s.equipment }
+func (s *Store) MagicItems() []srd.MagicItem   { return s.magicItems }
+func (s *Store) Feats() []srd.Feat             { return s.feats }
+func (s *Store) Rules() []srd.Rule             { return s.rules }
+func (s *Store) Glossary() []srd.GlossaryEntry { return s.glossary }
+func (s *Store) Species() []srd.Species        { return s.species }
+func (s *Store) Sources() []srd.Source         { return s.sources }
 
 func (s *Store) Spell(id string) (srd.Spell, error) {
 	return lookup(s.spells, s.spellIndex, id, "spell")

@@ -9,6 +9,6 @@ type Rule struct {
 	Source   string `json:"-"`
 }
 
-func (r Rule) SearchID() string        { return r.ID }
+func (r Rule) SearchID() string         { return r.ID }
 func (r Rule) SearchTitle() string      { return r.Title }
 func (r Rule) SearchKeywords() []string { return nil }
