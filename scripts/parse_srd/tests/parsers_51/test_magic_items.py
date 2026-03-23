@@ -2,15 +2,15 @@
 # requires-python = ">=3.12"
 # dependencies = ["pytest"]
 # ///
-"""Tests for magic item subtitle parsing."""
+"""Tests for magic items parser — SRD 5.1."""
 
 from __future__ import annotations
 
-from ..parsers.magic_items import _parse_subtitle
+from ...parsers_51.magic_items import _parse_subtitle, _OVERRIDES
 
 
 class TestParseSubtitle:
-    """Magic item subtitle parsing."""
+    """Magic item subtitle parsing (5.1-specific cases)."""
 
     def test_standard(self):
         t, r, att, det = _parse_subtitle("Oggetto meraviglioso, raro")
@@ -37,13 +37,11 @@ class TestParseSubtitle:
         assert det == "da un paladino"
 
     def test_variable_rarity(self):
-        """5.1 uses 'rarità variabile' for multi-variant items."""
         t, r, att, det = _parse_subtitle("Pergamena, rarità variabile")
         assert t == "Pergamena"
         assert r == "rarità variabile"
 
     def test_rarity_varia(self):
-        """Some items use 'varia' as rarity."""
         t, r, att, det = _parse_subtitle("Pozione, varia")
         assert t == "Pozione"
         assert r == "varia"
@@ -55,11 +53,7 @@ class TestParseSubtitle:
 
 
 class TestOverrides:
-    """Manual overrides for items where subtitle parsing fails."""
-
     def test_avatar_della_morte(self):
-        """Avatar della morte is a stat block — override provides type/rarity."""
-        from ..parsers.magic_items import _OVERRIDES
         override = _OVERRIDES.get("avatar della morte")
         assert override is not None
         item_type, rarity, attunement, _ = override

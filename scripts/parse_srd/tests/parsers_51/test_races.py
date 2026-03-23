@@ -6,31 +6,9 @@
 
 from __future__ import annotations
 
-from ..classify import SpanRole
-from ..heading_tree import HeadingNode as _RealHeadingNode
-from ..merge import ClassifiedSpan, Paragraph
-from ..parsers.races import parse_races
-from ..section_split import SectionDef
-
-_LEVEL_TO_ROLE = {
-    1: SpanRole.H1, 2: SpanRole.H2, 3: SpanRole.H3,
-    4: SpanRole.H4, 5: SpanRole.H5, 6: SpanRole.H6,
-}
-
-
-def HeadingNode(title: str, level: int, content: list, children: list) -> _RealHeadingNode:
-    return _RealHeadingNode(
-        level=level, title=title, role=_LEVEL_TO_ROLE[level],
-        content=content, children=children,
-    )
-
-
-def _para(text: str, role: SpanRole = SpanRole.BODY) -> Paragraph:
-    return Paragraph(
-        spans=[ClassifiedSpan(text=text, role=role)],
-        role=role,
-        page_num=1,
-    )
+from ...parsers_51.races import parse_races
+from ...section_split import SectionDef
+from ..helpers import HeadingNode, para
 
 
 def _section() -> SectionDef:
@@ -47,9 +25,9 @@ class TestParseRaces:
                     HeadingNode(
                         title="Tratti degli elfi", level=3,
                         content=[
-                            _para("_**Incremento dei punteggi di caratteristica.**_ "
-                                  "Il punteggio di Destrezza aumenta di 2."),
-                            _para("_**Velocità.**_ La velocità base è di 9 metri."),
+                            para("_**Incremento dei punteggi di caratteristica.**_ "
+                                 "Il punteggio di Destrezza aumenta di 2."),
+                            para("_**Velocità.**_ La velocità base è di 9 metri."),
                         ],
                         children=[],
                     ),
@@ -62,21 +40,20 @@ class TestParseRaces:
         assert len(result[0]["traits"]) >= 2
 
     def test_extracts_subrace(self):
-        """Subraces are H5 children of the traits H3."""
         tree = [
             HeadingNode(title="Razze", level=1, content=[], children=[
                 HeadingNode(title="Elfo", level=2, content=[], children=[
                     HeadingNode(
                         title="Tratti degli elfi", level=3,
                         content=[
-                            _para("_**Velocità.**_ 9 metri."),
+                            para("_**Velocità.**_ 9 metri."),
                         ],
                         children=[
                             HeadingNode(
                                 title="Elfo alto", level=5,
                                 content=[
-                                    _para("_**Incremento dei punteggi.**_ Int +1."),
-                                    _para("_**Trucchetto.**_ Conosci un trucchetto."),
+                                    para("_**Incremento dei punteggi.**_ Int +1."),
+                                    para("_**Trucchetto.**_ Conosci un trucchetto."),
                                 ],
                                 children=[],
                             ),
@@ -87,7 +64,6 @@ class TestParseRaces:
         ]
         result = parse_races(_section(), [], tree)
         assert len(result) == 1
-        # Subrace traits should be included in description
         desc = result[0]["description"]
         assert "Elfo alto" in desc
 
@@ -96,15 +72,15 @@ class TestParseRaces:
             HeadingNode(title="Razze", level=1, content=[], children=[
                 HeadingNode(title="Elfo", level=2, content=[], children=[
                     HeadingNode(title="Tratti degli elfi", level=3,
-                                content=[_para("Tratti.")], children=[]),
+                                content=[para("Tratti.")], children=[]),
                 ]),
                 HeadingNode(title="Nano", level=2, content=[], children=[
                     HeadingNode(title="Tratti dei nani", level=3,
-                                content=[_para("Tratti.")], children=[]),
+                                content=[para("Tratti.")], children=[]),
                 ]),
                 HeadingNode(title="Umano", level=2, content=[], children=[
                     HeadingNode(title="Tratti degli umani", level=3,
-                                content=[_para("Tratti.")], children=[]),
+                                content=[para("Tratti.")], children=[]),
                 ]),
             ]),
         ]
