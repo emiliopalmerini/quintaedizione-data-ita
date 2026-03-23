@@ -2655,25 +2655,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Per 1 ora, una candela accesa proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  entro un raggio di 1,5 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri  1,5 metri."
+        "text": "Per 1 ora, una candela accesa proietta luce intensa  entro un raggio di 1,5 metri e luce fioca per altri  1,5 metri."
       }
     ]
   },
@@ -3213,25 +3195,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una lampada brucia olio per proiettare "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  in un raggio di 4,5 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori  9 metri."
+        "text": "Una lampada brucia olio per proiettare luce intensa  in un raggio di 4,5 metri e luce fioca per ulteriori  9 metri."
       }
     ]
   },
@@ -3244,25 +3208,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una lanterna a lente sporgente sfrutta l'olio come  combustibile per proiettare "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un cono  di 18 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori 18 metri."
+        "text": "Una lanterna a lente sporgente sfrutta l'olio come  combustibile per proiettare luce intensa in un cono  di 18 metri e luce fioca per ulteriori 18 metri."
       }
     ]
   },
@@ -3275,43 +3221,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una lanterna schermabile brucia olio per proiettare  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 9 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca  per ulteriori 9 metri. Come azione bonus, un personaggio può schermare la lanterna, riducendo la  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " proiettata a "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca in un raggio di 1,5 metri  o riaprirla."
+        "text": "Una lanterna schermabile brucia olio per proiettare  luce intensa in un raggio di 9 metri e luce fioca  per ulteriori 9 metri. Come azione bonus, un personaggio può schermare la lanterna, riducendo la  luce proiettata a luce fioca in un raggio di 1,5 metri  o riaprirla."
       }
     ]
   },
@@ -3333,16 +3243,7 @@
       },
       {
         "type": "text",
-        "text": " con la lente  ­d'ingrandimento è necessaria una "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " da concentrare intensa quanto quella del sole, dei rametti  da accendere e circa 5 minuti affinché il "
+        "text": " con la lente  ­d'ingrandimento è necessaria una luce da concentrare intensa quanto quella del sole, dei rametti  da accendere e circa 5 minuti affinché il "
       },
       {
         "type": "damage_type",
@@ -4037,16 +3938,7 @@
       },
       {
         "type": "text",
-        "text": " sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": ".\n\n**Simboli sacri**\n\n| "
+        "text": " sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno scudo.\n\n**Simboli sacri**\n\n| "
       },
       {
         "type": "spell",
@@ -4055,16 +3947,7 @@
       },
       {
         "type": "text",
-        "text": " |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Amuleto (indossato o tenuto in mano) | 0,5 kg |  |  | 5 mo |\n| Emblema (portato su un tessuto o uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": ") |  |  | — | 5 mo |\n| Reliquiario (tenuto in mano) |  | 1 kg |  | 5 mo |"
+        "text": " |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Amuleto (indossato o tenuto in mano) | 0,5 kg |  |  | 5 mo |\n| Emblema (portato su un tessuto o uno scudo) |  |  | — | 5 mo |\n| Reliquiario (tenuto in mano) |  | 1 kg |  | 5 mo |"
       }
     ]
   },
@@ -4090,16 +3973,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Uno specchio d'acciaio portatile è utile sia per  la cura della persona che per sbirciare dietro gli  angoli o riflettere la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " per mandare un segnale  a qualcuno."
+        "text": "Uno specchio d'acciaio portatile è utile sia per  la cura della persona che per sbirciare dietro gli  angoli o riflettere la luce per mandare un segnale  a qualcuno."
       }
     ]
   },
@@ -4205,25 +4079,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una torcia arde per 1 ora e proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  in un raggio di 6 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori  6 metri. Quando il personaggio effettua l'azione di  Attacco, può farlo con la torcia usandola come arma  da mischia semplice. Se il colpo va a segno, il bersaglio subisce 1 danno da "
+        "text": "Una torcia arde per 1 ora e proietta luce intensa  in un raggio di 6 metri e luce fioca per ulteriori  6 metri. Quando il personaggio effettua l'azione di  Attacco, può farlo con la torcia usandola come arma  da mischia semplice. Se il colpo va a segno, il bersaglio subisce 1 danno da "
       },
       {
         "type": "damage_type",

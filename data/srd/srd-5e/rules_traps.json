@@ -162,25 +162,7 @@
               },
               {
                 "type": "text",
-                "text": "* ha una probabilità di disinnescare  la maggior parte delle trappole magiche, nella  cui descrizione è fornita la CD della prova di  caratteristica da effettuare quando si usa questo  incantesimo.   Nella maggior parte dei casi, la descrizione di una  trappola è sufficientemente chiara da consentire al  GM di determinare se le azioni di un personaggio  riescono a individuare o far fallire la trappola. Come  in molte situazioni, i tiri dei dadi non dovrebbero  avere la precedenza sulle scelte di gioco intelligenti  e su una buona pianificazione. È sufficiente usare il  buon senso e basarsi sulla descrizione della trappola  per determinare cosa succede. Nessuna trappola,  per quanto ben progettata, può prevedere ogni  potenziale azione che i personaggi potrebbero  effettuare.   Il GM dovrebbe permettere a un personaggio di  scoprire la trappola senza effettuare una prova di  caratteristica se una sua azione è in grado rilevarne  chiaramente la presenza. Per esempio, se un  personaggio solleva un tappeto che nasconde una  piastra a pressione, trova l'innesco della trappola  senza bisogno di effettuare alcuna prova.   Provocare il fallimento della trappola può essere  più complicato. Si prenda l'esempio di un forziere  del tesoro protetto da una trappola. Se il forziere  viene aperto senza prima tirare le due maniglie sui  lati, un meccanismo all'interno scocca una raffica di  aghi avvelenati contro chiunque vi si trova davanti.  Dopo avere ispezionato il forziere e avere effettuato  alcune prove, i personaggi non sapranno ancora  dire con certezza se sia protetto da una trappola.  Invece di limitarsi ad aprire il forziere, potrebbero  posizionare uno "
-              },
-              {
-                "type": "spell",
-                "text": "scudo",
-                "id": "scudo"
-              },
-              {
-                "type": "text",
-                "text": " davanti a esso e poi aprire il  forziere da una certa distanza con una verga di ferro.  In questo caso, la trappola si innesca comunque,  ma la raffica di aghi colpisce lo "
-              },
-              {
-                "type": "spell",
-                "text": "scudo",
-                "id": "scudo"
-              },
-              {
-                "type": "text",
-                "text": " senza  provocare danni.   Le trappole sono spesso progettate con  meccanismi che consentono di disattivarle  o oltrepassarle. I mostri intelligenti che collocano  trappole intorno e all'interno della loro tana  necessitano di un modo per oltrepassarle senza  subire danni. Le trappole di questo tipo potrebbero  essere dotate di una leva nascosta che le disinnesca  o potrebbe esistere una porta segreta che nasconde  un passaggio per aggirarle."
+                "text": "* ha una probabilità di disinnescare  la maggior parte delle trappole magiche, nella  cui descrizione è fornita la CD della prova di  caratteristica da effettuare quando si usa questo  incantesimo.   Nella maggior parte dei casi, la descrizione di una  trappola è sufficientemente chiara da consentire al  GM di determinare se le azioni di un personaggio  riescono a individuare o far fallire la trappola. Come  in molte situazioni, i tiri dei dadi non dovrebbero  avere la precedenza sulle scelte di gioco intelligenti  e su una buona pianificazione. È sufficiente usare il  buon senso e basarsi sulla descrizione della trappola  per determinare cosa succede. Nessuna trappola,  per quanto ben progettata, può prevedere ogni  potenziale azione che i personaggi potrebbero  effettuare.   Il GM dovrebbe permettere a un personaggio di  scoprire la trappola senza effettuare una prova di  caratteristica se una sua azione è in grado rilevarne  chiaramente la presenza. Per esempio, se un  personaggio solleva un tappeto che nasconde una  piastra a pressione, trova l'innesco della trappola  senza bisogno di effettuare alcuna prova.   Provocare il fallimento della trappola può essere  più complicato. Si prenda l'esempio di un forziere  del tesoro protetto da una trappola. Se il forziere  viene aperto senza prima tirare le due maniglie sui  lati, un meccanismo all'interno scocca una raffica di  aghi avvelenati contro chiunque vi si trova davanti.  Dopo avere ispezionato il forziere e avere effettuato  alcune prove, i personaggi non sapranno ancora  dire con certezza se sia protetto da una trappola.  Invece di limitarsi ad aprire il forziere, potrebbero  posizionare uno scudo davanti a esso e poi aprire il  forziere da una certa distanza con una verga di ferro.  In questo caso, la trappola si innesca comunque,  ma la raffica di aghi colpisce lo scudo senza  provocare danni.   Le trappole sono spesso progettate con  meccanismi che consentono di disattivarle  o oltrepassarle. I mostri intelligenti che collocano  trappole intorno e all'interno della loro tana  necessitano di un modo per oltrepassarle senza  subire danni. Le trappole di questo tipo potrebbero  essere dotate di una leva nascosta che le disinnesca  o potrebbe esistere una porta segreta che nasconde  un passaggio per aggirarle."
               }
             ],
             "children": []
@@ -622,16 +604,7 @@
               },
               {
                 "type": "text",
-                "text": " magica e impenetrabile riempie la bocca  spalancata di un volto di pietra scolpito sulla parete.  La bocca ha un diametro di 60 cm ed è pressoché  circolare, non emette alcun suono e nessuna "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": "  può illuminarne l'interno; inoltre, qualsiasi materia  vi finisca dentro viene istantaneamente annientata.   Superare una prova di "
+                "text": " magica e impenetrabile riempie la bocca  spalancata di un volto di pietra scolpito sulla parete.  La bocca ha un diametro di 60 cm ed è pressoché  circolare, non emette alcun suono e nessuna luce  può illuminarne l'interno; inoltre, qualsiasi materia  vi finisca dentro viene istantaneamente annientata.   Superare una prova di "
               },
               {
                 "type": "ability",

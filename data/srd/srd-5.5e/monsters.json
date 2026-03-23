@@ -1141,25 +1141,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'azer emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in un raggio  di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 3 metri."
+            "text": "L'azer emana luce intensa in un raggio  di 3 metri e luce fioca per altri 3 metri."
           }
         ]
       }
@@ -3306,16 +3288,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il cavallo degli incubi  può conferire "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da "
+            "text": "Il cavallo degli incubi  può conferire resistenza ai danni da "
           },
           {
             "type": "damage_type",
@@ -3333,25 +3306,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il cavallo degli incubi emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  intensa in un raggio di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri  3 metri."
+            "text": "Il cavallo degli incubi emana luce  intensa in un raggio di 3 metri e luce fioca per altri  3 metri."
           }
         ]
       }
@@ -4019,16 +3974,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  il coboldo subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
+            "text": "Finché è esposto alla luce del sole,  il coboldo subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
           }
         ]
       },
@@ -4299,16 +4245,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il couatl "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, senza bisogno di componenti, utilizzando  "
+            "text": "Il couatl lancia uno dei seguenti incantesimi, senza bisogno di componenti, utilizzando  "
           },
           {
             "type": "ability",
@@ -4445,16 +4382,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il couatl "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il couatl lancia *"
           },
           {
             "type": "spell",
@@ -4886,16 +4814,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il cultista "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, utilizzando "
+            "text": "Il cultista lancia uno dei seguenti incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -4951,16 +4870,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il cultista "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo *"
+            "text": "Il cultista lancia l'incantesimo *"
           },
           {
             "type": "spell",
@@ -5299,16 +5209,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il deva "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il deva lancia uno dei seguenti incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -5373,16 +5274,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il deva "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il deva lancia *"
           },
           {
             "type": "spell",
@@ -5879,16 +5771,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il diavolo effettua tre attacchi "
-          },
-          {
-            "type": "equipment",
-            "text": "Lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  di ghiaccio. Può sostituire un attacco con un attacco  Coda."
+            "text": "Il diavolo effettua tre attacchi Lancia  di ghiaccio. Può sostituire un attacco con un attacco  Coda."
           }
         ]
       },
@@ -5933,16 +5816,7 @@
           },
           {
             "type": "text",
-            "text": " è ridotta di 3 metri e durante  il suo turno può muoversi o effettuare un'azione, ma  non entrambe le cose. *Colpito o mancato:* la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  fa magicamente ritorno nella mano del diavolo subito  dopo un attacco a distanza."
+            "text": " è ridotta di 3 metri e durante  il suo turno può muoversi o effettuare un'azione, ma  non entrambe le cose. *Colpito o mancato:* la lancia  fa magicamente ritorno nella mano del diavolo subito  dopo un attacco a distanza."
           }
         ]
       },
@@ -5951,16 +5825,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il diavolo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *muro di* *ghiaccio* (di 8º livello), senza bisogno di componenti  e utilizzando "
+            "text": "Il diavolo lancia *muro di* *ghiaccio* (di 8º livello), senza bisogno di componenti  e utilizzando "
           },
           {
             "type": "ability",
@@ -6221,16 +6086,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il  diavolo della fossa "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il  diavolo della fossa lancia *"
           },
           {
             "type": "spell",
@@ -6910,25 +6766,7 @@
           },
           {
             "type": "text",
-            "text": "*. Se il djinni lo conosce,  può lanciarlo solo per conto di una creatura diversa da  un genio che comunica un "
-          },
-          {
-            "type": "spell",
-            "text": "desiderio",
-            "id": "desiderio"
-          },
-          {
-            "type": "text",
-            "text": " in un modo che  il djinni è in grado di comprendere. Se il djinni "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  l'incantesimo per conto della creatura, non subisce  alcuna conseguenza derivante dal lancio dell'incantesimo. Una volta che il djinni l'ha lanciato tre volte, non  può farlo di nuovo per 365 giorni."
+            "text": "*. Se il djinni lo conosce,  può lanciarlo solo per conto di una creatura diversa da  un genio che comunica un desiderio in un modo che  il djinni è in grado di comprendere. Se il djinni lancia  l'incantesimo per conto della creatura, non subisce  alcuna conseguenza derivante dal lancio dell'incantesimo. Una volta che il djinni l'ha lanciato tre volte, non  può farlo di nuovo per 365 giorni."
           }
         ]
       },
@@ -7074,16 +6912,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il djinni "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il djinni lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -7255,16 +7084,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il doppelganger "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *indivi**duazione dei pensieri* senza bisogno di componenti,  utilizzando "
+            "text": "Il doppelganger lancia *indivi**duazione dei pensieri* senza bisogno di componenti,  utilizzando "
           },
           {
             "type": "ability",
@@ -7808,16 +7628,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": " lancia *"
           },
           {
             "type": "spell",
@@ -8094,16 +7905,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": " lancia *"
           },
           {
             "type": "spell",
@@ -8539,16 +8341,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -8870,16 +8663,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -9472,16 +9256,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -9848,16 +9623,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -10596,16 +10362,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -10999,16 +10756,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -11655,16 +11403,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -12013,16 +11752,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -12725,16 +12455,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -13146,16 +12867,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -13625,16 +13337,7 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire due attacchi con un utilizzo di Soffio di  "
-          },
-          {
-            "type": "spell",
-            "text": "sonno",
-            "id": "sonno"
-          },
-          {
-            "type": "text",
-            "text": "."
+            "text": " effettua tre attacchi Squarcio.  Può sostituire due attacchi con un utilizzo di Soffio di  sonno."
           }
         ]
       },
@@ -13802,16 +13505,7 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio di  "
-          },
-          {
-            "type": "spell",
-            "text": "sonno",
-            "id": "sonno"
-          },
-          {
-            "type": "text",
-            "text": " o (B) Incantesimi per lanciare *"
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio di  sonno o (B) Incantesimi per lanciare *"
           },
           {
             "type": "spell",
@@ -13856,16 +13550,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -14214,16 +13899,7 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio di  "
-          },
-          {
-            "type": "spell",
-            "text": "sonno",
-            "id": "sonno"
-          },
-          {
-            "type": "text",
-            "text": " o (B) Incantesimi per lanciare *"
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio di  sonno o (B) Incantesimi per lanciare *"
           },
           {
             "type": "spell",
@@ -14268,16 +13944,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -14971,16 +14638,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -15320,16 +14978,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -15895,16 +15544,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -16208,16 +15848,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -16830,16 +16461,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -17149,16 +16771,7 @@
           },
           {
             "type": "text",
-            "text": " "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": " lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -17554,16 +17167,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La driade "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "La driade lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -17617,16 +17221,7 @@
           },
           {
             "type": "text",
-            "text": " (dura 24 ore; termina in anticipo se* *la driade "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " nuovamente l'incantesimo)*"
+            "text": " (dura 24 ore; termina in anticipo se* *la driade lancia nuovamente l'incantesimo)*"
           }
         ]
       }
@@ -17724,16 +17319,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  il drider subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
+            "text": "Finché è esposto alla luce del sole,  il drider subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
           }
         ]
       }
@@ -17791,16 +17377,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il drider "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il drider lancia *"
           },
           {
             "type": "spell",
@@ -17933,16 +17510,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il druido "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, utilizzando "
+            "text": "Il druido lancia uno dei seguenti incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -18077,25 +17645,7 @@
           },
           {
             "type": "text",
-            "text": "*. Se l'efreeti lo conosce,  può lanciarlo solo per conto di una creatura diversa da  un genio che comunica un "
-          },
-          {
-            "type": "spell",
-            "text": "desiderio",
-            "id": "desiderio"
-          },
-          {
-            "type": "text",
-            "text": " in un modo che  l'efreeti è in grado di comprendere. Se l'efreeti "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  l'incantesimo per conto della creatura, non subisce  alcuna conseguenza derivante dal lancio dell'incantesimo. Una volta che l'efreeti l'ha lanciato tre volte, non  può farlo di nuovo per 365 giorni."
+            "text": "*. Se l'efreeti lo conosce,  può lanciarlo solo per conto di una creatura diversa da  un genio che comunica un desiderio in un modo che  l'efreeti è in grado di comprendere. Se l'efreeti lancia  l'incantesimo per conto della creatura, non subisce  alcuna conseguenza derivante dal lancio dell'incantesimo. Una volta che l'efreeti l'ha lanciato tre volte, non  può farlo di nuovo per 365 giorni."
           }
         ]
       },
@@ -18205,16 +17755,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'efreeti "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "L'efreeti lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -18518,25 +18059,7 @@
           },
           {
             "type": "text",
-            "text": " emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in  un raggio di 9 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 9 metri."
+            "text": " emana luce intensa in  un raggio di 9 metri e luce fioca per altri 9 metri."
           }
         ]
       },
@@ -20275,16 +19798,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il fantasma "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo *forma* *eterea*, senza bisogno di componenti, utilizzando  "
+            "text": "Il fantasma lancia l'incantesimo *forma* *eterea*, senza bisogno di componenti, utilizzando  "
           },
           {
             "type": "ability",
@@ -20621,16 +20135,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Attivazione:* una creatura o una fonte di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  intensa si muove entro 9 metri dal boleto stridente.  *Esito:* il boleto stridente emette uno stridio udibile fino  a 90 metri da sé per 1 minuto o finché il boleto non  muore."
+            "text": "*Attivazione:* una creatura o una fonte di luce  intensa si muove entro 9 metri dal boleto stridente.  *Esito:* il boleto stridente emette uno stridio udibile fino  a 90 metri da sé per 1 minuto o finché il boleto non  muore."
           }
         ]
       }
@@ -20955,25 +20460,7 @@
           },
           {
             "type": "text",
-            "text": " fatuo emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in  un raggio di 6 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 6 metri."
+            "text": " fatuo emana luce intensa in  un raggio di 6 metri e luce fioca per altri 6 metri."
           }
         ]
       },
@@ -21076,16 +20563,7 @@
           },
           {
             "type": "text",
-            "text": " fatuo e la "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " che emana sono  invisibili finché la sua concentrazione non termina su  tale effetto; l'effetto cessa immediatamente dopo che il  "
+            "text": " fatuo e la luce che emana sono  invisibili finché la sua concentrazione non termina su  tale effetto; l'effetto cessa immediatamente dopo che il  "
           },
           {
             "type": "damage_type",
@@ -22096,16 +21574,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il gigante "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il gigante lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -22170,16 +21639,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il gigante "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo *passo* *velato*, utilizzando la stessa caratteristica da incantatore  di Incantesimi."
+            "text": "Il gigante lancia l'incantesimo *passo* *velato*, utilizzando la stessa caratteristica da incantatore  di Incantesimi."
           }
         ]
       }
@@ -22469,16 +21929,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il gigante "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il gigante lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -22685,16 +22136,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il glabrezu "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi senza bisogno di componenti materiali, utilizzando "
+            "text": "Il glabrezu lancia uno dei seguenti  incantesimi senza bisogno di componenti materiali, utilizzando "
           },
           {
             "type": "ability",
@@ -22828,25 +22270,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il gladiatore effettua tre attacchi "
-          },
-          {
-            "type": "equipment",
-            "text": "Lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": ".  Può sostituire un attacco con un utilizzo di "
-          },
-          {
-            "type": "spell",
-            "text": "Scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": " da  sfondamento."
+            "text": "Il gladiatore effettua tre attacchi Lancia.  Può sostituire un attacco con un utilizzo di Scudo da  sfondamento."
           }
         ]
       },
@@ -24156,16 +23580,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il golem "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo  *"
+            "text": "Il golem lancia l'incantesimo  *"
           },
           {
             "type": "spell",
@@ -25941,16 +25356,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'incubo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "L'incubo lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -26521,16 +25927,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lamia "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il lamia lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -26963,16 +26360,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lich "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi,  utilizzando "
+            "text": "Il lich lancia uno dei seguenti incantesimi,  utilizzando "
           },
           {
             "type": "ability",
@@ -27119,16 +26507,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lich "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il lich lancia *"
           },
           {
             "type": "spell",
@@ -27184,16 +26563,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lich "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il lich lancia *"
           },
           {
             "type": "spell",
@@ -27574,16 +26944,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, utilizzando "
+            "text": "Il mago lancia uno dei seguenti incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -27666,16 +27027,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il mago lancia *"
           },
           {
             "type": "spell",
@@ -27695,16 +27047,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  *"
+            "text": "Il mago lancia  *"
           },
           {
             "type": "spell",
@@ -27844,16 +27187,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'arcimago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, utilizzando "
+            "text": "L'arcimago lancia uno dei seguenti incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -27972,16 +27306,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il mago lancia *"
           },
           {
             "type": "spell",
@@ -28001,16 +27326,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'arcimago "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  *"
+            "text": "L'arcimago lancia  *"
           },
           {
             "type": "spell",
@@ -28151,25 +27467,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il magmin si incendia  o estingue le sue fiamme. Finché è in fiamme, proietta  "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in un raggio di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri  3 metri."
+            "text": "Il magmin si incendia  o estingue le sue fiamme. Finché è in fiamme, proietta  luce intensa in un raggio di 3 metri e luce fioca per altri  3 metri."
           }
         ]
       }
@@ -28315,16 +27613,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa,  il manto assassino subisce svantaggio ai tiri per colpire."
+            "text": "Finché è esposto alla luce intensa,  il manto assassino subisce svantaggio ai tiri per colpire."
           }
         ]
       }
@@ -28391,16 +27680,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il manto assassino "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo *immagine* *speculare* senza bisogno di componenti, utilizzando  "
+            "text": "Il manto assassino lancia l'incantesimo *immagine* *speculare* senza bisogno di componenti, utilizzando  "
           },
           {
             "type": "ability",
@@ -28409,16 +27689,7 @@
           },
           {
             "type": "text",
-            "text": " come caratteristica da incantatore. L'incantesimo termina in anticipo se il manto assassino inizia  o termina il proprio turno mentre è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  intensa."
+            "text": " come caratteristica da incantatore. L'incantesimo termina in anticipo se il manto assassino inizia  o termina il proprio turno mentre è esposto alla luce  intensa."
           }
         ]
       },
@@ -28578,16 +27849,7 @@
           },
           {
             "type": "text",
-            "text": " non può penetrare in  quest'area e nessuna "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " può illuminarla."
+            "text": " non può penetrare in  quest'area e nessuna luce può illuminarla."
           }
         ]
       }
@@ -28868,16 +28130,7 @@
           },
           {
             "type": "text",
-            "text": " è ridotta  di 3 metri fino al termine del proprio turno successivo.  *Colpito o mancato:* la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " fa magicamente ritorno  nella mano del marinide subito dopo un attacco a  distanza."
+            "text": " è ridotta  di 3 metri fino al termine del proprio turno successivo.  *Colpito o mancato:* la lancia fa magicamente ritorno  nella mano del marinide subito dopo un attacco a  distanza."
           }
         ]
       }
@@ -29237,16 +28490,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La megera "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *camuffare se* *stesso*, utilizzando "
+            "text": "La megera lancia *camuffare se* *stesso*, utilizzando "
           },
           {
             "type": "ability",
@@ -29346,16 +28590,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La megera ha una borsa dell'anima.  Finché impugna o trasporta la borsa, può usarne  ­l'azione Infestare incubi. La borsa ha CA 15, 20 PF e "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " a tutti i danni,  e si trasforma in polvere se ridotta a 0 punti ferita.  Se la borsa viene distrutta, qualsiasi anima al suo  interno viene liberata. La megera può creare una nuova  borsa dopo 7 giorni."
+            "text": "La megera ha una borsa dell'anima.  Finché impugna o trasporta la borsa, può usarne  ­l'azione Infestare incubi. La borsa ha CA 15, 20 PF e resistenza a tutti i danni,  e si trasforma in polvere se ridotta a 0 punti ferita.  Se la borsa viene distrutta, qualsiasi anima al suo  interno viene liberata. La megera può creare una nuova  borsa dopo 7 giorni."
           }
         ]
       },
@@ -29465,16 +28700,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La megera "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi senza bisogno di componenti materiali, utilizzando "
+            "text": "La megera lancia uno dei seguenti  incantesimi senza bisogno di componenti materiali, utilizzando "
           },
           {
             "type": "ability",
@@ -29528,16 +28754,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché si trova sul Piano Etereo, la megera "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "  *"
+            "text": "Finché si trova sul Piano Etereo, la megera lancia  *"
           },
           {
             "type": "spell",
@@ -29781,16 +28998,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La megera "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "La megera lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -30196,16 +29404,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mephit "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *nube di* *nebbia* senza bisogno di componenti, utilizzando  "
+            "text": "Il mephit lancia *nube di* *nebbia* senza bisogno di componenti, utilizzando  "
           },
           {
             "type": "ability",
@@ -30552,16 +29751,7 @@
           },
           {
             "type": "text",
-            "text": " del  bersaglio è ridotta di 3 metri fino al termine del turno  successivo del mephit. *Successo:* danni dimezzati. *Fal**limento o successo:* trovarsi sott'acqua non conferisce  alcuna "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " contro questi danni da "
+            "text": " del  bersaglio è ridotta di 3 metri fino al termine del turno  successivo del mephit. *Successo:* danni dimezzati. *Fal**limento o successo:* trovarsi sott'acqua non conferisce  alcuna resistenza contro questi danni da "
           },
           {
             "type": "damage_type",
@@ -30703,16 +29893,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il mephit "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il mephit lancia *"
           },
           {
             "type": "spell",
@@ -31554,16 +30735,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il signore delle mummie "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei  seguenti incantesimi, senza bisogno di componenti  materiali, utilizzando "
+            "text": "Il signore delle mummie lancia uno dei  seguenti incantesimi, senza bisogno di componenti  materiali, utilizzando "
           },
           {
             "type": "ability",
@@ -31667,16 +30839,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La mummia "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "La mummia lancia *"
           },
           {
             "type": "spell",
@@ -31838,16 +31001,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La naga "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, senza bisogno di componenti somatiche o  materiali, utilizzando "
+            "text": "La naga lancia uno dei seguenti incantesimi, senza bisogno di componenti somatiche o  materiali, utilizzando "
           },
           {
             "type": "ability",
@@ -32084,16 +31238,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La naga "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, senza bisogno di componenti somatiche o  materiali, utilizzando "
+            "text": "La naga lancia uno dei seguenti incantesimi, senza bisogno di componenti somatiche o  materiali, utilizzando "
           },
           {
             "type": "ability",
@@ -33106,16 +32251,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposta alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  l'ombra subisce svantaggio alle prove con d20."
+            "text": "Finché è esposta alla luce del sole,  l'ombra subisce svantaggio alle prove con d20."
           }
         ]
       }
@@ -33155,16 +32291,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché si trova in condizioni di  "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca o "
+            "text": "Finché si trova in condizioni di  luce fioca o "
           },
           {
             "type": "spell",
@@ -33433,16 +32560,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'oni "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi,  senza bisogno di componenti materiali, utilizzando  "
+            "text": "L'oni lancia uno dei seguenti incantesimi,  senza bisogno di componenti materiali, utilizzando  "
           },
           {
             "type": "ability",
@@ -33516,16 +32634,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'oni "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "L'oni lancia *"
           },
           {
             "type": "spell",
@@ -34370,16 +33479,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il planetar "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il planetar lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -34435,16 +33535,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il planetar "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il planetar lancia *"
           },
           {
             "type": "spell",
@@ -35372,16 +34463,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il rakshasa "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali  e ­utilizzando "
+            "text": "Il rakshasa lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali  e ­utilizzando "
           },
           {
             "type": "ability",
@@ -36009,16 +35091,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, utilizzando "
+            "text": "Il sacerdote lancia uno dei seguenti  incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -36056,16 +35129,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *benedi**zione*, *"
+            "text": "Il sacerdote lancia *benedi**zione*, *"
           },
           {
             "type": "spell",
@@ -36180,16 +35244,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, utilizzando "
+            "text": "Il sacerdote lancia uno dei seguenti incantesimi, utilizzando "
           },
           {
             "type": "ability",
@@ -36236,16 +35291,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *bene**dizione*, *"
+            "text": "Il sacerdote lancia *bene**dizione*, *"
           },
           {
             "type": "spell",
@@ -36482,16 +35528,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La salamandra effettua due attacchi "
-          },
-          {
-            "type": "equipment",
-            "text": "Lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " di "
+            "text": "La salamandra effettua due attacchi Lancia di "
           },
           {
             "type": "damage_type",
@@ -36518,16 +35555,7 @@
           },
           {
             "type": "text",
-            "text": ". *Colpito o mancato:* la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " torna magicamente  tra le mani della salamandra subito dopo un attacco  a distanza."
+            "text": ". *Colpito o mancato:* la lancia torna magicamente  tra le mani della salamandra subito dopo un attacco  a distanza."
           }
         ]
       },
@@ -37323,16 +36351,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La sfinge "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi senza bisogno di componenti materiali, utilizzando  "
+            "text": "La sfinge lancia uno dei seguenti incantesimi senza bisogno di componenti materiali, utilizzando  "
           },
           {
             "type": "ability",
@@ -37621,16 +36640,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La sfinge "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "La sfinge lancia uno dei seguenti  incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -37958,16 +36968,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il solar "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi, senza bisogno di componenti materiali,  utilizzando "
+            "text": "Il solar lancia uno dei seguenti incantesimi, senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -38023,16 +37024,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il solar "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il solar lancia *"
           },
           {
             "type": "spell",
@@ -38336,16 +37328,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  lo spettro subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
+            "text": "Finché è esposto alla luce del sole,  lo spettro subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
           }
         ]
       }
@@ -38739,16 +37722,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La succube "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "La succube lancia *"
           },
           {
             "type": "spell",
@@ -39288,16 +38262,7 @@
           },
           {
             "type": "text",
-            "text": ". Trovarsi sott'acqua non conferisce  alcuna "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " contro questi danni da "
+            "text": ". Trovarsi sott'acqua non conferisce  alcuna resistenza contro questi danni da "
           },
           {
             "type": "damage_type",
@@ -39324,16 +38289,7 @@
           },
           {
             "type": "text",
-            "text": ". *Successo:* danni  dimezzati. *Fallimento o successo:* trovarsi sott'acqua  non conferisce alcuna "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " contro questi danni  da "
+            "text": ". *Successo:* danni  dimezzati. *Fallimento o successo:* trovarsi sott'acqua  non conferisce alcuna resistenza contro questi danni  da "
           },
           {
             "type": "damage_type",
@@ -40215,16 +39171,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'unicorno "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti  incantesimi senza bisogno di componenti materiali,  utilizzando "
+            "text": "L'unicorno lancia uno dei seguenti  incantesimi senza bisogno di componenti materiali,  utilizzando "
           },
           {
             "type": "ability",
@@ -40280,16 +39227,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'unicorno tocca  un'altra creatura col suo corno e "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "L'unicorno tocca  un'altra creatura col suo corno e lancia *"
           },
           {
             "type": "spell",
@@ -40553,34 +39491,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il vampiro ha le seguenti  debolezze: "
-          },
-          {
-            "type": "spell",
-            "text": "Luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole. Il vampiro subisce 20 danni radiosi  quando inizia il suo turno alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole. Finché è  esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole, subisce svantaggio a tiri per  colpire e prove di caratteristica."
+            "text": "Il vampiro ha le seguenti  debolezze: Luce del sole. Il vampiro subisce 20 danni radiosi  quando inizia il suo turno alla luce del sole. Finché è  esposto alla luce del sole, subisce svantaggio a tiri per  colpire e prove di caratteristica."
           }
         ]
       },
@@ -40749,34 +39660,7 @@
           },
           {
             "type": "text",
-            "text": " finché non recupera un  qualsiasi numero di punti ferita; recupera 1 punto ferita  una volta trascorsa 1 ora in questo stato. "
-          },
-          {
-            "type": "spell",
-            "text": "Luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole. Il vampiro subisce 20 danni radiosi  quando inizia il suo turno alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole. Finché è  esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole, subisce svantaggio a tiri per  colpire e prove di caratteristica."
+            "text": " finché non recupera un  qualsiasi numero di punti ferita; recupera 1 punto ferita  una volta trascorsa 1 ora in questo stato. Luce del sole. Il vampiro subisce 20 danni radiosi  quando inizia il suo turno alla luce del sole. Finché è  esposto alla luce del sole, subisce svantaggio a tiri per  colpire e prove di caratteristica."
           }
         ]
       },
@@ -40888,16 +39772,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il vampiro "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *charme su* *persone*, senza bisogno di componenti e utilizzando  "
+            "text": "Il vampiro lancia *charme su* *persone*, senza bisogno di componenti e utilizzando  "
           },
           {
             "type": "ability",
@@ -40933,16 +39808,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Se il vampiro non è alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole o in  acqua corrente, si trasforma in un pipistrello di taglia  Minuscola ("
+            "text": "Se il vampiro non è alla luce del sole o in  acqua corrente, si trasforma in un pipistrello di taglia  Minuscola ("
           },
           {
             "type": "spell",
@@ -40978,16 +39844,7 @@
           },
           {
             "type": "text",
-            "text": ", non cambiano. Finché è in forma di nebbia, il vampiro non può effettuare alcuna azione, né parlare o manipolare oggetti.  Non ha peso e può entrare nello spazio di un nemico  e fermarvisi. Inoltre, se l'aria può passare attraverso uno  spazio, anche la nebbia può farlo, ma non può attraversare l'acqua. È resistente a tutti i danni, eccetto quelli  subiti dalla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole."
+            "text": ", non cambiano. Finché è in forma di nebbia, il vampiro non può effettuare alcuna azione, né parlare o manipolare oggetti.  Non ha peso e può entrare nello spazio di un nemico  e fermarvisi. Inoltre, se l'aria può passare attraverso uno  spazio, anche la nebbia può farlo, ma non può attraversare l'acqua. È resistente a tutti i danni, eccetto quelli  subiti dalla luce del sole."
           }
         ]
       }
@@ -41017,16 +39874,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il vampiro "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "Il vampiro lancia *"
           },
           {
             "type": "spell",
@@ -41755,16 +40603,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  il wight subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
+            "text": "Finché è esposto alla luce del sole,  il wight subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
           }
         ]
       }
@@ -42114,16 +40953,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,  il wraith subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
+            "text": "Finché è esposto alla luce del sole,  il wraith subisce svantaggio alle prove di caratteristica  e ai tiri per colpire."
           }
         ]
       }
@@ -45977,16 +44807,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il gufo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei seguenti incantesimi,  senza bisogno di componenti, utilizzando "
+            "text": "Il gufo lancia uno dei seguenti incantesimi,  senza bisogno di componenti, utilizzando "
           },
           {
             "type": "ability",
@@ -48923,25 +47744,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Lo scarabeo proietta "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in  un raggio di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 3 metri."
+            "text": "Lo scarabeo proietta luce intensa in  un raggio di 3 metri e luce fioca per altri 3 metri."
           }
         ]
       }

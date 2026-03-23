@@ -646,16 +646,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " nello spazio dedicato all'iniziativa sulla  scheda del personaggio. _**Classe Armatura.**_ Senza armatura o "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "scudo",
-                    "id": "scudo"
-                  },
-                  {
-                    "type": "text",
-                    "text": ", la  Classe Armatura base è pari a 10 più il modificatore  di "
+                    "text": " nello spazio dedicato all'iniziativa sulla  scheda del personaggio. _**Classe Armatura.**_ Senza armatura o scudo, la  Classe Armatura base è pari a 10 più il modificatore  di "
                   },
                   {
                     "type": "ability",
@@ -664,16 +655,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ". Se l'equipaggiamento di partenza  comprende un'armatura o uno "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "scudo",
-                    "id": "scudo"
-                  },
-                  {
-                    "type": "text",
-                    "text": " (o entrambi),  calcola la CA utilizzando le regole del capitolo \"Equipaggiamento\". Alcuni privilegi di classe potrebbero  offrire un modo diverso per calcolare la CA. _**Attacchi.**_ Nella sezione Armi e trucchetti da combattimento della scheda del personaggio, annota  le armi di partenza. Il bonus al tiro per colpire di  un'arma in cui si ha competenza è uno dei seguenti,  a meno che l'arma non abbia una proprietà che  indichi diversamente:\n\nBonus di attacco in mischia = il modificatore di\n\n­"
+                    "text": ". Se l'equipaggiamento di partenza  comprende un'armatura o uno scudo (o entrambi),  calcola la CA utilizzando le regole del capitolo \"Equipaggiamento\". Alcuni privilegi di classe potrebbero  offrire un modo diverso per calcolare la CA. _**Attacchi.**_ Nella sezione Armi e trucchetti da combattimento della scheda del personaggio, annota  le armi di partenza. Il bonus al tiro per colpire di  un'arma in cui si ha competenza è uno dei seguenti,  a meno che l'arma non abbia una proprietà che  indichi diversamente:\n\nBonus di attacco in mischia = il modificatore di\n\n­"
                   },
                   {
                     "type": "damage_type",
@@ -869,16 +851,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Il GM decide se il personaggio inizia con un equipaggiamento superiore a quello standard per un personaggio di 1º livello, eventualmente anche con uno  o più oggetti magici. La tabella Equipaggiamento di  partenza a livelli superiori funge da "
-              },
-              {
-                "type": "spell",
-                "text": "guida",
-                "id": "guida"
-              },
-              {
-                "type": "text",
-                "text": " per il GM. Puoi anche verificare con il GM quale equipaggiamento puoi comprare con il tuo denaro iniziale.  Ad esempio, le armi da "
+                "text": "Il GM decide se il personaggio inizia con un equipaggiamento superiore a quello standard per un personaggio di 1º livello, eventualmente anche con uno  o più oggetti magici. La tabella Equipaggiamento di  partenza a livelli superiori funge da guida per il GM. Puoi anche verificare con il GM quale equipaggiamento puoi comprare con il tuo denaro iniziale.  Ad esempio, le armi da "
               },
               {
                 "type": "damage_type",
@@ -1042,16 +1015,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Le capacità da incantatore del personaggio dipendono in parte dai suoi livelli combinati in tutte le  sue classi da incantatore e in parte dai suoi livelli  individuali in quelle classi. Una volta ottenuto  il privilegio Incantesimi da più di una classe, il personaggio usa le regole sottostanti. Se un personaggio multiclasse possiede il privilegio Incantesimi  soltanto da una classe, segue le regole descritte in  quella classe. _**Incantesimi preparati.**_ Il personaggio determina  gli incantesimi che può preparare per ogni classe  separatamente, come se fosse un membro monoclasse appartenente a quella classe. Per esempio,  un personaggio multiclasse ranger 4/stregone 3 può  preparare cinque incantesimi da ranger di 1º livello  e sei incantesimi da stregone di 1º o 2º livello (oltre  a quattro trucchetti da stregone).  Ogni incantesimo che il personaggio prepara è  associato a una delle sue classi; il personaggio userà  la caratteristica da incantatore di quella classe  quando "
-                  },
-                  {
-                    "type": "equipment",
-                    "text": "lancia",
-                    "id": "lancia"
-                  },
-                  {
-                    "type": "text",
-                    "text": " l'incantesimo. _**Trucchetti.**_ Se un trucchetto aumenta di potenza  a livelli superiori, l'incremento si basa sul livello  totale del personaggio, non sul livello in una classe  particolare, a meno che l'incantesimo non indichi  diversamente. _**Slot incantesimo.**_Per determinare gli slot incantesimo disponibili, il personaggio somma i seguenti  valori: •\tTutti i suoi livelli nelle classi del bardo, chierico,  druido, stregone e mago •\tMetà dei suoi livelli (arrotondati per eccesso)  nelle classi del paladino e del ranger Cercherà poi questo totale nella colonna Livello  della tabella Incantatore multiclasse. Il personaggio  utilizza gli slot di quel livello per lanciare incantesimi del livello appropriato da qualsiasi classe di cui  possiede il privilegio Incantesimi. Questa tabella potrebbe fornire al personaggio  slot incantesimo di livello superiore a quello degli  incantesimi preparati. Può usare quegli slot, ma  soltanto per lanciare i suoi incantesimi di livello  inferiore. Se un incantesimo di livello inferiore da  lui lanciato, come *"
+                    "text": "Le capacità da incantatore del personaggio dipendono in parte dai suoi livelli combinati in tutte le  sue classi da incantatore e in parte dai suoi livelli  individuali in quelle classi. Una volta ottenuto  il privilegio Incantesimi da più di una classe, il personaggio usa le regole sottostanti. Se un personaggio multiclasse possiede il privilegio Incantesimi  soltanto da una classe, segue le regole descritte in  quella classe. _**Incantesimi preparati.**_ Il personaggio determina  gli incantesimi che può preparare per ogni classe  separatamente, come se fosse un membro monoclasse appartenente a quella classe. Per esempio,  un personaggio multiclasse ranger 4/stregone 3 può  preparare cinque incantesimi da ranger di 1º livello  e sei incantesimi da stregone di 1º o 2º livello (oltre  a quattro trucchetti da stregone).  Ogni incantesimo che il personaggio prepara è  associato a una delle sue classi; il personaggio userà  la caratteristica da incantatore di quella classe  quando lancia l'incantesimo. _**Trucchetti.**_ Se un trucchetto aumenta di potenza  a livelli superiori, l'incremento si basa sul livello  totale del personaggio, non sul livello in una classe  particolare, a meno che l'incantesimo non indichi  diversamente. _**Slot incantesimo.**_Per determinare gli slot incantesimo disponibili, il personaggio somma i seguenti  valori: •\tTutti i suoi livelli nelle classi del bardo, chierico,  druido, stregone e mago •\tMetà dei suoi livelli (arrotondati per eccesso)  nelle classi del paladino e del ranger Cercherà poi questo totale nella colonna Livello  della tabella Incantatore multiclasse. Il personaggio  utilizza gli slot di quel livello per lanciare incantesimi del livello appropriato da qualsiasi classe di cui  possiede il privilegio Incantesimi. Questa tabella potrebbe fornire al personaggio  slot incantesimo di livello superiore a quello degli  incantesimi preparati. Può usare quegli slot, ma  soltanto per lanciare i suoi incantesimi di livello  inferiore. Se un incantesimo di livello inferiore da  lui lanciato, come *"
                   },
                   {
                     "type": "spell",
@@ -1165,16 +1129,7 @@
           },
           {
             "type": "text",
-            "text": " che pende da una collana Un pezzo di stoffa ripiegato che, una volta |\n| 55 | Una minuscola gabbia priva di porticina |  |  |  | in cuoio spiegato, si trasforma in un elegante mantello |\n| 56 | Una vecchia chiave |  |  | 29 84 | Un paio di vecchi calzini La ricevuta di un deposito presso una banca di |\n| 57 01 | Una mappa del tesoro indecifrabile Una mano di goblin mummificata |  |  | 30 | Un libro vuoto le cui pagine non si lasciano una città molto lontana |\n| 58 02 | L'elsa di una spada infranta Un frammento di cristallo che risplende debol­ mente alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " della luna |  |  | 85 | sporcare da inchiostro, gesso, grafite o qualsi­ Un diario con sette pagine mancanti asi altra sostanza o segno |"
+            "text": " che pende da una collana Un pezzo di stoffa ripiegato che, una volta |\n| 55 | Una minuscola gabbia priva di porticina |  |  |  | in cuoio spiegato, si trasforma in un elegante mantello |\n| 56 | Una vecchia chiave |  |  | 29 84 | Un paio di vecchi calzini La ricevuta di un deposito presso una banca di |\n| 57 01 | Una mappa del tesoro indecifrabile Una mano di goblin mummificata |  |  | 30 | Un libro vuoto le cui pagine non si lasciano una città molto lontana |\n| 58 02 | L'elsa di una spada infranta Un frammento di cristallo che risplende debol­ mente alla luce della luna |  |  | 85 | sporcare da inchiostro, gesso, grafite o qualsi­ Un diario con sette pagine mancanti asi altra sostanza o segno |"
           }
         ],
         "children": []

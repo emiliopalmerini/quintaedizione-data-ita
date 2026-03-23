@@ -1184,25 +1184,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'azer emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in un raggio\n\ndi 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per ulteriori 3 metri."
+            "text": "L'azer emana luce intensa in un raggio\n\ndi 3 metri e luce fioca per ulteriori 3 metri."
           }
         ]
       }
@@ -1723,25 +1705,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il cavallo degli incubi emana "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa\n\nin un raggio di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per ulteriori 3 metri."
+            "text": "Il cavallo degli incubi emana luce intensa\n\nin un raggio di 3 metri e luce fioca per ulteriori 3 metri."
           }
         ]
       }
@@ -2334,16 +2298,7 @@
           },
           {
             "type": "text",
-            "text": ", individuazione\n\n3/giorno ciascuno: "
-          },
-          {
-            "type": "spell",
-            "text": "benedizione",
-            "id": "benedizione"
-          },
-          {
-            "type": "text",
-            "text": ", "
+            "text": ", individuazione\n\n3/giorno ciascuno: benedizione, "
           },
           {
             "type": "spell",
@@ -3024,16 +2979,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il glabrezu effettua quattro attacchi:\n\ndue con le tenaglie e due con i pugni. In alternativa,  effettua due attacchi con le tenaglie e "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un  incantesimo."
+            "text": "Il glabrezu effettua quattro attacchi:\n\ndue con le tenaglie e due con i pugni. In alternativa,  effettua due attacchi con le tenaglie e lancia un  incantesimo."
           }
         ]
       },
@@ -3368,25 +3314,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il nalfeshnee emette\n\nmagicamente una "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " multicolore scintillante. Ogni  creatura entro 4,5 metri dal nalfeshnee che sia in grado  di vedere la "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " deve superare un tiro salvezza su  "
+            "text": "Il nalfeshnee emette\n\nmagicamente una luce multicolore scintillante. Ogni  creatura entro 4,5 metri dal nalfeshnee che sia in grado  di vedere la luce deve superare un tiro salvezza su  "
           },
           {
             "type": "ability",
@@ -4686,16 +4614,7 @@
         "description": [
           {
             "type": "text",
-            "text": "o breve).  Da un massimo di quattro catene entro\n\n18 metri nel campo visivo del diavolo crescono  magicamente degli spuntoni affilati come lame;  le catene si animano sotto il suo controllo, purché  non siano indossate o trasportate.   Ogni catena animata è un oggetto con CA 20,  20 punti ferita, "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni perforanti  e immunità ai danni psichici e ai danni da "
+            "text": "o breve).  Da un massimo di quattro catene entro\n\n18 metri nel campo visivo del diavolo crescono  magicamente degli spuntoni affilati come lame;  le catene si animano sotto il suo controllo, purché  non siano indossate o trasportate.   Ogni catena animata è un oggetto con CA 20,  20 punti ferita, resistenza ai danni perforanti  e immunità ai danni psichici e ai danni da "
           },
           {
             "type": "damage_type",
@@ -5930,16 +5849,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -6360,16 +6270,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -7099,16 +7000,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -7529,16 +7421,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -8277,16 +8160,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -9428,16 +9302,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -9894,16 +9759,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni  di tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni  di tana e punteggi di "
           },
           {
             "type": "ability",
@@ -10741,16 +10597,7 @@
           },
           {
             "type": "text",
-            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, "
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " leggendaria, azioni di  tana e punteggi di "
+            "text": " conserva  allineamento, punti ferita, Dadi Vita, la capacità di  parlare, competenze, Resistenza leggendaria, azioni di  tana e punteggi di "
           },
           {
             "type": "ability",
@@ -16399,16 +16246,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,\n\nil drider subisce svantaggio ai tiri per colpire, oltre che  alle prove di "
+            "text": "Finché è esposto alla luce del sole,\n\nil drider subisce svantaggio ai tiri per colpire, oltre che  alle prove di "
           },
           {
             "type": "ability",
@@ -16564,16 +16402,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,\n\nil duergar subisce svantaggio ai tiri per colpire, oltre  che alle prove di "
+            "text": "Finché è esposto alla luce del sole,\n\nil duergar subisce svantaggio ai tiri per colpire, oltre  che alle prove di "
           },
           {
             "type": "ability",
@@ -16665,16 +16494,7 @@
           },
           {
             "type": "text",
-            "text": " finché  non attacca, non "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo o non usa  Ingrandire, oppure finché non perde la concentrazione,  fino a un massimo di 1 ora (come se si concentrasse  su un incantesimo). Qualsiasi equipaggiamento che  il duergar indossa o trasporta diventa "
+            "text": " finché  non attacca, non lancia un incantesimo o non usa  Ingrandire, oppure finché non perde la concentrazione,  fino a un massimo di 1 ora (come se si concentrasse  su un incantesimo). Qualsiasi equipaggiamento che  il duergar indossa o trasporta diventa "
           },
           {
             "type": "condition",
@@ -16746,25 +16566,7 @@
           },
           {
             "type": "text",
-            "text": " proietta "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa in un\n\nraggio di 9 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 9 metri."
+            "text": " proietta luce intensa in un\n\nraggio di 9 metri e luce fioca per altri 9 metri."
           }
         ]
       },
@@ -17329,16 +17131,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Mentre è alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole, il drow\n\nha uno svantaggio nei tiri per colpire, così come nelle  prove di "
+            "text": "Mentre è alla luce del sole, il drow\n\nha uno svantaggio nei tiri per colpire, così come nelle  prove di "
           },
           {
             "type": "ability",
@@ -18041,16 +17834,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La fauce gorgogliante\n\nsputa una goccia chimica in un punto visibile entro  4,5 metri. La goccia esplode in un lampo di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  accecante all'impatto. Ogni creatura entro 1,5 metri  dal lampo deve superare un tiro salvezza su "
+            "text": "La fauce gorgogliante\n\nsputa una goccia chimica in un punto visibile entro  4,5 metri. La goccia esplode in un lampo di luce  accecante all'impatto. Ogni creatura entro 1,5 metri  dal lampo deve superare un tiro salvezza su "
           },
           {
             "type": "ability",
@@ -18116,16 +17900,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Quando una "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa o una creatura si\n\ntrova entro 9 metri dal boleto stridente, esso emette  uno stridio udibile nel raggio di 90 metri. Il boleto  stridente continua a stridere finché la fonte del  disturbo non si sposta fuori portata e per 1d4 turni  successivi del boleto stridente."
+            "text": "Quando una luce intensa o una creatura si\n\ntrova entro 9 metri dal boleto stridente, esso emette  uno stridio udibile nel raggio di 90 metri. Il boleto  stridente continua a stridere finché la fonte del  disturbo non si sposta fuori portata e per 1d4 turni  successivi del boleto stridente."
           }
         ]
       }
@@ -18310,25 +18085,7 @@
           },
           {
             "type": "text",
-            "text": " fatuo proietta "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "\n\nintensa in un raggio da 1,5 a 6 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per  un numero aggiuntivo di metri pari al raggio scelto.  Il "
+            "text": " fatuo proietta luce\n\nintensa in un raggio da 1,5 a 6 metri e luce fioca per  un numero aggiuntivo di metri pari al raggio scelto.  Il "
           },
           {
             "type": "damage_type",
@@ -18402,16 +18159,7 @@
           },
           {
             "type": "text",
-            "text": " fatuo e la sua "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " diventano\n\nmagicamente invisibili finché esso non attacca, non usa  Assorbire vita o non perde la concentrazione (come se  si concentrasse su un incantesimo)."
+            "text": " fatuo e la sua luce diventano\n\nmagicamente invisibili finché esso non attacca, non usa  Assorbire vita o non perde la concentrazione (come se  si concentrasse su un incantesimo)."
           }
         ]
       }
@@ -21949,16 +21697,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lupo\n\nmannaro effettua due attacchi: uno con il morso e uno  con gli artigli o la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "."
+            "text": "Il lupo\n\nmannaro effettua due attacchi: uno con il morso e uno  con gli artigli o la lancia."
           }
         ]
       },
@@ -22645,16 +22384,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il lich "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un trucchetto.    Sguardo terrificante (costa 2 azioni).  Il lich fissa lo\n\nsguardo su una creatura nel suo campo visivo entro  un raggio di 3 metri. Il bersaglio deve superare un  tiro salvezza su "
+            "text": "Il lich lancia un trucchetto.    Sguardo terrificante (costa 2 azioni).  Il lich fissa lo\n\nsguardo su una creatura nel suo campo visivo entro  un raggio di 3 metri. Il bersaglio deve superare un  tiro salvezza su "
           },
           {
             "type": "ability",
@@ -22859,25 +22589,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Come azione bonus,\n\nil magmin può infiammarsi o estinguere le proprie  fiamme. Quando si infiamma, proietta "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa  in un raggio di 3 metri e "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca per altri 3 metri."
+            "text": "Come azione bonus,\n\nil magmin può infiammarsi o estinguere le proprie  fiamme. Quando si infiamma, proietta luce intensa  in un raggio di 3 metri e luce fioca per altri 3 metri."
           }
         ]
       }
@@ -23051,16 +22763,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa,\n\nil manto assassino subisce svantaggio ai tiri per colpire  e alle prove di "
+            "text": "Finché è esposto alla luce intensa,\n\nil manto assassino subisce svantaggio ai tiri per colpire  e alle prove di "
           },
           {
             "type": "ability",
@@ -23143,25 +22846,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il manto assassino crea magicamente tre duplicati  illusori di se stesso se non è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa.  I duplicati si muovono insieme a lui e imitano le sue  azioni, scambiandosi di posizione in modo che sia  impossibile capire quale manto assassino sia quello  vero. Se il manto assassino si trova in un'area di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  intensa, i duplicati scompaiono.   Ogni volta che una creatura bersaglia il manto  assassino con un attacco o un incantesimo dannoso  finché permane un duplicato, quella creatura effettua  un tiro casuale per determinare se bersaglia il manto  assassino o uno dei suoi duplicati. Una creatura non  è influenzata da questo effetto magico se non può  vedere o se si affida a sensi diversi dalla vista.   Un duplicato possiede la CA del manto assassino  e usa i suoi tiri salvezza. Se un attacco colpisce un  duplicato o se un duplicato fallisce un tiro salvezza  contro un effetto che infligge danni, quel duplicato  scompare."
+            "text": "Il manto assassino crea magicamente tre duplicati  illusori di se stesso se non è esposto alla luce intensa.  I duplicati si muovono insieme a lui e imitano le sue  azioni, scambiandosi di posizione in modo che sia  impossibile capire quale manto assassino sia quello  vero. Se il manto assassino si trova in un'area di luce  intensa, i duplicati scompaiono.   Ogni volta che una creatura bersaglia il manto  assassino con un attacco o un incantesimo dannoso  finché permane un duplicato, quella creatura effettua  un tiro casuale per determinare se bersaglia il manto  assassino o uno dei suoi duplicati. Una creatura non  è influenzata da questo effetto magico se non può  vedere o se si affida a sensi diversi dalla vista.   Un duplicato possiede la CA del manto assassino  e usa i suoi tiri salvezza. Se un attacco colpisce un  duplicato o se un duplicato fallisce un tiro salvezza  contro un effetto che infligge danni, quel duplicato  scompare."
           }
         ]
       },
@@ -23343,16 +23028,7 @@
           },
           {
             "type": "text",
-            "text": " e nessuna "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " naturale può illuminarla.  Se una qualsiasi parte di "
+            "text": " e nessuna luce naturale può illuminarla.  Se una qualsiasi parte di "
           },
           {
             "type": "spell",
@@ -23361,25 +23037,7 @@
           },
           {
             "type": "text",
-            "text": " si sovrappone  a un'area di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " creata da un incantesimo di 2° livello  o inferiore, l'incantesimo che crea la "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " è dissolto.  Systems Reference Document 5.1 373"
+            "text": " si sovrappone  a un'area di luce creata da un incantesimo di 2° livello  o inferiore, l'incantesimo che crea la luce è dissolto.  Systems Reference Document 5.1 373"
           }
         ]
       }
@@ -24017,16 +23675,7 @@
           },
           {
             "type": "text",
-            "text": "\n\nmagicamente finché non attacca o "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un  incantesimo, o finché non perde la concentrazione  (come se si concentrasse su un incantesimo). Mentre  è "
+            "text": "\n\nmagicamente finché non attacca o lancia un  incantesimo, o finché non perde la concentrazione  (come se si concentrasse su un incantesimo). Mentre  è "
           },
           {
             "type": "condition",
@@ -25985,16 +25634,7 @@
           },
           {
             "type": "text",
-            "text": " contro la CD del tiro salvezza  sull'incantesimo di chi lo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": ", altrimenti è priva  di sensi per 1 minuto.  Systems Reference Document 5.1 384"
+            "text": " contro la CD del tiro salvezza  sull'incantesimo di chi lo lancia, altrimenti è priva  di sensi per 1 minuto.  Systems Reference Document 5.1 384"
           }
         ]
       }
@@ -26198,16 +25838,7 @@
           },
           {
             "type": "text",
-            "text": " contro la CD del tiro salvezza  sull'incantesimo di chi lo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": ", altrimenti è privo  di sensi per 1 minuto."
+            "text": " contro la CD del tiro salvezza  sull'incantesimo di chi lo lancia, altrimenti è privo  di sensi per 1 minuto."
           }
         ]
       },
@@ -26363,16 +25994,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Quando è esposta alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,\n\nl'ombra subisce svantaggio ai tiri per colpire, alle prove  di caratteristica e ai tiri salvezza."
+            "text": "Quando è esposta alla luce del sole,\n\nl'ombra subisce svantaggio ai tiri per colpire, alle prove  di caratteristica e ai tiri salvezza."
           }
         ]
       },
@@ -26381,16 +26003,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Quando si trova in condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "\n\nfioca o "
+            "text": "Quando si trova in condizioni di luce\n\nfioca o "
           },
           {
             "type": "spell",
@@ -27611,25 +27224,7 @@
           },
           {
             "type": "text",
-            "text": " con CD 11  per evitare il tocco del rugginofago.   Se l'oggetto toccato è un'armatura o uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": "  di metallo indossato o trasportato, esso subisce una  penalità permanente e cumulativa di –1 alla CA che  fornisce. Se un'armatura viene ridotta a una CA pari  a 10 o uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": " scende a un bonus di +0, vengono  distrutti. Se l'oggetto toccato è un'arma di metallo  impugnata, arrugginisce come descritto nel tratto  Arrugginire."
+            "text": " con CD 11  per evitare il tocco del rugginofago.   Se l'oggetto toccato è un'armatura o uno scudo  di metallo indossato o trasportato, esso subisce una  penalità permanente e cumulativa di –1 alla CA che  fornisce. Se un'armatura viene ridotta a una CA pari  a 10 o uno scudo scende a un bonus di +0, vengono  distrutti. Se l'oggetto toccato è un'arma di metallo  impugnata, arrugginisce come descritto nel tratto  Arrugginire."
           }
         ]
       }
@@ -27703,16 +27298,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sahuagin effettua due attacchi in\n\nmischia: uno con il morso e uno con gli artigli o con  la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": "."
+            "text": "Il sahuagin effettua due attacchi in\n\nmischia: uno con il morso e uno con gli artigli o con  la lancia."
           }
         ]
       },
@@ -27813,16 +27399,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La salamandra effettua due attacchi:\n\nuno con la "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " e uno con la coda."
+            "text": "La salamandra effettua due attacchi:\n\nuno con la lancia e uno con la coda."
           }
         ]
       },
@@ -28391,16 +27968,7 @@
           },
           {
             "type": "text",
-            "text": ",\n\n1° livello (4 slot): "
-          },
-          {
-            "type": "spell",
-            "text": "comando",
-            "id": "comando"
-          },
-          {
-            "type": "text",
-            "text": ", individuazione del bene\n\n2° livello (3 slot): "
+            "text": ",\n\n1° livello (4 slot): comando, individuazione del bene\n\n2° livello (3 slot): "
           },
           {
             "type": "spell",
@@ -28600,16 +28168,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La sfinge\n\n"
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo dalla sua lista degli incantesimi  preparati, usando uno slot incantesimo come di  consueto."
+            "text": "La sfinge\n\nlancia un incantesimo dalla sua lista degli incantesimi  preparati, usando uno slot incantesimo come di  consueto."
           }
         ]
       }
@@ -28846,16 +28405,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La sfinge\n\n"
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo dalla sua lista degli incantesimi  preparati, usando uno slot incantesimo come di  consueto."
+            "text": "La sfinge\n\nlancia un incantesimo dalla sua lista degli incantesimi  preparati, usando uno slot incantesimo come di  consueto."
           }
         ]
       }
@@ -28906,16 +28456,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,\n\nlo spettro subisce svantaggio ai tiri per colpire, oltre  che alle prove di "
+            "text": "Finché è esposto alla luce del sole,\n\nlo spettro subisce svantaggio ai tiri per colpire, oltre  che alle prove di "
           },
           {
             "type": "ability",
@@ -29089,16 +28630,7 @@
           },
           {
             "type": "text",
-            "text": "\n\nfinché non attacca, non "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo o finché  non perde la concentrazione (come se si concentrasse  su un incantesimo). Ogni oggetto che lo spiritello  indossa o trasporta diventa "
+            "text": "\n\nfinché non attacca, non lancia un incantesimo o finché  non perde la concentrazione (come se si concentrasse  su un incantesimo). Ogni oggetto che lo spiritello  indossa o trasporta diventa "
           },
           {
             "type": "condition",
@@ -29289,16 +28821,7 @@
           },
           {
             "type": "text",
-            "text": ". Se il bersaglio subisce danni o riceve un  "
-          },
-          {
-            "type": "spell",
-            "text": "comando",
-            "id": "comando"
-          },
-          {
-            "type": "text",
-            "text": " suicida, può ripetere il tiro salvezza e, se lo  supera, l'effetto svanisce. Se il bersaglio supera il tiro  salvezza o se l'effetto per lui termina, è immune al  fascino di questo "
+            "text": ". Se il bersaglio subisce danni o riceve un  comando suicida, può ripetere il tiro salvezza e, se lo  supera, l'effetto svanisce. Se il bersaglio supera il tiro  salvezza o se l'effetto per lui termina, è immune al  fascino di questo "
           },
           {
             "type": "creature_type",
@@ -29716,16 +29239,7 @@
           },
           {
             "type": "text",
-            "text": " in caso di fallimento, o la metà dei danni in caso  di successo. Trovarsi sott'acqua non conferisce  "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " a tali danni."
+            "text": " in caso di fallimento, o la metà dei danni in caso  di successo. Trovarsi sott'acqua non conferisce  resistenza a tali danni."
           }
         ]
       }
@@ -30182,16 +29696,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'unicorno effettua un attacco con gli zoccoli.    "
-          },
-          {
-            "type": "spell",
-            "text": "Scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": " scintillante (costa 2 azioni).  L'unicorno crea un\n\ncampo magico scintillante attorno a sé o a un'altra  creatura situata nel suo campo visivo in un raggio  di 18 metri. Il bersaglio ottiene un bonus di +2 alla  CA fino alla fine del turno successivo dell'unicorno."
+            "text": "L'unicorno effettua un attacco con gli zoccoli.    Scudo scintillante (costa 2 azioni).  L'unicorno crea un\n\ncampo magico scintillante attorno a sé o a un'altra  creatura situata nel suo campo visivo in un raggio  di 18 metri. Il bersaglio ottiene un bonus di +2 alla  CA fino alla fine del turno successivo dell'unicorno."
           }
         ]
       },
@@ -30263,16 +29768,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il vampiro recupera 10 punti ferita\n\nall'inizio del suo turno se possiede almeno 1 punto  ferita e non è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole o all'acqua  corrente. Se subisce danni radiosi o danni dall'acqua  santa, questo tratto non funziona all'inizio del suo  turno successivo."
+            "text": "Il vampiro recupera 10 punti ferita\n\nall'inizio del suo turno se possiede almeno 1 punto  ferita e non è esposto alla luce del sole o all'acqua  corrente. Se subisce danni radiosi o danni dall'acqua  santa, questo tratto non funziona all'inizio del suo  turno successivo."
           }
         ]
       }
@@ -30368,25 +29864,7 @@
           },
           {
             "type": "text",
-            "text": " se termina il suo turno nell'acqua  corrente.\n\nradiosi quando inizia il suo turno alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole.  Mentre è esposto a tale "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": ", subisce svantaggio a tiri  per colpire e prove di caratteristica.\n\nlegno viene piantata nel cuore del vampiro mentre  esso è "
+            "text": " se termina il suo turno nell'acqua  corrente.\n\nradiosi quando inizia il suo turno alla luce del sole.  Mentre è esposto a tale luce, subisce svantaggio a tiri  per colpire e prove di caratteristica.\n\nlegno viene piantata nel cuore del vampiro mentre  esso è "
           },
           {
             "type": "condition",
@@ -30422,16 +29900,7 @@
           },
           {
             "type": "text",
-            "text": " (come descritto nel  tratto Mutaforma) invece di perdere i sensi, purché  non sia esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole o all'acqua corrente.  Se non può trasformarsi, viene distrutto.   Finché ha 0 punti ferita in forma nebbiosa, non può  tornare alla forma di vampiro e deve raggiungere il suo  luogo di riposo entro 2 ore, altrimenti verrà distrutto.  Una volta giunto lì, torna alla sua forma di vampiro ed  è "
+            "text": " (come descritto nel  tratto Mutaforma) invece di perdere i sensi, purché  non sia esposto alla luce del sole o all'acqua corrente.  Se non può trasformarsi, viene distrutto.   Finché ha 0 punti ferita in forma nebbiosa, non può  tornare alla forma di vampiro e deve raggiungere il suo  luogo di riposo entro 2 ore, altrimenti verrà distrutto.  Una volta giunto lì, torna alla sua forma di vampiro ed  è "
           },
           {
             "type": "condition",
@@ -30467,16 +29936,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il vampiro recupera 20 punti ferita\n\nall'inizio del suo turno se possiede almeno 1 punto  ferita e non è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole o all'acqua  corrente. Se subisce danni radiosi o danni dall'acqua  santa, questo tratto non funziona all'inizio del suo  turno successivo."
+            "text": "Il vampiro recupera 20 punti ferita\n\nall'inizio del suo turno se possiede almeno 1 punto  ferita e non è esposto alla luce del sole o all'acqua  corrente. Se subisce danni radiosi o danni dall'acqua  santa, questo tratto non funziona all'inizio del suo  turno successivo."
           }
         ]
       }
@@ -30559,16 +30019,7 @@
           },
           {
             "type": "text",
-            "text": "  considera il vampiro un amico fidato da proteggere  e ascoltare. Sebbene il bersaglio non sia sotto il  controllo del vampiro, vede le richieste o le azioni  del vampiro nella "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " più favorevole possibile ed  è considerato un bersaglio consenziente per l'attacco  con il morso.   Ogni volta che il vampiro o i suoi compagni  danneggiano in qualche modo il bersaglio, quest'ultimo  può ripetere il tiro salvezza e, se lo supera, l'effetto  svanisce. Altrimenti l'effetto dura 24 ore, finché il  vampiro non viene distrutto, non si trova su un piano  di esistenza diverso dal bersaglio o non usa un'azione  bonus per terminare l'effetto."
+            "text": "  considera il vampiro un amico fidato da proteggere  e ascoltare. Sebbene il bersaglio non sia sotto il  controllo del vampiro, vede le richieste o le azioni  del vampiro nella luce più favorevole possibile ed  è considerato un bersaglio consenziente per l'attacco  con il morso.   Ogni volta che il vampiro o i suoi compagni  danneggiano in qualche modo il bersaglio, quest'ultimo  può ripetere il tiro salvezza e, se lo supera, l'effetto  svanisce. Altrimenti l'effetto dura 24 ore, finché il  vampiro non viene distrutto, non si trova su un piano  di esistenza diverso dal bersaglio o non usa un'azione  bonus per terminare l'effetto."
           }
         ]
       },
@@ -31035,16 +30486,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Finché è esposto alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " del sole,\n\nil wraith subisce svantaggio ai tiri per colpire, oltre che  alle prove di "
+            "text": "Finché è esposto alla luce del sole,\n\nil wraith subisce svantaggio ai tiri per colpire, oltre che  alle prove di "
           },
           {
             "type": "ability",

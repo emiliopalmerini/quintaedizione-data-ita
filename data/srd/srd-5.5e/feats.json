@@ -335,16 +335,7 @@
       },
       {
         "type": "text",
-        "text": " aumenta di 1, fino  a un massimo di 30. _**Ignora difese.**_ I danni contundenti, perforanti  e taglienti inflitti dal personaggio ignorano sempre  la "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": ". _**Colpo soverchiante.**_ Quando tira per colpire con  il d20 e ottiene un 20, il personaggio può infliggere  una quantità di danni extra al bersaglio pari al  punteggio di caratteristica incrementato da questo  talento. Il danno aggiuntivo è dello stesso tipo di  quello dell'attacco."
+        "text": " aumenta di 1, fino  a un massimo di 30. _**Ignora difese.**_ I danni contundenti, perforanti  e taglienti inflitti dal personaggio ignorano sempre  la resistenza. _**Colpo soverchiante.**_ Quando tira per colpire con  il d20 e ottiene un 20, il personaggio può infliggere  una quantità di danni extra al bersaglio pari al  punteggio di caratteristica incrementato da questo  talento. Il danno aggiuntivo è dello stesso tipo di  quello dell'attacco."
       }
     ]
   },
@@ -371,16 +362,7 @@
       },
       {
         "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può diventare "
+        "text": " o luce fioca, può diventare "
       },
       {
         "type": "condition",
@@ -398,25 +380,7 @@
       },
       {
         "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a tutti i tipi  di danno, tranne quelli psichici e radiosi."
+        "text": " o luce fioca, ha resistenza a tutti i tipi  di danno, tranne quelli psichici e radiosi."
       }
     ]
   },
@@ -461,16 +425,7 @@
       },
       {
         "type": "text",
-        "text": "  aumenta di 1, fino a un massimo di 30. _**Lancio libero.**_ Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo con  uno slot di livello da 1 a 4, tira 1d4. Se il risultato  corrisponde al livello dello slot, questo non verrà  consumato."
+        "text": "  aumenta di 1, fino a un massimo di 30. _**Lancio libero.**_ Quando lancia un incantesimo con  uno slot di livello da 1 a 4, tira 1d4. Se il risultato  corrisponde al livello dello slot, questo non verrà  consumato."
       }
     ]
   },

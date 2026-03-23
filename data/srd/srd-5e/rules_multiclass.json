@@ -411,16 +411,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " è pari a 16, può preparare sei  incantesimi da mago dal suo libro degli incantesimi.    Ogni incantesimo che il personaggio conosce  e prepara è associato a una delle sue classi;  il personaggio userà la caratteristica da incantatore  di quella classe quando "
-                  },
-                  {
-                    "type": "equipment",
-                    "text": "lancia",
-                    "id": "lancia"
-                  },
-                  {
-                    "type": "text",
-                    "text": " l'incantesimo.  Analogamente, un focus da incantatore come un  "
+                    "text": " è pari a 16, può preparare sei  incantesimi da mago dal suo libro degli incantesimi.    Ogni incantesimo che il personaggio conosce  e prepara è associato a una delle sue classi;  il personaggio userà la caratteristica da incantatore  di quella classe quando lancia l'incantesimo.  Analogamente, un focus da incantatore come un  "
                   },
                   {
                     "type": "spell",

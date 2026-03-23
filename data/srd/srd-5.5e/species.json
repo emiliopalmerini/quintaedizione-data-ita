@@ -11,16 +11,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai  danni, ma anche l'aspetto del personaggio.\n\n| "
+            "text": "Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di resistenza ai  danni, ma anche l'aspetto del personaggio.\n\n| "
           },
           {
             "type": "creature_type",
@@ -164,16 +155,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il personaggio dispone di  "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni del tipo determinato dal tratto  Discendenza draconica."
+            "text": "Il personaggio dispone di  resistenza ai danni del tipo determinato dal tratto  Discendenza draconica."
           }
         ]
       },
@@ -244,16 +226,7 @@
     "description": [
       {
         "type": "text",
-        "text": "In quanto dragonide, il personaggio ha i seguenti  tratti speciali. _**Discendenza draconica.**_ Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai  danni, ma anche l'aspetto del personaggio.\n\n| "
+        "text": "In quanto dragonide, il personaggio ha i seguenti  tratti speciali. _**Discendenza draconica.**_ Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di resistenza ai  danni, ma anche l'aspetto del personaggio.\n\n| "
       },
       {
         "type": "creature_type",
@@ -379,25 +352,7 @@
       },
       {
         "type": "text",
-        "text": " e il bonus di competenza del personaggio).  In caso di fallimento, vengono inflitti 1d10 danni del  tipo determinato dal tratto Discendenza draconica.  In caso di successo, subisce soltanto la metà di quei  danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello  (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero  di volte pari al valore del suo bonus di competenza  e recuperare tutti gli utilizzi spesi quando completa  un riposo lungo. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni.**_Il personaggio dispone di  "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni del tipo determinato dal tratto  Discendenza draconica. _**"
+        "text": " e il bonus di competenza del personaggio).  In caso di fallimento, vengono inflitti 1d10 danni del  tipo determinato dal tratto Discendenza draconica.  In caso di successo, subisce soltanto la metà di quei  danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello  (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero  di volte pari al valore del suo bonus di competenza  e recuperare tutti gli utilizzi spesi quando completa  un riposo lungo. _**Resistenza ai danni.**_Il personaggio dispone di  resistenza ai danni del tipo determinato dal tratto  Discendenza draconica. _**"
       },
       {
         "type": "spell",
@@ -1262,16 +1217,7 @@
           },
           {
             "type": "text",
-            "text": ". **"
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
+            "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
           },
           {
             "type": "ability",
@@ -1414,16 +1360,7 @@
       },
       {
         "type": "text",
-        "text": ". **"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
+        "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
       },
       {
         "type": "ability",
@@ -1589,16 +1526,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Ha "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da  "
+            "text": "Ha resistenza ai danni da  "
           },
           {
             "type": "damage_type",
@@ -1660,16 +1588,7 @@
       },
       {
         "type": "text",
-        "text": " tellurica con un raggio  di 18 metri per 10 minuti. Per poterla utilizzare,  deve trovarsi su una superficie di pietra o toccarla.  La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus  un numero di volte pari al valore del suo bonus di  competenza, recuperando tutti gli utilizzi spesi  quando completa un riposo lungo. _**Resilienza nanica.**_ Ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da  "
+        "text": " tellurica con un raggio  di 18 metri per 10 minuti. Per poterla utilizzare,  deve trovarsi su una superficie di pietra o toccarla.  La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus  un numero di volte pari al valore del suo bonus di  competenza, recuperando tutti gli utilizzi spesi  quando completa un riposo lungo. _**Resilienza nanica.**_ Ha resistenza ai danni da  "
       },
       {
         "type": "damage_type",
@@ -1756,16 +1675,7 @@
     "description": [
       {
         "type": "text",
-        "text": "In quanto orco, il personaggio ha i seguenti tratti  speciali. Il personaggio può usare questo tratto un numero  di volte pari al valore del suo bonus di competenza  e recupera tutti gli utilizzi spesi quando completa  un riposo breve o lungo. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " implacabile.**_ Quando scende a 0 punti  ferita ma non viene ucciso sul colpo, può decidere  di rimanere a 1 punto ferita. Dopo averlo usato, non  può riutilizzare questo tratto prima di aver completato un riposo lungo. _**Scarica di adrenalina.**_L'orco può utilizzare  l'azione di Scatto come azione bonus. Ogni volta che  lo fa, ottiene un numero di punti ferita temporanei  pari al suo bonus di competenza. _**"
+        "text": "In quanto orco, il personaggio ha i seguenti tratti  speciali. Il personaggio può usare questo tratto un numero  di volte pari al valore del suo bonus di competenza  e recupera tutti gli utilizzi spesi quando completa  un riposo breve o lungo. _**Resistenza implacabile.**_ Quando scende a 0 punti  ferita ma non viene ucciso sul colpo, può decidere  di rimanere a 1 punto ferita. Dopo averlo usato, non  può riutilizzare questo tratto prima di aver completato un riposo lungo. _**Scarica di adrenalina.**_L'orco può utilizzare  l'azione di Scatto come azione bonus. Ogni volta che  lo fa, ottiene un numero di punti ferita temporanei  pari al suo bonus di competenza. _**"
       },
       {
         "type": "spell",
@@ -1817,16 +1727,7 @@
           },
           {
             "type": "text",
-            "text": "*. Quando lo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
+            "text": "*. Quando lo lancia sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
           },
           {
             "type": "creature_type",
@@ -1880,16 +1781,7 @@
           },
           {
             "type": "text",
-            "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da "
+            "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da "
           },
           {
             "type": "damage_type",
@@ -1925,16 +1817,7 @@
           },
           {
             "type": "text",
-            "text": " |  |  | . |  |  |\n| Ctonio | Possiede "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni necrotici. |  |  |  |  | "
+            "text": " |  |  | . |  |  |\n| Ctonio | Possiede resistenza ai danni necrotici. |  |  |  |  | "
           },
           {
             "type": "spell",
@@ -1961,16 +1844,7 @@
           },
           {
             "type": "text",
-            "text": " | . |  |  |  |  |\n| Infernale | Possiede "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da "
+            "text": " | . |  |  |  |  |\n| Infernale | Possiede resistenza ai danni da "
           },
           {
             "type": "damage_type",
@@ -2032,16 +1906,7 @@
       },
       {
         "type": "text",
-        "text": "*. Quando lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
+        "text": "*. Quando lo lancia sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
       },
       {
         "type": "creature_type",
@@ -2095,16 +1960,7 @@
       },
       {
         "type": "text",
-        "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -2140,16 +1996,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  | . |  |  |\n| Ctonio | Possiede "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni necrotici. |  |  |  |  | "
+        "text": " |  |  | . |  |  |\n| Ctonio | Possiede resistenza ai danni necrotici. |  |  |  |  | "
       },
       {
         "type": "spell",
@@ -2176,16 +2023,7 @@
       },
       {
         "type": "text",
-        "text": " | . |  |  |  |  |\n| Infernale | Possiede "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": " | . |  |  |  |  |\n| Infernale | Possiede resistenza ai danni da "
       },
       {
         "type": "damage_type",

@@ -32,16 +32,7 @@
       },
       {
         "type": "text",
-        "text": "**, misura la "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  •**"
+        "text": "**, misura la resistenza  •**"
       },
       {
         "type": "ability",
@@ -577,16 +568,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " per  determinare se la sua "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fisica gli consente  di nuotare tanto a lungo. In quel caso il GM potrebbe  concedergli di applicare la propria competenza in  "
+                    "text": " per  determinare se la sua resistenza fisica gli consente  di nuotare tanto a lungo. In quel caso il GM potrebbe  concedergli di applicare la propria competenza in  "
                   },
                   {
                     "type": "skill",
@@ -772,16 +754,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "A volte due o più personaggi possono unire le forze  nel tentativo di portare a termine un'impresa.  Il personaggio che "
-              },
-              {
-                "type": "spell",
-                "text": "guida",
-                "id": "guida"
-              },
-              {
-                "type": "text",
-                "text": " l'operazione (o quello con il  modificatore di caratteristica più alto) può effettuare  una prova di caratteristica disponendo di vantaggio,  a rappresentare l'"
+                "text": "A volte due o più personaggi possono unire le forze  nel tentativo di portare a termine un'impresa.  Il personaggio che guida l'operazione (o quello con il  modificatore di caratteristica più alto) può effettuare  una prova di caratteristica disponendo di vantaggio,  a rappresentare l'"
               },
               {
                 "type": "spell",
@@ -1368,16 +1341,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " anche quando  un personaggio tenta di compiere imprese come:  •Controllare un carretto appesantito dal carico  lungo una discesa ripida  •Fare una curva stretta alla "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "guida",
-                    "id": "guida"
-                  },
-                  {
-                    "type": "text",
-                    "text": " di una biga  •"
+                    "text": " anche quando  un personaggio tenta di compiere imprese come:  •Controllare un carretto appesantito dal carico  lungo una discesa ripida  •Fare una curva stretta alla guida di una biga  •"
                   },
                   {
                     "type": "spell",
@@ -1545,16 +1509,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " può sempre tentare di nascondersi.\n\nDovrà però rimanere in "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "silenzio",
-                    "id": "silenzio"
-                  },
-                  {
-                    "type": "text",
-                    "text": " e alcune tracce del suo\n\npassaggio potrebbero comunque essere notate.\n\nIn combattimento, la maggior parte delle creature rimane\n\nvigile nei confronti di possibili segnali di pericolo, quindi se un\n\npersonaggio abbandona il suo nascondiglio e si avvicina a una\n\ncreatura, solitamente questa la nota. Tuttavia, in alcune\n\ncircostanze il GM può consentire al personaggio di rimanere\n\nnascosto se si avvicina a una creatura distratta, fornendogli\n\nvantaggio a un tiro per colpire prima di essere visto.\n\n"
+                    "text": " può sempre tentare di nascondersi.\n\nDovrà però rimanere in silenzio e alcune tracce del suo\n\npassaggio potrebbero comunque essere notate.\n\nIn combattimento, la maggior parte delle creature rimane\n\nvigile nei confronti di possibili segnali di pericolo, quindi se un\n\npersonaggio abbandona il suo nascondiglio e si avvicina a una\n\ncreatura, solitamente questa la nota. Tuttavia, in alcune\n\ncircostanze il GM può consentire al personaggio di rimanere\n\nnascosto se si avvicina a una creatura distratta, fornendogli\n\nvantaggio a un tiro per colpire prima di essere visto.\n\n"
                   },
                   {
                     "type": "skill",
@@ -1666,16 +1621,7 @@
               },
               {
                 "type": "text",
-                "text": " misura la salute, la "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " fisica  e l'energia vitale del personaggio."
+                "text": " misura la salute, la resistenza fisica  e l'energia vitale del personaggio."
               }
             ],
             "children": [
@@ -1703,16 +1649,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ", in quanto  la "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " rappresentata da questa caratteristica  è principalmente una dote passiva e non richiede  uno sforzo specifico da parte di un personaggio o di  un mostro. Una prova di "
+                    "text": ", in quanto  la resistenza rappresentata da questa caratteristica  è principalmente una dote passiva e non richiede  uno sforzo specifico da parte di un personaggio o di  un mostro. Una prova di "
                   },
                   {
                     "type": "ability",
@@ -2302,16 +2239,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ")  consente a un personaggio di avvistare, udire  o individuare in altri modi la presenza di qualcosa.  Misura la consapevolezza generale dell'ambiente  circostante da parte di un personaggio e l'efficacia  dei suoi sensi. Per esempio, un personaggio  potrebbe origliare una conversazione attraverso una  porta chiusa, spiare da sotto una finestra aperta  o sentire dei mostri che si muovono furtivamente  nella foresta. Oppure potrebbe cercare di avvistare  qualcosa di nascosto o difficile da notare, come un  gruppo di orchi in agguato lungo la strada, un  malvivente nascosto tra le ombre di un vicolo o la  "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " di una candela che filtra dalla fessura di una  porta segreta.  _**"
+                    "text": ")  consente a un personaggio di avvistare, udire  o individuare in altri modi la presenza di qualcosa.  Misura la consapevolezza generale dell'ambiente  circostante da parte di un personaggio e l'efficacia  dei suoi sensi. Per esempio, un personaggio  potrebbe origliare una conversazione attraverso una  porta chiusa, spiare da sotto una finestra aperta  o sentire dei mostri che si muovono furtivamente  nella foresta. Oppure potrebbe cercare di avvistare  qualcosa di nascosto o difficile da notare, come un  gruppo di orchi in agguato lungo la strada, un  malvivente nascosto tra le ombre di un vicolo o la  luce di una candela che filtra dalla fessura di una  porta segreta.  _**"
                   },
                   {
                     "type": "skill",
@@ -3194,16 +3122,7 @@
               },
               {
                 "type": "text",
-                "text": " e gli  altri effetti che limitano la visione possono costituire  un serio ostacolo.   Un'area potrebbe essere leggermente  o pesantemente oscurata. In un'area **leggermente** **oscurata**, come per esempio una zona di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca,  di nebbia rarefatta o di fogliame moderato,  le creature subiscono svantaggio alle prove di  "
+                "text": " e gli  altri effetti che limitano la visione possono costituire  un serio ostacolo.   Un'area potrebbe essere leggermente  o pesantemente oscurata. In un'area **leggermente** **oscurata**, come per esempio una zona di luce fioca,  di nebbia rarefatta o di fogliame moderato,  le creature subiscono svantaggio alle prove di  "
               },
               {
                 "type": "ability",
@@ -3239,34 +3158,7 @@
               },
               {
                 "type": "text",
-                "text": " (vedi l'appendice A del  *Manuale del Giocatore*).   La presenza o l'assenza di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " in un ambiente può  creare tre categorie di illuminazione: "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa,  "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca e "
+                "text": " (vedi l'appendice A del  *Manuale del Giocatore*).   La presenza o l'assenza di luce in un ambiente può  creare tre categorie di illuminazione: luce intensa,  luce fioca e "
               },
               {
                 "type": "spell",
@@ -3275,52 +3167,7 @@
               },
               {
                 "type": "text",
-                "text": ".   La **"
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa** consente alla maggior parte delle  creature di vedere le cose normalmente. Anche le  giornate più smorte forniscono "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa, così  come le torce, le lanterne, i fuochi e le altre fonti  di illuminazione entro un raggio specifico.   La **"
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca**, equivalente alla condizione di  ombra, crea un'area leggermente oscurata. Una zona  di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca si trova solitamente a metà tra una fonte  di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa, come una torcia, e l'"
+                "text": ".   La **luce intensa** consente alla maggior parte delle  creature di vedere le cose normalmente. Anche le  giornate più smorte forniscono luce intensa, così  come le torce, le lanterne, i fuochi e le altre fonti  di illuminazione entro un raggio specifico.   La **luce fioca**, equivalente alla condizione di  ombra, crea un'area leggermente oscurata. Una zona  di luce fioca si trova solitamente a metà tra una fonte  di luce intensa, come una torcia, e l'"
               },
               {
                 "type": "spell",
@@ -3329,34 +3176,7 @@
               },
               {
                 "type": "text",
-                "text": "  circostante. Anche la "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " tenue del crepuscolo  e dell'alba conta come "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca. Una luna piena  particolarmente splendente potrebbe proiettare "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": "  fioca nell'area.   L'**"
+                "text": "  circostante. Anche la luce tenue del crepuscolo  e dell'alba conta come luce fioca. Una luna piena  particolarmente splendente potrebbe proiettare luce  fioca nell'area.   L'**"
               },
               {
                 "type": "spell",
@@ -3374,16 +3194,7 @@
               },
               {
                 "type": "text",
-                "text": " di  notte (anche nella maggior parte delle notti di luna),  all'interno di un dungeon o di una cripta sotterranea  privi di fonti di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": ", o in un'area di "
+                "text": " di  notte (anche nella maggior parte delle notti di luna),  all'interno di un dungeon o di una cripta sotterranea  privi di fonti di luce, o in un'area di "
               },
               {
                 "type": "spell",
@@ -3420,25 +3231,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " può vedere in  condizioni di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca come se fosse in condizioni di  "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " intensa, e in condizioni di "
+                    "text": " può vedere in  condizioni di luce fioca come se fosse in condizioni di  luce intensa, e in condizioni di "
                   },
                   {
                     "type": "spell",
@@ -3447,16 +3240,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " come se fosse  in condizioni di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca, quindi le aree di "
+                    "text": " come se fosse  in condizioni di luce fioca, quindi le aree di "
                   },
                   {
                     "type": "spell",
@@ -3597,16 +3381,7 @@
               },
               {
                 "type": "text",
-                "text": " e ai danni psichici, ma per il resto  sono influenzati dagli attacchi fisici e magici  analogamente alle creature. Il GM determina la  Classe Armatura e i punti ferita di un oggetto,  e potrebbe decidere che certi oggetti siano dotati  di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o immunità a certi tipi di attacco.  (È difficile tagliare una corda con un "
+                "text": " e ai danni psichici, ma per il resto  sono influenzati dagli attacchi fisici e magici  analogamente alle creature. Il GM determina la  Classe Armatura e i punti ferita di un oggetto,  e potrebbe decidere che certi oggetti siano dotati  di resistenza o immunità a certi tipi di attacco.  (È difficile tagliare una corda con un "
               },
               {
                 "type": "equipment",
@@ -3767,16 +3542,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "I periodi tra un'avventura e l'altra offrono ottime  opportunità per condurre ricerche e fare "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " sui  misteri che sono emersi nel corso della campagna.  Per condurre ricerche potrebbe essere necessario  setacciare tomi polverosi e pergamene fragili in una  biblioteca o pagare da bere alla gente del luogo per  apprendere le nuove dicerie e gli ultimi pettegolezzi  direttamente dalle loro labbra.   Quando un personaggio inizia le sue ricerche,  il GM determina se le informazioni sono disponibili,  quanti giorni fuori servizio ci vorranno per trovarle  e se le ricerche sono soggette a qualche vincolo  (come per esempio trovare un individuo, un tomo  o un luogo in particolare). Il GM potrebbe anche  richiedere al personaggio di effettuare una o più  prove di caratteristica, o una prova di "
+                    "text": "I periodi tra un'avventura e l'altra offrono ottime  opportunità per condurre ricerche e fare luce sui  misteri che sono emersi nel corso della campagna.  Per condurre ricerche potrebbe essere necessario  setacciare tomi polverosi e pergamene fragili in una  biblioteca o pagare da bere alla gente del luogo per  apprendere le nuove dicerie e gli ultimi pettegolezzi  direttamente dalle loro labbra.   Quando un personaggio inizia le sue ricerche,  il GM determina se le informazioni sono disponibili,  quanti giorni fuori servizio ci vorranno per trovarle  e se le ricerche sono soggette a qualche vincolo  (come per esempio trovare un individuo, un tomo  o un luogo in particolare). Il GM potrebbe anche  richiedere al personaggio di effettuare una o più  prove di caratteristica, o una prova di "
                   },
                   {
                     "type": "ability",
@@ -4715,16 +4481,7 @@
               },
               {
                 "type": "text",
-                "text": ".  Alcuni esempi includono: \"Se il cultista passa sopra  la botola, tiro la leva che la apre\" e \"Se il goblin si  avvicina a me, mi muovo per allontanarmi\".   Quando l'innesco si verifica, il personaggio può  scegliere se eseguire la sua reazione non appena  l'innesco si è concluso o se ignorarlo. È bene  ricordare che un personaggio può effettuare soltanto  una reazione per round.\n\nSystems Reference Document 5.1 106\n\nQuando un personaggio prepara un incantesimo,  lo "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " normalmente ma trattiene la sua energia,  liberandola con la sua reazione quando l'innesco  si verifica. Al fine di poter essere preparato,  un incantesimo deve avere un tempo di lancio di  1 azione, e trattenere la magia dell'incantesimo  richiede concentrazione. Se la concentrazione viene  meno, l'incantesimo si dissipa senza avere effetto.  Per esempio, se un personaggio si concentra  sull'incantesimo *"
+                "text": ".  Alcuni esempi includono: \"Se il cultista passa sopra  la botola, tiro la leva che la apre\" e \"Se il goblin si  avvicina a me, mi muovo per allontanarmi\".   Quando l'innesco si verifica, il personaggio può  scegliere se eseguire la sua reazione non appena  l'innesco si è concluso o se ignorarlo. È bene  ricordare che un personaggio può effettuare soltanto  una reazione per round.\n\nSystems Reference Document 5.1 106\n\nQuando un personaggio prepara un incantesimo,  lo lancia normalmente ma trattiene la sua energia,  liberandola con la sua reazione quando l'innesco  si verifica. Al fine di poter essere preparato,  un incantesimo deve avere un tempo di lancio di  1 azione, e trattenere la magia dell'incantesimo  richiede concentrazione. Se la concentrazione viene  meno, l'incantesimo si dissipa senza avere effetto.  Per esempio, se un personaggio si concentra  sull'incantesimo *"
               },
               {
                 "type": "spell",
@@ -4969,16 +4726,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Un personaggio effettua un attacco a distanza  quando tira con un arco o una balestra, "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": "  un'"
+                "text": "Un personaggio effettua un attacco a distanza  quando tira con un arco o una balestra, lancia  un'"
               },
               {
                 "type": "equipment",
@@ -5361,16 +5109,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "I punti ferita rappresentano una combinazione di  "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " fisica e mentale, di volontà di vivere e di  fortuna. Le creature con più punti ferita sono più  difficili da uccidere. Quelle con meno punti ferita  sono più fragili.   I punti ferita attuali di una creatura (in genere  chiamati semplicemente punti ferita) possono essere  un qualsiasi numero compreso tra 0 e i suoi punti  ferita massimi. Questo numero cambia di frequente,  man mano che una creatura subisce danni o viene  curata.   Ogni volta che una creatura subisce danni,  quell'ammontare di danni viene sottratto dai suoi  punti ferita. La perdita di punti ferita non ha alcun  effetto sulle capacità di una creatura finché essa non  scende a 0 punti ferita."
+                "text": "I punti ferita rappresentano una combinazione di  resistenza fisica e mentale, di volontà di vivere e di  fortuna. Le creature con più punti ferita sono più  difficili da uccidere. Quelle con meno punti ferita  sono più fragili.   I punti ferita attuali di una creatura (in genere  chiamati semplicemente punti ferita) possono essere  un qualsiasi numero compreso tra 0 e i suoi punti  ferita massimi. Questo numero cambia di frequente,  man mano che una creatura subisce danni o viene  curata.   Ogni volta che una creatura subisce danni,  quell'ammontare di danni viene sottratto dai suoi  punti ferita. La perdita di punti ferita non ha alcun  effetto sulle capacità di una creatura finché essa non  scende a 0 punti ferita."
               }
             ],
             "children": []
@@ -5381,16 +5120,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Ogni arma, incantesimo e capacità dannosa dei  mostri specifica i danni che infligge. Si tirano il dado  o i dadi di danno, si aggiungono gli eventuali  modificatori e si applicano i danni al bersaglio.  Le armi magiche, le capacità speciali e altri fattori  possono conferire un bonus ai danni. Subendo  penalità è possibile infliggere 0 danni, ma mai danni  negativi.   Quando un personaggio attacca con un'**arma**,  aggiunge ai danni il suo modificatore di  caratteristica (lo stesso modificatore usato per il tiro  per colpire). Un **incantesimo** indica quali dadi tirare  per i danni e se aggiungere o meno dei modificatori.   Se un incantesimo o un altro effetto infligge danni  a **più di un bersaglio** allo stesso tempo, si tira  per i danni una volta sola per tutti i bersagli. Per  esempio, quando un mago "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " *"
+                "text": "Ogni arma, incantesimo e capacità dannosa dei  mostri specifica i danni che infligge. Si tirano il dado  o i dadi di danno, si aggiungono gli eventuali  modificatori e si applicano i danni al bersaglio.  Le armi magiche, le capacità speciali e altri fattori  possono conferire un bonus ai danni. Subendo  penalità è possibile infliggere 0 danni, ma mai danni  negativi.   Quando un personaggio attacca con un'**arma**,  aggiunge ai danni il suo modificatore di  caratteristica (lo stesso modificatore usato per il tiro  per colpire). Un **incantesimo** indica quali dadi tirare  per i danni e se aggiungere o meno dei modificatori.   Se un incantesimo o un altro effetto infligge danni  a **più di un bersaglio** allo stesso tempo, si tira  per i danni una volta sola per tutti i bersagli. Per  esempio, quando un mago lancia *"
               },
               {
                 "type": "spell",
@@ -5399,16 +5129,7 @@
               },
               {
                 "type": "text",
-                "text": "* o un chierico "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " *"
+                "text": "* o un chierico lancia *"
               },
               {
                 "type": "spell",
@@ -5447,16 +5168,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Gli attacchi, gli incantesimi e gli altri effetti dannosi  infliggono vari tipi di danno. I tipi di danno non  seguono regole particolari ma altre regole, come  per esempio la "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " ai danni, possono farvi  riferimento.   Di seguito sono elencati i vari tipi di danno, oltre  ad alcuni esempi che possono aiutare il GM ad  assegnare un tipo di danno a un nuovo effetto.  _**"
+                    "text": "Gli attacchi, gli incantesimi e gli altri effetti dannosi  infliggono vari tipi di danno. I tipi di danno non  seguono regole particolari ma altre regole, come  per esempio la resistenza ai danni, possono farvi  riferimento.   Di seguito sono elencati i vari tipi di danno, oltre  ad alcuni esempi che possono aiutare il GM ad  assegnare un tipo di danno a un nuovo effetto.  _**"
                   },
                   {
                     "type": "damage_type",
@@ -5784,43 +5496,7 @@
               },
               {
                 "type": "text",
-                "text": "** a un tipo di danno, i danni di quel tipo  che subisce sono dimezzati. Se una creatura o un  oggetto è dotato di **vulnerabilità** a un tipo di danno,  i danni di quel tipo che subisce sono raddoppiati.   La "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " e la vulnerabilità si applicano dopo  tutti gli altri modificatori ai danni. Si prenda  l'esempio di una creatura dotata di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " ai  danni contundenti che viene colpita da un attacco  che infligge 25 danni contundenti. La creatura si  trova anche entro un'aura magica che riduce di  5 tutti i danni. I 25 danni vengono prima ridotti  di 5 e poi dimezzati, quindi la creatura subisce  10 danni.   Più istanze di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o vulnerabilità che  influenzano lo stesso tipo di danno contano sempre  come una sola istanza. Per esempio, se una creatura  è dotata di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " ai danni da "
+                "text": "** a un tipo di danno, i danni di quel tipo  che subisce sono dimezzati. Se una creatura o un  oggetto è dotato di **vulnerabilità** a un tipo di danno,  i danni di quel tipo che subisce sono raddoppiati.   La resistenza e la vulnerabilità si applicano dopo  tutti gli altri modificatori ai danni. Si prenda  l'esempio di una creatura dotata di resistenza ai  danni contundenti che viene colpita da un attacco  che infligge 25 danni contundenti. La creatura si  trova anche entro un'aura magica che riduce di  5 tutti i danni. I 25 danni vengono prima ridotti  di 5 e poi dimezzati, quindi la creatura subisce  10 danni.   Più istanze di resistenza o vulnerabilità che  influenzano lo stesso tipo di danno contano sempre  come una sola istanza. Per esempio, se una creatura  è dotata di resistenza ai danni da "
               },
               {
                 "type": "damage_type",
@@ -5829,16 +5505,7 @@
               },
               {
                 "type": "text",
-                "text": " e di  "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " a tutti i danni non magici, i danni di un  "
+                "text": " e di  resistenza a tutti i danni non magici, i danni di un  "
               },
               {
                 "type": "damage_type",
@@ -6041,16 +5708,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Un cavaliere che parte alla carica in sella al suo  cavallo da guerra, un mago che "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " incantesimi  dal dorso di un grifone o un chierico che sfreccia in  cielo su di un pegaso beneficiano tutti della "
+            "text": "Un cavaliere che parte alla carica in sella al suo  cavallo da guerra, un mago che lancia incantesimi  dal dorso di un grifone o un chierico che sfreccia in  cielo su di un pegaso beneficiano tutti della "
           },
           {
             "type": "spell",
@@ -6255,16 +5913,7 @@
           },
           {
             "type": "text",
-            "text": ").   Le creature e gli oggetti completamente immersi  nell'acqua sono dotati di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da "
+            "text": ").   Le creature e gli oggetti completamente immersi  nell'acqua sono dotati di resistenza ai danni da "
           },
           {
             "type": "damage_type",

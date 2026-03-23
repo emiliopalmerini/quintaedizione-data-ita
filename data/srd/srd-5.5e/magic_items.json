@@ -105,16 +105,7 @@
       },
       {
         "type": "text",
-        "text": " con CD 17, altrimenti viene  intrappolato all'interno dell'ampolla. Se il bersaglio  è già stato intrappolato in questo modo in passato,  effettua il tiro salvezza con vantaggio. Una volta  intrappolata, la creatura rimane nell'ampolla finché  non viene liberata. L­'ampolla può contenere una  sola creatura alla volta. Una creatura intrappolata  nell'ampolla non invecchia e non ha bisogno di  respirare, mangiare o bere. Il personaggio può effettuare un'azione di Magia  per rimuovere il tappo e liberare la creatura intrappolata. Questa obbedirà ai suoi comandi per 1 ora  e li capirà nonostante non conosca la lingua in cui  vengono impartiti. Se non riceve alcun "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": "  o ne riceve uno che potrebbe portarla alla morte  o alla prigionia, si limita a difendersi senza eseguire  alcuna azione. Alla fine dell'ora, la creatura torna  a comportarsi come previsto dalla sua "
+        "text": " con CD 17, altrimenti viene  intrappolato all'interno dell'ampolla. Se il bersaglio  è già stato intrappolato in questo modo in passato,  effettua il tiro salvezza con vantaggio. Una volta  intrappolata, la creatura rimane nell'ampolla finché  non viene liberata. L­'ampolla può contenere una  sola creatura alla volta. Una creatura intrappolata  nell'ampolla non invecchia e non ha bisogno di  respirare, mangiare o bere. Il personaggio può effettuare un'azione di Magia  per rimuovere il tappo e liberare la creatura intrappolata. Questa obbedirà ai suoi comandi per 1 ora  e li capirà nonostante non conosca la lingua in cui  vengono impartiti. Se non riceve alcun comando  o ne riceve uno che potrebbe portarla alla morte  o alla prigionia, si limita a difendersi senza eseguire  alcuna azione. Alla fine dell'ora, la creatura torna  a comportarsi come previsto dalla sua "
       },
       {
         "type": "skill",
@@ -187,16 +178,7 @@
       },
       {
         "type": "text",
-        "text": ") con  CD 15. Se la prova viene superata, il personaggio  "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo *"
+        "text": ") con  CD 15. Se la prova viene superata, il personaggio  lancia l'incantesimo *"
       },
       {
         "type": "spell",
@@ -343,25 +325,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Ciascun *anello del "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " degli elementali* è collegato a uno dei quattro Piani Elementali scelto dal  GM o determinato in maniera casuale. Per esempio,  un *anello del "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " degli elementali* (aria) è collegato al Piano "
+        "text": "Ciascun *anello del comando degli elementali* è collegato a uno dei quattro Piani Elementali scelto dal  GM o determinato in maniera casuale. Per esempio,  un *anello del comando degli elementali* (aria) è collegato al Piano "
       },
       {
         "type": "creature_type",
@@ -370,16 +334,7 @@
       },
       {
         "type": "text",
-        "text": " dell'Aria. Ogni *anello del "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " degli elementali* ha le  seguenti proprietà: **"
+        "text": " dell'Aria. Ogni *anello del comando degli elementali* ha le  seguenti proprietà: **"
       },
       {
         "type": "spell",
@@ -478,16 +433,7 @@
       },
       {
         "type": "text",
-        "text": " di nuoto di 18 metri e può respirare  sott'acqua. **Aria.** Il personaggio conosce l'Auran, ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  ai danni da "
+        "text": " di nuoto di 18 metri e può respirare  sott'acqua. **Aria.** Il personaggio conosce l'Auran, ha resistenza  ai danni da "
       },
       {
         "type": "damage_type",
@@ -532,16 +478,7 @@
       },
       {
         "type": "text",
-        "text": ". **Terra.** Il personaggio conosce il Terran e ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": ". **Terra.** Il personaggio conosce il Terran e ha resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -777,16 +714,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Finché il personaggio indossa questo anello, può  effettuare un'azione di Magia per ottenere la vista  a raggi X con un raggio d'azione di 9 metri per  1 minuto. Gli oggetti solidi che si trovano entro  il raggio d'azione appaiono al personaggio come  trasparenti e non impediscono alla "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " di attraversarli. La vista può penetrare 30 cm di pietra,  2,5 centimetri di metallo comune o fino a 90 centimetri di legno o terriccio. Tuttavia, è bloccata da  sostanze più dense o da un sottile strato di piombo. Ogni volta che usa di nuovo l'anello prima di  completare un riposo lungo, il personaggio deve  superare un tiro salvezza su "
+        "text": "Finché il personaggio indossa questo anello, può  effettuare un'azione di Magia per ottenere la vista  a raggi X con un raggio d'azione di 9 metri per  1 minuto. Gli oggetti solidi che si trovano entro  il raggio d'azione appaiono al personaggio come  trasparenti e non impediscono alla luce di attraversarli. La vista può penetrare 30 cm di pietra,  2,5 centimetri di metallo comune o fino a 90 centimetri di legno o terriccio. Tuttavia, è bloccata da  sostanze più dense o da un sottile strato di piombo. Ogni volta che usa di nuovo l'anello prima di  completare un riposo lungo, il personaggio deve  superare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -947,16 +875,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Finché il personaggio indossa questo anello, ottiene  "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a un tipo di danno rappresentato dalla  gemma incastonata in esso. Questa è a scelta del GM  o determinata casualmente tirando sulla tabella  seguente. | 1d10 | Tipo di danno | Gemma |\n| --- | --- | --- |\n| 1 | "
+        "text": "Finché il personaggio indossa questo anello, ottiene  resistenza a un tipo di danno rappresentato dalla  gemma incastonata in esso. Questa è a scelta del GM  o determinata casualmente tirando sulla tabella  seguente. | 1d10 | Tipo di danno | Gemma |\n| --- | --- | --- |\n| 1 | "
       },
       {
         "type": "damage_type",
@@ -1147,16 +1066,7 @@
       },
       {
         "type": "text",
-        "text": "* con  l'anello. _**Sfere di fulmini.**_ Il personaggio può consumare  2 cariche effettuando un'azione di Magia per creare  da una a quattro sfere di fulmini del diametro di  90 centimetri. Ogni sfera compare in uno spazio libero che il  personaggio è in grado di vedere entro 36 metri da  sé e dura finché egli mantiene la concentrazione,  fino a un massimo di 1 minuto. Ogni sfera emana  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca in un raggio di 9 metri. Come azione bonus, il personaggio può muovere  ogni sfera fino a 9 metri, ma mai a più di 36 metri  da sé. La prima volta che la sfera giunge entro  1,5 metri da una creatura senza copertura totale  che non sia il personaggio, sprigiona una scarica  di fulmini contro di essa e scompare. La creatura  effettua un tiro salvezza su "
+        "text": "* con  l'anello. _**Sfere di fulmini.**_ Il personaggio può consumare  2 cariche effettuando un'azione di Magia per creare  da una a quattro sfere di fulmini del diametro di  90 centimetri. Ogni sfera compare in uno spazio libero che il  personaggio è in grado di vedere entro 36 metri da  sé e dura finché egli mantiene la concentrazione,  fino a un massimo di 1 minuto. Ogni sfera emana  luce fioca in un raggio di 9 metri. Come azione bonus, il personaggio può muovere  ogni sfera fino a 9 metri, ma mai a più di 36 metri  da sé. La prima volta che la sfera giunge entro  1,5 metri da una creatura senza copertura totale  che non sia il personaggio, sprigiona una scarica  di fulmini contro di essa e scompare. La creatura  effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -1192,25 +1102,7 @@
       },
       {
         "type": "text",
-        "text": " |\n| --- | --- | --- | --- |\n| 1 | 4d12 | 3 | 2d6 |\n| 2 | 5d4 | 4 | 2d4 | _**Stelle cadenti.**_ Il personaggio può consumare  da 1 a 3 cariche effettuando un'azione di Magia.  Per ogni carica consumata, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  dall'anello un frammento di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " scintillante verso  un punto che è in grado di vedere situato entro  18 metri da sé. Ogni creatura che si trova all'interno  di un cubo con spigolo di 4,5 metri originato da quel  punto viene inondata di scintille ed effettua un tiro  salvezza su "
+        "text": " |\n| --- | --- | --- | --- |\n| 1 | 4d12 | 3 | 2d6 |\n| 2 | 5d4 | 4 | 2d4 | _**Stelle cadenti.**_ Il personaggio può consumare  da 1 a 3 cariche effettuando un'azione di Magia.  Per ogni carica consumata, il personaggio lancia  dall'anello un frammento di luce scintillante verso  un punto che è in grado di vedere situato entro  18 metri da sé. Ogni creatura che si trova all'interno  di un cubo con spigolo di 4,5 metri originato da quel  punto viene inondata di scintille ed effettua un tiro  salvezza su "
       },
       {
         "type": "ability",
@@ -1333,25 +1225,7 @@
       },
       {
         "type": "text",
-        "text": " (CD 15 |\n| 6 | L'apparatus cammina o nuota in avanti a condizione |  | L'apparatus cammina o nuota all'indietro a condizione |  |\n|  | che le zampe siano estese. |  | che le zampe siano estese. |  |\n| 7 | L'apparatus ruota di 90 gradi in senso antiorario a |  | L'apparatus ruota di 90 gradi in senso orario a condi­ |  |\n|  | condizione che le zampe siano estese. |  | zione che le zampe siano estese. |  |\n| 8 | Strutture simili a occhi proiettano "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 9 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 9 metri. |  | Le luci si spengono. |  |\n| 9 | L'apparatus affonda fino a 6 metri se è immerso in un liquido. |  | L'apparatus risale per 6 metri nel liquido in cui si trova. |  |\n| 10 | Lo sportello posteriore si sblocca e si apre. |  | Lo sportello posteriore si chiude e sigilla l'abitacolo. |  | Per essere utilizzato come veicolo, l'apparatus  necessita di un pilota. Quando lo sportello  ­dell'apparatus è chiuso, l'abitacolo è sigillato  e a tenuta stagna sia per l'aria che per l'acqua.  ­L'abitacolo contiene una quantità d'aria sufficiente  per 10 ore, da dividere per il numero di creature che  respirano al suo interno. L'apparatus galleggia sull'acqua. Può anche  immergersi fino a una profondità di 270 metri. Ciascun minuto trascorso al di sotto di tale profondità,  il veicolo subisce 2d6 danni contundenti a causa  della pressione. Una creatura all'interno dell'abitacolo può usare  un'azione di Utilizzo per muovere su o giù fino a due  leve. Dopo ogni uso, le leve tornano in posizione  neutrale. Il funzionamento delle leve, da sinistra  a destra, è descritto nella tabella \"Leve dell'apparatus del granchio\"."
+        "text": " (CD 15 |\n| 6 | L'apparatus cammina o nuota in avanti a condizione |  | L'apparatus cammina o nuota all'indietro a condizione |  |\n|  | che le zampe siano estese. |  | che le zampe siano estese. |  |\n| 7 | L'apparatus ruota di 90 gradi in senso antiorario a |  | L'apparatus ruota di 90 gradi in senso orario a condi­ |  |\n|  | condizione che le zampe siano estese. |  | zione che le zampe siano estese. |  |\n| 8 | Strutture simili a occhi proiettano luce intensa in un raggio di 9 metri e luce fioca per altri 9 metri. |  | Le luci si spengono. |  |\n| 9 | L'apparatus affonda fino a 6 metri se è immerso in un liquido. |  | L'apparatus risale per 6 metri nel liquido in cui si trova. |  |\n| 10 | Lo sportello posteriore si sblocca e si apre. |  | Lo sportello posteriore si chiude e sigilla l'abitacolo. |  | Per essere utilizzato come veicolo, l'apparatus  necessita di un pilota. Quando lo sportello  ­dell'apparatus è chiuso, l'abitacolo è sigillato  e a tenuta stagna sia per l'aria che per l'acqua.  ­L'abitacolo contiene una quantità d'aria sufficiente  per 10 ore, da dividere per il numero di creature che  respirano al suo interno. L'apparatus galleggia sull'acqua. Può anche  immergersi fino a una profondità di 270 metri. Ciascun minuto trascorso al di sotto di tale profondità,  il veicolo subisce 2d6 danni contundenti a causa  della pressione. Una creatura all'interno dell'abitacolo può usare  un'azione di Utilizzo per muovere su o giù fino a due  leve. Dopo ogni uso, le leve tornano in posizione  neutrale. Il funzionamento delle leve, da sinistra  a destra, è descritto nella tabella \"Leve dell'apparatus del granchio\"."
       }
     ]
   },
@@ -1388,25 +1262,7 @@
       },
       {
         "type": "text",
-        "text": " invece che  perforanti se il colpo va a segno, e scompare dopo  aver colpito o mancato il bersaglio. Finché non  scompare, la freccia proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un  raggio di 6 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 6 metri. Quest'arma ha le seguenti proprietà aggiuntive: _**Freccia della "
+        "text": " invece che  perforanti se il colpo va a segno, e scompare dopo  aver colpito o mancato il bersaglio. Finché non  scompare, la freccia proietta luce intensa in un  raggio di 6 metri e luce fioca per altri 6 metri. Quest'arma ha le seguenti proprietà aggiuntive: _**Freccia della "
       },
       {
         "type": "spell",
@@ -1515,16 +1371,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Se il combattimento ha inizio, l'arma  risveglia magicamente tutti i soggetti addormentati. Questo beneficio non funziona per il "
-      },
-      {
-        "type": "spell",
-        "text": "sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": "  indotto magicamente. _**Prontezza soprannaturale.**_ Tutti i soggetti  interessati effettuano i tiri per l'iniziativa con  vantaggio."
+        "text": ".**_ Se il combattimento ha inizio, l'arma  risveglia magicamente tutti i soggetti addormentati. Questo beneficio non funziona per il sonno  indotto magicamente. _**Prontezza soprannaturale.**_ Tutti i soggetti  interessati effettuano i tiri per l'iniziativa con  vantaggio."
       }
     ]
   },
@@ -1612,16 +1459,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Il personaggio che indossa questa armatura  ottiene "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a un tipo di danno a scelta del  GM o determinato in modo casuale tirando sulla  seguente tabella. | 1d10 | Tipo di danno | 1d10 | Tipo di danno |\n| --- | --- | --- | --- |\n| 1 | "
+        "text": "Il personaggio che indossa questa armatura  ottiene resistenza a un tipo di danno a scelta del  GM o determinato in modo casuale tirando sulla  seguente tabella. | 1d10 | Tipo di danno | 1d10 | Tipo di danno |\n| --- | --- | --- | --- |\n| 1 | "
       },
       {
         "type": "damage_type",
@@ -1725,16 +1563,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Il personaggio che indossa quest'armatura ottiene  "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a uno dei seguenti tipi di danno: contundenti, perforanti o taglienti. Il GM sceglie il tipo  o lo determina casualmente. _**Maledizione.**_ Quest'armatura è maledetta,  fatto che viene rivelato solo quando su di essa  viene lanciato l'incantesimo *"
+        "text": "Il personaggio che indossa quest'armatura ottiene  resistenza a uno dei seguenti tipi di danno: contundenti, perforanti o taglienti. Il GM sceglie il tipo  o lo determina casualmente. _**Maledizione.**_ Quest'armatura è maledetta,  fatto che viene rivelato solo quando su di essa  viene lanciato l'incantesimo *"
       },
       {
         "type": "spell",
@@ -1752,16 +1581,7 @@
       },
       {
         "type": "text",
-        "text": "* o un'altra  magia simile; rimuovere l'armatura non pone fine  alla maledizione. Finché è maledetto, il personaggio  acquisisce vulnerabilità a due dei tre tipi di danno  associati all'armatura (escludendo quello a cui  concede "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": ")."
+        "text": "* o un'altra  magia simile; rimuovere l'armatura non pone fine  alla maledizione. Finché è maledetto, il personaggio  acquisisce vulnerabilità a due dei tre tipi di danno  associati all'armatura (escludendo quello a cui  concede resistenza)."
       }
     ]
   },
@@ -1775,16 +1595,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un personaggio che la indossa dispone di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  ai danni contundenti, perforanti e taglienti. _**Guscio in metallo.**_ Come azione di Magia il  ­personaggio può ottenere immunità ai danni  contundenti, perforanti e taglienti per 10 minuti o  finché non indossa più l'armatura. Una volta usata,  questa proprietà non può essere riutilizzata fino  all'alba successiva."
+        "text": "Un personaggio che la indossa dispone di resistenza  ai danni contundenti, perforanti e taglienti. _**Guscio in metallo.**_ Come azione di Magia il  ­personaggio può ottenere immunità ai danni  contundenti, perforanti e taglienti per 10 minuti o  finché non indossa più l'armatura. Una volta usata,  questa proprietà non può essere riutilizzata fino  all'alba successiva."
       }
     ]
   },
@@ -1922,16 +1733,7 @@
       },
       {
         "type": "text",
-        "text": "* (CD del tiro salvezza  15). Consumando 1 carica, "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " la versione di  3º livello dell'incantesimo. Il livello dell'incantesimo  è aumentabile di 1 per ogni carica aggiuntiva  consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
+        "text": "* (CD del tiro salvezza  15). Consumando 1 carica, lancia la versione di  3º livello dell'incantesimo. Il livello dell'incantesimo  è aumentabile di 1 per ogni carica aggiuntiva  consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
       }
     ]
   },
@@ -2074,16 +1876,7 @@
       },
       {
         "type": "text",
-        "text": " 3–4 |  |  | 2 topo |  | rinoceronte | 1 |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 93–97 | Il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " mira la creatura più vicina al punto di origine prescelto. Il giocatore tira 1d4 per determi­ nare la nuova forma della creatura. Con un |  |  |  |  | "
+        "text": " 3–4 |  |  | 2 topo |  | rinoceronte | 1 |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 93–97 | Il personaggio lancia mira la creatura più vicina al punto di origine prescelto. Il giocatore tira 1d4 per determi­ nare la nuova forma della creatura. Con un |  |  |  |  | "
       },
       {
         "type": "spell",
@@ -2092,16 +1885,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  | prendendo di |  |  |  | 56–60 | Una creatura formata magicamente compare in uno spazio libero il più vicino possibile al punto di origine prescelto. Non è sotto il controllo del personaggio e si comporta |  |  |  |  |  |  |  |  |\n|  | risultato di |  |  | , diventa un |  |  |  |  |  | ; con |  | , |  | come farebbe normalmente, scomparendo |  |  |  |  |  |  |  |  |\n|  | diventa una |  | . |  | ; con |  | , diventa una |  |  |  |  |  |  | dopo 1 ora o quando scende a 0 punti ferita. Il personaggio tira 1d4 per determinare il tipo |  |  |  |  |  |  |  |  |\n| 98–00 | La creatura più vicina al punto di origine pre­ |  |  |  |  |  |  |  |  |  |  |  |  | di creatura. Con un risultato di |  |  |  |  |  | , compare un |  |  |\n| 01–20 | Il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo che ha scelto effettua un tiro salvezza su "
+        "text": " |  |  | prendendo di |  |  |  | 56–60 | Una creatura formata magicamente compare in uno spazio libero il più vicino possibile al punto di origine prescelto. Non è sotto il controllo del personaggio e si comporta |  |  |  |  |  |  |  |  |\n|  | risultato di |  |  | , diventa un |  |  |  |  |  | ; con |  | , |  | come farebbe normalmente, scomparendo |  |  |  |  |  |  |  |  |\n|  | diventa una |  | . |  | ; con |  | , diventa una |  |  |  |  |  |  | dopo 1 ora o quando scende a 0 punti ferita. Il personaggio tira 1d4 per determinare il tipo |  |  |  |  |  |  |  |  |\n| 98–00 | La creatura più vicina al punto di origine pre­ |  |  |  |  |  |  |  |  |  |  |  |  | di creatura. Con un risultato di |  |  |  |  |  | , compare un |  |  |\n| 01–20 | Il personaggio lancia un incantesimo che ha scelto effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -2173,16 +1957,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  |  | o altre |  |  |  |  | nel Piano Etereo. L'oggetto non deve essere indossato né trasportato, deve trovarsi entro |  |  |  |  |  |  |  |  |\n| 26–30 31–35 36–40 | Il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " creata dall'incantesimo si estende dal perso­ naggio fino al punto di origine prescelto. Non accade nulla nel punto di origine pre­ scelto. Invece, il personaggio subisce 1d6 danni psichici. Una fitta pioggia cade per 1 minuto in un |  |  |  |  | "
+        "text": " |  |  |  | o altre |  |  |  |  | nel Piano Etereo. L'oggetto non deve essere indossato né trasportato, deve trovarsi entro |  |  |  |  |  |  |  |  |\n| 26–30 31–35 36–40 | Il personaggio lancia creata dall'incantesimo si estende dal perso­ naggio fino al punto di origine prescelto. Non accade nulla nel punto di origine pre­ scelto. Invece, il personaggio subisce 1d6 danni psichici. Una fitta pioggia cade per 1 minuto in un |  |  |  |  | "
       },
       {
         "type": "spell",
@@ -2191,16 +1966,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  | . La linea |  |  |  | 69–72 | 36 metri dal punto di origine prescelto e non deve superare i 3 metri in nessuna delle sue dimensioni. Se non ci sono oggetti di questo tipo a portata, non succede nulla. Non accade nulla nel punto di origine pre­ scelto. Invece, il personaggio si rimpicciolisce |  |  |  |  |  |  |  |  |\n| 41–45 | cilindro alto 36 metri e con raggio di 18 metri centrato sul punto di origine prescelto. Durante quel periodo di tempo, l'area di effetto è leggermente oscurata. Una nube di 600 farfalle voluminose riempie un cilindro alto 18 metri e con raggio di 9 metri centrato sul punto di origine pre­ scelto. Le farfalle permangono per 10 minuti e, durante tale periodo di tempo, l'area di effetto è pesantemente oscurata. |  |  |  |  |  |  |  |  |  |  |  | 73–77 78–82 | come se avesse lanciato sé e rimane in questo stato per 1 minuto. Crescono delle foglie dalla creatura più vicina al punto di origine prescelto. Se non vengono staccate, le foglie avvizziscono e cadono dopo 24 ore. Non accade nulla nel punto di origine pre­ scelto. Invece, un'esplosione di scintillante "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " colorata si estende dal personaggio in un'ema­ nazione di 9 metri. Ogni creatura in quell'area deve superare un tiro salvezza su "
+        "text": " |  |  | . La linea |  |  |  | 69–72 | 36 metri dal punto di origine prescelto e non deve superare i 3 metri in nessuna delle sue dimensioni. Se non ci sono oggetti di questo tipo a portata, non succede nulla. Non accade nulla nel punto di origine pre­ scelto. Invece, il personaggio si rimpicciolisce |  |  |  |  |  |  |  |  |\n| 41–45 | cilindro alto 36 metri e con raggio di 18 metri centrato sul punto di origine prescelto. Durante quel periodo di tempo, l'area di effetto è leggermente oscurata. Una nube di 600 farfalle voluminose riempie un cilindro alto 18 metri e con raggio di 9 metri centrato sul punto di origine pre­ scelto. Le farfalle permangono per 10 minuti e, durante tale periodo di tempo, l'area di effetto è pesantemente oscurata. |  |  |  |  |  |  |  |  |  |  |  | 73–77 78–82 | come se avesse lanciato sé e rimane in questo stato per 1 minuto. Crescono delle foglie dalla creatura più vicina al punto di origine prescelto. Se non vengono staccate, le foglie avvizziscono e cadono dopo 24 ore. Non accade nulla nel punto di origine pre­ scelto. Invece, un'esplosione di scintillante luce colorata si estende dal personaggio in un'ema­ nazione di 9 metri. Ogni creatura in quell'area deve superare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -2218,16 +1984,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  | su di |\n| 46–50 | Il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " dall'incantesimo si estende dal personaggio fino al punto di origine prescelto. |  |  |  |  | "
+        "text": " |  |  | su di |\n| 46–50 | Il personaggio lancia dall'incantesimo si estende dal personaggio fino al punto di origine prescelto. |  |  |  |  | "
       },
       {
         "type": "damage_type",
@@ -2245,16 +2002,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  |  | su di |  | 88–92 | scelto. Invece, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " su se stesso. Non accade nulla nel punto di origine pre­ scelto. Invece, la punta della bacchetta genera un getto di 1d4 × 10 gemme, ognuna dal valore di 1 mo, in una linea lunga 9 metri e larga 1,5 metri verso il punto di origine prescelto. Ogni gemma infligge 1 danno "
+        "text": " |  |  |  | su di |  | 88–92 | scelto. Invece, il personaggio lancia su se stesso. Non accade nulla nel punto di origine pre­ scelto. Invece, la punta della bacchetta genera un getto di 1d4 × 10 gemme, ognuna dal valore di 1 mo, in una linea lunga 9 metri e larga 1,5 metri verso il punto di origine prescelto. Ogni gemma infligge 1 danno "
       },
       {
         "type": "damage_type",
@@ -2295,16 +2043,7 @@
       },
       {
         "type": "text",
-        "text": "* (CD del  tiro salvezza 15). Consumando 1 carica, "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " la  versione di 3º livello dell'incantesimo. Il livello  dell'incantesimo è aumentabile di 1 per ogni carica  aggiuntiva consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
+        "text": "* (CD del  tiro salvezza 15). Consumando 1 carica, lancia la  versione di 3º livello dell'incantesimo. Il livello  dell'incantesimo è aumentabile di 1 per ogni carica  aggiuntiva consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
       }
     ]
   },
@@ -2341,16 +2080,7 @@
       },
       {
         "type": "text",
-        "text": "*. Consumando  1 carica, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " la versione di  1º livello dell'incantesimo. Il livello dell'incantesimo  è aumentabile di 1 per ogni carica aggiuntiva  consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
+        "text": "*. Consumando  1 carica, il personaggio lancia la versione di  1º livello dell'incantesimo. Il livello dell'incantesimo  è aumentabile di 1 per ogni carica aggiuntiva  consumata. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta va in cenere  ed è distrutta."
       }
     ]
   },
@@ -2564,16 +2294,7 @@
       },
       {
         "type": "text",
-        "text": " magico che  conferisce un bonus di +2 ai tiri per colpire e ai tiri  per i danni effettuati con esso. Mentre il personaggio lo impugna, ottiene un bonus di +2 ai tiri per  colpire con incantesimo. _**Assorbimento degli incantesimi.**_ Mentre il  personaggio impugna il bastone, dispone di  vantaggio ai tiri salvezza contro gli incantesimi.  Può inoltre usare la sua reazione quando un'altra  creatura "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo che ha solo lui  come bersaglio. Se lo fa, il bastone assorbe la  magia ­dell'incantesimo, annullandone gli effetti  e ottenendo un numero di cariche pari al livello  dell'incantesimo assorbito. Tuttavia, se così facendo  il numero totale delle cariche del bastone supera  50, il bastone esplode come se il personaggio avesse  attivato il suo colpo del castigo (vedi di seguito). _**Incantesimi.**_ Mentre il personaggio lo impugna,  può lanciare uno degli incantesimi dalla seguente  tabella utilizzando la sua CD del tiro salvezza  sull'incantesimo. La tabella indica quante cariche  vanno consumate per lanciare l'incantesimo.\n\nIncantesimo\n\nCosto in cariche\n\n*"
+        "text": " magico che  conferisce un bonus di +2 ai tiri per colpire e ai tiri  per i danni effettuati con esso. Mentre il personaggio lo impugna, ottiene un bonus di +2 ai tiri per  colpire con incantesimo. _**Assorbimento degli incantesimi.**_ Mentre il  personaggio impugna il bastone, dispone di  vantaggio ai tiri salvezza contro gli incantesimi.  Può inoltre usare la sua reazione quando un'altra  creatura lancia un incantesimo che ha solo lui  come bersaglio. Se lo fa, il bastone assorbe la  magia ­dell'incantesimo, annullandone gli effetti  e ottenendo un numero di cariche pari al livello  dell'incantesimo assorbito. Tuttavia, se così facendo  il numero totale delle cariche del bastone supera  50, il bastone esplode come se il personaggio avesse  attivato il suo colpo del castigo (vedi di seguito). _**Incantesimi.**_ Mentre il personaggio lo impugna,  può lanciare uno degli incantesimi dalla seguente  tabella utilizzando la sua CD del tiro salvezza  sull'incantesimo. La tabella indica quante cariche  vanno consumate per lanciare l'incantesimo.\n\nIncantesimo\n\nCosto in cariche\n\n*"
       },
       {
         "type": "spell",
@@ -3070,16 +2791,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Mentre il personaggio impugna questo bastone,  ottiene "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": "Mentre il personaggio impugna questo bastone,  ottiene resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -3129,16 +2841,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Mentre il personaggio impugna questo bastone,  ottiene "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": "Mentre il personaggio impugna questo bastone,  ottiene resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -3206,16 +2909,7 @@
       },
       {
         "type": "text",
-        "text": "* 2\n\n_**Ripristinare le cariche.**_ All'alba di ogni giorno,  il bastone recupera 1d6 + 4 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, il bastone svanisce in un  lampo di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " ed è perduto per sempre."
+        "text": "* 2\n\n_**Ripristinare le cariche.**_ All'alba di ogni giorno,  il bastone recupera 1d6 + 4 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, il bastone svanisce in un  lampo di luce ed è perduto per sempre."
       }
     ]
   },
@@ -3311,16 +3005,7 @@
       },
       {
         "type": "text",
-        "text": ". Il  personaggio decide quale azione deve effettuare il  ­serpente e dove si muoverà nel suo turno, oppure  può impartirgli un "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " generico come attaccare i nemici o fare la guardia a un luogo. Se non  riceve ordini, il serpente si difende. Come azione bonus, il personaggio può ordinare  al serpente di tornare nella sua forma di bastone  all'interno dello spazio che occupa in quel momento.  Dopodiché, non è possibile utilizzare di nuovo questa  proprietà per 1 ora. Se il serpente scende a 0 punti  ferita, muore e torna alla forma di bastone, che  successivamente va in frantumi e viene distrutto.  Se il serpente torna alla forma di bastone prima di  perdere tutti i punti ferita, li recupera tutti."
+        "text": ". Il  personaggio decide quale azione deve effettuare il  ­serpente e dove si muoverà nel suo turno, oppure  può impartirgli un comando generico come attaccare i nemici o fare la guardia a un luogo. Se non  riceve ordini, il serpente si difende. Come azione bonus, il personaggio può ordinare  al serpente di tornare nella sua forma di bastone  all'interno dello spazio che occupa in quel momento.  Dopodiché, non è possibile utilizzare di nuovo questa  proprietà per 1 ora. Se il serpente scende a 0 punti  ferita, muore e torna alla forma di bastone, che  successivamente va in frantumi e viene distrutto.  Se il serpente torna alla forma di bastone prima di  perdere tutti i punti ferita, li recupera tutti."
       }
     ]
   },
@@ -3456,16 +3141,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Il personaggio ottiene un bonus di +2 ai tiri per  colpire e ai tiri per i danni effettuati con quest'arma  magica. Finché impugna quest'arma, come azione bonus  o dopo aver tirato per l'iniziativa, può far sì che  emetta una "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca verdastra in un raggio di  3 metri, oppure può spegnerla con un'azione bonus. Finché il personaggio impugna quest'arma, può  alterarne la forma con un'azione bonus, trasformandola in una verga di 15 centimetri (per facilità  di trasporto) o un'asta di 3 metri, altrimenti può  ripristinare le sue sembianze di "
+        "text": "Il personaggio ottiene un bonus di +2 ai tiri per  colpire e ai tiri per i danni effettuati con quest'arma  magica. Finché impugna quest'arma, come azione bonus  o dopo aver tirato per l'iniziativa, può far sì che  emetta una luce fioca verdastra in un raggio di  3 metri, oppure può spegnerla con un'azione bonus. Finché il personaggio impugna quest'arma, può  alterarne la forma con un'azione bonus, trasformandola in una verga di 15 centimetri (per facilità  di trasporto) o un'asta di 3 metri, altrimenti può  ripristinare le sue sembianze di "
       },
       {
         "type": "equipment",
@@ -3901,16 +3577,7 @@
       },
       {
         "type": "text",
-        "text": "* per una volta per il personaggio. Scompare  dopo aver concesso il "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": " o dopo 1 ora,  e la bottiglia perde la sua magia."
+        "text": "* per una volta per il personaggio. Scompare  dopo aver concesso il desiderio o dopo 1 ora,  e la bottiglia perde la sua magia."
       }
     ]
   },
@@ -3924,16 +3591,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Il personaggio che indossa questi bracciali ottiene  un bonus di +2 alla Classe Armatura se non veste  alcuna armatura e non usa uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": "."
+        "text": "Il personaggio che indossa questi bracciali ottiene  un bonus di +2 alla Classe Armatura se non veste  alcuna armatura e non usa uno scudo."
       }
     ]
   },
@@ -4120,25 +3778,7 @@
     "description": [
       {
         "type": "text",
-        "text": "La magia della candela si attiva quando la candela  viene accesa, il che richiede un'azione di Magia.  La candela può ardere per 4 ore, dopodiché viene  distrutta. Il personaggio può spegnerla prima che  si esaurisca per usarla successivamente. Il tempo  di utilizzo va sottratto in frazioni da 1 minuto dal  tempo totale per cui la candela può ardere. Mentre è acceso, l'oggetto proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca entro  un raggio di 9 metri. Mentre il personaggio si trova  all'interno di quel raggio, dispone di vantaggio  alle prove con d20. Inoltre, un chierico o un druido  all'interno della "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " possono lanciare incantesimi  di 1º livello che hanno preparato senza spendere  slot incantesimo. In alternativa, quando un personaggio accende  la candela per la prima volta, può usarla per lanciare  l'incantesimo *"
+        "text": "La magia della candela si attiva quando la candela  viene accesa, il che richiede un'azione di Magia.  La candela può ardere per 4 ore, dopodiché viene  distrutta. Il personaggio può spegnerla prima che  si esaurisca per usarla successivamente. Il tempo  di utilizzo va sottratto in frazioni da 1 minuto dal  tempo totale per cui la candela può ardere. Mentre è acceso, l'oggetto proietta luce fioca entro  un raggio di 9 metri. Mentre il personaggio si trova  all'interno di quel raggio, dispone di vantaggio  alle prove con d20. Inoltre, un chierico o un druido  all'interno della luce possono lanciare incantesimi  di 1º livello che hanno preparato senza spendere  slot incantesimo. In alternativa, quando un personaggio accende  la candela per la prima volta, può usarla per lanciare  l'incantesimo *"
       },
       {
         "type": "spell",
@@ -4555,16 +4195,7 @@
       },
       {
         "type": "text",
-        "text": "  aumenta di 2, fino a un massimo di 20. Inoltre, dopo che il personaggio che indossa la  cintura è entrato in sintonia con essa, ogni mattina  all'alba c'è una probabilità del 50% che gli spuntino  barba e baffi, premesso che il suo corpo possa svilupparli, o che la sua barba cresca se ne ha già una. Se non è un nano o un duergar, ottiene i seguenti  benefici aggiuntivi finché indossa la cintura: **Resilienza.** Ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": "  aumenta di 2, fino a un massimo di 20. Inoltre, dopo che il personaggio che indossa la  cintura è entrato in sintonia con essa, ogni mattina  all'alba c'è una probabilità del 50% che gli spuntino  barba e baffi, premesso che il suo corpo possa svilupparli, o che la sua barba cresca se ne ha già una. Se non è un nano o un duergar, ottiene i seguenti  benefici aggiuntivi finché indossa la cintura: **Resilienza.** Ha resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -4710,25 +4341,7 @@
       },
       {
         "type": "text",
-        "text": " |  |\n| 5 | Perla del richiamo | Guardiano d | ella fede |\n| 6–11 | Perla della "
-      },
-      {
-        "type": "spell",
-        "text": "benedizione",
-        "id": "benedizione"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Benedizione",
-        "id": "benedizione"
-      },
-      {
-        "type": "text",
-        "text": " |  |\n| 12 | Perla della cammi­ nata nel vento | "
+        "text": " |  |\n| 5 | Perla del richiamo | Guardiano d | ella fede |\n| 6–11 | Perla della benedizione | Benedizione |  |\n| 12 | Perla della cammi­ nata nel vento | "
       },
       {
         "type": "spell",
@@ -4796,16 +4409,7 @@
       },
       {
         "type": "text",
-        "text": "* è un oggetto estremamente pregiato. Quando indossa quest'armatura, il personaggio  ottiene un bonus di +1 alla Classe Armatura,  vantaggio ai tiri salvezza contro il soffio dei draghi  e "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a un tipo di danno determinato dal  tipo di scaglie da cui è composta l'armatura (vedi  la relativa tabella). Con un'azione, il personaggio può inoltre concentrare i suoi sensi come azione di Magia e percepire  la distanza e la direzione del "
+        "text": "* è un oggetto estremamente pregiato. Quando indossa quest'armatura, il personaggio  ottiene un bonus di +1 alla Classe Armatura,  vantaggio ai tiri salvezza contro il soffio dei draghi  e resistenza a un tipo di danno determinato dal  tipo di scaglie da cui è composta l'armatura (vedi  la relativa tabella). Con un'azione, il personaggio può inoltre concentrare i suoi sensi come azione di Magia e percepire  la distanza e la direzione del "
       },
       {
         "type": "creature_type",
@@ -4823,16 +4427,7 @@
       },
       {
         "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " | "
+        "text": " | Resistenza | "
       },
       {
         "type": "creature_type",
@@ -4841,16 +4436,7 @@
       },
       {
         "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " |\n| --- | --- | --- | --- |\n| Argento | "
+        "text": " | Resistenza |\n| --- | --- | --- | --- |\n| Argento | "
       },
       {
         "type": "damage_type",
@@ -5172,16 +4758,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Premendo una faccia del cubo, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo *"
+        "text": ".**_ Premendo una faccia del cubo, il personaggio lancia l'incantesimo *"
       },
       {
         "type": "spell",
@@ -5208,16 +4785,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Premendo due volte una  faccia del cubo, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo  *"
+        "text": ".**_ Premendo due volte una  faccia del cubo, il personaggio lancia l'incantesimo  *"
       },
       {
         "type": "spell",
@@ -5354,16 +4922,7 @@
       },
       {
         "type": "text",
-        "text": ". Il liquido rosso chiaro presenta minuscole bollicine di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "."
+        "text": ". Il liquido rosso chiaro presenta minuscole bollicine di luce."
       }
     ]
   },
@@ -5427,25 +4986,7 @@
       },
       {
         "type": "text",
-        "text": ", il personaggio  può compiere un'azione di Magia per generare  fiamme dall'arma che impugna. Le fiamme proiettano "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 3 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  fioca per altri 3 metri. Non danneggiano né il personaggio, né l'arma. Quando il personaggio colpisce  con un attacco sferrato con l'arma fiammeggiante,  infligge al bersaglio 1d6 danni da "
+        "text": ", il personaggio  può compiere un'azione di Magia per generare  fiamme dall'arma che impugna. Le fiamme proiettano luce intensa in un raggio di 3 metri e luce  fioca per altri 3 metri. Non danneggiano né il personaggio, né l'arma. Quando il personaggio colpisce  con un attacco sferrato con l'arma fiammeggiante,  infligge al bersaglio 1d6 danni da "
       },
       {
         "type": "damage_type",
@@ -5499,16 +5040,7 @@
       },
       {
         "type": "text",
-        "text": "* (diamante). Non appena  lanciato l'incantesimo, la gemma viene distrutta  e scompare dall'elmo. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " del diamante.**_ Finché ha almeno un  diamante, l'elmo crea un'emanazione di 9 metri.  Quando almeno un "
+        "text": "* (diamante). Non appena  lanciato l'incantesimo, la gemma viene distrutta  e scompare dall'elmo. _**Luce del diamante.**_ Finché ha almeno un  diamante, l'elmo crea un'emanazione di 9 metri.  Quando almeno un "
       },
       {
         "type": "creature_type",
@@ -5517,34 +5049,7 @@
       },
       {
         "type": "text",
-        "text": " si trova in quell'area,  l'emanazione si riempie di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Ogni non  morto che inizia il suo turno in quell'area subisce  1d6 danni radiosi. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " del rubino.**_ Finché rimane incastonato  almeno un rubino, il personaggio ottiene "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  ai danni da "
+        "text": " si trova in quell'area,  l'emanazione si riempie di luce fioca. Ogni non  morto che inizia il suo turno in quell'area subisce  1d6 danni radiosi. _**Resistenza del rubino.**_ Finché rimane incastonato  almeno un rubino, il personaggio ottiene resistenza  ai danni da "
       },
       {
         "type": "damage_type",
@@ -5571,16 +5076,7 @@
       },
       {
         "type": "text",
-        "text": " per avere  fallito un tiro salvezza contro un incantesimo.  Se ottiene come risultato 1, le gemme rimaste  sull'elmo irradiano raggi di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " e l'oggetto viene  distrutto. Ogni creatura situata entro 18 metri  dall'emanazione generata dal personaggio deve  superare un tiro salvezza su "
+        "text": " per avere  fallito un tiro salvezza contro un incantesimo.  Se ottiene come risultato 1, le gemme rimaste  sull'elmo irradiano raggi di luce e l'oggetto viene  distrutto. Ogni creatura situata entro 18 metri  dall'emanazione generata dal personaggio deve  superare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -5745,16 +5241,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Quando indossa questo fermaglio, il personaggio  ottiene "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": "Quando indossa questo fermaglio, il personaggio  ottiene resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -5855,16 +5342,7 @@
       },
       {
         "type": "text",
-        "text": " con CD 15.  In caso di successo, lo sciame si comporta come di  consueto e non può essere controllato dalla musica  del flauto per 24 ore. In caso di fallimento, lo sciame  è controllato dalla musica del flauto e diventa  amichevole nei confronti del personaggio e dei  suoi alleati finché questo continua a suonare ogni  round effettuando un'azione di Magia. Uno sciame  amichevole obbedisce ai comandi del personaggio.  Se il personaggio non impartisce alcun "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": "  allo sciame amichevole, questo si difende, ma non  effettua altre azioni. Se uno sciame amichevole  inizia il suo turno a più di 9 metri dal personaggio,  il controllo che egli esercita su di esso si interrompe: lo sciame torna a comportarsi secondo la  sua "
+        "text": " con CD 15.  In caso di successo, lo sciame si comporta come di  consueto e non può essere controllato dalla musica  del flauto per 24 ore. In caso di fallimento, lo sciame  è controllato dalla musica del flauto e diventa  amichevole nei confronti del personaggio e dei  suoi alleati finché questo continua a suonare ogni  round effettuando un'azione di Magia. Uno sciame  amichevole obbedisce ai comandi del personaggio.  Se il personaggio non impartisce alcun comando  allo sciame amichevole, questo si difende, ma non  effettua altre azioni. Se uno sciame amichevole  inizia il suo turno a più di 9 metri dal personaggio,  il controllo che egli esercita su di esso si interrompe: lo sciame torna a comportarsi secondo la  sua "
       },
       {
         "type": "skill",
@@ -5928,16 +5406,7 @@
       },
       {
         "type": "text",
-        "text": "* e a magie simili. La magia impedisce alla torre di ribaltarsi. Il  tetto, la porta e le mura hanno: CA 20, 100 PF,  immunità ai danni contundenti, perforanti e  taglienti, tranne quelli inflitti da equipaggiamento  d'assedio, e "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a tutti gli altri tipi di danno.  Il rimpicciolimento della torre in forma di statuetta  non ripara i danni che ha sostenuto. La torre può  infatti essere riparata solo tramite un incantesimo  *"
+        "text": "* e a magie simili. La magia impedisce alla torre di ribaltarsi. Il  tetto, la porta e le mura hanno: CA 20, 100 PF,  immunità ai danni contundenti, perforanti e  taglienti, tranne quelli inflitti da equipaggiamento  d'assedio, e resistenza a tutti gli altri tipi di danno.  Il rimpicciolimento della torre in forma di statuetta  non ripara i danni che ha sostenuto. La torre può  infatti essere riparata solo tramite un incantesimo  *"
       },
       {
         "type": "spell",
@@ -5969,34 +5438,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Questo prisma ha 50 cariche. Quando il personaggio  lo tiene in mano, può compiere un'azione di Magia  e usare una delle sue tre parole d'ordine per generare uno degli effetti seguenti: **Prima parola d'ordine.** La gemma emana "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  intensa in un raggio di 9 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per  ulteriori 9 metri. Questo effetto non fa consumare  cariche e dura finché il personaggio non usa  un'azione bonus per ripetere la parola d'ordine  o finché non usa un'altra funzione della gemma. **Seconda parola d'ordine.** Il personaggio consuma  1 carica della gemma e fa sì che quest'ultima  proietti un raggio di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " scintillante contro una  creatura situata entro 18 metri dal personaggio  e che egli è in grado di vedere. La creatura deve  superare un tiro salvezza su "
+        "text": "Questo prisma ha 50 cariche. Quando il personaggio  lo tiene in mano, può compiere un'azione di Magia  e usare una delle sue tre parole d'ordine per generare uno degli effetti seguenti: **Prima parola d'ordine.** La gemma emana luce  intensa in un raggio di 9 metri e luce fioca per  ulteriori 9 metri. Questo effetto non fa consumare  cariche e dura finché il personaggio non usa  un'azione bonus per ripetere la parola d'ordine  o finché non usa un'altra funzione della gemma. **Seconda parola d'ordine.** Il personaggio consuma  1 carica della gemma e fa sì che quest'ultima  proietti un raggio di luce scintillante contro una  creatura situata entro 18 metri dal personaggio  e che egli è in grado di vedere. La creatura deve  superare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -6005,25 +5447,7 @@
       },
       {
         "type": "text",
-        "text": " con CD  15, altrimenti sarà accecata per 1 minuto. La creatura ripete il tiro salvezza alla fine di ogni suo  turno e, se lo supera, l'effetto svanisce. **Terza parola d'ordine.** Il personaggio consuma  5 cariche e fa sì che la gemma emetta una "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  intensa in un cono di 9 metri. Ogni creatura  situata nel cono effettua un tiro salvezza come se  fosse stata colpita dal raggio di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " creato dalla  seconda parola d'ordine. Quando tutte le cariche sono state utilizzate,  la gemma diventa un gioiello non magico del valore  di 50 mo."
+        "text": " con CD  15, altrimenti sarà accecata per 1 minuto. La creatura ripete il tiro salvezza alla fine di ogni suo  turno e, se lo supera, l'effetto svanisce. **Terza parola d'ordine.** Il personaggio consuma  5 cariche e fa sì che la gemma emetta una luce  intensa in un cono di 9 metri. Ogni creatura  situata nel cono effettua un tiro salvezza come se  fosse stata colpita dal raggio di luce creato dalla  seconda parola d'ordine. Quando tutte le cariche sono state utilizzate,  la gemma diventa un gioiello non magico del valore  di 50 mo."
       }
     ]
   },
@@ -6406,16 +5830,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Il personaggio ottiene un bonus di +1 ai tiri per colpire e a quelli per i danni effettuati con ­quest'arma  magica. Finché porta l'arma sulla sua persona,  ottiene anche un bonus di +1 ai tiri salvezza. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": ".**_ L'arma ha 1d3 cariche. Mentre il personaggio la impugna, può consumare 1 carica e usarla  per lanciare *"
+        "text": "Il personaggio ottiene un bonus di +1 ai tiri per colpire e a quelli per i danni effettuati con ­quest'arma  magica. Finché porta l'arma sulla sua persona,  ottiene anche un bonus di +1 ai tiri salvezza. _**Desiderio.**_ L'arma ha 1d3 cariche. Mentre il personaggio la impugna, può consumare 1 carica e usarla  per lanciare *"
       },
       {
         "type": "spell",
@@ -6465,61 +5880,7 @@
       },
       {
         "type": "text",
-        "text": ", il bersaglio subisce  1d8 danni radiosi extra. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " del sole.**_ La lama luminosa di questa spada  proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 4,5 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  fioca per altri 4,5 metri. La "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " è considerata "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  solare. Finché la lama permane, il personaggio può  effettuare un'azione di Magia per ampliare o ridurre  il raggio della "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e fioca di 1,5 metri per  ognuna, fino a un massimo di 9 metri o un minimo  di 3 metri per ognuna."
+        "text": ", il bersaglio subisce  1d8 danni radiosi extra. _**Luce del sole.**_ La lama luminosa di questa spada  proietta luce intensa in un raggio di 4,5 metri e luce  fioca per altri 4,5 metri. La luce è considerata luce  solare. Finché la lama permane, il personaggio può  effettuare un'azione di Magia per ampliare o ridurre  il raggio della luce intensa e fioca di 1,5 metri per  ognuna, fino a un massimo di 9 metri o un minimo  di 3 metri per ognuna."
       }
     ]
   },
@@ -6533,52 +5894,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Quando è accesa, questa lanterna schermabile  arde per 6 ore con 0,5 litri d'olio, proiettando "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  intensa in un raggio di 9 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri  9 metri. Quando si trovano nell'area di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  della lanterna, le creature e gli oggetti invisibili  diventano visibili. Il personaggio può effettuare  un'azione di Utilizzo per schermare la lanterna,  riducendo la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " proiettata a "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca in un raggio  di 1,5 metri."
+        "text": "Quando è accesa, questa lanterna schermabile  arde per 6 ore con 0,5 litri d'olio, proiettando luce  intensa in un raggio di 9 metri e luce fioca per altri  9 metri. Quando si trovano nell'area di luce intensa  della lanterna, le creature e gli oggetti invisibili  diventano visibili. Il personaggio può effettuare  un'azione di Utilizzo per schermare la lanterna,  riducendo la luce proiettata a luce fioca in un raggio  di 1,5 metri."
       }
     ]
   },
@@ -6665,16 +5981,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Queste lenti di cristallo si adattano agli occhi di  chi le indossa. Possiedono 3 cariche. Mentre il  personaggio le indossa, può consumare 1 o più  cariche per lanciare un incantesimo *charme su* *persone* (CD del tiro salvezza 13). Consumando  1 carica, il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " la versione di 1º  livello ­dell'incantesimo. Può aumentare il livello  ­dell'incantesimo di 1 per ogni carica aggiuntiva  consumata. Le lenti recuperano tutte le cariche  consumate all'alba di ogni giorno."
+        "text": "Queste lenti di cristallo si adattano agli occhi di  chi le indossa. Possiedono 3 cariche. Mentre il  personaggio le indossa, può consumare 1 o più  cariche per lanciare un incantesimo *charme su* *persone* (CD del tiro salvezza 13). Consumando  1 carica, il personaggio lancia la versione di 1º  livello ­dell'incantesimo. Può aumentare il livello  ­dell'incantesimo di 1 per ogni carica aggiuntiva  consumata. Le lenti recuperano tutte le cariche  consumate all'alba di ogni giorno."
       }
     ]
   },
@@ -6697,25 +6004,7 @@
       },
       {
         "type": "text",
-        "text": ",  può compiere un'azione bonus e usare una parola  d'ordine per sprigionare le fiamme che avvolgono  la parte dell'arma che infligge danni. Le fiamme  proiettano "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 12 metri  e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 12 metri. Quando la lama è in  fiamme, infligge 2d6 danni da "
+        "text": ",  può compiere un'azione bonus e usare una parola  d'ordine per sprigionare le fiamme che avvolgono  la parte dell'arma che infligge danni. Le fiamme  proiettano luce intensa in un raggio di 12 metri  e luce fioca per altri 12 metri. Quando la lama è in  fiamme, infligge 2d6 danni da "
       },
       {
         "type": "damage_type",
@@ -6897,16 +6186,7 @@
       },
       {
         "type": "text",
-        "text": " creata dall'incantesimo  riempie un'area doppia rispetto al normale. Una  volta usata, questa proprietà non può essere riutilizzata fino all'alba successiva. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " al "
+        "text": " creata dall'incantesimo  riempie un'area doppia rispetto al normale. Una  volta usata, questa proprietà non può essere riutilizzata fino all'alba successiva. _**Resistenza al "
       },
       {
         "type": "damage_type",
@@ -6915,16 +6195,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Ha "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da  "
+        "text": ".**_ Ha resistenza ai danni da  "
       },
       {
         "type": "damage_type",
@@ -7002,16 +6273,7 @@
       },
       {
         "type": "text",
-        "text": ").  In un'area di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca o di "
+        "text": ").  In un'area di luce fioca o di "
       },
       {
         "type": "spell",
@@ -7029,16 +6291,7 @@
       },
       {
         "type": "text",
-        "text": " di volo di 12 metri. Se per qualunque motivo  il personaggio lascia un lembo del mantello o esce  dalla zona di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca o di "
+        "text": " di volo di 12 metri. Se per qualunque motivo  il personaggio lascia un lembo del mantello o esce  dalla zona di luce fioca o di "
       },
       {
         "type": "spell",
@@ -7056,16 +6309,7 @@
       },
       {
         "type": "text",
-        "text": " di volo. Finché il personaggio indossa il mantello in  ­un'area di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca o di "
+        "text": " di volo. Finché il personaggio indossa il mantello in  ­un'area di luce fioca o di "
       },
       {
         "type": "spell",
@@ -7461,34 +6705,7 @@
       },
       {
         "type": "text",
-        "text": " con CD 15, altrimenti  viene distrutto. In caso di successo, la creatura è  spaventata fino al termine del turno successivo del  personaggio. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Finché il personaggio impugna quest'arma,  essa proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 6 metri  e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 6 metri."
+        "text": " con CD 15, altrimenti  viene distrutto. In caso di successo, la creatura è  spaventata fino al termine del turno successivo del  personaggio. _**Luce.**_ Finché il personaggio impugna quest'arma,  essa proietta luce intensa in un raggio di 6 metri  e luce fioca per altri 6 metri."
       }
     ]
   },

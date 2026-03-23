@@ -16,16 +16,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "spell",
-        "text": "guida",
-        "id": "guida"
-      },
-      {
-        "type": "text",
-        "text": " un flusso di energia psionica  nella mente di una creatura entro gittata che egli  è in grado di vedere. Il bersaglio effettua un tiro  salvezza su "
+        "text": "L'incantatore guida un flusso di energia psionica  nella mente di una creatura entro gittata che egli  è in grado di vedere. Il bersaglio effettua un tiro  salvezza su "
       },
       {
         "type": "ability",
@@ -232,16 +223,7 @@
       },
       {
         "type": "text",
-        "text": " a lei fedele, che appare  in uno spazio libero entro gittata. Se l'incantatore  conosce il nome di una creatura specifica, può  pronunciarlo quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo per  richiedere il suo intervento, ma potrebbe apparire  comunque una creatura diversa (a scelta del GM). Quando la creatura appare, non è obbligata a comportarsi in un modo particolare. L'incantatore può  chiederle di svolgere per lui un servizio in cambio  di pagamento, ma essa non è costretta ad accettare.  Il compito richiesto potrebbe essere qualcosa di  semplice (\"portaci in volo oltre il baratro\" o \"aiutaci  a combattere una battaglia\") o di complesso (\"spia  i nostri nemici\" o \"proteggici durante la nostra  incursione nel dungeon\"). L'incantatore deve essere  in grado di comunicare con la creatura per contrattare per i suoi servigi. Il pagamento può avere varie forme: Un "
+        "text": " a lei fedele, che appare  in uno spazio libero entro gittata. Se l'incantatore  conosce il nome di una creatura specifica, può  pronunciarlo quando lancia l'incantesimo per  richiedere il suo intervento, ma potrebbe apparire  comunque una creatura diversa (a scelta del GM). Quando la creatura appare, non è obbligata a comportarsi in un modo particolare. L'incantatore può  chiederle di svolgere per lui un servizio in cambio  di pagamento, ma essa non è costretta ad accettare.  Il compito richiesto potrebbe essere qualcosa di  semplice (\"portaci in volo oltre il baratro\" o \"aiutaci  a combattere una battaglia\") o di complesso (\"spia  i nostri nemici\" o \"proteggici durante la nostra  incursione nel dungeon\"). L'incantatore deve essere  in grado di comunicare con la creatura per contrattare per i suoi servigi. Il pagamento può avere varie forme: Un "
       },
       {
         "type": "creature_type",
@@ -569,25 +551,7 @@
       },
       {
         "type": "text",
-        "text": ", altrimenti deve cercare di  consegnare un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " da parte dell'incantatore  (se il grado di sfida del bersaglio non è 0, la prova  viene superata automaticamente). L'incantatore  specifica il luogo di consegna, che ha già visitato,  e un destinatario che corrisponda a una descrizione  generica, come \"una persona che indossa l'uniforme  della guardia cittadina\" o \"un nano dai capelli rossi  che indossa un cappello a punta\". Inoltre, l'incantatore comunica un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " composto da un  massimo di venticinque parole. La "
+        "text": ", altrimenti deve cercare di  consegnare un messaggio da parte dell'incantatore  (se il grado di sfida del bersaglio non è 0, la prova  viene superata automaticamente). L'incantatore  specifica il luogo di consegna, che ha già visitato,  e un destinatario che corrisponda a una descrizione  generica, come \"una persona che indossa l'uniforme  della guardia cittadina\" o \"un nano dai capelli rossi  che indossa un cappello a punta\". Inoltre, l'incantatore comunica un messaggio composto da un  massimo di venticinque parole. La "
       },
       {
         "type": "creature_type",
@@ -614,16 +578,7 @@
       },
       {
         "type": "text",
-        "text": " arriva a destinazione, trasmette  il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " alla creatura descritta, imitando il  modo di comunicare dell'incantatore. Se la "
+        "text": " arriva a destinazione, trasmette  il messaggio alla creatura descritta, imitando il  modo di comunicare dell'incantatore. Se la "
       },
       {
         "type": "creature_type",
@@ -632,16 +587,7 @@
       },
       {
         "type": "text",
-        "text": "  non raggiunge la sua destinazione prima della  fine dell'incantesimo, il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " viene perso  e la "
+        "text": "  non raggiunge la sua destinazione prima della  fine dell'incantesimo, il messaggio viene perso  e la "
       },
       {
         "type": "creature_type",
@@ -687,43 +633,7 @@
       },
       {
         "type": "text",
-        "text": " di taglia Media o Piccola entro gittata,  animandolo come creatura non morta. Il bersaglio  si trasforma in uno scheletro se l'incantatore sceglie la pila di ossa, o in uno zombi se l'incantatore  sceglie un cadavere (vedi \"Mostri\" per le schede  delle statistiche). A ogni suo turno, l'incantatore può effettuare  un'azione bonus per comandare mentalmente  qualsiasi creatura creata con questo incantesimo,  a patto che si trovi entro 18 metri da lui (se controlla varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " a ciascuna di loro). L'incantatore  decide quale azione effettuerà la creatura e dove  si muoverà nel suo turno successivo, oppure può  impartirle un "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " generale, come restare  a guardia di una stanza o un di corridoio. Se invece  non impartisce alcun "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": ", la creatura effettua  l'azione Schivata e si sposta solo per evitare di  subire danni. Una volta ricevuto un ordine, la  creatura continua a seguirlo finché non ha portato  a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, passate le quali smette di obbedire  a qualsiasi "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " ulteriore. Per mantenere il controllo sulla creatura per altre 24 ore, l'incantatore  deve lanciare di nuovo questo incantesimo su di  essa prima che l'attuale periodo di 24 ore termini.  Questo uso dell'incantesimo gli permette di ristabilire il controllo su un massimo di quattro creature  da lui animate tramite questo incantesimo, anziché  animarne una nuova."
+        "text": " di taglia Media o Piccola entro gittata,  animandolo come creatura non morta. Il bersaglio  si trasforma in uno scheletro se l'incantatore sceglie la pila di ossa, o in uno zombi se l'incantatore  sceglie un cadavere (vedi \"Mostri\" per le schede  delle statistiche). A ogni suo turno, l'incantatore può effettuare  un'azione bonus per comandare mentalmente  qualsiasi creatura creata con questo incantesimo,  a patto che si trovi entro 18 metri da lui (se controlla varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso comando a ciascuna di loro). L'incantatore  decide quale azione effettuerà la creatura e dove  si muoverà nel suo turno successivo, oppure può  impartirle un comando generale, come restare  a guardia di una stanza o un di corridoio. Se invece  non impartisce alcun comando, la creatura effettua  l'azione Schivata e si sposta solo per evitare di  subire danni. Una volta ricevuto un ordine, la  creatura continua a seguirlo finché non ha portato  a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, passate le quali smette di obbedire  a qualsiasi comando ulteriore. Per mantenere il controllo sulla creatura per altre 24 ore, l'incantatore  deve lanciare di nuovo questo incantesimo su di  essa prima che l'attuale periodo di 24 ore termini.  Questo uso dell'incantesimo gli permette di ristabilire il controllo su un massimo di quattro creature  da lui animate tramite questo incantesimo, anziché  animarne una nuova."
       }
     ],
     "at_higher_levels": [
@@ -761,25 +671,7 @@
       },
       {
         "type": "text",
-        "text": "  provvisto di gambe che utilizza la scheda delle  statistiche dell'**oggetto animato**; questa creatura  è sotto il controllo dell'incantatore fino al termine  dell'incantesimo o finché non viene ridotta a 0 punti  ferita. Ogni creatura creata con questo incantesimo  diventa un alleato per l'incantatore e i suoi alleati.  In combattimento, la creatura ha lo stesso punteggio di iniziativa dell'incantatore, ma inizia il turno  immediatamente dopo il suo.  Fino al termine dell'incantesimo, come azione  bonus, l'incantatore può comandare mentalmente  qualsiasi creatura creata con questo incantesimo,  a patto che si trovi entro 150 metri da sé (se controlla varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " a ciascuna di loro). Se invece non  impartisce alcun "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": ", la creatura effettua  ­l'azione Schivata e si sposta solo per evitare di  subire danni. Quando la creatura scende a 0 punti  ferita, riassume la sua forma di oggetto, a cui  ­vengono trasferiti eventuali danni rimanenti."
+        "text": "  provvisto di gambe che utilizza la scheda delle  statistiche dell'**oggetto animato**; questa creatura  è sotto il controllo dell'incantatore fino al termine  dell'incantesimo o finché non viene ridotta a 0 punti  ferita. Ogni creatura creata con questo incantesimo  diventa un alleato per l'incantatore e i suoi alleati.  In combattimento, la creatura ha lo stesso punteggio di iniziativa dell'incantatore, ma inizia il turno  immediatamente dopo il suo.  Fino al termine dell'incantesimo, come azione  bonus, l'incantatore può comandare mentalmente  qualsiasi creatura creata con questo incantesimo,  a patto che si trovi entro 150 metri da sé (se controlla varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso comando a ciascuna di loro). Se invece non  impartisce alcun comando, la creatura effettua  ­l'azione Schivata e si sposta solo per evitare di  subire danni. Quando la creatura scende a 0 punti  ferita, riassume la sua forma di oggetto, a cui  ­vengono trasferiti eventuali danni rimanenti."
       }
     ],
     "at_higher_levels": [
@@ -850,16 +742,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, decide se  creare antipatia o simpatia e sceglie come bersaglio  una creatura o un oggetto di taglia Enorme o  inferiore. Dopodiché, specifica un tipo di creatura,  come per esempio draghi rossi, goblin o vampiri.  Una creatura del tipo scelto effettua un tiro salvezza su "
+        "text": "Quando l'incantatore lancia l'incantesimo, decide se  creare antipatia o simpatia e sceglie come bersaglio  una creatura o un oggetto di taglia Enorme o  inferiore. Dopodiché, specifica un tipo di creatura,  come per esempio draghi rossi, goblin o vampiri.  Una creatura del tipo scelto effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -920,16 +803,7 @@
       },
       {
         "type": "text",
-        "text": " con un bonus di +1 ai tiri per  colpire e ai tiri per i danni. L'incantesimo termina  in anticipo se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di nuovo. _**Utilizzo di uno slot incantesimo di livello**_ _**superiore.**_ Il bonus aumenta a +2 con uno slot  incantesimo compreso tra il 3º e 5º livello. Il bonus  aumenta a +3 con uno slot incantesimo di 6º livello  o superiore."
+        "text": " con un bonus di +1 ai tiri per  colpire e ai tiri per i danni. L'incantesimo termina  in anticipo se l'incantatore lo lancia di nuovo. _**Utilizzo di uno slot incantesimo di livello**_ _**superiore.**_ Il bonus aumenta a +2 con uno slot  incantesimo compreso tra il 3º e 5º livello. Il bonus  aumenta a +3 con uno slot incantesimo di 6º livello  o superiore."
       }
     ],
     "at_higher_levels": [],
@@ -1087,16 +961,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore irradia un'aura in un'emanazione di  9 metri da sé che permane per la durata dell'incantesimo. Mentre sono nell'aura, l'incantatore e i suoi  alleati ottengono "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni necrotici  e i loro punti ferita massimi non possono essere  ridotti. Se un alleato con 0 punti ferita inizia il suo  turno nell'aura, ne recupera 1."
+        "text": "L'incantatore irradia un'aura in un'emanazione di  9 metri da sé che permane per la durata dell'incantesimo. Mentre sono nell'aura, l'incantatore e i suoi  alleati ottengono resistenza ai danni necrotici  e i loro punti ferita massimi non possono essere  ridotti. Se un alleato con 0 punti ferita inizia il suo  turno nell'aura, ne recupera 1."
       }
     ],
     "at_higher_levels": [],
@@ -1118,16 +983,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore tocca una creatura consenziente  o un oggetto che non sia indossato o trasportato  e vi pone un'illusione. Una creatura riceve l'effetto  Maschera, mentre un oggetto riceve l'effetto Falsa  aura. Entrambi gli effetti, descritti di seguito,  permangono per tutta la durata dell'incantesimo.  Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo sullo stesso  bersaglio ogni giorno per 30 giorni, l'illusione permane finché non viene dissolta. _**Maschera (creatura).**_L'incantatore sceglie  un tipo di creatura diverso da quello del bersaglio.  Gli incantesimi e altri effetti magici considerano  il bersaglio come se fosse una creatura del tipo  scelto dall'incantatore. _**Falsa aura (oggetto).**_L'incantatore modifica  il modo in cui il bersaglio appare agli incantesimi  e agli effetti magici che individuano le aure magiche, come per esempio *"
+        "text": "L'incantatore tocca una creatura consenziente  o un oggetto che non sia indossato o trasportato  e vi pone un'illusione. Una creatura riceve l'effetto  Maschera, mentre un oggetto riceve l'effetto Falsa  aura. Entrambi gli effetti, descritti di seguito,  permangono per tutta la durata dell'incantesimo.  Se l'incantatore lancia l'incantesimo sullo stesso  bersaglio ogni giorno per 30 giorni, l'illusione permane finché non viene dissolta. _**Maschera (creatura).**_L'incantatore sceglie  un tipo di creatura diverso da quello del bersaglio.  Gli incantesimi e altri effetti magici considerano  il bersaglio come se fosse una creatura del tipo  scelto dall'incantatore. _**Falsa aura (oggetto).**_L'incantatore modifica  il modo in cui il bersaglio appare agli incantesimi  e agli effetti magici che individuano le aure magiche, come per esempio *"
       },
       {
         "type": "spell",
@@ -1239,25 +1095,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un bagliore argentato di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " pallida forma un cilindro del raggio di 1,5 metri e dell'altezza di 12 metri  centrato su un punto entro gittata. Fino al termine  dell'incantesimo, il cilindro è pervaso da "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca  e l'incantatore può effettuare un'azione di Magia  nei turni successivi per spostare il cilindro fino  a 18 metri. Quando appare il cilindro, ogni creatura al suo  interno effettua un tiro salvezza su "
+        "text": "Un bagliore argentato di luce pallida forma un cilindro del raggio di 1,5 metri e dell'altezza di 12 metri  centrato su un punto entro gittata. Fino al termine  dell'incantesimo, il cilindro è pervaso da luce fioca  e l'incantatore può effettuare un'azione di Magia  nei turni successivi per spostare il cilindro fino  a 18 metri. Quando appare il cilindro, ogni creatura al suo  interno effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -1305,16 +1143,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un "
+        "text": "L'incantatore lancia un "
       },
       {
         "type": "spell",
@@ -1332,52 +1161,7 @@
       },
       {
         "type": "text",
-        "text": " e, se lo fallisce, subisce 6d8 danni  radiosi e rimane accecata fino all'inizio del turno  successivo dell'incantatore. Se lo supera, invece,  subisce solo la metà dei danni. Fino al termine dell'incantesimo, l'incantatore può  effettuare un'azione di Magia per creare una nuova  linea radiosa. Per la durata dell'incantesimo, una scintilla di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  radiosa risplende nella sua mano ed emana "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  intensa in un raggio di 9 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori 9 metri. Questa "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " è considerata "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " solare."
+        "text": " e, se lo fallisce, subisce 6d8 danni  radiosi e rimane accecata fino all'inizio del turno  successivo dell'incantatore. Se lo supera, invece,  subisce solo la metà dei danni. Fino al termine dell'incantesimo, l'incantatore può  effettuare un'azione di Magia per creare una nuova  linea radiosa. Per la durata dell'incantesimo, una scintilla di luce  radiosa risplende nella sua mano ed emana luce  intensa in un raggio di 9 metri e luce fioca per ulteriori 9 metri. Questa luce è considerata luce solare."
       }
     ],
     "at_higher_levels": [],
@@ -1666,34 +1450,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore imprime un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " all'interno  di un oggetto entro gittata, che viene pronunciato  quando si verifica una condizione di innesco.  L'incantatore sceglie un oggetto che egli è in grado  di vedere e che non è indossato o trasportato da  un'altra creatura. Quindi pronuncia il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": ",  che non deve essere più lungo di 25 parole, ma  può essere enunciato nell'arco di 10 minuti. Infine,  determina la circostanza che innesca l'incantesimo  e l'emissione del "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": ". Quando quell'innesco si verifica, sull'oggetto  appare una "
+        "text": "L'incantatore imprime un messaggio all'interno  di un oggetto entro gittata, che viene pronunciato  quando si verifica una condizione di innesco.  L'incantatore sceglie un oggetto che egli è in grado  di vedere e che non è indossato o trasportato da  un'altra creatura. Quindi pronuncia il messaggio,  che non deve essere più lungo di 25 parole, ma  può essere enunciato nell'arco di 10 minuti. Infine,  determina la circostanza che innesca l'incantesimo  e l'emissione del messaggio. Quando quell'innesco si verifica, sull'oggetto  appare una "
       },
       {
         "type": "spell",
@@ -1702,16 +1459,7 @@
       },
       {
         "type": "text",
-        "text": " che recita il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": "  con il tono e il volume di voce dell'incantatore.  Se l'oggetto scelto presenta già una bocca o qualcosa di simile (per esempio, la bocca di una statua),  la "
+        "text": " che recita il messaggio  con il tono e il volume di voce dell'incantatore.  Se l'oggetto scelto presenta già una bocca o qualcosa di simile (per esempio, la bocca di una statua),  la "
       },
       {
         "type": "spell",
@@ -1720,34 +1468,7 @@
       },
       {
         "type": "text",
-        "text": " appare in modo che le parole sembrino pronunciate dalla bocca dell'oggetto. Quando  "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore può fare in  modo che esso termini una volta consegnato il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " o che rimanga attivo ripetendo il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": "  ogniqualvolta si verifica la circostanza di innesco. L'innesco può essere sia generale che dettagliato,  ma deve essere basato su condizioni visibili o udibili  che si verificano entro 9 metri dall'oggetto. Per  esempio, l'incantatore potrebbe ordinare alla bocca  di parlare quando, entro 9 metri dall'oggetto, una  qualsiasi creatura si muove, oppure un campana  d'argento suona."
+        "text": " appare in modo che le parole sembrino pronunciate dalla bocca dell'oggetto. Quando  lancia questo incantesimo, l'incantatore può fare in  modo che esso termini una volta consegnato il messaggio o che rimanga attivo ripetendo il messaggio  ogniqualvolta si verifica la circostanza di innesco. L'innesco può essere sia generale che dettagliato,  ma deve essere basato su condizioni visibili o udibili  che si verificano entro 9 metri dall'oggetto. Per  esempio, l'incantatore potrebbe ordinare alla bocca  di parlare quando, entro 9 metri dall'oggetto, una  qualsiasi creatura si muove, oppure un campana  d'argento suona."
       }
     ],
     "at_higher_levels": [],
@@ -2064,25 +1785,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un'emanazione di 3 metri si materializza attorno  all'incantatore e permane stazionaria per la durata  dell'incantesimo. L'incantesimo fallisce quando  l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " ma l'emanazione non è abbastanza grande da poter inglobare totalmente tutte  le creature all'interno della sua area. Le creature e gli oggetti all'interno dell'emanazione al momento del lancio dell'incantesimo  possono attraversarla liberamente, mentre a tutte  le altre creature e oggetti è proibito. Non è possibile  lanciare incantesimi di 3º livello o inferiore attraverso l'emanazione, e gli effetti di tali incantesimi  non si estendono al suo interno. L'atmosfera all'interno dell'emanazione è gradevole e asciutta, a prescindere dal tempo atmosferico  all'esterno. Fino al termine dell'incantesimo,  l'incantatore può decidere che all'interno dell'emanazione ci sia "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca o "
+        "text": "Un'emanazione di 3 metri si materializza attorno  all'incantatore e permane stazionaria per la durata  dell'incantesimo. L'incantesimo fallisce quando  l'incantatore lo lancia ma l'emanazione non è abbastanza grande da poter inglobare totalmente tutte  le creature all'interno della sua area. Le creature e gli oggetti all'interno dell'emanazione al momento del lancio dell'incantesimo  possono attraversarla liberamente, mentre a tutte  le altre creature e oggetti è proibito. Non è possibile  lanciare incantesimi di 3º livello o inferiore attraverso l'emanazione, e gli effetti di tali incantesimi  non si estendono al suo interno. L'atmosfera all'interno dell'emanazione è gradevole e asciutta, a prescindere dal tempo atmosferico  all'esterno. Fino al termine dell'incantesimo,  l'incantatore può decidere che all'interno dell'emanazione ci sia luce fioca o "
       },
       {
         "type": "spell",
@@ -2091,16 +1794,7 @@
       },
       {
         "type": "text",
-        "text": " (nessuna azione  richiesta). Dall'esterno, l'emanazione appare opaca  e di un qualsiasi colore a scelta dell'incantatore, ma  dall'interno risulta trasparente. L'incantesimo termina in anticipo se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di nuovo o se esce dall'area  dell'emanazione."
+        "text": " (nessuna azione  richiesta). Dall'esterno, l'emanazione appare opaca  e di un qualsiasi colore a scelta dell'incantatore, ma  dall'interno risulta trasparente. L'incantesimo termina in anticipo se l'incantatore lo lancia di nuovo o se esce dall'area  dell'emanazione."
       }
     ],
     "at_higher_levels": [],
@@ -2488,16 +2182,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore traccia  un cerchio del diametro di 1,5 metri sul terreno  dotato di sigilli che collegano il luogo in cui si trova  a un "
+        "text": "Quando lancia l'incantesimo, l'incantatore traccia  un cerchio del diametro di 1,5 metri sul terreno  dotato di sigilli che collegano il luogo in cui si trova  a un "
       },
       {
         "type": "spell",
@@ -2585,16 +2270,7 @@
       },
       {
         "type": "text",
-        "text": ". •\tLa creatura subisce svantaggio ai tiri per colpire  contro i bersagli all'interno del cilindro. •\tI bersagli all'interno del cilindro non possono  essere posseduti, affascinati o spaventati dalla  creatura. Ogni volta che "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore può far funzionare la sua magia nella direzione inversa, impedendo cioè a una creatura di un  tipo specifico di uscire dal cilindro e proteggendo  i bersagli all'esterno."
+        "text": ". •\tLa creatura subisce svantaggio ai tiri per colpire  contro i bersagli all'interno del cilindro. •\tI bersagli all'interno del cilindro non possono  essere posseduti, affascinati o spaventati dalla  creatura. Ogni volta che lancia questo incantesimo, l'incantatore può far funzionare la sua magia nella direzione inversa, impedendo cioè a una creatura di un  tipo specifico di uscire dal cilindro e proteggendo  i bersagli all'esterno."
       }
     ],
     "at_higher_levels": [
@@ -2758,16 +2434,7 @@
       },
       {
         "type": "text",
-        "text": " entro  gittata in un luogo a lui familiare (cioè che ha già  visitato o visto), oppure in un luogo ovvio a lui  non familiare (come per esempio dietro una porta,  dietro un angolo o in un boschetto). Questo sensore  intangibile e invulnerabile rimane in quella posizione per la durata dell'incantesimo. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore sceglie  tra vista e udito, potendo utilizzare il senso scelto  attraverso il sensore come se si trovasse nel suo  spazio. Come azione bonus, l'incantatore può passare dalla vista all'udito e viceversa. Una creatura che vede il sensore (per esempio  una creatura che beneficia di "
+        "text": " entro  gittata in un luogo a lui familiare (cioè che ha già  visitato o visto), oppure in un luogo ovvio a lui  non familiare (come per esempio dietro una porta,  dietro un angolo o in un boschetto). Questo sensore  intangibile e invulnerabile rimane in quella posizione per la durata dell'incantesimo. Quando lancia l'incantesimo, l'incantatore sceglie  tra vista e udito, potendo utilizzare il senso scelto  attraverso il sensore come se si trovasse nel suo  spazio. Come azione bonus, l'incantatore può passare dalla vista all'udito e viceversa. Una creatura che vede il sensore (per esempio  una creatura che beneficia di "
       },
       {
         "type": "spell",
@@ -3110,16 +2777,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore rivolge una parola di "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " a una  creatura entro gittata che egli è in grado di vedere.  Il bersaglio deve superare un tiro salvezza su  "
+        "text": "L'incantatore rivolge una parola di comando a una  creatura entro gittata che egli è in grado di vedere.  Il bersaglio deve superare un tiro salvezza su  "
       },
       {
         "type": "ability",
@@ -3128,25 +2786,7 @@
       },
       {
         "type": "text",
-        "text": ", altrimenti dovrà obbedire al "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": "  nel suo turno successivo. Scegli il "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " tra  le seguenti opzioni: **Avvicinati.** Il bersaglio si muove verso l'incantatore  seguendo il percorso più breve e diretto, terminando il suo turno se giunge entro 1,5 metri da  lui. **Fermo.** Nel suo turno, il bersaglio non si muove  e non effettua alcuna azione o azione bonus. **Fuggi.** Il bersaglio usa il suo turno per allontanarsi  dall'incantatore nel modo più rapido possibile. **Lascia.** Il bersaglio lascia cadere ciò che stava  impugnando, poi termina il suo turno. **Prostrati.** Il bersaglio cade a terra "
+        "text": ", altrimenti dovrà obbedire al comando  nel suo turno successivo. Scegli il comando tra  le seguenti opzioni: **Avvicinati.** Il bersaglio si muove verso l'incantatore  seguendo il percorso più breve e diretto, terminando il suo turno se giunge entro 1,5 metri da  lui. **Fermo.** Nel suo turno, il bersaglio non si muove  e non effettua alcuna azione o azione bonus. **Fuggi.** Il bersaglio usa il suo turno per allontanarsi  dall'incantatore nel modo più rapido possibile. **Lascia.** Il bersaglio lascia cadere ciò che stava  impugnando, poi termina il suo turno. **Prostrati.** Il bersaglio cade a terra "
       },
       {
         "type": "condition",
@@ -3247,16 +2887,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore entra in contatto con una divinità  o un emissario divino e, prima della fine dell'incantesimo, pone fino a tre domande a cui è possibile  rispondere con sì o no. L'incantatore riceve una  risposta corretta per ogni domanda. Gli esseri divini non sono necessariamente  onniscienti, quindi l'incantatore potrebbe ricevere  \"ignoto\" come risposta se una domanda riguarda  informazioni che vanno oltre le loro conoscenze.  Nel caso in cui una risposta di una parola sola possa  rivelarsi fuorviante o contraria agli interessi della  divinità, il GM può fornire come risposta una breve  frase. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
+        "text": "L'incantatore entra in contatto con una divinità  o un emissario divino e, prima della fine dell'incantesimo, pone fino a tre domande a cui è possibile  rispondere con sì o no. L'incantatore riceve una  risposta corretta per ogni domanda. Gli esseri divini non sono necessariamente  onniscienti, quindi l'incantatore potrebbe ricevere  \"ignoto\" come risposta se una domanda riguarda  informazioni che vanno oltre le loro conoscenze.  Nel caso in cui una risposta di una parola sola possa  rivelarsi fuorviante o contraria agli interessi della  divinità, il GM può fornire come risposta una breve  frase. Se l'incantatore lancia l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
       }
     ],
     "at_higher_levels": [],
@@ -3520,16 +3151,7 @@
       },
       {
         "type": "text",
-        "text": ". Inoltre, quando l'incantatore  "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, sceglie una caratteristica.  Mentre è "
+        "text": ". Inoltre, quando l'incantatore  lancia l'incantesimo, sceglie una caratteristica.  Mentre è "
       },
       {
         "type": "condition",
@@ -3588,16 +3210,7 @@
       },
       {
         "type": "text",
-        "text": " ultraterrena può  sconvolgere la sua mente: quando l'incantatore  ­"
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, deve effettuare un  tiro salvezza su "
+        "text": " ultraterrena può  sconvolgere la sua mente: quando l'incantatore  ­lancia questo incantesimo, deve effettuare un  tiro salvezza su "
       },
       {
         "type": "ability",
@@ -3646,16 +3259,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore sceglie un incantesimo di livello pari  o inferiore a 5 che sia in grado di lanciare, che  abbia un tempo di lancio di un'azione e che possa  avere come bersaglio l'incantatore stesso. "
-      },
-      {
-        "type": "equipment",
-        "text": "Lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  l'incantesimo, chiamato incantesimo contingente,  come parte del lancio di "
+        "text": "L'incantatore sceglie un incantesimo di livello pari  o inferiore a 5 che sia in grado di lanciare, che  abbia un tempo di lancio di un'azione e che possa  avere come bersaglio l'incantatore stesso. Lancia  l'incantesimo, chiamato incantesimo contingente,  come parte del lancio di "
       },
       {
         "type": "spell",
@@ -3664,16 +3268,7 @@
       },
       {
         "type": "text",
-        "text": ", consumando  gli slot incantesimo per entrambi. L'incantesimo  contingente, tuttavia, non ha effetto finché non si  verificano determinati inneschi che l'incantatore  descrive nel momento in cui "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " i due incantesimi. Per esempio, un lancio di "
+        "text": ", consumando  gli slot incantesimo per entrambi. L'incantesimo  contingente, tuttavia, non ha effetto finché non si  verificano determinati inneschi che l'incantatore  descrive nel momento in cui lancia i due incantesimi. Per esempio, un lancio di "
       },
       {
         "type": "spell",
@@ -3709,16 +3304,7 @@
       },
       {
         "type": "text",
-        "text": " alla  volta. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " nuovamente questo  incantesimo, l'effetto di un altro incantesimo "
+        "text": " alla  volta. Se l'incantatore lancia nuovamente questo  incantesimo, l'effetto di un altro incantesimo "
       },
       {
         "type": "spell",
@@ -3844,16 +3430,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore assume il controllo del tempo  atmosferico entro 7,5 chilometri per la durata  dell'incantesimo, che dev'essere lanciato in un luogo  all'aperto. L'incantesimo termina anticipatamente  se l'incantatore si sposta in un luogo chiuso. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo, l'incantatore  cambia le condizioni atmosferiche attuali determinate dal GM. L'incantatore può modificare le  precipitazioni, la temperatura e il vento. Occorrono  1d4 × 10 minuti perché le nuove condizioni abbiano  effetto. Quando questo accade, l'incantatore le può  cambiare di nuovo. Al termine dell'incantesimo,  il tempo atmosferico torna alla normalità. Quando l'incantatore modifica le condizioni atmosferiche, trova la condizione attuale nelle tabelle  seguenti e la modifica di un grado, verso l'alto o  verso il basso. Quando l'incantatore cambia il vento,  può modificarne anche la direzione.\n\n|  |  |\n| --- | --- |\n| Grado Condizione |  |\n\n|  |  |\n| --- | --- |\n| Grado Condizione |  | |  |  |\n| --- | --- |\n| Grado Condizione |  |"
+        "text": "L'incantatore assume il controllo del tempo  atmosferico entro 7,5 chilometri per la durata  dell'incantesimo, che dev'essere lanciato in un luogo  all'aperto. L'incantesimo termina anticipatamente  se l'incantatore si sposta in un luogo chiuso. Quando lancia un incantesimo, l'incantatore  cambia le condizioni atmosferiche attuali determinate dal GM. L'incantatore può modificare le  precipitazioni, la temperatura e il vento. Occorrono  1d4 × 10 minuti perché le nuove condizioni abbiano  effetto. Quando questo accade, l'incantatore le può  cambiare di nuovo. Al termine dell'incantesimo,  il tempo atmosferico torna alla normalità. Quando l'incantatore modifica le condizioni atmosferiche, trova la condizione attuale nelle tabelle  seguenti e la modifica di un grado, verso l'alto o  verso il basso. Quando l'incantatore cambia il vento,  può modificarne anche la direzione.\n\n|  |  |\n| --- | --- |\n| Grado Condizione |  |\n\n|  |  |\n| --- | --- |\n| Grado Condizione |  | |  |  |\n| --- | --- |\n| Grado Condizione |  |"
       }
     ],
     "at_higher_levels": [],
@@ -3879,16 +3456,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore impartisce un "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " verbale a una  creatura entro gittata che egli è in grado di vedere,  ordinandole di compiere un servizio di qualche tipo  o ad astenersi dal compiere un'azione o un'attività,  come da lui stabilito. Il bersaglio deve superare un  tiro salvezza su "
+        "text": "L'incantatore impartisce un comando verbale a una  creatura entro gittata che egli è in grado di vedere,  ordinandole di compiere un servizio di qualche tipo  o ad astenersi dal compiere un'azione o un'attività,  come da lui stabilito. Il bersaglio deve superare un  tiro salvezza su "
       },
       {
         "type": "ability",
@@ -3906,43 +3474,7 @@
       },
       {
         "type": "text",
-        "text": " per la durata dell'incantesimo. Il bersaglio  supera automaticamente il tiro se non è in grado di  comprendere il "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " dell'incantatore. Mentre è affascinata, la creatura subisce 5d10  danni psichici se agisce in maniera direttamente  contraria al "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " dell'incantatore, subendo  questi danni non più di una volta al giorno. L'incantatore può impartire al bersaglio un  "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " a sua scelta, a eccezione di un'attività che  ne provocherebbe la morte certa: se impartisce  un "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " suicida, l'incantesimo termina. Un incantesimo *"
+        "text": " per la durata dell'incantesimo. Il bersaglio  supera automaticamente il tiro se non è in grado di  comprendere il comando dell'incantatore. Mentre è affascinata, la creatura subisce 5d10  danni psichici se agisce in maniera direttamente  contraria al comando dell'incantatore, subendo  questi danni non più di una volta al giorno. L'incantatore può impartire al bersaglio un  comando a sua scelta, a eccezione di un'attività che  ne provocherebbe la morte certa: se impartisce  un comando suicida, l'incantesimo termina. Un incantesimo *"
       },
       {
         "type": "spell",
@@ -4021,43 +3553,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore può lanciare questo incantesimo solo  di notte, scegliendo fino a tre cadaveri umanoidi di  taglia Media o Piccola entro gittata. Ognuno di loro  diventa un ghoul sotto il controllo dell'incantatore  (vedi il \"Mostri\" per la scheda delle statistiche). Come azione bonus a ogni suo turno, l'incantatore  può comandare mentalmente qualsiasi creatura  animata con questo incantesimo, a patto che la  creatura si trovi entro 36 metri da lui (se controlla  varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " a ciascuna di loro). L'incantatore  decide quale azione effettuerà la creatura e dove  si muoverà nel suo turno successivo, oppure può  impartirle un "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " generale, come restare  a guardia di un determinato luogo. Se invece non  impartisce alcun "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": ", la creatura effettua  ­l'azione Schivata e si sposta solo per evitare di  subire danni. Una volta ricevuto un ordine, la  creatura continua a seguirlo finché non ha portato  a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, passate le quali smette di obbedire  a qualsiasi "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": " ulteriore. Per mantenere il controllo sulla creatura per altre 24 ore, l'incantatore  deve lanciare questo incantesimo su di essa prima  che l'attuale periodo di 24 ore termini. Questo uso  dell'incantesimo gli permette di ristabilire il controllo su un massimo di tre creature da lui animate  tramite questo incantesimo, anziché animarne di  nuove."
+        "text": "L'incantatore può lanciare questo incantesimo solo  di notte, scegliendo fino a tre cadaveri umanoidi di  taglia Media o Piccola entro gittata. Ognuno di loro  diventa un ghoul sotto il controllo dell'incantatore  (vedi il \"Mostri\" per la scheda delle statistiche). Come azione bonus a ogni suo turno, l'incantatore  può comandare mentalmente qualsiasi creatura  animata con questo incantesimo, a patto che la  creatura si trovi entro 36 metri da lui (se controlla  varie creature, l'incantatore può comandarne  più di una allo stesso momento, impartendo lo  stesso comando a ciascuna di loro). L'incantatore  decide quale azione effettuerà la creatura e dove  si muoverà nel suo turno successivo, oppure può  impartirle un comando generale, come restare  a guardia di un determinato luogo. Se invece non  impartisce alcun comando, la creatura effettua  ­l'azione Schivata e si sposta solo per evitare di  subire danni. Una volta ricevuto un ordine, la  creatura continua a seguirlo finché non ha portato  a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, passate le quali smette di obbedire  a qualsiasi comando ulteriore. Per mantenere il controllo sulla creatura per altre 24 ore, l'incantatore  deve lanciare questo incantesimo su di essa prima  che l'attuale periodo di 24 ore termini. Questo uso  dell'incantesimo gli permette di ristabilire il controllo su un massimo di tre creature da lui animate  tramite questo incantesimo, anziché animarne di  nuove."
       }
     ],
     "at_higher_levels": [
@@ -4496,16 +3992,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore scaglia un lampo di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " verso una  creatura entro gittata, effettuando un attacco  a distanza con incantesimo contro il bersaglio.  Se il colpo va a segno, esso subisce 4d6 danni  radiosi, e il successivo tiro per colpire effettuato  contro il bersaglio prima del termine del turno  successivo dell'incantatore dispone di vantaggio."
+        "text": "L'incantatore scaglia un lampo di luce verso una  creatura entro gittata, effettuando un attacco  a distanza con incantesimo contro il bersaglio.  Se il colpo va a segno, esso subisce 4d6 danni  radiosi, e il successivo tiro per colpire effettuato  contro il bersaglio prima del termine del turno  successivo dell'incantatore dispone di vantaggio."
       }
     ],
     "at_higher_levels": [
@@ -4591,34 +4078,7 @@
       },
       {
         "type": "text",
-        "text": "*. **"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": ".** L'incantatore conferisce a un massimo  di dieci creature che egli è in grado di vedere  "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a un tipo di danno a sua scelta. La "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " conferita è permanente. **Immunità a un incantesimo.** L'incantatore conferisce a un massimo di dieci creature che egli è in  grado di vedere immunità a un singolo incantesimo o un altro effetto magico per 8 ore. **Apprendimento improvviso.** L'incantatore  sostituisce uno dei suoi talenti con un altro di cui  soddisfa i requisiti, perdendo tutti i benefici di  quello precedente e ottenendo quelli del nuovo  talento. Non è possibile sostituirne uno che è un  prerequisito per altri talenti o caratteristiche del  personaggio. **Ripetizione del tiro.** L'incantatore annulla un  singolo evento recente imponendo la ripetizione  di un qualsiasi tiro effettuato entro l'ultimo round  (incluso il suo ultimo turno). La realtà viene rimodellata e si adatta al nuovo risultato. Per esempio,  un incantesimo *"
+        "text": "*. **Resistenza.** L'incantatore conferisce a un massimo  di dieci creature che egli è in grado di vedere  resistenza a un tipo di danno a sua scelta. La resistenza conferita è permanente. **Immunità a un incantesimo.** L'incantatore conferisce a un massimo di dieci creature che egli è in  grado di vedere immunità a un singolo incantesimo o un altro effetto magico per 8 ore. **Apprendimento improvviso.** L'incantatore  sostituisce uno dei suoi talenti con un altro di cui  soddisfa i requisiti, perdendo tutti i benefici di  quello precedente e ottenendo quelli del nuovo  talento. Non è possibile sostituirne uno che è un  prerequisito per altri talenti o caratteristiche del  personaggio. **Ripetizione del tiro.** L'incantatore annulla un  singolo evento recente imponendo la ripetizione  di un qualsiasi tiro effettuato entro l'ultimo round  (incluso il suo ultimo turno). La realtà viene rimodellata e si adatta al nuovo risultato. Per esempio,  un incantesimo *"
       },
       {
         "type": "spell",
@@ -4627,7 +4087,7 @@
       },
       {
         "type": "text",
-        "text": "* potrebbe annullare  un tiro salvezza fallito da un alleato o il colpo  critico inferto da un avversario. L'incantatore può  imporre che il tiro ripetuto sia effettuato con vantaggio o svantaggio e poi può scegliere se usare  il tiro ripetuto o il tiro originale. **Riplasmazione della realtà.** L'incantatore  potrebbe desiderare qualcosa che non è incluso  negli altri effetti elencati. Per farlo, deve dichiarare il suo "
+        "text": "* potrebbe annullare  un tiro salvezza fallito da un alleato o il colpo  critico inferto da un avversario. L'incantatore può  imporre che il tiro ripetuto sia effettuato con vantaggio o svantaggio e poi può scegliere se usare  il tiro ripetuto o il tiro originale. **Riplasmazione della realtà.** L'incantatore  potrebbe desiderare qualcosa che non è incluso  negli altri effetti elencati. Per farlo, deve dichiarare il suo desiderio al GM nel modo più preciso  possibile. Il GM ha la massima libertà di decidere  cosa accade in questi casi: più potente è il desiderio, maggiori sono le probabilità che qualcosa  vada storto. L'incantesimo potrebbe semplicemente fallire, l'effetto desiderato potrebbe  avverarsi solo in parte o l'incantatore potrebbe  subire conseguenze inaspettate come risultato  della formulazione del desiderio. Per esempio, se  desidera che un suo nemico sia morto, potrebbe  essere trascinato nel futuro fino al momento in  cui quel nemico non è più in vita, venendo a tutti  gli effetti rimosso dal gioco. Analogamente, se  desidera un manufatto o un oggetto magico leggendario, potrebbe essere trasportato istantaneamente in presenza del suo attuale proprietario.  Se il desiderio viene esaudito e i suoi effetti hanno  conseguenze per un'intera comunità, regione  o per tutto il mondo, l'incantatore potrebbe  attirare l'attenzione di potenti nemici. Se invece  potrebbe avere effetti su una divinità, i suoi servi  divini potrebbero intervenire all'istante per impedirlo o incoraggiare l'incantatore a formularlo in  un modo preciso. Se dovesse disfare il multiverso  stesso, il desiderio fallisce. La tensione provocata dal lancio di *"
       },
       {
         "type": "spell",
@@ -4636,61 +4096,7 @@
       },
       {
         "type": "text",
-        "text": " al GM nel modo più preciso  possibile. Il GM ha la massima libertà di decidere  cosa accade in questi casi: più potente è il "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": ", maggiori sono le probabilità che qualcosa  vada storto. L'incantesimo potrebbe semplicemente fallire, l'effetto desiderato potrebbe  avverarsi solo in parte o l'incantatore potrebbe  subire conseguenze inaspettate come risultato  della formulazione del "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": ". Per esempio, se  desidera che un suo nemico sia morto, potrebbe  essere trascinato nel futuro fino al momento in  cui quel nemico non è più in vita, venendo a tutti  gli effetti rimosso dal gioco. Analogamente, se  desidera un manufatto o un oggetto magico leggendario, potrebbe essere trasportato istantaneamente in presenza del suo attuale proprietario.  Se il "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": " viene esaudito e i suoi effetti hanno  conseguenze per un'intera comunità, regione  o per tutto il mondo, l'incantatore potrebbe  attirare l'attenzione di potenti nemici. Se invece  potrebbe avere effetti su una divinità, i suoi servi  divini potrebbero intervenire all'istante per impedirlo o incoraggiare l'incantatore a formularlo in  un modo preciso. Se dovesse disfare il multiverso  stesso, il "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": " fallisce. La tensione provocata dal lancio di *"
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": "* per produrre un qualsiasi effetto diverso dalla  duplicazione di un altro incantesimo debilita  l'incantatore. Dopo aver sopportato quella tensione,  ogni volta che l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo  prima di avere completato un riposo lungo, subisce  1d10 danni necrotici per livello di quell'incantesimo. Questi danni non possono essere ridotti  o prevenuti in alcun modo. Inoltre, il punteggio di  "
+        "text": "* per produrre un qualsiasi effetto diverso dalla  duplicazione di un altro incantesimo debilita  l'incantatore. Dopo aver sopportato quella tensione,  ogni volta che l'incantatore lancia un incantesimo  prima di avere completato un riposo lungo, subisce  1d10 danni necrotici per livello di quell'incantesimo. Questi danni non possono essere ridotti  o prevenuti in alcun modo. Inoltre, il punteggio di  "
       },
       {
         "type": "damage_type",
@@ -4784,16 +4190,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un raggio verde verso un  bersaglio entro gittata che egli è in grado di vedere.  Il bersaglio può essere una creatura, un oggetto non  magico o una "
+        "text": "L'incantatore lancia un raggio verde verso un  bersaglio entro gittata che egli è in grado di vedere.  Il bersaglio può essere una creatura, un oggetto non  magico o una "
       },
       {
         "type": "spell",
@@ -5085,16 +4482,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Questo incantesimo mette in contatto l'incantatore  con una divinità o con un servitore della divinità.  L'incantatore pone una sola domanda relativa a uno  specifico obiettivo, evento o attività che si verificherà entro 7 giorni. Il GM fornisce una risposta  onesta, che può essere una breve frase o una rima  enigmatica. L'incantesimo non tiene conto delle  circostanze che potrebbero modificare la risposta,  come il lancio di altri incantesimi. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
+        "text": "Questo incantesimo mette in contatto l'incantatore  con una divinità o con un servitore della divinità.  L'incantatore pone una sola domanda relativa a uno  specifico obiettivo, evento o attività che si verificherà entro 7 giorni. Il GM fornisce una risposta  onesta, che può essere una breve frase o una rima  enigmatica. L'incantesimo non tiene conto delle  circostanze che potrebbero modificare la risposta,  come il lancio di altri incantesimi. Se l'incantatore lancia l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
       }
     ],
     "at_higher_levels": [],
@@ -5482,16 +4870,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una radiosa "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " solare splende in una sfera del  raggio di 18 metri, centrata su un punto entro gittata a scelta dell'incantatore. Ogni creatura al suo  interno deve effettuare un tiro salvezza su "
+        "text": "Una radiosa luce solare splende in una sfera del  raggio di 18 metri, centrata su un punto entro gittata a scelta dell'incantatore. Ogni creatura al suo  interno deve effettuare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -5654,34 +5033,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore evoca uno spirito dai Piani Superiori,  che si manifesta come un pilastro di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " in un cilindro del raggio di 3 metri e dell'altezza di 12 metri  centrato in un punto entro gittata. Per ogni creatura  che l'incantatore è in grado di vedere nel cilindro,  sceglie quale di queste luci brilla su di essa: **"
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " curatrice.** Il bersaglio recupera una quantità  di punti ferita pari a 4d12 più il modificatore di  caratteristica da incantatore dell'incantatore. **"
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " ustionante.** Il bersaglio effettua un tiro salvezza su "
+        "text": "L'incantatore evoca uno spirito dai Piani Superiori,  che si manifesta come un pilastro di luce in un cilindro del raggio di 3 metri e dell'altezza di 12 metri  centrato in un punto entro gittata. Per ogni creatura  che l'incantatore è in grado di vedere nel cilindro,  sceglie quale di queste luci brilla su di essa: **Luce curatrice.** Il bersaglio recupera una quantità  di punti ferita pari a 4d12 più il modificatore di  caratteristica da incantatore dell'incantatore. **Luce ustionante.** Il bersaglio effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -5690,16 +5042,7 @@
       },
       {
         "type": "text",
-        "text": ", subendo 6d12 danni radiosi  in caso di fallimento, o la metà dei danni in caso di  successo. Fino al termine dell'incantesimo, una "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  riempie il cilindro e, quando l'incantatore si muove  nel suo turno, può spostare anche il cilindro fino  a 9 metri. Ogni volta che il cilindro si muove nello spazio di  una creatura che l'incantatore è in grado di vedere  e ogni volta che una creatura che l'incantatore è  in grado di vedere entra nel cilindro o vi termina  il suo turno, l'incantatore può immergerla in una di  queste luci. Una creatura può essere influenzata da  questo incantesimo solo una volta per turno."
+        "text": ", subendo 6d12 danni radiosi  in caso di fallimento, o la metà dei danni in caso di  successo. Fino al termine dell'incantesimo, una luce intensa  riempie il cilindro e, quando l'incantatore si muove  nel suo turno, può spostare anche il cilindro fino  a 9 metri. Ogni volta che il cilindro si muove nello spazio di  una creatura che l'incantatore è in grado di vedere  e ogni volta che una creatura che l'incantatore è  in grado di vedere entra nel cilindro o vi termina  il suo turno, l'incantatore può immergerla in una di  queste luci. Una creatura può essere influenzata da  questo incantesimo solo una volta per turno."
       }
     ],
     "at_higher_levels": [
@@ -6026,16 +5369,7 @@
       },
       {
         "type": "text",
-        "text": " il nome dell'oggetto sullo zaffiro. Ogni  volta che l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo,  deve utilizzare uno zaffiro diverso. Successivamente, l'incantatore può effettuare  un'azione di Magia per pronunciare il nome  ­dell'oggetto e distruggere lo zaffiro. L'oggetto  appare immediatamente nella mano dell'incantatore, a prescindere dalle distanze fisiche o planari  e l'incantesimo termina. Se un'altra creatura impugna o trasporta  ­l'oggetto, la distruzione dello zaffiro non comporta l'apparizione dell'oggetto, ma l'incantatore  apprende invece chi è la creatura in suo possesso  e l'ubicazione attuale."
+        "text": " il nome dell'oggetto sullo zaffiro. Ogni  volta che l'incantatore lancia questo incantesimo,  deve utilizzare uno zaffiro diverso. Successivamente, l'incantatore può effettuare  un'azione di Magia per pronunciare il nome  ­dell'oggetto e distruggere lo zaffiro. L'oggetto  appare immediatamente nella mano dell'incantatore, a prescindere dalle distanze fisiche o planari  e l'incantesimo termina. Se un'altra creatura impugna o trasporta  ­l'oggetto, la distruzione dello zaffiro non comporta l'apparizione dell'oggetto, ma l'incantatore  apprende invece chi è la creatura in suo possesso  e l'ubicazione attuale."
       }
     ],
     "at_higher_levels": [],
@@ -6274,25 +5608,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una fiamma si sprigiona da un oggetto toccato  dall'incantatore. L'effetto proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa  in un raggio di 6 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori  6 metri. L'effetto è quello di una fiamma comune,  ma non genera calore e non utilizza combustibile.  La fiamma può essere coperta o nascosta, ma non  soffocata o estinta."
+        "text": "Una fiamma si sprigiona da un oggetto toccato  dall'incantatore. L'effetto proietta luce intensa  in un raggio di 6 metri e luce fioca per ulteriori  6 metri. L'effetto è quello di una fiamma comune,  ma non genera calore e non utilizza combustibile.  La fiamma può essere coperta o nascosta, ma non  soffocata o estinta."
       }
     ],
     "at_higher_levels": [],
@@ -6511,16 +5827,7 @@
       },
       {
         "type": "text",
-        "text": " pari al doppio del numero di metri di  cui si è mosso. Questo incantesimo termina all'istante se  ­l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " mentre si trova sul Piano  Etereo o su un piano non confinante, come uno dei  Piani Esterni."
+        "text": " pari al doppio del numero di metri di  cui si è mosso. Questo incantesimo termina all'istante se  ­l'incantatore lo lancia mentre si trova sul Piano  Etereo o su un piano non confinante, come uno dei  Piani Esterni."
       }
     ],
     "at_higher_levels": [
@@ -6900,16 +6207,7 @@
       },
       {
         "type": "text",
-        "text": " termina se non  appena l'incantatore effettua un tiro per colpire,  infligge danni o "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo. Come azione di Magia, l'incantatore può muovere  il sosia illusorio fino al doppio della sua "
+        "text": " termina se non  appena l'incantatore effettua un tiro per colpire,  infligge danni o lancia un incantesimo. Come azione di Magia, l'incantatore può muovere  il sosia illusorio fino al doppio della sua "
       },
       {
         "type": "spell",
@@ -7336,16 +6634,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Degli spiriti protettori fluttuano attorno al  personaggio in un'emanazione di 4,5 metri per  la durata dell'incantesimo. Se l'incantatore è buono  o neutrale, la loro forma spettrale appare angelica  o fatata (a scelta dell'incantatore). Se è malvagio,  appaiono con sembianze demoniache. Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo,  può indicare le creature che non ne saranno  influenzate. All'interno dell'emanazione, la "
+        "text": "Degli spiriti protettori fluttuano attorno al  personaggio in un'emanazione di 4,5 metri per  la durata dell'incantesimo. Se l'incantatore è buono  o neutrale, la loro forma spettrale appare angelica  o fatata (a scelta dell'incantatore). Se è malvagio,  appaiono con sembianze demoniache. Quando l'incantatore lancia questo incantesimo,  può indicare le creature che non ne saranno  influenzate. All'interno dell'emanazione, la "
       },
       {
         "type": "spell",
@@ -7605,16 +6894,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore crea un suono o un'immagine di un  oggetto entro gittata che permane per la durata  dell'incantesimo. Di seguito sono descritti gli effetti  di ciascuno di essi. L'illusione termina se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " nuovamente l'incantesimo. Se una creatura effettua l'azione di Studio per  esaminare il suono o l'immagine, può determinare  che si tratta di un'illusione superando una prova  di "
+        "text": "L'incantatore crea un suono o un'immagine di un  oggetto entro gittata che permane per la durata  dell'incantesimo. Di seguito sono descritti gli effetti  di ciascuno di essi. L'illusione termina se l'incantatore lancia nuovamente l'incantesimo. Se una creatura effettua l'azione di Studio per  esaminare il suono o l'immagine, può determinare  che si tratta di un'illusione superando una prova  di "
       },
       {
         "type": "ability",
@@ -7924,16 +7204,7 @@
       },
       {
         "type": "text",
-        "text": ", una  gabbia, una torre o una struttura simile, a scelta  dell'incantatore. Prigionia ridotta.Il bersaglio viene rimpicciolito  fino all'altezza di 2,5 centimetri ed è intrappolato  in una gemma indistruttibile o un oggetto simile.  La "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " passa attraverso la gemma (permettendo  al bersaglio di guardare all'esterno e alle altre  creature di guardare all'interno), ma nient'altro  può attraversarla in alcun modo. Sepoltura. Il bersaglio viene sepolto nelle viscere  della terra in un globo di "
+        "text": ", una  gabbia, una torre o una struttura simile, a scelta  dell'incantatore. Prigionia ridotta.Il bersaglio viene rimpicciolito  fino all'altezza di 2,5 centimetri ed è intrappolato  in una gemma indistruttibile o un oggetto simile.  La luce passa attraverso la gemma (permettendo  al bersaglio di guardare all'esterno e alle altre  creature di guardare all'interno), ma nient'altro  può attraversarla in alcun modo. Sepoltura. Il bersaglio viene sepolto nelle viscere  della terra in un globo di "
       },
       {
         "type": "damage_type",
@@ -7942,16 +7213,7 @@
       },
       {
         "type": "text",
-        "text": " magica sufficientemente ampio da contenerlo. Nulla può entrare  o uscire dal globo. "
-      },
-      {
-        "type": "spell",
-        "text": "Sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": ". Il bersaglio è "
+        "text": " magica sufficientemente ampio da contenerlo. Nulla può entrare  o uscire dal globo. Sonno. Il bersaglio è "
       },
       {
         "type": "condition",
@@ -7960,16 +7222,7 @@
       },
       {
         "type": "text",
-        "text": " e non può essere  risvegliato. Porre fine all'incantesimo. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  l'incantesimo, l'incantatore specifica un innesco  che porrà fine all'incantesimo. L'innesco può essere  tanto semplice quanto complesso, in base alla scelta  dell'incantatore, ma il GM deve ritenere che abbia  una certa probabilità di verificarsi entro i dieci anni  successivi. L'innesco deve essere un'azione osservabile, ad esempio: una persona che fa un'offerta  particolare al tempio della divinità dell'incantatore,  il salvataggio del vero amore dell'incantatore,  o la sconfitta di un mostro specifico. "
+        "text": " e non può essere  risvegliato. Porre fine all'incantesimo. Quando lancia  l'incantesimo, l'incantatore specifica un innesco  che porrà fine all'incantesimo. L'innesco può essere  tanto semplice quanto complesso, in base alla scelta  dell'incantatore, ma il GM deve ritenere che abbia  una certa probabilità di verificarsi entro i dieci anni  successivi. L'innesco deve essere un'azione osservabile, ad esempio: una persona che fa un'offerta  particolare al tempio della divinità dell'incantatore,  il salvataggio del vero amore dell'incantatore,  o la sconfitta di un mostro specifico. "
       },
       {
         "type": "spell",
@@ -8507,34 +7760,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore invia un breve "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " di un  massimo di 25 parole a una creatura che ha  incontrato o a una creatura che gli è stata descritta  da qualcuno che ha conosciuto. Il bersaglio sente  il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " nella sua mente, riconosce l'incantatore come colui che l'ha inviato e può rispondere  immediatamente allo stesso modo. L'incantesimo  consente ai bersagli di comprendere il significato  del "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " dell'incantatore. L'incantatore può "
+        "text": "L'incantatore invia un breve messaggio di un  massimo di 25 parole a una creatura che ha  incontrato o a una creatura che gli è stata descritta  da qualcuno che ha conosciuto. Il bersaglio sente  il messaggio nella sua mente, riconosce l'incantatore come colui che l'ha inviato e può rispondere  immediatamente allo stesso modo. L'incantesimo  consente ai bersagli di comprendere il significato  del messaggio dell'incantatore. L'incantatore può "
       },
       {
         "type": "spell",
@@ -8543,43 +7769,7 @@
       },
       {
         "type": "text",
-        "text": " il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " a qualsiasi  distanza e perfino ad altri piani di esistenza, ma se  il bersaglio si trova su un piano di esistenza diverso  dal suo, c'è una probabilità del 5% che il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": "  non arrivi. Se l'invio del "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " fallisce, l'incantatore se ne rende conto. Quando riceve il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": ", una creatura può  bloccare la capacità dell'incantatore di contattarla  nuovamente tramite questo incantesimo per 8 ore.  Se l'incantatore cerca di "
+        "text": " il messaggio a qualsiasi  distanza e perfino ad altri piani di esistenza, ma se  il bersaglio si trova su un piano di esistenza diverso  dal suo, c'è una probabilità del 5% che il messaggio  non arrivi. Se l'invio del messaggio fallisce, l'incantatore se ne rende conto. Quando riceve il messaggio, una creatura può  bloccare la capacità dell'incantatore di contattarla  nuovamente tramite questo incantesimo per 8 ore.  Se l'incantatore cerca di "
       },
       {
         "type": "spell",
@@ -8588,16 +7778,7 @@
       },
       {
         "type": "text",
-        "text": " un altro "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": "  durante quel periodo, capisce di essere stato bloccato e l'incantesimo fallisce."
+        "text": " un altro messaggio  durante quel periodo, capisce di essere stato bloccato e l'incantesimo fallisce."
       }
     ],
     "at_higher_levels": [],
@@ -8631,16 +7812,7 @@
       },
       {
         "type": "text",
-        "text": " fino al termine dell'incantesimo. L'incantesimo  termina immediatamente quando il bersaglio  effettua un tiro per colpire, infligge danni o "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  un incantesimo."
+        "text": " fino al termine dell'incantesimo. L'incantesimo  termina immediatamente quando il bersaglio  effettua un tiro per colpire, infligge danni o lancia  un incantesimo."
       }
     ],
     "at_higher_levels": [
@@ -8700,16 +7872,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una nube di tempesta appare in un punto situato  entro gittata che l'incantatore è in grado di vedere  sopra di sé. Ha la forma di un cilindro alto 3 metri  con un raggio di 18 metri. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore  sceglie un punto che è in grado di vedere al di sotto  della nube, dove si abbatte un "
+        "text": "Una nube di tempesta appare in un punto situato  entro gittata che l'incantatore è in grado di vedere  sopra di sé. Ha la forma di un cilindro alto 3 metri  con un raggio di 18 metri. Quando lancia questo incantesimo, l'incantatore  sceglie un punto che è in grado di vedere al di sotto  della nube, dove si abbatte un "
       },
       {
         "type": "damage_type",
@@ -8745,16 +7908,7 @@
       },
       {
         "type": "text",
-        "text": " in questo modo, bersagliando lo stesso  punto o un punto diverso. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo mentre  si trova all'aperto durante una tempesta, l'incantesimo permette di controllare quella tempesta  invece di crearne una nuova. In queste condizioni,  i danni provocati dall'incantesimo aumentano di  1d10."
+        "text": " in questo modo, bersagliando lo stesso  punto o un punto diverso. Se l'incantatore lancia questo incantesimo mentre  si trova all'aperto durante una tempesta, l'incantesimo permette di controllare quella tempesta  invece di crearne una nuova. In queste condizioni,  i danni provocati dall'incantesimo aumentano di  1d10."
       }
     ],
     "at_higher_levels": [
@@ -8885,25 +8039,7 @@
       },
       {
         "type": "text",
-        "text": " emana "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio  di 3 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori 3 metri."
+        "text": " emana luce intensa in un raggio  di 3 metri e luce fioca per ulteriori 3 metri."
       }
     ],
     "at_higher_levels": [
@@ -8979,16 +8115,7 @@
       },
       {
         "type": "text",
-        "text": ", altrimenti è obbligato a servire l'incantatore per la durata dell'incantesimo. Se la creatura  è stata evocata o creata da un altro incantesimo,  la durata di quell'incantesimo viene estesa per  corrispondere alla durata di questo. Una creatura vincolata deve eseguire gli ordini  al meglio delle sue capacità. L'incantatore potrebbe  ordinarle di accompagnarlo in un'avventura, di  proteggere un luogo o di consegnare un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": ".  Se la creatura è ostile, cercherà in tutti i modi di  distorcere gli ordini dell'incantatore per perseguire  i suoi obiettivi personali. Se la creatura porta a termine gli ordini dell'incantatore prima del termine  dell'incantesimo, si reca da lui per riferirglielo, ma  solo se si trovano sullo stesso piano di esistenza.  Se l'incantatore si trova su un piano diverso, la creatura ritorna nel luogo in cui è stata vincolata e vi  rimane fino al termine dell'incantesimo."
+        "text": ", altrimenti è obbligato a servire l'incantatore per la durata dell'incantesimo. Se la creatura  è stata evocata o creata da un altro incantesimo,  la durata di quell'incantesimo viene estesa per  corrispondere alla durata di questo. Una creatura vincolata deve eseguire gli ordini  al meglio delle sue capacità. L'incantatore potrebbe  ordinarle di accompagnarlo in un'avventura, di  proteggere un luogo o di consegnare un messaggio.  Se la creatura è ostile, cercherà in tutti i modi di  distorcere gli ordini dell'incantatore per perseguire  i suoi obiettivi personali. Se la creatura porta a termine gli ordini dell'incantatore prima del termine  dell'incantesimo, si reca da lui per riferirglielo, ma  solo se si trovano sullo stesso piano di esistenza.  Se l'incantatore si trova su un piano diverso, la creatura ritorna nel luogo in cui è stata vincolata e vi  rimane fino al termine dell'incantesimo."
       }
     ],
     "at_higher_levels": [
@@ -9076,16 +8203,7 @@
       },
       {
         "type": "text",
-        "text": " è dimezzata.  Quando è il suo turno, può effettuare un'azione o  un'azione bonus, non entrambe. Inoltre, se sceglie  di eseguire l'azione di Attacco, può sferrare un solo  attacco. Se "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo con una componente somatica, ha una probabilità di fallimento  del 25%, poiché l'incantatore effettua troppo lentamente i movimenti necessari al lancio. Inoltre, ripeterà il tiro salvezza alla fine di ogni  suo turno. Se lo supera, l'incantesimo svanisce."
+        "text": " è dimezzata.  Quando è il suo turno, può effettuare un'azione o  un'azione bonus, non entrambe. Inoltre, se sceglie  di eseguire l'azione di Attacco, può sferrare un solo  attacco. Se lancia un incantesimo con una componente somatica, ha una probabilità di fallimento  del 25%, poiché l'incantatore effettua troppo lentamente i movimenti necessari al lancio. Inoltre, ripeterà il tiro salvezza alla fine di ogni  suo turno. Se lo supera, l'incantesimo svanisce."
       }
     ],
     "at_higher_levels": [],
@@ -9371,52 +8489,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore tocca un oggetto di taglia Grande  o inferiore che non sia stato indossato o trasportato  da altri. Fino al termine dell'incantesimo, l'oggetto  proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa entro un raggio di 6 metri  e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 6 metri. L'incantatore può  scegliere il colore di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " che desidera. Coprire l'oggetto con qualcosa di opaco blocca la  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": ". L'incantesimo termina se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  di nuovo."
+        "text": "L'incantatore tocca un oggetto di taglia Grande  o inferiore che non sia stato indossato o trasportato  da altri. Fino al termine dell'incantesimo, l'oggetto  proietta luce intensa entro un raggio di 6 metri  e luce fioca per altri 6 metri. L'incantatore può  scegliere il colore di luce che desidera. Coprire l'oggetto con qualcosa di opaco blocca la  luce. L'incantesimo termina se l'incantatore lo lancia  di nuovo."
       }
     ],
     "at_higher_levels": [],
@@ -9442,70 +8515,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Per la durata dell'incantesimo, un fascio di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  solare si sprigiona da un punto entro gittata e riempie una sfera del raggio di 18 metri. L'area della  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " solare emette "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e poi "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per  ulteriori 18 metri. In alternativa, l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo  su un oggetto che non sia indossato o trasportato,  facendo sì che la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " solare riempia un'emanazione  di 18 metri di cui l'oggetto è il punto di origine.  Coprire l'oggetto con qualcosa di opaco, come  una ciotola o un elmo, blocca la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " solare. Se una parte dell'area di questo incantesimo  si sovrappone a un'area di "
+        "text": "Per la durata dell'incantesimo, un fascio di luce  solare si sprigiona da un punto entro gittata e riempie una sfera del raggio di 18 metri. L'area della  luce solare emette luce intensa e poi luce fioca per  ulteriori 18 metri. In alternativa, l'incantatore lancia l'incantesimo  su un oggetto che non sia indossato o trasportato,  facendo sì che la luce solare riempia un'emanazione  di 18 metri di cui l'oggetto è il punto di origine.  Coprire l'oggetto con qualcosa di opaco, come  una ciotola o un elmo, blocca la luce solare. Se una parte dell'area di questo incantesimo  si sovrappone a un'area di "
       },
       {
         "type": "spell",
@@ -9514,16 +8524,7 @@
       },
       {
         "type": "text",
-        "text": " creata da un  incantesimo di 3º livello o inferiore, l'incantesimo  che ha creato la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " viene dissolto."
+        "text": " creata da un  incantesimo di 3º livello o inferiore, l'incantesimo  che ha creato la luce viene dissolto."
       }
     ],
     "at_higher_levels": [],
@@ -9546,34 +8547,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un globo di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " contro una  creatura o un oggetto entro gittata, effettuando  un attacco a distanza con incantesimo contro il bersaglio. Se il colpo va a segno, il bersaglio subisce 1d8  danni radiosi e, fino al termine del turno successivo  dell'incantatore, emette "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca nel raggio di  3 metri e non può beneficiare della condizione di  "
+        "text": "L'incantatore lancia un globo di luce contro una  creatura o un oggetto entro gittata, effettuando  un attacco a distanza con incantesimo contro il bersaglio. Se il colpo va a segno, il bersaglio subisce 1d8  danni radiosi e, fino al termine del turno successivo  dell'incantatore, emette luce fioca nel raggio di  3 metri e non può beneficiare della condizione di  "
       },
       {
         "type": "spell",
@@ -9606,43 +8580,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore crea fino a quattro luci delle  dimensioni di una torcia, facendole apparire come  lanterne, torce o globi luminosi che fluttuano per  la durata dell'incantesimo entro la sua gittata.  In alternativa, l'incantatore può fondere le quattro  luci in un'unica forma luminosa di taglia Media  di aspetto simile a quello umano. Qualunque sia  la forma scelta, ogni "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca entro  un raggio di 3 metri. Come azione bonus, l'incantatore può muovere  le luci per un massimo di 18 metri fino a un punto  entro gittata. Ogni "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " deve trovarsi entro 6 metri  da un'altra "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " creata da questo incantesimo.  Se una delle luci supera la gittata dell'incantesimo,  svanisce."
+        "text": "L'incantatore crea fino a quattro luci delle  dimensioni di una torcia, facendole apparire come  lanterne, torce o globi luminosi che fluttuano per  la durata dell'incantesimo entro la sua gittata.  In alternativa, l'incantatore può fondere le quattro  luci in un'unica forma luminosa di taglia Media  di aspetto simile a quello umano. Qualunque sia  la forma scelta, ogni luce proietta luce fioca entro  un raggio di 3 metri. Come azione bonus, l'incantatore può muovere  le luci per un massimo di 18 metri fino a un punto  entro gittata. Ogni luce deve trovarsi entro 6 metri  da un'altra luce creata da questo incantesimo.  Se una delle luci supera la gittata dell'incantesimo,  svanisce."
       }
     ],
     "at_higher_levels": [],
@@ -9665,16 +8603,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Gli oggetti contenuti in un cubo con spigolo di  6 metri entro gittata vengono evidenziati da un  alone di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " blu, verde o viola (a scelta dell'incantatore). Ogni creatura presente nel cubo viene a sua  volta evidenziata se fallisce un tiro salvezza su  "
+        "text": "Gli oggetti contenuti in un cubo con spigolo di  6 metri entro gittata vengono evidenziati da un  alone di luce blu, verde o viola (a scelta dell'incantatore). Ogni creatura presente nel cubo viene a sua  volta evidenziata se fallisce un tiro salvezza su  "
       },
       {
         "type": "ability",
@@ -9683,16 +8612,7 @@
       },
       {
         "type": "text",
-        "text": ". Per la durata dell'incantesimo, gli oggetti  e le creature influenzate proiettano "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca entro  un raggio di 3 metri e non possono beneficiare della  condizione di "
+        "text": ". Per la durata dell'incantesimo, gli oggetti  e le creature influenzate proiettano luce fioca entro  un raggio di 3 metri e non possono beneficiare della  condizione di "
       },
       {
         "type": "spell",
@@ -9770,25 +8690,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore crea una mano Grande di energia  magica luccicante in uno spazio libero entro gittata  che è in grado di vedere. La mano permane per  la durata dell'incantesimo e si muove al "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": "  dell'incantatore, imitando i movimenti della sua  mano. La mano è un oggetto che possiede CA 20 e una  quantità di punti ferita pari ai punti ferita massimi  dell'incantatore; se scende a 0 punti ferita, l'incantesimo termina. La mano non occupa spazio. Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo come  azione bonus nei suoi turni successivi, può muovere  la mano per un massimo di 18 metri e causare uno  dei seguenti effetti: **Mano interposta.** La mano conferisce all'incantatore mezza copertura contro gli attacchi e altri  effetti che hanno origine dal suo spazio o che  la attraversano. Inoltre, il suo spazio conta come  terreno difficile per i nemici. **Mano possente.** La mano tenta di spingere una  creatura di taglia Enorme o inferiore situata entro  1,5 metri da essa: Il bersaglio deve superare un  tiro salvezza su "
+        "text": "L'incantatore crea una mano Grande di energia  magica luccicante in uno spazio libero entro gittata  che è in grado di vedere. La mano permane per  la durata dell'incantesimo e si muove al comando  dell'incantatore, imitando i movimenti della sua  mano. La mano è un oggetto che possiede CA 20 e una  quantità di punti ferita pari ai punti ferita massimi  dell'incantatore; se scende a 0 punti ferita, l'incantesimo termina. La mano non occupa spazio. Quando l'incantatore lancia l'incantesimo come  azione bonus nei suoi turni successivi, può muovere  la mano per un massimo di 18 metri e causare uno  dei seguenti effetti: **Mano interposta.** La mano conferisce all'incantatore mezza copertura contro gli attacchi e altri  effetti che hanno origine dal suo spazio o che  la attraversano. Inoltre, il suo spazio conta come  terreno difficile per i nemici. **Mano possente.** La mano tenta di spingere una  creatura di taglia Enorme o inferiore situata entro  1,5 metri da essa: Il bersaglio deve superare un  tiro salvezza su "
       },
       {
         "type": "damage_type",
@@ -9854,25 +8756,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una mano spettrale fluttuante compare in un  punto a scelta dell'incantatore situato entro gittata.  La mano permane per la durata dell'incantesimo e  svanisce se si trova a più di 9 metri dall'incantatore  o se quest'ultimo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " nuovamente l'incantesimo. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore può  usare la mano per maneggiare un oggetto, aprire  una porta o un contenitore che non siano chiusi  a chiave, riporre o estrarre un oggetto da un contenitore aperto o versare il contenuto di una fiala. Come azione di Magia nei tuoi turni successivi,  puoi controllare nuovamente la mano. Come parte  di quell'azione, puoi muoverla fino a 9 metri. La mano non può attaccare, attivare oggetti  magici o trasportare più di 5 chilogrammi."
+        "text": "Una mano spettrale fluttuante compare in un  punto a scelta dell'incantatore situato entro gittata.  La mano permane per la durata dell'incantesimo e  svanisce se si trova a più di 9 metri dall'incantatore  o se quest'ultimo lancia nuovamente l'incantesimo. Quando lancia l'incantesimo, l'incantatore può  usare la mano per maneggiare un oggetto, aprire  una porta o un contenitore che non siano chiusi  a chiave, riporre o estrarre un oggetto da un contenitore aperto o versare il contenuto di una fiala. Come azione di Magia nei tuoi turni successivi,  puoi controllare nuovamente la mano. Come parte  di quell'azione, puoi muoverla fino a 9 metri. La mano non può attaccare, attivare oggetti  magici o trasportare più di 5 chilogrammi."
       }
     ],
     "at_higher_levels": [],
@@ -9955,25 +8839,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore indica una creatura entro gittata  e sussurra un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": ". Solo il bersaglio sente  il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " e può sussurrare una risposta che  unicamente l'incantatore può sentire. L'incantatore può lanciare questo incantesimo  attraverso oggetti solidi se il bersaglio gli è noto  e sa che si trova oltre la barriera. Tuttavia, l'incantesimo viene bloccato da "
+        "text": "L'incantatore indica una creatura entro gittata  e sussurra un messaggio. Solo il bersaglio sente  il messaggio e può sussurrare una risposta che  unicamente l'incantatore può sentire. L'incantatore può lanciare questo incantesimo  attraverso oggetti solidi se il bersaglio gli è noto  e sa che si trova oltre la barriera. Tuttavia, l'incantesimo viene bloccato da "
       },
       {
         "type": "spell",
@@ -10707,34 +9573,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un piano scintillante di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " multicolore forma  un muro opaco verticale (che può misurare  fino a 27 metri di lunghezza, 9 metri di altezza  e 2,5 centimetri di spessore), centrato su un punto  entro gittata. In alternativa, l'incantatore modella  il muro in un globo del diametro massimo di 9 metri  centrato su un punto entro gittata. Il muro permane  per tutta la durata dell'incantesimo. Se l'incantatore  posiziona il muro in uno spazio occupato da una  creatura, l'incantesimo termina immediatamente,  senza alcun effetto. Il muro emana "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa entro 30 metri  e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori 30 metri. L'incantatore  e le creature da lui scelte al momento del lancio  ­dell'incantesimo possono passare attraverso  il muro o rimanervi accanto senza subire danni.  Se un'altra creatura in grado di vedere il muro  giunge entro 6 metri da esso o comincia lì il proprio  turno, deve superare un tiro salvezza su "
+        "text": "Un piano scintillante di luce multicolore forma  un muro opaco verticale (che può misurare  fino a 27 metri di lunghezza, 9 metri di altezza  e 2,5 centimetri di spessore), centrato su un punto  entro gittata. In alternativa, l'incantatore modella  il muro in un globo del diametro massimo di 9 metri  centrato su un punto entro gittata. Il muro permane  per tutta la durata dell'incantesimo. Se l'incantatore  posiziona il muro in uno spazio occupato da una  creatura, l'incantesimo termina immediatamente,  senza alcun effetto. Il muro emana luce intensa entro 30 metri  e luce fioca per ulteriori 30 metri. L'incantatore  e le creature da lui scelte al momento del lancio  ­dell'incantesimo possono passare attraverso  il muro o rimanervi accanto senza subire danni.  Se un'altra creatura in grado di vedere il muro  giunge entro 6 metri da esso o comincia lì il proprio  turno, deve superare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -10905,16 +9744,7 @@
       },
       {
         "type": "text",
-        "text": " |  |  | . Non è |  |  |  |  |  |  |  |  |  |\n|  | tre di un certo tipo. è possibile lanciare incantesimi attraverso questo strato, che viene distrutto dalla "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " |  |  |  |  |  | Effetti aggiuntivi: |  |  | non |  |  |  |  |  |  |  |  |\n|  | intensa emanata dall'incantesimo |  |  |  |  |  |  |  | "
+        "text": " |  |  | . Non è |  |  |  |  |  |  |  |  |  |\n|  | tre di un certo tipo. è possibile lanciare incantesimi attraverso questo strato, che viene distrutto dalla luce |  |  |  |  |  | Effetti aggiuntivi: |  |  | non |  |  |  |  |  |  |  |  |\n|  | intensa emanata dall'incantesimo |  |  |  |  |  |  |  | "
       },
       {
         "type": "spell",
@@ -11240,25 +10070,7 @@
       },
       {
         "type": "text",
-        "text": " non è in grado di vedere attraverso  di essa e la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " non magica non può illuminarla. In alternativa, l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo  su un oggetto che non sia indossato o trasportato,  facendo sì che l'"
+        "text": " non è in grado di vedere attraverso  di essa e la luce non magica non può illuminarla. In alternativa, l'incantatore lancia l'incantesimo  su un oggetto che non sia indossato o trasportato,  facendo sì che l'"
       },
       {
         "type": "spell",
@@ -11276,34 +10088,7 @@
       },
       {
         "type": "text",
-        "text": ". Se una parte dell'area di questo incantesimo si  sovrappone a un'area di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa o "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca  creata da un incantesimo di 2º livello o inferiore,  l'incantesimo che ha creato la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " viene dissolto."
+        "text": ". Se una parte dell'area di questo incantesimo si  sovrappone a un'area di luce intensa o luce fioca  creata da un incantesimo di 2º livello o inferiore,  l'incantesimo che ha creato la luce viene dissolto."
       }
     ],
     "at_higher_levels": [],
@@ -11326,16 +10111,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una scia di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " brillante parte dall'incantatore  e sfreccia fino a un punto a sua scelta entro gittata,  provocando un'esplosione infuocata con un profondo boato. Ogni creatura presente in una sfera  dal raggio di 6 metri e centrata su quel punto deve  effettuare un tiro salvezza su "
+        "text": "Una scia di luce brillante parte dall'incantatore  e sfreccia fino a un punto a sua scelta entro gittata,  provocando un'esplosione infuocata con un profondo boato. Ogni creatura presente in una sfera  dal raggio di 6 metri e centrata su quel punto deve  effettuare un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -11381,16 +10157,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un raggio di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " gialla si sprigiona dall'incantatore per poi condensarsi in un punto a sua scelta  entro gittata, formando una sfera scintillante che  permane per la durata dell'incantesimo. Al termine  dell'incantesimo, la sfera esplode e ogni creatura  all'interno di una sfera del raggio di 6 metri  centrata su quel punto effettua un tiro salvezza su  "
+        "text": "Un raggio di luce gialla si sprigiona dall'incantatore per poi condensarsi in un punto a sua scelta  entro gittata, formando una sfera scintillante che  permane per la durata dell'incantesimo. Al termine  dell'incantesimo, la sfera esplode e ogni creatura  all'interno di una sfera del raggio di 6 metri  centrata su quel punto effettua un tiro salvezza su  "
       },
       {
         "type": "ability",
@@ -11671,16 +10438,7 @@
       },
       {
         "type": "text",
-        "text": " (vedi di seguito). Se "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo senza prima preparare un  "
+        "text": " (vedi di seguito). Se lancia questo incantesimo senza prima preparare un  "
       },
       {
         "type": "spell",
@@ -12066,16 +10824,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Fino al termine dell'incantesimo, una creatura consenziente toccata dall'incantatore avrà "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  a danni contundenti, perforanti e taglienti."
+        "text": "Fino al termine dell'incantesimo, una creatura consenziente toccata dall'incantatore avrà resistenza  a danni contundenti, perforanti e taglienti."
       }
     ],
     "at_higher_levels": [],
@@ -12226,16 +10975,7 @@
       },
       {
         "type": "text",
-        "text": ". Divinità e altri sovrani planari possono impedire  che i portali creati tramite questo incantesimo si  aprano in loro presenza o nei loro domini. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore  può pronunciare il nome di una creatura specifica  (pseudonimi, titoli o soprannomi non funzionano).  Se la creatura nominata si trova su un piano diverso  da quello in cui si trova l'incantatore, il "
+        "text": ". Divinità e altri sovrani planari possono impedire  che i portali creati tramite questo incantesimo si  aprano in loro presenza o nei loro domini. Quando lancia questo incantesimo, l'incantatore  può pronunciare il nome di una creatura specifica  (pseudonimi, titoli o soprannomi non funzionano).  Se la creatura nominata si trova su un piano diverso  da quello in cui si trova l'incantatore, il "
       },
       {
         "type": "spell",
@@ -12341,16 +11081,7 @@
       },
       {
         "type": "text",
-        "text": " Con risultati... |  | L'incantesimo non tiene conto delle circostanze,  come altri incantesimi, che potrebbero modificare  i risultati. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
+        "text": " Con risultati... |  | L'incantesimo non tiene conto delle circostanze,  come altri incantesimi, che potrebbero modificare  i risultati. Se l'incantatore lancia l'incantesimo più volte  prima di completare un riposo lungo, esiste una  probabilità cumulativa del 25% di non ottenere  risposta per ogni lancio dopo il primo."
       }
     ],
     "at_higher_levels": [],
@@ -12375,16 +11106,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore crea un effetto magico entro gittata,  scegliendolo tra quelli illustrati di seguito. Se  ­l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo più volte,  può tenere attivi fino a tre dei suoi effetti non  ­istantanei contemporaneamente. _**Effetto sensoriale.**_ L'incantatore crea un effetto  sensoriale innocuo e istantaneo, come una pioggia  di scintille, una "
+        "text": "L'incantatore crea un effetto magico entro gittata,  scegliendolo tra quelli illustrati di seguito. Se  ­l'incantatore lancia questo incantesimo più volte,  può tenere attivi fino a tre dei suoi effetti non  ­istantanei contemporaneamente. _**Effetto sensoriale.**_ L'incantatore crea un effetto  sensoriale innocuo e istantaneo, come una pioggia  di scintille, una "
       },
       {
         "type": "spell",
@@ -12454,16 +11176,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore tocca una creatura consenziente  e le conferisce una capacità limitata di vedere  nell'immediato futuro. Per la durata dell'incantesimo, il bersaglio dispone di vantaggio alle  prove con d20. Inoltre, le altre creature subiscono  svantaggio ai tiri per colpire contro di esso. L'incantesimo termina in anticipo se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": "  di nuovo."
+        "text": "L'incantatore tocca una creatura consenziente  e le conferisce una capacità limitata di vedere  nell'immediato futuro. Per la durata dell'incantesimo, il bersaglio dispone di vantaggio alle  prove con d20. Inoltre, le altre creature subiscono  svantaggio ai tiri per colpire contro di esso. L'incantesimo termina in anticipo se l'incantatore lo lancia  di nuovo."
       }
     ],
     "at_higher_levels": [],
@@ -12485,34 +11198,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una fiamma tremolante compare nella mano  ­dell'incantatore e permane per la durata  ­dell'incantesimo. La fiamma non emette calore e  non può incendiare nulla; emana "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un  raggio di 6 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per ulteriori 6 metri.  L'incantesimo termina se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di  nuovo. Fino al termine dell'incantesimo, l'incantatore  può effettuare un'azione di Magia per scagliare  la fiamma contro una creatura o un oggetto a  18 metri da lui, effettuando un attacco a distanza  con incantesimo. Se il colpo va a segno, il bersaglio  subisce 1d8 danni da "
+        "text": "Una fiamma tremolante compare nella mano  ­dell'incantatore e permane per la durata  ­dell'incantesimo. La fiamma non emette calore e  non può incendiare nulla; emana luce intensa in un  raggio di 6 metri e luce fioca per ulteriori 6 metri.  L'incantesimo termina se l'incantatore lo lancia di  nuovo. Fino al termine dell'incantesimo, l'incantatore  può effettuare un'azione di Magia per scagliare  la fiamma contro una creatura o un oggetto a  18 metri da lui, effettuando un attacco a distanza  con incantesimo. Se il colpo va a segno, il bersaglio  subisce 1d8 danni da "
       },
       {
         "type": "damage_type",
@@ -12561,16 +11247,7 @@
       },
       {
         "type": "text",
-        "text": ". L'incantesimo protegge l'area dai viaggi planari, impedendo perciò alle creature di accedervi  tramite il Piano Astrale, il Piano Etereo, la Selva  Fatata, la Coltre Oscura e l'incantesimo spostamento  planare. Inoltre, infligge danni a uno o più tipi di creature  indicati dall'incantatore al momento del lancio,  scelti tra i seguenti: aberrazioni, celestiali, elementali, folletti, immondi e non morti. Quando una creatura del tipo scelto entra nell'area dell'incantesimo  per la prima volta in un turno o termina il suo turno  qui, subisce 5d10 danni necrotici o radiosi (a scelta  dell'incantatore al momento del lancio). Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore può  indicare una parola d'ordine: una creatura che  la pronuncia accedendo all'area non subisce danni. L'area di questo incantesimo non può sovrapporsi all'area di un altro incantesimo "
+        "text": ". L'incantesimo protegge l'area dai viaggi planari, impedendo perciò alle creature di accedervi  tramite il Piano Astrale, il Piano Etereo, la Selva  Fatata, la Coltre Oscura e l'incantesimo spostamento  planare. Inoltre, infligge danni a uno o più tipi di creature  indicati dall'incantatore al momento del lancio,  scelti tra i seguenti: aberrazioni, celestiali, elementali, folletti, immondi e non morti. Quando una creatura del tipo scelto entra nell'area dell'incantesimo  per la prima volta in un turno o termina il suo turno  qui, subisce 5d10 danni necrotici o radiosi (a scelta  dell'incantatore al momento del lancio). Quando lancia l'incantesimo, l'incantatore può  indicare una parola d'ordine: una creatura che  la pronuncia accedendo all'area non subisce danni. L'area di questo incantesimo non può sovrapporsi all'area di un altro incantesimo "
       },
       {
         "type": "spell",
@@ -12579,16 +11256,7 @@
       },
       {
         "type": "text",
-        "text": ".  Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " "
+        "text": ".  Se l'incantatore lancia "
       },
       {
         "type": "spell",
@@ -12779,16 +11447,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Per la durata dell'incantesimo, una creatura consenziente toccata dall'incantatore dispone di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  a un tipo di danni a scelta di quest'ultimo: "
+        "text": "Per la durata dell'incantesimo, una creatura consenziente toccata dall'incantatore dispone di resistenza  a un tipo di danni a scelta di quest'ultimo: "
       },
       {
         "type": "damage_type",
@@ -12954,16 +11613,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'attacco infligge 2d6 danni radiosi extra al bersaglio. Fino al termine dell'incantesimo, il bersaglio  proietta "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 1,5 metri, non  può beneficiare della condizione di "
+        "text": "L'attacco infligge 2d6 danni radiosi extra al bersaglio. Fino al termine dell'incantesimo, il bersaglio  proietta luce intensa in un raggio di 1,5 metri, non  può beneficiare della condizione di "
       },
       {
         "type": "spell",
@@ -13074,16 +11724,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un raggio gelido di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " bianco-azzurra sfreccia  verso una creatura entro gittata, contro cui l'incantatore effettua un attacco a distanza con incantesimo. Se il colpo va a segno, il bersaglio subisce 1d8  danni da "
+        "text": "Un raggio gelido di luce bianco-azzurra sfreccia  verso una creatura entro gittata, contro cui l'incantatore effettua un attacco a distanza con incantesimo. Se il colpo va a segno, il bersaglio subisce 1d8  danni da "
       },
       {
         "type": "damage_type",
@@ -13170,16 +11811,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " tre raggi di "
+        "text": "L'incantatore lancia tre raggi di "
       },
       {
         "type": "damage_type",
@@ -13328,16 +11960,7 @@
       },
       {
         "type": "text",
-        "text": " o danni normali inflitti dall'arma (a scelta  dell'incantatore). L'incantesimo termina se l'incantatore lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di  nuovo o se lascia andare l'arma. _**Trucchetto potenziato.**_ I danni sono calcolati con  un dado diverso quando l'incantatore raggiunge  il 5º livello (d10), l'11º livello (d12) e il 17º livello  (2d6)."
+        "text": " o danni normali inflitti dall'arma (a scelta  dell'incantatore). L'incantesimo termina se l'incantatore lo lancia di  nuovo o se lascia andare l'arma. _**Trucchetto potenziato.**_ I danni sono calcolati con  un dado diverso quando l'incantatore raggiunge  il 5º livello (d10), l'11º livello (d12) e il 17º livello  (2d6)."
       }
     ],
     "at_higher_levels": [],
@@ -14336,16 +12959,7 @@
       },
       {
         "type": "text",
-        "text": ". L'area è pervasa di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa.  ­L'"
+        "text": ". L'area è pervasa di luce intensa.  ­L'"
       },
       {
         "type": "spell",
@@ -14354,16 +12968,7 @@
       },
       {
         "type": "text",
-        "text": " magica creata dagli incantesimi di  livello inferiore rispetto a questo incantesimo non  può sopprimere la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": ". "
+        "text": " magica creata dagli incantesimi di  livello inferiore rispetto a questo incantesimo non  può sopprimere la luce. "
       },
       {
         "type": "spell",
@@ -14381,25 +12986,7 @@
       },
       {
         "type": "text",
-        "text": ". La "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  normale, nonché la "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " magica creata dagli  incantesimi di livello inferiore rispetto a questo  incantesimo, non possono illuminare l'area. "
+        "text": ". La luce  normale, nonché la luce magica creata dagli  incantesimi di livello inferiore rispetto a questo  incantesimo, non possono illuminare l'area. "
       },
       {
         "type": "spell",
@@ -14408,25 +12995,7 @@
       },
       {
         "type": "text",
-        "text": ". Le creature di qualsiasi tipo scelto  ­dall'incantatore non possono essere spaventate  finché si trovano nell'area. "
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": ". Le creature di qualsiasi tipo scelto  dall'incantatore sono resistenti a un tipo di danno  scelto dall'incantatore finché si trovano nell'area. Sereno riposo. I cadaveri sepolti nell'area non  possono diventare non morti. "
-      },
-      {
-        "type": "spell",
-        "text": "Silenzio",
-        "id": "silenzio"
-      },
-      {
-        "type": "text",
-        "text": ". L'area è insonorizzata, nessun suono può  fuoriuscire o penetrare al suo interno. Vulnerabilità. Le creature di qualsiasi tipo scelto  dall'incantatore sono vulnerabili a un tipo di  danno scelto dall'incantatore finché si trovano  nell'area."
+        "text": ". Le creature di qualsiasi tipo scelto  ­dall'incantatore non possono essere spaventate  finché si trovano nell'area. Resistenza. Le creature di qualsiasi tipo scelto  dall'incantatore sono resistenti a un tipo di danno  scelto dall'incantatore finché si trovano nell'area. Sereno riposo. I cadaveri sepolti nell'area non  possono diventare non morti. Silenzio. L'area è insonorizzata, nessun suono può  fuoriuscire o penetrare al suo interno. Vulnerabilità. Le creature di qualsiasi tipo scelto  dall'incantatore sono vulnerabili a un tipo di  danno scelto dall'incantatore finché si trovano  nell'area."
       }
     ],
     "at_higher_levels": [],
@@ -14457,16 +13026,7 @@
       },
       {
         "type": "text",
-        "text": ", altrimenti deve scegliere un bersaglio diverso o perdere  l'attacco o l'incantesimo. Questo incantesimo non  protegge la creatura protetta dalle aree di effetto.  L'incantesimo termina se la creatura protetta  effettua un tiro per colpire, "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo  o infligge danni."
+        "text": ", altrimenti deve scegliere un bersaglio diverso o perdere  l'attacco o l'incantesimo. Questo incantesimo non  protegge la creatura protetta dalle aree di effetto.  L'incantesimo termina se la creatura protetta  effettua un tiro per colpire, lancia un incantesimo  o infligge danni."
       }
     ],
     "at_higher_levels": [],
@@ -14488,16 +13048,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore rende magicamente sicura un'area  entro gittata: un cubo le cui dimensioni possono  variare da un minimo di 1,5 metri per spigolo a un  massimo di 30 metri per spigolo. L'incantesimo  permane per tutta la sua durata. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore decide  che tipo di sicurezza esso fornisce, scegliendo una  o più tra le proprietà seguenti: •\tI suoni non possono attraversare la barriera ai  confini dell'area protetta. •\tLa barriera nell'area protetta appare oscura  e nebulosa, rendendo impossibile vedere oltre  (anche utilizzando "
+        "text": "L'incantatore rende magicamente sicura un'area  entro gittata: un cubo le cui dimensioni possono  variare da un minimo di 1,5 metri per spigolo a un  massimo di 30 metri per spigolo. L'incantesimo  permane per tutta la sua durata. Quando lancia l'incantesimo, l'incantatore decide  che tipo di sicurezza esso fornisce, scegliendo una  o più tra le proprietà seguenti: •\tI suoni non possono attraversare la barriera ai  confini dell'area protetta. •\tLa barriera nell'area protetta appare oscura  e nebulosa, rendendo impossibile vedere oltre  (anche utilizzando "
       },
       {
         "type": "spell",
@@ -14577,16 +13128,7 @@
     "at_higher_levels": [
       {
         "type": "text",
-        "text": "Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo  usando uno slot incantesimo di 4º livello, può  mantenere la concentrazione su di esso fino a un  massimo di 10 minuti. Se usa uno slot incantesimo  di 5º livello o superiore, l'incantesimo non richiede  concentrazione e la durata diventa di 8 ore (slot di  5º e 6º livello) o 24 ore (slot di 7º o 8º livello). Se usa  uno slot incantesimo di 9º livello, l'incantesimo  dura finché non viene dissolto."
+        "text": "Se l'incantatore lancia questo incantesimo  usando uno slot incantesimo di 4º livello, può  mantenere la concentrazione su di esso fino a un  massimo di 10 minuti. Se usa uno slot incantesimo  di 5º livello o superiore, l'incantesimo non richiede  concentrazione e la durata diventa di 8 ore (slot di  5º e 6º livello) o 24 ore (slot di 7º o 8º livello). Se usa  uno slot incantesimo di 9º livello, l'incantesimo  dura finché non viene dissolto."
       }
     ],
     "ritual": false,
@@ -14609,16 +13151,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore sceglie un oggetto entro gittata che  egli è in grado di vedere. Può trattarsi di una porta,  uno scrigno, un forziere, un paio di manette, un  lucchetto o un altro oggetto dotato di un mezzo  normale o magico per la chiusura. Un bersaglio tenuto chiuso da una normale serratura, incastrato o sbarrato, cessa di essere tale.  Se l'oggetto è protetto da più serrature, con questo  incantesimo se ne sblocca soltanto una. Se il bersaglio è tenuto chiuso da *Serratura* *Arcana*, quell'incantesimo è soppresso per  10 minuti, nel corso dei quali l'oggetto può essere  aperto e chiuso. Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, si  percepisce un forte rumore simile al bussare proveniente dal bersaglio, udibile fino a una distanza di  90 metri."
+        "text": "L'incantatore sceglie un oggetto entro gittata che  egli è in grado di vedere. Può trattarsi di una porta,  uno scrigno, un forziere, un paio di manette, un  lucchetto o un altro oggetto dotato di un mezzo  normale o magico per la chiusura. Un bersaglio tenuto chiuso da una normale serratura, incastrato o sbarrato, cessa di essere tale.  Se l'oggetto è protetto da più serrature, con questo  incantesimo se ne sblocca soltanto una. Se il bersaglio è tenuto chiuso da *Serratura* *Arcana*, quell'incantesimo è soppresso per  10 minuti, nel corso dei quali l'oggetto può essere  aperto e chiuso. Quando l'incantatore lancia l'incantesimo, si  percepisce un forte rumore simile al bussare proveniente dal bersaglio, udibile fino a una distanza di  90 metri."
       }
     ],
     "at_higher_levels": [],
@@ -14789,16 +13322,7 @@
       },
       {
         "type": "text",
-        "text": " nuovamente lo  scrigno sul Piano Etereo, effettuando un'azione di  Magia per toccare lo scrigno e la riproduzione. Dopo 60 giorni, esiste una probabilità cumulativa  del 5% al termine di ogni giorno che l'incantesimo  termini. L'incantesimo termina anche se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " nuovamente questo incantesimo  o se la riproduzione minuscola dello scrigno viene  distrutta. Se l'incantesimo termina e lo scrigno più  grande si trova sul Piano Etereo, lo scrigno rimane  lì per poter essere ritrovato dall'incantatore o da  qualcun altro."
+        "text": " nuovamente lo  scrigno sul Piano Etereo, effettuando un'azione di  Magia per toccare lo scrigno e la riproduzione. Dopo 60 giorni, esiste una probabilità cumulativa  del 5% al termine di ogni giorno che l'incantesimo  termini. L'incantesimo termina anche se l'incantatore lancia nuovamente questo incantesimo  o se la riproduzione minuscola dello scrigno viene  distrutta. Se l'incantesimo termina e lo scrigno più  grande si trova sul Piano Etereo, lo scrigno rimane  lì per poter essere ritrovato dall'incantatore o da  qualcun altro."
       }
     ],
     "at_higher_levels": [],
@@ -14822,34 +13346,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore scrive su una pergamena, un foglio  o un altro materiale adatto e infonde nello scritto  un'illusione che permane per la durata dell'incantesimo. All'incantatore e a qualsiasi creatura indicata  da lui al momento del lancio, lo scritto appare  normale, sembra essere stilato nella calligrafia  dell'incantatore e trasmette il significato inteso nel  momento in cui è stato scritto. Agli occhi di tutti  gli altri, il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " appare scritto in una lingua  magica o ignota che risulta per loro incomprensibile. In alternativa, l'illusione può alterare il significato, la calligrafia e la lingua del testo, ma questa  deve essere una lingua conosciuta dall'incantatore. Se l'incantesimo viene dissolto, il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " originale e l'illusione scompaiono. Una creatura con vista pura può leggere il "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " nascosto."
+        "text": "L'incantatore scrive su una pergamena, un foglio  o un altro materiale adatto e infonde nello scritto  un'illusione che permane per la durata dell'incantesimo. All'incantatore e a qualsiasi creatura indicata  da lui al momento del lancio, lo scritto appare  normale, sembra essere stilato nella calligrafia  dell'incantatore e trasmette il significato inteso nel  momento in cui è stato scritto. Agli occhi di tutti  gli altri, il messaggio appare scritto in una lingua  magica o ignota che risulta per loro incomprensibile. In alternativa, l'illusione può alterare il significato, la calligrafia e la lingua del testo, ma questa  deve essere una lingua conosciuta dall'incantatore. Se l'incantesimo viene dissolto, il messaggio originale e l'illusione scompaiono. Una creatura con vista pura può leggere il messaggio nascosto."
       }
     ],
     "at_higher_levels": [],
@@ -14981,52 +13478,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Per la durata dell'incantesimo, il corpo dell'incantatore è avvolto da fiamme sottili, che proiettano  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa in un raggio di 3 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per  ulteriori 3 metri. Le fiamme conferiscono all'incantatore uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": "  ardente o gelido a sua scelta. Lo "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " ardente gli  conferisce "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": "Per la durata dell'incantesimo, il corpo dell'incantatore è avvolto da fiamme sottili, che proiettano  luce intensa in un raggio di 3 metri e luce fioca per  ulteriori 3 metri. Le fiamme conferiscono all'incantatore uno scudo  ardente o gelido a sua scelta. Lo scudo ardente gli  conferisce resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -15035,25 +13487,7 @@
       },
       {
         "type": "text",
-        "text": ", mentre  lo "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " gelido "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": ", mentre  lo scudo gelido resistenza ai danni da "
       },
       {
         "type": "damage_type",
@@ -15062,16 +13496,7 @@
       },
       {
         "type": "text",
-        "text": ". Inoltre, ogni volta che una creatura entro  1,5 metri dall'incantatore lo colpisce con un tiro  per colpire in mischia, dallo "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " erompono delle  fiamme. L'attaccante subisce 2d8 danni da "
+        "text": ". Inoltre, ogni volta che una creatura entro  1,5 metri dall'incantatore lo colpisce con un tiro  per colpire in mischia, dallo scudo erompono delle  fiamme. L'attaccante subisce 2d8 danni da "
       },
       {
         "type": "damage_type",
@@ -15080,16 +13505,7 @@
       },
       {
         "type": "text",
-        "text": "  da uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " ardente o 2d8 danni da "
+        "text": "  da uno scudo ardente o 2d8 danni da "
       },
       {
         "type": "damage_type",
@@ -15098,16 +13514,7 @@
       },
       {
         "type": "text",
-        "text": " da uno  "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " gelido."
+        "text": " da uno  scudo gelido."
       }
     ],
     "at_higher_levels": [],
@@ -15283,16 +13690,7 @@
       },
       {
         "type": "text",
-        "text": ". Ciò si applica anche alle creature, a meno che  non scelgano di venire spinte attraverso la porta  mentre questa svanisce, atterrando prone sugli  spazi liberi più vicini allo spazio occupato precedentemente dalla porta. Ogni volta che "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore può creare un nuovo "
+        "text": ". Ciò si applica anche alle creature, a meno che  non scelgano di venire spinte attraverso la porta  mentre questa svanisce, atterrando prone sugli  spazi liberi più vicini allo spazio occupato precedentemente dalla porta. Ogni volta che lancia questo incantesimo, l'incantatore può creare un nuovo "
       },
       {
         "type": "spell",
@@ -15419,16 +13817,7 @@
       },
       {
         "type": "text",
-        "text": ", ripiegare abiti, accendere fuochi, servire pietanze e versare bevande.  Una volta impartito il "
-      },
-      {
-        "type": "spell",
-        "text": "comando",
-        "id": "comando"
-      },
-      {
-        "type": "text",
-        "text": ", il servitore svolge  il compito al meglio delle sue capacità finché non  lo porta a termine, poi attende l'ordine successivo  dell'incantatore. Se l'incantatore ordina al servitore di eseguire  un compito che lo porta a più di 18 metri da lui,  l'incantesimo termina."
+        "text": ", ripiegare abiti, accendere fuochi, servire pietanze e versare bevande.  Una volta impartito il comando, il servitore svolge  il compito al meglio delle sue capacità finché non  lo porta a termine, poi attende l'ordine successivo  dell'incantatore. Se l'incantatore ordina al servitore di eseguire  un compito che lo porta a più di 18 metri da lui,  l'incantesimo termina."
       }
     ],
     "at_higher_levels": [],
@@ -15701,25 +14090,7 @@
       },
       {
         "type": "text",
-        "text": ",  mentre se lo supera subisce soltanto la metà di quei  danni. Come azione bonus, l'incantatore può muovere  la sfera per un massimo di 9 metri, facendola  rotolare sul terreno. Se l'incantatore muove la sfera  nello spazio di una creatura, quella creatura effettua un tiro salvezza contro la sfera, che smette di  muoversi per quel turno. Quando l'incantatore muove la sfera, può dirigerla  oltre le barriere alte fino a 1,5 metri e farla saltare  oltre le fosse larghe fino a 3 metri. Se tocca oggetti  infiammabili che non sono indossati o trasportati,  la sfera li incendia proiettando "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa entro  un raggio di 6 metri e "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca per altri 6 metri."
+        "text": ",  mentre se lo supera subisce soltanto la metà di quei  danni. Come azione bonus, l'incantatore può muovere  la sfera per un massimo di 9 metri, facendola  rotolare sul terreno. Se l'incantatore muove la sfera  nello spazio di una creatura, quella creatura effettua un tiro salvezza contro la sfera, che smette di  muoversi per quel turno. Quando l'incantatore muove la sfera, può dirigerla  oltre le barriere alte fino a 1,5 metri e farla saltare  oltre le fosse larghe fino a 3 metri. Se tocca oggetti  infiammabili che non sono indossati o trasportati,  la sfera li incendia proiettando luce intensa entro  un raggio di 6 metri e luce fioca per altri 6 metri."
       }
     ],
     "at_higher_levels": [
@@ -15902,25 +14273,7 @@
       },
       {
         "type": "text",
-        "text": ", dolore, "
-      },
-      {
-        "type": "spell",
-        "text": "sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": " o stordimento.  Ciascuno di essi è spiegato di seguito. Programmare l'innesco. Quando questo  incantesimo viene lanciato, l'incantatore decide  cosa innesca il glifo. Nel caso di glifi tracciati su  una superficie, gli inneschi più comuni includono:  toccare o camminare su di essi, rimuovere un  altro oggetto che li copre o avvicinarsi a una certa  distanza da loro. Nel caso di glifi tracciati all'interno  di un oggetto, gli inneschi più comuni includono  aprire quell'oggetto o vedere il glifo. L'incantatore può perfezionare l'innesco in modo  che venga attivato solo da un certo tipo di creature  (ad esempio, il glifo potrebbe essere programmato  per influenzare le aberrazioni). Può inoltre impostare delle condizioni per evitare di innescare  il glifo, come pronunciare una specifica parola  d'ordine. Una volta attivato, il glifo brilla, proiettando "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  fioca in una sfera del raggio di 18 metri per 10  minuti, dopodiché l'incantesimo termina. Ogni creatura all'interno della sfera quando il glifo si attiva,  oppure che entra nella sfera per la prima volta in un  turno o termina il suo turno qui, ne subisce l'effetto.  Una creatura può essere presa di mira una sola  volta per turno. Discordia. Ogni bersaglio effettua un tiro salvezza su "
+        "text": ", dolore, sonno o stordimento.  Ciascuno di essi è spiegato di seguito. Programmare l'innesco. Quando questo  incantesimo viene lanciato, l'incantatore decide  cosa innesca il glifo. Nel caso di glifi tracciati su  una superficie, gli inneschi più comuni includono:  toccare o camminare su di essi, rimuovere un  altro oggetto che li copre o avvicinarsi a una certa  distanza da loro. Nel caso di glifi tracciati all'interno  di un oggetto, gli inneschi più comuni includono  aprire quell'oggetto o vedere il glifo. L'incantatore può perfezionare l'innesco in modo  che venga attivato solo da un certo tipo di creature  (ad esempio, il glifo potrebbe essere programmato  per influenzare le aberrazioni). Può inoltre impostare delle condizioni per evitare di innescare  il glifo, come pronunciare una specifica parola  d'ordine. Una volta attivato, il glifo brilla, proiettando luce  fioca in una sfera del raggio di 18 metri per 10  minuti, dopodiché l'incantesimo termina. Ogni creatura all'interno della sfera quando il glifo si attiva,  oppure che entra nella sfera per la prima volta in un  turno o termina il suo turno qui, ne subisce l'effetto.  Una creatura può essere presa di mira una sola  volta per turno. Discordia. Ogni bersaglio effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -15992,16 +14345,7 @@
       },
       {
         "type": "text",
-        "text": ", il bersaglio deve  allontanarsi di almeno 9 metri dal glifo in ogni suo  turno, se ne è in grado. "
-      },
-      {
-        "type": "spell",
-        "text": "Sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": ". Ogni bersaglio deve superare un tiro  salvezza su "
+        "text": ", il bersaglio deve  allontanarsi di almeno 9 metri dal glifo in ogni suo  turno, se ne è in grado. Sonno. Ogni bersaglio deve superare un tiro  salvezza su "
       },
       {
         "type": "ability",
@@ -16140,16 +14484,7 @@
       },
       {
         "type": "text",
-        "text": " permane finché non scende a 0 punti  ferita, nel qual caso si ritrasforma in neve e si scioglie. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di nuovo questo incantesimo, il "
+        "text": " permane finché non scende a 0 punti  ferita, nel qual caso si ritrasforma in neve e si scioglie. Se l'incantatore lancia di nuovo questo incantesimo, il "
       },
       {
         "type": "spell",
@@ -16318,25 +14653,7 @@
       },
       {
         "type": "text",
-        "text": " perfettamente. Se il bersaglio è sveglio quando l'incantatore  "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, il messaggero ne è consapevole  e può terminare la trance (e l'incantesimo) o aspettare che il bersaglio si addormenti e così apparire  nei suoi sogni. L'incantatore può fare in modo che il messaggero  appaia terrificante al bersaglio. In questo caso,  il messaggero può trasmettere un "
-      },
-      {
-        "type": "spell",
-        "text": "messaggio",
-        "id": "messaggio"
-      },
-      {
-        "type": "text",
-        "text": " di  massimo dieci parole e poi il bersaglio effettua  un tiro salvezza su "
+        "text": " perfettamente. Se il bersaglio è sveglio quando l'incantatore  lancia l'incantesimo, il messaggero ne è consapevole  e può terminare la trance (e l'incantesimo) o aspettare che il bersaglio si addormenti e così apparire  nei suoi sogni. L'incantatore può fare in modo che il messaggero  appaia terrificante al bersaglio. In questo caso,  il messaggero può trasmettere un messaggio di  massimo dieci parole e poi il bersaglio effettua  un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -16409,16 +14726,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore scaglia una maledizione su una creatura entro gittata che egli è in grado di vedere. Fino  al termine dell'incantesimo, l'incantatore infligge  1d6 danni necrotici extra al bersaglio ogni volta che  lo colpisce con un tiro per colpire. Inoltre, quando  l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, sceglie una caratteristica. Il bersaglio subisce svantaggio alle prove  di caratteristica effettuate con la caratteristica  scelta. Se il bersaglio scende a 0 punti ferita prima del  termine dell'incantesimo, l'incantatore può effettuare un'azione bonus in un suo turno successivo  per maledire un'altra creatura. _**Utilizzo di uno slot incantesimo di livello**_ _**superiore.**_ La concentrazione dell'incantatore può  durare di più utilizzando uno slot incantesimo  di 2º livello (fino a 4 ore), di 3º o 4º livello (fino  a 8 ore) o di 5º livello o superiore (24 ore)."
+        "text": "L'incantatore scaglia una maledizione su una creatura entro gittata che egli è in grado di vedere. Fino  al termine dell'incantesimo, l'incantatore infligge  1d6 danni necrotici extra al bersaglio ogni volta che  lo colpisce con un tiro per colpire. Inoltre, quando  l'incantatore lancia l'incantesimo, sceglie una caratteristica. Il bersaglio subisce svantaggio alle prove  di caratteristica effettuate con la caratteristica  scelta. Se il bersaglio scende a 0 punti ferita prima del  termine dell'incantesimo, l'incantatore può effettuare un'azione bonus in un suo turno successivo  per maledire un'altra creatura. _**Utilizzo di uno slot incantesimo di livello**_ _**superiore.**_ La concentrazione dell'incantatore può  durare di più utilizzando uno slot incantesimo  di 2º livello (fino a 4 ore), di 3º o 4º livello (fino  a 8 ore) o di 5º livello o superiore (24 ore)."
       }
     ],
     "at_higher_levels": [],
@@ -16536,25 +14844,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un lampo abbagliante di  "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " multicolore. Ogni creatura entro un cono di  4,5 metri originato dall'incantatore deve superare  un tiro salvezza su "
+        "text": "L'incantatore lancia un lampo abbagliante di  luce multicolore. Ogni creatura entro un cono di  4,5 metri originato dall'incantatore deve superare  un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -16587,16 +14877,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Otto raggi di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " si sprigionano dall'incantatore  in un cono di 18 metri. Ogni creatura presente nel  cono effettua un tiro salvezza su "
+        "text": "Otto raggi di luce si sprigionano dall'incantatore  in un cono di 18 metri. Ogni creatura presente nel  cono effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -16814,16 +15095,7 @@
       },
       {
         "type": "text",
-        "text": ". Se l'incantatore ottiene il risultato 8 su un d8, può  tirare un altro d8 e aggiungere il risultato ai danni.  Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, l'incantatore può  aggiungere ai danni dell'incantesimo un numero  di d8 pari al suo modificatore di caratteristica da  incantatore. _**Trucchetto potenziato.**_I danni di questo incantesimo aumentano di 1d8 quando l'incantatore  raggiunge il 5º livello (2d8), l'11º livello (3d8)  e il 17º livello (4d8)."
+        "text": ". Se l'incantatore ottiene il risultato 8 su un d8, può  tirare un altro d8 e aggiungere il risultato ai danni.  Quando lancia l'incantesimo, l'incantatore può  aggiungere ai danni dell'incantesimo un numero  di d8 pari al suo modificatore di caratteristica da  incantatore. _**Trucchetto potenziato.**_I danni di questo incantesimo aumentano di 1d8 quando l'incantatore  raggiunge il 5º livello (2d8), l'11º livello (3d8)  e il 17º livello (4d8)."
       }
     ],
     "at_higher_levels": [],
@@ -17039,16 +15311,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore genera una meraviglia minore entro  gittata, oltre a uno degli effetti elencati di seguito.  Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo più volte,  può tenere attivi contemporaneamente fino a tre  dei suoi effetti dalla durata di 1 minuto. _**Mano "
+        "text": "L'incantatore genera una meraviglia minore entro  gittata, oltre a uno degli effetti elencati di seguito.  Se l'incantatore lancia questo incantesimo più volte,  può tenere attivi contemporaneamente fino a tre  dei suoi effetti dalla durata di 1 minuto. _**Mano "
       },
       {
         "type": "condition",
@@ -17194,16 +15457,7 @@
       },
       {
         "type": "text",
-        "text": " permanente di cui l'incantatore  conosce la sequenza di sigilli. •\t\"Oggetto collegato\" indica un oggetto in possesso  dell'incantatore prelevato dalla destinazione  desiderata negli ultimi sei mesi, come un libro  della biblioteca di un mago. •\t\"Molto familiare\" indica un luogo che l'incantatore ha visitato spesso, un luogo che ha studiato  con attenzione o un luogo che è in grado di  vedere quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo. •\t\"Visto occasionalmente\" indica un luogo che  l'incantatore ha visto più di una volta, ma che non  gli è troppo familiare. •\t\"Visto una volta o descritto\" indica un luogo che  l'incantatore ha visto una volta, magari usando  la magia, o un luogo noto attraverso la descrizione di un'altra persona o una mappa. •\t\"Falsa destinazione\" è un luogo inesistente.  Per esempio, l'incantatore ha cercato di "
+        "text": " permanente di cui l'incantatore  conosce la sequenza di sigilli. •\t\"Oggetto collegato\" indica un oggetto in possesso  dell'incantatore prelevato dalla destinazione  desiderata negli ultimi sei mesi, come un libro  della biblioteca di un mago. •\t\"Molto familiare\" indica un luogo che l'incantatore ha visitato spesso, un luogo che ha studiato  con attenzione o un luogo che è in grado di  vedere quando lancia l'incantesimo. •\t\"Visto occasionalmente\" indica un luogo che  l'incantatore ha visto più di una volta, ma che non  gli è troppo familiare. •\t\"Visto una volta o descritto\" indica un luogo che  l'incantatore ha visto una volta, magari usando  la magia, o un luogo noto attraverso la descrizione di un'altra persona o una mappa. •\t\"Falsa destinazione\" è un luogo inesistente.  Per esempio, l'incantatore ha cercato di "
       },
       {
         "type": "spell",
@@ -17221,16 +15475,7 @@
       },
       {
         "type": "text",
-        "text": " e il GM "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " di nuovo sulla tabella per  determinare dove arriverà (potrebbero verificarsi  vari errori, nel qual caso i danni verranno inflitti  ogni volta). _**Area simile.**_ L'incantatore e il suo gruppo  (o ­l'oggetto bersaglio) arrivano in un'area diversa  che è visivamente o tematicamente simile all'area  bersaglio, oltre a essere nelle sue immediate  vicinanze. Per esempio, se l'incantatore vuole  dirigersi al suo laboratorio personale, potrebbe  comparire in quello di un'altra persona nella stessa  città. _**Fuori bersaglio.**_ L'incantatore e il suo gruppo  (o l'oggetto bersaglio) compaiono a una distanza di  2d12 chilometri dalla destinazione in una direzione  casuale. Tira 1d8 per la direzione: 1, est; 2, sud-est;  3, sud; 4, sud-ovest; 5, ovest; 6, nord-ovest; 7, nord;  oppure 8, nord-est. _**Sul bersaglio.**_ L'incantatore e il suo gruppo  (o ­l'oggetto bersaglio) compaiono nel luogo  designato."
+        "text": " e il GM lancia di nuovo sulla tabella per  determinare dove arriverà (potrebbero verificarsi  vari errori, nel qual caso i danni verranno inflitti  ogni volta). _**Area simile.**_ L'incantatore e il suo gruppo  (o ­l'oggetto bersaglio) arrivano in un'area diversa  che è visivamente o tematicamente simile all'area  bersaglio, oltre a essere nelle sue immediate  vicinanze. Per esempio, se l'incantatore vuole  dirigersi al suo laboratorio personale, potrebbe  comparire in quello di un'altra persona nella stessa  città. _**Fuori bersaglio.**_ L'incantatore e il suo gruppo  (o l'oggetto bersaglio) compaiono a una distanza di  2d12 chilometri dalla destinazione in una direzione  casuale. Tira 1d8 per la direzione: 1, est; 2, sud-est;  3, sud; 4, sud-ovest; 5, ovest; 6, nord-ovest; 7, nord;  oppure 8, nord-est. _**Sul bersaglio.**_ L'incantatore e il suo gruppo  (o ­l'oggetto bersaglio) compaiono nel luogo  designato."
       }
     ],
     "at_higher_levels": [],
@@ -17510,16 +15755,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore sceglie un punto del terreno entro  gittata che egli è in grado di vedere. Per la durata  dell'incantesimo, una scossa intensa sconquassa  il terreno in un raggio di 30 metri centrato su quel  punto, rendendolo terreno difficile. Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo,  e alla fine di ogni suo turno per tutta la durata,  ogni creatura sul terreno nell'area effettua un tiro  salvezza su "
+        "text": "L'incantatore sceglie un punto del terreno entro  gittata che egli è in grado di vedere. Per la durata  dell'incantesimo, una scossa intensa sconquassa  il terreno in un raggio di 30 metri centrato su quel  punto, rendendolo terreno difficile. Quando l'incantatore lancia questo incantesimo,  e alla fine di ogni suo turno per tutta la durata,  ogni creatura sul terreno nell'area effettua un tiro  salvezza su "
       },
       {
         "type": "ability",
@@ -17753,16 +15989,7 @@
       },
       {
         "type": "text",
-        "text": " o un non  morto e deve essere un tipo di creatura che l'incantatore abbia già visto. Quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, ottiene  un numero di punti ferita temporanei pari ai  punti ferita della prima forma in cui si trasforma.  Al termine dell'incantesimo, il bersaglio perde tutti  i punti ferita temporanei rimasti. Le statistiche di gioco dell'incantatore vengono  sostituite dalla scheda delle statistiche della forma  scelta, ma l'incantatore conserva il suo tipo di  creatura, allineamento, personalità, punteggi di  "
+        "text": " o un non  morto e deve essere un tipo di creatura che l'incantatore abbia già visto. Quando l'incantatore lancia l'incantesimo, ottiene  un numero di punti ferita temporanei pari ai  punti ferita della prima forma in cui si trasforma.  Al termine dell'incantesimo, il bersaglio perde tutti  i punti ferita temporanei rimasti. Le statistiche di gioco dell'incantatore vengono  sostituite dalla scheda delle statistiche della forma  scelta, ma l'incantatore conserva il suo tipo di  creatura, allineamento, personalità, punteggi di  "
       },
       {
         "type": "ability",
@@ -17865,16 +16092,7 @@
       },
       {
         "type": "text",
-        "text": ", un lupo feroce o un alce. Ogni  volta che l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo, sceglie  il tipo di creatura della cavalcatura ("
+        "text": ", un lupo feroce o un alce. Ogni  volta che l'incantatore lancia l'incantesimo, sceglie  il tipo di creatura della cavalcatura ("
       },
       {
         "type": "creature_type",
@@ -17959,34 +16177,7 @@
       },
       {
         "type": "text",
-        "text": ". Il famiglio è indipendente dall'incantatore,  ma obbedisce ai suoi comandi. Connessione telepatica. Finché il famiglio si trova  a 30 metri dall'incantatore, quest'ultimo può comunicare con lui telepaticamente. Inoltre, come azione  bonus, l'incantatore è in grado di vedere attraverso  gli occhi del famiglio e sentire ciò che sente fino  all'inizio del suo turno successivo, ottenendo  i benefici di eventuali sensi speciali posseduti dal  famiglio. Infine, quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo con gittata a contatto, il suo famiglio può  trasmettere il tocco. Il famiglio deve trovarsi entro  30 metri dall'incantatore e usare la sua reazione  per trasmettere il tocco quando l'incantesimo viene  lanciato. Combattimento. Il famiglio diventa un alleato  per l'incantatore e i suoi alleati. Tira per la propria  iniziativa e agisce nel proprio turno. Un famiglio  non può attaccare, ma può effettuare altre azioni  normalmente. Scomparsa del famiglio. Quando un famiglio  scende a 0 punti ferita, scompare e riappare  quando l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " nuovamente questo  incantesimo. Come azione di Magia, l'incantatore  può temporaneamente congedare il famiglio, che  scompare in una sacca dimensionale. In alternativa,  l'incantatore può farlo sparire per sempre. Come  azione di Magia, finché il famiglio è congedato temporaneamente, l'incantatore può farlo ricomparire  in uno spazio libero entro 9 metri da sé. Ogni volta  che il famiglio scende a 0 punti ferita o scompare in  una sacca dimensionale, nello spazio che occupava  in precedenza lascia qualsiasi oggetto stesse indossando o trasportando. Un solo famiglio. Un incantatore non può avere  più di un famiglio alla volta. Se "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo mentre è già presente un famiglio, l'incantatore gli impartisce un'altra forma possibile."
+        "text": ". Il famiglio è indipendente dall'incantatore,  ma obbedisce ai suoi comandi. Connessione telepatica. Finché il famiglio si trova  a 30 metri dall'incantatore, quest'ultimo può comunicare con lui telepaticamente. Inoltre, come azione  bonus, l'incantatore è in grado di vedere attraverso  gli occhi del famiglio e sentire ciò che sente fino  all'inizio del suo turno successivo, ottenendo  i benefici di eventuali sensi speciali posseduti dal  famiglio. Infine, quando l'incantatore lancia un incantesimo con gittata a contatto, il suo famiglio può  trasmettere il tocco. Il famiglio deve trovarsi entro  30 metri dall'incantatore e usare la sua reazione  per trasmettere il tocco quando l'incantesimo viene  lanciato. Combattimento. Il famiglio diventa un alleato  per l'incantatore e i suoi alleati. Tira per la propria  iniziativa e agisce nel proprio turno. Un famiglio  non può attaccare, ma può effettuare altre azioni  normalmente. Scomparsa del famiglio. Quando un famiglio  scende a 0 punti ferita, scompare e riappare  quando l'incantatore lancia nuovamente questo  incantesimo. Come azione di Magia, l'incantatore  può temporaneamente congedare il famiglio, che  scompare in una sacca dimensionale. In alternativa,  l'incantatore può farlo sparire per sempre. Come  azione di Magia, finché il famiglio è congedato temporaneamente, l'incantatore può farlo ricomparire  in uno spazio libero entro 9 metri da sé. Ogni volta  che il famiglio scende a 0 punti ferita o scompare in  una sacca dimensionale, nello spazio che occupava  in precedenza lascia qualsiasi oggetto stesse indossando o trasportando. Un solo famiglio. Un incantatore non può avere  più di un famiglio alla volta. Se lancia questo incantesimo mentre è già presente un famiglio, l'incantatore gli impartisce un'altra forma possibile."
       }
     ],
     "at_higher_levels": [],
@@ -18258,16 +16449,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore crea una difesa che protegge un'area  di terreno di massimo 225 metri quadrati. L'area  protetta può essere alta fino a 6 metri e l'incantatore può darle una delle seguenti forme: un quadrato con lato di 15 metri, cento quadrati contigui  con lato di 1,5 metri o venticinque quadrati contigui  con lato di 3 metri. Quando "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " questo incantesimo, l'incantatore  può specificare quali individui non saranno influenzati dagli effetti dell'incantesimo. Può anche specificare una parola d'ordine che, una volta pronunciata  a voce alta entro 1,5 metri dall'area protetta,  renderà chi la pronuncia immune a questi effetti. L'incantesimo crea gli effetti illustrati di seguito  all'interno dell'area protetta. "
+        "text": "L'incantatore crea una difesa che protegge un'area  di terreno di massimo 225 metri quadrati. L'area  protetta può essere alta fino a 6 metri e l'incantatore può darle una delle seguenti forme: un quadrato con lato di 15 metri, cento quadrati contigui  con lato di 1,5 metri o venticinque quadrati contigui  con lato di 3 metri. Quando lancia questo incantesimo, l'incantatore  può specificare quali individui non saranno influenzati dagli effetti dell'incantesimo. Può anche specificare una parola d'ordine che, una volta pronunciata  a voce alta entro 1,5 metri dall'area protetta,  renderà chi la pronuncia immune a questi effetti. L'incantesimo crea gli effetti illustrati di seguito  all'interno dell'area protetta. "
       },
       {
         "type": "spell",
@@ -18294,16 +16476,7 @@
       },
       {
         "type": "text",
-        "text": " termina. Se l'incantatore "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " l'incantesimo ogni  giorno per 365 giorni sulla stessa area, esso permane finché tutti i suoi effetti non vengono dissolti. Corridoi. Tutti i corridoi protetti si riempiono  di nebbia e diventano pesantemente oscurati.  Inoltre, a ogni incrocio o diramazione che richieda  di scegliere una direzione, una creatura diversa  ­dall'incantatore ha una probabilità del 50% di credere di andare in una direzione differente da quella  che ha scelto. Porte. Tutte le porte nell'area protetta vengono  chiuse a chiave magicamente, come sigillate  ­dall'incantesimo "
+        "text": " termina. Se l'incantatore lancia l'incantesimo ogni  giorno per 365 giorni sulla stessa area, esso permane finché tutti i suoi effetti non vengono dissolti. Corridoi. Tutti i corridoi protetti si riempiono  di nebbia e diventano pesantemente oscurati.  Inoltre, a ogni incrocio o diramazione che richieda  di scegliere una direzione, una creatura diversa  ­dall'incantatore ha una probabilità del 50% di credere di andare in una direzione differente da quella  che ha scelto. Porte. Tutte le porte nell'area protetta vengono  chiuse a chiave magicamente, come sigillate  ­dall'incantesimo "
       },
       {
         "type": "spell",
@@ -18425,16 +16598,7 @@
     "description": [
       {
         "type": "text",
-        "text": "L'incantatore tocca un'altra creatura consenziente  e crea un collegamento mistico tra sé e il bersaglio  fino al termine dell'incantesimo. Finché il bersaglio  si trova entro 18 metri dall'incantatore, ottiene  un bonus di +1 alla CA e ai tiri salvezza e dispone  di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a tutti i danni. Inoltre, ogni volta che  subisce danni, l'incantatore ne subisce la stessa  quantità. L'incantesimo termina se l'incantatore scende  a 0 punti ferita, se lui e il bersaglio si allontanano di  più di 18 metri o se l'incantesimo viene lanciato di  nuovo su una delle due creature collegate."
+        "text": "L'incantatore tocca un'altra creatura consenziente  e crea un collegamento mistico tra sé e il bersaglio  fino al termine dell'incantesimo. Finché il bersaglio  si trova entro 18 metri dall'incantatore, ottiene  un bonus di +1 alla CA e ai tiri salvezza e dispone  di resistenza a tutti i danni. Inoltre, ogni volta che  subisce danni, l'incantatore ne subisce la stessa  quantità. L'incantesimo termina se l'incantatore scende  a 0 punti ferita, se lui e il bersaglio si allontanano di  più di 18 metri o se l'incantesimo viene lanciato di  nuovo su una delle due creature collegate."
       }
     ],
     "at_higher_levels": [],

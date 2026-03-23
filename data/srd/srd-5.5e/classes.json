@@ -21,34 +21,7 @@
           },
           {
             "type": "text",
-            "text": " che conferisce una  potenza e una "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " straordinarie. Può entrare  in ira come azione bonus se non sta indossando  un'armatura pesante. Il barbaro può entrare in ira il numero di volte  indicato per il proprio livello da barbaro nella  colonna Ire della tabella Privilegi del barbaro. Per  quanto riguarda gli utilizzi consumati, ne recupera  uno dopo aver completato un riposo breve e li recupera tutti dopo un riposo lungo. Quando è in atto, l'ira segue le regole indicate di  seguito. _**"
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni.**_ Un barbaro dispone di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni contundenti, perforanti e taglienti. _**Danni dell'ira.**_ Quando effettua un attacco con  un'arma o con un colpo senz'armi usando "
+            "text": " che conferisce una  potenza e una resistenza straordinarie. Può entrare  in ira come azione bonus se non sta indossando  un'armatura pesante. Il barbaro può entrare in ira il numero di volte  indicato per il proprio livello da barbaro nella  colonna Ire della tabella Privilegi del barbaro. Per  quanto riguarda gli utilizzi consumati, ne recupera  uno dopo aver completato un riposo breve e li recupera tutti dopo un riposo lungo. Quando è in atto, l'ira segue le regole indicate di  seguito. _**Resistenza ai danni.**_ Un barbaro dispone di resistenza ai danni contundenti, perforanti e taglienti. _**Danni dell'ira.**_ Quando effettua un attacco con  un'arma o con un colpo senz'armi usando "
           },
           {
             "type": "damage_type",
@@ -121,16 +94,7 @@
           },
           {
             "type": "text",
-            "text": ". Un barbaro può usare  uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": " e ottenere comunque questo beneficio."
+            "text": ". Un barbaro può usare  uno scudo e ottenere comunque questo beneficio."
           }
         ]
       },
@@ -1012,16 +976,7 @@
           },
           {
             "type": "text",
-            "text": "* e *parola del* *potere uccidere* sono sempre considerati preparati.  Quando "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " uno dei due incantesimi, il bardo può  bersagliare una seconda creatura se questa si trova  entro 3 metri dal primo bersaglio."
+            "text": "* e *parola del* *potere uccidere* sono sempre considerati preparati.  Quando lancia uno dei due incantesimi, il bardo può  bersagliare una seconda creatura se questa si trova  entro 3 metri dal primo bersaglio."
           }
         ]
       }
@@ -1404,16 +1359,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il chierico può invocare una divinità o un pantheon  affinché intervenga a suo favore. Come azione di  Magia, sceglie un incantesimo da chierico qualsiasi  di 5º livello o inferiore che non richieda una reazione per essere lanciato. Come parte della stessa  azione, il chierico "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " quell'incantesimo senza  spendere uno slot incantesimo o senza avere bisogno di componenti materiali. Non può riutilizzare  questo privilegio prima di aver completato un  riposo lungo."
+            "text": "Il chierico può invocare una divinità o un pantheon  affinché intervenga a suo favore. Come azione di  Magia, sceglie un incantesimo da chierico qualsiasi  di 5º livello o inferiore che non richieda una reazione per essere lanciato. Come parte della stessa  azione, il chierico lancia quell'incantesimo senza  spendere uno slot incantesimo o senza avere bisogno di componenti materiali. Non può riutilizzare  questo privilegio prima di aver completato un  riposo lungo."
           }
         ]
       },
@@ -1423,16 +1369,7 @@
         "description": [
           {
             "type": "text",
-            "text": "L'opzione scelta per i Colpi benedetti diventa più  potente. _**Colpo divino.**_ I danni extra del Colpo divino  aumentano a 2d8. _**Incantesimi potenti.**_ Quando "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un trucchetto  da chierico infliggendo danni a una creatura, il  chierico può infondere vitalità in se stesso o in  un'altra creatura entro 18 metri da sé, concedendo  un numero di punti ferita temporanei pari al doppio  del suo modificatore di "
+            "text": "L'opzione scelta per i Colpi benedetti diventa più  potente. _**Colpo divino.**_ I danni extra del Colpo divino  aumentano a 2d8. _**Incantesimi potenti.**_ Quando lancia un trucchetto  da chierico infliggendo danni a una creatura, il  chierico può infondere vitalità in se stesso o in  un'altra creatura entro 18 metri da sé, concedendo  un numero di punti ferita temporanei pari al doppio  del suo modificatore di "
           },
           {
             "type": "ability",
@@ -1508,16 +1445,7 @@
           },
           {
             "type": "text",
-            "text": " o della  "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " e agli dèi della casa e della comunità.  La magia di questo dominio viene cercata anche  dagli ordini religiosi dei guaritori."
+            "text": " o della  resistenza e agli dèi della casa e della comunità.  La magia di questo dominio viene cercata anche  dagli ordini religiosi dei guaritori."
           }
         ],
         "features": [
@@ -1571,16 +1499,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "Gli incantesimi curativi che il chierico "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " sugli  altri guariscono anche il chierico stesso. Subito  dopo aver lanciato un incantesimo con uno slot  incantesimo che ripristina i punti ferita di una  o più creature diverse da se stesso, il chierico  recupera punti ferita pari a 2 più il livello dello slot  incantesimo."
+                "text": "Gli incantesimi curativi che il chierico lancia sugli  altri guariscono anche il chierico stesso. Subito  dopo aver lanciato un incantesimo con uno slot  incantesimo che ripristina i punti ferita di una  o più creature diverse da se stesso, il chierico  recupera punti ferita pari a 2 più il livello dello slot  incantesimo."
               }
             ]
           },
@@ -1682,16 +1601,7 @@
       },
       {
         "type": "text",
-        "text": ", uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": ", una "
+        "text": ", uno scudo, una "
       },
       {
         "type": "equipment",
@@ -1817,16 +1727,7 @@
           },
           {
             "type": "text",
-            "text": "* è sempre considerato preparato. Il druido può usare il Druidico per lasciare  messaggi nascosti. Il druido e coloro che conoscono  il Druidico sono in grado di individuare tali messaggi automaticamente. Altri possono notare la  presenza di un "
-          },
-          {
-            "type": "spell",
-            "text": "messaggio",
-            "id": "messaggio"
-          },
-          {
-            "type": "text",
-            "text": " superando una prova di  "
+            "text": "* è sempre considerato preparato. Il druido può usare il Druidico per lasciare  messaggi nascosti. Il druido e coloro che conoscono  il Druidico sono in grado di individuare tali messaggi automaticamente. Altri possono notare la  presenza di un messaggio superando una prova di  "
           },
           {
             "type": "ability",
@@ -2167,16 +2068,7 @@
           },
           {
             "type": "text",
-            "text": " diventa più  potente, come descritto di seguito. _**Incantesimi potenti.**_ Quando il personaggio  "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un trucchetto da druido con un raggio pari  o superiore a 3 metri, la gittata dell'incantesimo  aumenta di 90 metri. _**Colpo primordiale.**_ I danni extra del Colpo  ­primordiale aumentano a 2d8."
+            "text": " diventa più  potente, come descritto di seguito. _**Incantesimi potenti.**_ Quando il personaggio  lancia un trucchetto da druido con un raggio pari  o superiore a 3 metri, la gittata dell'incantesimo  aumenta di 90 metri. _**Colpo primordiale.**_ I danni extra del Colpo  ­primordiale aumentano a 2d8."
           }
         ]
       },
@@ -2358,16 +2250,7 @@
               },
               {
                 "type": "text",
-                "text": " | , "
-              },
-              {
-                "type": "spell",
-                "text": "sonno",
-                "id": "sonno"
-              },
-              {
-                "type": "text",
-                "text": " | e | "
+                "text": " | , sonno | e | "
               },
               {
                 "type": "spell",
@@ -2514,16 +2397,7 @@
               },
               {
                 "type": "text",
-                "text": " ed  è dotato di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " a un tipo di danno associato  alla terra che ha scelto per il privilegio Incantesimi  del Circolo, come indicato nella tabella Interdizione  della "
+                "text": " ed  è dotato di resistenza a un tipo di danno associato  alla terra che ha scelto per il privilegio Incantesimi  del Circolo, come indicato nella tabella Interdizione  della "
               },
               {
                 "type": "skill",
@@ -2541,25 +2415,7 @@
               },
               {
                 "type": "text",
-                "text": "**\n\n| Tipo di terra | "
-              },
-              {
-                "type": "spell",
-                "text": "Resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " | Tipo di terra | "
-              },
-              {
-                "type": "spell",
-                "text": "Resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " |\n| --- | --- | --- | --- |\n| Arida | "
+                "text": "**\n\n| Tipo di terra | Resistenza | Tipo di terra | Resistenza |\n| --- | --- | --- | --- |\n| Arida | "
               },
               {
                 "type": "damage_type",
@@ -2614,16 +2470,7 @@
               },
               {
                 "type": "text",
-                "text": " o morto. Mentre si  trovano in quell'area, il druido e i suoi alleati ottengono mezza copertura, e gli alleati ottengono la  "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " conferita da Interdizione della "
+                "text": " o morto. Mentre si  trovano in quell'area, il druido e i suoi alleati ottengono mezza copertura, e gli alleati ottengono la  resistenza conferita da Interdizione della "
               },
               {
                 "type": "skill",
@@ -2742,16 +2589,7 @@
       },
       {
         "type": "text",
-        "text": ", uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": ", un "
+        "text": ", uno scudo, un "
       },
       {
         "type": "equipment",
@@ -2823,16 +2661,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Un guerriero possiede una riserva limitata di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " fisica e mentale a cui può attingere. Come  azione bonus, può usarla per recuperare punti ferita  pari a 1d10 più il suo livello da guerriero. Può utilizzare questo privilegio due volte. Per  quanto riguarda gli utilizzi consumati, ne recupera  uno dopo aver completato un riposo breve e li recupera tutti dopo un riposo lungo. Quando il personaggio raggiunge determinati  livelli da guerriero, ottiene più utilizzi di questo  privilegio, come indicato nella colonna Recuperare  energie della tabella Privilegi del guerriero."
+            "text": "Un guerriero possiede una riserva limitata di resistenza fisica e mentale a cui può attingere. Come  azione bonus, può usarla per recuperare punti ferita  pari a 1d10 più il suo livello da guerriero. Può utilizzare questo privilegio due volte. Per  quanto riguarda gli utilizzi consumati, ne recupera  uno dopo aver completato un riposo breve e li recupera tutti dopo un riposo lungo. Quando il personaggio raggiunge determinati  livelli da guerriero, ottiene più utilizzi di questo  privilegio, come indicato nella colonna Recuperare  energie della tabella Privilegi del guerriero."
           }
         ]
       },
@@ -4305,16 +4134,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "I trucchetti del mago che infliggono danni possono  influenzare perfino le creature che altrimenti eviterebbero il grosso dell'effetto. Quando il personaggio  "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " un trucchetto contro una creatura e la manca  con il tiro per colpire o questa supera il tiro salvezza contro il trucchetto, il bersaglio subisce metà  dei danni (se applicabile), ma non gli vengono inflitti  eventuali effetti aggiuntivi."
+                "text": "I trucchetti del mago che infliggono danni possono  influenzare perfino le creature che altrimenti eviterebbero il grosso dell'effetto. Quando il personaggio  lancia un trucchetto contro una creatura e la manca  con il tiro per colpire o questa supera il tiro salvezza contro il trucchetto, il bersaglio subisce metà  dei danni (se applicabile), ma non gli vengono inflitti  eventuali effetti aggiuntivi."
               }
             ]
           },
@@ -4324,16 +4144,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "Il mago è in grado di creare delle sacche di relativa  sicurezza all'interno degli effetti delle sue invocazioni. Quando il mago "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " un incantesimo di  Invocazione che influenza le altre creature nel suo  campo visivo, può scegliere un numero di quelle  creature pari a 1 più il livello dell'incantesimo.  Le creature scelte superano automaticamente i loro  tiri salvezza contro l'incantesimo e non subiscono  alcun danno se normalmente subirebbero la metà  dei danni in caso di tiro salvezza superato."
+                "text": "Il mago è in grado di creare delle sacche di relativa  sicurezza all'interno degli effetti delle sue invocazioni. Quando il mago lancia un incantesimo di  Invocazione che influenza le altre creature nel suo  campo visivo, può scegliere un numero di quelle  creature pari a 1 più il livello dell'incantesimo.  Le creature scelte superano automaticamente i loro  tiri salvezza contro l'incantesimo e non subiscono  alcun danno se normalmente subirebbero la metà  dei danni in caso di tiro salvezza superato."
               }
             ]
           },
@@ -4362,34 +4173,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "Il mago può aumentare il potere dei suoi incantesimi. Quando "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " un incantesimo con uno slot di  livello da 1 a 5 che infligge danni, con quell'incantesimo può infliggere il massimo dei danni nel turno  in cui lo "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": ". La prima volta che lo fa, il mago non subisce alcun  effetto avverso. Se però utilizza questo privilegio  di nuovo prima di avere completato un riposo  lungo, subisce 2d12 danni necrotici per ogni livello  ­dell'incantesimo in questione, subito dopo averlo  lanciato. Questi danni ignorano le varie forme di  "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " e immunità. Ogni volta che utilizza di nuovo questo privilegio  prima di aver completato un riposo lungo, i danni  necrotici per livello dell'incantesimo aumentano di  1d12."
+                "text": "Il mago può aumentare il potere dei suoi incantesimi. Quando lancia un incantesimo con uno slot di  livello da 1 a 5 che infligge danni, con quell'incantesimo può infliggere il massimo dei danni nel turno  in cui lo lancia. La prima volta che lo fa, il mago non subisce alcun  effetto avverso. Se però utilizza questo privilegio  di nuovo prima di avere completato un riposo  lungo, subisce 2d12 danni necrotici per ogni livello  ­dell'incantesimo in questione, subito dopo averlo  lanciato. Questi danni ignorano le varie forme di  resistenza e immunità. Ogni volta che utilizza di nuovo questo privilegio  prima di aver completato un riposo lungo, i danni  necrotici per livello dell'incantesimo aumentano di  1d12."
               }
             ]
           }
@@ -4534,16 +4318,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Grazie alla sua perizia nelle arti marziali, un  monaco padroneggia stili di combattimento che  fanno uso di colpi senz'armi e delle seguenti armi da  monaco: •\tArmi da mischia semplici •\tArmi da mischia da guerra con la proprietà  leggera Un monaco ottiene i benefici seguenti fintantoché è  senz'armi o impugna soltanto armi da monaco, non  indossa alcuna armatura e non impugna uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": ": _**Colpo senz'armi bonus.**_ Il monaco può effettuare  un colpo senz'armi come azione bonus. _**Dado di Arti marziali.**_ Un monaco può tirare 1d6  al posto dei normali danni del suo colpo senz'armi  o della sua arma da monaco. Questo dado cambia  man mano che il personaggio acquisisce altri livelli  da monaco, come indicato nella colonna Arti marziali nella tabella Privilegi del monaco. _**Attacchi destri.**_ Un monaco può usare il modificatore di "
+            "text": "Grazie alla sua perizia nelle arti marziali, un  monaco padroneggia stili di combattimento che  fanno uso di colpi senz'armi e delle seguenti armi da  monaco: •\tArmi da mischia semplici •\tArmi da mischia da guerra con la proprietà  leggera Un monaco ottiene i benefici seguenti fintantoché è  senz'armi o impugna soltanto armi da monaco, non  indossa alcuna armatura e non impugna uno scudo: _**Colpo senz'armi bonus.**_ Il monaco può effettuare  un colpo senz'armi come azione bonus. _**Dado di Arti marziali.**_ Un monaco può tirare 1d6  al posto dei normali danni del suo colpo senz'armi  o della sua arma da monaco. Questo dado cambia  man mano che il personaggio acquisisce altri livelli  da monaco, come indicato nella colonna Arti marziali nella tabella Privilegi del monaco. _**Attacchi destri.**_ Un monaco può usare il modificatore di "
           },
           {
             "type": "ability",
@@ -4589,16 +4364,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Se il personaggio non sta indossando un'armatura  o impugnando uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": ", la Classe Armatura base  corrisponde a 10 più i modificatori di "
+            "text": "Se il personaggio non sta indossando un'armatura  o impugnando uno scudo, la Classe Armatura base  corrisponde a 10 più i modificatori di "
           },
           {
             "type": "ability",
@@ -4663,16 +4429,7 @@
           },
           {
             "type": "text",
-            "text": " del monaco aumenta di 3 metri, purché  non indossi un'armatura o impugni uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": ". Questo bonus aumenta man mano che il personaggio  acquisisce altri livelli da monaco, come indicato  nella tabella Privilegi del monaco."
+            "text": " del monaco aumenta di 3 metri, purché  non indossi un'armatura o impugni uno scudo. Questo bonus aumenta man mano che il personaggio  acquisisce altri livelli da monaco, come indicato  nella tabella Privilegi del monaco."
           }
         ]
       },
@@ -4862,16 +4619,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Se il personaggio non sta indossando un'armatura  o impugnando uno "
-          },
-          {
-            "type": "spell",
-            "text": "scudo",
-            "id": "scudo"
-          },
-          {
-            "type": "text",
-            "text": ", ottiene la capacità di  muoversi lungo le superfici verticali e sulle superfici  liquide durante il suo turno senza cadere durante  il movimento."
+            "text": "Se il personaggio non sta indossando un'armatura  o impugnando uno scudo, ottiene la capacità di  muoversi lungo le superfici verticali e sulle superfici  liquide durante il suo turno senza cadere durante  il movimento."
           }
         ]
       },
@@ -4976,16 +4724,7 @@
           },
           {
             "type": "text",
-            "text": ". In quell'intervallo di tempo, ottiene "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": "  a tutti i danni tranne a quelli da "
+            "text": ". In quell'intervallo di tempo, ottiene resistenza  a tutti i danni tranne a quelli da "
           },
           {
             "type": "damage_type",
@@ -5770,25 +5509,7 @@
               },
               {
                 "type": "text",
-                "text": " ai tiri per colpire eseguiti  con quell'arma (fino a un bonus minimo di +1) e,  ogni volta che colpisce, può infliggere danni normali  o radiosi. Inoltre, l'arma emette "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa in un raggio di  6 metri e "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " fioca per ulteriori 6 metri. Questo effetto può essere interrotto in anticipo  (nessuna azione richiesta). L'effetto termina se  il paladino non ha più con sé l'arma interessata."
+                "text": " ai tiri per colpire eseguiti  con quell'arma (fino a un bonus minimo di +1) e,  ogni volta che colpisce, può infliggere danni normali  o radiosi. Inoltre, l'arma emette luce intensa in un raggio di  6 metri e luce fioca per ulteriori 6 metri. Questo effetto può essere interrotto in anticipo  (nessuna azione richiesta). L'effetto termina se  il paladino non ha più con sé l'arma interessata."
               }
             ]
           },
@@ -5836,34 +5557,7 @@
               },
               {
                 "type": "text",
-                "text": " più il bonus di competenza  del paladino. _**"
-              },
-              {
-                "type": "spell",
-                "text": "Luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " del sole.**_ L'aura rifulge di "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " intensa, ovvero  la "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": " solare. _**Sentinella sacra.**_ Se costretto a effettuare dei tiri  salvezza da un "
+                "text": " più il bonus di competenza  del paladino. _**Luce del sole.**_ L'aura rifulge di luce intensa, ovvero  la luce solare. _**Sentinella sacra.**_ Se costretto a effettuare dei tiri  salvezza da un "
               },
               {
                 "type": "creature_type",
@@ -5973,16 +5667,7 @@
       },
       {
         "type": "text",
-        "text": " |\n| Competenza nelle armi | Armi semplici e da guerra |\n| Competenza nelle armature | Armature leggere, medie e pesanti; scudi |\n| Equipaggiamento iniziale | (A) cotta di A scelta tra A e B: maglia, "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": ", "
+        "text": " |\n| Competenza nelle armi | Armi semplici e da guerra |\n| Competenza nelle armature | Armature leggere, medie e pesanti; scudi |\n| Equipaggiamento iniziale | (A) cotta di A scelta tra A e B: maglia, scudo, "
       },
       {
         "type": "equipment",
@@ -6454,16 +6139,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "Quando il ranger subisce danni, può utilizzare una  reazione per ottenere "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " a quel danno e ad  altri dello stesso tipo fino al termine del turno in  corso."
+                "text": "Quando il ranger subisce danni, può utilizzare una  reazione per ottenere resistenza a quel danno e ad  altri dello stesso tipo fino al termine del turno in  corso."
               }
             ]
           }
@@ -6746,16 +6422,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Poiché la magia è un'abilità innata dello stregone,  quest'ultimo può alterare i suoi incantesimi  secondo necessità, per questo ottiene due opzioni  di Metamagia dalla sezione Opzioni di metamagia,  che si trova più avanti nella descrizione della classe.  Le opzioni selezionate possono essere utilizzate per  modificare temporaneamente gli incantesimi lanciati. Per fare uso di un'opzione, è necessario consumare il costo corrispondente in punti stregoneria. Lo stregone può usare soltanto un'opzione di  Metamagia su un incantesimo quando lo "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": ",  a meno che non sia specificato diversamente. Ogni volta che il personaggio ottiene un livello da  stregone, è possibile sostituire una delle opzioni  di Metamagia con una che ancora non conosce.  Lo stregone ottiene due ulteriori opzioni al  10º livello e altre due al 17º livello."
+            "text": "Poiché la magia è un'abilità innata dello stregone,  quest'ultimo può alterare i suoi incantesimi  secondo necessità, per questo ottiene due opzioni  di Metamagia dalla sezione Opzioni di metamagia,  che si trova più avanti nella descrizione della classe.  Le opzioni selezionate possono essere utilizzate per  modificare temporaneamente gli incantesimi lanciati. Per fare uso di un'opzione, è necessario consumare il costo corrispondente in punti stregoneria. Lo stregone può usare soltanto un'opzione di  Metamagia su un incantesimo quando lo lancia,  a meno che non sia specificato diversamente. Ogni volta che il personaggio ottiene un livello da  stregone, è possibile sostituire una delle opzioni  di Metamagia con una che ancora non conosce.  Lo stregone ottiene due ulteriori opzioni al  10º livello e altre due al 17º livello."
           }
         ]
       },
@@ -6825,16 +6492,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 1 punto stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo, può  spendere 1 punto stregoneria per farlo senza utilizzare componenti verbali, somatiche o materiali,  fatta eccezione per le componenti materiali consumate dall'incantesimo o il cui costo è specificato  nella sua descrizione."
+            "text": "*Costo: 1 punto stregoneria* Quando lo stregone lancia un incantesimo, può  spendere 1 punto stregoneria per farlo senza utilizzare componenti verbali, somatiche o materiali,  fatta eccezione per le componenti materiali consumate dall'incantesimo o il cui costo è specificato  nella sua descrizione."
           }
         ]
       },
@@ -6844,25 +6502,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 1 punto stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che  ha una gittata pari o superiore a 1,5 metri, può  spendere 1 punto stregoneria per raddoppiarla.  Se invece "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che ha una gittata  a contatto, può spendere 1 punto stregoneria per  aumentarla a 9 metri."
+            "text": "*Costo: 1 punto stregoneria* Quando lo stregone lancia un incantesimo che  ha una gittata pari o superiore a 1,5 metri, può  spendere 1 punto stregoneria per raddoppiarla.  Se invece lancia un incantesimo che ha una gittata  a contatto, può spendere 1 punto stregoneria per  aumentarla a 9 metri."
           }
         ]
       },
@@ -6872,16 +6512,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 1 punto stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo di durata  pari o superiore a 1 minuto, può spendere 1 punto  stregoneria per raddoppiarla fino a un massimo di  24 ore. Se l'incantesimo interessato richiede concentrazione, il personaggio dispone di vantaggio  a ogni tiro salvezza effettuato per mantenere  la concentrazione."
+            "text": "*Costo: 1 punto stregoneria* Quando lo stregone lancia un incantesimo di durata  pari o superiore a 1 minuto, può spendere 1 punto  stregoneria per raddoppiarla fino a un massimo di  24 ore. Se l'incantesimo interessato richiede concentrazione, il personaggio dispone di vantaggio  a ogni tiro salvezza effettuato per mantenere  la concentrazione."
           }
         ]
       },
@@ -6891,16 +6522,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 2 punti stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che  obbliga una creatura a effettuare un tiro salvezza,  può spendere 2 punti stregoneria per infliggere  svantaggio a un bersaglio dell'incantesimo sui tiri  salvezza contro di esso."
+            "text": "*Costo: 2 punti stregoneria* Quando lo stregone lancia un incantesimo che  obbliga una creatura a effettuare un tiro salvezza,  può spendere 2 punti stregoneria per infliggere  svantaggio a un bersaglio dell'incantesimo sui tiri  salvezza contro di esso."
           }
         ]
       },
@@ -6939,16 +6561,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 1 punto stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che  obbliga altre creature a effettuare un tiro salvezza,  può proteggere alcune di esse dalla piena "
+            "text": "*Costo: 1 punto stregoneria* Quando lo stregone lancia un incantesimo che  obbliga altre creature a effettuare un tiro salvezza,  può proteggere alcune di esse dalla piena "
           },
           {
             "type": "damage_type",
@@ -6986,16 +6599,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 2 punti stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che ha un  tempo di lancio di 1 azione, può spendere 2 punti  stregoneria per cambiarlo a 1 azione bonus per quel  lancio. Non è possibile eseguire questa modifica  se il personaggio ha già lanciato un incantesimo di  1º livello o superiore nel turno attuale, così come  non si può lanciare un incantesimo di 1º livello  o superiore in questo turno dopo aver modificato  l'incantesimo come indicato sopra."
+            "text": "*Costo: 2 punti stregoneria* Quando lo stregone lancia un incantesimo che ha un  tempo di lancio di 1 azione, può spendere 2 punti  stregoneria per cambiarlo a 1 azione bonus per quel  lancio. Non è possibile eseguire questa modifica  se il personaggio ha già lanciato un incantesimo di  1º livello o superiore nel turno attuale, così come  non si può lanciare un incantesimo di 1º livello  o superiore in questo turno dopo aver modificato  l'incantesimo come indicato sopra."
           }
         ]
       },
@@ -7005,16 +6609,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Costo: 1 punto stregoneria* Quando lo stregone "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " un incantesimo che  infligge un tipo di danno presente nella lista  seguente, può spendere 1 punto stregoneria per  cambiare il tipo di danno in un altro della lista:  "
+            "text": "*Costo: 1 punto stregoneria* Quando lo stregone lancia un incantesimo che  infligge un tipo di danno presente nella lista  seguente, può spendere 1 punto stregoneria per  cambiare il tipo di danno in un altro della lista:  "
           },
           {
             "type": "damage_type",
@@ -7208,25 +6803,7 @@
               },
               {
                 "type": "text",
-                "text": ". Lo stregone è dotato di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " al tipo di  danno selezionato e, quando "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " un incantesimo  di quell'elemento, può aggiungere il proprio  modificatore di "
+                "text": ". Lo stregone è dotato di resistenza al tipo di  danno selezionato e, quando lancia un incantesimo  di quell'elemento, può aggiungere il proprio  modificatore di "
               },
               {
                 "type": "ability",
@@ -7273,16 +6850,7 @@
               },
               {
                 "type": "text",
-                "text": "* senza  usare una componente materiale. Inoltre, può anche  lanciarlo una volta senza consumare uno slot incantesimo e recupera l'abilità di lanciarlo in questo  modo dopo aver completato un riposo lungo. Ogni volta che lo stregone "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " l'incantesimo,  può modificarlo in modo che non richieda concentrazione. Così facendo, per quel lancio la durata  dell'incantesimo diventa di 1 minuto."
+                "text": "* senza  usare una componente materiale. Inoltre, può anche  lanciarlo una volta senza consumare uno slot incantesimo e recupera l'abilità di lanciarlo in questo  modo dopo aver completato un riposo lungo. Ogni volta che lo stregone lancia l'incantesimo,  può modificarlo in modo che non richieda concentrazione. Così facendo, per quel lancio la durata  dell'incantesimo diventa di 1 minuto."
               }
             ]
           }
@@ -7374,16 +6942,7 @@
       },
       {
         "type": "text",
-        "text": " |\n| Competenza nelle armi | Armi semplici |\n| Competenza nelle armature | Nessuno |\n| Equipaggiamento iniziale | (A) "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": ", A scelta tra A e B: 2 pugnali, focus "
+        "text": " |\n| Competenza nelle armi | Armi semplici |\n| Competenza nelle armature | Nessuno |\n| Equipaggiamento iniziale | (A) lancia, A scelta tra A e B: 2 pugnali, focus "
       },
       {
         "type": "skill",
@@ -7704,16 +7263,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Prerequisito: Warlock di 5º livello o superiore, supplica* *del Patto della catena* Quando il warlock "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " *"
+            "text": "*Prerequisito: Warlock di 5º livello o superiore, supplica* *del Patto della catena* Quando il warlock lancia *"
           },
           {
             "type": "spell",
@@ -7740,25 +7290,7 @@
           },
           {
             "type": "text",
-            "text": " di nuoto (a scelta del warlock)  di 12 metri. _**Attacco rapido.**_ Come azione bonus, il warlock  può ordinare al famiglio di effettuare l'azione di  Attacco. _**Danni necrotici o radiosi.**_ Quando il famiglio  infligge danni contundenti, perforanti o taglienti,  è possibile trasformarli in danni necrotici o radiosi. _**CD tiro salvezza dell'incantesimo del warlock.**_ Se il famiglio costringe una creatura a effettuare  un tiro salvezza, questo usa la CD del tiro salvezza  dell'incantesimo del warlock. _**"
-          },
-          {
-            "type": "spell",
-            "text": "Resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": ".**_ Quando il famiglio subisce danni,  il warlock può usare la sua reazione per conferirgli  "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " contro quel danno."
+            "text": " di nuoto (a scelta del warlock)  di 12 metri. _**Attacco rapido.**_ Come azione bonus, il warlock  può ordinare al famiglio di effettuare l'azione di  Attacco. _**Danni necrotici o radiosi.**_ Quando il famiglio  infligge danni contundenti, perforanti o taglienti,  è possibile trasformarli in danni necrotici o radiosi. _**CD tiro salvezza dell'incantesimo del warlock.**_ Se il famiglio costringe una creatura a effettuare  un tiro salvezza, questo usa la CD del tiro salvezza  dell'incantesimo del warlock. _**Resistenza.**_ Quando il famiglio subisce danni,  il warlock può usare la sua reazione per conferirgli  resistenza contro quel danno."
           }
         ]
       },
@@ -7883,16 +7415,7 @@
           },
           {
             "type": "text",
-            "text": "* e può  lanciarlo come azione di Magia senza spendere uno  slot incantesimo. Quando il warlock "
-          },
-          {
-            "type": "equipment",
-            "text": "lancia",
-            "id": "lancia"
-          },
-          {
-            "type": "text",
-            "text": " l'incantesimo, può  scegliere per il suo famiglio una delle forme normali  o una di quelle speciali seguenti: **imp, pseudo****"
+            "text": "* e può  lanciarlo come azione di Magia senza spendere uno  slot incantesimo. Quando il warlock lancia l'incantesimo, può  scegliere per il suo famiglio una delle forme normali  o una di quelle speciali seguenti: **imp, pseudo****"
           },
           {
             "type": "creature_type",
@@ -8088,16 +7611,7 @@
           },
           {
             "type": "text",
-            "text": " o "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": "  fioca, può lanciare *"
+            "text": " o luce  fioca, può lanciare *"
           },
           {
             "type": "spell",
@@ -8173,16 +7687,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Prerequisito: warlock di 2º livello o superiore* Il warlock può vedere normalmente con "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca  e "
+            "text": "*Prerequisito: warlock di 2º livello o superiore* Il warlock può vedere normalmente con luce fioca  e "
           },
           {
             "type": "spell",
@@ -8259,16 +7764,7 @@
             "description": [
               {
                 "type": "text",
-                "text": "La magia del patrono consente al warlock di avere  sempre pronti determinati incantesimi. Una volta  raggiunto un livello specificato nella tabella Incantesimi immondi, gli incantesimi lì elencati saranno  sempre considerati come preparati.\n\n**Incantesimi immondi**\n\n| Livello da warlock | Incantesimi |  |  |  |\n| --- | --- | --- | --- | --- |\n| 3 | "
-              },
-              {
-                "type": "spell",
-                "text": "Comando",
-                "id": "comando"
-              },
-              {
-                "type": "text",
-                "text": ", "
+                "text": "La magia del patrono consente al warlock di avere  sempre pronti determinati incantesimi. Una volta  raggiunto un livello specificato nella tabella Incantesimi immondi, gli incantesimi lì elencati saranno  sempre considerati come preparati.\n\n**Incantesimi immondi**\n\n| Livello da warlock | Incantesimi |  |  |  |\n| --- | --- | --- | --- | --- |\n| 3 | Comando, "
               },
               {
                 "type": "spell",
@@ -8396,16 +7892,7 @@
               },
               {
                 "type": "text",
-                "text": "). Così facendo, ottiene "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": "  a quel tipo di danno finché non ne sceglie uno  diverso tramite questo privilegio."
+                "text": "). Così facendo, ottiene resistenza  a quel tipo di danno finché non ne sceglie uno  diverso tramite questo privilegio."
               }
             ]
           },

@@ -963,16 +963,7 @@
       },
       {
         "type": "text",
-        "text": ", e non può lanciare  incantesimi. Se il personaggio usa uno "
-      },
-      {
-        "type": "spell",
-        "text": "scudo",
-        "id": "scudo"
-      },
-      {
-        "type": "text",
-        "text": " senza  avere la competenza per farlo, non riceve il bonus  alla CA. *Vedi anche* \"Svantaggio\" e \"Equipaggiamento\" (\"Armatura\")."
+        "text": ", e non può lanciare  incantesimi. Se il personaggio usa uno scudo senza  avere la competenza per farlo, non riceve il bonus  alla CA. *Vedi anche* \"Svantaggio\" e \"Equipaggiamento\" (\"Armatura\")."
       }
     ],
     "see_also": [
@@ -1368,16 +1359,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Il grado di sfida (GS) indica quanto è grave la  minaccia costituita da un mostro per un gruppo  di quattro personaggi giocanti. Confronta il GS di  un mostro con il livello dei personaggi. Se il GS è  superiore, è probabile che il mostro costituisca  un pericolo. Se il GS è inferiore, è probabile che il  mostro non costituisca una seria minaccia. Tuttavia,  le circostanze e il numero di personaggi giocanti  possono alterare significativamente l'effettivo  grado di minaccia di un mostro nel gioco. \"Strumenti di gioco\" (\"Incontri di combattimento\") fornisce una "
-      },
-      {
-        "type": "spell",
-        "text": "guida",
-        "id": "guida"
-      },
-      {
-        "type": "text",
-        "text": " per il GM su come utilizzare i GS nel  pianificare potenziali incontri di combattimento.  *Vedi anche* \"Scheda delle statistiche\"."
+        "text": "Il grado di sfida (GS) indica quanto è grave la  minaccia costituita da un mostro per un gruppo  di quattro personaggi giocanti. Confronta il GS di  un mostro con il livello dei personaggi. Se il GS è  superiore, è probabile che il mostro costituisca  un pericolo. Se il GS è inferiore, è probabile che il  mostro non costituisca una seria minaccia. Tuttavia,  le circostanze e il numero di personaggi giocanti  possono alterare significativamente l'effettivo  grado di minaccia di un mostro nel gioco. \"Strumenti di gioco\" (\"Incontri di combattimento\") fornisce una guida per il GM su come utilizzare i GS nel  pianificare potenziali incontri di combattimento.  *Vedi anche* \"Scheda delle statistiche\"."
       }
     ],
     "see_also": [
@@ -1536,16 +1518,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Una creatura indifferente non ha alcun "
-      },
-      {
-        "type": "spell",
-        "text": "desiderio",
-        "id": "desiderio"
-      },
-      {
-        "type": "text",
-        "text": " di  aiutare o ostacolare il personaggio. L'indifferenza è  l'atteggiamento predefinito dei mostri. *Vedi anche* \"Influenza\"."
+        "text": "Una creatura indifferente non ha alcun desiderio di  aiutare o ostacolare il personaggio. L'indifferenza è  l'atteggiamento predefinito dei mostri. *Vedi anche* \"Influenza\"."
       }
     ],
     "see_also": [
@@ -1693,16 +1666,7 @@
       },
       {
         "type": "text",
-        "text": "). *Vedi* *anche* \""
-      },
-      {
-        "type": "spell",
-        "text": "Luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " Fioca\", \""
+        "text": "). *Vedi* *anche* \"Luce Fioca\", \""
       },
       {
         "type": "spell",
@@ -1735,16 +1699,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Un'area con "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca è leggermente oscurata. *Vedi* *anche* \"Leggermente oscurata\" e \"Come si gioca\"  (\"Esplorazione\")."
+        "text": "Un'area con luce fioca è leggermente oscurata. *Vedi* *anche* \"Leggermente oscurata\" e \"Come si gioca\"  (\"Esplorazione\")."
       }
     ],
     "see_also": []
@@ -1756,16 +1711,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "La "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa rappresenta la normale illuminazione. *Vedi anche* \"Come si gioca\" (\"Esplorazione\")."
+        "text": "La luce intensa rappresenta la normale illuminazione. *Vedi anche* \"Come si gioca\" (\"Esplorazione\")."
       }
     ],
     "see_also": [
@@ -1793,25 +1739,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Quando il personaggio esegue l'azione di Magia,  "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo che ha il tempo di lancio di  un'azione, oppure usa un privilegio o un oggetto  magico che richiede un'azione di Magia per essere  attivato. Se il personaggio "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo che ha  un tempo di lancio di 1 minuto o più, deve effettuare  un'azione di Magia in ogni turno del lancio e, allo  stesso tempo, deve mantenere la concentrazione.  Se la sua concentrazione viene interrotta, l'incantesimo fallisce, ma il personaggio non consuma uno  slot incantesimo. *Vedi anche* \"Concentrazione\"."
+        "text": "Quando il personaggio esegue l'azione di Magia,  lancia un incantesimo che ha il tempo di lancio di  un'azione, oppure usa un privilegio o un oggetto  magico che richiede un'azione di Magia per essere  attivato. Se il personaggio lancia un incantesimo che ha  un tempo di lancio di 1 minuto o più, deve effettuare  un'azione di Magia in ogni turno del lancio e, allo  stesso tempo, deve mantenere la concentrazione.  Se la sua concentrazione viene interrotta, l'incantesimo fallisce, ma il personaggio non consuma uno  slot incantesimo. *Vedi anche* \"Concentrazione\"."
       }
     ],
     "see_also": [
@@ -1984,16 +1912,7 @@
       },
       {
         "type": "text",
-        "text": ") per  trovare il personaggio. Il personaggio non è più nascosto quando si verifica uno dei seguenti eventi: il personaggio emette  un suono più forte di un sussurro, effettua un tiro  per colpire, "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " un incantesimo con una componente verbale o viene trovato da un nemico."
+        "text": ") per  trovare il personaggio. Il personaggio non è più nascosto quando si verifica uno dei seguenti eventi: il personaggio emette  un suono più forte di un sussurro, effettua un tiro  per colpire, lancia un incantesimo con una componente verbale o viene trovato da un nemico."
       }
     ],
     "see_also": []
@@ -2528,16 +2447,7 @@
       },
       {
         "type": "text",
-        "text": ". _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni.**_ Il personaggio è resistente  a tutti i danni. _**Immunità ai veleni.**_ Il personaggio è immune alla  condizione \""
+        "text": ". _**Resistenza ai danni.**_ Il personaggio è resistente  a tutti i danni. _**Immunità ai veleni.**_ Il personaggio è immune alla  condizione \""
       },
       {
         "type": "condition",
@@ -2600,16 +2510,7 @@
       },
       {
         "type": "text",
-        "text": ". Alcuni esempi includono: \"Se il cultista passa sopra la botola, tiro la  leva che la apre\" e \"Se lo zombi si avvicina a me, mi  muovo per allontanarmi\". Quando l'innesco si verifica, il personaggio può  scegliere se eseguire la sua reazione non appena  l'innesco si è concluso o se ignorarlo. Quando il personaggio prepara un incantesimo,  lo "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " normalmente (spendendo le risorse  utilizzate per lanciarlo) ma trattiene la sua energia,  liberandola con la sua reazione quando l'innesco si  verifica. Al fine di poter essere preparato, un incantesimo deve avere il tempo di lancio di 1 azione;  inoltre, trattenere la magia dell'incantesimo  richiede concentrazione, che il personaggio riesce  a mantenere fino all'inizio del suo turno successivo.  Se la concentrazione viene interrotta, l'incantesimo  si dissipa senza avere effetto."
+        "text": ". Alcuni esempi includono: \"Se il cultista passa sopra la botola, tiro la  leva che la apre\" e \"Se lo zombi si avvicina a me, mi  muovo per allontanarmi\". Quando l'innesco si verifica, il personaggio può  scegliere se eseguire la sua reazione non appena  l'innesco si è concluso o se ignorarlo. Quando il personaggio prepara un incantesimo,  lo lancia normalmente (spendendo le risorse  utilizzate per lanciarlo) ma trattiene la sua energia,  liberandola con la sua reazione quando l'innesco si  verifica. Al fine di poter essere preparato, un incantesimo deve avere il tempo di lancio di 1 azione;  inoltre, trattenere la magia dell'incantesimo  richiede concentrazione, che il personaggio riesce  a mantenere fino all'inizio del suo turno successivo.  Se la concentrazione viene interrotta, l'incantesimo  si dissipa senza avere effetto."
       }
     ],
     "see_also": []
@@ -2919,25 +2820,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Se un personaggio è dotato di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " a un tipo  di danno, i danni di quel tipo che subisce sono  dimezzati (arrotondando per difetto). La "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "  si applica una sola volta per ogni istanza di danno  ricevuta. *Vedi anche* \"Come si gioca\" (\"Danni e  "
+        "text": "Se un personaggio è dotato di resistenza a un tipo  di danno, i danni di quel tipo che subisce sono  dimezzati (arrotondando per difetto). La resistenza  si applica una sola volta per ogni istanza di danno  ricevuta. *Vedi anche* \"Come si gioca\" (\"Danni e  "
       },
       {
         "type": "spell",
@@ -2982,16 +2865,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Un riposo breve è un periodo di inattività della  durata di 1 ora, durante il quale una creatura non  svolge alcuna attività che sia più faticosa di leggere,  parlare, mangiare o montare la guardia. Per iniziare  un riposo breve, il personaggio deve avere almeno  1 punto ferita. _**Benefici del riposo.**_ Una volta terminato il riposo,  il personaggio ottiene i seguenti benefici: **Dadi Vita da spendere.** Puoi spendere uno o più  dei Dadi Vita del tuo personaggio per fargli recuperare punti ferita. Per ogni Dado Vita speso in  questo modo, "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " il dado e aggiungi al risultato  il modificatore di "
+        "text": "Un riposo breve è un periodo di inattività della  durata di 1 ora, durante il quale una creatura non  svolge alcuna attività che sia più faticosa di leggere,  parlare, mangiare o montare la guardia. Per iniziare  un riposo breve, il personaggio deve avere almeno  1 punto ferita. _**Benefici del riposo.**_ Una volta terminato il riposo,  il personaggio ottiene i seguenti benefici: **Dadi Vita da spendere.** Puoi spendere uno o più  dei Dadi Vita del tuo personaggio per fargli recuperare punti ferita. Per ogni Dado Vita speso in  questo modo, lancia il dado e aggiungi al risultato  il modificatore di "
       },
       {
         "type": "ability",
@@ -3012,16 +2886,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Un riposo lungo è un periodo di inattività esteso  (almeno 8 ore) disponibile per tutte le creature.  Durante un riposo lungo, il personaggio dorme per  almeno 6 ore e svolge non più di 2 ore di attività  poco impegnative come leggere, parlare, mangiare  o montare la guardia. Durante il "
-      },
-      {
-        "type": "spell",
-        "text": "sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": ", il personaggio ha la condizione  \""
+        "text": "Un riposo lungo è un periodo di inattività esteso  (almeno 8 ore) disponibile per tutte le creature.  Durante un riposo lungo, il personaggio dorme per  almeno 6 ore e svolge non più di 2 ore di attività  poco impegnative come leggere, parlare, mangiare  o montare la guardia. Durante il sonno, il personaggio ha la condizione  \""
       },
       {
         "type": "condition",
@@ -3554,25 +3419,7 @@
       },
       {
         "type": "text",
-        "text": " di volo\". _**Punteggi di caratteristica.**_In una tabella sono  indicati i punteggi di caratteristica, i modificatori  e i modificatori ai tiri salvezza del mostro, descritti  in dettaglio in \"Come si gioca\". _**Abilità.**_Questa voce elenca le competenze nelle  abilità del mostro, se presenti. *Vedi anche* \"Come si  gioca\" (\"Competenza\"). _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " e vulnerabilità.**_Queste voci elencano  le resistenze e le vulnerabilità del mostro, se presenti. *Vedi anche* \""
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": "\" e \"Vulnerabilità\". _**Immunità.**_Questa sezione indica le immunità del  mostro a danni e condizioni, se presenti. *Vedi anche* \"Immunità\". _**Attrezzatura.**_ Se il mostro ha qualsiasi tipo di  equipaggiamento recuperabile o che può essere  ceduto, viene indicato in questa voce. _**Sensi.**_Questa voce elenca i sensi speciali del  mostro, come la "
+        "text": " di volo\". _**Punteggi di caratteristica.**_In una tabella sono  indicati i punteggi di caratteristica, i modificatori  e i modificatori ai tiri salvezza del mostro, descritti  in dettaglio in \"Come si gioca\". _**Abilità.**_Questa voce elenca le competenze nelle  abilità del mostro, se presenti. *Vedi anche* \"Come si  gioca\" (\"Competenza\"). _**Resistenza e vulnerabilità.**_Queste voci elencano  le resistenze e le vulnerabilità del mostro, se presenti. *Vedi anche* \"Resistenza\" e \"Vulnerabilità\". _**Immunità.**_Questa sezione indica le immunità del  mostro a danni e condizioni, se presenti. *Vedi anche* \"Immunità\". _**Attrezzatura.**_ Se il mostro ha qualsiasi tipo di  equipaggiamento recuperabile o che può essere  ceduto, viene indicato in questa voce. _**Sensi.**_Questa voce elenca i sensi speciali del  mostro, come la "
       },
       {
         "type": "skill",
@@ -3732,25 +3579,7 @@
       },
       {
         "type": "text",
-        "text": ", è in grado di  vedere in condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, entro un raggio  specificato, come se si trovasse in condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": "  intensa; è in grado di vedere in condizioni di "
+        "text": ", è in grado di  vedere in condizioni di luce fioca, entro un raggio  specificato, come se si trovasse in condizioni di luce  intensa; è in grado di vedere in condizioni di "
       },
       {
         "type": "spell",
@@ -3759,16 +3588,7 @@
       },
       {
         "type": "text",
-        "text": ", entro un raggio specificato, come se si trovasse  in condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": ", entro un raggio specificato, come se si trovasse  in condizioni di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -4168,16 +3988,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Gli attacchi e altri effetti dannosi infliggono vari tipi  di danno. I tipi di danno non seguono regole particolari; tuttavia, altre regole, come quelle riguardanti  la "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": ", possono farvi riferimento. La tabella  \"Tipi di danno\" fornisce degli esempi per aiutare il  GM ad assegnare un tipo di danno a un determinato  effetto.\n\n**Tipi di danno**\n\n|  |  |\n| --- | --- |\n| Tipo Esempi |  |"
+        "text": "Gli attacchi e altri effetti dannosi infliggono vari tipi  di danno. I tipi di danno non seguono regole particolari; tuttavia, altre regole, come quelle riguardanti  la resistenza, possono farvi riferimento. La tabella  \"Tipi di danno\" fornisce degli esempi per aiutare il  GM ad assegnare un tipo di danno a un determinato  effetto.\n\n**Tipi di danno**\n\n|  |  |\n| --- | --- |\n| Tipo Esempi |  |"
       }
     ],
     "see_also": []
@@ -4463,16 +4274,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Un trucchetto è un incantesimo di livello 0 che  si "
-      },
-      {
-        "type": "equipment",
-        "text": "lancia",
-        "id": "lancia"
-      },
-      {
-        "type": "text",
-        "text": " senza slot incantesimo. *Vedi anche* \"Incantesimi\"."
+        "text": "Un trucchetto è un incantesimo di livello 0 che  si lancia senza slot incantesimo. *Vedi anche* \"Incantesimi\"."
       }
     ],
     "see_also": [

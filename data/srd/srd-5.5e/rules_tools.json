@@ -231,16 +231,7 @@
               },
               {
                 "type": "text",
-                "text": ".** Questa caratteristica è perfetta per  un background incentrato su "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o attività  di lunga durata. **"
+                "text": ".** Questa caratteristica è perfetta per  un background incentrato su resistenza o attività  di lunga durata. **"
               },
               {
                 "type": "ability",
@@ -961,16 +952,7 @@
               },
               {
                 "type": "text",
-                "text": " con CD 10 o ottenere 1 livello  di indebolimento. Le creature con "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o  immunità ai danni da "
+                "text": " con CD 10 o ottenere 1 livello  di indebolimento. Le creature con resistenza o  immunità ai danni da "
               },
               {
                 "type": "damage_type",
@@ -1048,16 +1030,7 @@
               },
               {
                 "type": "text",
-                "text": " alla fine di ogni ora  o ottenere 1 livello di indebolimento. La CD corrisponde a 5 nella prima ora e aumenta di 1 per ogni  ora aggiuntiva. Le creature che indossano armature  medie o pesanti effettuano il tiro salvezza con svantaggio. Le creature con "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o immunità ai  danni da "
+                "text": " alla fine di ogni ora  o ottenere 1 livello di indebolimento. La CD corrisponde a 5 nella prima ora e aumenta di 1 per ogni  ora aggiuntiva. Le creature che indossano armature  medie o pesanti effettuano il tiro salvezza con svantaggio. Le creature con resistenza o immunità ai  danni da "
               },
               {
                 "type": "damage_type",
@@ -1095,16 +1068,7 @@
               },
               {
                 "type": "text",
-                "text": " con  CD 10 alla fine di ogni ora o ottenere 1 livello di  indebolimento. Le creature con "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " o immunità ai danni da "
+                "text": " con  CD 10 alla fine di ogni ora o ottenere 1 livello di  indebolimento. Le creature con resistenza o immunità ai danni da "
               },
               {
                 "type": "damage_type",
@@ -2971,16 +2935,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Usa le seguenti linee "
-              },
-              {
-                "type": "spell",
-                "text": "guida",
-                "id": "guida"
-              },
-              {
-                "type": "text",
-                "text": " per creare un combattimento del livello di difficoltà desiderato."
+                "text": "Usa le seguenti linee guida per creare un combattimento del livello di difficoltà desiderato."
               }
             ],
             "children": [
@@ -2999,16 +2954,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ". Come linea "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "guida",
-                    "id": "guida"
-                  },
-                  {
-                    "type": "text",
-                    "text": " approssimativa, un  singolo mostro rappresenta generalmente una  sfida di bassa difficoltà per un gruppo di quattro  personaggi il cui livello è pari al grado di sfida del  mostro. **Media.** In assenza di cure e altre risorse, un incontro di difficoltà media potrebbe andare male per  gli avventurieri e le avventuriere. I personaggi più  deboli potrebbero essere eliminati dal combattimento e c'è una minima possibilità che uno o più  personaggi muoiano. **Difficile.** Un incontro difficile potrebbe risultare  letale per uno o più personaggi. Per sopravvivere,  i personaggi avranno bisogno di tattiche intelligenti, di una buona prontezza di riflessi e forse  anche di un po' di fortuna."
+                    "text": ". Come linea guida approssimativa, un  singolo mostro rappresenta generalmente una  sfida di bassa difficoltà per un gruppo di quattro  personaggi il cui livello è pari al grado di sfida del  mostro. **Media.** In assenza di cure e altre risorse, un incontro di difficoltà media potrebbe andare male per  gli avventurieri e le avventuriere. I personaggi più  deboli potrebbero essere eliminati dal combattimento e c'è una minima possibilità che uno o più  personaggi muoiano. **Difficile.** Un incontro difficile potrebbe risultare  letale per uno o più personaggi. Per sopravvivere,  i personaggi avranno bisogno di tattiche intelligenti, di una buona prontezza di riflessi e forse  anche di un po' di fortuna."
                   }
                 ],
                 "children": []
@@ -3062,16 +3008,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Più creature ci sono in un incontro, più alto è  il rischio che un colpo di fortuna da parte loro possa  infliggere ai personaggi più danni del previsto.  Se l'incontro comprende più di due creature per  personaggio, includi creature deboli che possono  essere sconfitte rapidamente. Questa linea "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "guida",
-                    "id": "guida"
-                  },
-                  {
-                    "type": "text",
-                    "text": "  è particolarmente importante per i personaggi al 1º  o al 2º livello."
+                    "text": "Più creature ci sono in un incontro, più alto è  il rischio che un colpo di fortuna da parte loro possa  infliggere ai personaggi più danni del previsto.  Se l'incontro comprende più di due creature per  personaggio, includi creature deboli che possono  essere sconfitte rapidamente. Questa linea guida  è particolarmente importante per i personaggi al 1º  o al 2º livello."
                   }
                 ],
                 "children": []

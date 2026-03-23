@@ -1380,16 +1380,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Durante le esplorazioni, l'equipaggiamento può  tornare utile agli avventurieri in molti modi. Ad  esempio, possono raggiungere luoghi fuori mano  con una scala a pioli, percepire cose che altrimenti  non noterebbero con una torcia o un'altra fonte di  "
-              },
-              {
-                "type": "spell",
-                "text": "luce",
-                "id": "luce"
-              },
-              {
-                "type": "text",
-                "text": ", aggirare porte e contenitori chiusi a chiave con  gli arnesi da scasso e creare ostacoli per gli inseguitori con i triboli. Consulta il capitolo \"Equipaggiamento\" per le  regole riguardanti numerosi oggetti utili nelle\n\nOrdinedimarcia Gli avventurieri dovrebbero stabilire un ordine di  marcia durante i loro viaggi, che siano al chiuso  o all'aperto. Un ordine di marcia rende più facile  determinare quali personaggi vengono colpiti dalle  trappole, quali sono in grado di individuare i nemici  nascosti e quali sono più vicini ai nemici in caso di  combattimento. È possibile cambiare l'ordine di marcia quando non si è impegnati in un combattimento  e annotarlo nel modo che si preferisce: scrivendolo,  ad esempio, o disponendo le miniature in modo da  mostrarlo.\n\navventure. Di particolare utilità sono gli oggetti  descritti in \"Strumenti\" ed \"Equipaggiamento  ­d'avventura\". Le armi nel capitolo \"Equipaggiamento\" possono essere usate anche per scopi diversi  dalla battaglia; ad esempio, si può usare un bastone  ferrato per premere un pulsante dall'aspetto sinistro che si preferisce non toccare."
+                "text": "Durante le esplorazioni, l'equipaggiamento può  tornare utile agli avventurieri in molti modi. Ad  esempio, possono raggiungere luoghi fuori mano  con una scala a pioli, percepire cose che altrimenti  non noterebbero con una torcia o un'altra fonte di  luce, aggirare porte e contenitori chiusi a chiave con  gli arnesi da scasso e creare ostacoli per gli inseguitori con i triboli. Consulta il capitolo \"Equipaggiamento\" per le  regole riguardanti numerosi oggetti utili nelle\n\nOrdinedimarcia Gli avventurieri dovrebbero stabilire un ordine di  marcia durante i loro viaggi, che siano al chiuso  o all'aperto. Un ordine di marcia rende più facile  determinare quali personaggi vengono colpiti dalle  trappole, quali sono in grado di individuare i nemici  nascosti e quali sono più vicini ai nemici in caso di  combattimento. È possibile cambiare l'ordine di marcia quando non si è impegnati in un combattimento  e annotarlo nel modo che si preferisce: scrivendolo,  ad esempio, o disponendo le miniature in modo da  mostrarlo.\n\navventure. Di particolare utilità sono gli oggetti  descritti in \"Strumenti\" ed \"Equipaggiamento  ­d'avventura\". Le armi nel capitolo \"Equipaggiamento\" possono essere usate anche per scopi diversi  dalla battaglia; ad esempio, si può usare un bastone  ferrato per premere un pulsante dall'aspetto sinistro che si preferisce non toccare."
               }
             ],
             "children": []
@@ -1410,16 +1401,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Un'area potrebbe essere leggermente o pesantemente oscurata. In un'area leggermente oscurata,  come per esempio una zona di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca, di nebbia  rarefatta o di fogliame moderato, il personaggio  subisce svantaggio alle prove di "
+                    "text": "Un'area potrebbe essere leggermente o pesantemente oscurata. In un'area leggermente oscurata,  come per esempio una zona di luce fioca, di nebbia  rarefatta o di fogliame moderato, il personaggio  subisce svantaggio alle prove di "
                   },
                   {
                     "type": "ability",
@@ -1466,79 +1448,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "La presenza o l'assenza di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " determina la categoria di illuminazione di un'area, come definito di  seguito. _**"
-                  },
-                  {
-                    "type": "spell",
-                    "text": "Luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " intensa.**_ La "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " intensa consente alla maggior parte delle creature di vedere le cose normalmente. Anche le giornate di cielo coperto forniscono  "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " intensa, così come le torce, le lanterne, i fuochi  e le altre fonti di illuminazione entro un raggio  specifico. _**"
-                  },
-                  {
-                    "type": "spell",
-                    "text": "Luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca.**_ La "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca, equivalente alla condizione di ombra, crea un'area leggermente oscurata.  Un'area di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca si trova solitamente a metà tra  una fonte di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " intensa e l'"
+                    "text": "La presenza o l'assenza di luce determina la categoria di illuminazione di un'area, come definito di  seguito. _**Luce intensa.**_ La luce intensa consente alla maggior parte delle creature di vedere le cose normalmente. Anche le giornate di cielo coperto forniscono  luce intensa, così come le torce, le lanterne, i fuochi  e le altre fonti di illuminazione entro un raggio  specifico. _**Luce fioca.**_ La luce fioca, equivalente alla condizione di ombra, crea un'area leggermente oscurata.  Un'area di luce fioca si trova solitamente a metà tra  una fonte di luce intensa e l'"
                   },
                   {
                     "type": "spell",
@@ -1547,34 +1457,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " circostante.  Anche la "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " tenue del crepuscolo e dell'alba conta  come "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca. Ad esempio, la luna piena potrebbe  proiettare "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": " fioca nell'area. _**"
+                    "text": " circostante.  Anche la luce tenue del crepuscolo e dell'alba conta  come luce fioca. Ad esempio, la luna piena potrebbe  proiettare luce fioca nell'area. _**"
                   },
                   {
                     "type": "spell",
@@ -1601,16 +1484,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " di notte quando sono all'aperto (anche  nella maggior parte delle notti di luna), quando  sono all'interno di un dungeon privo di fonti di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "luce",
-                    "id": "luce"
-                  },
-                  {
-                    "type": "text",
-                    "text": "  o in un'area di "
+                    "text": " di notte quando sono all'aperto (anche  nella maggior parte delle notti di luna), quando  sono all'interno di un dungeon privo di fonti di luce  o in un'area di "
                   },
                   {
                     "type": "spell",
@@ -2319,16 +2193,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Un personaggio effettua un attacco a distanza  quando tira con un arco, "
-              },
-              {
-                "type": "equipment",
-                "text": "lancia",
-                "id": "lancia"
-              },
-              {
-                "type": "text",
-                "text": " un'"
+                "text": "Un personaggio effettua un attacco a distanza  quando tira con un arco, lancia un'"
               },
               {
                 "type": "equipment",
@@ -2525,16 +2390,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Tutto ciò che si trova sott'acqua ha "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": "  ai danni da "
+                    "text": "Tutto ciò che si trova sott'acqua ha resistenza  ai danni da "
                   },
                   {
                     "type": "damage_type",
@@ -2577,16 +2433,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "I punti ferita rappresentano "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " e volontà  di vivere. Le creature con più punti ferita sono più  difficili da uccidere. I punti ferita massimi corrispondono al numero di punti ferita che il personaggio ha quando non è ferito. I punti ferita attuali  possono essere un qualsiasi numero compreso tra 0  (il numero di punti ferita più basso) e i punti ferita  massimi. Ogni volta che il personaggio subisce danni, questi  vanno sottratti dai suoi punti ferita. La perdita  di punti ferita non ha effetto sulle capacità fino  a quando non si raggiunge lo 0. Se il personaggio ha metà dei suoi punti ferita  o meno, è sanguinante; ciò non ha effetti di gioco,  ma potrebbe innescarne altri."
+                "text": "I punti ferita rappresentano resistenza e volontà  di vivere. Le creature con più punti ferita sono più  difficili da uccidere. I punti ferita massimi corrispondono al numero di punti ferita che il personaggio ha quando non è ferito. I punti ferita attuali  possono essere un qualsiasi numero compreso tra 0  (il numero di punti ferita più basso) e i punti ferita  massimi. Ogni volta che il personaggio subisce danni, questi  vanno sottratti dai suoi punti ferita. La perdita  di punti ferita non ha effetto sulle capacità fino  a quando non si raggiunge lo 0. Se il personaggio ha metà dei suoi punti ferita  o meno, è sanguinante; ciò non ha effetti di gioco,  ma potrebbe innescarne altri."
               }
             ],
             "children": []
@@ -2647,16 +2494,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Quando crei un effetto dannoso che costringe due  o più bersagli a effettuare tiri salvezza contro di  esso contemporaneamente, tira per i danni una  volta sola per tutti i bersagli. Ad esempio, quando  un mago "
-                  },
-                  {
-                    "type": "equipment",
-                    "text": "lancia",
-                    "id": "lancia"
-                  },
-                  {
-                    "type": "text",
-                    "text": " *"
+                    "text": "Quando crei un effetto dannoso che costringe due  o più bersagli a effettuare tiri salvezza contro di  esso contemporaneamente, tira per i danni una  volta sola per tutti i bersagli. Ad esempio, quando  un mago lancia *"
                   },
                   {
                     "type": "spell",
@@ -2707,16 +2545,7 @@
               },
               {
                 "type": "text",
-                "text": ". I tipi di danno sono elencati nel \"Glossario delle regole\" e non seguono regole particolari,  ma altre regole, come per esempio la "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": ",  possono farvi riferimento."
+                "text": ". I tipi di danno sono elencati nel \"Glossario delle regole\" e non seguono regole particolari,  ma altre regole, come per esempio la resistenza,  possono farvi riferimento."
               }
             ],
             "children": []
@@ -2727,34 +2556,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Alcune creature e oggetti sono dotati di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": "  o vulnerabilità a determinati tipi di danno. Se un  personaggio è dotato di "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " a un tipo di  danno, i danni di quel tipo che subisce sono dimezzati (arrotondando per difetto). Se un personaggio  è dotato di vulnerabilità a un tipo di danno, i danni  di quel tipo che subisce sono raddoppiati. Ad esempio, se possiede "
-              },
-              {
-                "type": "spell",
-                "text": "resistenza",
-                "id": "resistenza"
-              },
-              {
-                "type": "text",
-                "text": " ai danni da "
+                "text": "Alcune creature e oggetti sono dotati di resistenza  o vulnerabilità a determinati tipi di danno. Se un  personaggio è dotato di resistenza a un tipo di  danno, i danni di quel tipo che subisce sono dimezzati (arrotondando per difetto). Se un personaggio  è dotato di vulnerabilità a un tipo di danno, i danni  di quel tipo che subisce sono raddoppiati. Ad esempio, se possiede resistenza ai danni da "
               },
               {
                 "type": "damage_type",
@@ -2782,34 +2584,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Più istanze di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " o vulnerabilità che influenzano lo stesso tipo di danno contano sempre come  una sola istanza. Ad esempio, se il personaggio  possiede "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " ai danni necrotici e "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": "  a tutti i danni, i danni necrotici subiti vengono  ridotti della metà."
+                    "text": "Più istanze di resistenza o vulnerabilità che influenzano lo stesso tipo di danno contano sempre come  una sola istanza. Ad esempio, se il personaggio  possiede resistenza ai danni necrotici e resistenza  a tutti i danni, i danni necrotici subiti vengono  ridotti della metà."
                   }
                 ],
                 "children": []
@@ -2820,25 +2595,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "I modificatori ai danni vengono applicati nel  seguente ordine: le modifiche come bonus, penalità  o moltiplicatori vengono applicate per prime; la  "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " viene applicata per seconda; la vulnerabilità viene applicata per terza. Per esempio, una creatura dotata di "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": "  a tutti i danni e vulnerabilità ai danni da "
+                    "text": "I modificatori ai danni vengono applicati nel  seguente ordine: le modifiche come bonus, penalità  o moltiplicatori vengono applicate per prime; la  resistenza viene applicata per seconda; la vulnerabilità viene applicata per terza. Per esempio, una creatura dotata di resistenza  a tutti i danni e vulnerabilità ai danni da "
                   },
                   {
                     "type": "damage_type",
@@ -2856,16 +2613,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ", i danni  vengono prima ridotti di 5 (a 23), poi dimezzati  per la "
-                  },
-                  {
-                    "type": "spell",
-                    "text": "resistenza",
-                    "id": "resistenza"
-                  },
-                  {
-                    "type": "text",
-                    "text": " della creatura (e arrotondati per  difetto a 11), quindi raddoppiati per la sua vulnerabilità (a 22)."
+                    "text": ", i danni  vengono prima ridotti di 5 (a 23), poi dimezzati  per la resistenza della creatura (e arrotondati per  difetto a 11), quindi raddoppiati per la sua vulnerabilità (a 22)."
                   }
                 ],
                 "children": []

@@ -74,16 +74,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Un elfo, abituato a muoversi nella  penombra del sottobosco e alla "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " della luna,  beneficia di una vista superiore nell'"
+            "text": "Un elfo, abituato a muoversi nella  penombra del sottobosco e alla luce della luna,  beneficia di una vista superiore nell'"
           },
           {
             "type": "spell",
@@ -92,34 +83,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle  condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle  condizioni di luce fioca. In condizioni di luce fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -128,16 +92,7 @@
           },
           {
             "type": "text",
-            "text": "  come se si trovasse in presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  Nell'"
+            "text": "  come se si trovasse in presenza di luce fioca.  Nell'"
           },
           {
             "type": "spell",
@@ -191,16 +146,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di "
-          },
-          {
-            "type": "spell",
-            "text": "sonno",
-            "id": "sonno"
-          },
-          {
-            "type": "text",
-            "text": " per  un umano."
+            "text": "Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di sonno per  un umano."
           }
         ]
       },
@@ -253,16 +199,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Un elfo, abituato a muoversi nella  penombra del sottobosco e alla "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " della luna,  beneficia di una vista superiore nell'"
+        "text": ".**_ Un elfo, abituato a muoversi nella  penombra del sottobosco e alla luce della luna,  beneficia di una vista superiore nell'"
       },
       {
         "type": "spell",
@@ -271,34 +208,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle  condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle  condizioni di luce fioca. In condizioni di luce fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -307,16 +217,7 @@
       },
       {
         "type": "text",
-        "text": "  come se si trovasse in presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  Nell'"
+        "text": "  come se si trovasse in presenza di luce fioca.  Nell'"
       },
       {
         "type": "spell",
@@ -352,16 +253,7 @@
       },
       {
         "type": "text",
-        "text": " e non può  essere addormentato tramite la magia.  _**Trance.**_ Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di "
-      },
-      {
-        "type": "spell",
-        "text": "sonno",
-        "id": "sonno"
-      },
-      {
-        "type": "text",
-        "text": " per  un umano.  _**"
+        "text": " e non può  essere addormentato tramite la magia.  _**Trance.**_ Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di sonno per  un umano.  _**"
       },
       {
         "type": "spell",
@@ -671,34 +563,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -707,16 +572,7 @@
           },
           {
             "type": "text",
-            "text": " come se si  trovasse in presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. Nell'"
+            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
           },
           {
             "type": "spell",
@@ -743,16 +599,7 @@
           },
           {
             "type": "text",
-            "text": " e di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai  danni da "
+            "text": " e di resistenza ai  danni da "
           },
           {
             "type": "damage_type",
@@ -904,34 +751,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -940,16 +760,7 @@
       },
       {
         "type": "text",
-        "text": " come se si  trovasse in presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -967,16 +778,7 @@
       },
       {
         "type": "text",
-        "text": " e di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai  danni da "
+        "text": " e di resistenza ai  danni da "
       },
       {
         "type": "damage_type",
@@ -1439,16 +1241,7 @@
           },
           {
             "type": "text",
-            "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
+            "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua resistenza ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
           },
           {
             "type": "creature_type",
@@ -1484,16 +1277,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Un dragonide dispone  di "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni del tipo associato alla sua  discendenza draconica."
+            "text": "Un dragonide dispone  di resistenza ai danni del tipo associato alla sua  discendenza draconica."
           }
         ]
       },
@@ -1735,16 +1519,7 @@
       },
       {
         "type": "text",
-        "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
+        "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua resistenza ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
       },
       {
         "type": "creature_type",
@@ -1762,25 +1537,7 @@
       },
       {
         "type": "text",
-        "text": " del  dragonide + il bonus di competenza del dragonide.  Una creatura subisce 2d6 danni se il tiro salvezza  fallisce. Se invece ha successo, i danni sono  dimezzati. I danni aumentano a 3d6 al 6° livello,  4d6 all'11° livello e 5d6 al 16° livello.   Una volta che il dragonide ha utilizzato il suo  soffio, non può più utilizzarlo finché non completa  un riposo breve o lungo.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni.**_Un dragonide dispone  di "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni del tipo associato alla sua  discendenza draconica.  _**"
+        "text": " del  dragonide + il bonus di competenza del dragonide.  Una creatura subisce 2d6 danni se il tiro salvezza  fallisce. Se invece ha successo, i danni sono  dimezzati. I danni aumentano a 3d6 al 6° livello,  4d6 all'11° livello e 5d6 al 16° livello.   Una volta che il dragonide ha utilizzato il suo  soffio, non può più utilizzarlo finché non completa  un riposo breve o lungo.  _**Resistenza ai danni.**_Un dragonide dispone  di resistenza ai danni del tipo associato alla sua  discendenza draconica.  _**"
       },
       {
         "type": "spell",
@@ -1895,34 +1652,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -1931,16 +1661,7 @@
           },
           {
             "type": "text",
-            "text": " come se si  trovasse in presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. Nell'"
+            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
           },
           {
             "type": "spell",
@@ -2056,34 +1777,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -2092,16 +1786,7 @@
       },
       {
         "type": "text",
-        "text": " come se si  trovasse in presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -2146,16 +1831,7 @@
       },
       {
         "type": "text",
-        "text": ".**_ Uno gnomo può parlare, leggere   e scrivere in Comune e in Gnomesco. Lo Gnomesco,  che usa l'alfabeto Nanico, è rinomato per i suoi  trattati tecnici e le sue enciclopedie sul mondo  naturale.\n\n##### Gnomo delle rocce\n\nUno gnomo delle rocce è dotato di una creatività  innata e di una "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " superiore a quella degli  altri gnomi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
+        "text": ".**_ Uno gnomo può parlare, leggere   e scrivere in Comune e in Gnomesco. Lo Gnomesco,  che usa l'alfabeto Nanico, è rinomato per i suoi  trattati tecnici e le sue enciclopedie sul mondo  naturale.\n\n##### Gnomo delle rocce\n\nUno gnomo delle rocce è dotato di una creatività  innata e di una resistenza superiore a quella degli  altri gnomi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
       },
       {
         "type": "ability",
@@ -2288,34 +1964,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -2324,16 +1973,7 @@
           },
           {
             "type": "text",
-            "text": " come se si  trovasse in presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. Nell'"
+            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
           },
           {
             "type": "spell",
@@ -2431,34 +2071,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -2467,16 +2080,7 @@
       },
       {
         "type": "text",
-        "text": " come se si  trovasse in presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -2618,34 +2222,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -2654,16 +2231,7 @@
           },
           {
             "type": "text",
-            "text": " come se si trovasse in  presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. Nell'"
+            "text": " come se si trovasse in  presenza di luce fioca. Nell'"
           },
           {
             "type": "spell",
@@ -2788,34 +2356,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -2824,16 +2365,7 @@
       },
       {
         "type": "text",
-        "text": " come se si trovasse in  presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": " come se si trovasse in  presenza di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -2851,16 +2383,7 @@
       },
       {
         "type": "text",
-        "text": ".  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " implacabile.**_Quando un mezzorco  scende a 0 punti ferita ma non viene ucciso sul colpo,  può decidere di rimanere a 1 punto ferita. Non può  più utilizzare questa capacità finché non completa  un riposo lungo.  _**Attacchi selvaggi.**_Quando un mezzorco mette  a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1  7\n\nmischia, può tirare un dado dell'arma aggiuntivo  quando determina i danni extra del colpo critico.  _**"
+        "text": ".  _**Resistenza implacabile.**_Quando un mezzorco  scende a 0 punti ferita ma non viene ucciso sul colpo,  può decidere di rimanere a 1 punto ferita. Non può  più utilizzare questa capacità finché non completa  un riposo lungo.  _**Attacchi selvaggi.**_Quando un mezzorco mette  a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1  7\n\nmischia, può tirare un dado dell'arma aggiuntivo  quando determina i danni extra del colpo critico.  _**"
       },
       {
         "type": "spell",
@@ -2984,34 +2507,7 @@
           },
           {
             "type": "text",
-            "text": " e nelle condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca.  In condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " intensa e nell'"
+            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
           },
           {
             "type": "spell",
@@ -3020,16 +2516,7 @@
           },
           {
             "type": "text",
-            "text": " come se si  trovasse in presenza di "
-          },
-          {
-            "type": "spell",
-            "text": "luce",
-            "id": "luce"
-          },
-          {
-            "type": "text",
-            "text": " fioca. Nell'"
+            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
           },
           {
             "type": "spell",
@@ -3047,16 +2534,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Un tiefling dispone di  "
-          },
-          {
-            "type": "spell",
-            "text": "resistenza",
-            "id": "resistenza"
-          },
-          {
-            "type": "text",
-            "text": " ai danni da "
+            "text": "Un tiefling dispone di  resistenza ai danni da "
           },
           {
             "type": "damage_type",
@@ -3199,34 +2677,7 @@
       },
       {
         "type": "text",
-        "text": " e nelle condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca.  In condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " intensa e nell'"
+        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
       },
       {
         "type": "spell",
@@ -3235,16 +2686,7 @@
       },
       {
         "type": "text",
-        "text": " come se si  trovasse in presenza di "
-      },
-      {
-        "type": "spell",
-        "text": "luce",
-        "id": "luce"
-      },
-      {
-        "type": "text",
-        "text": " fioca. Nell'"
+        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
       },
       {
         "type": "spell",
@@ -3253,25 +2695,7 @@
       },
       {
         "type": "text",
-        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " infernale.**_Un tiefling dispone di  "
-      },
-      {
-        "type": "spell",
-        "text": "resistenza",
-        "id": "resistenza"
-      },
-      {
-        "type": "text",
-        "text": " ai danni da "
+        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**Resistenza infernale.**_Un tiefling dispone di  resistenza ai danni da "
       },
       {
         "type": "damage_type",
