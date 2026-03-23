@@ -2,13 +2,13 @@ package srd
 
 // Feat represents a D&D 5e feat.
 type Feat struct {
-	ID           string `json:"id"`
-	Name         string `json:"name"`
-	Category     string `json:"category"`
+	ID           string  `json:"id"`
+	Name         string  `json:"name"`
+	Category     string  `json:"category"`
 	Prerequisite Content `json:"prerequisite"`
 	Repeatable   bool    `json:"repeatable"`
 	Benefit      Content `json:"benefit"`
-	Source       string `json:"-"`
+	Source       string  `json:"-"`
 }
 
 func (f Feat) SearchID() string         { return f.ID }
