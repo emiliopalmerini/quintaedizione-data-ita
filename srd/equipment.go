@@ -7,7 +7,7 @@ type Equipment struct {
 	Category    string            `json:"category"`
 	Subcategory string            `json:"subcategory"`
 	Properties  map[string]string `json:"properties"`
-	Description string            `json:"description"`
+	Description Content            `json:"description"`
 	Source      string            `json:"-"`
 }
 

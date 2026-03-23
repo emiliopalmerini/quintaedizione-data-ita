@@ -8,7 +8,7 @@ type MagicItem struct {
 	Rarity            string `json:"rarity"`
 	Attunement        bool   `json:"attunement"`
 	AttunementDetails string `json:"attunement_details"`
-	Description       string `json:"description"`
+	Description       Content `json:"description"`
 	Source            string `json:"-"`
 }
 

@@ -13,8 +13,8 @@ type Spell struct {
 	Range          string   `json:"range"`
 	Components     string   `json:"components"`
 	Duration       string   `json:"duration"`
-	Description    string   `json:"description"`
-	AtHigherLevels string   `json:"at_higher_levels"`
+	Description    Content  `json:"description"`
+	AtHigherLevels Content  `json:"at_higher_levels"`
 	Ritual         bool     `json:"ritual"`
 	Source         string   `json:"-"`
 }

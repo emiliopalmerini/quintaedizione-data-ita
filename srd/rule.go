@@ -4,7 +4,7 @@ package srd
 type Rule struct {
 	ID       string `json:"id"`
 	Title    string `json:"title"`
-	Content  string `json:"content"`
+	Content  Content `json:"content"`
 	Children []Rule `json:"children"`
 	Source   string `json:"-"`
 }
