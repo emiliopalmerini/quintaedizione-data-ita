@@ -7084,7 +7084,16 @@
         "description": [
           {
             "type": "text",
-            "text": "Il doppelganger lancia *individuazione dei pensieri* senza bisogno di componenti,  utilizzando "
+            "text": "Il doppelganger lancia "
+          },
+          {
+            "type": "spell",
+            "text": "individuazione dei pensieri",
+            "id": "individuazione-dei-pensieri"
+          },
+          {
+            "type": "text",
+            "text": " senza bisogno di componenti,  utilizzando "
           },
           {
             "type": "ability",
@@ -8498,7 +8507,16 @@
           },
           {
             "type": "text",
-            "text": " usa Incantesimi per lanciare *invisibilità* su se stesso, e può "
+            "text": " usa Incantesimi per lanciare "
+          },
+          {
+            "type": "spell",
+            "text": "invisibilità",
+            "id": "invisibilita"
+          },
+          {
+            "type": "text",
+            "text": " su se stesso, e può "
           },
           {
             "type": "spell",
@@ -8820,7 +8838,16 @@
           },
           {
             "type": "text",
-            "text": " usa Incantesimi per lanciare *invisibilità* su se stesso, e può "
+            "text": " usa Incantesimi per lanciare "
+          },
+          {
+            "type": "spell",
+            "text": "invisibilità",
+            "id": "invisibilita"
+          },
+          {
+            "type": "text",
+            "text": " su se stesso, e può "
           },
           {
             "type": "spell",
@@ -11367,7 +11394,16 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo mentale* (di 4º livello)."
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare "
+          },
+          {
+            "type": "spell",
+            "text": "aculeo mentale",
+            "id": "aculeo-mentale"
+          },
+          {
+            "type": "text",
+            "text": " (di 4º livello)."
           }
         ]
       },
@@ -11716,7 +11752,16 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo mentale* (di 5º livello)."
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare "
+          },
+          {
+            "type": "spell",
+            "text": "aculeo mentale",
+            "id": "aculeo-mentale"
+          },
+          {
+            "type": "text",
+            "text": " (di 5º livello)."
           }
         ]
       },
@@ -26444,7 +26489,7 @@
             "text": "*, *"
           },
           {
-            "type": "damage_type",
+            "type": "spell",
             "text": "fulmine",
             "id": "fulmine"
           },
@@ -35129,7 +35174,16 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote lancia *benedizione*, *"
+            "text": "Il sacerdote lancia "
+          },
+          {
+            "type": "spell",
+            "text": "benedizione",
+            "id": "benedizione"
+          },
+          {
+            "type": "text",
+            "text": ", *"
           },
           {
             "type": "spell",
@@ -35291,7 +35345,16 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote lancia *benedizione*, *"
+            "text": "Il sacerdote lancia "
+          },
+          {
+            "type": "spell",
+            "text": "benedizione",
+            "id": "benedizione"
+          },
+          {
+            "type": "text",
+            "text": ", *"
           },
           {
             "type": "spell",
