@@ -11,7 +11,12 @@
       "peso": "1 kg",
       "costo": "5 mo"
     },
-    "description": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "bastone-ferrato",
@@ -25,7 +30,12 @@
       "peso": "2 kg",
       "costo": "2 ma"
     },
-    "description": "**Danni:** 1d6 contundenti\n\n**Proprietà:** Versatile (1d8)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 2 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 contundenti\n\n**Proprietà:** Versatile (1d8)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 2 ma"
+      }
+    ]
   },
   {
     "id": "falcetto",
@@ -39,7 +49,12 @@
       "peso": "1 kg",
       "costo": "1 mo"
     },
-    "description": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 1 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 1 mo"
+      }
+    ]
   },
   {
     "id": "giavellotto",
@@ -53,7 +68,21 @@
       "peso": "1 kg",
       "costo": "5 ma"
     },
-    "description": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 9/36)\n\n**Padronanza:** Lentezza\n\n**Peso:** 1 kg\n\n**Costo:** 5 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 9/36)\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 5 ma"
+      }
+    ]
   },
   {
     "id": "lancia",
@@ -67,7 +96,12 @@
       "peso": "1,5 kg",
       "costo": "1 mo"
     },
-    "description": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d8)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 1 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d8)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 1 mo"
+      }
+    ]
   },
   {
     "id": "martello-leggero",
@@ -81,7 +115,12 @@
       "peso": "1 kg",
       "costo": "2 mo"
     },
-    "description": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 2 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 2 mo"
+      }
+    ]
   },
   {
     "id": "mazza",
@@ -94,7 +133,12 @@
       "peso": "2 kg",
       "costo": "5 mo"
     },
-    "description": "**Danni:** 1d6 contundenti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 contundenti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "pugnale",
@@ -108,7 +152,12 @@
       "peso": "0,5 kg",
       "costo": "2 mo"
     },
-    "description": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 0,5 kg\n\n**Costo:** 2 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 0,5 kg\n\n**Costo:** 2 mo"
+      }
+    ]
   },
   {
     "id": "randello-pesante",
@@ -122,7 +171,12 @@
       "peso": "5 kg",
       "costo": "2 ma"
     },
-    "description": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Due mani\n\n**Padronanza:** Spinta\n\n**Peso:** 5 kg\n\n**Costo:** 2 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Due mani\n\n**Padronanza:** Spinta\n\n**Peso:** 5 kg\n\n**Costo:** 2 ma"
+      }
+    ]
   },
   {
     "id": "randello",
@@ -136,7 +190,21 @@
       "peso": "1 kg",
       "costo": "1 ma"
     },
-    "description": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Leggera\n\n**Padronanza:** Lentezza\n\n**Peso:** 1 kg\n\n**Costo:** 1 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Leggera\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 1 ma"
+      }
+    ]
   },
   {
     "id": "arco-corto",
@@ -150,7 +218,12 @@
       "peso": "1 kg",
       "costo": "25 mo"
     },
-    "description": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; freccia)\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; freccia)\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+      }
+    ]
   },
   {
     "id": "balestra-leggera",
@@ -164,7 +237,21 @@
       "peso": "2,5 kg",
       "costo": "25 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; quadrello), ricarica\n\n**Padronanza:** Lentezza\n\n**Peso:** 2,5 kg\n\n**Costo:** 25 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; quadrello), ricarica\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 2,5 kg\n\n**Costo:** 25 mo"
+      }
+    ]
   },
   {
     "id": "dardo",
@@ -178,7 +265,12 @@
       "peso": "0,125 kg",
       "costo": "5 mr"
     },
-    "description": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18)\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,125 kg\n\n**Costo:** 5 mr"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18)\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,125 kg\n\n**Costo:** 5 mr"
+      }
+    ]
   },
   {
     "id": "fionda",
@@ -191,7 +283,21 @@
       "padronanza": "Lentezza",
       "costo": "1 ma"
     },
-    "description": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Munizioni (gittata 9/36; proiettile)\n\n**Padronanza:** Lentezza\n\n**Costo:** 1 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Munizioni (gittata 9/36; proiettile)\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Costo:** 1 ma"
+      }
+    ]
   },
   {
     "id": "alabarda",
@@ -205,7 +311,12 @@
       "peso": "3 kg",
       "costo": "20 mo"
     },
-    "description": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+      }
+    ]
   },
   {
     "id": "ascia-bipenne",
@@ -219,7 +330,12 @@
       "peso": "3,5 kg",
       "costo": "30 mo"
     },
-    "description": "**Danni:** 1d12 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3,5 kg\n\n**Costo:** 30 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d12 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3,5 kg\n\n**Costo:** 30 mo"
+      }
+    ]
   },
   {
     "id": "ascia-da-battaglia",
@@ -233,7 +349,12 @@
       "peso": "2 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "falcione",
@@ -247,7 +368,12 @@
       "peso": "3 kg",
       "costo": "20 mo"
     },
-    "description": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Colpo di Striscio\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Colpo di Striscio\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+      }
+    ]
   },
   {
     "id": "frusta",
@@ -261,7 +387,21 @@
       "peso": "1,5 kg",
       "costo": "2 mo"
     },
-    "description": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Accurata, portata\n\n**Padronanza:** Lentezza\n\n**Peso:** 1,5 kg\n\n**Costo:** 2 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Accurata, portata\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 1,5 kg\n\n**Costo:** 2 mo"
+      }
+    ]
   },
   {
     "id": "lancia-da-cavaliere",
@@ -275,7 +415,12 @@
       "peso": "3 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani (eccetto in sella), pesante, portata\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani (eccetto in sella), pesante, portata\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "maglio",
@@ -289,7 +434,12 @@
       "peso": "5 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 2d6 contundenti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 2d6 contundenti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "martello-da-guerra",
@@ -303,7 +453,12 @@
       "peso": "2,5 kg",
       "costo": "15 mo"
     },
-    "description": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Spinta\n\n**Peso:** 2,5 kg\n\n**Costo:** 15 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Spinta\n\n**Peso:** 2,5 kg\n\n**Costo:** 15 mo"
+      }
+    ]
   },
   {
     "id": "mazza-chiodata",
@@ -312,12 +467,16 @@
     "subcategory": "Armi da mischia da guerra",
     "properties": {
       "danni": "1d8 perforanti",
-      "proprietà": "Versatile (1d10)",
       "padronanza": "Fiaccare",
       "peso": "2 kg",
       "costo": "15 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 15 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 15 mo"
+      }
+    ]
   },
   {
     "id": "mazzafrusto",
@@ -326,12 +485,16 @@
     "subcategory": "Armi da mischia da guerra",
     "properties": {
       "danni": "1d8 contundenti",
-      "proprietà": "Versatile (1d10)",
       "padronanza": "Fiaccare",
       "peso": "1 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 contundenti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "picca",
@@ -345,7 +508,12 @@
       "peso": "9 kg",
       "costo": "5 mo"
     },
-    "description": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "piccone-da-guerra",
@@ -359,7 +527,12 @@
       "peso": "1 kg",
       "costo": "5 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "scimitarra",
@@ -373,7 +546,12 @@
       "peso": "1,5 kg",
       "costo": "25 mo"
     },
-    "description": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1,5 kg\n\n**Costo:** 25 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1,5 kg\n\n**Costo:** 25 mo"
+      }
+    ]
   },
   {
     "id": "spada-corta",
@@ -387,7 +565,12 @@
       "peso": "1 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "spada-lunga",
@@ -401,7 +584,12 @@
       "peso": "1,5 kg",
       "costo": "15 mo"
     },
-    "description": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10), al prossimo tiro per colpire eseguito contro  la creatura prima del termine del proprio turno  successivo., Nome, Danni, Proprietà, Padronanza, Peso, Costo\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 15 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10), al prossimo tiro per colpire eseguito contro  la creatura prima del termine del proprio turno  successivo., Nome, Danni, Proprietà, Padronanza, Peso, Costo\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 15 mo"
+      }
+    ]
   },
   {
     "id": "spadone",
@@ -415,7 +603,12 @@
       "peso": "3 kg",
       "costo": "50 mo"
     },
-    "description": "**Danni:** 2d6 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Colpo di striscio\n\n**Peso:** 3 kg\n\n**Costo:** 50 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 2d6 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Colpo di striscio\n\n**Peso:** 3 kg\n\n**Costo:** 50 mo"
+      }
+    ]
   },
   {
     "id": "stocco",
@@ -429,7 +622,12 @@
       "peso": "1 kg",
       "costo": "25 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Accurata\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Accurata\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+      }
+    ]
   },
   {
     "id": "tridente",
@@ -443,7 +641,12 @@
       "peso": "2 kg",
       "costo": "5 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "arco-lungo",
@@ -457,7 +660,21 @@
       "peso": "1 kg",
       "costo": "50 mo"
     },
-    "description": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 45/180; freccia), pesante\n\n**Padronanza:** Lentezza\n\n**Peso:** 1 kg\n\n**Costo:** 50 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 45/180; freccia), pesante\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 50 mo"
+      }
+    ]
   },
   {
     "id": "balestra-a-mano",
@@ -471,7 +688,12 @@
       "peso": "1,5 kg",
       "costo": "75 mo"
     },
-    "description": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Leggera, munizioni (gittata 9/36; quadrello), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 75 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Leggera, munizioni (gittata 9/36; quadrello), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 75 mo"
+      }
+    ]
   },
   {
     "id": "balestra-pesante",
@@ -485,7 +707,12 @@
       "peso": "9 kg",
       "costo": "50 mo"
     },
-    "description": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 30/120; quadrello), pesante, ricarica\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 50 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 30/120; quadrello), pesante, ricarica\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 50 mo"
+      }
+    ]
   },
   {
     "id": "cerbottana",
@@ -499,7 +726,21 @@
       "peso": "0,5 kg",
       "costo": "10 mo"
     },
-    "description": "**Danni:** 1 perforante\n\n**Proprietà:** Munizioni (gittata 7/30; ago), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,5 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1 "
+      },
+      {
+        "type": "damage_type",
+        "text": "perforante",
+        "id": "perforante"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Proprietà:** Munizioni (gittata 7/30; ago), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,5 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "moschetto",
@@ -513,7 +754,21 @@
       "peso": "5 kg",
       "costo": "500 mo"
     },
-    "description": "**Danni:** 1d12 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 12/36; proiettile), ricarica\n\n**Padronanza:** Lentezza\n\n**Peso:** 5 kg\n\n**Costo:** 500 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d12 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 12/36; proiettile), ricarica\n\n**Padronanza:** "
+      },
+      {
+        "type": "spell",
+        "text": "Lentezza",
+        "id": "lentezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\n**Peso:** 5 kg\n\n**Costo:** 500 mo"
+      }
+    ]
   },
   {
     "id": "pistola",
@@ -527,7 +782,12 @@
       "peso": "1,5 kg",
       "costo": "250 mo"
     },
-    "description": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Munizioni (gittata 9/27; proiettile), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 250 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Munizioni (gittata 9/27; proiettile), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 250 mo"
+      }
+    ]
   },
   {
     "id": "armatura-imbottita",
@@ -541,7 +801,21 @@
       "peso": "4 kg",
       "costo": "5 mo"
     },
-    "description": "**Classe Armatura (CA):** 11 + modificatore di Des\n\n**Furtività:** Svantaggio\n\n**Peso:** 4 kg\n\n**Costo:** 5 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 11 + modificatore di Des\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 4 kg\n\n**Costo:** 5 mo"
+      }
+    ]
   },
   {
     "id": "armatura-di-cuoio",
@@ -554,7 +828,12 @@
       "peso": "5 kg",
       "costo": "10 mo"
     },
-    "description": "**Classe Armatura (CA):** 11 + modificatore di Des\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 11 + modificatore di Des\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "armatura-di-cuoio-borchiato",
@@ -567,7 +846,12 @@
       "peso": "6,5 kg",
       "costo": "45 mo"
     },
-    "description": "**Classe Armatura (CA):** 12 + modificatore di Des\n\n**Peso:** 6,5 kg\n\n**Costo:** 45 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 12 + modificatore di Des\n\n**Peso:** 6,5 kg\n\n**Costo:** 45 mo"
+      }
+    ]
   },
   {
     "id": "armatura-di-pelle",
@@ -580,7 +864,12 @@
       "peso": "6 kg",
       "costo": "10 mo"
     },
-    "description": "**Classe Armatura (CA):** 12 + modificatore di Des (max 2)\n\n**Peso:** 6 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 12 + modificatore di Des (max 2)\n\n**Peso:** 6 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "giaco-di-maglia",
@@ -593,7 +882,12 @@
       "peso": "10 kg",
       "costo": "50 mo"
     },
-    "description": "**Classe Armatura (CA):** 13 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 50 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 13 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 50 mo"
+      }
+    ]
   },
   {
     "id": "corazza-a-scaglie",
@@ -607,7 +901,21 @@
       "peso": "22,5 kg",
       "costo": "50 mo"
     },
-    "description": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\n**Furtività:** Svantaggio\n\n**Peso:** 22,5 kg\n\n**Costo:** 50 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 22,5 kg\n\n**Costo:** 50 mo"
+      }
+    ]
   },
   {
     "id": "corazza-di-piastre",
@@ -620,7 +928,12 @@
       "peso": "10 kg",
       "costo": "400 mo"
     },
-    "description": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 400 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 400 mo"
+      }
+    ]
   },
   {
     "id": "mezza-armatura",
@@ -634,7 +947,21 @@
       "peso": "20 kg",
       "costo": "750 mo"
     },
-    "description": "**Classe Armatura (CA):** 15 + modificatore di Des (max 2)\n\n**Furtività:** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 750 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 15 + modificatore di Des (max 2)\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 750 mo"
+      }
+    ]
   },
   {
     "id": "corazza-ad-anelli",
@@ -648,7 +975,21 @@
       "peso": "20 kg",
       "costo": "30 mo"
     },
-    "description": "**Classe Armatura (CA):** 14\n\n**Furtività:** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 30 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 14\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 30 mo"
+      }
+    ]
   },
   {
     "id": "cotta-di-maglia",
@@ -663,7 +1004,30 @@
       "peso": "27,5 kg",
       "costo": "75 mo"
     },
-    "description": "**Classe Armatura (CA):** 16\n\n**Forza:** For 13\n\n**Furtività:** Svantaggio\n\n**Peso:** 27,5 kg\n\n**Costo:** 75 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 16\n\n**"
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": ":** For 13\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 27,5 kg\n\n**Costo:** 75 mo"
+      }
+    ]
   },
   {
     "id": "corazza-a-strisce",
@@ -678,7 +1042,30 @@
       "peso": "30 kg",
       "costo": "200 mo"
     },
-    "description": "**Classe Armatura (CA):** 17\n\n**Forza:** For 15\n\n**Furtività:** Svantaggio\n\n**Peso:** 30 kg\n\n**Costo:** 200 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 17\n\n**"
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": ":** For 15\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 30 kg\n\n**Costo:** 200 mo"
+      }
+    ]
   },
   {
     "id": "armatura-a-piastre",
@@ -693,7 +1080,30 @@
       "peso": "32,5 kg",
       "costo": "1.500 mo"
     },
-    "description": "**Classe Armatura (CA):** 18\n\n**Forza:** For 15\n\n**Furtività:** Svantaggio\n\n**Peso:** 32,5 kg\n\n**Costo:** 1.500 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** 18\n\n**"
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": ":** For 15\n\n**"
+      },
+      {
+        "type": "skill",
+        "text": "Furtività",
+        "id": "furtivita"
+      },
+      {
+        "type": "text",
+        "text": ":** Svantaggio\n\n**Peso:** 32,5 kg\n\n**Costo:** 1.500 mo"
+      }
+    ]
   },
   {
     "id": "scudo",
@@ -706,7 +1116,12 @@
       "peso": "3 kg",
       "costo": "10 mo"
     },
-    "description": "**Classe Armatura (CA):** +2\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Classe Armatura (CA):** +2\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+      }
+    ]
   },
   {
     "id": "scorte-da-alchimista-50-mo",
@@ -714,7 +1129,66 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 4 kg\n\nUtilizzo: identificare una sostanza (CD 15) o appiccare\n\nil fuoco (CD 15)\n\nCreazione: acido, fuoco dell'alchimista, borsa per com­\n\nponenti, olio, carta, profumo"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 4 kg\n\nUtilizzo: "
+      },
+      {
+        "type": "spell",
+        "text": "identificare",
+        "id": "identificare"
+      },
+      {
+        "type": "text",
+        "text": " una sostanza (CD 15) o appiccare\n\nil "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "damage_type",
+        "text": "acido",
+        "id": "acido"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " dell'alchimista, borsa per com­\n\nponenti, olio, carta, profumo"
+      }
+    ]
   },
   {
     "id": "scorte-da-birraio-20-mo",
@@ -722,7 +1196,39 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 4,5 kg\n\nUtilizzo: individuare una bevanda avvelenata (CD 15)\n\no identificare alcolici (CD 10)\n\nCreazione: antitossina"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 4,5 kg\n\nUtilizzo: individuare una bevanda avvelenata (CD 15)\n\no "
+      },
+      {
+        "type": "spell",
+        "text": "identificare",
+        "id": "identificare"
+      },
+      {
+        "type": "text",
+        "text": " alcolici (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": antitossina"
+      }
+    ]
   },
   {
     "id": "scorte-da-calligrafo-10-mo",
@@ -730,7 +1236,30 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: scrivere testi usando una calligrafia articolata\n\nper impedirne la riproduzione (CD 15)\n\nCreazione: inchiostro, *pergamena magica*"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: scrivere testi usando una calligrafia articolata\n\nper impedirne la riproduzione (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": inchiostro, *pergamena magica*"
+      }
+    ]
   },
   {
     "id": "strumenti-da-calzolaio-5-mo",
@@ -738,7 +1267,48 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: modificare calzature per conferire vantaggio\n\nalla prossima prova di Destrezza (Acrobazia) di chi  le indossa (CD 10)\n\nCreazione: attrezzi da scalatore"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: modificare calzature per conferire vantaggio\n\nalla prossima prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Acrobazia",
+        "id": "acrobazia"
+      },
+      {
+        "type": "text",
+        "text": ") di chi  le indossa (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": attrezzi da scalatore"
+      }
+    ]
   },
   {
     "id": "strumenti-da-cartografo-15-mo",
@@ -746,7 +1316,30 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Saggezza\n\nPeso: 3 kg\n\nUtilizzo: disegnare una mappa di una piccola area\n\n(CD 15)\n\nCreazione: mappa"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 3 kg\n\nUtilizzo: disegnare una mappa di una piccola area\n\n(CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": mappa"
+      }
+    ]
   },
   {
     "id": "strumenti-da-conciatore-5-mo",
@@ -754,7 +1347,66 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: aggiungere un motivo a un oggetto di cuoio\n\n(CD 10)\n\nCreazione: fionda, frusta, armatura di pelle, armatura di\n\ncuoio, armatura di cuoio borchiato, zaino, custodia per  quadrelli da balestra, custodia per mappe o pergamene,  pergamena, borsa, faretra, otre"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: aggiungere un motivo a un oggetto di cuoio\n\n(CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "equipment",
+        "text": "fionda",
+        "id": "fionda"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "frusta",
+        "id": "frusta"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "armatura di pelle",
+        "id": "armatura-di-pelle"
+      },
+      {
+        "type": "text",
+        "text": ", armatura di\n\ncuoio, "
+      },
+      {
+        "type": "equipment",
+        "text": "armatura di cuoio borchiato",
+        "id": "armatura-di-cuoio-borchiato"
+      },
+      {
+        "type": "text",
+        "text": ", zaino, custodia per  quadrelli da balestra, custodia per mappe o pergamene,  pergamena, borsa, faretra, otre"
+      }
+    ]
   },
   {
     "id": "strumenti-da-fabbro-20-mo",
@@ -762,7 +1414,80 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Forza\n\nPeso: 4 kg\n\nUtilizzo: forzare l'apertura di una porta o un conteni­\n\ntore (CD 20)\n\nCreazione: Arma da mischia (eccetto randello, randello\n\npesante, bastone ferrato e frusta), armatura media  (eccetto di pelle), armatura pesante, sfere metalliche,  secchio, triboli, catena, piede di porco, proiettili per  armi da fuoco, rampino, pentola di ferro, spuntoni di  ferro, proiettili da fionda"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 4 kg\n\nUtilizzo: forzare l'apertura di una porta o un conteni­\n\ntore (CD 20)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": Arma da mischia (eccetto "
+      },
+      {
+        "type": "equipment",
+        "text": "randello",
+        "id": "randello"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "randello",
+        "id": "randello"
+      },
+      {
+        "type": "text",
+        "text": "\n\npesante, "
+      },
+      {
+        "type": "equipment",
+        "text": "bastone ferrato",
+        "id": "bastone-ferrato"
+      },
+      {
+        "type": "text",
+        "text": " e "
+      },
+      {
+        "type": "equipment",
+        "text": "frusta",
+        "id": "frusta"
+      },
+      {
+        "type": "text",
+        "text": "), armatura media  (eccetto di pelle), armatura pesante, sfere metalliche,  secchio, triboli, catena, piede di porco, proiettili per  armi da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": ", rampino, pentola di ferro, spuntoni di  ferro, proiettili da "
+      },
+      {
+        "type": "equipment",
+        "text": "fionda",
+        "id": "fionda"
+      }
+    ]
   },
   {
     "id": "strumenti-da-falegname-8-mo",
@@ -770,7 +1495,57 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Forza\n\nPeso: 3 kg\n\nUtilizzo: sigillare o forzare l'apertura di una porta o un\n\ncontenitore (CD 20)\n\nCreazione: randello, randello pesante, bastone ferrato,\n\nbarile, forziere, scala a pioli, asta, ariete portatile,  ­torcia"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 3 kg\n\nUtilizzo: sigillare o forzare l'apertura di una porta o un\n\ncontenitore (CD 20)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "equipment",
+        "text": "randello",
+        "id": "randello"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "randello pesante",
+        "id": "randello-pesante"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "bastone ferrato",
+        "id": "bastone-ferrato"
+      },
+      {
+        "type": "text",
+        "text": ",\n\nbarile, forziere, scala a pioli, asta, ariete portatile,  ­torcia"
+      }
+    ]
   },
   {
     "id": "strumenti-da-gioielliere-25-mo",
@@ -778,7 +1553,48 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 1 kg\n\nUtilizzo: determinare il valore di una gemma (CD 15)\n\nCreazione: focus arcano, simbolo sacro"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1 kg\n\nUtilizzo: determinare il valore di una gemma (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": focus "
+      },
+      {
+        "type": "skill",
+        "text": "arcano",
+        "id": "arcano"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro"
+      }
+    ]
   },
   {
     "id": "strumenti-da-intagliatore-1-mo",
@@ -786,7 +1602,93 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: intagliare un motivo nel legno (CD 10)\n\nCreazione: randello, randello pesante, bastone ferrato,\n\narmi a distanza (eccetto pistola, moschetto e fionda),  focus arcano, frecce, quadrelli, focus druidico, pennino,  aghi"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: intagliare un motivo nel legno (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "equipment",
+        "text": "randello",
+        "id": "randello"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "randello pesante",
+        "id": "randello-pesante"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "bastone ferrato",
+        "id": "bastone-ferrato"
+      },
+      {
+        "type": "text",
+        "text": ",\n\narmi a distanza (eccetto "
+      },
+      {
+        "type": "equipment",
+        "text": "pistola",
+        "id": "pistola"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "moschetto",
+        "id": "moschetto"
+      },
+      {
+        "type": "text",
+        "text": " e "
+      },
+      {
+        "type": "equipment",
+        "text": "fionda",
+        "id": "fionda"
+      },
+      {
+        "type": "text",
+        "text": "),  focus "
+      },
+      {
+        "type": "skill",
+        "text": "arcano",
+        "id": "arcano"
+      },
+      {
+        "type": "text",
+        "text": ", frecce, quadrelli, focus druidico, pennino,  aghi"
+      }
+    ]
   },
   {
     "id": "strumenti-da-inventore-50-mo",
@@ -794,7 +1696,48 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 5 kg\n\nUtilizzo: realizzare un oggetto minuscolo sfruttando\n\nmateriali di scarto che cadrà a pezzi dopo 1 minuto  (CD 20)\n\nCreazione: moschetto, pistola, campanella, lanterna\n\na lente sporgente, ampolla, lanterna schermabile,  tagliola, serratura, manette, specchio, pala, fischietto  da richiamo, acciarino con pietra focaia"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 5 kg\n\nUtilizzo: realizzare un oggetto minuscolo sfruttando\n\nmateriali di scarto che cadrà a pezzi dopo 1 minuto  (CD 20)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "equipment",
+        "text": "moschetto",
+        "id": "moschetto"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "equipment",
+        "text": "pistola",
+        "id": "pistola"
+      },
+      {
+        "type": "text",
+        "text": ", campanella, lanterna\n\na lente sporgente, ampolla, lanterna schermabile,  tagliola, serratura, manette, specchio, pala, fischietto  da richiamo, acciarino con pietra focaia"
+      }
+    ]
   },
   {
     "id": "strumenti-da-muratore-10-mo",
@@ -802,7 +1745,39 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Forza\n\nPeso: 4 kg\n\nUtilizzo: intagliare un simbolo o scavare un buco nella\n\npietra (CD 10)\n\nCreazione: carrucola e paranco"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 4 kg\n\nUtilizzo: intagliare un "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " o scavare un buco nella\n\npietra (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": carrucola e paranco"
+      }
+    ]
   },
   {
     "id": "strumenti-da-pittore-10-mo",
@@ -810,7 +1785,39 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Saggezza\n\nPeso: 2,5 kg\n\nUtilizzo: dipingere un'immagine riconoscibile di qualcosa\n\nche il personaggio ha visto (CD 10)\n\nCreazione: focus druidico, simbolo sacro"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: dipingere un'immagine riconoscibile di qualcosa\n\nche il personaggio ha visto (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": focus druidico, "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro"
+      }
+    ]
   },
   {
     "id": "strumenti-da-soffiatore-30-mo",
@@ -818,7 +1825,30 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 2,5 kg\n\nUtilizzo: capire il contenuto di un oggetto di vetro delle\n\nultime 24 ore (CD 15)\n\nCreazione: bottiglia di vetro, lente d'ingrandimento, can­\n\nnocchiale, fiala"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: capire il contenuto di un oggetto di vetro delle\n\nultime 24 ore (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": bottiglia di vetro, lente d'ingrandimento, can­\n\nnocchiale, fiala"
+      }
+    ]
   },
   {
     "id": "strumenti-da-tessitore-1-mo",
@@ -826,7 +1856,39 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: rammendare tessuti lacerati (CD 10) o cucire\n\nun motivo minuscolo (CD 10)\n\nCreazione: armatura imbottita, cesto, giaciglio, coperta,\n\nabiti eleganti, rete, veste, corda, sacco, spago, tenda,  abiti da viaggiatore"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: rammendare tessuti lacerati (CD 10) o cucire\n\nun motivo minuscolo (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "equipment",
+        "text": "armatura imbottita",
+        "id": "armatura-imbottita"
+      },
+      {
+        "type": "text",
+        "text": ", cesto, giaciglio, coperta,\n\nabiti eleganti, rete, veste, corda, sacco, spago, tenda,  abiti da viaggiatore"
+      }
+    ]
   },
   {
     "id": "strumenti-da-vasaio-10-mo",
@@ -834,7 +1896,30 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 1,5 kg\n\nUtilizzo: capire il contenuto di un oggetto di ceramica\n\ndelle ultime 24 ore (CD 15)\n\nCreazione: brocca, lampada"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1,5 kg\n\nUtilizzo: capire il contenuto di un oggetto di ceramica\n\ndelle ultime 24 ore (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": brocca, lampada"
+      }
+    ]
   },
   {
     "id": "utensili-da-cuoco-1-mo",
@@ -842,7 +1927,39 @@
     "category": "tools",
     "subcategory": "Strumenti da artigiano",
     "properties": {},
-    "description": "Caratteristica: Saggezza\n\nPeso: 4 kg\n\nUtilizzo: migliorare il sapore del cibo (CD 10) o indivi­\n\nduare cibo avariato o avvelenato (CD 15)\n\nCreazione: razioni"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 4 kg\n\nUtilizzo: migliorare il sapore del cibo (CD 10) o indivi­\n\nduare cibo avariato o "
+      },
+      {
+        "type": "condition",
+        "text": "avvelenato",
+        "id": "avvelenato"
+      },
+      {
+        "type": "text",
+        "text": " (CD 15)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": razioni"
+      }
+    ]
   },
   {
     "id": "arnesi-da-falsario-15-mo",
@@ -850,7 +1967,21 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 2,5 kg\n\nUtilizzo: scrivere 10 parole o meno copiando la scrittura\n\ndi qualcun altro (CD 15) o duplicare un sigillo di cera  (CD 20)"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 2,5 kg\n\nUtilizzo: scrivere 10 parole o meno copiando la scrittura\n\ndi qualcun altro (CD 15) o duplicare un sigillo di cera  (CD 20)"
+      }
+    ]
   },
   {
     "id": "arnesi-da-scasso-25-mo",
@@ -858,7 +1989,30 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Destrezza\n\nPeso: 0,5 kg\n\nUtilizzo: scassinare una serratura (CD 15) o disattivare\n\nuna trappola (CD 15)"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 0,5 kg\n\nUtilizzo: "
+      },
+      {
+        "type": "spell",
+        "text": "scassinare",
+        "id": "scassinare"
+      },
+      {
+        "type": "text",
+        "text": " una serratura (CD 15) o disattivare\n\nuna trappola (CD 15)"
+      }
+    ]
   },
   {
     "id": "borsa-da-erborista-5-mo",
@@ -866,7 +2020,57 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 1,5 kg\n\nUtilizzo: identificare una pianta (CD 10)\n\nCreazione: antitossina, candela, borsa del guaritore,\n\n*pozione di guarigione*"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1,5 kg\n\nUtilizzo: "
+      },
+      {
+        "type": "spell",
+        "text": "identificare",
+        "id": "identificare"
+      },
+      {
+        "type": "text",
+        "text": " una "
+      },
+      {
+        "type": "creature_type",
+        "text": "pianta",
+        "id": "pianta"
+      },
+      {
+        "type": "text",
+        "text": " (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": antitossina, candela, borsa del guaritore,\n\n*pozione di "
+      },
+      {
+        "type": "spell",
+        "text": "guarigione",
+        "id": "guarigione"
+      },
+      {
+        "type": "text",
+        "text": "*"
+      }
+    ]
   },
   {
     "id": "gioco-variabile",
@@ -874,7 +2078,21 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Saggezza\n\nPeso: —\n\nUtilizzo: capire se qualcuno sta barando (CD 10) o vin­\n\ncere una partita (CD 20)\n\nVarianti: Dadi (1 ma), scacchi dei draghi (1 mo), carte da\n\ngioco (5 ma), Tre draghi al buio (1 mo)"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: —\n\nUtilizzo: capire se qualcuno sta barando (CD 10) o vin­\n\ncere una partita (CD 20)\n\nVarianti: Dadi (1 ma), scacchi dei draghi (1 mo), carte da\n\ngioco (5 ma), Tre draghi al buio (1 mo)"
+      }
+    ]
   },
   {
     "id": "sostanze-da-avvelenatore-50-mo",
@@ -882,7 +2100,48 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Intelligenza\n\nPeso: 1 kg\n\nUtilizzo: individuare un oggetto avvelenato (CD 10)\n\nCreazione: veleno base"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1 kg\n\nUtilizzo: individuare un oggetto "
+      },
+      {
+        "type": "condition",
+        "text": "avvelenato",
+        "id": "avvelenato"
+      },
+      {
+        "type": "text",
+        "text": " (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": "
+      },
+      {
+        "type": "damage_type",
+        "text": "veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": " base"
+      }
+    ]
   },
   {
     "id": "strumenti-da-navigatore-25-mo",
@@ -890,7 +2149,21 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Saggezza\n\nPeso: 1 kg\n\nUtilizzo: pianificare una rotta (CD 10) o determinare\n\nla propria posizione scrutando le stelle (CD 15)"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1 kg\n\nUtilizzo: pianificare una rotta (CD 10) o determinare\n\nla propria posizione scrutando le stelle (CD 15)"
+      }
+    ]
   },
   {
     "id": "strumento-musicale-variabile",
@@ -898,7 +2171,21 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Carisma\n\nPeso: variabile\n\nUtilizzo: suonare una canzone conosciuta (CD 10) o\n\nimprovvisarne una (CD 15)\n\nVarianti: Cornamusa (30 mo, 3 kg), tamburo (6 mo,\n\n1,5 kg), dulcimer (25 mo, 5 kg), flauto (2 mo, 0,5 kg),  corno (3 mo, 1 kg), liuto (35 mo, 1 kg), lira (30 mo,  1 kg), flauto di pan (12 mo, 1 kg), ciaramella (2 mo,  0,5 kg), viola (30 mo, 0,5 kg)"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Carisma",
+        "id": "carisma"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: variabile\n\nUtilizzo: suonare una canzone conosciuta (CD 10) o\n\nimprovvisarne una (CD 15)\n\nVarianti: Cornamusa (30 mo, 3 kg), tamburo (6 mo,\n\n1,5 kg), dulcimer (25 mo, 5 kg), flauto (2 mo, 0,5 kg),  corno (3 mo, 1 kg), liuto (35 mo, 1 kg), lira (30 mo,  1 kg), flauto di pan (12 mo, 1 kg), ciaramella (2 mo,  0,5 kg), viola (30 mo, 0,5 kg)"
+      }
+    ]
   },
   {
     "id": "trucchi-per-il-camuffamento-25-mo",
@@ -906,7 +2193,30 @@
     "category": "tools",
     "subcategory": "Altri strumenti",
     "properties": {},
-    "description": "Caratteristica: Carisma\n\nPeso: 1,5 kg\n\nUtilizzo: truccarsi (CD 10)\n\nCreazione: costume"
+    "description": [
+      {
+        "type": "text",
+        "text": "Caratteristica: "
+      },
+      {
+        "type": "ability",
+        "text": "Carisma",
+        "id": "carisma"
+      },
+      {
+        "type": "text",
+        "text": "\n\nPeso: 1,5 kg\n\nUtilizzo: truccarsi (CD 10)\n\n"
+      },
+      {
+        "type": "spell",
+        "text": "Creazione",
+        "id": "creazione"
+      },
+      {
+        "type": "text",
+        "text": ": costume"
+      }
+    ]
   },
   {
     "id": "abiti-da-viaggiatore-2-mo",
@@ -914,7 +2224,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Gli abiti da viaggiatore sono resistenti e progettati  per sopportare svariati ambienti."
+    "description": [
+      {
+        "type": "text",
+        "text": "Gli abiti da viaggiatore sono resistenti e progettati  per sopportare svariati ambienti."
+      }
+    ]
   },
   {
     "id": "abiti-eleganti-15-mo",
@@ -922,7 +2237,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Gli abiti eleganti sono realizzati con stoffe pregiate  e decorati con dettagli raffinati. Alcuni eventi e luoghi consentono l'accesso solo a chi li indossa."
+    "description": [
+      {
+        "type": "text",
+        "text": "Gli abiti eleganti sono realizzati con stoffe pregiate  e decorati con dettagli raffinati. Alcuni eventi e luoghi consentono l'accesso solo a chi li indossa."
+      }
+    ]
   },
   {
     "id": "acciarino-con-pietra-focaia-5-ma",
@@ -930,7 +2250,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Si tratta di un piccolo contenitore usato per  accendere il fuoco, che contiene acciarino, pietra  focaia e materiale combustibile (solitamente stracci  essiccati e bagnati d'olio). Utilizzarlo per accendere  una candela, una lampada, una lanterna, una torcia  o qualunque altra cosa con sopra materiale infiammabile richiede un'azione bonus. Per accendere un  fuoco di qualsiasi altro tipo è richiesto 1 minuto."
+    "description": [
+      {
+        "type": "text",
+        "text": "Si tratta di un piccolo contenitore usato per  accendere il "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": ", che contiene acciarino, pietra  focaia e materiale combustibile (solitamente stracci  essiccati e bagnati d'olio). Utilizzarlo per accendere  una candela, una lampada, una lanterna, una torcia  o qualunque altra cosa con sopra materiale infiammabile richiede un'azione bonus. Per accendere un  "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " di qualsiasi altro tipo è richiesto 1 minuto."
+      }
+    ]
   },
   {
     "id": "acido-25-mo",
@@ -938,7 +2281,48 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio  di una fiala di acido. Può prendere di mira una  creatura o un oggetto che egli è in grado di vedere  entro 6 metri da sé. Il bersaglio deve superare un  tiro salvezza su Destrezza (CD 8 più il modificatore  di Destrezza e il bonus di competenza del personaggio), altrimenti subirà 2d6 danni da acido."
+    "description": [
+      {
+        "type": "text",
+        "text": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio  di una fiala di "
+      },
+      {
+        "type": "damage_type",
+        "text": "acido",
+        "id": "acido"
+      },
+      {
+        "type": "text",
+        "text": ". Può prendere di mira una  creatura o un oggetto che egli è in grado di vedere  entro 6 metri da sé. Il bersaglio deve superare un  tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " (CD 8 più il modificatore  di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " e il bonus di competenza del personaggio), altrimenti subirà 2d6 danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "acido",
+        "id": "acido"
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ]
   },
   {
     "id": "acqua-santa-25-mo",
@@ -946,7 +2330,48 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  una ampolla di acqua santa verso una creatura che  egli è in grado di vedere entro un raggio di 6 metri  da sé. Il bersaglio deve superare un tiro salvezza  su Destrezza (CD 8 più il modificatore di Destrezza  e il bonus di competenza del personaggio), altrimenti subirà 2d8 danni radiosi se è un immondo  o un non morto."
+    "description": [
+      {
+        "type": "text",
+        "text": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  una ampolla di acqua santa verso una creatura che  egli è in grado di vedere entro un raggio di 6 metri  da sé. Il bersaglio deve superare un tiro salvezza  su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " (CD 8 più il modificatore di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "  e il bonus di competenza del personaggio), altrimenti subirà 2d8 danni radiosi se è un "
+      },
+      {
+        "type": "creature_type",
+        "text": "immondo",
+        "id": "immondo"
+      },
+      {
+        "type": "text",
+        "text": "  o un "
+      },
+      {
+        "type": "creature_type",
+        "text": "non morto",
+        "id": "non-morto"
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ]
   },
   {
     "id": "ampolla-2-mr",
@@ -954,7 +2379,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un'ampolla ha una capacità di 0,5 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un'ampolla ha una capacità di 0,5 litri."
+      }
+    ]
   },
   {
     "id": "antitossina-50-mo",
@@ -962,7 +2392,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione bonus, per evitare di essere avvelenato  o interrompere tale condizione, il personaggio può  bere una fiala di antitossina per ottenere vantaggio  ai relativi tiri salvezza."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione bonus, per evitare di essere "
+      },
+      {
+        "type": "condition",
+        "text": "avvelenato",
+        "id": "avvelenato"
+      },
+      {
+        "type": "text",
+        "text": "  o interrompere tale condizione, il personaggio può  bere una fiala di antitossina per ottenere vantaggio  ai relativi tiri salvezza."
+      }
+    ]
   },
   {
     "id": "ariete-portatile-4-mo",
@@ -970,7 +2414,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un ariete portatile può essere usato per sfondare  le porte e conferisce un bonus di +4 alla prova  di Forza del personaggio. Un altro personaggio  può aiutare il primo a usare l'ariete, nel qual caso  quest'ultimo dispone di vantaggio alla prova."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un ariete portatile può essere usato per sfondare  le porte e conferisce un bonus di +4 alla prova  di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " del personaggio. Un altro personaggio  può aiutare il primo a usare l'ariete, nel qual caso  quest'ultimo dispone di vantaggio alla prova."
+      }
+    ]
   },
   {
     "id": "asta-5-mr",
@@ -978,7 +2436,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un'asta è lunga 3 metri. Il personaggio può usarla  per toccare qualcosa a massimo 3 metri di distanza  da sé. Se deve effettuare una prova di Forza (Atletica) come parte di un salto in alto o in lungo, può  effettuarla con vantaggio sfruttando l'asta."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un'asta è lunga 3 metri. Il personaggio può usarla  per toccare qualcosa a massimo 3 metri di distanza  da sé. Se deve effettuare una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") come parte di un "
+      },
+      {
+        "type": "spell",
+        "text": "salto",
+        "id": "salto"
+      },
+      {
+        "type": "text",
+        "text": " in alto o in lungo, può  effettuarla con vantaggio sfruttando l'asta."
+      }
+    ]
   },
   {
     "id": "attrezzi-da-scalatore-25-mo",
@@ -986,7 +2476,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un kit da scalatore è composto da punte per stivali,  guanti, chiodi da rocciatore e un'imbragatura.  Come azione di Utilizzo, il personaggio può usare  gli attrezzi da scalatore per ancorarsi; quando lo fa,  non può cadere per più di 7,5 metri dal punto in  cui si è ancorato e non può arrampicarsi per più di  7,5 metri dal quel punto senza disfare l'ancoraggio  come azione bonus."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un kit da scalatore è composto da punte per stivali,  guanti, chiodi da rocciatore e un'imbragatura.  Come azione di Utilizzo, il personaggio può usare  gli attrezzi da scalatore per ancorarsi; quando lo fa,  non può cadere per più di 7,5 metri dal punto in  cui si è ancorato e non può arrampicarsi per più di  7,5 metri dal quel punto senza disfare l'ancoraggio  come azione bonus."
+      }
+    ]
   },
   {
     "id": "barile-2-mo",
@@ -994,7 +2489,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un barile può contenere fino a 16 litri di liquido  o 4 cubi con spigolo di 30 centimetri di merci  essiccate."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un barile può contenere fino a 16 litri di liquido  o 4 cubi con spigolo di 30 centimetri di merci  essiccate."
+      }
+    ]
   },
   {
     "id": "borsa-5-ma",
@@ -1002,7 +2502,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una borsa può contenere fino a 3 chilogrammi  e 5 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una borsa può contenere fino a 3 chilogrammi  e 5 litri."
+      }
+    ]
   },
   {
     "id": "borsa-del-guaritore-5-mo",
@@ -1010,7 +2515,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "La borsa del guaritore è utilizzabile dieci volte.  Come azione di Utilizzo, il personaggio può consumarne un uso per stabilizzare una creatura priva di  sensi con 0 punti ferita senza dover effettuare una  prova di Saggezza (Medicina)."
+    "description": [
+      {
+        "type": "text",
+        "text": "La borsa del guaritore è utilizzabile dieci volte.  Come azione di Utilizzo, il personaggio può consumarne un uso per stabilizzare una creatura priva di  sensi con 0 punti ferita senza dover effettuare una  prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Medicina",
+        "id": "medicina"
+      },
+      {
+        "type": "text",
+        "text": ")."
+      }
+    ]
   },
   {
     "id": "borsa-per-componenti-25-mo",
@@ -1018,7 +2546,66 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una borsa per componenti è impermeabile e piena  di scompartimenti in cui sono conservate tutte le  componenti materiali sfuse degli incantesimi del  personaggio.\n\n**Equipaggiamento d'avventura**\n\n| Oggetto |  | Peso |  |  | Costo | Oggetto |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | Fuoco dell'alchimista |  | 0,5 kg |  | 50 mo |\n| Abiti da viaggiatore |  | 2 kg |  |  | 2 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Giaciglio |  | 3,5 kg |  | 1 mo |\n| Abiti eleganti |  | 3 kg |  |  | 15 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Inchiostro |  |  | — | 10 mo |\n| Acciarino e pietra focaia |  | 0,5 kg |  |  | 5 ma |  |  |  |  |  |\n|  |  |  |  |  |  | Lampada |  | 0,5 kg |  | 5 ma |\n| Acido |  | 0,5 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Lanterna a lente sporgente |  | 1 kg |  | 10 mo |\n| Acqua santa |  | 0,5 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Lanterna schermabile |  | 1 kg |  | 5 mo |\n| Ampolla |  | 0,5 kg |  |  | 2 mr |  |  |  |  |  |\n|  |  |  |  |  |  | Lente d'ingrandimento |  |  | — | 100 mo |\n| Antitossina |  |  | — |  | 50 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Libro |  | 2,5 kg |  | 25 mo |\n| Ariete portatile |  | 17,5 kg |  |  | 4 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Manette |  | 3 kg |  | 2 mo |\n| Asta |  | 3,5 kg |  |  | 5 mr |  |  |  |  |  |\n|  |  |  |  |  |  | Mappa |  |  | — | 1 mo |\n| Attrezzi da scalatore |  | 6 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Munizioni | Variabile |  |  | Variabile |\n| Barile |  | 35 kg |  |  | 2 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Olio |  | 0,5 kg |  | 1 ma |\n| Borsa |  | 0,5 kg |  |  | 5 ma |  |  |  |  |  |\n|  |  |  |  |  |  | Otre |  | 2,5 kg |  | 2 ma |\n| Borsa del guaritore |  | 1,5 kg |  |  | 5 mo |  |  | (pieno) |  |  |\n| Borsa per componenti |  | 1 kg |  |  | 25 mo | Pala |  | 2,5 kg |  | 2 mo |\n| Bottiglia di vetro |  | 1 kg |  |  | 2 mo | Pennino |  |  | — | 2 mr |\n| Brocca |  | 2 kg |  |  | 2 mr | Pentola di ferro |  | 5 kg |  | 2 mo |\n| Campanella |  |  | — |  | 1 mo | Pergamena |  |  | — | 1 ma |\n| Candela |  |  | — |  | 1 mr | Pergamena magica (livello 1) |  |  | — | 50 mo |\n| Cannocchiale |  | 0,5 kg |  | 1.000 mo |  | Pergamena magica (trucchetto) |  |  | — | 30 mo |\n| Carrucola e paranco |  | 2,5 kg |  |  | 1 mo | Piede di porco |  | 2,5 kg |  | 2 mo |\n| Carta |  |  | — |  | 2 ma | Pozione di guarigione | 0,25 kg |  |  | 50 mo |\n| Catena |  | 5 kg |  |  | 5 mo | Profumo |  |  | — | 5 mo |\n| Cesto |  | 1 kg |  |  | 4 ma | Rampino |  | 2 kg |  | 2 mo |\n| Coperta |  | 1,5 kg |  |  | 5 ma | Razioni |  | 1 kg |  | 5 ma |\n| Corda |  | 2,5 kg |  |  | 1 mo | Rete |  | 1,5 kg |  | 1 mo |\n| Costume |  | 2 kg |  |  | 5 mo | Sacco | 0,25 kg |  |  | 1 mr |\n| Custodia per mappe o pergamene |  | 0,5 kg |  |  | 1 mo | Scala a pioli | 12,5 kg |  |  | 1 ma |\n|  |  |  |  |  |  | Secchio |  | 1 kg |  | 5 mr |\n| Custodia per quadrelli da |  | 0,5 kg |  |  | 1 mo |  |  |  |  |  |\n| balestra |  |  |  |  |  | Serratura |  | 0,5 kg |  | 10 mo |\n|  |  |  |  |  |  | Sfere metalliche |  | 1 kg |  | 1 mo |\n| Dotazione da avventuriero |  | 27,5 kg |  |  | 12 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Simbolo sacro | Variabile |  |  | Variabile |\n| Dotazione da diplomatico |  | 19,5 kg |  |  | 39 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Spago |  |  | — | 1 ma |\n| Dotazione da esploratore |  | 27,5 kg |  |  | 10 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Specchio | 0,25 kg |  |  | 5 mo |\n| Dotazione da intrattenitore |  | 29 kg |  |  | 40 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Spuntoni di ferro |  | 2,5 kg |  | 1 mo |\n| Dotazione da sacerdote |  | 14 kg |  |  | 33 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tagliola | 12,5 kg |  |  | 5 mo |\n| Dotazione da scassinatore |  | 19 kg |  |  | 16 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tenda |  | 10 kg |  | 2 mo |\n| Dotazione da studioso |  | 11 kg |  |  | 40 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Torcia |  | 0,5 kg |  | 1 mr |\n| Faretra |  | 0,5 kg |  |  | 1 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Triboli |  | 1 kg |  | 1 mo |\n| Fiala |  |  | — |  | 1 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tunica |  | 2 kg |  | 1 mo |\n| Fischietto da richiamo |  |  | — |  | 5 mr |  |  |  |  |  |\n|  |  |  |  |  |  | Veleno, base |  |  | — | 100 mo |\n| Focus arcano | Variabile |  |  | Variabile |  |  |  |  |  |  |\n|  |  |  |  |  |  | Zaino |  | 2,5 kg |  | 2 mo |\n| Focus druidico | Variabile |  |  | Variabile |  |  |  |  |  |  |\n| Forziere | 12,5 kg |  |  |  | 5 mo |  |  |  |  |  |"
+    "description": [
+      {
+        "type": "text",
+        "text": "Una borsa per componenti è impermeabile e piena  di scompartimenti in cui sono conservate tutte le  componenti materiali sfuse degli incantesimi del  personaggio.\n\n**Equipaggiamento d'avventura**\n\n| Oggetto |  | Peso |  |  | Costo | Oggetto |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | "
+      },
+      {
+        "type": "damage_type",
+        "text": "Fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " dell'alchimista |  | 0,5 kg |  | 50 mo |\n| Abiti da viaggiatore |  | 2 kg |  |  | 2 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Giaciglio |  | 3,5 kg |  | 1 mo |\n| Abiti eleganti |  | 3 kg |  |  | 15 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Inchiostro |  |  | — | 10 mo |\n| Acciarino e pietra focaia |  | 0,5 kg |  |  | 5 ma |  |  |  |  |  |\n|  |  |  |  |  |  | Lampada |  | 0,5 kg |  | 5 ma |\n| "
+      },
+      {
+        "type": "damage_type",
+        "text": "Acido",
+        "id": "acido"
+      },
+      {
+        "type": "text",
+        "text": " |  | 0,5 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Lanterna a lente sporgente |  | 1 kg |  | 10 mo |\n| Acqua santa |  | 0,5 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Lanterna schermabile |  | 1 kg |  | 5 mo |\n| Ampolla |  | 0,5 kg |  |  | 2 mr |  |  |  |  |  |\n|  |  |  |  |  |  | Lente d'ingrandimento |  |  | — | 100 mo |\n| Antitossina |  |  | — |  | 50 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Libro |  | 2,5 kg |  | 25 mo |\n| Ariete portatile |  | 17,5 kg |  |  | 4 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Manette |  | 3 kg |  | 2 mo |\n| Asta |  | 3,5 kg |  |  | 5 mr |  |  |  |  |  |\n|  |  |  |  |  |  | Mappa |  |  | — | 1 mo |\n| Attrezzi da scalatore |  | 6 kg |  |  | 25 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Munizioni | Variabile |  |  | Variabile |\n| Barile |  | 35 kg |  |  | 2 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Olio |  | 0,5 kg |  | 1 ma |\n| Borsa |  | 0,5 kg |  |  | 5 ma |  |  |  |  |  |\n|  |  |  |  |  |  | Otre |  | 2,5 kg |  | 2 ma |\n| Borsa del guaritore |  | 1,5 kg |  |  | 5 mo |  |  | (pieno) |  |  |\n| Borsa per componenti |  | 1 kg |  |  | 25 mo | Pala |  | 2,5 kg |  | 2 mo |\n| Bottiglia di vetro |  | 1 kg |  |  | 2 mo | Pennino |  |  | — | 2 mr |\n| Brocca |  | 2 kg |  |  | 2 mr | Pentola di ferro |  | 5 kg |  | 2 mo |\n| Campanella |  |  | — |  | 1 mo | Pergamena |  |  | — | 1 ma |\n| Candela |  |  | — |  | 1 mr | Pergamena magica (livello 1) |  |  | — | 50 mo |\n| Cannocchiale |  | 0,5 kg |  | 1.000 mo |  | Pergamena magica (trucchetto) |  |  | — | 30 mo |\n| Carrucola e paranco |  | 2,5 kg |  |  | 1 mo | Piede di porco |  | 2,5 kg |  | 2 mo |\n| Carta |  |  | — |  | 2 ma | Pozione di "
+      },
+      {
+        "type": "spell",
+        "text": "guarigione",
+        "id": "guarigione"
+      },
+      {
+        "type": "text",
+        "text": " | 0,25 kg |  |  | 50 mo |\n| Catena |  | 5 kg |  |  | 5 mo | Profumo |  |  | — | 5 mo |\n| Cesto |  | 1 kg |  |  | 4 ma | Rampino |  | 2 kg |  | 2 mo |\n| Coperta |  | 1,5 kg |  |  | 5 ma | Razioni |  | 1 kg |  | 5 ma |\n| Corda |  | 2,5 kg |  |  | 1 mo | Rete |  | 1,5 kg |  | 1 mo |\n| Costume |  | 2 kg |  |  | 5 mo | Sacco | 0,25 kg |  |  | 1 mr |\n| Custodia per mappe o pergamene |  | 0,5 kg |  |  | 1 mo | Scala a pioli | 12,5 kg |  |  | 1 ma |\n|  |  |  |  |  |  | Secchio |  | 1 kg |  | 5 mr |\n| Custodia per quadrelli da |  | 0,5 kg |  |  | 1 mo |  |  |  |  |  |\n| balestra |  |  |  |  |  | Serratura |  | 0,5 kg |  | 10 mo |\n|  |  |  |  |  |  | Sfere metalliche |  | 1 kg |  | 1 mo |\n| Dotazione da avventuriero |  | 27,5 kg |  |  | 12 mo |  |  |  |  |  |\n|  |  |  |  |  |  | "
+      },
+      {
+        "type": "spell",
+        "text": "Simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro | Variabile |  |  | Variabile |\n| Dotazione da diplomatico |  | 19,5 kg |  |  | 39 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Spago |  |  | — | 1 ma |\n| Dotazione da esploratore |  | 27,5 kg |  |  | 10 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Specchio | 0,25 kg |  |  | 5 mo |\n| Dotazione da intrattenitore |  | 29 kg |  |  | 40 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Spuntoni di ferro |  | 2,5 kg |  | 1 mo |\n| Dotazione da sacerdote |  | 14 kg |  |  | 33 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tagliola | 12,5 kg |  |  | 5 mo |\n| Dotazione da scassinatore |  | 19 kg |  |  | 16 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tenda |  | 10 kg |  | 2 mo |\n| Dotazione da studioso |  | 11 kg |  |  | 40 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Torcia |  | 0,5 kg |  | 1 mr |\n| Faretra |  | 0,5 kg |  |  | 1 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Triboli |  | 1 kg |  | 1 mo |\n| Fiala |  |  | — |  | 1 mo |  |  |  |  |  |\n|  |  |  |  |  |  | Tunica |  | 2 kg |  | 1 mo |\n| Fischietto da richiamo |  |  | — |  | 5 mr |  |  |  |  |  |\n|  |  |  |  |  |  | "
+      },
+      {
+        "type": "damage_type",
+        "text": "Veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": ", base |  |  | — | 100 mo |\n| Focus "
+      },
+      {
+        "type": "skill",
+        "text": "arcano",
+        "id": "arcano"
+      },
+      {
+        "type": "text",
+        "text": " | Variabile |  |  | Variabile |  |  |  |  |  |  |\n|  |  |  |  |  |  | Zaino |  | 2,5 kg |  | 2 mo |\n| Focus druidico | Variabile |  |  | Variabile |  |  |  |  |  |  |\n| Forziere | 12,5 kg |  |  |  | 5 mo |  |  |  |  |  |"
+      }
+    ]
   },
   {
     "id": "bottiglia-di-vetro-2-mo",
@@ -1026,7 +2613,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una bottiglia di vetro ha una capacità di 0,75 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una bottiglia di vetro ha una capacità di 0,75 litri."
+      }
+    ]
   },
   {
     "id": "brocca-2-mr",
@@ -1034,7 +2626,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una brocca ha una capacità di 4 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una brocca ha una capacità di 4 litri."
+      }
+    ]
   },
   {
     "id": "campana-1-mo",
@@ -1042,7 +2639,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, la campana può essere  suonata affinché produca un suono udibile fino  a 18 metri di distanza."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, la campana può essere  suonata affinché produca un suono udibile fino  a 18 metri di distanza."
+      }
+    ]
   },
   {
     "id": "candela-1-mr",
@@ -1050,7 +2652,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Per 1 ora, una candela accesa proietta luce intensa  entro un raggio di 1,5 metri e luce fioca per altri  1,5 metri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Per 1 ora, una candela accesa proietta "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " intensa  entro un raggio di 1,5 metri e "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca per altri  1,5 metri."
+      }
+    ]
   },
   {
     "id": "cannocchiale-1000-mo",
@@ -1058,7 +2683,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Gli oggetti osservati attraverso un cannocchiale  appaiono grandi il doppio della loro taglia."
+    "description": [
+      {
+        "type": "text",
+        "text": "Gli oggetti osservati attraverso un cannocchiale  appaiono grandi il doppio della loro taglia."
+      }
+    ]
   },
   {
     "id": "carrucola-e-paranco-1-mo",
@@ -1066,7 +2696,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Carrucola e paranco consentono al personaggio di  sollevare fino a quattro volte il peso massimo che  solleverebbe normalmente."
+    "description": [
+      {
+        "type": "text",
+        "text": "Carrucola e paranco consentono al personaggio di  sollevare fino a quattro volte il peso massimo che  solleverebbe normalmente."
+      }
+    ]
   },
   {
     "id": "carta-2-ma",
@@ -1074,7 +2709,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un foglio di carta può contenere circa 250 parole  scritte a mano."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un foglio di carta può contenere circa 250 parole  scritte a mano."
+      }
+    ]
   },
   {
     "id": "catena-5-mo",
@@ -1082,7 +2722,66 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, se supera una prova di  Forza (Atletica) con CD 13, il personaggio può  avvolgere la catena attorno a una creatura non  consenziente entro 1,5 metri da sé che sia afferrata,  incapacitata o trattenuta. Se le vengono legate  le gambe, sarà trattenuta finché non riuscirà  a scappare. Per liberarsi dalla catena è necessario  superare una prova di Destrezza (Acrobazia) con  CD 18 con un'azione. Rompere la catena richiede  il superamento di una prova di Forza (Atletica) con  CD 20 con un'azione."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, se supera una prova di  "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 13, il personaggio può  avvolgere la catena attorno a una creatura non  consenziente entro 1,5 metri da sé che sia afferrata,  incapacitata o trattenuta. Se le vengono legate  le gambe, sarà trattenuta finché non riuscirà  a scappare. Per liberarsi dalla catena è necessario  superare una prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Acrobazia",
+        "id": "acrobazia"
+      },
+      {
+        "type": "text",
+        "text": ") con  CD 18 con un'azione. Rompere la catena richiede  il superamento di una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con  CD 20 con un'azione."
+      }
+    ]
   },
   {
     "id": "cesto-4-ma",
@@ -1090,7 +2789,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un cesto può contenere fino a 20 chilogrammi entro  2 cubi con spigolo di 30 centimetri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un cesto può contenere fino a 20 chilogrammi entro  2 cubi con spigolo di 30 centimetri."
+      }
+    ]
   },
   {
     "id": "coperta-5-ma",
@@ -1098,7 +2802,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Finché il personaggio è avvolto dalla coperta,  dispone di vantaggio ai tiri salvezza contro il freddo  estremo (vedi \"Strumenti per le modalità di gioco\")."
+    "description": [
+      {
+        "type": "text",
+        "text": "Finché il personaggio è avvolto dalla coperta,  dispone di vantaggio ai tiri salvezza contro il "
+      },
+      {
+        "type": "damage_type",
+        "text": "freddo",
+        "id": "freddo"
+      },
+      {
+        "type": "text",
+        "text": "  estremo (vedi \"Strumenti per le modalità di gioco\")."
+      }
+    ]
   },
   {
     "id": "corda-1-mo",
@@ -1106,7 +2824,66 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, il personaggio può stringere un nodo con la corda se supera una prova di  Destrezza (Rapidità di mano) con CD 10. La corda  può essere spezzata superando una prova di Forza  (Atletica) con CD 20. Il personaggio può legare una creatura non  consenziente con la corda solo se questa è afferrata,  incapacitata o trattenuta. Se le vengono legate  le gambe, sarà trattenuta finché non riuscirà a scappare. Per liberarsi dalla corda è necessario superare  una prova di Destrezza (Acrobazia) con CD 15 con  un'azione."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, il personaggio può stringere un nodo con la corda se supera una prova di  "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Rapidità di mano",
+        "id": "rapidita-di-mano"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 10. La corda  può essere spezzata superando una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": "  ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 20. Il personaggio può legare una creatura non  consenziente con la corda solo se questa è afferrata,  incapacitata o trattenuta. Se le vengono legate  le gambe, sarà trattenuta finché non riuscirà a scappare. Per liberarsi dalla corda è necessario superare  una prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Acrobazia",
+        "id": "acrobazia"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 15 con  un'azione."
+      }
+    ]
   },
   {
     "id": "costume-5-mo",
@@ -1114,7 +2891,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Quando il personaggio indossa un costume, dispone  di vantaggio a qualsiasi prova di caratteristica  effettuata per impersonare qualcuno o una specifica tipologia di persona."
+    "description": [
+      {
+        "type": "text",
+        "text": "Quando il personaggio indossa un costume, dispone  di vantaggio a qualsiasi prova di caratteristica  effettuata per impersonare qualcuno o una specifica tipologia di persona."
+      }
+    ]
   },
   {
     "id": "custodia-per-mappe-o-pergamene-1-mo",
@@ -1122,7 +2904,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una custodia per mappe o pergamene può contenere fino a 10 fogli di carta o 5 di pergamena."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una custodia per mappe o pergamene può contenere fino a 10 fogli di carta o 5 di pergamena."
+      }
+    ]
   },
   {
     "id": "custodia-per-quadrelli-da-balestra-1-mo",
@@ -1130,7 +2917,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una custodia per quadrelli da balestra può contenerne fino a 20 unità."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una custodia per quadrelli da balestra può contenerne fino a 20 unità."
+      }
+    ]
   },
   {
     "id": "dotazione-da-avventuriero-12-mo",
@@ -1138,7 +2930,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da avventuriero contiene i seguenti  oggetti: zaino, triboli, piede di porco, 2 ampolle di  olio, 10 razioni giornaliere, corda, acciarino con  pietra focaia, 10 torce e un otre."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da avventuriero contiene i seguenti  oggetti: zaino, triboli, piede di porco, 2 ampolle di  olio, 10 razioni giornaliere, corda, acciarino con  pietra focaia, 10 torce e un otre."
+      }
+    ]
   },
   {
     "id": "dotazione-da-diplomatico-39-mo",
@@ -1146,7 +2943,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da diplomatico contiene i seguenti  oggetti: forziere, abiti eleganti, inchiostro, 5 pennini, lampada, 2 custodie per mappe o pergamene,  4 ampolle di olio, 5 fogli di carta, 5 fogli di pergamena, profumo e acciarino con pietra focaia."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da diplomatico contiene i seguenti  oggetti: forziere, abiti eleganti, inchiostro, 5 pennini, lampada, 2 custodie per mappe o pergamene,  4 ampolle di olio, 5 fogli di carta, 5 fogli di pergamena, profumo e acciarino con pietra focaia."
+      }
+    ]
   },
   {
     "id": "dotazione-da-esploratore-10-mo",
@@ -1154,7 +2956,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da esploratore contiene i seguenti  oggetti: zaino, giaciglio, 2 ampolle di olio, 10 razioni  giornaliere, corda, acciarino con pietra focaia,  10 torce e un otre."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da esploratore contiene i seguenti  oggetti: zaino, giaciglio, 2 ampolle di olio, 10 razioni  giornaliere, corda, acciarino con pietra focaia,  10 torce e un otre."
+      }
+    ]
   },
   {
     "id": "dotazione-da-intrattenitore-40-mo",
@@ -1162,7 +2969,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da intrattenitore contiene i seguenti  i oggetti: zaino, giaciglio, campana, lanterna a lente  sporgente, 3 costumi, specchio, 8 ampolle di olio,  9 razioni giornaliere e un otre."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da intrattenitore contiene i seguenti  i oggetti: zaino, giaciglio, campana, lanterna a lente  sporgente, 3 costumi, specchio, 8 ampolle di olio,  9 razioni giornaliere e un otre."
+      }
+    ]
   },
   {
     "id": "dotazione-da-sacerdote-33-mo",
@@ -1170,7 +2982,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da sacerdote contiene i seguenti  oggetti: zaino, coperta, acqua santa, lampada,  7 razioni giornaliere, tunica e acciarino con pietra  focaia."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da sacerdote contiene i seguenti  oggetti: zaino, coperta, acqua santa, lampada,  7 razioni giornaliere, tunica e acciarino con pietra  focaia."
+      }
+    ]
   },
   {
     "id": "dotazione-da-scassinatore-16-mo",
@@ -1178,7 +2995,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da scassinatore comprende  i seguenti oggetti: zaino, sfere metalliche, campana,  10 candele, piede di porco, lanterna schermabile,  7 ampolle di olio, 5 razioni giornaliere, corda, acciarino con pietra focaia e un otre."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da scassinatore comprende  i seguenti oggetti: zaino, sfere metalliche, campana,  10 candele, piede di porco, lanterna schermabile,  7 ampolle di olio, 5 razioni giornaliere, corda, acciarino con pietra focaia e un otre."
+      }
+    ]
   },
   {
     "id": "dotazione-da-studioso-40-mo",
@@ -1186,7 +3008,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una dotazione da studioso contiene i seguenti  oggetti: zaino, libro, inchiostro, pennino, lampada,  10 ampolle di olio, 10 fogli di pergamena e acciarino  con pietra focaia."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una dotazione da studioso contiene i seguenti  oggetti: zaino, libro, inchiostro, pennino, lampada,  10 ampolle di olio, 10 fogli di pergamena e acciarino  con pietra focaia."
+      }
+    ]
   },
   {
     "id": "faretra-1-mo",
@@ -1194,7 +3021,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una faretra può contenere fino a 20 frecce."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una faretra può contenere fino a 20 frecce."
+      }
+    ]
   },
   {
     "id": "fiala-1-mo",
@@ -1202,7 +3034,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una fiala ha una capacità di 120 millilitri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una fiala ha una capacità di 120 millilitri."
+      }
+    ]
   },
   {
     "id": "fischietto-da-richiamo-5-mr",
@@ -1210,7 +3047,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Se il personaggio soffia al suo interno con un'azione  di Utilizzo, il fischietto da richiamo produce un  suono udibile fino a 180 metri di distanza."
+    "description": [
+      {
+        "type": "text",
+        "text": "Se il personaggio soffia al suo interno con un'azione  di Utilizzo, il fischietto da richiamo produce un  suono udibile fino a 180 metri di distanza."
+      }
+    ]
   },
   {
     "id": "focus-arcano-variabile",
@@ -1218,7 +3060,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un focus arcano assume una delle forme elencate  nella tabella Focus arcani, ed è adornato con gioielli  o intagliato affinché possa incanalare l'energia  arcana. Un mago, uno stregone o un warlock può  usare questo oggetto come focus da incantatore.\n\n**Focus arcani**\n\n| Focus |  | Peso | Costo |\n| --- | --- | --- | --- |\n| Bacchetta | 0,5 kg |  | 10 mo |\n| Bastone (anche bastone ferrato) |  | 2 kg | 5 mo |\n| Cristallo | 0,5 kg |  | 10 mo |\n| Globo | 1,5 kg |  | 20 mo |\n| Verga |  | 1 kg | 10 mo |"
+    "description": [
+      {
+        "type": "text",
+        "text": "Un focus "
+      },
+      {
+        "type": "skill",
+        "text": "arcano",
+        "id": "arcano"
+      },
+      {
+        "type": "text",
+        "text": " assume una delle forme elencate  nella tabella Focus arcani, ed è adornato con gioielli  o intagliato affinché possa incanalare l'energia  arcana. Un mago, uno stregone o un warlock può  usare questo oggetto come focus da incantatore.\n\n**Focus arcani**\n\n| Focus |  | Peso | Costo |\n| --- | --- | --- | --- |\n| Bacchetta | 0,5 kg |  | 10 mo |\n| Bastone (anche "
+      },
+      {
+        "type": "equipment",
+        "text": "bastone ferrato",
+        "id": "bastone-ferrato"
+      },
+      {
+        "type": "text",
+        "text": ") |  | 2 kg | 5 mo |\n| Cristallo | 0,5 kg |  | 10 mo |\n| Globo | 1,5 kg |  | 20 mo |\n| Verga |  | 1 kg | 10 mo |"
+      }
+    ]
   },
   {
     "id": "focus-druidico-variabile",
@@ -1226,7 +3091,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un focus druidico assume una delle forme indicate  nella tabella Focus druidici ed è intagliato, legato  con del nastro o dipinto per incanalare la magia primordiale. Un oggetto del genere è utilizzabile come  focus da incantatore da un druido o un ranger.\n\n**Focus druidici**\n\n| Focus |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Bacchetta in legno di tasso | 0,5 kg |  |  | 10 mo |\n| Bastone di legno (anche bastone ferrato) |  | 2 kg |  | 5 mo |\n| Rametto di vischio |  |  | — | 1 mo |"
+    "description": [
+      {
+        "type": "text",
+        "text": "Un focus druidico assume una delle forme indicate  nella tabella Focus druidici ed è intagliato, legato  con del nastro o dipinto per incanalare la magia primordiale. Un oggetto del genere è utilizzabile come  focus da incantatore da un druido o un ranger.\n\n**Focus druidici**\n\n| Focus |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Bacchetta in legno di tasso | 0,5 kg |  |  | 10 mo |\n| Bastone di legno (anche "
+      },
+      {
+        "type": "equipment",
+        "text": "bastone ferrato",
+        "id": "bastone-ferrato"
+      },
+      {
+        "type": "text",
+        "text": ") |  | 2 kg |  | 5 mo |\n| Rametto di vischio |  |  | — | 1 mo |"
+      }
+    ]
   },
   {
     "id": "forziere-5-mo",
@@ -1234,7 +3113,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un forziere ha una capacità di 12 cubi con spigolo di  30 centimetri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un forziere ha una capacità di 12 cubi con spigolo di  30 centimetri."
+      }
+    ]
   },
   {
     "id": "fuoco-dellalchimista-50-mo",
@@ -1242,7 +3126,48 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  una ampolla di fuoco dell'alchimista. Può prendere  di mira una creatura o un oggetto che egli è in grado  di vedere entro 6 metri da sé. Il bersaglio deve superare un tiro salvezza su Destrezza (CD 8 più il modificatore di Destrezza e il bonus di competenza del  personaggio), altrimenti subirà 1d4 danni da fuoco  e sarà in fiamme (vedi \"Glossario delle regole\")."
+    "description": [
+      {
+        "type": "text",
+        "text": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  una ampolla di "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " dell'alchimista. Può prendere  di mira una creatura o un oggetto che egli è in grado  di vedere entro 6 metri da sé. Il bersaglio deve superare un tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " (CD 8 più il modificatore di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " e il bonus di competenza del  personaggio), altrimenti subirà 1d4 danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": "  e sarà in fiamme (vedi \"Glossario delle regole\")."
+      }
+    ]
   },
   {
     "id": "giaciglio-1-mo",
@@ -1250,7 +3175,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Su un giaciglio può dormire una creatura di taglia  Piccola o Media. Finché il personaggio si trova in  un giaciglio, supera automaticamente i tiri salvezza  contro il freddo estremo (vedi \"Strumenti per le  modalità di gioco\")."
+    "description": [
+      {
+        "type": "text",
+        "text": "Su un giaciglio può dormire una creatura di taglia  Piccola o Media. Finché il personaggio si trova in  un giaciglio, supera automaticamente i tiri salvezza  contro il "
+      },
+      {
+        "type": "damage_type",
+        "text": "freddo",
+        "id": "freddo"
+      },
+      {
+        "type": "text",
+        "text": " estremo (vedi \"Strumenti per le  modalità di gioco\")."
+      }
+    ]
   },
   {
     "id": "inchiostro-10-mo",
@@ -1258,7 +3197,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "L'inchiostro è reperibile in boccette da 30 grammi  ciascuna, con abbastanza materiale per scrivere  circa 500 pagine."
+    "description": [
+      {
+        "type": "text",
+        "text": "L'inchiostro è reperibile in boccette da 30 grammi  ciascuna, con abbastanza materiale per scrivere  circa 500 pagine."
+      }
+    ]
   },
   {
     "id": "lampada-5-ma",
@@ -1266,7 +3210,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una lampada brucia olio per proiettare luce intensa  in un raggio di 4,5 metri e luce fioca per ulteriori  9 metri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una lampada brucia olio per proiettare "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " intensa  in un raggio di 4,5 metri e "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca per ulteriori  9 metri."
+      }
+    ]
   },
   {
     "id": "lanterna-a-lente-sporgente-10-mo",
@@ -1274,7 +3241,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una lanterna a lente sporgente sfrutta l'olio come  combustibile per proiettare luce intensa in un cono  di 18 metri e luce fioca per ulteriori 18 metri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una lanterna a lente sporgente sfrutta l'olio come  combustibile per proiettare "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " intensa in un cono  di 18 metri e "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca per ulteriori 18 metri."
+      }
+    ]
   },
   {
     "id": "lanterna-schermabile-5-mo",
@@ -1282,7 +3272,48 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una lanterna schermabile brucia olio per proiettare  luce intensa in un raggio di 9 metri e luce fioca  per ulteriori 9 metri. Come azione bonus, un personaggio può schermare la lanterna, riducendo la  luce proiettata a luce fioca in un raggio di 1,5 metri  o riaprirla."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una lanterna schermabile brucia olio per proiettare  "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " intensa in un raggio di 9 metri e "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca  per ulteriori 9 metri. Come azione bonus, un personaggio può schermare la lanterna, riducendo la  "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " proiettata a "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca in un raggio di 1,5 metri  o riaprirla."
+      }
+    ]
   },
   {
     "id": "lente-dingrandimento-100-mo",
@@ -1290,7 +3321,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una lente d'ingrandimento conferisce vantaggio  a ogni prova di caratteristica effettuata per  valutare o ispezionare un oggetto estremamente  dettagliato. Per accendere un fuoco con la lente  ­d'ingrandimento è necessaria una luce da concentrare intensa quanto quella del sole, dei rametti  da accendere e circa 5 minuti affinché il fuoco  attecchisca."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una lente d'ingrandimento conferisce vantaggio  a ogni prova di caratteristica effettuata per  valutare o ispezionare un oggetto estremamente  dettagliato. Per accendere un "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " con la lente  ­d'ingrandimento è necessaria una "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " da concentrare intensa quanto quella del sole, dei rametti  da accendere e circa 5 minuti affinché il "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": "  attecchisca."
+      }
+    ]
   },
   {
     "id": "libro-25-mo",
@@ -1298,7 +3361,57 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "I libri possono contenere sia opere di finzione che  di carattere divulgativo. Se il personaggio ne consulta uno che tratta di un determinato argomento,  ottiene un bonus di +5 alle prove di Intelligenza  (Arcano, Storia, Natura o Religione) eseguite su tale  argomento."
+    "description": [
+      {
+        "type": "text",
+        "text": "I libri possono contenere sia opere di finzione che  di carattere divulgativo. Se il personaggio ne consulta uno che tratta di un determinato argomento,  ottiene un bonus di +5 alle prove di "
+      },
+      {
+        "type": "ability",
+        "text": "Intelligenza",
+        "id": "intelligenza"
+      },
+      {
+        "type": "text",
+        "text": "  ("
+      },
+      {
+        "type": "skill",
+        "text": "Arcano",
+        "id": "arcano"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "skill",
+        "text": "Storia",
+        "id": "storia"
+      },
+      {
+        "type": "text",
+        "text": ", "
+      },
+      {
+        "type": "skill",
+        "text": "Natura",
+        "id": "natura"
+      },
+      {
+        "type": "text",
+        "text": " o "
+      },
+      {
+        "type": "skill",
+        "text": "Religione",
+        "id": "religione"
+      },
+      {
+        "type": "text",
+        "text": ") eseguite su tale  argomento."
+      }
+    ]
   },
   {
     "id": "manette-2-mo",
@@ -1306,7 +3419,84 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, se supera una prova di  Destrezza (Rapidità di mano) con CD 13, il personaggio può usare le manette per bloccare una  creatura non consenziente di taglia Piccola o Media  entro 1,5 metri da sé che sia afferrata, incapacitata  o trattenuta. Mentre è ammanettata, la creatura  ha svantaggio ai tiri per colpire ed è trattenuta se  le manette sono attaccate a una catena o un gancio  fissi in posizione. Per liberarsi è necessario superare una prova di Destrezza (Rapidità di mano) con  CD 20 con un'azione. Per romperle bisogna invece  superare una prova di Forza (Atletica) con CD 25  con un'azione. Ogni coppia di manette ha la sua chiave. Senza di  essa, una creatura può scassinarne la serratura utilizzando gli arnesi da scasso e superando una prova  di Destrezza (Rapidità di mano) con CD 15."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, se supera una prova di  "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Rapidità di mano",
+        "id": "rapidita-di-mano"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 13, il personaggio può usare le manette per bloccare una  creatura non consenziente di taglia Piccola o Media  entro 1,5 metri da sé che sia afferrata, incapacitata  o trattenuta. Mentre è ammanettata, la creatura  ha svantaggio ai tiri per colpire ed è trattenuta se  le manette sono attaccate a una catena o un gancio  fissi in posizione. Per liberarsi è necessario superare una prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Rapidità di mano",
+        "id": "rapidita-di-mano"
+      },
+      {
+        "type": "text",
+        "text": ") con  CD 20 con un'azione. Per romperle bisogna invece  superare una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 25  con un'azione. Ogni coppia di manette ha la sua chiave. Senza di  essa, una creatura può scassinarne la serratura utilizzando gli arnesi da scasso e superando una prova  di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Rapidità di mano",
+        "id": "rapidita-di-mano"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 15."
+      }
+    ]
   },
   {
     "id": "mappa-1-mo",
@@ -1314,7 +3504,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Se il personaggio consulta una mappa accurata,  ottiene un bonus di +5 alle prove di Saggezza  (Sopravvivenza) effettuate per tracciare un percorso nel luogo che raffigura."
+    "description": [
+      {
+        "type": "text",
+        "text": "Se il personaggio consulta una mappa accurata,  ottiene un bonus di +5 alle prove di "
+      },
+      {
+        "type": "ability",
+        "text": "Saggezza",
+        "id": "saggezza"
+      },
+      {
+        "type": "text",
+        "text": "  ("
+      },
+      {
+        "type": "skill",
+        "text": "Sopravvivenza",
+        "id": "sopravvivenza"
+      },
+      {
+        "type": "text",
+        "text": ") effettuate per tracciare un percorso nel luogo che raffigura."
+      }
+    ]
   },
   {
     "id": "munizioni-variabili",
@@ -1322,7 +3535,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Se un'arma possiede la proprietà munizioni, richiederà l'uso di munizioni. La tipologia è specificata  nella descrizione dell'arma. La tabella Munizioni  elenca i diversi tipi di munizioni e la quantità ottenuta con ogni acquisto, oltre all'oggetto utilizzato  per conservarle (da acquistare separatamente).\n\n**Munizioni**\n\n| Tipo | Quantità Conservazione |  |  | Peso | Costo |\n| --- | --- | --- | --- | --- | --- |\n| Aghi | 50 | Borsa | 0,5 kg |  | 1 mo |\n| Frecce | 20 | Faretra | 0,5 kg |  | 1 mo |\n| Proiettili, arma da fuoco | 10 | Borsa |  | 1 kg | 3 mo |\n| Proiettili, fionda | 20 | Borsa | 0,75 kg |  | 4 mr |\n| Quadrelli | 20 | Custodia | 0,75 kg |  | 1 mo |"
+    "description": [
+      {
+        "type": "text",
+        "text": "Se un'arma possiede la proprietà munizioni, richiederà l'uso di munizioni. La tipologia è specificata  nella descrizione dell'arma. La tabella Munizioni  elenca i diversi tipi di munizioni e la quantità ottenuta con ogni acquisto, oltre all'oggetto utilizzato  per conservarle (da acquistare separatamente).\n\n**Munizioni**\n\n| Tipo | Quantità | Conservazione |  | Peso | Costo |\n| --- | --- | --- | --- | --- | --- |\n| Aghi | 50 | Borsa | 0,5 kg |  | 1 mo |\n| Frecce | 20 | Faretra | 0,5 kg |  | 1 mo |\n| Proiettili, arma da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " | 10 | Borsa |  | 1 kg | 3 mo |\n| Proiettili, "
+      },
+      {
+        "type": "equipment",
+        "text": "fionda",
+        "id": "fionda"
+      },
+      {
+        "type": "text",
+        "text": " | 20 | Borsa | 0,75 kg |  | 4 mr |\n| Quadrelli | 20 | Custodia | 0,75 kg |  | 1 mo |"
+      }
+    ]
   },
   {
     "id": "olio-1-ma",
@@ -1330,7 +3566,66 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Il personaggio può gettare olio su una creatura, un  oggetto o un'area. In alternativa, può usarlo come  combustibile, come descritto sotto. _**Gettare olio su una creatura o un oggetto.**_ Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  un'ampolla di olio verso una creatura o un oggetto  entro 6 metri da sé. Il bersaglio deve superare un  tiro salvezza su Destrezza (CD 8 più il modificatore  di Destrezza e il bonus di competenza del personaggio), altrimenti sarà coperto di olio. Se il bersaglio  subisce danni da fuoco prima che l'olio si asciughi  (dopo 1 minuto), subisce 5 danni da fuoco extra  a causa dell'olio incendiato. _**Gettare olio su una superficie.**_ Come azione di  Utilizzo, il personaggio può versare un'ampolla di  olio su una superficie piana per coprire una zona  di 1,5 metri quadrati entro 1,5 metri da sé. Se incendiato, l'olio brucia per 2 round fino al termine del  turno (o 12 secondi) e infligge 5 danni da fuoco  a qualsiasi creatura entri in quell'area o finisca  lì il suo turno. Una creatura può subire questi danni  solo una volta per turno. _**Combustibile.**_ L'olio è utilizzabile come combustibile per lampade e lanterne. Una volta versata  un'ampolla di olio in una lampada o una lanterna,  questo brucerà per 6 ore. Tale durata non deve  necessariamente essere consecutiva: è possibile  spegnere il fuoco (come azione di Utilizzo) e riaccenderlo finché la durata totale della combustione  non raggiunge le 6 ore."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio può gettare olio su una creatura, un  oggetto o un'area. In alternativa, può usarlo come  combustibile, come descritto sotto. _**Gettare olio su una creatura o un oggetto.**_ Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio di  un'ampolla di olio verso una creatura o un oggetto  entro 6 metri da sé. Il bersaglio deve superare un  tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " (CD 8 più il modificatore  di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " e il bonus di competenza del personaggio), altrimenti sarà coperto di olio. Se il bersaglio  subisce danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " prima che l'olio si asciughi  (dopo 1 minuto), subisce 5 danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " extra  a causa dell'olio incendiato. _**Gettare olio su una superficie.**_ Come azione di  Utilizzo, il personaggio può versare un'ampolla di  olio su una superficie piana per coprire una zona  di 1,5 metri quadrati entro 1,5 metri da sé. Se incendiato, l'olio brucia per 2 round fino al termine del  turno (o 12 secondi) e infligge 5 danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": "  a qualsiasi creatura entri in quell'area o finisca  lì il suo turno. Una creatura può subire questi danni  solo una volta per turno. _**Combustibile.**_ L'olio è utilizzabile come combustibile per lampade e lanterne. Una volta versata  un'ampolla di olio in una lampada o una lanterna,  questo brucerà per 6 ore. Tale durata non deve  necessariamente essere consecutiva: è possibile  spegnere il "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": " (come azione di Utilizzo) e riaccenderlo finché la durata totale della combustione  non raggiunge le 6 ore."
+      }
+    ]
   },
   {
     "id": "otre-2-ma",
@@ -1338,7 +3633,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un otre ha una capacità di 2 litri. Se il personaggio  non beve abbastanza acqua, corre il rischio di disidratazione (vedi \"Glossario delle regole\")."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un otre ha una capacità di 2 litri. Se il personaggio  non beve abbastanza acqua, corre il rischio di disidratazione (vedi \"Glossario delle regole\")."
+      }
+    ]
   },
   {
     "id": "pala-2-mo",
@@ -1346,7 +3646,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Se il personaggio impiega 1 ora di lavoro, può usare  la pala per scavare una buca nel terreno di 1,5 metri  per lato."
+    "description": [
+      {
+        "type": "text",
+        "text": "Se il personaggio impiega 1 ora di lavoro, può usare  la pala per scavare una buca nel terreno di 1,5 metri  per lato."
+      }
+    ]
   },
   {
     "id": "pennino-2-mr",
@@ -1354,7 +3659,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Usando pennino e inchiostro è possibile scrivere  o disegnare."
+    "description": [
+      {
+        "type": "text",
+        "text": "Usando pennino e inchiostro è possibile scrivere  o disegnare."
+      }
+    ]
   },
   {
     "id": "pentola-di-ferro-2-mo",
@@ -1362,7 +3672,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una pentola di ferro ha una capacità di 4 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una pentola di ferro ha una capacità di 4 litri."
+      }
+    ]
   },
   {
     "id": "pergamena-1-ma",
@@ -1370,7 +3685,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un foglio di pergamena può contenere circa  250 parole scritte a mano."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un foglio di pergamena può contenere circa  250 parole scritte a mano."
+      }
+    ]
   },
   {
     "id": "pergamena-magica-trucchetto-30-mo-livello-1-50-mo",
@@ -1378,7 +3698,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una *pergamena magica* (trucchetto) o una *perga**mena magica* (livello 1) sono oggetti magici contenenti rispettivamente le parole di un trucchetto  o un incantesimo di livello 1, che variano in base  al volere del loro creatore. Se l'incantesimo è nella  lista degli incantesimi della classe del personaggio,  quest'ultimo può leggere la pergamena e lanciare  l'incantesimo con il suo normale tempo di lancio  e senza fornire componenti materiali. Se l'incantesimo richiede di effettuare un tiro  salvezza o un tiro per colpire, la CD del tiro salvezza  sull'incantesimo è 13, mentre il bonus di attacco  è +5. Una volta terminato il lancio, la pergamena si  disintegra."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una *pergamena magica* (trucchetto) o una *perga**mena magica* (livello 1) sono oggetti magici contenenti rispettivamente le parole di un trucchetto  o un incantesimo di livello 1, che variano in base  al volere del loro creatore. Se l'incantesimo è nella  lista degli incantesimi della classe del personaggio,  quest'ultimo può leggere la pergamena e lanciare  l'incantesimo con il suo normale tempo di lancio  e senza fornire componenti materiali. Se l'incantesimo richiede di effettuare un tiro  salvezza o un tiro per colpire, la CD del tiro salvezza  sull'incantesimo è 13, mentre il bonus di attacco  è +5. Una volta terminato il lancio, la pergamena si  disintegra."
+      }
+    ]
   },
   {
     "id": "piede-di-porco-2-mo",
@@ -1386,7 +3711,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Utilizzando un piede di porco, il personaggio ottiene  vantaggio alle prove di Forza in cui è possibile  applicare la sua leva."
+    "description": [
+      {
+        "type": "text",
+        "text": "Utilizzando un piede di porco, il personaggio ottiene  vantaggio alle prove di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " in cui è possibile  applicare la sua leva."
+      }
+    ]
   },
   {
     "id": "pozione-di-guarigione-50-mo",
@@ -1394,7 +3733,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Questa pozione è un oggetto magico. Come azione  bonus, il personaggio può berne una o somministrarla a un'altra creatura entro 1,5 metri da sé.  Chi beve il fluido magico rosso contenuto in questa  fiala recupera 2d4 + 2 punti ferita."
+    "description": [
+      {
+        "type": "text",
+        "text": "Questa pozione è un oggetto magico. Come azione  bonus, il personaggio può berne una o somministrarla a un'altra creatura entro 1,5 metri da sé.  Chi beve il fluido magico rosso contenuto in questa  fiala recupera 2d4 + 2 punti ferita."
+      }
+    ]
   },
   {
     "id": "profumo-5-mo",
@@ -1402,7 +3746,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "I profumi sono disponibili in ampolle con capacità  di 120 millilitri. Dopo che il personaggio ha applicato su di sé il profumo, per 1 ora avrà vantaggio  alle prove di Carisma (Persuasione) effettuate  per influenzare un umanoide indifferente entro  1,5 metri da sé."
+    "description": [
+      {
+        "type": "text",
+        "text": "I profumi sono disponibili in ampolle con capacità  di 120 millilitri. Dopo che il personaggio ha applicato su di sé il profumo, per 1 ora avrà vantaggio  alle prove di "
+      },
+      {
+        "type": "ability",
+        "text": "Carisma",
+        "id": "carisma"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Persuasione",
+        "id": "persuasione"
+      },
+      {
+        "type": "text",
+        "text": ") effettuate  per influenzare un "
+      },
+      {
+        "type": "creature_type",
+        "text": "umanoide",
+        "id": "umanoide"
+      },
+      {
+        "type": "text",
+        "text": " indifferente entro  1,5 metri da sé."
+      }
+    ]
   },
   {
     "id": "rampino-2-mo",
@@ -1410,7 +3786,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, il personaggio può lanciare  il rampino verso una ringhiera, una sporgenza o un  altro appiglio entro 15 metri da sé. Per far sì che  il gancio faccia presa è necessario superare una  prova di Destrezza (Acrobazia) con CD 13. Se al gancio viene legata una corda, è possibile arrampicarsi."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, il personaggio può lanciare  il rampino verso una ringhiera, una sporgenza o un  altro appiglio entro 15 metri da sé. Per far sì che  il gancio faccia presa è necessario superare una  prova di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Acrobazia",
+        "id": "acrobazia"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 13. Se al gancio viene legata una corda, è possibile arrampicarsi."
+      }
+    ]
   },
   {
     "id": "razioni-5-ma",
@@ -1418,7 +3817,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Le razioni sono composte da cibo da viaggio,  come carne secca, frutta secca, gallette e noci.  Per scoprire i rischi del digiuno, consulta la sezione  \"Malnutrizione\" nel \"Glossario delle regole\"."
+    "description": [
+      {
+        "type": "text",
+        "text": "Le razioni sono composte da cibo da viaggio,  come carne secca, frutta secca, gallette e noci.  Per scoprire i rischi del digiuno, consulta la sezione  \"Malnutrizione\" nel \"Glossario delle regole\"."
+      }
+    ]
   },
   {
     "id": "rete-1-mo",
@@ -1426,7 +3830,66 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio  di una rete verso una creatura che egli è in grado  di vedere entro un raggio di 4,5 metri da sé. Il bersaglio deve superare un tiro salvezza su Destrezza  (CD 8 più il modificatore di Destrezza e il bonus di  competenza del personaggio), altrimenti sarà trattenuto finché non riuscirà a liberarsi. Se il bersaglio  è di taglia Enorme o superiore, supera automaticamente la prova. Per fuggire, il bersaglio o una creatura entro  1,5 metri da lui deve effettuare un'azione per  eseguire una prova di Forza (Atletica) con CD  10, liberando la creatura trattenuta in caso di  successo. È possibile ottenere il medesimo risultato  distruggendo la rete (CA 10; 5 PF; immunità a danni  contundenti, da veleno e psichici)."
+    "description": [
+      {
+        "type": "text",
+        "text": "Quando il personaggio effettua un'azione di Attacco,  puoi sostituire uno dei suoi attacchi con il lancio  di una rete verso una creatura che egli è in grado  di vedere entro un raggio di 4,5 metri da sé. Il bersaglio deve superare un tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "  (CD 8 più il modificatore di "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " e il bonus di  competenza del personaggio), altrimenti sarà "
+      },
+      {
+        "type": "condition",
+        "text": "trattenuto",
+        "id": "trattenuto"
+      },
+      {
+        "type": "text",
+        "text": " finché non riuscirà a liberarsi. Se il bersaglio  è di taglia Enorme o superiore, supera automaticamente la prova. Per fuggire, il bersaglio o una creatura entro  1,5 metri da lui deve effettuare un'azione per  eseguire una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con CD  10, liberando la creatura trattenuta in caso di  successo. È possibile ottenere il medesimo risultato  distruggendo la rete (CA 10; 5 PF; immunità a danni  contundenti, da "
+      },
+      {
+        "type": "damage_type",
+        "text": "veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": " e psichici)."
+      }
+    ]
   },
   {
     "id": "sacco-1-mr",
@@ -1434,7 +3897,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un sacco può contenere fino a 15 chilogrammi  ­all'interno di 1 cubo con spigolo di 30 centimetri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un sacco può contenere fino a 15 chilogrammi  ­all'interno di 1 cubo con spigolo di 30 centimetri."
+      }
+    ]
   },
   {
     "id": "scala-a-pioli-1-ma",
@@ -1442,7 +3910,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una scala a pioli è alta 3 metri. Per scendere dalla  scala o salirci è necessario arrampicarsi."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una scala a pioli è alta 3 metri. Per scendere dalla  scala o salirci è necessario arrampicarsi."
+      }
+    ]
   },
   {
     "id": "secchio-5-mr",
@@ -1450,7 +3923,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un secchio ha una capacità di 14 litri."
+    "description": [
+      {
+        "type": "text",
+        "text": "Un secchio ha una capacità di 14 litri."
+      }
+    ]
   },
   {
     "id": "serratura-10-mo",
@@ -1458,7 +3936,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Ogni serratura è dotata della sua chiave. Senza tale  chiave, una creatura può scassinarla utilizzando  gli arnesi da scasso e superando una prova di  Destrezza (Rapidità di mano) con CD 15."
+    "description": [
+      {
+        "type": "text",
+        "text": "Ogni serratura è dotata della sua chiave. Senza tale  chiave, una creatura può scassinarla utilizzando  gli arnesi da scasso e superando una prova di  "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Rapidità di mano",
+        "id": "rapidita-di-mano"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 15."
+      }
+    ]
   },
   {
     "id": "sfere-metalliche-1-mo",
@@ -1466,7 +3967,30 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Con un'azione di Utilizzo, il personaggio può far  cadere delle sfere metalliche dalla sua borsa. Queste  si diffonderanno per coprire una superficie piana di  3 metri quadrati entro 3 metri da sé. Chiunque entri  in quest'area per la prima volta in un turno deve  superare un tiro salvezza su Destrezza con CD 10,  altrimenti cadrà prono. Per recuperare le sfere  metalliche sono necessari 10 minuti."
+    "description": [
+      {
+        "type": "text",
+        "text": "Con un'azione di Utilizzo, il personaggio può far  cadere delle sfere metalliche dalla sua borsa. Queste  si diffonderanno per coprire una superficie piana di  3 metri quadrati entro 3 metri da sé. Chiunque entri  in quest'area per la prima volta in un turno deve  superare un tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " con CD 10,  altrimenti cadrà "
+      },
+      {
+        "type": "condition",
+        "text": "prono",
+        "id": "prono"
+      },
+      {
+        "type": "text",
+        "text": ". Per recuperare le sfere  metalliche sono necessari 10 minuti."
+      }
+    ]
   },
   {
     "id": "simbolo-sacro-variabile",
@@ -1474,7 +3998,75 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Un simbolo sacro può assumere una delle forme  elencate nella tabella Simbolo sacro ed è adornato  o dipinto in modo che incanali l'energia divina.  Un chierico o un paladino possono usare un simbolo  sacro come focus da incantatore. La tabella indica se il simbolo sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno scudo.\n\n**Simboli sacri**\n\n| Simbolo |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Amuleto (indossato o tenuto in mano) | 0,5 kg |  |  | 5 mo |\n| Emblema (portato su un tessuto o uno scudo) |  |  | — | 5 mo |\n| Reliquiario (tenuto in mano) |  | 1 kg |  | 5 mo |"
+    "description": [
+      {
+        "type": "text",
+        "text": "Un "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro può assumere una delle forme  elencate nella tabella "
+      },
+      {
+        "type": "spell",
+        "text": "Simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro ed è adornato  o dipinto in modo che incanali l'energia divina.  Un chierico o un paladino possono usare un "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": "  sacro come focus da incantatore. La tabella indica se il "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno "
+      },
+      {
+        "type": "spell",
+        "text": "scudo",
+        "id": "scudo"
+      },
+      {
+        "type": "text",
+        "text": ".\n\n**Simboli sacri**\n\n| "
+      },
+      {
+        "type": "spell",
+        "text": "Simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": " |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Amuleto (indossato o tenuto in mano) | 0,5 kg |  |  | 5 mo |\n| Emblema (portato su un tessuto o uno "
+      },
+      {
+        "type": "spell",
+        "text": "scudo",
+        "id": "scudo"
+      },
+      {
+        "type": "text",
+        "text": ") |  |  | — | 5 mo |\n| Reliquiario (tenuto in mano) |  | 1 kg |  | 5 mo |"
+      }
+    ]
   },
   {
     "id": "spago-1-ma",
@@ -1482,7 +4074,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una matassa di spago è lunga 3 metri. Come azione  di Utilizzo, il personaggio può utilizzarlo per stringere un nodo."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una matassa di spago è lunga 3 metri. Come azione  di Utilizzo, il personaggio può utilizzarlo per stringere un nodo."
+      }
+    ]
   },
   {
     "id": "specchio-5-mo",
@@ -1490,7 +4087,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Uno specchio d'acciaio portatile è utile sia per  la cura della persona che per sbirciare dietro gli  angoli o riflettere la luce per mandare un segnale  a qualcuno."
+    "description": [
+      {
+        "type": "text",
+        "text": "Uno specchio d'acciaio portatile è utile sia per  la cura della persona che per sbirciare dietro gli  angoli o riflettere la "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " per mandare un segnale  a qualcuno."
+      }
+    ]
   },
   {
     "id": "spuntoni-di-ferro-1-mo",
@@ -1498,7 +4109,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Gli spuntoni di ferro sono ottenibili in gruppi di  dieci. Come azione di Utilizzo, il personaggio può  usare un oggetto contundente come un martello  leggero per conficcare gli spuntoni nel legno, nel  terreno o in altri materiali simili. Tale azione è utile  per bloccare una porta o per avere un supporto  a cui legare una corda o una catena."
+    "description": [
+      {
+        "type": "text",
+        "text": "Gli spuntoni di ferro sono ottenibili in gruppi di  dieci. Come azione di Utilizzo, il personaggio può  usare un oggetto "
+      },
+      {
+        "type": "damage_type",
+        "text": "contundente",
+        "id": "contundente"
+      },
+      {
+        "type": "text",
+        "text": " come un martello  leggero per conficcare gli spuntoni nel legno, nel  terreno o in altri materiali simili. Tale azione è utile  per bloccare una porta o per avere un supporto  a cui legare una corda o una catena."
+      }
+    ]
   },
   {
     "id": "tagliola-5-mo",
@@ -1506,7 +4131,57 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, il personaggio può piazzare  una tagliola, ovvero un anello metallico dentellato  che si chiude di scatto qualora una creatura calpesti  la piastra a pressione collocata al centro. La trappola viene fissata a una pesante catena o a un  oggetto immobile come un albero o un palo piantato  a terra. Quando una creatura mette un piede sulla  piastra, deve superare un tiro salvezza su Destrezza  con CD 13, altrimenti subisce 1d4 danni perforanti  e la sua velocità scende a 0 fino all'inizio del turno  successivo. A quel punto, finché non si libera  dalla trappola, il suo movimento è limitato dalla  lunghezza della catena (solitamente 90 centimetri).  Una creatura può usare la sua azione per effettuare  una prova di Forza (Atletica) con CD 13 e liberare se  stessa o qualcun altro a portata in caso di successo.  Ogni prova fallita infligge 1 danno perforante alla  creatura intrappolata."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, il personaggio può piazzare  una tagliola, ovvero un anello metallico dentellato  che si chiude di scatto qualora una creatura calpesti  la piastra a pressione collocata al centro. La trappola viene fissata a una pesante catena o a un  oggetto immobile come un albero o un palo piantato  a terra. Quando una creatura mette un piede sulla  piastra, deve superare un tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": "  con CD 13, altrimenti subisce 1d4 danni perforanti  e la sua "
+      },
+      {
+        "type": "spell",
+        "text": "velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": " scende a 0 fino all'inizio del turno  successivo. A quel punto, finché non si libera  dalla trappola, il suo movimento è limitato dalla  lunghezza della catena (solitamente 90 centimetri).  Una creatura può usare la sua azione per effettuare  una prova di "
+      },
+      {
+        "type": "damage_type",
+        "text": "Forza",
+        "id": "forza"
+      },
+      {
+        "type": "text",
+        "text": " ("
+      },
+      {
+        "type": "skill",
+        "text": "Atletica",
+        "id": "atletica"
+      },
+      {
+        "type": "text",
+        "text": ") con CD 13 e liberare se  stessa o qualcun altro a portata in caso di successo.  Ogni prova fallita infligge 1 danno "
+      },
+      {
+        "type": "damage_type",
+        "text": "perforante",
+        "id": "perforante"
+      },
+      {
+        "type": "text",
+        "text": " alla  creatura intrappolata."
+      }
+    ]
   },
   {
     "id": "tenda-2-mo",
@@ -1514,7 +4189,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "In una tenda possono dormire un massimo di due  creature di taglia Piccola o Media."
+    "description": [
+      {
+        "type": "text",
+        "text": "In una tenda possono dormire un massimo di due  creature di taglia Piccola o Media."
+      }
+    ]
   },
   {
     "id": "torcia-1-mr",
@@ -1522,7 +4202,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una torcia arde per 1 ora e proietta luce intensa  in un raggio di 6 metri e luce fioca per ulteriori  6 metri. Quando il personaggio effettua l'azione di  Attacco, può farlo con la torcia usandola come arma  da mischia semplice. Se il colpo va a segno, il bersaglio subisce 1 danno da fuoco."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una torcia arde per 1 ora e proietta "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " intensa  in un raggio di 6 metri e "
+      },
+      {
+        "type": "spell",
+        "text": "luce",
+        "id": "luce"
+      },
+      {
+        "type": "text",
+        "text": " fioca per ulteriori  6 metri. Quando il personaggio effettua l'azione di  Attacco, può farlo con la torcia usandola come arma  da mischia semplice. Se il colpo va a segno, il bersaglio subisce 1 danno da "
+      },
+      {
+        "type": "damage_type",
+        "text": "fuoco",
+        "id": "fuoco"
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ]
   },
   {
     "id": "triboli-1-mo",
@@ -1530,7 +4242,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione di Utilizzo, il personaggio può spargere  triboli dalla sua borsa per coprire una superficie di  1,5 metri quadrati entro 1,5 metri da sé. Chiunque  entri in quest'area per la prima volta in un turno  deve superare un tiro salvezza su Destrezza con  CD 15, altrimenti subirà 1 danno perforante e la sua  velocità sarà ridotta a 0 fino all'inizio del proprio  turno successivo. Per recuperare i triboli sono  necessari 10 minuti."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione di Utilizzo, il personaggio può spargere  triboli dalla sua borsa per coprire una superficie di  1,5 metri quadrati entro 1,5 metri da sé. Chiunque  entri in quest'area per la prima volta in un turno  deve superare un tiro salvezza su "
+      },
+      {
+        "type": "ability",
+        "text": "Destrezza",
+        "id": "destrezza"
+      },
+      {
+        "type": "text",
+        "text": " con  CD 15, altrimenti subirà 1 danno "
+      },
+      {
+        "type": "damage_type",
+        "text": "perforante",
+        "id": "perforante"
+      },
+      {
+        "type": "text",
+        "text": " e la sua  "
+      },
+      {
+        "type": "spell",
+        "text": "velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": " sarà ridotta a 0 fino all'inizio del proprio  turno successivo. Per recuperare i triboli sono  necessari 10 minuti."
+      }
+    ]
   },
   {
     "id": "tunica-1-mo",
@@ -1538,7 +4282,21 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Una tunica può avere un significato cerimoniale  o professionale. In alcuni luoghi ed eventi sono  ammesse solo persone che indossano una tunica  di un determinato colore e recante uno specifico  simbolo."
+    "description": [
+      {
+        "type": "text",
+        "text": "Una tunica può avere un significato cerimoniale  o professionale. In alcuni luoghi ed eventi sono  ammesse solo persone che indossano una tunica  di un determinato colore e recante uno specifico  "
+      },
+      {
+        "type": "spell",
+        "text": "simbolo",
+        "id": "simbolo"
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ]
   },
   {
     "id": "veleno-base-100-mo",
@@ -1546,7 +4304,39 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Come azione bonus, il personaggio può cospargere  un'arma o fino a tre munizioni col contenuto di  una fiala di veleno base. Una creatura che subisce  danni perforanti o taglienti da armi o munizioni  avvelenate subisce 1d4 danni da veleno extra. Una  volta applicato, il veleno preserva le sue proprietà  per 1 minuto o finché non vengono inflitti dei danni,  a seconda dell'opzione che si verifica per prima."
+    "description": [
+      {
+        "type": "text",
+        "text": "Come azione bonus, il personaggio può cospargere  un'arma o fino a tre munizioni col contenuto di  una fiala di "
+      },
+      {
+        "type": "damage_type",
+        "text": "veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": " base. Una creatura che subisce  danni perforanti o taglienti da armi o munizioni  avvelenate subisce 1d4 danni da "
+      },
+      {
+        "type": "damage_type",
+        "text": "veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": " extra. Una  volta applicato, il "
+      },
+      {
+        "type": "damage_type",
+        "text": "veleno",
+        "id": "veleno"
+      },
+      {
+        "type": "text",
+        "text": " preserva le sue proprietà  per 1 minuto o finché non vengono inflitti dei danni,  a seconda dell'opzione che si verifica per prima."
+      }
+    ]
   },
   {
     "id": "zaino-2-mo",
@@ -1554,7 +4344,12 @@
     "category": "gear",
     "subcategory": "Equipaggiamento d'avventura",
     "properties": {},
-    "description": "Uno zaino può contenere fino a 15 chilogrammi  all'interno di un cubo con spigolo di 30 centimetri.  Può fungere anche da bisaccia."
+    "description": [
+      {
+        "type": "text",
+        "text": "Uno zaino può contenere fino a 15 chilogrammi  all'interno di un cubo con spigolo di 30 centimetri.  Può fungere anche da bisaccia."
+      }
+    ]
   },
   {
     "id": "cammello",
@@ -1565,7 +4360,12 @@
       "capacity": "225 kg",
       "cost": "50 mo"
     },
-    "description": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 225 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 225 kg"
+      }
+    ]
   },
   {
     "id": "cavallo-da-galoppo",
@@ -1576,7 +4376,12 @@
       "capacity": "240 kg",
       "cost": "75 mo"
     },
-    "description": "**Costo:** 75 mo\n\n**Capacità di trasporto:** 240 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 75 mo\n\n**Capacità di trasporto:** 240 kg"
+      }
+    ]
   },
   {
     "id": "cavallo-da-guerra",
@@ -1587,7 +4392,12 @@
       "capacity": "270 kg",
       "cost": "400 mo"
     },
-    "description": "**Costo:** 400 mo\n\n**Capacità di trasporto:** 270 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 400 mo\n\n**Capacità di trasporto:** 270 kg"
+      }
+    ]
   },
   {
     "id": "cavallo-da-tiro",
@@ -1598,7 +4408,12 @@
       "capacity": "270 kg",
       "cost": "50 mo"
     },
-    "description": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 270 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 270 kg"
+      }
+    ]
   },
   {
     "id": "elefante",
@@ -1609,7 +4424,12 @@
       "capacity": "660 kg",
       "cost": "200 mo"
     },
-    "description": "**Costo:** 200 mo\n\n**Capacità di trasporto:** 660 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 200 mo\n\n**Capacità di trasporto:** 660 kg"
+      }
+    ]
   },
   {
     "id": "mastino",
@@ -1620,7 +4440,12 @@
       "capacity": "97,5 kg",
       "cost": "25 mo"
     },
-    "description": "**Costo:** 25 mo\n\n**Capacità di trasporto:** 97,5 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 25 mo\n\n**Capacità di trasporto:** 97,5 kg"
+      }
+    ]
   },
   {
     "id": "mulo",
@@ -1631,7 +4456,12 @@
       "capacity": "210 kg",
       "cost": "8 mo"
     },
-    "description": "**Costo:** 8 mo\n\n**Capacità di trasporto:** 210 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 8 mo\n\n**Capacità di trasporto:** 210 kg"
+      }
+    ]
   },
   {
     "id": "pony",
@@ -1642,7 +4472,12 @@
       "capacity": "112,5 kg",
       "cost": "30 mo"
     },
-    "description": "**Costo:** 30 mo\n\n**Capacità di trasporto:** 112,5 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 30 mo\n\n**Capacità di trasporto:** 112,5 kg"
+      }
+    ]
   },
   {
     "id": "barca-a-remi",
@@ -1655,7 +4490,21 @@
       "hp": "50",
       "cost": "50 mo"
     },
-    "description": "**Costo:** 50 mo\n\n**Velocità:** 2,25 km/h\n\n**CA:** 11\n\n**PF:** 50"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 50 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 2,25 km/h\n\n**CA:** 11\n\n**PF:** 50"
+      }
+    ]
   },
   {
     "id": "barcone",
@@ -1668,7 +4517,21 @@
       "hp": "100",
       "cost": "3.000 mo"
     },
-    "description": "**Costo:** 3.000 mo\n\n**Velocità:** 1,5 km/h\n\n**CA:** 15\n\n**PF:** 100"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 3.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 1,5 km/h\n\n**CA:** 15\n\n**PF:** 100"
+      }
+    ]
   },
   {
     "id": "dirigibile",
@@ -1681,7 +4544,21 @@
       "hp": "300",
       "cost": "40.000 mo"
     },
-    "description": "**Costo:** 40.000 mo\n\n**Velocità:** 12 km/h\n\n**CA:** 13\n\n**PF:** 300"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 40.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 12 km/h\n\n**CA:** 13\n\n**PF:** 300"
+      }
+    ]
   },
   {
     "id": "galea",
@@ -1694,7 +4571,21 @@
       "hp": "500",
       "cost": "30.000 mo"
     },
-    "description": "**Costo:** 30.000 mo\n\n**Velocità:** 6 km/h\n\n**CA:** 15\n\n**PF:** 500"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 30.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 6 km/h\n\n**CA:** 15\n\n**PF:** 500"
+      }
+    ]
   },
   {
     "id": "nave-a-vela",
@@ -1707,7 +4598,21 @@
       "hp": "300",
       "cost": "10.000 mo"
     },
-    "description": "**Costo:** 10.000 mo\n\n**Velocità:** 3 km/h\n\n**CA:** 15\n\n**PF:** 300"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 10.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 3 km/h\n\n**CA:** 15\n\n**PF:** 300"
+      }
+    ]
   },
   {
     "id": "nave-da-guerra",
@@ -1720,7 +4625,21 @@
       "hp": "500",
       "cost": "25.000 mo"
     },
-    "description": "**Costo:** 25.000 mo\n\n**Velocità:** 3,75 km/h\n\n**CA:** 15\n\n**PF:** 500"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 25.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 3,75 km/h\n\n**CA:** 15\n\n**PF:** 500"
+      }
+    ]
   },
   {
     "id": "nave-lunga",
@@ -1733,7 +4652,21 @@
       "hp": "300",
       "cost": "10.000 mo"
     },
-    "description": "**Costo:** 10.000 mo\n\n**Velocità:** 4,5 km/h\n\n**CA:** 15\n\n**PF:** 300"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 10.000 mo\n\n**"
+      },
+      {
+        "type": "spell",
+        "text": "Velocità",
+        "id": "velocita"
+      },
+      {
+        "type": "text",
+        "text": ":** 4,5 km/h\n\n**CA:** 15\n\n**PF:** 300"
+      }
+    ]
   },
   {
     "id": "biga",
@@ -1744,7 +4677,12 @@
       "weight": "50 kg",
       "cost": "250 mo"
     },
-    "description": "**Costo:** 250 mo\n\n**Peso:** 50 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 250 mo\n\n**Peso:** 50 kg"
+      }
+    ]
   },
   {
     "id": "carretto",
@@ -1755,7 +4693,12 @@
       "weight": "100 kg",
       "cost": "15 mo"
     },
-    "description": "**Costo:** 15 mo\n\n**Peso:** 100 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 15 mo\n\n**Peso:** 100 kg"
+      }
+    ]
   },
   {
     "id": "carro",
@@ -1766,7 +4709,12 @@
       "weight": "200 kg",
       "cost": "35 mo"
     },
-    "description": "**Costo:** 35 mo\n\n**Peso:** 200 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 35 mo\n\n**Peso:** 200 kg"
+      }
+    ]
   },
   {
     "id": "carrozza",
@@ -1777,7 +4725,12 @@
       "weight": "300 kg",
       "cost": "100 mo"
     },
-    "description": "**Costo:** 100 mo\n\n**Peso:** 300 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 100 mo\n\n**Peso:** 300 kg"
+      }
+    ]
   },
   {
     "id": "nutrimento-al-giorno",
@@ -1787,7 +4740,12 @@
     "properties": {
       "cost": "5 mr"
     },
-    "description": "**Costo:** 5 mr"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 5 mr"
+      }
+    ]
   },
   {
     "id": "sella-da-galoppo",
@@ -1798,7 +4756,12 @@
       "weight": "12,5 kg",
       "cost": "10 mo"
     },
-    "description": "**Costo:** 10 mo\n\n**Peso:** 12,5 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 10 mo\n\n**Peso:** 12,5 kg"
+      }
+    ]
   },
   {
     "id": "sella-esotica",
@@ -1809,7 +4772,12 @@
       "weight": "20 kg",
       "cost": "60 mo"
     },
-    "description": "**Costo:** 60 mo\n\n**Peso:** 20 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 60 mo\n\n**Peso:** 20 kg"
+      }
+    ]
   },
   {
     "id": "sella-militare",
@@ -1820,7 +4788,12 @@
       "weight": "15 kg",
       "cost": "20 mo"
     },
-    "description": "**Costo:** 20 mo\n\n**Peso:** 15 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 20 mo\n\n**Peso:** 15 kg"
+      }
+    ]
   },
   {
     "id": "slitta",
@@ -1831,7 +4804,12 @@
       "weight": "150 kg",
       "cost": "20 mo"
     },
-    "description": "**Costo:** 20 mo\n\n**Peso:** 150 kg"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 20 mo\n\n**Peso:** 150 kg"
+      }
+    ]
   },
   {
     "id": "stallaggio-al-giorno",
@@ -1841,7 +4819,12 @@
     "properties": {
       "cost": "5 ma"
     },
-    "description": "**Costo:** 5 ma"
+    "description": [
+      {
+        "type": "text",
+        "text": "**Costo:** 5 ma"
+      }
+    ]
   },
   {
     "id": "miserabile-gratis",
@@ -1849,7 +4832,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio sopravvive affidandosi al caso e alla  carità del prossimo. Poiché dorme fuori, spesso è  esposto ai pericoli naturali."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio sopravvive affidandosi al caso e alla  carità del prossimo. Poiché dorme fuori, spesso è  esposto ai pericoli naturali."
+      }
+    ]
   },
   {
     "id": "squallido-1-ma-al-giorno",
@@ -1857,7 +4845,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio spende il minimo indispensabile  per le sue necessità. Per questo, potrebbe cadere  vittima di malattie o criminali opportunistici."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio spende il minimo indispensabile  per le sue necessità. Per questo, potrebbe cadere  vittima di malattie o criminali opportunistici."
+      }
+    ]
   },
   {
     "id": "povero-2-ma-al-giorno",
@@ -1865,7 +4858,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio spende una cifra parsimoniosa per  le proprie necessità."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio spende una cifra parsimoniosa per  le proprie necessità."
+      }
+    ]
   },
   {
     "id": "modesto-1-mo-al-giorno",
@@ -1873,7 +4871,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio spende una quantità media di denaro  per sostentarsi."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio spende una quantità media di denaro  per sostentarsi."
+      }
+    ]
   },
   {
     "id": "agiato-2-mo-al-giorno",
@@ -1881,7 +4884,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio spende una modesta quantità di  denaro per le proprie necessità, concedendosi  qualche lusso."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio spende una modesta quantità di  denaro per le proprie necessità, concedendosi  qualche lusso."
+      }
+    ]
   },
   {
     "id": "ricco-4-mo-al-giorno",
@@ -1889,7 +4897,12 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio è abituato a vivere nel lusso  e potrebbe persino avere dei servitori."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio è abituato a vivere nel lusso  e potrebbe persino avere dei servitori."
+      }
+    ]
   },
   {
     "id": "aristocratico-10-mo-al-giorno",
@@ -1897,6 +4910,11 @@
     "category": "services",
     "subcategory": "Spese dello stile di vita",
     "properties": {},
-    "description": "Il personaggio vuole solo il meglio del meglio  e potrebbe persino avere delle persone alle sue  dipendenze che lo aiutano a condurre questo stile di  vita. Questa ricchezza non passa inosservata, e altri  potrebbero incitarlo a condividerla in vari modi, sia  legali che non."
+    "description": [
+      {
+        "type": "text",
+        "text": "Il personaggio vuole solo il meglio del meglio  e potrebbe persino avere delle persone alle sue  dipendenze che lo aiutano a condurre questo stile di  vita. Questa ricchezza non passa inosservata, e altri  potrebbero incitarlo a condividerla in vari modi, sia  legali che non."
+      }
+    ]
   }
 ]
