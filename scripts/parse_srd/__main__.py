@@ -27,6 +27,7 @@ from .merge import blocks_to_paragraphs
 from .markdown_gen import paragraphs_to_markdown
 from .profiles import FontProfile
 from .section_split import SectionDef
+from .segments import build_catalogs, segmentize_outputs
 from .tables import process_tables
 
 
@@ -145,6 +146,11 @@ def run_parsers(
             outputs[section.output_file].extend(result)
         elif isinstance(result, dict):
             outputs[section.output_file].append(result)
+
+    # Post-process: convert description strings to structured segments
+    print("  Converting descriptions to structured segments...")
+    catalogs = build_catalogs(outputs)
+    segmentize_outputs(outputs, catalogs)
 
     for filename, data in outputs.items():
         out_path = output_dir / filename

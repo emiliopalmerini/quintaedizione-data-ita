@@ -2,8 +2,8 @@ package srd
 
 // Feature represents a named ability or action with a description.
 type Feature struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
+	Name        string  `json:"name"`
+	Description Content `json:"description"`
 }
 
 // Monster represents a D&D 5e monster or creature.
@@ -21,9 +21,9 @@ type Monster struct {
 	HP                  string            `json:"hp"`
 	Speed               string            `json:"speed"`
 	Skills              string            `json:"skills"`
-	Resistances         string            `json:"resistances"`
-	DamageImmunities    string            `json:"damage_immunities"`
-	ConditionImmunities string            `json:"condition_immunities"`
+	Resistances         Content           `json:"resistances"`
+	DamageImmunities    Content           `json:"damage_immunities"`
+	ConditionImmunities Content           `json:"condition_immunities"`
 	Senses              string            `json:"senses"`
 	Languages           string            `json:"languages"`
 	Equipment           string            `json:"equipment"`

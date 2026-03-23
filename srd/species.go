@@ -2,8 +2,8 @@ package srd
 
 // SpeciesTrait represents a racial/species trait.
 type SpeciesTrait struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
+	Name        string  `json:"name"`
+	Description Content `json:"description"`
 }
 
 // Species represents a D&D 5e playable species.
@@ -14,7 +14,7 @@ type Species struct {
 	Size         string         `json:"size"`
 	Speed        string         `json:"speed"`
 	Traits       []SpeciesTrait `json:"traits"`
-	Description  string         `json:"description"`
+	Description  Content        `json:"description"`
 	Source       string         `json:"-"`
 }
 

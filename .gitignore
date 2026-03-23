@@ -36,3 +36,6 @@ __pycache__/
 
 # Claude Code settings
 .claude/
+
+# SRD source PDFs
+*.pdf

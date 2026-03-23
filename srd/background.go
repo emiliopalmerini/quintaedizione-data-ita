@@ -9,7 +9,7 @@ type Background struct {
 	SkillProficiencies string `json:"skill_proficiencies"`
 	ToolProficiency    string `json:"tool_proficiency"`
 	Equipment          string `json:"equipment"`
-	Description        string `json:"description"`
+	Description        Content `json:"description"`
 	Source             string `json:"-"`
 }
 

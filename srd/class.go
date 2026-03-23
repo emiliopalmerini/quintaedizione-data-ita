@@ -2,15 +2,15 @@ package srd
 
 // ClassFeature represents a class feature gained at a specific level.
 type ClassFeature struct {
-	Name        string `json:"name"`
-	Level       int    `json:"level"`
-	Description string `json:"description"`
+	Name        string  `json:"name"`
+	Level       int     `json:"level"`
+	Description Content `json:"description"`
 }
 
 // Subclass represents a class specialization.
 type Subclass struct {
 	Name        string         `json:"name"`
-	Description string         `json:"description"`
+	Description Content        `json:"description"`
 	Features    []ClassFeature `json:"features"`
 }
 
@@ -20,7 +20,7 @@ type Class struct {
 	Name          string         `json:"name"`
 	HitDie        string         `json:"hit_die"`
 	Proficiencies string         `json:"proficiencies"`
-	Description   string         `json:"description"`
+	Description   Content        `json:"description"`
 	Features      []ClassFeature `json:"features"`
 	Subclasses    []Subclass     `json:"subclasses"`
 	SpellList     []string       `json:"spell_list"`

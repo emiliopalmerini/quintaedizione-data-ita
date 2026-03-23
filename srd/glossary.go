@@ -5,7 +5,7 @@ type GlossaryEntry struct {
 	ID         string   `json:"id"`
 	Term       string   `json:"term"`
 	Category   string   `json:"category"`
-	Definition string   `json:"definition"`
+	Definition Content  `json:"definition"`
 	SeeAlso    []string `json:"see_also"`
 	Source     string   `json:"-"`
 }
