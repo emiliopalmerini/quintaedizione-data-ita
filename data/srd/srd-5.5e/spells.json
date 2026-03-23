@@ -4105,7 +4105,7 @@
       },
       {
         "type": "text",
-        "text": " ­dell'incantatore scende a 3 per 2d4 giorni.  Per ognuno di quei giorni trascorso a riposare  e a non fare nulla fuorché attività poco impegnative,  il tempo di recupero rimanente diminuisce di  2 giorni. Esiste infine una probabilità del 33% che  l'incantatore non sia più in grado di lanciare *deside**rio*, se non riesce a reggere la tensione."
+        "text": " ­dell'incantatore scende a 3 per 2d4 giorni.  Per ognuno di quei giorni trascorso a riposare  e a non fare nulla fuorché attività poco impegnative,  il tempo di recupero rimanente diminuisce di  2 giorni. Esiste infine una probabilità del 33% che  l'incantatore non sia più in grado di lanciare *desiderio*, se non riesce a reggere la tensione."
       }
     ],
     "at_higher_levels": [],
@@ -9240,7 +9240,7 @@
       },
       {
         "type": "text",
-        "text": "*. Tuttavia, un incantesimo *disinte**grazione* lo distrugge all'istante. Il muro si estende  anche sul Piano Etereo e blocca i viaggi eterei che  lo attraversano."
+        "text": "*. Tuttavia, un incantesimo *disintegrazione* lo distrugge all'istante. Il muro si estende  anche sul Piano Etereo e blocca i viaggi eterei che  lo attraversano."
       }
     ],
     "at_higher_levels": [],
@@ -9600,7 +9600,7 @@
       },
       {
         "type": "text",
-        "text": "* non ha alcun effetto sul muro e l'incantesimo *dis**solvi magie* può influenzare solo lo strato viola.\n\n| Ordine | Effetti Rosso. Arancione. Giallo. Verde. Blu. Indaco. |  |  |  |  |  |  |  |  |  |  |  | Ordine | Effetti Viola. |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |  | 7 | cato ed effettua un tiro salvezza su "
+        "text": "* non ha alcun effetto sul muro e l'incantesimo *dissolvi magie* può influenzare solo lo strato viola.\n\n| Ordine | Effetti Rosso. Arancione. Giallo. Verde. Blu. Indaco. |  |  |  |  |  |  |  |  |  |  |  | Ordine | Effetti Viola. |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |  | 7 | cato ed effettua un tiro salvezza su "
       },
       {
         "type": "ability",
@@ -13282,7 +13282,7 @@
       },
       {
         "type": "text",
-        "text": "* o *glifo di inter**dizione*, o una fossa meccanica nascosta, ma non di  rivelare un cedimento naturale del pavimento, un  soffitto instabile o una voragine nascosta. Questo incantesimo rivela la presenza di una trappola ma non la sua ubicazione. L'incantatore scopre  solo la "
+        "text": "* o *glifo di interdizione*, o una fossa meccanica nascosta, ma non di  rivelare un cedimento naturale del pavimento, un  soffitto instabile o una voragine nascosta. Questo incantesimo rivela la presenza di una trappola ma non la sua ubicazione. L'incantatore scopre  solo la "
       },
       {
         "type": "skill",

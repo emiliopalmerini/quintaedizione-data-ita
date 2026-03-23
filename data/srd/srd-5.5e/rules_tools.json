@@ -80,7 +80,7 @@
               },
               {
                 "type": "text",
-                "text": " elevata  per un tempo prolungato, come nel caso di un\n\n**Terreno di viaggio**\n\n|  |  |\n| --- | --- |\n| Terreno Passo massimo | CD per CD per Distanza degli incontri foraggiare orientarsi CD per cercare | incantesimo come *"
+                "text": " elevata  per un tempo prolungato, come nel caso di un\n\nTerreno di viaggio**\n\n|  |  |\n| --- | --- |\n| Terreno Passo massimo | CD per CD per Distanza degli incontri foraggiare orientarsi CD per cercare | incantesimo come *"
               },
               {
                 "type": "spell",
@@ -107,7 +107,7 @@
               },
               {
                 "type": "text",
-                "text": " di viaggio usando  queste regole:\n\n**Chilometri all'ora** = "
+                "text": " di viaggio usando  queste regole:\n\nChilometri all'ora** = "
               },
               {
                 "type": "spell",
@@ -418,7 +418,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " di una certa mummia è frutto di  una maledizione, per questo può essere distrutta  permanentemente solo lanciando *rimuovi maledi**zione* sul suo cadavere."
+                    "text": " di una certa mummia è frutto di  una maledizione, per questo può essere distrutta  permanentemente solo lanciando *rimuovi maledizione* sul suo cadavere."
                   }
                 ],
                 "children": []
@@ -1252,7 +1252,7 @@
               },
               {
                 "type": "text",
-                "text": "  troverai alcuni esempi.\n\n**Esempi di CD della "
+                "text": "  troverai alcuni esempi.\n\nEsempi di CD della "
               },
               {
                 "type": "spell",
@@ -1308,7 +1308,7 @@
               },
               {
                 "type": "text",
-                "text": ". In caso di  successo, il personaggio potrebbe subire la metà dei  danni o nessun danno, a tua discrezione.\n\n**Esempi di effetti dello stress mentale**\n\n| Esempio | tiro salvezza | Danni psichici |\n| --- | --- | --- |\n| Un personaggio ingerisce una | 10 | 1d6 |\n| ­sostanza allucinogena che distorce |  |  |\n| la sua "
+                "text": ". In caso di  successo, il personaggio potrebbe subire la metà dei  danni o nessun danno, a tua discrezione.\n\nEsempi di effetti dello stress mentale**\n\n| Esempio | tiro salvezza | Danni psichici |\n| --- | --- | --- |\n| Un personaggio ingerisce una | 10 | 1d6 |\n| ­sostanza allucinogena che distorce |  |  |\n| la sua "
               },
               {
                 "type": "skill",
@@ -2320,7 +2320,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\n**Innesco:** una creatura apre in maniera errata la  ­serratura della trappola o non riesce a disattivarla **Durata:** istantanea\n\nGli aghi avvelenati sono nascosti nelle serrature.  Quando una creatura apre una serratura con qualsiasi altro oggetto all'infuori della chiave corretta,  l'ago viene sparato fuori e la colpisce. La creatura  deve quindi effettuare un tiro salvezza su "
+                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\nInnesco:** una creatura apre in maniera errata la  ­serratura della trappola o non riesce a disattivarla **Durata:** istantanea\n\nGli aghi avvelenati sono nascosti nelle serrature.  Quando una creatura apre una serratura con qualsiasi altro oggetto all'infuori della chiave corretta,  l'ago viene sparato fuori e la colpisce. La creatura  deve quindi effettuare un tiro salvezza su "
                   },
                   {
                     "type": "ability",
@@ -2394,7 +2394,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola mortale (livelli 1º–4º)*\n\n**Innesco:** una creatura tira un cavo teso **Durata:** istantanea\n\nQuesta trappola sfrutta un cavo teso per far crollare  una sezione instabile del soffitto. Il cavo teso si  trova a 7,5 centimetri da terra ed è collegato a due  sostegni che cadono a terra una volta che viene  tirato. La prima creatura che tira il cavo provoca la  caduta di tali elementi di sostegno, causando  il crollo della sezione di soffitto instabile. Ogni  creatura nell'area sottostante deve superare un tiro  salvezza su "
+                    "text": "*Trappola mortale (livelli 1º–4º)*\n\nInnesco:** una creatura tira un cavo teso **Durata:** istantanea\n\nQuesta trappola sfrutta un cavo teso per far crollare  una sezione instabile del soffitto. Il cavo teso si  trova a 7,5 centimetri da terra ed è collegato a due  sostegni che cadono a terra una volta che viene  tirato. La prima creatura che tira il cavo provoca la  caduta di tali elementi di sostegno, causando  il crollo della sezione di soffitto instabile. Ogni  creatura nell'area sottostante deve superare un tiro  salvezza su "
                   },
                   {
                     "type": "ability",
@@ -2432,7 +2432,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola mortale (livelli 1º–4º)*\n\n**Innesco:** una creatura calpesta una piastra a pressione **Durata:** istantanea; la trappola si ripristina all'inizio del  turno successivo se è stata attivata meno di tre volte\n\nQuando una creatura calpesta la piastra a pressione  di questa trappola per la prima volta in un turno,  vengono sparati dei dardi avvelenati da alcuni  tubi collocati nelle pareti circostanti. I fori in cui  sono inseriti questi tubi sono oscurati da polvere  e ragnatele, o astutamente nascosti tra bassorilievi,  dipinti murari o affreschi. Ogni creatura sulla traiettoria dei dardi deve  superare un tiro salvezza su "
+                    "text": "*Trappola mortale (livelli 1º–4º)*\n\nInnesco:** una creatura calpesta una piastra a pressione **Durata:** istantanea; la trappola si ripristina all'inizio del  turno successivo se è stata attivata meno di tre volte\n\nQuando una creatura calpesta la piastra a pressione  di questa trappola per la prima volta in un turno,  vengono sparati dei dardi avvelenati da alcuni  tubi collocati nelle pareti circostanti. I fori in cui  sono inseriti questi tubi sono oscurati da polvere  e ragnatele, o astutamente nascosti tra bassorilievi,  dipinti murari o affreschi. Ogni creatura sulla traiettoria dei dardi deve  superare un tiro salvezza su "
                   },
                   {
                     "type": "ability",
@@ -2524,7 +2524,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola mortale (livelli 1º–4º)*\n\n**Innesco:** una creatura calpesta la copertura che  ­nasconde la fossa **Durata:** istantanea\n\nQuesta fossa profonda 3 metri è nascosta da una  copertura incernierata realizzata con lo stesso  materiale del pavimento circostante. Quando una  creatura la calpesta, si apre all'improvviso come  una botola facendola cadere sul fondo colmo di  spuntoni di metallo o legno appuntiti. Dopodiché,  la copertura rimane aperta. Una creatura che cade nella fossa ne raggiunge  il fondo e subisce 3 (1d6) danni contundenti dalla  caduta più 9 (2d8) danni perforanti dagli spuntoni. _**Individuazione e disinnesco.**_ Con un'azione di  Studio, una creatura può esaminare la sezione di  pavimento dove si trova la copertura ed effettuare  una prova di "
+                    "text": "*Trappola mortale (livelli 1º–4º)*\n\nInnesco:** una creatura calpesta la copertura che  ­nasconde la fossa **Durata:** istantanea\n\nQuesta fossa profonda 3 metri è nascosta da una  copertura incernierata realizzata con lo stesso  materiale del pavimento circostante. Quando una  creatura la calpesta, si apre all'improvviso come  una botola facendola cadere sul fondo colmo di  spuntoni di metallo o legno appuntiti. Dopodiché,  la copertura rimane aperta. Una creatura che cade nella fossa ne raggiunge  il fondo e subisce 3 (1d6) danni contundenti dalla  caduta più 9 (2d8) danni perforanti dagli spuntoni. _**Individuazione e disinnesco.**_ Con un'azione di  Studio, una creatura può esaminare la sezione di  pavimento dove si trova la copertura ed effettuare  una prova di "
                   },
                   {
                     "type": "ability",
@@ -2580,7 +2580,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\n**Innesco:** una creatura calpesta la copertura che  ­nasconde la fossa **Durata:** istantanea\n\nQuesta fossa profonda 3 metri è nascosta da una  copertura incernierata realizzata con lo stesso  materiale del pavimento circostante. Quando una  creatura la calpesta, si apre all'improvviso come  una botola, facendola cadere al suo interno. Dopodiché, la copertura rimane aperta. Una creatura che cade nella fossa subisce 3 (1d6)  danni contundenti per la caduta. _**Individuazione e disinnesco.**_ Con un'azione di  Studio, una creatura può esaminare la sezione di  pavimento dove si trova la copertura ed effettuare  una prova di "
+                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\nInnesco:** una creatura calpesta la copertura che  ­nasconde la fossa **Durata:** istantanea\n\nQuesta fossa profonda 3 metri è nascosta da una  copertura incernierata realizzata con lo stesso  materiale del pavimento circostante. Quando una  creatura la calpesta, si apre all'improvviso come  una botola, facendola cadere al suo interno. Dopodiché, la copertura rimane aperta. Una creatura che cade nella fossa subisce 3 (1d6)  danni contundenti per la caduta. _**Individuazione e disinnesco.**_ Con un'azione di  Studio, una creatura può esaminare la sezione di  pavimento dove si trova la copertura ed effettuare  una prova di "
                   },
                   {
                     "type": "ability",
@@ -2598,7 +2598,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ") con CD 15,  individuando la fossa in caso di successo. Una  volta individuata la fossa, è possibile inserire  uno spuntone di ferro o un oggetto analogo tra la  copertura e il pavimento circostante per evitare che  si apra, rendendo sicuro l'attraversamento. Inoltre,  è possibile mantenere la copertura chiusa con *serra**tura arcana* o un'altra magia simile. _**Fuga.**_ Per scalare le pareti lisce della fossa, una  creatura ha bisogno di "
+                    "text": ") con CD 15,  individuando la fossa in caso di successo. Una  volta individuata la fossa, è possibile inserire  uno spuntone di ferro o un oggetto analogo tra la  copertura e il pavimento circostante per evitare che  si apra, rendendo sicuro l'attraversamento. Inoltre,  è possibile mantenere la copertura chiusa con *serratura arcana* o un'altra magia simile. _**Fuga.**_ Per scalare le pareti lisce della fossa, una  creatura ha bisogno di "
                   },
                   {
                     "type": "spell",
@@ -2618,7 +2618,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola mortale (livelli 11º–16º) o trappola seccatura* *(livelli 17º–20º)*\n\n**Innesco:** una creatura calpesta una piastra a pressione **Durata:** finché la pietra non smette di rotolare\n\nQuando una creatura calpesta una piastra a pressione nascosta, una sfera di solida roccia con raggio  di 1,5 metri fuoriesce da uno scompartimento  segreto, per poi iniziare a rotolare. La pietra e tutte  le creature nelle vicinanze tirano per l'iniziativa, su  cui la pietra ottiene un bonus di +8. Durante il suo turno la pietra si sposta di  18 metri in una direzione, cambiando traiettoria  se si imbatte in determinati ostacoli. Inoltre, può  muoversi attraverso gli spazi delle creature, così  come le creature possono muoversi all'interno del  suo spazio considerandolo un terreno difficile. Ogni  volta che la pietra entra nello spazio di una creatura  per la prima volta in un turno o che una creatura  entra nello spazio della pietra mentre questa rotola,  la creatura deve superare un tiro salvezza su  "
+                    "text": "*Trappola mortale (livelli 11º–16º) o trappola seccatura* *(livelli 17º–20º)*\n\nInnesco:** una creatura calpesta una piastra a pressione **Durata:** finché la pietra non smette di rotolare\n\nQuando una creatura calpesta una piastra a pressione nascosta, una sfera di solida roccia con raggio  di 1,5 metri fuoriesce da uno scompartimento  segreto, per poi iniziare a rotolare. La pietra e tutte  le creature nelle vicinanze tirano per l'iniziativa, su  cui la pietra ottiene un bonus di +8. Durante il suo turno la pietra si sposta di  18 metri in una direzione, cambiando traiettoria  se si imbatte in determinati ostacoli. Inoltre, può  muoversi attraverso gli spazi delle creature, così  come le creature possono muoversi all'interno del  suo spazio considerandolo un terreno difficile. Ogni  volta che la pietra entra nello spazio di una creatura  per la prima volta in un turno o che una creatura  entra nello spazio della pietra mentre questa rotola,  la creatura deve superare un tiro salvezza su  "
                   },
                   {
                     "type": "ability",
@@ -2683,7 +2683,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\n**Innesco:** una creatura tira un cavo teso **Durata:** istantanea\n\nLa trappola rete in caduta sfrutta un cavo teso per  far cadere una rete quadrata con lato di 3 metri  fissata al soffitto. Il cavo è teso a 7,5 cm dal terreno  tra due colonne o alberi  e la prima creatura che lo tira farà cadere la rete  su di sé. Il bersaglio deve quindi superare un tiro  salvezza su "
+                    "text": "*Trappola seccatura (livelli 1º–4º)*\n\nInnesco:** una creatura tira un cavo teso **Durata:** istantanea\n\nLa trappola rete in caduta sfrutta un cavo teso per  far cadere una rete quadrata con lato di 3 metri  fissata al soffitto. Il cavo è teso a 7,5 cm dal terreno  tra due colonne o alberi  e la prima creatura che lo tira farà cadere la rete  su di sé. Il bersaglio deve quindi superare un tiro  salvezza su "
                   },
                   {
                     "type": "ability",
@@ -2784,7 +2784,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "*Trappola mortale (livelli 1º–4º)*\n\n**Innesco:** una creatura calpesta una piastra a pressione **Durata:** istantanea; la trappola si ripristina all'inizio del  turno successivo\n\nQuando una creatura calpesta la piastra a pressione  di questa trappola per la prima volta in un turno  o vi inizia il suo turno, una statua vicina emette  un getto di fiamme magiche in un cono di 4,5 metri.  La statua può avere le sembianze di qualsiasi  cosa, come un "
+                    "text": "*Trappola mortale (livelli 1º–4º)*\n\nInnesco:** una creatura calpesta una piastra a pressione **Durata:** istantanea; la trappola si ripristina all'inizio del  turno successivo\n\nQuando una creatura calpesta la piastra a pressione  di questa trappola per la prima volta in un turno  o vi inizia il suo turno, una statua vicina emette  un getto di fiamme magiche in un cono di 4,5 metri.  La statua può avere le sembianze di qualsiasi  cosa, come un "
                   },
                   {
                     "type": "creature_type",
@@ -2965,7 +2965,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Utilizzando la tabella Budget di PE per personaggio, incrocia il livello del gruppo con la difficoltà  ­dell'incontro desiderata. Moltiplica il numero nella  tabella per il numero di personaggi del gruppo, così  da ottenere il budget di PE per l'incontro.\n\n**Budget di PE per personaggio**\n\n| Livello del gruppo | Facile | Media | Difficile | Livello del gruppo | Facile | Media | Difficile |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 11 | 1.900 | 2.900 | 4.100 |  |  |  |  |\n| 12 | 2.200 | 3.700 | 4.700 |  |  |  |  |\n| 13 | 2.600 | 4.200 | 5.400 |  |  |  |  |\n| 14 | 2.900 | 4.900 | 6.200 |  |  |  |  |\n| 15 | 3.300 | 5.400 | 7.800 |  |  |  |  |\n| 16 | 3.800 | 6.100 | 9.800 |  |  |  |  |\n| 17 | 4.500 | 7.200 | 11.700 |  |  |  |  |\n| 18 | 5.000 | 8.700 | 14.200 |  |  |  |  |\n| 19 | 5.500 | 10.700 | 17.200 |  |  |  |  |\n| 20 | 6.400 | 13.200 | 22.000 |  |  |  |  |\n|  |  |  |  | 1 | 50 | 75 | 100 |\n|  |  |  |  | 2 | 100 | 150 | 200 |\n|  |  |  |  | 3 | 150 | 225 | 400 |\n|  |  |  |  | 4 | 250 | 375 | 500 |\n|  |  |  |  | 5 | 500 | 750 | 1.100 |\n|  |  |  |  | 6 | 600 | 1.000 | 1.400 |\n|  |  |  |  | 7 | 750 | 1.300 | 1.700 |\n|  |  |  |  | 8 | 1.000 | 1.700 | 2.100 |\n|  |  |  |  | 9 | 1.300 | 2.000 | 2.600 |\n|  |  |  |  | 10 | 1.600 | 2.300 | 3.100 |"
+                    "text": "Utilizzando la tabella Budget di PE per personaggio, incrocia il livello del gruppo con la difficoltà  ­dell'incontro desiderata. Moltiplica il numero nella  tabella per il numero di personaggi del gruppo, così  da ottenere il budget di PE per l'incontro.\n\nBudget di PE per personaggio**\n\n| Livello del gruppo | Facile | Media | Difficile | Livello del gruppo | Facile | Media | Difficile |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 11 | 1.900 | 2.900 | 4.100 |  |  |  |  |\n| 12 | 2.200 | 3.700 | 4.700 |  |  |  |  |\n| 13 | 2.600 | 4.200 | 5.400 |  |  |  |  |\n| 14 | 2.900 | 4.900 | 6.200 |  |  |  |  |\n| 15 | 3.300 | 5.400 | 7.800 |  |  |  |  |\n| 16 | 3.800 | 6.100 | 9.800 |  |  |  |  |\n| 17 | 4.500 | 7.200 | 11.700 |  |  |  |  |\n| 18 | 5.000 | 8.700 | 14.200 |  |  |  |  |\n| 19 | 5.500 | 10.700 | 17.200 |  |  |  |  |\n| 20 | 6.400 | 13.200 | 22.000 |  |  |  |  |\n|  |  |  |  | 1 | 50 | 75 | 100 |\n|  |  |  |  | 2 | 100 | 150 | 200 |\n|  |  |  |  | 3 | 150 | 225 | 400 |\n|  |  |  |  | 4 | 250 | 375 | 500 |\n|  |  |  |  | 5 | 500 | 750 | 1.100 |\n|  |  |  |  | 6 | 600 | 1.000 | 1.400 |\n|  |  |  |  | 7 | 750 | 1.300 | 1.700 |\n|  |  |  |  | 8 | 1.000 | 1.700 | 2.100 |\n|  |  |  |  | 9 | 1.300 | 2.000 | 2.600 |\n|  |  |  |  | 10 | 1.600 | 2.300 | 3.100 |"
                   }
                 ],
                 "children": []
@@ -2976,7 +2976,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Ogni creatura possiede un valore in PE nella sua  scheda delle statistiche. Quando aggiungi una  creatura al combattimento, detrai i suoi PE dal tuo  budget di PE per determinare quanti ne devono  ancora essere spesi. Spendi quanto più possibile i  PE nel budget senza sforare. Non è un problema se  te ne sono rimasti alcuni da spendere. Di seguito  sono riportati alcuni esempi: **Esempio 1.** Un incontro facile per quattro personaggi al 1º livello ha un budget di PE di 50 × 4, per  un totale di 200 PE. Da qui puoi creare uno dei  seguenti incontri:\n\n•\t 1 **guerriero bugbear** (200 PE) •\t 2 **vespe giganti** (100 PE ciascuna), per un totale di  200 PE •\t 6 **topi giganti** (25 PE ciascuno), per un totale di  150 PE\n\n**Esempio 2.** Un incontro di media difficoltà per  cinque personaggi al 3º livello ha un budget di PE  di 225 × 5, per un totale di 1.125 PE. Da qui puoi  costruire uno di questi incontri:\n\n•\t 2 **druidi** (450 PE ciascuno) e 9 **uccelli stigei** (25 PE ciascuno), per un totale di 1.125 PE •\t 1 **wight** (700 PE), 1 **scheletro di cavallo da** **guerra** (100 PE) e 6 **scheletri** (50 PE ciascuno),  per un totale di 1.100 PE\n\n**Esempio 3.** Un incontro difficile per sei personaggi  al 15º livello ha un budget di PE di 7.800 × 6, per  un totale di 46.800 PE. Da qui puoi progettare  questo incontro:\n\n•\t 2 **draghi rossi adulti** (18.000 PE ciascuno)  e 2 **giganti del "
+                    "text": "Ogni creatura possiede un valore in PE nella sua  scheda delle statistiche. Quando aggiungi una  creatura al combattimento, detrai i suoi PE dal tuo  budget di PE per determinare quanti ne devono  ancora essere spesi. Spendi quanto più possibile i  PE nel budget senza sforare. Non è un problema se  te ne sono rimasti alcuni da spendere. Di seguito  sono riportati alcuni esempi: **Esempio 1.** Un incontro facile per quattro personaggi al 1º livello ha un budget di PE di 50 × 4, per  un totale di 200 PE. Da qui puoi creare uno dei  seguenti incontri:\n\n•\t 1 **guerriero bugbear** (200 PE) •\t 2 **vespe giganti** (100 PE ciascuna), per un totale di  200 PE •\t 6 **topi giganti** (25 PE ciascuno), per un totale di  150 PE\n\nEsempio 2.** Un incontro di media difficoltà per  cinque personaggi al 3º livello ha un budget di PE  di 225 × 5, per un totale di 1.125 PE. Da qui puoi  costruire uno di questi incontri:\n\n•\t 2 **druidi** (450 PE ciascuno) e 9 **uccelli stigei** (25 PE ciascuno), per un totale di 1.125 PE •\t 1 **wight** (700 PE), 1 **scheletro di cavallo da** **guerra** (100 PE) e 6 **scheletri** (50 PE ciascuno),  per un totale di 1.100 PE\n\nEsempio 3.** Un incontro difficile per sei personaggi  al 15º livello ha un budget di PE di 7.800 × 6, per  un totale di 46.800 PE. Da qui puoi progettare  questo incontro:\n\n•\t 2 **draghi rossi adulti** (18.000 PE ciascuno)  e 2 **giganti del "
                   },
                   {
                     "type": "damage_type",

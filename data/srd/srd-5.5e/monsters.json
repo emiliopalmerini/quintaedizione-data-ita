@@ -151,7 +151,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 16,  una creatura entro 9 metri affascinata o afferrata  ­dall'aboleth. *Fallimento:* 10 (3d6) danni psichici. *Suc**cesso:* danni dimezzati. *Fallimento o successo:*l'aboleth  acquisisce i ricordi del bersaglio se questo è un "
+            "text": ":* CD 16,  una creatura entro 9 metri affascinata o afferrata  ­dall'aboleth. *Fallimento:* 10 (3d6) danni psichici. *Successo:* danni dimezzati. *Fallimento o successo:*l'aboleth  acquisisce i ricordi del bersaglio se questo è un "
           },
           {
             "type": "creature_type",
@@ -1720,7 +1720,7 @@
           },
           {
             "type": "text",
-            "text": " e, se lo supera, l'effetto svanisce. *Secondo falli**mento:* il bersaglio è "
+            "text": " e, se lo supera, l'effetto svanisce. *Secondo fallimento:* il bersaglio è "
           },
           {
             "type": "condition",
@@ -4263,7 +4263,7 @@
           },
           {
             "type": "text",
-            "text": "*, *ristorare supe**riore*, *"
+            "text": "*, *ristorare superiore*, *"
           },
           {
             "type": "spell",
@@ -5245,7 +5245,7 @@
           },
           {
             "type": "text",
-            "text": "*, *trasfor**mazione* (solo in forma di "
+            "text": "*, *trasformazione* (solo in forma di "
           },
           {
             "type": "creature_type",
@@ -5940,7 +5940,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 21, qualsiasi  nemico che inizi il suo turno all'interno dell'aura. *Falli**mento:* il bersaglio è "
+            "text": ":* CD 21, qualsiasi  nemico che inizi il suo turno all'interno dell'aura. *Fallimento:* il bersaglio è "
           },
           {
             "type": "condition",
@@ -7084,7 +7084,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il doppelganger lancia *indivi**duazione dei pensieri* senza bisogno di componenti,  utilizzando "
+            "text": "Il doppelganger lancia *individuazione dei pensieri* senza bisogno di componenti,  utilizzando "
           },
           {
             "type": "ability",
@@ -7262,7 +7262,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 12, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 22 (5d8) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 12, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 22 (5d8) danni da "
           },
           {
             "type": "damage_type",
@@ -7393,7 +7393,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costi**tuzione:* CD 15, tutte le creature in un cono di 9 metri.  *Fallimento:* 40 (9d8) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 15, tutte le creature in un cono di 9 metri.  *Fallimento:* 40 (9d8) danni da "
           },
           {
             "type": "damage_type",
@@ -7543,7 +7543,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costi**tuzione:*CD 19, tutte le creature in un cono di 18 metri.  *Fallimento:* 54 (12d8) danni da "
+            "text": "*Tiro salvezza su Costituzione:*CD 19, tutte le creature in un cono di 18 metri.  *Fallimento:* 54 (12d8) danni da "
           },
           {
             "type": "damage_type",
@@ -7820,7 +7820,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 22, tutte le creature in un cono di 27 metri.  *Fallimento:* 63 (14d8) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 22, tutte le creature in un cono di 27 metri.  *Fallimento:* 63 (14d8) danni da "
           },
           {
             "type": "damage_type",
@@ -8386,7 +8386,7 @@
           },
           {
             "type": "text",
-            "text": "*, *invi**sibilità*, *"
+            "text": "*, *invisibilità*, *"
           },
           {
             "type": "spell",
@@ -8498,7 +8498,7 @@
           },
           {
             "type": "text",
-            "text": " usa Incantesimi per lanciare *invi**sibilità* su se stesso, e può "
+            "text": " usa Incantesimi per lanciare *invisibilità* su se stesso, e può "
           },
           {
             "type": "spell",
@@ -8820,7 +8820,7 @@
           },
           {
             "type": "text",
-            "text": " usa Incantesimi per lanciare *invi**sibilità* su se stesso, e può "
+            "text": " usa Incantesimi per lanciare *invisibilità* su se stesso, e può "
           },
           {
             "type": "spell",
@@ -8939,7 +8939,7 @@
         "description": [
           {
             "type": "text",
-            "text": ".*Tiro salvezza su Costitu**zione:* CD 13, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 18 (4d8) danni da "
+            "text": ".*Tiro salvezza su Costituzione:* CD 13, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 18 (4d8) danni da "
           },
           {
             "type": "damage_type",
@@ -9079,7 +9079,7 @@
         "description": [
           {
             "type": "text",
-            "text": ".*Tiro salvezza su Costi**tuzione:* CD 17, tutte le creature in un cono di 9 metri.  *Fallimento:* 49 (11d8) danni da "
+            "text": ".*Tiro salvezza su Costituzione:* CD 17, tutte le creature in un cono di 9 metri.  *Fallimento:* 49 (11d8) danni da "
           },
           {
             "type": "damage_type",
@@ -9301,7 +9301,7 @@
           },
           {
             "type": "text",
-            "text": "*, *indivi**duazione del magico*, *"
+            "text": "*, *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -9337,7 +9337,7 @@
         "description": [
           {
             "type": "text",
-            "text": ".*Tiro salvezza su Costitu**zione:* CD 20, tutte le creature in un cono di 18 metri.  *Fallimento:* 54 (12d8) danni da "
+            "text": ".*Tiro salvezza su Costituzione:* CD 20, tutte le creature in un cono di 18 metri.  *Fallimento:* 54 (12d8) danni da "
           },
           {
             "type": "damage_type",
@@ -9467,7 +9467,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 19, tutte le  creature in una linea lunga 18 metri e larga 3 metri. *Fal**limento:* 14 (4d6) danni da "
+            "text": ":* CD 19, tutte le  creature in una linea lunga 18 metri e larga 3 metri. *Fallimento:* 14 (4d6) danni da "
           },
           {
             "type": "damage_type",
@@ -9641,7 +9641,7 @@
           },
           {
             "type": "text",
-            "text": "*, *tele**trasporto*, *"
+            "text": "*, *teletrasporto*, *"
           },
           {
             "type": "spell",
@@ -9713,7 +9713,7 @@
         "description": [
           {
             "type": "text",
-            "text": ".*Tiro salvezza su Costitu**zione:* CD 24, tutte le creature in un cono di 27 metri.  *Fallimento:* 67 (15d8) danni da "
+            "text": ".*Tiro salvezza su Costituzione:* CD 24, tutte le creature in un cono di 27 metri.  *Fallimento:* 67 (15d8) danni da "
           },
           {
             "type": "damage_type",
@@ -10380,7 +10380,7 @@
           },
           {
             "type": "text",
-            "text": "*, *respi**rare sott'acqua* A volontà:*"
+            "text": "*, *respirare sott'acqua* A volontà:*"
           },
           {
             "type": "spell",
@@ -10389,7 +10389,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 2º livello), *individua**zione del magico*, *"
+            "text": "* (di 2º livello), *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -10434,7 +10434,7 @@
           },
           {
             "type": "text",
-            "text": ",* *senza punti ferita temporanei ottenuti dall'incante**simo, e senza richiedere concentrazione o punti ferita* *temporanei per mantenere l'incantesimo)*"
+            "text": ",* *senza punti ferita temporanei ottenuti dall'incantesimo, e senza richiedere concentrazione o punti ferita* *temporanei per mantenere l'incantesimo)*"
           }
         ]
       },
@@ -10774,7 +10774,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 2º livello), *individua**zione del magico*, *"
+            "text": "* (di 2º livello), *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -11367,7 +11367,7 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo men**tale* (di 4º livello)."
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo mentale* (di 4º livello)."
           }
         ]
       },
@@ -11421,7 +11421,7 @@
           },
           {
             "type": "text",
-            "text": "*, *ristorare supe**riore* A volontà:*"
+            "text": "*, *ristorare superiore* A volontà:*"
           },
           {
             "type": "spell",
@@ -11511,7 +11511,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 18, tutte le creature in un cono di 18 metri. *Falli**mento:* il bersaglio non può effettuare reazioni, la sua  "
+            "text": ":* CD 18, tutte le creature in un cono di 18 metri. *Fallimento:* il bersaglio non può effettuare reazioni, la sua  "
           },
           {
             "type": "spell",
@@ -11716,7 +11716,7 @@
           },
           {
             "type": "text",
-            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo men**tale* (di 5º livello)."
+            "text": " effettua tre attacchi Squarcio.  Può sostituire un attacco con un utilizzo di (A) Soffio  rallentante o (B) Incantesimi per lanciare *aculeo mentale* (di 5º livello)."
           }
         ]
       },
@@ -12110,7 +12110,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       },
@@ -12269,7 +12269,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       },
@@ -12491,7 +12491,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 2º livello), *individua**zione del magico*, *"
+            "text": "* (di 2º livello), *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -12545,7 +12545,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       },
@@ -12912,7 +12912,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 4º livello), *individua**zione del magico*, *"
+            "text": "* (di 4º livello), *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -12966,7 +12966,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       },
@@ -13568,7 +13568,7 @@
           },
           {
             "type": "text",
-            "text": "*, *indi**viduazione dei pensieri* A volontà:*"
+            "text": "*, *individuazione dei pensieri* A volontà:*"
           },
           {
             "type": "spell",
@@ -13631,7 +13631,7 @@
           },
           {
             "type": "text",
-            "text": ", senza punti ferita* *temporanei ottenuti dall'incantesimo, e senza richie**dere concentrazione o punti ferita temporanei per* *mantenere l'incantesimo)*"
+            "text": ", senza punti ferita* *temporanei ottenuti dall'incantesimo, e senza richiedere concentrazione o punti ferita temporanei per* *mantenere l'incantesimo)*"
           }
         ]
       },
@@ -13962,7 +13962,7 @@
           },
           {
             "type": "text",
-            "text": "*, *indi**viduazione dei pensieri* A volontà:*"
+            "text": "*, *individuazione dei pensieri* A volontà:*"
           },
           {
             "type": "spell",
@@ -14025,7 +14025,7 @@
           },
           {
             "type": "text",
-            "text": ",* *senza punti ferita temporanei ottenuti dall'incante**simo, e senza richiedere concentrazione o punti ferita* *temporanei per mantenere l'incantesimo)*"
+            "text": ",* *senza punti ferita temporanei ottenuti dall'incantesimo, e senza richiedere concentrazione o punti ferita* *temporanei per mantenere l'incantesimo)*"
           }
         ]
       },
@@ -15281,7 +15281,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       }
@@ -15403,7 +15403,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       }
@@ -15920,7 +15920,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       }
@@ -16149,7 +16149,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:*CD 11, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 21 (6d6) danni da "
+            "text": "*Tiro salvezza su Costituzione:*CD 11, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 21 (6d6) danni da "
           },
           {
             "type": "damage_type",
@@ -16287,7 +16287,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costi**tuzione:*CD 14, tutte le creature in un cono di 9 metri.  *Fallimento:* 42 (12d6) danni da "
+            "text": "*Tiro salvezza su Costituzione:*CD 14, tutte le creature in un cono di 9 metri.  *Fallimento:* 42 (12d6) danni da "
           },
           {
             "type": "damage_type",
@@ -16497,7 +16497,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 18, tutte le creature in un cono di 18 metri.  *Fallimento:* 56 (16d6) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 18, tutte le creature in un cono di 18 metri.  *Fallimento:* 56 (16d6) danni da "
           },
           {
             "type": "damage_type",
@@ -16816,7 +16816,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:*CD 22, tutte le creature in un cono di 27 metri.  *Fallimento:*77 (22d6) danni da "
+            "text": "*Tiro salvezza su Costituzione:*CD 22, tutte le creature in un cono di 27 metri.  *Fallimento:*77 (22d6) danni da "
           },
           {
             "type": "damage_type",
@@ -17809,7 +17809,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 7º livello), *spo**stamento planare* A volontà:*"
+            "text": "* (di 7º livello), *spostamento planare* A volontà:*"
           },
           {
             "type": "spell",
@@ -18349,7 +18349,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro per colpire**in mischia:* +7, portata 1,5 m.  *Colpito:* 13 (2d8 + 4) danni contundenti. Se il bersaglio  è una creatura di taglia Media o inferiore, cade a terra  "
+            "text": "*Tiro per colpirein mischia:* +7, portata 1,5 m.  *Colpito:* 13 (2d8 + 4) danni contundenti. Se il bersaglio  è una creatura di taglia Media o inferiore, cade a terra  "
           },
           {
             "type": "condition",
@@ -19906,7 +19906,7 @@
           },
           {
             "type": "text",
-            "text": ". *Falli**mento:* 10 (2d6 + 3) danni psichici, e il bersaglio è "
+            "text": ". *Fallimento:* 10 (2d6 + 3) danni psichici, e il bersaglio è "
           },
           {
             "type": "condition",
@@ -19982,7 +19982,7 @@
         "description": [
           {
             "type": "text",
-            "text": "La fauce gorgoglia in modo incoerente  fintanto che non è incapacitata. *Tiro salvezza su Sag**gezza:* CD 10, ogni creatura che inizi il suo turno entro  6 metri dalla fauce finché questa gorgoglia. *Fallimento:* il bersaglio tira 1d8 per determinare cosa fare nel turno  corrente: 1–4. Il bersaglio non fa nulla. 5–6. Il bersaglio non effettua alcuna azione, né azione  bonus, e usa tutto il suo movimento per muoversi in  una direzione casuale. 7–8. Il bersaglio effettua un attacco in mischia contro  una creatura determinata casualmente entro la sua  portata, oppure non fa nulla se non riesce a eseguire  tale attacco."
+            "text": "La fauce gorgoglia in modo incoerente  fintanto che non è incapacitata. *Tiro salvezza su Saggezza:* CD 10, ogni creatura che inizi il suo turno entro  6 metri dalla fauce finché questa gorgoglia. *Fallimento:* il bersaglio tira 1d8 per determinare cosa fare nel turno  corrente: 1–4. Il bersaglio non fa nulla. 5–6. Il bersaglio non effettua alcuna azione, né azione  bonus, e usa tutto il suo movimento per muoversi in  una direzione casuale. 7–8. Il bersaglio effettua un attacco in mischia contro  una creatura determinata casualmente entro la sua  portata, oppure non fa nulla se non riesce a eseguire  tale attacco."
           }
         ]
       },
@@ -21983,7 +21983,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 18, ogni creatura in un cilindro di  3 metri di raggio e 12 metri d'altezza in un punto che  il gigante è in grado di vedere entro 150 metri. *Falli**mento:*55 (10d10) danni da "
+            "text": ":* CD 18, ogni creatura in un cilindro di  3 metri di raggio e 12 metri d'altezza in un punto che  il gigante è in grado di vedere entro 150 metri. *Fallimento:*55 (10d10) danni da "
           },
           {
             "type": "damage_type",
@@ -22154,7 +22154,7 @@
           },
           {
             "type": "text",
-            "text": "*, *parola del potere stor**dire*, *"
+            "text": "*, *parola del potere stordire*, *"
           },
           {
             "type": "spell",
@@ -23377,7 +23377,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 18, tutte le creature in un cono di 18 metri.  *Fallimento:* 55 (10d10) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 18, tutte le creature in un cono di 18 metri.  *Fallimento:* 55 (10d10) danni da "
           },
           {
             "type": "damage_type",
@@ -23696,7 +23696,7 @@
           },
           {
             "type": "text",
-            "text": ":*CD 15, tutte le creature in un cono di  9 metri. *Primo**fallimento:* il bersaglio è "
+            "text": ":*CD 15, tutte le creature in un cono di  9 metri. *Primofallimento:* il bersaglio è "
           },
           {
             "type": "condition",
@@ -23714,7 +23714,7 @@
           },
           {
             "type": "text",
-            "text": " e, se lo supera, l'effetto  svanisce. *Secondo**fallimento:* il bersaglio è "
+            "text": " e, se lo supera, l'effetto  svanisce. *Secondofallimento:* il bersaglio è "
           },
           {
             "type": "condition",
@@ -25412,7 +25412,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Sag**gezza:* CD 15, una creatura che l'incubo è in grado di  vedere entro 18 metri. *Fallimento:* Se il bersaglio ha  20 punti ferita o meno, è "
+            "text": "*Tiro salvezza su Saggezza:* CD 15, una creatura che l'incubo è in grado di  vedere entro 18 metri. *Fallimento:* Se il bersaglio ha  20 punti ferita o meno, è "
           },
           {
             "type": "condition",
@@ -25774,7 +25774,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 25, la creatura scagliata  e tutte le creature nello spazio di destinazione. *Falli**mento:* 18 (4d8) danni contundenti, e il bersaglio cade  a terra "
+            "text": ":* CD 25, la creatura scagliata  e tutte le creature nello spazio di destinazione. *Fallimento:* 18 (4d8) danni contundenti, e il bersaglio cade  a terra "
           },
           {
             "type": "condition",
@@ -26450,7 +26450,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 5º livello), *indi**viduazione dei pensieri*, *"
+            "text": "* (di 5º livello), *individuazione dei pensieri*, *"
           },
           {
             "type": "spell",
@@ -26683,7 +26683,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 12, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 18 (4d8) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 12, tutte le creature in un cono di 4,5 metri.  *Fallimento:* 18 (4d8) danni da "
           },
           {
             "type": "damage_type",
@@ -26998,7 +26998,7 @@
           },
           {
             "type": "text",
-            "text": "* (inclusa nella CA), *indivi**duazione del magico*, *"
+            "text": "* (inclusa nella CA), *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -27016,7 +27016,7 @@
           },
           {
             "type": "text",
-            "text": "*, *prestidigi**tazione*"
+            "text": "*, *prestidigitazione*"
           }
         ]
       }
@@ -27205,7 +27205,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 9º livello), *scru**tare*, *"
+            "text": "* (di 9º livello), *scrutare*, *"
           },
           {
             "type": "spell",
@@ -27250,7 +27250,7 @@
           },
           {
             "type": "text",
-            "text": "* (inclusa nella CA), *camuf**fare se stesso*, *"
+            "text": "* (inclusa nella CA), *camuffare se stesso*, *"
           },
           {
             "type": "spell",
@@ -27259,7 +27259,7 @@
           },
           {
             "type": "text",
-            "text": "*, *individua**zione del magico*, *"
+            "text": "*, *individuazione del magico*, *"
           },
           {
             "type": "spell",
@@ -28508,7 +28508,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Sag**gezza:* CD 11, una creatura spaventata che la megera è  in grado di vedere entro 9 metri. *Fallimento:* se il bersaglio ha 20 punti ferita o meno, scende a 0 punti ferita.  Altrimenti, il bersaglio subisce 13 (3d8) danni psichici."
+            "text": "*Tiro salvezza su Saggezza:* CD 11, una creatura spaventata che la megera è  in grado di vedere entro 9 metri. *Fallimento:* se il bersaglio ha 20 punti ferita o meno, scende a 0 punti ferita.  Altrimenti, il bersaglio subisce 13 (3d8) danni psichici."
           }
         ]
       }
@@ -29016,7 +29016,7 @@
           },
           {
             "type": "text",
-            "text": "* (durata di 24 ore), *illu**sione minore*, *"
+            "text": "* (durata di 24 ore), *illusione minore*, *"
           },
           {
             "type": "spell",
@@ -29422,7 +29422,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 10, tutte le creature in un cono di 4,5 metri.  *Fallimento:*7 (3d4) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 10, tutte le creature in un cono di 4,5 metri.  *Fallimento:*7 (3d4) danni da "
           },
           {
             "type": "damage_type",
@@ -29733,7 +29733,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 10, tutte le creature in un cono di 4,5 metri.  *Fallimento:*5 (2d4) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 10, tutte le creature in un cono di 4,5 metri.  *Fallimento:*5 (2d4) danni da "
           },
           {
             "type": "damage_type",
@@ -29751,7 +29751,7 @@
           },
           {
             "type": "text",
-            "text": " del  bersaglio è ridotta di 3 metri fino al termine del turno  successivo del mephit. *Successo:* danni dimezzati. *Fal**limento o successo:* trovarsi sott'acqua non conferisce  alcuna resistenza contro questi danni da "
+            "text": " del  bersaglio è ridotta di 3 metri fino al termine del turno  successivo del mephit. *Successo:* danni dimezzati. *Fallimento o successo:* trovarsi sott'acqua non conferisce  alcuna resistenza contro questi danni da "
           },
           {
             "type": "damage_type",
@@ -29846,7 +29846,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 10, tutte le creature in  un'emanazione di 1,5 metri di cui il mephit è il punto  di origine. *Fallimento:* 5 (2d4) danni contundenti. *Suc**cesso:* danni dimezzati."
+            "text": ":* CD 10, tutte le creature in  un'emanazione di 1,5 metri di cui il mephit è il punto  di origine. *Fallimento:* 5 (2d4) danni contundenti. *Successo:* danni dimezzati."
           }
         ]
       }
@@ -31256,7 +31256,7 @@
           },
           {
             "type": "text",
-            "text": "* (di 3º livello), *indi**viduazione dei pensieri*, *"
+            "text": "* (di 3º livello), *individuazione dei pensieri*, *"
           },
           {
             "type": "damage_type",
@@ -32793,7 +32793,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro per col**pire in mischia o a distanza:* +7, portata 1,5 m o gittata  6/18 m. *Colpito:* 14 (3d6 + 4) danni taglienti."
+            "text": "*Tiro per colpire in mischia o a distanza:* +7, portata 1,5 m o gittata  6/18 m. *Colpito:* 14 (3d6 + 4) danni taglienti."
           }
         ]
       },
@@ -33009,7 +33009,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 14, tutte le creature afferrate dall'otyugh. *Falli**mento:* 16 (3d8 + 3) danni contundenti, e il bersaglio è  "
+            "text": ":* CD 14, tutte le creature afferrate dall'otyugh. *Fallimento:* 16 (3d8 + 3) danni contundenti, e il bersaglio è  "
           },
           {
             "type": "condition",
@@ -34526,7 +34526,7 @@
           },
           {
             "type": "text",
-            "text": "*, *indi**viduazione dei pensieri*, *"
+            "text": "*, *individuazione dei pensieri*, *"
           },
           {
             "type": "spell",
@@ -34562,7 +34562,7 @@
           },
           {
             "type": "text",
-            "text": ":* CD 18, tutti i nemici in un'emanazione di  9 metri di cui il rakshasa è il punto di origine. *Falli**mento:* 28 (8d6) danni psichici, e il bersaglio è "
+            "text": ":* CD 18, tutti i nemici in un'emanazione di  9 metri di cui il rakshasa è il punto di origine. *Fallimento:* 28 (8d6) danni psichici, e il bersaglio è "
           },
           {
             "type": "condition",
@@ -35129,7 +35129,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote lancia *benedi**zione*, *"
+            "text": "Il sacerdote lancia *benedizione*, *"
           },
           {
             "type": "spell",
@@ -35291,7 +35291,7 @@
         "description": [
           {
             "type": "text",
-            "text": "Il sacerdote lancia *bene**dizione*, *"
+            "text": "Il sacerdote lancia *benedizione*, *"
           },
           {
             "type": "spell",
@@ -36092,7 +36092,7 @@
           },
           {
             "type": "text",
-            "text": ". *Suc**cesso:* danni dimezzati."
+            "text": ". *Successo:* danni dimezzati."
           }
         ]
       }
@@ -36387,7 +36387,7 @@
           },
           {
             "type": "text",
-            "text": "*, *rimuovi maledi**zione*, *"
+            "text": "*, *rimuovi maledizione*, *"
           },
           {
             "type": "spell",
@@ -36450,7 +36450,7 @@
           },
           {
             "type": "text",
-            "text": ":*CD 16, tutti i nemici in un'emanazione  di 90 metri di cui la sfinge è il punto di origine. *Falli**mento:* 35 (10d6) danni psichici, e il bersaglio è "
+            "text": ":*CD 16, tutti i nemici in un'emanazione  di 90 metri di cui la sfinge è il punto di origine. *Fallimento:* 35 (10d6) danni psichici, e il bersaglio è "
           },
           {
             "type": "condition",
@@ -36694,7 +36694,7 @@
           },
           {
             "type": "text",
-            "text": "*, *tauma**turgia* Primo ruggito.*Tiro salvezza su "
+            "text": "*, *taumaturgia* Primo ruggito.*Tiro salvezza su "
           },
           {
             "type": "ability",
@@ -37975,7 +37975,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro per colpire in mischia:* +19, portata 9 m. *Col**pito:* 23 (3d8 + 10) danni contundenti. Se il bersaglio è  una creatura di taglia Enorme o inferiore, cade a terra  "
+            "text": "*Tiro per colpire in mischia:* +19, portata 9 m. *Colpito:* 23 (3d8 + 10) danni contundenti. Se il bersaglio è  una creatura di taglia Enorme o inferiore, cade a terra  "
           },
           {
             "type": "condition",
@@ -38280,7 +38280,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costi**tuzione:* CD 19, tutte le creature in un cono di 18 metri.  *Fallimento:* 56 (16d6) danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 19, tutte le creature in un cono di 18 metri.  *Fallimento:* 56 (16d6) danni da "
           },
           {
             "type": "damage_type",
@@ -39725,7 +39725,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro per col**pire in mischia:* +9, portata 1,5 m. *Colpito:* 8 (1d8 + 4)  danni contundenti più 7 (2d6) danni necrotici. Se il bersaglio è una creatura di taglia Grande o inferiore, è  "
+            "text": "*Tiro per colpire in mischia:* +9, portata 1,5 m. *Colpito:* 8 (1d8 + 4)  danni contundenti più 7 (2d6) danni necrotici. Se il bersaglio è una creatura di taglia Grande o inferiore, è  "
           },
           {
             "type": "condition",
@@ -40502,7 +40502,7 @@
         "description": [
           {
             "type": "text",
-            "text": "*Tiro salvezza su Costitu**zione:* CD 15, tutte le creature in un'emanazione di  6 metri di cui il vrock è il punto di origine (i demoni  superano automaticamente il tiro). *Fallimento:* 10 (3d6)  danni da "
+            "text": "*Tiro salvezza su Costituzione:* CD 15, tutte le creature in un'emanazione di  6 metri di cui il vrock è il punto di origine (i demoni  superano automaticamente il tiro). *Fallimento:* 10 (3d6)  danni da "
           },
           {
             "type": "damage_type",
@@ -44834,7 +44834,7 @@
           },
           {
             "type": "text",
-            "text": "*, *indivi**duazione del magico*"
+            "text": "*, *individuazione del magico*"
           }
         ]
       }

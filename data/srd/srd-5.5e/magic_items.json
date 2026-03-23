@@ -613,7 +613,7 @@
       },
       {
         "type": "text",
-        "text": "*(3 cariche), *pelle**di pietra* (3 cariche)*, "
+        "text": "*(3 cariche), *pelledi pietra* (3 cariche)*, "
       },
       {
         "type": "spell",
@@ -1198,7 +1198,7 @@
       },
       {
         "type": "text",
-        "text": " e ai danni psichici.\n\n**Leve dell'apparatus del granchio**\n\n| Leva | Su |  | Giù |  |\n| --- | --- | --- | --- | --- |\n| 1 | Le zampe si estendono, permettendo all'apparatus di |  | Le zampe dell'apparatus si ritirano, riducendo la sua |  |\n|  | camminare e nuotare. |  | "
+        "text": " e ai danni psichici.\n\nLeve dell'apparatus del granchio**\n\n| Leva | Su |  | Giù |  |\n| --- | --- | --- | --- | --- |\n| 1 | Le zampe si estendono, permettendo all'apparatus di |  | Le zampe dell'apparatus si ritirano, riducendo la sua |  |\n|  | camminare e nuotare. |  | "
       },
       {
         "type": "spell",
@@ -1867,7 +1867,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Questa bacchetta ha 7 cariche. Mentre il personaggio la impugna, può effettuare un'azione di Magia  per consumare 1 carica e scegliere un punto entro  36 metri da sé. Quel luogo diventa il punto di origine  di un incantesimo o un altro effetto magico determinato tirando sulla tabella Effetti della bacchetta  delle meraviglie. Gli incantesimi lanciati dalla  bacchetta hanno una CD del tiro salvezza pari a 15.  Se la normale gittata massima dell'incantesimo è  inferiore a 36 metri, diventa di 36 metri quando  viene lanciato dalla bacchetta. Se un effetto può  colpire diversi bersagli, sarà il GM a determinare  casualmente quelli che ne vengono influenzati. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta si sbriciola  ed è distrutta.\n\n**Effetti della bacchetta delle meraviglie**\n\n| 1d100 1d100 | Effetto Effetto gigante |  | 1–2 | 1 rana |  | 3–4 7–8 4 | orso nero |  | 9–10 | vespa | 5–6 2–3 |  | 1d100 | Effetto "
+        "text": "Questa bacchetta ha 7 cariche. Mentre il personaggio la impugna, può effettuare un'azione di Magia  per consumare 1 carica e scegliere un punto entro  36 metri da sé. Quel luogo diventa il punto di origine  di un incantesimo o un altro effetto magico determinato tirando sulla tabella Effetti della bacchetta  delle meraviglie. Gli incantesimi lanciati dalla  bacchetta hanno una CD del tiro salvezza pari a 15.  Se la normale gittata massima dell'incantesimo è  inferiore a 36 metri, diventa di 36 metri quando  viene lanciato dalla bacchetta. Se un effetto può  colpire diversi bersagli, sarà il GM a determinare  casualmente quelli che ne vengono influenzati. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  la bacchetta recupera 1d6 + 1 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, la bacchetta si sbriciola  ed è distrutta.\n\nEffetti della bacchetta delle meraviglie**\n\n| 1d100 1d100 | Effetto Effetto gigante |  | 1–2 | 1 rana |  | 3–4 7–8 4 | orso nero |  | 9–10 | vespa | 5–6 2–3 |  | 1d100 | Effetto "
       },
       {
         "type": "equipment",
@@ -2262,7 +2262,7 @@
       },
       {
         "type": "text",
-        "text": "* 5\n\n_**Forma arborea.**_ Il personaggio può effettuare  un'azione di Magia per piantare un'estremità del  bastone a terra in uno spazio libero e consumare  1 carica per trasformarlo in un albero rigoglioso.  L'albero è alto 18 metri, ha un tronco del diametro  di 1,5 metri e i rami sulla cima si estendono in un  raggio di 6 metri. All'apparenza sembra normale,  ma irradia una tenue aura di magia di trasmutazione rilevabile attraverso l'incantesimo *individua**zione del magico*. Se il personaggio tocca l'albero ed  effettua un'azione di Magia, il bastone torna alla sua  forma originaria facendo cadere ogni creatura che  si trova su di esso. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  il bastone recupera 1d6 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, il bastone perde le sue  proprietà e diventa un "
+        "text": "* 5\n\n_**Forma arborea.**_ Il personaggio può effettuare  un'azione di Magia per piantare un'estremità del  bastone a terra in uno spazio libero e consumare  1 carica per trasformarlo in un albero rigoglioso.  L'albero è alto 18 metri, ha un tronco del diametro  di 1,5 metri e i rami sulla cima si estendono in un  raggio di 6 metri. All'apparenza sembra normale,  ma irradia una tenue aura di magia di trasmutazione rilevabile attraverso l'incantesimo *individuazione del magico*. Se il personaggio tocca l'albero ed  effettua un'azione di Magia, il bastone torna alla sua  forma originaria facendo cadere ogni creatura che  si trova su di esso. _**Ripristinare le cariche.**_ All'alba di ogni giorno,  il bastone recupera 1d6 cariche consumate.  Se il personaggio consuma l'ultima carica, deve  tirare 1d20. Se ottiene 1, il bastone perde le sue  proprietà e diventa un "
       },
       {
         "type": "equipment",
@@ -3463,7 +3463,7 @@
       },
       {
         "type": "text",
-        "text": ". Dopo che dalla borsa sono stati estratti tre oggetti  lanuginosi, non può essere riutilizzata fino all'alba  successiva.\n\n**Borsa dei trucchi grigia**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Alce gigante | 5 | Pantera |\n| 2 | Cinghiale | 6 | Tasso |\n| 3 | Faina | 7 | Tasso gigante |\n| 4 | Lupo feroce | 8 | Topo gigante |\n\n**Borsa dei trucchi ruggine**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Capra | 5 | Leone |\n| 2 | Capra gigante | 6 | "
+        "text": ". Dopo che dalla borsa sono stati estratti tre oggetti  lanuginosi, non può essere riutilizzata fino all'alba  successiva.\n\nBorsa dei trucchi grigia**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Alce gigante | 5 | Pantera |\n| 2 | Cinghiale | 6 | Tasso |\n| 3 | Faina | 7 | Tasso gigante |\n| 4 | Lupo feroce | 8 | Topo gigante |\n\nBorsa dei trucchi ruggine**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Capra | 5 | Leone |\n| 2 | Capra gigante | 6 | "
       },
       {
         "type": "equipment",
@@ -3472,7 +3472,7 @@
       },
       {
         "type": "text",
-        "text": " |\n| 3 | Cinghiale gigante | 7 | Orso bruno |\n| 4 | Gufo | 8 | Topo |\n\n**Borsa dei trucchi marrone**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Babbuino | 5 | Iena gigante |\n| 2 | Beccoaguzzo | 6 | Orso nero |\n| 3 | Faina gigante | 7 | Sciacallo |\n| 4 | Gorilla | 8 | Tigre |"
+        "text": " |\n| 3 | Cinghiale gigante | 7 | Orso bruno |\n| 4 | Gufo | 8 | Topo |\n\nBorsa dei trucchi marrone**\n\n| 1d8 | Creatura | 1d8 | Creatura |\n| --- | --- | --- | --- |\n| 1 | Babbuino | 5 | Iena gigante |\n| 2 | Beccoaguzzo | 6 | Orso nero |\n| 3 | Faina gigante | 7 | Sciacallo |\n| 4 | Gorilla | 8 | Tigre |"
       }
     ]
   },
@@ -3696,7 +3696,7 @@
       },
       {
         "type": "text",
-        "text": ") con  CD 10. In caso di successo, la creatura riesce  a uscire e compare entro 1,5 metri dal *buco porta**tile*. Un *buco portatile* contiene una quantità d'aria  sufficiente per 1 ora, da dividere per il numero di  creature che respirano al suo interno. Collocare un *buco portatile* all'interno di uno  spazio extradimensionale, come quello creato da  uno *zainetto pratico*, da una *borsa conservante* o  da altri oggetti simili, distrugge istantaneamente  entrambi gli oggetti e apre un "
+        "text": ") con  CD 10. In caso di successo, la creatura riesce  a uscire e compare entro 1,5 metri dal *buco portatile*. Un *buco portatile* contiene una quantità d'aria  sufficiente per 1 ora, da dividere per il numero di  creature che respirano al suo interno. Collocare un *buco portatile* all'interno di uno  spazio extradimensionale, come quello creato da  uno *zainetto pratico*, da una *borsa conservante* o  da altri oggetti simili, distrugge istantaneamente  entrambi gli oggetti e apre un "
       },
       {
         "type": "spell",
@@ -4245,7 +4245,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Questa sostanza viscosa e lattiginosa può creare  un legame adesivo permanente tra due oggetti  qualsiasi. Deve essere custodita in un barattolo o in  un'ampolla al cui interno sia stato spalmato dell'*olio* *della scivolosità*. Quando viene trovato, il contenitore contiene (1d6 + 1) x 30 grammi di colla. Una quantità di colla pari a 30 grammi può  coprire una superficie quadrata con lato di 30  centimetri. Per applicare 30 grammi di *colla mera**vigliosa* è necessaria un'azione di Utilizzo; la colla  avrà effetto dopo 1 minuto. Il legame così creatosi  può essere spezzato solamente con un'applicazione  di *solvente universale* o di *olio della "
+        "text": "Questa sostanza viscosa e lattiginosa può creare  un legame adesivo permanente tra due oggetti  qualsiasi. Deve essere custodita in un barattolo o in  un'ampolla al cui interno sia stato spalmato dell'*olio* *della scivolosità*. Quando viene trovato, il contenitore contiene (1d6 + 1) x 30 grammi di colla. Una quantità di colla pari a 30 grammi può  coprire una superficie quadrata con lato di 30  centimetri. Per applicare 30 grammi di *colla meravigliosa* è necessaria un'azione di Utilizzo; la colla  avrà effetto dopo 1 minuto. Il legame così creatosi  può essere spezzato solamente con un'applicazione  di *solvente universale* o di *olio della "
       },
       {
         "type": "spell",
@@ -4826,7 +4826,7 @@
       },
       {
         "type": "text",
-        "text": ". Inizialmente il cubo ha 10 cariche e recupera 1d6  cariche consumate all'alba di ogni giorno.\n\n**Facce del cubo di "
+        "text": ". Inizialmente il cubo ha 10 cariche e recupera 1d6  cariche consumate all'alba di ogni giorno.\n\nFacce del cubo di "
       },
       {
         "type": "damage_type",
@@ -6810,7 +6810,7 @@
       },
       {
         "type": "text",
-        "text": ") con CD 15. L'illusione  dura finché la carta non viene spostata o l'illusione  non viene dissolta (usando un incantesimo *dissolvi* *magie* o simile). Quando l'illusione termina, l'immagine raffigurata sulla sua carta scompare e la carta  non può più essere utilizzata.\n\n**Mazzo delle illusioni**\n\n| 1d100 | Illusione* |  | 1d100 | Illusione* |\n| --- | --- | --- | --- | --- |\n|  |  |  | 49–51 | Guerriero coboldo |\n|  |  |  | 52–54 | Guerriero gnoll |\n|  |  |  | 55–57 | Guerriero goblin |\n|  |  |  | 58–60 | Guerriero hobgoblin |\n|  |  |  | 61–63 | Guerriero veterano |\n|  |  |  | 64–66 | Incubo |\n|  |  |  | 67–69 | Lich |\n|  |  |  | 70–72 | Medusa |\n|  |  |  | 73–75 | Megera notturna |\n|  |  |  | 76–78 | Naga guardiana |\n|  |  |  | 79–81 | Ogre |\n|  |  |  | 82–84 | Oni |\n|  |  |  | 85–87 | Sacerdote |\n|  |  |  | 88–90 | Succube |\n|  |  |  | 91–93 | Troll |\n|  |  |  | 94–96 | Viverna |\n|  |  | *Le schede delle statistiche per queste creature (eccetto il perso­ naggio) sono disponibili nel capitolo \"Mostri\". | 97–00 | Il personaggio |\n| 01–03 | Arcimago |  |  |  |\n| 04–06 | Assassino |  |  |  |\n| 07–09 | Basilisco |  |  |  |\n| 10–12 | Berserker |  |  |  |\n| 13–15 | Capitano bandito |  |  |  |\n| 16–18 | Cavaliere |  |  |  |\n| 19–21 | "
+        "text": ") con CD 15. L'illusione  dura finché la carta non viene spostata o l'illusione  non viene dissolta (usando un incantesimo *dissolvi* *magie* o simile). Quando l'illusione termina, l'immagine raffigurata sulla sua carta scompare e la carta  non può più essere utilizzata.\n\nMazzo delle illusioni**\n\n| 1d100 | Illusione* |  | 1d100 | Illusione* |\n| --- | --- | --- | --- | --- |\n|  |  |  | 49–51 | Guerriero coboldo |\n|  |  |  | 52–54 | Guerriero gnoll |\n|  |  |  | 55–57 | Guerriero goblin |\n|  |  |  | 58–60 | Guerriero hobgoblin |\n|  |  |  | 61–63 | Guerriero veterano |\n|  |  |  | 64–66 | Incubo |\n|  |  |  | 67–69 | Lich |\n|  |  |  | 70–72 | Medusa |\n|  |  |  | 73–75 | Megera notturna |\n|  |  |  | 76–78 | Naga guardiana |\n|  |  |  | 79–81 | Ogre |\n|  |  |  | 82–84 | Oni |\n|  |  |  | 85–87 | Sacerdote |\n|  |  |  | 88–90 | Succube |\n|  |  |  | 91–93 | Troll |\n|  |  |  | 94–96 | Viverna |\n|  |  | *Le schede delle statistiche per queste creature (eccetto il perso­ naggio) sono disponibili nel capitolo \"Mostri\". | 97–00 | Il personaggio |\n| 01–03 | Arcimago |  |  |  |\n| 04–06 | Assassino |  |  |  |\n| 07–09 | Basilisco |  |  |  |\n| 10–12 | Berserker |  |  |  |\n| 13–15 | Capitano bandito |  |  |  |\n| 16–18 | Cavaliere |  |  |  |\n| 19–21 | "
       },
       {
         "type": "creature_type",
@@ -6842,7 +6842,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Questo mazzo in genere si trova in una scatola o in  un sacchetto ed è composto da una serie di carte di  avorio o di pergamena. La maggior parte (75%) di  questi mazzi è composta da 13 carte, ma alcuni ne  hanno 22. Fai riferimento alla colonna appropriata  della tabella del Mazzo delle meraviglie per determinare le carte estratte dal mazzo in modo casuale. Prima di pescare una carta, il personaggio deve  dichiarare quante carte ha intenzione di pescare  complessivamente e poi pescarle in maniera  casuale. Le eventuali carte pescate in eccesso oltre  il numero dichiarato non hanno alcun effetto. Altrimenti, non appena il personaggio pesca una carta  dal mazzo, la sua magia ha effetto. Il personaggio  deve pescare ogni carta entro 1 ora dall'ultima  carta pescata. Se non riesce a pescare il numero  di carte dichiarato, le carte restanti volano via dal  mazzo da sole e hanno effetto simultaneamente. Una volta pescate dal mazzo, le carte svaniscono.  A eccezione della Matta e del Giullare, le altre carte  ricompaiono nel mazzo, quindi è possibile pescare  la stessa carta due volte (una volta che queste due  figure sono uscite dal mazzo, se la carta in questione esce di nuovo, il giocatore può ripetere il tiro  sulla tabella).\n\n**Mazzo delle meraviglie**\n\n| 1d100 (Mazzo da 13 carte) |  | 1d100 (Mazzo da 22 carte) | Carta |\n| --- | --- | --- | --- |\n|  | — | 01–03 | Artigli |\n|  | — | 04–08 | Bilancia |\n| 01–08 |  | 09–13 | Cavaliere |\n| 09–16 |  | 14–18 | Chiave |\n|  | — | 19–23 | Cometa |\n|  | — | 24–27 | Destino |\n| 17–24 |  | 28–31 | Eurialo |\n| 25–32 |  | 32–35 | Fiamme |\n|  | — | 36–40 | Gemma |\n| 33–40 |  | 41–45 | Giullare |\n| 41–48 |  | 46–52 | Luna |\n|  | — | 53–56 | Matta |\n|  | — | 57–60 | Prigione |\n| 49–56 |  | 61–64 | Ribelle |\n|  | — | 65–68 | Rompicapo |\n| 57–64 |  | 69–72 | Rovina |\n|  | — | 73–77 | Sapiente |\n| 65–72 |  | 78–82 | Sole |\n| 73–80 |  | 83–87 | Stella |\n| 81–88 |  | 88–91 | Teschio |\n| 89–96 |  | 92–96 | Trono |\n| 97–00 |  | 97–00 | Vuoto | L'effetto di ciascuna carta è descritto di seguito. _**Artigli.**_Tutti gli oggetti magici indossati o  trasportati dal personaggio si disintegrano. I manufatti in suo possesso, invece, svaniscono. _**Bilancia.**_ Il personaggio può aumentare uno dei  propri punteggi di caratteristica di 2, fino a un massimo di 22, a patto di ridurre di 2 un altro dei suoi  punteggi di caratteristica. Non è possibile ridurre  una caratteristica con un punteggio di 5 o inferiore.  In alternativa, il personaggio può scegliere di non  modificare i punteggi di caratteristica; in tal caso,  questa carta non ha effetto. _**Cavaliere.**_ Il personaggio ottiene il servizio di un  **cavaliere**, il quale compare magicamente in uno  spazio libero a scelta del personaggio entro 9 metri  da questi. Il cavaliere ha lo stesso allineamento  del personaggio e lo serve fedelmente fino alla  morte, credendo che sia stato il destino a farli  incontrare. GM e giocatore devono collaborare per  creare un nome e una "
+        "text": "Questo mazzo in genere si trova in una scatola o in  un sacchetto ed è composto da una serie di carte di  avorio o di pergamena. La maggior parte (75%) di  questi mazzi è composta da 13 carte, ma alcuni ne  hanno 22. Fai riferimento alla colonna appropriata  della tabella del Mazzo delle meraviglie per determinare le carte estratte dal mazzo in modo casuale. Prima di pescare una carta, il personaggio deve  dichiarare quante carte ha intenzione di pescare  complessivamente e poi pescarle in maniera  casuale. Le eventuali carte pescate in eccesso oltre  il numero dichiarato non hanno alcun effetto. Altrimenti, non appena il personaggio pesca una carta  dal mazzo, la sua magia ha effetto. Il personaggio  deve pescare ogni carta entro 1 ora dall'ultima  carta pescata. Se non riesce a pescare il numero  di carte dichiarato, le carte restanti volano via dal  mazzo da sole e hanno effetto simultaneamente. Una volta pescate dal mazzo, le carte svaniscono.  A eccezione della Matta e del Giullare, le altre carte  ricompaiono nel mazzo, quindi è possibile pescare  la stessa carta due volte (una volta che queste due  figure sono uscite dal mazzo, se la carta in questione esce di nuovo, il giocatore può ripetere il tiro  sulla tabella).\n\nMazzo delle meraviglie**\n\n| 1d100 (Mazzo da 13 carte) |  | 1d100 (Mazzo da 22 carte) | Carta |\n| --- | --- | --- | --- |\n|  | — | 01–03 | Artigli |\n|  | — | 04–08 | Bilancia |\n| 01–08 |  | 09–13 | Cavaliere |\n| 09–16 |  | 14–18 | Chiave |\n|  | — | 19–23 | Cometa |\n|  | — | 24–27 | Destino |\n| 17–24 |  | 28–31 | Eurialo |\n| 25–32 |  | 32–35 | Fiamme |\n|  | — | 36–40 | Gemma |\n| 33–40 |  | 41–45 | Giullare |\n| 41–48 |  | 46–52 | Luna |\n|  | — | 53–56 | Matta |\n|  | — | 57–60 | Prigione |\n| 49–56 |  | 61–64 | Ribelle |\n|  | — | 65–68 | Rompicapo |\n| 57–64 |  | 69–72 | Rovina |\n|  | — | 73–77 | Sapiente |\n| 65–72 |  | 78–82 | Sole |\n| 73–80 |  | 83–87 | Stella |\n| 81–88 |  | 88–91 | Teschio |\n| 89–96 |  | 92–96 | Trono |\n| 97–00 |  | 97–00 | Vuoto | L'effetto di ciascuna carta è descritto di seguito. _**Artigli.**_Tutti gli oggetti magici indossati o  trasportati dal personaggio si disintegrano. I manufatti in suo possesso, invece, svaniscono. _**Bilancia.**_ Il personaggio può aumentare uno dei  propri punteggi di caratteristica di 2, fino a un massimo di 22, a patto di ridurre di 2 un altro dei suoi  punteggi di caratteristica. Non è possibile ridurre  una caratteristica con un punteggio di 5 o inferiore.  In alternativa, il personaggio può scegliere di non  modificare i punteggi di caratteristica; in tal caso,  questa carta non ha effetto. _**Cavaliere.**_ Il personaggio ottiene il servizio di un  **cavaliere**, il quale compare magicamente in uno  spazio libero a scelta del personaggio entro 9 metri  da questi. Il cavaliere ha lo stesso allineamento  del personaggio e lo serve fedelmente fino alla  morte, credendo che sia stato il destino a farli  incontrare. GM e giocatore devono collaborare per  creare un nome e una "
       },
       {
         "type": "skill",

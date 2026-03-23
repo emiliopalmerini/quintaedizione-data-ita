@@ -75,7 +75,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Tutte le creature, personaggi e mostri, hanno sei  caratteristiche che ne misurano le facoltà fisiche  e mentali, come indicato nella tabella Descrizioni  delle caratteristiche.\n\n**Descrizioni delle caratteristiche**\n\n|  |  |\n| --- | --- |\n| Caratteristica Il punteggio misura... |  |"
+            "text": "Tutte le creature, personaggi e mostri, hanno sei  caratteristiche che ne misurano le facoltà fisiche  e mentali, come indicato nella tabella Descrizioni  delle caratteristiche.\n\nDescrizioni delle caratteristiche**\n\n|  |  |\n| --- | --- |\n| Caratteristica Il punteggio misura... |  |"
           }
         ],
         "children": [
@@ -85,7 +85,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Ogni caratteristica ha un punteggio che va da 1  a 20, anche se alcuni mostri hanno un punteggio  che arriva fino a un massimo di 30. Il punteggio  rappresenta la scala di una caratteristica. La tabella  Punteggi di caratteristica riassume il significato dei  punteggi.\n\n**Punteggi di caratteristica**\n\n|  |  |\n| --- | --- |\n| Punteggio Significato |  |\n\nArrotondareperdifetto Ogni volta che è necessario dividere o moltiplicare un  numero nel gioco, si deve arrotondare per difetto se  il risultato è una frazione, anche nel caso in cui la frazione raggiunga o superi la metà. Alcune regole fanno  eccezione e specificano di arrotondare per eccesso."
+                "text": "Ogni caratteristica ha un punteggio che va da 1  a 20, anche se alcuni mostri hanno un punteggio  che arriva fino a un massimo di 30. Il punteggio  rappresenta la scala di una caratteristica. La tabella  Punteggi di caratteristica riassume il significato dei  punteggi.\n\nPunteggi di caratteristica**\n\n|  |  |\n| --- | --- |\n| Punteggio Significato |  |\n\nArrotondareperdifetto Ogni volta che è necessario dividere o moltiplicare un  numero nel gioco, si deve arrotondare per difetto se  il risultato è una frazione, anche nel caso in cui la frazione raggiunga o superi la metà. Alcune regole fanno  eccezione e specificano di arrotondare per eccesso."
               }
             ],
             "children": []
@@ -96,7 +96,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "A ogni caratteristica è abbinato un modificatore  che si applica ogni volta che si effettua una prova  con d20 con quella caratteristica (come spiegato nel  capitolo \"Prove con d20\"). Un modificatore di caratteristica deriva dal suo punteggio, come indicato  nella tabella \"Modificatori di caratteristica\".\n\n**Modificatori di caratteristica**\n\n| Punteggio | Modificatore | Punteggio |  | Modificatore |\n| --- | --- | --- | --- | --- |\n| 1 | −5 | 16–17 |  | +3 |\n| 2–3 | −4 | 18–19 |  | +4 |\n| 4–5 | −3 | 20–21 |  | +5 |\n| 6–7 | −2 | 22–23 |  | +6 |\n| 8–9 | −1 | 24–25 |  | +7 |\n| 10–11 | +0 | 26–27 |  | +8 |\n| 12–13 | +1 | 28–29 |  | +9 |\n| 14–15 | +2 |  | 30 | +10 |"
+                "text": "A ogni caratteristica è abbinato un modificatore  che si applica ogni volta che si effettua una prova  con d20 con quella caratteristica (come spiegato nel  capitolo \"Prove con d20\"). Un modificatore di caratteristica deriva dal suo punteggio, come indicato  nella tabella \"Modificatori di caratteristica\".\n\nModificatori di caratteristica**\n\n| Punteggio | Modificatore | Punteggio |  | Modificatore |\n| --- | --- | --- | --- | --- |\n| 1 | −5 | 16–17 |  | +3 |\n| 2–3 | −4 | 18–19 |  | +4 |\n| 4–5 | −3 | 20–21 |  | +5 |\n| 6–7 | −2 | 22–23 |  | +6 |\n| 8–9 | −1 | 24–25 |  | +7 |\n| 10–11 | +0 | 26–27 |  | +8 |\n| 12–13 | +1 | 28–29 |  | +9 |\n| 14–15 | +2 |  | 30 | +10 |"
               }
             ],
             "children": []
@@ -109,7 +109,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quando l'esito di un'azione è incerto, il gioco utilizza il tiro di un d20 per determinarne il successo o  il fallimento. Questi tiri si chiamano prove con d20 e  sono di tre tipi: prove di caratteristica, tiri salvezza  e tiri per colpire. Tutti e tre prevedono i passi  seguenti: **1:\tTirare 1d20.** Ottenere un numero alto è sempre  il risultato migliore. Se il tiro dispone di vantaggio o svantaggio (descritti più avanti nel capitolo  \"Come si gioca\"), si tirano due d20, ma si usa  soltanto un risultato: quello più alto se si dispone  di vantaggio o quello più basso se si subisce  svantaggio. **2:\tAggiungere i modificatori.** Si tira un d20  e si aggiungono questi modificatori al numero  ottenuto: •\t**Il modificatore di caratteristica rilevante.** I capitoli \"Come si gioca\" e \"Glossario delle  regole\" spiegano quali modificatori di caratteristica utilizzare per le varie prove con d20. •\t**Il proprio bonus di competenza, se rilevante.** Ogni creatura possiede un bonus di competenza,  ovvero un numero da aggiungere alla prova con  d20 che utilizza qualcosa in cui il personaggio  abbia una certa competenza, come un'abilità.  Vedi la sezione \"Competenza\" più avanti nel  ­capitolo \"Come si gioca\". •\t**Bonus e penalità circostanziali.** Un privilegio  di classe, un incantesimo o un'altra regola  potrebbe conferire un bonus o una penalità  al tiro. **3:\tConfrontare il totale con un numero bersaglio.** Se il totale ottenuto sommando il tiro del d20 e i  relativi modificatori è pari o superiore al numero  bersaglio, la prova con d20 ha successo. In caso  contrario, fallisce. Il Game Master determina  i numeri bersaglio e comunica ai giocatori se i  loro tiri hanno avuto o meno successo. Il numero  bersaglio per una prova di caratteristica o un tiro  salvezza viene chiamato Classe Difficoltà (CD).  Il numero bersaglio relativo a un tiro per colpire  viene chiamato Classe Armatura (CA) e appare  sulla scheda del personaggio o nella sua scheda  delle statistiche (vedi \"Glossario delle regole\")."
+            "text": "Quando l'esito di un'azione è incerto, il gioco utilizza il tiro di un d20 per determinarne il successo o  il fallimento. Questi tiri si chiamano prove con d20 e  sono di tre tipi: prove di caratteristica, tiri salvezza  e tiri per colpire. Tutti e tre prevedono i passi  seguenti: **1:\tTirare 1d20.** Ottenere un numero alto è sempre  il risultato migliore. Se il tiro dispone di vantaggio o svantaggio (descritti più avanti nel capitolo  \"Come si gioca\"), si tirano due d20, ma si usa  soltanto un risultato: quello più alto se si dispone  di vantaggio o quello più basso se si subisce  svantaggio. **2:\tAggiungere i modificatori.** Si tira un d20  e si aggiungono questi modificatori al numero  ottenuto: •\tIl modificatore di caratteristica rilevante.** I capitoli \"Come si gioca\" e \"Glossario delle  regole\" spiegano quali modificatori di caratteristica utilizzare per le varie prove con d20. •\tIl proprio bonus di competenza, se rilevante.** Ogni creatura possiede un bonus di competenza,  ovvero un numero da aggiungere alla prova con  d20 che utilizza qualcosa in cui il personaggio  abbia una certa competenza, come un'abilità.  Vedi la sezione \"Competenza\" più avanti nel  ­capitolo \"Come si gioca\". •\tBonus e penalità circostanziali.** Un privilegio  di classe, un incantesimo o un'altra regola  potrebbe conferire un bonus o una penalità  al tiro. **3:\tConfrontare il totale con un numero bersaglio.** Se il totale ottenuto sommando il tiro del d20 e i  relativi modificatori è pari o superiore al numero  bersaglio, la prova con d20 ha successo. In caso  contrario, fallisce. Il Game Master determina  i numeri bersaglio e comunica ai giocatori se i  loro tiri hanno avuto o meno successo. Il numero  bersaglio per una prova di caratteristica o un tiro  salvezza viene chiamato Classe Difficoltà (CD).  Il numero bersaglio relativo a un tiro per colpire  viene chiamato Classe Armatura (CA) e appare  sulla scheda del personaggio o nella sua scheda  delle statistiche (vedi \"Glossario delle regole\")."
           }
         ],
         "children": [
@@ -165,7 +165,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " e così via.  Situazioni diverse richiedono prove di caratteristica  diverse, a seconda della caratteristica più rilevante.  Per gli esempi di utilizzo di ciascuna prova, consulta  la tabella Esempi di prove di caratteristica.\n\n**Esempi di prove di caratteristica**\n\n|  |  |\n| --- | --- |\n| Caratteristica Effettua una prova per... |  |"
+                    "text": " e così via.  Situazioni diverse richiedono prove di caratteristica  diverse, a seconda della caratteristica più rilevante.  Per gli esempi di utilizzo di ciascuna prova, consulta  la tabella Esempi di prove di caratteristica.\n\nEsempi di prove di caratteristica**\n\n|  |  |\n| --- | --- |\n| Caratteristica Effettua una prova per... |  |"
                   }
                 ],
                 "children": []
@@ -232,7 +232,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "La Classe Difficoltà di una prova di caratteristica  rappresenta la difficoltà dell'impresa. Più è difficile  un'impresa, più alta è la sua CD. Le regole forniscono le CD per alcune prove, ma sostanzialmente  vengono stabilite da chi ha il ruolo di GM. La tabella  Classi Difficoltà tipiche indica un ventaglio di possibili CD per le prove di caratteristica.\n\n**Classi Difficoltà tipiche**\n\n| Difficoltà dell'impresa | CD | Difficoltà dell'impresa | CD |\n| --- | --- | --- | --- |\n| Molto facile | 5 | Difficile | 20 |\n| Facile | 10 | Molto difficile | 25 |\n| Media | 15 | Quasi impossibile | 30 |"
+                    "text": "La Classe Difficoltà di una prova di caratteristica  rappresenta la difficoltà dell'impresa. Più è difficile  un'impresa, più alta è la sua CD. Le regole forniscono le CD per alcune prove, ma sostanzialmente  vengono stabilite da chi ha il ruolo di GM. La tabella  Classi Difficoltà tipiche indica un ventaglio di possibili CD per le prove di caratteristica.\n\nClassi Difficoltà tipiche**\n\n| Difficoltà dell'impresa | CD | Difficoltà dell'impresa | CD |\n| --- | --- | --- | --- |\n| Molto facile | 5 | Difficile | 20 |\n| Facile | 10 | Molto difficile | 25 |\n| Media | 15 | Quasi impossibile | 30 |"
                   }
                 ],
                 "children": []
@@ -273,7 +273,7 @@
                   },
                   {
                     "type": "text",
-                    "text": " e così via.  Per resistere a tipi di effetti diversi, si utilizzano tiri  salvezza diversi, come indicato nella tabella Esempi  di tiri salvezza.\n\n**Esempi di tiri salvezza**\n\n| Caratteristica | Effettua un tiro salvezza per... | Caratteristica | Effettua un tiro salvezza per... |\n| --- | --- | --- | --- |\n|  |  | "
+                    "text": " e così via.  Per resistere a tipi di effetti diversi, si utilizzano tiri  salvezza diversi, come indicato nella tabella Esempi  di tiri salvezza.\n\nEsempi di tiri salvezza**\n\n| Caratteristica | Effettua un tiro salvezza per... | Caratteristica | Effettua un tiro salvezza per... |\n| --- | --- | --- | --- |\n|  |  | "
                   },
                   {
                     "type": "ability",
@@ -390,7 +390,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "La tabella Caratteristiche dei tiri per colpire mostra  quale modificatore di caratteristica utilizzare per  i diversi tipi di tiri per colpire.\n\n**Caratteristiche dei tiri per colpire**\n\n|  |  |\n| --- | --- |\n| Caratteristica Tipo di attacco |  | Alcuni privilegi consentono l'uso di diversi modificatori di caratteristica tra quelli elencati. Ad  esempio, la proprietà accurata (vedi \"Equipaggiamento\") consente di utilizzare "
+                    "text": "La tabella Caratteristiche dei tiri per colpire mostra  quale modificatore di caratteristica utilizzare per  i diversi tipi di tiri per colpire.\n\nCaratteristiche dei tiri per colpire**\n\n|  |  |\n| --- | --- |\n| Caratteristica Tipo di attacco |  | Alcuni privilegi consentono l'uso di diversi modificatori di caratteristica tra quelli elencati. Ad  esempio, la proprietà accurata (vedi \"Equipaggiamento\") consente di utilizzare "
                   },
                   {
                     "type": "damage_type",
@@ -537,7 +537,7 @@
           },
           {
             "type": "text",
-            "text": " del personaggio\"). Il bonus di competenza di un mostro si basa sul suo grado di sfida  (vedi \"Glossario delle regole\"). La tabella Bonus  di competenza mostra come viene determinato  il bonus. Il bonus viene applicato a una prova con d20  quando la creatura è dotata di competenza in  un'abilità, in un tiro salvezza o con un oggetto che  la creatura utilizza per effettuare la prova con d20.  Il bonus viene utilizzato anche per gli attacchi con  incantesimo e per calcolare la CD dei tiri salvezza  per gli incantesimi.\n\n**Bonus di competenza**\n\n| Livello o GS | Competenza | Livello o GS | Competenza |\n| --- | --- | --- | --- |\n| Fino a 4 | +2 | 17–20 | +6 |\n| 5–8 | +3 | 21–24 | +7 |\n| 9–12 | +4 | 25–28 | +8 |\n| 13–16 | +5 | 29–30 | +9 |"
+            "text": " del personaggio\"). Il bonus di competenza di un mostro si basa sul suo grado di sfida  (vedi \"Glossario delle regole\"). La tabella Bonus  di competenza mostra come viene determinato  il bonus. Il bonus viene applicato a una prova con d20  quando la creatura è dotata di competenza in  un'abilità, in un tiro salvezza o con un oggetto che  la creatura utilizza per effettuare la prova con d20.  Il bonus viene utilizzato anche per gli attacchi con  incantesimo e per calcolare la CD dei tiri salvezza  per gli incantesimi.\n\nBonus di competenza**\n\n| Livello o GS | Competenza | Livello o GS | Competenza |\n| --- | --- | --- | --- |\n| Fino a 4 | +2 | 17–20 | +6 |\n| 5–8 | +3 | 21–24 | +7 |\n| 9–12 | +4 | 25–28 | +8 |\n| 13–16 | +5 | 29–30 | +9 |"
           }
         ],
         "children": [
@@ -702,7 +702,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Un personaggio acquisisce competenza in varie  armi e strumenti in base alla sua classe e al suo  background. Esistono due categorie di competenza  negli equipaggiamenti: **Armi.** Chiunque può brandire un'arma, ma la competenza rende il personaggio più abile nel brandirla. Se il personaggio ha competenza in un'arma,  aggiunge il bonus di competenza ai tiri per colpire  effettuati con essa. **Strumenti.** Se il personaggio ha competenza  in uno strumento, può aggiungere il bonus di\n\n**Abilità**\n\n| Abilità | Caratteristica | Esempio d'uso |\n| --- | --- | --- |\n| "
+                "text": "Un personaggio acquisisce competenza in varie  armi e strumenti in base alla sua classe e al suo  background. Esistono due categorie di competenza  negli equipaggiamenti: **Armi.** Chiunque può brandire un'arma, ma la competenza rende il personaggio più abile nel brandirla. Se il personaggio ha competenza in un'arma,  aggiunge il bonus di competenza ai tiri per colpire  effettuati con essa. **Strumenti.** Se il personaggio ha competenza  in uno strumento, può aggiungere il bonus di\n\nAbilità**\n\n| Abilità | Caratteristica | Esempio d'uso |\n| --- | --- | --- |\n| "
               },
               {
                 "type": "skill",
@@ -1012,7 +1012,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quando il personaggio fa qualcosa di diverso  dal muoversi o dal comunicare, di solito effettua  ­un'azione. La tabella Azioni elenca le azioni principali del gioco, definite più nel dettaglio in \"Glossario  delle regole\".\n\n**Azioni**\n\n| Azione | Riepilogo | Azione | Riepilogo |\n| --- | --- | --- | --- |\n|  |  | Nascon­ dersi | Effettui una prova di "
+            "text": "Quando il personaggio fa qualcosa di diverso  dal muoversi o dal comunicare, di solito effettua  ­un'azione. La tabella Azioni elenca le azioni principali del gioco, definite più nel dettaglio in \"Glossario  delle regole\".\n\nAzioni**\n\n| Azione | Riepilogo | Azione | Riepilogo |\n| --- | --- | --- | --- |\n|  |  | Nascon­ dersi | Effettui una prova di "
           },
           {
             "type": "ability",
@@ -1688,7 +1688,7 @@
                   },
                   {
                     "type": "text",
-                    "text": ", normale o  lento, come indicato nella tabella \"Passo di viaggio\".  La tabella determina la distanza che un gruppo  riesce a coprire in un periodo di tempo; in sella  a cavalli o ad altre cavalcature, il gruppo può  percorrere il doppio di quella distanza per 1 ora,  dopodiché le cavalcature necessitano di un riposo  breve o lungo prima di potersi muovere di nuovo  a passo più veloce (vedi \"Equipaggiamento\" per una  selezione di cavalcature in vendita). \"Strumenti di  gioco\" include regole che influenzano la scelta del  passo in certi tipi di terreno.\n\n**Passo di viaggio**\n\n| Passo | Minuto | Ora | Giorno |\n| --- | --- | --- | --- |\n| Veloce | 120 m | 6 km | 45 km |\n| Normale | 90 m | 4,5 km | 36 km |\n| Lento | 60 m | 3 km | 27 km | Ogni passo di viaggio ha un effetto sul gioco, come  definito di seguito. _**Veloce.**_ Viaggiare a "
+                    "text": ", normale o  lento, come indicato nella tabella \"Passo di viaggio\".  La tabella determina la distanza che un gruppo  riesce a coprire in un periodo di tempo; in sella  a cavalli o ad altre cavalcature, il gruppo può  percorrere il doppio di quella distanza per 1 ora,  dopodiché le cavalcature necessitano di un riposo  breve o lungo prima di potersi muovere di nuovo  a passo più veloce (vedi \"Equipaggiamento\" per una  selezione di cavalcature in vendita). \"Strumenti di  gioco\" include regole che influenzano la scelta del  passo in certi tipi di terreno.\n\nPasso di viaggio**\n\n| Passo | Minuto | Ora | Giorno |\n| --- | --- | --- | --- |\n| Veloce | 120 m | 6 km | 45 km |\n| Normale | 90 m | 4,5 km | 36 km |\n| Lento | 60 m | 3 km | 27 km | Ogni passo di viaggio ha un effetto sul gioco, come  definito di seguito. _**Veloce.**_ Viaggiare a "
                   },
                   {
                     "type": "spell",
@@ -2120,7 +2120,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Ogni creatura appartiene a una categoria di taglia,  che determina la larghezza dello spazio quadrato  che la creatura occupa su una mappa, come  mostrato nella tabella Taglie e spazio delle creature,  che elenca le dimensioni dalla più piccola (Minuscola) alla più grande (Mastodontica). Lo spazio di  una creatura è l'area che essa controlla a tutti gli  effetti in combattimento, nonché l'area di cui ha  bisogno per combattere con efficacia. La taglia di un personaggio è determinata dalla  sua specie, mentre la taglia di un mostro è specificata nella sua scheda delle statistiche.\n\n**Taglie e spazio delle creature**\n\n| Taglia | Spazio (metri) | Spazio (quadretti) |\n| --- | --- | --- |\n| Minuscola | 75 x 75 cm | 4 per quadretto |\n| Piccola | 1,5 m x 1,5 m | 1 quadretto |\n| Media | 1,5 m x 1,5 m | 1 quadretto |\n| Grande | 3 m x 3 m | 4 quadretti (2 per 2) |\n| Enorme | 4,5 m x 4,5 m | 9 quadretti (3 per 3) |\n| Mastodontica | 6 m x 6 m | 16 quadretti (4 per 4) |"
+                    "text": "Ogni creatura appartiene a una categoria di taglia,  che determina la larghezza dello spazio quadrato  che la creatura occupa su una mappa, come  mostrato nella tabella Taglie e spazio delle creature,  che elenca le dimensioni dalla più piccola (Minuscola) alla più grande (Mastodontica). Lo spazio di  una creatura è l'area che essa controlla a tutti gli  effetti in combattimento, nonché l'area di cui ha  bisogno per combattere con efficacia. La taglia di un personaggio è determinata dalla  sua specie, mentre la taglia di un mostro è specificata nella sua scheda delle statistiche.\n\nTaglie e spazio delle creature**\n\n| Taglia | Spazio (metri) | Spazio (quadretti) |\n| --- | --- | --- |\n| Minuscola | 75 x 75 cm | 4 per quadretto |\n| Piccola | 1,5 m x 1,5 m | 1 quadretto |\n| Media | 1,5 m x 1,5 m | 1 quadretto |\n| Grande | 3 m x 3 m | 4 quadretti (2 per 2) |\n| Enorme | 4,5 m x 4,5 m | 9 quadretti (3 per 3) |\n| Mastodontica | 6 m x 6 m | 16 quadretti (4 per 4) |"
                   }
                 ],
                 "children": []
@@ -2164,7 +2164,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Le pareti, gli alberi, le creature e altri ostacoli possono fornire copertura durante un combattimento,  rendendo un bersaglio più difficile da colpire. Come  specificato nella tabella Copertura, esistono tre  gradi di copertura, ognuno dei quali offre un vantaggio diverso a un bersaglio. Un bersaglio può beneficiare di copertura soltanto  quando un attacco o un altro effetto ha origine sul  lato opposto della copertura. Se un bersaglio si  trova dietro più fonti di copertura, viene applicato  soltanto il grado più protettivo di copertura; i gradi  non sono cumulativi. Per esempio, se un bersaglio si  trova dietro una creatura che fornisce mezza copertura e un tronco d'albero che fornisce tre quarti  di copertura, il bersaglio beneficia di tre quarti di  copertura.\n\n**Copertura**\n\n| Grado | Beneficio per il bersaglio | Offerta da... |\n| --- | --- | --- |\n| Mezza | Bonus di +2 | Un'altra creatura o un |\n|  | alla CA e ai | oggetto che copre |\n|  | tiri salvezza | almeno la metà del |\n|  | su "
+                "text": "Le pareti, gli alberi, le creature e altri ostacoli possono fornire copertura durante un combattimento,  rendendo un bersaglio più difficile da colpire. Come  specificato nella tabella Copertura, esistono tre  gradi di copertura, ognuno dei quali offre un vantaggio diverso a un bersaglio. Un bersaglio può beneficiare di copertura soltanto  quando un attacco o un altro effetto ha origine sul  lato opposto della copertura. Se un bersaglio si  trova dietro più fonti di copertura, viene applicato  soltanto il grado più protettivo di copertura; i gradi  non sono cumulativi. Per esempio, se un bersaglio si  trova dietro una creatura che fornisce mezza copertura e un tronco d'albero che fornisce tre quarti  di copertura, il bersaglio beneficia di tre quarti di  copertura.\n\nCopertura**\n\n| Grado | Beneficio per il bersaglio | Offerta da... |\n| --- | --- | --- |\n| Mezza | Bonus di +2 | Un'altra creatura o un |\n|  | alla CA e ai | oggetto che copre |\n|  | tiri salvezza | almeno la metà del |\n|  | su "
               },
               {
                 "type": "ability",

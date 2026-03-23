@@ -14,7 +14,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+        "text": "**Danni:** 1d6 taglienti\n\nProprietà:** Lancio (gittata 6/18), leggera\n\nPadronanza:** Vessazione\n\nPeso:** 1 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -33,7 +33,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 contundenti\n\n**Proprietà:** Versatile (1d8)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 2 ma"
+        "text": "**Danni:** 1d6 contundenti\n\nProprietà:** Versatile (1d8)\n\nPadronanza:** Rovesciamento\n\nPeso:** 2 kg\n\nCosto:** 2 ma"
       }
     ]
   },
@@ -52,7 +52,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 1 mo"
+        "text": "**Danni:** 1d4 taglienti\n\nProprietà:** Leggera\n\nPadronanza:** Graffio\n\nPeso:** 1 kg\n\nCosto:** 1 mo"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 9/36)\n\n**Padronanza:** "
+        "text": "**Danni:** 1d6 perforanti\n\nProprietà:** Lancio (gittata 9/36)\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -80,7 +80,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 5 ma"
+        "text": "\n\nPeso:** 1 kg\n\nCosto:** 5 ma"
       }
     ]
   },
@@ -99,7 +99,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d8)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 1 mo"
+        "text": "**Danni:** 1d6 perforanti\n\nProprietà:** Lancio (gittata 6/18), versatile (1d8)\n\nPadronanza:** Fiaccare\n\nPeso:** 1,5 kg\n\nCosto:** 1 mo"
       }
     ]
   },
@@ -118,7 +118,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1 kg\n\n**Costo:** 2 mo"
+        "text": "**Danni:** 1d4 contundenti\n\nProprietà:** Lancio (gittata 6/18), leggera\n\nPadronanza:** Graffio\n\nPeso:** 1 kg\n\nCosto:** 2 mo"
       }
     ]
   },
@@ -136,7 +136,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 contundenti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+        "text": "**Danni:** 1d6 contundenti\n\nPadronanza:** Fiaccare\n\nPeso:** 2 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -155,7 +155,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18), leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 0,5 kg\n\n**Costo:** 2 mo"
+        "text": "**Danni:** 1d4 perforanti\n\nProprietà:** Accurata, lancio (gittata 6/18), leggera\n\nPadronanza:** Graffio\n\nPeso:** 0,5 kg\n\nCosto:** 2 mo"
       }
     ]
   },
@@ -174,7 +174,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Due mani\n\n**Padronanza:** Spinta\n\n**Peso:** 5 kg\n\n**Costo:** 2 ma"
+        "text": "**Danni:** 1d8 contundenti\n\nProprietà:** Due mani\n\nPadronanza:** Spinta\n\nPeso:** 5 kg\n\nCosto:** 2 ma"
       }
     ]
   },
@@ -193,7 +193,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Leggera\n\n**Padronanza:** "
+        "text": "**Danni:** 1d4 contundenti\n\nProprietà:** Leggera\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -202,7 +202,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 1 ma"
+        "text": "\n\nPeso:** 1 kg\n\nCosto:** 1 ma"
       }
     ]
   },
@@ -221,7 +221,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; freccia)\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+        "text": "**Danni:** 1d6 perforanti\n\nProprietà:** Due mani, munizioni (gittata 24/96; freccia)\n\nPadronanza:** Vessazione\n\nPeso:** 1 kg\n\nCosto:** 25 mo"
       }
     ]
   },
@@ -240,7 +240,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 24/96; quadrello), ricarica\n\n**Padronanza:** "
+        "text": "**Danni:** 1d8 perforanti\n\nProprietà:** Due mani, munizioni (gittata 24/96; quadrello), ricarica\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -249,7 +249,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 2,5 kg\n\n**Costo:** 25 mo"
+        "text": "\n\nPeso:** 2,5 kg\n\nCosto:** 25 mo"
       }
     ]
   },
@@ -268,7 +268,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 perforanti\n\n**Proprietà:** Accurata, lancio (gittata 6/18)\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,125 kg\n\n**Costo:** 5 mr"
+        "text": "**Danni:** 1d4 perforanti\n\nProprietà:** Accurata, lancio (gittata 6/18)\n\nPadronanza:** Vessazione\n\nPeso:** 0,125 kg\n\nCosto:** 5 mr"
       }
     ]
   },
@@ -286,7 +286,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 contundenti\n\n**Proprietà:** Munizioni (gittata 9/36; proiettile)\n\n**Padronanza:** "
+        "text": "**Danni:** 1d4 contundenti\n\nProprietà:** Munizioni (gittata 9/36; proiettile)\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -295,7 +295,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Costo:** 1 ma"
+        "text": "\n\nCosto:** 1 ma"
       }
     ]
   },
@@ -314,7 +314,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+        "text": "**Danni:** 1d10 taglienti\n\nProprietà:** Due mani, pesante, portata\n\nPadronanza:** Doppio fendente\n\nPeso:** 3 kg\n\nCosto:** 20 mo"
       }
     ]
   },
@@ -333,7 +333,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d12 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Doppio fendente\n\n**Peso:** 3,5 kg\n\n**Costo:** 30 mo"
+        "text": "**Danni:** 1d12 taglienti\n\nProprietà:** Due mani, pesante\n\nPadronanza:** Doppio fendente\n\nPeso:** 3,5 kg\n\nCosto:** 30 mo"
       }
     ]
   },
@@ -352,7 +352,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 10 mo"
+        "text": "**Danni:** 1d8 taglienti\n\nProprietà:** Versatile (1d10)\n\nPadronanza:** Rovesciamento\n\nPeso:** 2 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -371,7 +371,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 taglienti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Colpo di Striscio\n\n**Peso:** 3 kg\n\n**Costo:** 20 mo"
+        "text": "**Danni:** 1d10 taglienti\n\nProprietà:** Due mani, pesante, portata\n\nPadronanza:** Colpo di Striscio\n\nPeso:** 3 kg\n\nCosto:** 20 mo"
       }
     ]
   },
@@ -390,7 +390,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d4 taglienti\n\n**Proprietà:** Accurata, portata\n\n**Padronanza:** "
+        "text": "**Danni:** 1d4 taglienti\n\nProprietà:** Accurata, portata\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -399,7 +399,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 1,5 kg\n\n**Costo:** 2 mo"
+        "text": "\n\nPeso:** 1,5 kg\n\nCosto:** 2 mo"
       }
     ]
   },
@@ -418,7 +418,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani (eccetto in sella), pesante, portata\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+        "text": "**Danni:** 1d10 perforanti\n\nProprietà:** Due mani (eccetto in sella), pesante, portata\n\nPadronanza:** Rovesciamento\n\nPeso:** 3 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -437,7 +437,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 2d6 contundenti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+        "text": "**Danni:** 2d6 contundenti\n\nProprietà:** Due mani, pesante\n\nPadronanza:** Rovesciamento\n\nPeso:** 5 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -456,7 +456,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 contundenti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Spinta\n\n**Peso:** 2,5 kg\n\n**Costo:** 15 mo"
+        "text": "**Danni:** 1d8 contundenti\n\nProprietà:** Versatile (1d10)\n\nPadronanza:** Spinta\n\nPeso:** 2,5 kg\n\nCosto:** 15 mo"
       }
     ]
   },
@@ -474,7 +474,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 2 kg\n\n**Costo:** 15 mo"
+        "text": "**Danni:** 1d8 perforanti\n\nPadronanza:** Fiaccare\n\nPeso:** 2 kg\n\nCosto:** 15 mo"
       }
     ]
   },
@@ -492,7 +492,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 contundenti\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+        "text": "**Danni:** 1d8 contundenti\n\nPadronanza:** Fiaccare\n\nPeso:** 1 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -511,7 +511,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, pesante, portata\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 5 mo"
+        "text": "**Danni:** 1d10 perforanti\n\nProprietà:** Due mani, pesante, portata\n\nPadronanza:** Spinta\n\nPeso:** 9 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -530,7 +530,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Versatile (1d10)\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1 kg\n\n**Costo:** 5 mo"
+        "text": "**Danni:** 1d8 perforanti\n\nProprietà:** Versatile (1d10)\n\nPadronanza:** Fiaccare\n\nPeso:** 1 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -549,7 +549,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 taglienti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Graffio\n\n**Peso:** 1,5 kg\n\n**Costo:** 25 mo"
+        "text": "**Danni:** 1d6 taglienti\n\nProprietà:** Accurata, leggera\n\nPadronanza:** Graffio\n\nPeso:** 1,5 kg\n\nCosto:** 25 mo"
       }
     ]
   },
@@ -568,7 +568,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Accurata, leggera\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 10 mo"
+        "text": "**Danni:** 1d6 perforanti\n\nProprietà:** Accurata, leggera\n\nPadronanza:** Vessazione\n\nPeso:** 1 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -587,7 +587,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 taglienti\n\n**Proprietà:** Versatile (1d10), al prossimo tiro per colpire eseguito contro  la creatura prima del termine del proprio turno  successivo., Nome, Danni, Proprietà, Padronanza, Peso, Costo\n\n**Padronanza:** Fiaccare\n\n**Peso:** 1,5 kg\n\n**Costo:** 15 mo"
+        "text": "**Danni:** 1d8 taglienti\n\nProprietà:** Versatile (1d10), al prossimo tiro per colpire eseguito contro  la creatura prima del termine del proprio turno  successivo., Nome, Danni, Proprietà, Padronanza, Peso, Costo\n\nPadronanza:** Fiaccare\n\nPeso:** 1,5 kg\n\nCosto:** 15 mo"
       }
     ]
   },
@@ -606,7 +606,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 2d6 taglienti\n\n**Proprietà:** Due mani, pesante\n\n**Padronanza:** Colpo di striscio\n\n**Peso:** 3 kg\n\n**Costo:** 50 mo"
+        "text": "**Danni:** 2d6 taglienti\n\nProprietà:** Due mani, pesante\n\nPadronanza:** Colpo di striscio\n\nPeso:** 3 kg\n\nCosto:** 50 mo"
       }
     ]
   },
@@ -625,7 +625,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Accurata\n\n**Padronanza:** Vessazione\n\n**Peso:** 1 kg\n\n**Costo:** 25 mo"
+        "text": "**Danni:** 1d8 perforanti\n\nProprietà:** Accurata\n\nPadronanza:** Vessazione\n\nPeso:** 1 kg\n\nCosto:** 25 mo"
       }
     ]
   },
@@ -644,7 +644,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Lancio (gittata 6/18), versatile (1d10)\n\n**Padronanza:** Rovesciamento\n\n**Peso:** 2 kg\n\n**Costo:** 5 mo"
+        "text": "**Danni:** 1d8 perforanti\n\nProprietà:** Lancio (gittata 6/18), versatile (1d10)\n\nPadronanza:** Rovesciamento\n\nPeso:** 2 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -663,7 +663,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d8 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 45/180; freccia), pesante\n\n**Padronanza:** "
+        "text": "**Danni:** 1d8 perforanti\n\nProprietà:** Due mani, munizioni (gittata 45/180; freccia), pesante\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -672,7 +672,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 1 kg\n\n**Costo:** 50 mo"
+        "text": "\n\nPeso:** 1 kg\n\nCosto:** 50 mo"
       }
     ]
   },
@@ -691,7 +691,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d6 perforanti\n\n**Proprietà:** Leggera, munizioni (gittata 9/36; quadrello), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 75 mo"
+        "text": "**Danni:** 1d6 perforanti\n\nProprietà:** Leggera, munizioni (gittata 9/36; quadrello), ricarica\n\nPadronanza:** Vessazione\n\nPeso:** 1,5 kg\n\nCosto:** 75 mo"
       }
     ]
   },
@@ -710,7 +710,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 30/120; quadrello), pesante, ricarica\n\n**Padronanza:** Spinta\n\n**Peso:** 9 kg\n\n**Costo:** 50 mo"
+        "text": "**Danni:** 1d10 perforanti\n\nProprietà:** Due mani, munizioni (gittata 30/120; quadrello), pesante, ricarica\n\nPadronanza:** Spinta\n\nPeso:** 9 kg\n\nCosto:** 50 mo"
       }
     ]
   },
@@ -738,7 +738,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Proprietà:** Munizioni (gittata 7/30; ago), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 0,5 kg\n\n**Costo:** 10 mo"
+        "text": "\n\nProprietà:** Munizioni (gittata 7/30; ago), ricarica\n\nPadronanza:** Vessazione\n\nPeso:** 0,5 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -757,7 +757,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d12 perforanti\n\n**Proprietà:** Due mani, munizioni (gittata 12/36; proiettile), ricarica\n\n**Padronanza:** "
+        "text": "**Danni:** 1d12 perforanti\n\nProprietà:** Due mani, munizioni (gittata 12/36; proiettile), ricarica\n\nPadronanza:** "
       },
       {
         "type": "spell",
@@ -766,7 +766,7 @@
       },
       {
         "type": "text",
-        "text": "\n\n**Peso:** 5 kg\n\n**Costo:** 500 mo"
+        "text": "\n\nPeso:** 5 kg\n\nCosto:** 500 mo"
       }
     ]
   },
@@ -785,7 +785,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Danni:** 1d10 perforanti\n\n**Proprietà:** Munizioni (gittata 9/27; proiettile), ricarica\n\n**Padronanza:** Vessazione\n\n**Peso:** 1,5 kg\n\n**Costo:** 250 mo"
+        "text": "**Danni:** 1d10 perforanti\n\nProprietà:** Munizioni (gittata 9/27; proiettile), ricarica\n\nPadronanza:** Vessazione\n\nPeso:** 1,5 kg\n\nCosto:** 250 mo"
       }
     ]
   },
@@ -813,7 +813,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 4 kg\n\n**Costo:** 5 mo"
+        "text": ":** Svantaggio\n\nPeso:** 4 kg\n\nCosto:** 5 mo"
       }
     ]
   },
@@ -831,7 +831,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** 11 + modificatore di Des\n\n**Peso:** 5 kg\n\n**Costo:** 10 mo"
+        "text": "**Classe Armatura (CA):** 11 + modificatore di Des\n\nPeso:** 5 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -849,7 +849,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** 12 + modificatore di Des\n\n**Peso:** 6,5 kg\n\n**Costo:** 45 mo"
+        "text": "**Classe Armatura (CA):** 12 + modificatore di Des\n\nPeso:** 6,5 kg\n\nCosto:** 45 mo"
       }
     ]
   },
@@ -867,7 +867,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** 12 + modificatore di Des (max 2)\n\n**Peso:** 6 kg\n\n**Costo:** 10 mo"
+        "text": "**Classe Armatura (CA):** 12 + modificatore di Des (max 2)\n\nPeso:** 6 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -885,7 +885,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** 13 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 50 mo"
+        "text": "**Classe Armatura (CA):** 13 + modificatore di Des (max 2)\n\nPeso:** 10 kg\n\nCosto:** 50 mo"
       }
     ]
   },
@@ -913,7 +913,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 22,5 kg\n\n**Costo:** 50 mo"
+        "text": ":** Svantaggio\n\nPeso:** 22,5 kg\n\nCosto:** 50 mo"
       }
     ]
   },
@@ -931,7 +931,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\n**Peso:** 10 kg\n\n**Costo:** 400 mo"
+        "text": "**Classe Armatura (CA):** 14 + modificatore di Des (max 2)\n\nPeso:** 10 kg\n\nCosto:** 400 mo"
       }
     ]
   },
@@ -959,7 +959,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 750 mo"
+        "text": ":** Svantaggio\n\nPeso:** 20 kg\n\nCosto:** 750 mo"
       }
     ]
   },
@@ -987,7 +987,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 20 kg\n\n**Costo:** 30 mo"
+        "text": ":** Svantaggio\n\nPeso:** 20 kg\n\nCosto:** 30 mo"
       }
     ]
   },
@@ -1025,7 +1025,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 27,5 kg\n\n**Costo:** 75 mo"
+        "text": ":** Svantaggio\n\nPeso:** 27,5 kg\n\nCosto:** 75 mo"
       }
     ]
   },
@@ -1063,7 +1063,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 30 kg\n\n**Costo:** 200 mo"
+        "text": ":** Svantaggio\n\nPeso:** 30 kg\n\nCosto:** 200 mo"
       }
     ]
   },
@@ -1101,7 +1101,7 @@
       },
       {
         "type": "text",
-        "text": ":** Svantaggio\n\n**Peso:** 32,5 kg\n\n**Costo:** 1.500 mo"
+        "text": ":** Svantaggio\n\nPeso:** 32,5 kg\n\nCosto:** 1.500 mo"
       }
     ]
   },
@@ -1119,7 +1119,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Classe Armatura (CA):** +2\n\n**Peso:** 3 kg\n\n**Costo:** 10 mo"
+        "text": "**Classe Armatura (CA):** +2\n\nPeso:** 3 kg\n\nCosto:** 10 mo"
       }
     ]
   },
@@ -2549,7 +2549,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una borsa per componenti è impermeabile e piena  di scompartimenti in cui sono conservate tutte le  componenti materiali sfuse degli incantesimi del  personaggio.\n\n**Equipaggiamento d'avventura**\n\n| Oggetto |  | Peso |  |  | Costo | Oggetto |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | "
+        "text": "Una borsa per componenti è impermeabile e piena  di scompartimenti in cui sono conservate tutte le  componenti materiali sfuse degli incantesimi del  personaggio.\n\nEquipaggiamento d'avventura**\n\n| Oggetto |  | Peso |  |  | Costo | Oggetto |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  | "
       },
       {
         "type": "damage_type",
@@ -3054,7 +3054,7 @@
       },
       {
         "type": "text",
-        "text": " assume una delle forme elencate  nella tabella Focus arcani, ed è adornato con gioielli  o intagliato affinché possa incanalare l'energia  arcana. Un mago, uno stregone o un warlock può  usare questo oggetto come focus da incantatore.\n\n**Focus arcani**\n\n| Focus |  | Peso | Costo |\n| --- | --- | --- | --- |\n| Bacchetta | 0,5 kg |  | 10 mo |\n| Bastone (anche "
+        "text": " assume una delle forme elencate  nella tabella Focus arcani, ed è adornato con gioielli  o intagliato affinché possa incanalare l'energia  arcana. Un mago, uno stregone o un warlock può  usare questo oggetto come focus da incantatore.\n\nFocus arcani**\n\n| Focus |  | Peso | Costo |\n| --- | --- | --- | --- |\n| Bacchetta | 0,5 kg |  | 10 mo |\n| Bastone (anche "
       },
       {
         "type": "equipment",
@@ -3076,7 +3076,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Un focus druidico assume una delle forme indicate  nella tabella Focus druidici ed è intagliato, legato  con del nastro o dipinto per incanalare la magia primordiale. Un oggetto del genere è utilizzabile come  focus da incantatore da un druido o un ranger.\n\n**Focus druidici**\n\n| Focus |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Bacchetta in legno di tasso | 0,5 kg |  |  | 10 mo |\n| Bastone di legno (anche "
+        "text": "Un focus druidico assume una delle forme indicate  nella tabella Focus druidici ed è intagliato, legato  con del nastro o dipinto per incanalare la magia primordiale. Un oggetto del genere è utilizzabile come  focus da incantatore da un druido o un ranger.\n\nFocus druidici**\n\n| Focus |  | Peso |  | Costo |\n| --- | --- | --- | --- | --- |\n| Bacchetta in legno di tasso | 0,5 kg |  |  | 10 mo |\n| Bastone di legno (anche "
       },
       {
         "type": "equipment",
@@ -3439,7 +3439,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Se un'arma possiede la proprietà munizioni, richiederà l'uso di munizioni. La tipologia è specificata  nella descrizione dell'arma. La tabella Munizioni  elenca i diversi tipi di munizioni e la quantità ottenuta con ogni acquisto, oltre all'oggetto utilizzato  per conservarle (da acquistare separatamente).\n\n**Munizioni**\n\n| Tipo | Quantità | Conservazione |  | Peso | Costo |\n| --- | --- | --- | --- | --- | --- |\n| Aghi | 50 | Borsa | 0,5 kg |  | 1 mo |\n| Frecce | 20 | Faretra | 0,5 kg |  | 1 mo |\n| Proiettili, arma da "
+        "text": "Se un'arma possiede la proprietà munizioni, richiederà l'uso di munizioni. La tipologia è specificata  nella descrizione dell'arma. La tabella Munizioni  elenca i diversi tipi di munizioni e la quantità ottenuta con ogni acquisto, oltre all'oggetto utilizzato  per conservarle (da acquistare separatamente).\n\nMunizioni**\n\n| Tipo | Quantità | Conservazione |  | Peso | Costo |\n| --- | --- | --- | --- | --- | --- |\n| Aghi | 50 | Borsa | 0,5 kg |  | 1 mo |\n| Frecce | 20 | Faretra | 0,5 kg |  | 1 mo |\n| Proiettili, arma da "
       },
       {
         "type": "damage_type",
@@ -3602,7 +3602,7 @@
     "description": [
       {
         "type": "text",
-        "text": "Una *pergamena magica* (trucchetto) o una *perga**mena magica* (livello 1) sono oggetti magici contenenti rispettivamente le parole di un trucchetto  o un incantesimo di livello 1, che variano in base  al volere del loro creatore. Se l'incantesimo è nella  lista degli incantesimi della classe del personaggio,  quest'ultimo può leggere la pergamena e lanciare  l'incantesimo con il suo normale tempo di lancio  e senza fornire componenti materiali. Se l'incantesimo richiede di effettuare un tiro  salvezza o un tiro per colpire, la CD del tiro salvezza  sull'incantesimo è 13, mentre il bonus di attacco  è +5. Una volta terminato il lancio, la pergamena si  disintegra."
+        "text": "Una *pergamena magica* (trucchetto) o una *pergamena magica* (livello 1) sono oggetti magici contenenti rispettivamente le parole di un trucchetto  o un incantesimo di livello 1, che variano in base  al volere del loro creatore. Se l'incantesimo è nella  lista degli incantesimi della classe del personaggio,  quest'ultimo può leggere la pergamena e lanciare  l'incantesimo con il suo normale tempo di lancio  e senza fornire componenti materiali. Se l'incantesimo richiede di effettuare un tiro  salvezza o un tiro per colpire, la CD del tiro salvezza  sull'incantesimo è 13, mentre il bonus di attacco  è +5. Una volta terminato il lancio, la pergamena si  disintegra."
       }
     ]
   },
@@ -3938,7 +3938,7 @@
       },
       {
         "type": "text",
-        "text": " sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno scudo.\n\n**Simboli sacri**\n\n| "
+        "text": " sacro deve essere  tenuto in mano, indossato o portato su un tessuto  (tabarro o striscione) o su uno scudo.\n\nSimboli sacri**\n\n| "
       },
       {
         "type": "spell",
@@ -4219,7 +4219,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 225 kg"
+        "text": "**Costo:** 50 mo\n\nCapacità di trasporto:** 225 kg"
       }
     ]
   },
@@ -4235,7 +4235,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 75 mo\n\n**Capacità di trasporto:** 240 kg"
+        "text": "**Costo:** 75 mo\n\nCapacità di trasporto:** 240 kg"
       }
     ]
   },
@@ -4251,7 +4251,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 400 mo\n\n**Capacità di trasporto:** 270 kg"
+        "text": "**Costo:** 400 mo\n\nCapacità di trasporto:** 270 kg"
       }
     ]
   },
@@ -4267,7 +4267,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 50 mo\n\n**Capacità di trasporto:** 270 kg"
+        "text": "**Costo:** 50 mo\n\nCapacità di trasporto:** 270 kg"
       }
     ]
   },
@@ -4283,7 +4283,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 200 mo\n\n**Capacità di trasporto:** 660 kg"
+        "text": "**Costo:** 200 mo\n\nCapacità di trasporto:** 660 kg"
       }
     ]
   },
@@ -4299,7 +4299,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 25 mo\n\n**Capacità di trasporto:** 97,5 kg"
+        "text": "**Costo:** 25 mo\n\nCapacità di trasporto:** 97,5 kg"
       }
     ]
   },
@@ -4315,7 +4315,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 8 mo\n\n**Capacità di trasporto:** 210 kg"
+        "text": "**Costo:** 8 mo\n\nCapacità di trasporto:** 210 kg"
       }
     ]
   },
@@ -4331,7 +4331,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 30 mo\n\n**Capacità di trasporto:** 112,5 kg"
+        "text": "**Costo:** 30 mo\n\nCapacità di trasporto:** 112,5 kg"
       }
     ]
   },
@@ -4358,7 +4358,7 @@
       },
       {
         "type": "text",
-        "text": ":** 2,25 km/h\n\n**CA:** 11\n\n**PF:** 50"
+        "text": ":** 2,25 km/h\n\nCA:** 11\n\nPF:** 50"
       }
     ]
   },
@@ -4385,7 +4385,7 @@
       },
       {
         "type": "text",
-        "text": ":** 1,5 km/h\n\n**CA:** 15\n\n**PF:** 100"
+        "text": ":** 1,5 km/h\n\nCA:** 15\n\nPF:** 100"
       }
     ]
   },
@@ -4412,7 +4412,7 @@
       },
       {
         "type": "text",
-        "text": ":** 12 km/h\n\n**CA:** 13\n\n**PF:** 300"
+        "text": ":** 12 km/h\n\nCA:** 13\n\nPF:** 300"
       }
     ]
   },
@@ -4439,7 +4439,7 @@
       },
       {
         "type": "text",
-        "text": ":** 6 km/h\n\n**CA:** 15\n\n**PF:** 500"
+        "text": ":** 6 km/h\n\nCA:** 15\n\nPF:** 500"
       }
     ]
   },
@@ -4466,7 +4466,7 @@
       },
       {
         "type": "text",
-        "text": ":** 3 km/h\n\n**CA:** 15\n\n**PF:** 300"
+        "text": ":** 3 km/h\n\nCA:** 15\n\nPF:** 300"
       }
     ]
   },
@@ -4493,7 +4493,7 @@
       },
       {
         "type": "text",
-        "text": ":** 3,75 km/h\n\n**CA:** 15\n\n**PF:** 500"
+        "text": ":** 3,75 km/h\n\nCA:** 15\n\nPF:** 500"
       }
     ]
   },
@@ -4520,7 +4520,7 @@
       },
       {
         "type": "text",
-        "text": ":** 4,5 km/h\n\n**CA:** 15\n\n**PF:** 300"
+        "text": ":** 4,5 km/h\n\nCA:** 15\n\nPF:** 300"
       }
     ]
   },
@@ -4536,7 +4536,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 250 mo\n\n**Peso:** 50 kg"
+        "text": "**Costo:** 250 mo\n\nPeso:** 50 kg"
       }
     ]
   },
@@ -4552,7 +4552,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 15 mo\n\n**Peso:** 100 kg"
+        "text": "**Costo:** 15 mo\n\nPeso:** 100 kg"
       }
     ]
   },
@@ -4568,7 +4568,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 35 mo\n\n**Peso:** 200 kg"
+        "text": "**Costo:** 35 mo\n\nPeso:** 200 kg"
       }
     ]
   },
@@ -4584,7 +4584,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 100 mo\n\n**Peso:** 300 kg"
+        "text": "**Costo:** 100 mo\n\nPeso:** 300 kg"
       }
     ]
   },
@@ -4615,7 +4615,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 10 mo\n\n**Peso:** 12,5 kg"
+        "text": "**Costo:** 10 mo\n\nPeso:** 12,5 kg"
       }
     ]
   },
@@ -4631,7 +4631,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 60 mo\n\n**Peso:** 20 kg"
+        "text": "**Costo:** 60 mo\n\nPeso:** 20 kg"
       }
     ]
   },
@@ -4647,7 +4647,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 20 mo\n\n**Peso:** 15 kg"
+        "text": "**Costo:** 20 mo\n\nPeso:** 15 kg"
       }
     ]
   },
@@ -4663,7 +4663,7 @@
     "description": [
       {
         "type": "text",
-        "text": "**Costo:** 20 mo\n\n**Peso:** 150 kg"
+        "text": "**Costo:** 20 mo\n\nPeso:** 150 kg"
       }
     ]
   },

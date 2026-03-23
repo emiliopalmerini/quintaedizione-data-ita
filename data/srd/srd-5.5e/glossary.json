@@ -730,7 +730,7 @@
       },
       {
         "type": "text",
-        "text": " non può superare  1,5 metri.\n\n**Capacità di trasporto**\n\n| Taglia delle creature | Trasportare | Trascinare/ sollevare/spingere |\n| --- | --- | --- |\n| Minuscola | For × 3,75 kg | For × 7,5 kg |\n| Piccola/Media | For × 7,5 kg | For × 15 kg |\n| Grande | For × 15 kg | For × 30 kg |\n| Enorme | For × 30 kg | For × 60 kg |\n| Mastodontica | For × 60 kg | For × 120 kg |"
+        "text": " non può superare  1,5 metri.\n\nCapacità di trasporto**\n\n| Taglia delle creature | Trasportare | Trascinare/ sollevare/spingere |\n| --- | --- | --- |\n| Minuscola | For × 3,75 kg | For × 7,5 kg |\n| Piccola/Media | For × 7,5 kg | For × 15 kg |\n| Grande | For × 15 kg | For × 30 kg |\n| Enorme | For × 30 kg | For × 60 kg |\n| Mastodontica | For × 60 kg | For × 120 kg |"
       }
     ],
     "see_also": []
@@ -1260,7 +1260,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "In base alla propria taglia, una creatura necessita di  una certa quantità di acqua al giorno, come indicato  nella tabella \"Fabbisogno d'acqua giornaliero\".  Una creatura che beve meno della metà dell'acqua  necessaria in un giorno ottiene 1 livello di indebolimento alla fine della giornata. L'indebolimento causato dalla disidratazione può essere rimosso solo  quando la creatura beve l'intera quantità d'acqua  richiesta in un giorno. *Vedi anche* \"Indebolimento\".\n\n**Fabbisogno d'acqua giornaliero**\n\n| Taglia | Acqua | Taglia | Acqua |\n| --- | --- | --- | --- |\n| Minuscola | 1 litro | Grande | 16 litri |\n| Piccola | 4 litri | Enorme | 64 litri |\n| Media | 4 litri | Mastodontica | 256 litri |"
+        "text": "In base alla propria taglia, una creatura necessita di  una certa quantità di acqua al giorno, come indicato  nella tabella \"Fabbisogno d'acqua giornaliero\".  Una creatura che beve meno della metà dell'acqua  necessaria in un giorno ottiene 1 livello di indebolimento alla fine della giornata. L'indebolimento causato dalla disidratazione può essere rimosso solo  quando la creatura beve l'intera quantità d'acqua  richiesta in un giorno. *Vedi anche* \"Indebolimento\".\n\nFabbisogno d'acqua giornaliero**\n\n| Taglia | Acqua | Taglia | Acqua |\n| --- | --- | --- | --- |\n| Minuscola | 1 litro | Grande | 16 litri |\n| Piccola | 4 litri | Enorme | 64 litri |\n| Media | 4 litri | Mastodontica | 256 litri |"
       }
     ],
     "see_also": [
@@ -1571,7 +1571,7 @@
       },
       {
         "type": "text",
-        "text": " del mostro (si sceglie il valore più alto tra  i due). Se la prova viene superata, il mostro esegue  la richiesta del personaggio. In caso di fallimento,  il personaggio deve aspettare 24 ore (o un intervallo di tempo definito dal GM) prima di esortare di  nuovo il mostro allo stesso modo.\n\n**Prove di Influenza**\n\n|  |  |\n| --- | --- |\n| Prova di caratteristica Interazione |  |"
+        "text": " del mostro (si sceglie il valore più alto tra  i due). Se la prova viene superata, il mostro esegue  la richiesta del personaggio. In caso di fallimento,  il personaggio deve aspettare 24 ore (o un intervallo di tempo definito dal GM) prima di esortare di  nuovo il mostro allo stesso modo.\n\nProve di Influenza**\n\n|  |  |\n| --- | --- |\n| Prova di caratteristica Interazione |  |"
       }
     ],
     "see_also": []
@@ -1753,7 +1753,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Alcuni effetti di gioco maledicono creature  e oggetti. L'effetto che infligge una maledizione ne  definisce le conseguenze. È possibile rimuovere  le maledizioni con gli incantesimi *rimuovi male**dizione* e *"
+        "text": "Alcuni effetti di gioco maledicono creature  e oggetti. L'effetto che infligge una maledizione ne  definisce le conseguenze. È possibile rimuovere  le maledizioni con gli incantesimi *rimuovi maledizione* e *"
       },
       {
         "type": "spell",
@@ -1783,7 +1783,7 @@
       },
       {
         "type": "text",
-        "text": " con CD 10, altrimenti ottiene 1 livello di indebolimento alla fine  della giornata. Una creatura che non mangia niente  per 5 giorni ottiene automaticamente 1 livello  di indebolimento alla fine del quinto giorno e un  livello aggiuntivo alla fine di ogni giorno successivo  trascorso senza magiare. L'indebolimento causato dalla malnutrizione non  può essere rimosso finché la creatura non mangia  l'intera quantità di cibo richiesta in un giorno. *Vedi* *anche* \"Indebolimento\".\n\n**Fabbisogno di cibo giornaliero**\n\n| Taglia | Cibo | Taglia | Cibo |\n| --- | --- | --- | --- |\n| Minuscola | 125 grammi | Grande | 2 chili |\n| Piccola | 0,5 chili | Enorme | 8 chili |\n| Media | 0,5 chili | Mastodon­ tica | 32 chili |"
+        "text": " con CD 10, altrimenti ottiene 1 livello di indebolimento alla fine  della giornata. Una creatura che non mangia niente  per 5 giorni ottiene automaticamente 1 livello  di indebolimento alla fine del quinto giorno e un  livello aggiuntivo alla fine di ogni giorno successivo  trascorso senza magiare. L'indebolimento causato dalla malnutrizione non  può essere rimosso finché la creatura non mangia  l'intera quantità di cibo richiesta in un giorno. *Vedi* *anche* \"Indebolimento\".\n\nFabbisogno di cibo giornaliero**\n\n| Taglia | Cibo | Taglia | Cibo |\n| --- | --- | --- | --- |\n| Minuscola | 125 grammi | Grande | 2 chili |\n| Piccola | 0,5 chili | Enorme | 8 chili |\n| Media | 0,5 chili | Mastodon­ tica | 32 chili |"
       }
     ],
     "see_also": []
@@ -2853,7 +2853,7 @@
       },
       {
         "type": "text",
-        "text": " per discernere  qualcosa che non sia ovvio. La tabella Cercare indica  quali abilità sono applicabili quando si usa questa  azione, in base a ciò che il personaggio sta cercando  di individuare.\n\n**Ricerca**\n\n|  |  |\n| --- | --- |\n| Abilità Elemento da individuare |  |"
+        "text": " per discernere  qualcosa che non sia ovvio. La tabella Cercare indica  quali abilità sono applicabili quando si usa questa  azione, in base a ciò che il personaggio sta cercando  di individuare.\n\nRicerca**\n\n|  |  |\n| --- | --- |\n| Abilità Elemento da individuare |  |"
       }
     ],
     "see_also": []
@@ -2925,7 +2925,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "È possibile danneggiare gli oggetti usando attacchi  o alcuni incantesimi, facendo riferimento alle regole  di seguito. Se un oggetto è estremamente fragile,  il GM può consentire a una creatura di romperlo  automaticamente con l'azione di Attacco o di Utilizzo. _**Classe Armatura.**_ La tabella \"Classe Armatura  degli oggetti\" indica le CA di materiali diversi.\n\n**Classe Armatura degli oggetti**\n\n| CA | Materiale | CA | Materiale |\n| --- | --- | --- | --- |\n| 11 | Stoffa, carta, corda | 19 | Ferro, acciaio |\n| 13 | Cristallo, vetro, ghiaccio | 21 | Mithral |\n| 15 | Legno | 23 | Adamantio |\n| 17 | Pietra |  |  | _**Punti ferita.**_ Un oggetto viene distrutto quando  scende a 0 punti ferita. Nella tabella \"Punti ferita  degli oggetti\" sono elencati i punti ferita suggeriti  per gli oggetti fragili e resilienti di taglia Grande  o inferiore. Per tenere conto dei punti ferita di un  oggetto Enorme o Mastodontico, suddividilo in  sezioni di taglia Grande o inferiore e annota i punti  ferita di ciascuna sezione separatamente. Il GM  determina se la distruzione di una parte di un  oggetto lo fa crollare interamente.\n\n**Punti ferita degli oggetti**\n\n| Taglia | Fragile | Resiliente |\n| --- | --- | --- |\n| Minuscola (bottiglia, serratura) | 2 (1d4) | 5 (2d4) |\n| Piccola (forziere, liuto) | 3 (1d6) | 10 (3d6) |\n| Media (barile, lampadario) | 4 (1d8) | 18 (4d8) |\n| Grande ("
+        "text": "È possibile danneggiare gli oggetti usando attacchi  o alcuni incantesimi, facendo riferimento alle regole  di seguito. Se un oggetto è estremamente fragile,  il GM può consentire a una creatura di romperlo  automaticamente con l'azione di Attacco o di Utilizzo. _**Classe Armatura.**_ La tabella \"Classe Armatura  degli oggetti\" indica le CA di materiali diversi.\n\nClasse Armatura degli oggetti**\n\n| CA | Materiale | CA | Materiale |\n| --- | --- | --- | --- |\n| 11 | Stoffa, carta, corda | 19 | Ferro, acciaio |\n| 13 | Cristallo, vetro, ghiaccio | 21 | Mithral |\n| 15 | Legno | 23 | Adamantio |\n| 17 | Pietra |  |  | _**Punti ferita.**_ Un oggetto viene distrutto quando  scende a 0 punti ferita. Nella tabella \"Punti ferita  degli oggetti\" sono elencati i punti ferita suggeriti  per gli oggetti fragili e resilienti di taglia Grande  o inferiore. Per tenere conto dei punti ferita di un  oggetto Enorme o Mastodontico, suddividilo in  sezioni di taglia Grande o inferiore e annota i punti  ferita di ciascuna sezione separatamente. Il GM  determina se la distruzione di una parte di un  oggetto lo fa crollare interamente.\n\nPunti ferita degli oggetti**\n\n| Taglia | Fragile | Resiliente |\n| --- | --- | --- |\n| Minuscola (bottiglia, serratura) | 2 (1d4) | 5 (2d4) |\n| Piccola (forziere, liuto) | 3 (1d6) | 10 (3d6) |\n| Media (barile, lampadario) | 4 (1d8) | 18 (4d8) |\n| Grande ("
       },
       {
         "type": "equipment",
@@ -3857,7 +3857,7 @@
       },
       {
         "type": "text",
-        "text": " per analizzare  la propria memoria, un libro, un indizio o un'altra  fonte di conoscenza, richiamando alla mente  ­un'informazione importante a riguardo. La tabella Aree di conoscenza indica quali abilità  sono applicabili alle varie aree di conoscenza.\n\n**Aree di conoscenza**\n\n|  |  |\n| --- | --- |\n| Abilità Aree |  |"
+        "text": " per analizzare  la propria memoria, un libro, un indizio o un'altra  fonte di conoscenza, richiamando alla mente  ­un'informazione importante a riguardo. La tabella Aree di conoscenza indica quali abilità  sono applicabili alle varie aree di conoscenza.\n\nAree di conoscenza**\n\n|  |  |\n| --- | --- |\n| Abilità Aree |  |"
       }
     ],
     "see_also": []
@@ -3988,7 +3988,7 @@
     "definition": [
       {
         "type": "text",
-        "text": "Gli attacchi e altri effetti dannosi infliggono vari tipi  di danno. I tipi di danno non seguono regole particolari; tuttavia, altre regole, come quelle riguardanti  la resistenza, possono farvi riferimento. La tabella  \"Tipi di danno\" fornisce degli esempi per aiutare il  GM ad assegnare un tipo di danno a un determinato  effetto.\n\n**Tipi di danno**\n\n|  |  |\n| --- | --- |\n| Tipo Esempi |  |"
+        "text": "Gli attacchi e altri effetti dannosi infliggono vari tipi  di danno. I tipi di danno non seguono regole particolari; tuttavia, altre regole, come quelle riguardanti  la resistenza, possono farvi riferimento. La tabella  \"Tipi di danno\" fornisce degli esempi per aiutare il  GM ad assegnare un tipo di danno a un determinato  effetto.\n\nTipi di danno**\n\n|  |  |\n| --- | --- |\n| Tipo Esempi |  |"
       }
     ],
     "see_also": []
