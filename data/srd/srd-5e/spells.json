@@ -7,7 +7,13 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (una minuscola striscia di tessuto bianco)",
     "description": [
       {
@@ -27,7 +33,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago",
+      "ranger"
+    ],
     "components": "V, S, M (un campanellino e un pezzo di prezioso filo d'argento)",
     "description": [
       {
@@ -47,7 +56,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -135,7 +146,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -182,7 +196,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -243,7 +260,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (un boccone di cibo)",
     "description": [
       {
@@ -313,7 +334,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "warlock"
+    ],
     "components": "V, S, M (una goccia di sangue)",
     "description": [
       {
@@ -347,7 +372,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (un boccone di cibo)",
     "description": [
       {
@@ -399,7 +428,10 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (una goccia di sangue, un pezzo di carne e un pizzico di polvere d'osso)",
     "description": [
       {
@@ -442,7 +474,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -561,7 +597,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "ranger"
+    ],
     "components": "V, S, M (un pizzico di polvere di diamante del valore di 25 mo da spargere sul bersaglio, che l'incantesimo consuma)",
     "description": [
       {
@@ -599,7 +639,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (un frammento di allume immerso nell'aceto per l'effetto di antipatia o una goccia di miele per l'effetto di simpatia)",
     "description": [
       {
@@ -669,7 +713,12 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -694,7 +743,9 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -732,7 +783,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pezzo di cuoio trattato)",
     "description": [
       {
@@ -770,7 +824,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -808,7 +864,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un piccolo quadrato di seta)",
     "description": [
       {
@@ -864,7 +922,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (un minuscolo reliquiario del valore di almeno 1.000 mo contenente una reliquia sacra, come un brandello della tunica di un santo o un frammento di pergamena di un testo religioso)",
     "description": [
       {
@@ -920,7 +980,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (un rametto di vischio)",
     "description": [
       {
@@ -945,7 +1008,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S, M (alcuni semi a mezzaluna di un qualsiasi vitigno legnoso e un frammento di feldspato opalescente)",
     "description": [
       {
@@ -974,7 +1039,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una lente d'ingrandimento)",
     "description": [
       {
@@ -1003,7 +1073,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (una ciotola tempestata di gemme del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -1041,7 +1115,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -1070,7 +1146,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo"
+    ],
     "components": "V",
     "description": [
       {
@@ -1104,7 +1182,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S, M (uno spruzzo di acqua santa)",
     "description": [
       {
@@ -1129,7 +1210,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un piccola sbarra di ferro)",
     "description": [
       {
@@ -1190,7 +1276,14 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un piccola sbarra di ferro)",
     "description": [
       {
@@ -1246,7 +1339,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (un frammento di favo e polvere di giada del valore di almeno 10 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -1266,7 +1362,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 reazione, che l'incantatore può effettuare quando egli stesso o una creatura entro 18 metri da lui cade",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, M (una piccola piuma)",
     "description": [
       {
@@ -1295,7 +1395,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -1351,7 +1454,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S, M (fuoco e acqua santa)",
     "description": [
       {
@@ -1434,7 +1539,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (un pezzo di sughero)",
     "description": [
       {
@@ -1472,7 +1582,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (un pizzico di polvere o di limatura di ferro)",
     "description": [
       {
@@ -1618,7 +1731,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -1665,7 +1782,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (un piccola perla di cristallo)",
     "description": [
       {
@@ -1699,7 +1819,14 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (un ciuffo di pelliccia o una piuma strappata a una bestia)",
     "description": [
       {
@@ -1800,7 +1927,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di calce, acqua e terra)",
     "description": [
       {
@@ -1870,7 +2001,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un ciuffo di pelliccia; un frammento d'ambra, di vetro o di una verga di cristallo e tre spilli d'argento)",
     "description": [
       {
@@ -1922,7 +2056,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -1978,7 +2117,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un composto di polvere di diamante, smeraldo, rubino e zaffiro del valore di almeno 5.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -2030,7 +2171,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (polvere ricavata da una perla nera, del valore di almeno 500 mo)",
     "description": [
       {
@@ -2059,7 +2204,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, M (gessetti e inchiostri rari infusi di gemme preziose del valore di 50 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -2120,7 +2270,12 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
     "components": "V, S, M (acqua santa o polvere d'argento e di ferro del valore di almeno 100 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -2163,7 +2318,13 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -2219,7 +2380,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un focus del valore di almeno 100 mo, a scelta tra un cornetto acustico incastonato di gemme o un occhio di vetro per la vista)",
     "description": [
       {
@@ -2257,7 +2423,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un diamante del valore di almeno 1.000 mo, un cubo di carne della creatura da clonare di almeno 2,5 cm per lato, che l'incantesimo consuma, e un contenitore del valore di almeno 2.000 mo che abbia un coperchio sigillabile e sia abbastanza grande da contenere una creatura di taglia Media, come un'urna enorme, una bara, una ciste piena di fango nel terreno o un contenitore di cristallo riempito con acqua salata)",
     "description": [
       {
@@ -2277,7 +2445,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "S",
     "description": [
       {
@@ -2320,7 +2493,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (un pizzico di zolfo)",
     "description": [
       {
@@ -2372,7 +2547,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
     "components": "V",
     "description": [
       {
@@ -2419,7 +2598,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un pizzico di fuliggine e di sale)",
     "description": [
       {
@@ -2448,7 +2632,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -2495,7 +2681,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (incenso e una fiala di acqua santa o sacrilega)",
     "description": [
       {
@@ -2515,7 +2703,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -2558,7 +2749,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (tre gusci di noce)",
     "description": [
       {
@@ -2601,7 +2797,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un piccolo cono di cristallo o vetro)",
     "description": [
       {
@@ -2639,7 +2839,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (incenso del valore di almeno 250 mo, che l'incantesimo consuma e quattro lamine di avorio del valore di almeno 50 mo ciascuna)",
     "description": [
       {
@@ -2686,7 +2890,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -2850,7 +3057,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -2897,7 +3107,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una statuetta dell'incantatore scolpita in avorio e decorata con gemme del valore di almeno 1.500 mo)",
     "description": [
       {
@@ -2940,7 +3152,11 @@
       }
     ],
     "casting_time": "1 reazione, che l'incantatore può effettuare quando vede una creatura entro 18 metri da lui lanciare un incantesimo",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "S",
     "description": [
       {
@@ -2960,7 +3176,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (una goccia d'acqua e un pizzico di polvere)",
     "description": [
       {
@@ -3025,7 +3245,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (incenso bruciato e frammenti di terra e legno mescolati nell'acqua)",
     "description": [
       {
@@ -3068,7 +3292,13 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino"
+    ],
     "components": "V",
     "description": [
       {
@@ -3115,7 +3345,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3140,7 +3373,11 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (un vaso d'argilla colmo di terra raccolta in un cimitero, un vaso d'argilla colmo d'acqua salmastra e una pietra onice nera del valore di 150 mo per ogni cadavere)",
     "description": [
       {
@@ -3165,7 +3402,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (una goccia d'acqua per creare l'acqua o qualche granello di sabbia per distruggerla)",
     "description": [
       {
@@ -3190,7 +3430,10 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un minuscolo frammento di materia dello stesso tipo dell'oggetto che l'incantatore desidera creare)",
     "description": [
       {
@@ -3210,7 +3453,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (sette spine aguzze o sette rametti appuntiti)",
     "description": [
       {
@@ -3266,7 +3512,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione o 8 ore",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3300,7 +3550,13 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3334,7 +3590,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3354,7 +3614,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V",
     "description": [
       {
@@ -3392,7 +3655,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3453,7 +3719,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3514,7 +3783,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3534,7 +3805,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3563,7 +3836,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -3592,7 +3868,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3630,7 +3908,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una goccia di mercurio)",
     "description": [
       {
@@ -3664,7 +3944,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una calamita e un pizzico di polvere)",
     "description": [
       {
@@ -3783,7 +4066,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S, M (acqua santa o polvere d'argento e ferro)",
     "description": [
       {
@@ -3880,7 +4166,16 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3900,7 +4195,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -3938,7 +4237,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (incenso e un'offerta sacrificale appropriata alla religione dell'incantatore del valore complessivo di almeno 25 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -3981,7 +4284,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4069,7 +4376,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4139,7 +4451,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4227,7 +4543,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4261,7 +4580,13 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "paladino",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un oggetto sgradito al bersaglio)",
     "description": [
       {
@@ -4326,7 +4651,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (fuoco e un frammento di pietra del sole)",
     "description": [
       {
@@ -4373,7 +4703,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4434,7 +4767,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4486,7 +4822,9 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4574,7 +4912,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (una bacca di agrifoglio per ogni creatura evocata)",
     "description": [
       {
@@ -4599,7 +4940,10 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (incenso bruciato per l'aria, argilla morbida per la terra, zolfo e fosforo per il fuoco o acqua e sabbia per l'acqua)",
     "description": [
       {
@@ -4759,7 +5103,10 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4802,7 +5149,9 @@
       }
     ],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4849,7 +5198,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (uno zaffiro del valore di 1.000 mo)",
     "description": [
       {
@@ -4896,7 +5247,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4916,7 +5269,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4954,7 +5309,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -4992,7 +5350,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5012,7 +5372,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5041,7 +5403,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -5061,7 +5426,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (polvere di rubino del valore di 50 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -5081,7 +5450,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5110,7 +5481,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5157,7 +5531,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un seme di legume)",
     "description": [
       {
@@ -5186,7 +5565,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5238,7 +5621,13 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5267,7 +5656,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un frammento di garza e un filo di fumo)",
     "description": [
       {
@@ -5350,7 +5743,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -5447,7 +5842,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di mica)",
     "description": [
       {
@@ -5490,7 +5889,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (foglia di rabarbaro in polvere e stomaco di vipera)",
     "description": [
       {
@@ -5551,7 +5952,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un ciuffo di pelo e una verga d'ambra, di cristallo o di vetro)",
     "description": [
       {
@@ -5607,7 +6011,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "S",
     "description": [
       {
@@ -5654,7 +6062,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (polvere di rubino del valore di 1.500 mo)",
     "description": [
       {
@@ -5719,7 +6131,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una gemma, un cristallo, un reliquiario o un altro contenitore ornamentale del valore di almeno 500 mo)",
     "description": [
       {
@@ -5816,7 +6230,11 @@
       }
     ],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (incenso e polvere di diamante del valore di almeno 200 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -5940,7 +6358,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una perla di vetro o cristallo che si frantuma al termine dell'incantesimo)",
     "description": [
       {
@@ -5965,7 +6386,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (un simbolo sacro)",
     "description": [
       {
@@ -6003,7 +6426,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V",
     "description": [
       {
@@ -6046,7 +6471,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6066,7 +6494,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6086,7 +6516,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6106,7 +6539,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6126,7 +6561,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (una perla del valore di almeno 100 mo e una piuma di gufo)",
     "description": [
       {
@@ -6146,7 +6584,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "S, M (un ciuffo di lana)",
     "description": [
       {
@@ -6184,7 +6627,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (un ciuffo di lana e polvere di giada del valore di almeno 25 mo)",
     "description": [
       {
@@ -6227,7 +6673,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un ciuffo di lana)",
     "description": [
       {
@@ -6283,7 +6734,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (una piccola replica dell'incantatore realizzata con materiali del valore di almeno 5 mo)",
     "description": [
       {
@@ -6330,7 +6784,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un ciuffo di lana)",
     "description": [
       {
@@ -6368,7 +6826,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6397,7 +6860,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (un ritratto su pergamena o una statuetta intagliata con le fattezze del bersaglio e una componente speciale che varia in base alla versione dell'incantesimo scelta, del valore di almeno 500 mo per ogni Dado Vita del bersaglio)",
     "description": [
       {
@@ -6530,7 +6996,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6559,7 +7030,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una moneta di rame)",
     "description": [
       {
@@ -6624,7 +7099,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6689,7 +7167,16 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6709,7 +7196,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (una foglia di tasso)",
     "description": [
       {
@@ -6743,7 +7235,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6763,7 +7257,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di polvere di ferro)",
     "description": [
       {
@@ -6828,7 +7327,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6848,7 +7349,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6868,7 +7372,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6893,7 +7400,9 @@
       }
     ],
     "casting_time": "1 reazione, che l'incantatore può effettuare quando subisce danni da una creatura entro 18 metri che è in grado di vedere.",
-    "classes": [],
+    "classes": [
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6931,7 +7440,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -6969,7 +7481,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una calamita e limatura di ferro)",
     "description": [
       {
@@ -6998,7 +7514,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (un piccolo pezzo di filo di rame)",
     "description": [
       {
@@ -7032,7 +7552,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un ciglio ricoperto da uno strato di resina)",
     "description": [
       {
@@ -7061,7 +7586,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7095,7 +7624,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7151,7 +7682,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7194,7 +7727,10 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "druido",
+      "stregone"
+    ],
     "components": "V, S, M (foglia di sommacco)",
     "description": [
       {
@@ -7237,7 +7773,13 @@
       }
     ],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una gemma del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -7302,7 +7844,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (pezzi di gusci d'uovo di due tipi di creature diverse)",
     "description": [
       {
@@ -7331,7 +7876,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una goccia di melassa)",
     "description": [
       {
@@ -7387,7 +7936,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un piccolo cappio di cuoio o un sottile cavo dorato piegato a forma di coppa con un lungo manico a un'estremità)",
     "description": [
       {
@@ -7416,7 +7968,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (una cinghia di cuoio legata intorno al braccio o un'appendice simile)",
     "description": [
       {
@@ -7445,7 +8002,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, M (una piccola riproduzione in argilla di una ziggurat)",
     "description": [
       {
@@ -7465,7 +8028,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (un ciuffo di peli di un segugio)",
     "description": [
       {
@@ -7503,7 +8070,14 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (un ciuffo di peli di un segugio)",
     "description": [
       {
@@ -7532,7 +8106,14 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (un ramoscello biforcuto)",
     "description": [
       {
@@ -7552,7 +8133,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -7581,7 +8165,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone"
+    ],
     "components": "V, M (una lucciola o del muschio fosforescente)",
     "description": [
       {
@@ -7610,7 +8199,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7648,7 +8243,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di fosforo, di legno wych o una lucciola)",
     "description": [
       {
@@ -7677,7 +8276,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido"
+    ],
     "components": "V",
     "description": [
       {
@@ -7720,7 +8322,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7772,7 +8377,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un guscio d'uovo e un guanto di pelle di serpente)",
     "description": [
       {
@@ -7882,7 +8490,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -7907,7 +8520,9 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "ranger"
+    ],
     "components": "V",
     "description": [
       {
@@ -7963,7 +8578,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un piccolo pezzo di filo di rame)",
     "description": [
       {
@@ -7992,7 +8612,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (il bozzolo di un bruco)",
     "description": [
       {
@@ -8066,7 +8691,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una goccia di mercurio, una piccola quantità di resina e uno sbuffo di fumo)",
     "description": [
       {
@@ -8131,7 +8760,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8174,7 +8807,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8248,7 +8884,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (una goccia di bitume e un ragno)",
     "description": [
       {
@@ -8286,7 +8926,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una lama di ferro e un sacchetto contenente un misto di terre: argilla, terriccio e sabbia)",
     "description": [
       {
@@ -8324,7 +8968,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un pizzico di polvere ricavata dalla distruzione di una gemma trasparente)",
     "description": [
       {
@@ -8376,7 +9022,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di fosforo)",
     "description": [
       {
@@ -8428,7 +9078,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un frammento di quarzo)",
     "description": [
       {
@@ -8493,7 +9145,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un piccolo blocco di granito)",
     "description": [
       {
@@ -8536,7 +9192,9 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S, M (una manciata di spine)",
     "description": [
       {
@@ -8574,7 +9232,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (un ventaglio minuscolo e una piuma di origini esotiche)",
     "description": [
       {
@@ -8612,7 +9273,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8790,7 +9454,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8819,7 +9488,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8866,7 +9539,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un uovo marcio o alcune foglie di cavolo puzzola)",
     "description": [
       {
@@ -8918,7 +9595,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -8956,7 +9636,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un ciuffo di peli di pipistrello)",
     "description": [
       {
@@ -8999,7 +9681,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -9037,7 +9724,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, M (pelo di pipistrello e una goccia di pece o un pezzo di carbone)",
     "description": [
       {
@@ -9071,7 +9762,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una pallina di guano di pipistrello e zolfo)",
     "description": [
       {
@@ -9123,7 +9817,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una pallina di guano di pipistrello e zolfo)",
     "description": [
       {
@@ -9179,7 +9876,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -9217,7 +9919,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
     "components": "V, S, M (incenso bruciato)",
     "description": [
       {
@@ -9264,7 +9970,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -9302,7 +10012,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -9349,7 +10064,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -9369,7 +10089,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V",
     "description": [
       {
@@ -9425,7 +10147,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V",
     "description": [
       {
@@ -9513,7 +10237,11 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
     "components": "V",
     "description": [
       {
@@ -9547,7 +10275,10 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico"
+    ],
     "components": "V",
     "description": [
       {
@@ -9576,7 +10307,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un pizzico di semi di sesamo)",
     "description": [
       {
@@ -9596,7 +10329,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (cenere di una foglia di vischio bruciata e un rametto di abete)",
     "description": [
       {
@@ -9634,7 +10370,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -9659,7 +10399,12 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "ranger"
+    ],
     "components": "V, S, M (un pizzico di terriccio)",
     "description": [
       {
@@ -9688,7 +10433,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (una piuma bianca o un cuore di pollo)",
     "description": [
       {
@@ -9726,7 +10476,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S, M (una manciata di corteccia di quercia)",
     "description": [
       {
@@ -9755,7 +10508,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (polvere di diamante del valore di 100 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -9789,7 +10547,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
     "components": "V, S, M (qualche granello di zucchero, alcuni chicchi di grano e uno sbaffo di grasso)",
     "description": [
       {
@@ -9818,7 +10580,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V",
     "description": [
       {
@@ -9856,7 +10623,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un diamante del valore di almeno 5.000 mo)",
     "description": [
       {
@@ -9890,7 +10662,10 @@
       }
     ],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V",
     "description": [
       {
@@ -9910,7 +10685,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (bastoncini, ossa o oggetti simili dotati di contrassegni speciali, del valore di almeno 25 mo)",
     "description": [
       {
@@ -9948,7 +10727,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -9995,7 +10779,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una piuma di colibrì)",
     "description": [
       {
@@ -10015,7 +10804,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10044,7 +10835,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (uno spruzzo di acqua santa, incenso raro e polvere di rubino del valore di almeno 1.000 mo)",
     "description": [
       {
@@ -10091,7 +10884,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (per ogni creatura influenzata da questo incantesimo, l'incantatore deve fornire un giacinto del valore di almeno 1.000 mo e un lingotto d'argento finemente decorato del valore di almeno 100 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -10129,7 +10926,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10185,7 +10987,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
     "components": "V, S, M (acqua santa o polvere d'argento e ferro, che l'incantesimo consuma)",
     "description": [
       {
@@ -10241,7 +11049,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10311,7 +11125,9 @@
       }
     ],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "paladino"
+    ],
     "components": "V",
     "description": [
       {
@@ -10349,7 +11165,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10369,7 +11189,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10407,7 +11230,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10450,7 +11276,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10488,7 +11317,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di ragnatela comune)",
     "description": [
       {
@@ -10535,7 +11367,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S, M (vischio, una foglia di trifoglio e un randello o un bastone ferrato)",
     "description": [
       {
@@ -10591,7 +11425,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (un portale in miniatura scolpito in avorio, un frammento di marmo lucido, un cucchiaino d'argento, del valore di almeno 5 mo ciascuno)",
     "description": [
       {
@@ -10665,7 +11502,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (una manciata di argilla, cristallo, vetro o sfere di minerali)",
     "description": [
       {
@@ -10766,7 +11609,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S, M (oli e unguenti rari del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -10813,7 +11658,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (un mantello in miniatura)",
     "description": [
       {
@@ -10833,7 +11681,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (un piccolo giunco o una pagliuzza)",
     "description": [
       {
@@ -10853,7 +11706,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico"
+    ],
     "components": "V, S, M (un diamante del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -10891,7 +11747,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (uno spruzzo di acqua santa e diamanti del valore di almeno 25.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -10920,7 +11779,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S, M (un diamante del valore di almeno 500 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -10958,7 +11821,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (un ruota della preghiera e acqua santa)",
     "description": [
       {
@@ -10978,7 +11845,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "paladino",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -10998,7 +11870,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (diamanti del valore di 300 mo, che vengono consumati dall'incantesimo)",
     "description": [
       {
@@ -11018,7 +11895,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (due calamite)",
     "description": [
       {
@@ -11047,7 +11930,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "mago",
+      "paladino"
+    ],
     "components": "V, S, M (un pizzico di sale e due monete di rame da posizionare sugli occhi del cadavere, che deve rimanere in quella posizione per la durata dell'incantesimo)",
     "description": [
       {
@@ -11085,7 +11972,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una manciata di briciole e una piuma da agitare in aria)",
     "description": [
       {
@@ -11155,7 +12046,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido"
+    ],
     "components": "V, S, M (un pezzo di ferro e una fiamma)",
     "description": [
       {
@@ -11193,7 +12087,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11249,7 +12149,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "paladino",
+      "ranger"
+    ],
     "components": "V, S, M (polvere di diamante del valore di almeno 100 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -11287,7 +12193,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "8 ore",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido"
+    ],
     "components": "V, S, M (un'agata del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -11370,7 +12279,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11399,7 +12312,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (la zampa posteriore di una cavalletta)",
     "description": [
       {
@@ -11419,7 +12337,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11439,7 +12360,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "24 ore",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (erbe, oli e incenso del valore di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -11531,7 +12454,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V, S, M (uno specchietto d'argento)",
     "description": [
       {
@@ -11574,7 +12499,9 @@
       }
     ],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una sottile lamina di piombo, un frammento di vetro opaco, un pezzo di cotone o stoffa e polvere di crisolito)",
     "description": [
       {
@@ -11626,7 +12553,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11682,7 +12613,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -11711,7 +12646,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11749,7 +12687,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (argilla morbida, che deve essere plasmata nella forma dell'oggetto desiderato)",
     "description": [
       {
@@ -11769,7 +12711,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido"
+    ],
     "components": "V, S, M (una serie di strumenti da divinazione, come ossa, bastoncini d'avorio, carte, denti o incisioni runiche, del valore di 100 mo e un oggetto proveniente dal luogo che si desidera trovare)",
     "description": [
       {
@@ -11798,7 +12744,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11836,7 +12786,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un forziere di fattura pregiata che misura 90 × 60 × 60 cm, realizzato con materiali rari del valore di almeno 5.000 mo e una riproduzione minuscola fatta degli stessi materiali del valore di 50 mo)",
     "description": [
       {
@@ -11856,7 +12808,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "S, M (inchiostro a base di piombo del valore di almeno 10 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -11876,7 +12832,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa)",
     "description": [
       {
@@ -11914,7 +12876,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 reazione, che l'incantatore effettua quando è colpito da un attacco o bersagliato dall'incantesimo dardo incantato",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -11961,7 +12926,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione bonus",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S, M (una piccola pergamena recante un frammento di un testo sacro)",
     "description": [
       {
@@ -11981,7 +12949,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di fosforo o una lucciola)",
     "description": [
       {
@@ -12037,7 +13009,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "ranger",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di carota essiccata o un'agata)",
     "description": [
       {
@@ -12066,7 +13043,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un fischietto d'argento, un pezzo d'osso e un filo)",
     "description": [
       {
@@ -12095,7 +13074,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -12151,7 +13134,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "S",
     "description": [
       {
@@ -12180,7 +13167,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (polvere d'oro del valore di almeno 25 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -12227,7 +13216,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (un pezzo di spago e un pezzo di legno)",
     "description": [
       {
@@ -12288,7 +13281,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un piccola sfera di cristallo)",
     "description": [
       {
@@ -12362,7 +13358,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una semisfera di cristallo trasparente e una semisfera corrispondente di resina)",
     "description": [
       {
@@ -12423,7 +13421,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un frammento di sego, un pizzico di zolfo e una manciata di polvere di ferro)",
     "description": [
       {
@@ -12479,7 +13481,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -12499,7 +13504,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -12555,7 +13565,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -12584,7 +13598,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (mercurio, fosforo e polvere di diamante e opale del valore totale di almeno 1.000 mo, che l'incantesimo consuma)",
     "description": [
       {
@@ -12748,7 +13767,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "12 ore",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (una quantità di neve o ghiaccio sufficiente per realizzare una copia a grandezza naturale della creatura da duplicare; una ciocca di capelli, un'unghia tagliata o un altro pezzo del corpo di quella creatura da collocare in mezzo alla neve o al ghiaccio; polvere di rubino del valore di 1.500 mo da cospargere sul duplicato, che l'incantesimo consuma)",
     "description": [
       {
@@ -12786,7 +13807,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 minuto",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una manciata di sabbia, una goccia d'inchiostro e un penna strappata a un uccello addormentato)",
     "description": [
       {
@@ -12847,7 +13872,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di sabbia finissima, petali di rosa o un grillo)",
     "description": [
       {
@@ -12867,7 +13896,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (una spada di platino in miniatura dall'impugnatura e dal pomolo di rame e zinco, del valore di 250 mo)",
     "description": [
       {
@@ -12905,7 +13937,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (una verga di metallo biforcuta del valore di almeno 250 mo, in sintonia con un particolare piano di esistenza)",
     "description": [
       {
@@ -12984,7 +14022,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di polvere o sabbia di colore rosso, giallo e blu)",
     "description": [
       {
@@ -13004,7 +14046,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13141,7 +14187,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13179,7 +14230,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13217,7 +14271,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, M (una lingua di serpente e un elemento a scelta tra un frammento di alveare e una goccia di olio dolce)",
     "description": [
       {
@@ -13260,7 +14319,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, M (una lingua di serpente e un elemento a scelta tra un frammento di alveare e una goccia di olio dolce)",
     "description": [
       {
@@ -13307,7 +14370,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico"
+    ],
     "components": "V",
     "description": [
       {
@@ -13336,7 +14401,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13383,7 +14451,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V",
     "description": [
       {
@@ -13430,7 +14502,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13491,7 +14567,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di polvere e qualche goccia d'acqua)",
     "description": [
       {
@@ -13529,7 +14609,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di polvere e qualche goccia d'acqua)",
     "description": [
       {
@@ -13567,7 +14651,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13650,7 +14736,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (un pezzo di tentacolo appartenente a una piovra o una seppia gigante)",
     "description": [
       {
@@ -13697,7 +14785,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "druido",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di terriccio, un frammento di roccia e un pezzo d'argilla)",
     "description": [
       {
@@ -13780,7 +14872,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "druido",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S, M (una pietra, un rametto e un frammento di un vegetale florido)",
     "description": [
       {
@@ -13841,7 +14938,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "stregone",
+      "mago",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13861,7 +14962,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -13890,7 +14995,12 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "S, M (un bastoncino d'incenso acceso o una fiala di cristallo piena di materiale fosforescente)",
     "description": [
       {
@@ -13928,7 +15038,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "mago"
+    ],
     "components": "V, S, M (un diadema di giada del valore di almeno 1.500 mo, che l'incantatore deve indossare prima di lanciare l'incantesimo)",
     "description": [
       {
@@ -13993,7 +15106,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido",
+      "ranger"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -14013,7 +15129,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "druido"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -14033,7 +15151,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -14080,7 +15200,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 ora",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (carbone, incenso ed erbe del valore di 10 mo da bruciare in un braciere d'ottone)",
     "description": [
       {
@@ -14127,7 +15249,9 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago"
+    ],
     "components": "V, S, M (estratto di mais in polvere e un pezzo di pergamena intrecciato)",
     "description": [
       {
@@ -14156,7 +15280,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pezzo di cotenna di maiale o burro)",
     "description": [
       {
@@ -14194,7 +15321,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (un pizzico di talco e una spolverata di polvere d'argento)",
     "description": [
       {
@@ -14214,7 +15345,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una scaglia di radice di liquirizia)",
     "description": [
       {
@@ -14243,7 +15377,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "10 minuti",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S, M (incenso bruciato, una piccola dose di zolfo e olio, uno spago annodato, una piccola quantità di sangue di umber hulk e una piccola verga d'argento del valore di almeno 10 mo)",
     "description": [
       {
@@ -14353,7 +15490,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S, M (un paio di anelli di platino del valore di almeno 50 mo, che l'incantatore e il bersaglio devono indossare per la durata dell'incantesimo)",
     "description": [
       {
@@ -14373,7 +15513,13 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (un unguento per gli occhi del costo di 25 mo, realizzato con polvere di funghi, zafferano e grasso, che l'incantesimo consuma)",
     "description": [
       {
@@ -14398,7 +15544,10 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone"
+    ],
     "components": "V, S, M (una piccola quantità di alcol o liquori distillati)",
     "description": [
       {
@@ -14423,7 +15572,11 @@
       }
     ],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "mago",
+      "stregone",
+      "warlock"
+    ],
     "components": "V, S, M (la piuma dell'ala di un qualsiasi uccello)",
     "description": [
       {
@@ -14452,7 +15605,10 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "mago"
+    ],
     "components": "V, S",
     "description": [
       {
@@ -14499,7 +15655,11 @@
   {
     "at_higher_levels": [],
     "casting_time": "1 azione",
-    "classes": [],
+    "classes": [
+      "bardo",
+      "chierico",
+      "paladino"
+    ],
     "components": "V, S",
     "description": [
       {
