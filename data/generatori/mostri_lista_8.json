@@ -1,89 +1,89 @@
 {
-  "id": "mostri-lista-8",
-  "name": "Lista Mostri 8 (GS 8—12)",
   "description": "Mostri di grado sfida 8 — 12.",
   "die": "1d20",
-  "order": 98,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-8",
   "items": [
     {
-      "text": "Gigante del gelo",
-      "link": "/srd/mostri/gigante-del-gelo"
+      "link": "/srd/mostri/gigante-del-gelo",
+      "text": "Gigante del gelo"
     },
     {
-      "text": "Hezrou",
-      "link": "/srd/mostri/hezrou"
+      "link": "/srd/mostri/hezrou",
+      "text": "Hezrou"
     },
     {
-      "text": "Idra",
-      "link": "/srd/mostri/idra"
+      "link": "/srd/mostri/idra",
+      "text": "Idra"
     },
     {
-      "text": "Naga spirituale",
-      "link": "/srd/mostri/naga-spirituale"
+      "link": "/srd/mostri/naga-spirituale",
+      "text": "Naga spirituale"
     },
     {
-      "text": "Drago verde giovane",
-      "link": "/srd/mostri/drago-verde-giovane"
+      "link": "/srd/mostri/drago-verde-giovane",
+      "text": "Drago verde giovane"
     },
     {
-      "text": "Diavolo d'ossa",
-      "link": "/srd/mostri/diavolo-dossa"
+      "link": "/srd/mostri/diavolo-dossa",
+      "text": "Diavolo d'ossa"
     },
     {
-      "text": "Golem di argilla",
-      "link": "/srd/mostri/golem-di-argilla"
+      "link": "/srd/mostri/golem-di-argilla",
+      "text": "Golem di argilla"
     },
     {
-      "text": "Gigante delle nuvole",
-      "link": "/srd/mostri/gigante-delle-nuvole"
+      "link": "/srd/mostri/gigante-delle-nuvole",
+      "text": "Gigante delle nuvole"
     },
     {
-      "text": "Gigante del fuoco",
-      "link": "/srd/mostri/gigante-del-fuoco"
+      "link": "/srd/mostri/gigante-del-fuoco",
+      "text": "Gigante del fuoco"
     },
     {
-      "text": "Glabrezu",
-      "link": "/srd/mostri/glabrezu"
+      "link": "/srd/mostri/glabrezu",
+      "text": "Glabrezu"
     },
     {
-      "text": "Drago blu giovane",
-      "link": "/srd/mostri/drago-blu-giovane"
+      "link": "/srd/mostri/drago-blu-giovane",
+      "text": "Drago blu giovane"
     },
     {
-      "text": "Aboleth",
-      "link": "/srd/mostri/aboleth"
+      "link": "/srd/mostri/aboleth",
+      "text": "Aboleth"
     },
     {
-      "text": "Naga guardiana",
-      "link": "/srd/mostri/naga-guardiana"
+      "link": "/srd/mostri/naga-guardiana",
+      "text": "Naga guardiana"
     },
     {
-      "text": "Golem di pietra",
-      "link": "/srd/mostri/golem-di-pietra"
+      "link": "/srd/mostri/golem-di-pietra",
+      "text": "Golem di pietra"
     },
     {
-      "text": "Drago rosso giovane",
-      "link": "/srd/mostri/drago-rosso-giovane"
+      "link": "/srd/mostri/drago-rosso-giovane",
+      "text": "Drago rosso giovane"
     },
     {
-      "text": "Behir",
-      "link": "/srd/mostri/behir"
+      "link": "/srd/mostri/behir",
+      "text": "Behir"
     },
     "Efreeti",
     {
-      "text": "Diavolo cornuto",
-      "link": "/srd/mostri/diavolo-cornuto"
+      "link": "/srd/mostri/diavolo-cornuto",
+      "text": "Diavolo cornuto"
     },
     {
-      "text": "Remorhaz",
-      "link": "/srd/mostri/remorhaz"
+      "link": "/srd/mostri/remorhaz",
+      "text": "Remorhaz"
     },
     {
-      "text": "Arcimago",
-      "link": "/srd/mostri/arcimago"
+      "link": "/srd/mostri/arcimago",
+      "text": "Arcimago"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 8 (GS 8—12)",
+  "order": 98,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

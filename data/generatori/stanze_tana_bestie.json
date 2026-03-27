@@ -1,9 +1,8 @@
 {
-  "id": "stanze-tana-bestie",
-  "name": "Tana delle Bestie",
   "description": "Stanze per una tana di bestie selvagge.",
   "die": "1d20",
-  "order": 50,
+  "group": "random-chambers",
+  "id": "stanze-tana-bestie",
   "items": [
     "Tana del sonno",
     "Pozza d'acqua",
@@ -26,7 +25,8 @@
     "Posatoio del cacciatore",
     "Tomba ancestrale"
   ],
-  "group": "random-chambers",
+  "name": "Tana delle Bestie",
+  "order": 50,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

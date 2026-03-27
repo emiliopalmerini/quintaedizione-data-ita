@@ -1,9 +1,8 @@
 {
-  "id": "citta-meteo",
-  "name": "Condizioni Meteo",
   "description": "Le condizioni meteorologiche degne di nota in città.",
   "die": "1d20",
-  "order": 82,
+  "group": "town-events",
+  "id": "citta-meteo",
   "items": [
     "Nebbia",
     "Foschia densa",
@@ -26,7 +25,8 @@
     "Nevicata moderata",
     "Bufera di neve"
   ],
-  "group": "town-events",
+  "name": "Condizioni Meteo",
+  "order": 82,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

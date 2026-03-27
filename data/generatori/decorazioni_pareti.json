@@ -1,9 +1,8 @@
 {
-  "id": "decorazioni-pareti",
-  "name": "Decorazioni Parietali",
   "description": "Tipi di decorazioni murali che potrebbero rivelare segreti e indizi.",
   "die": "1d10",
-  "order": 13,
+  "group": "core-adventure",
+  "id": "decorazioni-pareti",
   "items": [
     "Bassorilievo",
     "Fregio",
@@ -16,7 +15,8 @@
     "Marouflage",
     "Sgraffito"
   ],
-  "group": "core-adventure",
+  "name": "Decorazioni Parietali",
+  "order": 13,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

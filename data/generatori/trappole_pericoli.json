@@ -1,9 +1,8 @@
 {
-  "id": "trappole-pericoli",
-  "name": "Trappole e Pericoli",
   "description": "Aggiungi trappole dove ha senso per l'avventura. Dal 1° al 4° livello, le trappole hanno spesso una CD di 13 e infliggono 7 (2d6) danni per trappole facili o 11 (2d10) danni per trappole difficili.",
   "die": "1d20",
-  "order": 15,
+  "group": "core-adventure",
+  "id": "trappole-pericoli",
   "items": [
     "Fossa con spuntoni",
     "Scariche di fulmini",
@@ -26,7 +25,8 @@
     "Ragnatele fitte",
     "Getti gelidi"
   ],
-  "group": "core-adventure",
+  "name": "Trappole e Pericoli",
+  "order": 15,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

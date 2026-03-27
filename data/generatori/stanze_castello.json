@@ -1,9 +1,8 @@
 {
-  "id": "stanze-castello",
-  "name": "Castello",
   "description": "Stanze per un castello.",
   "die": "1d20",
-  "order": 51,
+  "group": "random-chambers",
+  "id": "stanze-castello",
   "items": [
     "Sala da pranzo",
     "Sala del trono",
@@ -26,7 +25,8 @@
     "Camera di tortura",
     "Oubliette"
   ],
-  "group": "random-chambers",
+  "name": "Castello",
+  "order": 51,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

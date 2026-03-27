@@ -1,2107 +1,2107 @@
 [
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto dragonide, il personaggio ha i seguenti tratti speciali. _**Discendenza draconica.**_ Il personaggio discende da un progenitore draconico. Scegli la tipologia dalla tabella Antenati draconici. La tua decisione definisce il tipo soffio e il tratto di resistenza ai danni, ma anche l'aspetto del personaggio.\n\n| ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "Drago",
+        "type": "creature_type"
+      },
+      {
+        "text": " | Tipo di danni | ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "Drago",
+        "type": "creature_type"
+      },
+      {
+        "text": " | Tipo di danni |\n| --- | --- | --- | --- |\n| Argento | ",
+        "type": "text"
+      },
+      {
+        "id": "freddo",
+        "text": "Freddo",
+        "type": "damage_type"
+      },
+      {
+        "text": " | Oro | ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "Fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": " |\n| Bianco | ",
+        "type": "text"
+      },
+      {
+        "id": "freddo",
+        "text": "Freddo",
+        "type": "damage_type"
+      },
+      {
+        "text": " | Ottone | ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "Fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": " |\n| Blu | ",
+        "type": "text"
+      },
+      {
+        "id": "fulmine",
+        "text": "Fulmine",
+        "type": "damage_type"
+      },
+      {
+        "text": " | Rame | ",
+        "type": "text"
+      },
+      {
+        "id": "acido",
+        "text": "Acido",
+        "type": "damage_type"
+      },
+      {
+        "text": " |\n| Bronzo | ",
+        "type": "text"
+      },
+      {
+        "id": "fulmine",
+        "text": "Fulmine",
+        "type": "damage_type"
+      },
+      {
+        "text": " | Rosso | ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "Fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": " |\n| Nero | ",
+        "type": "text"
+      },
+      {
+        "id": "acido",
+        "text": "Acido",
+        "type": "damage_type"
+      },
+      {
+        "text": " | Verde | ",
+        "type": "text"
+      },
+      {
+        "id": "veleno",
+        "text": "Veleno",
+        "type": "damage_type"
+      },
+      {
+        "text": " | _**Soffio.**_ Quando il personaggio esegue l'azione di Attacco durante il turno, può sostituire uno dei suoi attacchi con un'esalazione di energia magica in un cono di 4,5 metri o in una linea lunga 9 metri e larga 1,5 (puoi scegliere la forma a ogni utilizzo). Ogni creatura nell'area deve effettuare un tiro salvezza su ",
+        "type": "text"
+      },
+      {
+        "id": "destrezza",
+        "text": "Destrezza",
+        "type": "ability"
+      },
+      {
+        "text": " (CD 8 più il modificatore di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " e il bonus di competenza del personaggio). In caso di fallimento, vengono inflitti 1d10 danni del tipo determinato dal tratto Discendenza draconica. In caso di successo, subisce soltanto la metà di quei danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero di volte pari al valore del suo bonus di competenza e recuperare tutti gli utilizzi spesi quando completa un riposo lungo. _**Resistenza ai danni.**_Il personaggio dispone di resistenza ai danni del tipo determinato dal tratto Discendenza draconica.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Il personaggio ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 18 metri. _**Volo draconico.**_ Quando il personaggio raggiunge il 5º livello, può incanalare dell'energia draconica per ",
+        "type": "text"
+      },
+      {
+        "id": "volare",
+        "text": "volare",
+        "type": "spell"
+      },
+      {
+        "text": " temporaneamente. Come azione bonus, può far spuntare delle ali spettrali dalla sua schiena che durano per 10 minuti, fino al momento in cui decide di farle scomparire (nessuna azione richiesta) o finché non diventa ",
+        "type": "text"
+      },
+      {
+        "id": "incapacitato",
+        "text": "incapacitato",
+        "type": "condition"
+      },
+      {
+        "text": ". Durante quel periodo, è dotato di una ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " di volo pari alla sua ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": ". L'aspetto delle ali varia in base al tipo di energia del Soffio. Dopo aver usato questo tratto, il personaggio non può riutilizzarlo prima di aver completato un riposo lungo.",
+        "type": "text"
+      }
+    ],
     "id": "dragonide",
     "name": "Dragonide",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 150-210 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Discendenza draconica",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di resistenza ai  danni, ma anche l'aspetto del personaggio.\n\n| "
+            "text": "Il personaggio discende da un progenitore draconico. Scegli la tipologia dalla tabella Antenati draconici. La tua decisione definisce il tipo soffio e il tratto di resistenza ai danni, ma anche l'aspetto del personaggio.\n\n| ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "drago",
             "text": "Drago",
-            "id": "drago"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": " | Tipo di danni | "
+            "text": " | Tipo di danni | ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "drago",
             "text": "Drago",
-            "id": "drago"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": " | Tipo di danni |\n| --- | --- | --- | --- |\n| Argento | "
+            "text": " | Tipo di danni |\n| --- | --- | --- | --- |\n| Argento | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "freddo",
             "text": "Freddo",
-            "id": "freddo"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " | Oro | "
+            "text": " | Oro | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "Fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " |\n| Bianco | "
+            "text": " |\n| Bianco | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "freddo",
             "text": "Freddo",
-            "id": "freddo"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " | Ottone | "
+            "text": " | Ottone | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "Fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " |\n| Blu | "
+            "text": " |\n| Blu | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fulmine",
             "text": "Fulmine",
-            "id": "fulmine"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " | Rame | "
+            "text": " | Rame | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "acido",
             "text": "Acido",
-            "id": "acido"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " |\n| Bronzo | "
+            "text": " |\n| Bronzo | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fulmine",
             "text": "Fulmine",
-            "id": "fulmine"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " | Rosso | "
+            "text": " | Rosso | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "Fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " |\n| Nero | "
+            "text": " |\n| Nero | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "acido",
             "text": "Acido",
-            "id": "acido"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " | Verde | "
+            "text": " | Verde | ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "veleno",
             "text": "Veleno",
-            "id": "veleno"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " |"
+            "text": " |",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Discendenza draconica"
       },
       {
-        "name": "Soffio",
         "description": [
           {
-            "type": "text",
-            "text": "Quando il personaggio esegue l'azione di  Attacco durante il turno, può sostituire uno dei suoi  attacchi con un'esalazione di energia magica in un  cono di 4,5 metri o in una linea lunga 9 metri e larga  1,5 (puoi scegliere la forma a ogni utilizzo). Ogni  creatura nell'area deve effettuare un tiro salvezza  su "
+            "text": "Quando il personaggio esegue l'azione di Attacco durante il turno, può sostituire uno dei suoi attacchi con un'esalazione di energia magica in un cono di 4,5 metri o in una linea lunga 9 metri e larga 1,5 (puoi scegliere la forma a ogni utilizzo). Ogni creatura nell'area deve effettuare un tiro salvezza su ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "destrezza",
             "text": "Destrezza",
-            "id": "destrezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " (CD 8 più il modificatore di "
+            "text": " (CD 8 più il modificatore di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "costituzione",
             "text": "Costituzione",
-            "id": "costituzione"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " e il bonus di competenza del personaggio).  In caso di fallimento, vengono inflitti 1d10 danni del  tipo determinato dal tratto Discendenza draconica.  In caso di successo, subisce soltanto la metà di quei  danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello  (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero  di volte pari al valore del suo bonus di competenza  e recuperare tutti gli utilizzi spesi quando completa  un riposo lungo."
+            "text": " e il bonus di competenza del personaggio). In caso di fallimento, vengono inflitti 1d10 danni del tipo determinato dal tratto Discendenza draconica. In caso di successo, subisce soltanto la metà di quei danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero di volte pari al valore del suo bonus di competenza e recuperare tutti gli utilizzi spesi quando completa un riposo lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Soffio"
       },
       {
-        "name": "Resistenza ai danni",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio dispone di  resistenza ai danni del tipo determinato dal tratto  Discendenza draconica."
+            "text": "Il personaggio dispone di resistenza ai danni del tipo determinato dal tratto Discendenza draconica.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resistenza ai danni"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio ha "
+            "text": "Il personaggio ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino  a un raggio di 18 metri."
+            "text": " fino a un raggio di 18 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Volo draconico",
         "description": [
           {
-            "type": "text",
-            "text": "Quando il personaggio raggiunge  il 5º livello, può incanalare dell'energia draconica  per "
+            "text": "Quando il personaggio raggiunge il 5º livello, può incanalare dell'energia draconica per ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "volare",
             "text": "volare",
-            "id": "volare"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " temporaneamente. Come azione bonus,  può far spuntare delle ali spettrali dalla sua schiena  che durano per 10 minuti, fino al momento in cui  decide di farle scomparire (nessuna azione richiesta) o finché non diventa "
+            "text": " temporaneamente. Come azione bonus, può far spuntare delle ali spettrali dalla sua schiena che durano per 10 minuti, fino al momento in cui decide di farle scomparire (nessuna azione richiesta) o finché non diventa ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "incapacitato",
             "text": "incapacitato",
-            "id": "incapacitato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": ". Durante quel  periodo, è dotato di una "
+            "text": ". Durante quel periodo, è dotato di una ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " di volo pari alla  sua "
+            "text": " di volo pari alla sua ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": ". L'aspetto delle ali varia in base al tipo  di energia del Soffio. Dopo aver usato questo tratto,  il personaggio non può riutilizzarlo prima di aver  completato un riposo lungo."
+            "text": ". L'aspetto delle ali varia in base al tipo di energia del Soffio. Dopo aver usato questo tratto, il personaggio non può riutilizzarlo prima di aver completato un riposo lungo.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto dragonide, il personaggio ha i seguenti  tratti speciali. _**Discendenza draconica.**_ Il personaggio discende  da un progenitore draconico. Scegli la tipologia  dalla tabella Antenati draconici. La tua decisione  definisce il tipo soffio e il tratto di resistenza ai  danni, ma anche l'aspetto del personaggio.\n\n| "
-      },
-      {
-        "type": "creature_type",
-        "text": "Drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": " | Tipo di danni | "
-      },
-      {
-        "type": "creature_type",
-        "text": "Drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": " | Tipo di danni |\n| --- | --- | --- | --- |\n| Argento | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Freddo",
-        "id": "freddo"
-      },
-      {
-        "type": "text",
-        "text": " | Oro | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": " |\n| Bianco | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Freddo",
-        "id": "freddo"
-      },
-      {
-        "type": "text",
-        "text": " | Ottone | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": " |\n| Blu | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Fulmine",
-        "id": "fulmine"
-      },
-      {
-        "type": "text",
-        "text": " | Rame | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Acido",
-        "id": "acido"
-      },
-      {
-        "type": "text",
-        "text": " |\n| Bronzo | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Fulmine",
-        "id": "fulmine"
-      },
-      {
-        "type": "text",
-        "text": " | Rosso | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": " |\n| Nero | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Acido",
-        "id": "acido"
-      },
-      {
-        "type": "text",
-        "text": " | Verde | "
-      },
-      {
-        "type": "damage_type",
-        "text": "Veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": " | _**Soffio.**_ Quando il personaggio esegue l'azione di  Attacco durante il turno, può sostituire uno dei suoi  attacchi con un'esalazione di energia magica in un  cono di 4,5 metri o in una linea lunga 9 metri e larga  1,5 (puoi scegliere la forma a ogni utilizzo). Ogni  creatura nell'area deve effettuare un tiro salvezza  su "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": " (CD 8 più il modificatore di "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " e il bonus di competenza del personaggio).  In caso di fallimento, vengono inflitti 1d10 danni del  tipo determinato dal tratto Discendenza draconica.  In caso di successo, subisce soltanto la metà di quei  danni. I danni aumentano di 1d10 quando il personaggio raggiunge il 5º livello (2d10), l'11º livello  (3d10) e il 17º livello (4d10). Il personaggio può utilizzare il Soffio un numero  di volte pari al valore del suo bonus di competenza  e recuperare tutti gli utilizzi spesi quando completa  un riposo lungo. _**Resistenza ai danni.**_Il personaggio dispone di  resistenza ai danni del tipo determinato dal tratto  Discendenza draconica. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Il personaggio ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino  a un raggio di 18 metri. _**Volo draconico.**_ Quando il personaggio raggiunge  il 5º livello, può incanalare dell'energia draconica  per "
-      },
-      {
-        "type": "spell",
-        "text": "volare",
-        "id": "volare"
-      },
-      {
-        "type": "text",
-        "text": " temporaneamente. Come azione bonus,  può far spuntare delle ali spettrali dalla sua schiena  che durano per 10 minuti, fino al momento in cui  decide di farle scomparire (nessuna azione richiesta) o finché non diventa "
-      },
-      {
-        "type": "condition",
-        "text": "incapacitato",
-        "id": "incapacitato"
-      },
-      {
-        "type": "text",
-        "text": ". Durante quel  periodo, è dotato di una "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " di volo pari alla  sua "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ". L'aspetto delle ali varia in base al tipo  di energia del Soffio. Dopo aver usato questo tratto,  il personaggio non può riutilizzarlo prima di aver  completato un riposo lungo."
+        ],
+        "name": "Volo draconico"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto elfo, il personaggio ha i seguenti tratti speciali.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Il personaggio ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 18 metri. _**Lignaggio elfico.**_Come parte di un lignaggio, è dotato di abilità soprannaturali. Scegli un lignaggio dalla tabella Lignaggi elfici. Il personaggio otterrà il beneficio di 1º livello di quel determinato lignaggio. Quando raggiunge i livelli 3 e 5, apprenderà un incantesimo di livello superiore, come mostrato nella tabella. Tale incantesimo è sempre considerato come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio può essere ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " o ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " per\n\n| Lignaggio | Livello 1 | | | | | | | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Drow | La portata di ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " aumenta fino a 36 metri. | | | | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "luminescenza",
+        "text": "Luminescenza",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "Oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| | Inoltre, il personaggio conosce il trucchetto | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "luci-danzanti",
+        "text": "luci danzanti",
+        "type": "spell"
+      },
+      {
+        "text": " | | . | | |\n| Elfo alto | Il personaggio impara il trucchetto volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago. | | ",
+        "type": "text"
+      },
+      {
+        "id": "prestidigitazione",
+        "text": "prestidigitazione",
+        "type": "spell"
+      },
+      {
+        "text": " | | | . Ogni | | ",
+        "type": "text"
+      },
+      {
+        "id": "individuazione-del-magico",
+        "text": "Individuazione del magico",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "passo-velato",
+        "text": "Passo velato",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| Elfo dei | La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " del personaggio aumenta a 10,5 metri. Inoltre, | | | | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "passo-veloce",
+        "text": "Passo veloce",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "passare-senza-tracce",
+        "text": "Passare senza tracce",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| boschi | conosce il trucchetto | ",
+        "type": "text"
+      },
+      {
+        "id": "artificio-druidico",
+        "text": "artificio druidico",
+        "type": "spell"
+      },
+      {
+        "text": " | | . | | | | | | gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il lignaggio). _**Retaggio ",
+        "type": "text"
+      },
+      {
+        "id": "fatato",
+        "text": "fatato",
+        "type": "creature_type"
+      },
+      {
+        "text": ".**_ Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione ",
+        "type": "text"
+      },
+      {
+        "id": "affascinato",
+        "text": "affascinato",
+        "type": "condition"
+      },
+      {
+        "text": " su se stesso. _**Sensi acuti.**_ Ha competenza nelle abilità ",
+        "type": "text"
+      },
+      {
+        "id": "intuizione",
+        "text": "Intuizione",
+        "type": "skill"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "percezione",
+        "text": "Percezione",
+        "type": "skill"
+      },
+      {
+        "text": " o ",
+        "type": "text"
+      },
+      {
+        "id": "sopravvivenza",
+        "text": "Sopravvivenza",
+        "type": "skill"
+      },
+      {
+        "text": ". _**Trance.**_ Non ha bisogno di dormire e la magia non può farlo addormentare. Può completare un riposo lungo in 4 ore rimanendo in uno stato di trance meditativa, durante il quale resta cosciente.",
+        "type": "text"
+      }
+    ],
     "id": "elfo",
     "name": "Elfo",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 150-180 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio ha "
+            "text": "Il personaggio ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino  a un raggio di 18 metri."
+            "text": " fino a un raggio di 18 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Lignaggio elfico",
         "description": [
           {
-            "type": "text",
-            "text": "Come parte di un lignaggio,  è dotato di abilità soprannaturali. Scegli un lignaggio dalla tabella Lignaggi elfici. Il personaggio  otterrà il beneficio di 1º livello di quel determinato  lignaggio. Quando raggiunge i livelli 3 e 5, apprenderà un  incantesimo di livello superiore, come mostrato  nella tabella. Tale incantesimo è sempre considerato  come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo  in questo modo dopo aver completato un riposo  lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio  può essere "
+            "text": "Come parte di un lignaggio, è dotato di abilità soprannaturali. Scegli un lignaggio dalla tabella Lignaggi elfici. Il personaggio otterrà il beneficio di 1º livello di quel determinato lignaggio. Quando raggiunge i livelli 3 e 5, apprenderà un incantesimo di livello superiore, come mostrato nella tabella. Tale incantesimo è sempre considerato come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio può essere ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": ", "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "saggezza",
             "text": "Saggezza",
-            "id": "saggezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " o "
+            "text": " o ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " per\n\n| Lignaggio | Livello 1 |  |  |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Drow | La portata di "
+            "text": " per\n\n| Lignaggio | Livello 1 | | | | | | | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Drow | La portata di ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " aumenta fino a 36 metri. |  |  |  |  |  |  | "
+            "text": " aumenta fino a 36 metri. | | | | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "luminescenza",
             "text": "Luminescenza",
-            "id": "luminescenza"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "Oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n|  | Inoltre, il personaggio conosce il trucchetto |  |  |  | "
+            "text": " |\n| | Inoltre, il personaggio conosce il trucchetto | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "luci-danzanti",
             "text": "luci danzanti",
-            "id": "luci-danzanti"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |  | . |  |  |\n| Elfo alto | Il personaggio impara il trucchetto volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago. |  | "
+            "text": " | | . | | |\n| Elfo alto | Il personaggio impara il trucchetto volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago. | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "prestidigitazione",
             "text": "prestidigitazione",
-            "id": "prestidigitazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |  |  | . Ogni |  | "
+            "text": " | | | . Ogni | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "individuazione-del-magico",
             "text": "Individuazione del magico",
-            "id": "individuazione-del-magico"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "passo-velato",
             "text": "Passo velato",
-            "id": "passo-velato"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n| Elfo dei | La "
+            "text": " |\n| Elfo dei | La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " del personaggio aumenta a 10,5 metri. Inoltre, |  |  |  |  |  |  | "
+            "text": " del personaggio aumenta a 10,5 metri. Inoltre, | | | | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "passo-veloce",
             "text": "Passo veloce",
-            "id": "passo-veloce"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "passare-senza-tracce",
             "text": "Passare senza tracce",
-            "id": "passare-senza-tracce"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n| boschi | conosce il trucchetto | "
+            "text": " |\n| boschi | conosce il trucchetto | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "artificio-druidico",
             "text": "artificio druidico",
-            "id": "artificio-druidico"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |  | . |  |  |  |  |  | gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il lignaggio)."
+            "text": " | | . | | | | | | gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il lignaggio).",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Lignaggio elfico"
       },
       {
-        "name": "Retaggio fatato",
         "description": [
           {
-            "type": "text",
-            "text": "Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione  "
+            "text": "Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "affascinato",
             "text": "affascinato",
-            "id": "affascinato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": " su se stesso."
+            "text": " su se stesso.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Retaggio fatato"
       },
       {
-        "name": "Sensi acuti",
         "description": [
           {
-            "type": "text",
-            "text": "Ha competenza nelle abilità "
+            "text": "Ha competenza nelle abilità ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "intuizione",
             "text": "Intuizione",
-            "id": "intuizione"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": ", "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "percezione",
             "text": "Percezione",
-            "id": "percezione"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": " o "
+            "text": " o ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "sopravvivenza",
             "text": "Sopravvivenza",
-            "id": "sopravvivenza"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Sensi acuti"
       },
       {
-        "name": "Trance",
         "description": [
           {
-            "type": "text",
-            "text": "Non ha bisogno di dormire e la magia non  può farlo addormentare. Può completare un riposo  lungo in 4 ore rimanendo in uno stato di trance  meditativa, durante il quale resta cosciente."
+            "text": "Non ha bisogno di dormire e la magia non può farlo addormentare. Può completare un riposo lungo in 4 ore rimanendo in uno stato di trance meditativa, durante il quale resta cosciente.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto elfo, il personaggio ha i seguenti tratti  speciali. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Il personaggio ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino  a un raggio di 18 metri. _**Lignaggio elfico.**_Come parte di un lignaggio,  è dotato di abilità soprannaturali. Scegli un lignaggio dalla tabella Lignaggi elfici. Il personaggio  otterrà il beneficio di 1º livello di quel determinato  lignaggio. Quando raggiunge i livelli 3 e 5, apprenderà un  incantesimo di livello superiore, come mostrato  nella tabella. Tale incantesimo è sempre considerato  come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo  in questo modo dopo aver completato un riposo  lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio  può essere "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ", "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " per\n\n| Lignaggio | Livello 1 |  |  |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Drow | La portata di "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " aumenta fino a 36 metri. |  |  |  |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Luminescenza",
-        "id": "luminescenza"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " |\n|  | Inoltre, il personaggio conosce il trucchetto |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "luci danzanti",
-        "id": "luci-danzanti"
-      },
-      {
-        "type": "text",
-        "text": " |  | . |  |  |\n| Elfo alto | Il personaggio impara il trucchetto volta che completa un riposo lungo, può sostituirlo con un altro trucchetto dalla lista degli incantesimi del mago. |  | "
-      },
-      {
-        "type": "spell",
-        "text": "prestidigitazione",
-        "id": "prestidigitazione"
-      },
-      {
-        "type": "text",
-        "text": " |  |  | . Ogni |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Individuazione del magico",
-        "id": "individuazione-del-magico"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Passo velato",
-        "id": "passo-velato"
-      },
-      {
-        "type": "text",
-        "text": " |\n| Elfo dei | La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " del personaggio aumenta a 10,5 metri. Inoltre, |  |  |  |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Passo veloce",
-        "id": "passo-veloce"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Passare senza tracce",
-        "id": "passare-senza-tracce"
-      },
-      {
-        "type": "text",
-        "text": " |\n| boschi | conosce il trucchetto | "
-      },
-      {
-        "type": "spell",
-        "text": "artificio druidico",
-        "id": "artificio-druidico"
-      },
-      {
-        "type": "text",
-        "text": " |  | . |  |  |  |  |  | gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il lignaggio). _**Retaggio "
-      },
-      {
-        "type": "creature_type",
-        "text": "fatato",
-        "id": "fatato"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione  "
-      },
-      {
-        "type": "condition",
-        "text": "affascinato",
-        "id": "affascinato"
-      },
-      {
-        "type": "text",
-        "text": " su se stesso. _**Sensi acuti.**_ Ha competenza nelle abilità "
-      },
-      {
-        "type": "skill",
-        "text": "Intuizione",
-        "id": "intuizione"
-      },
-      {
-        "type": "text",
-        "text": ", "
-      },
-      {
-        "type": "skill",
-        "text": "Percezione",
-        "id": "percezione"
-      },
-      {
-        "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "skill",
-        "text": "Sopravvivenza",
-        "id": "sopravvivenza"
-      },
-      {
-        "type": "text",
-        "text": ". _**Trance.**_ Non ha bisogno di dormire e la magia non  può farlo addormentare. Può completare un riposo  lungo in 4 ore rimanendo in uno stato di trance  meditativa, durante il quale resta cosciente."
+        ],
+        "name": "Trance"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto gnomo, il personaggio ha i seguenti tratti speciali. _**Astuzia gnomesca.**_ Dispone di vantaggio a i tiri salvezza su ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " e ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": ". _**Lignaggio gnomesco.**_ Come parte di un lignaggio, è dotato di abilità soprannaturali. Scegli una delle opzioni seguenti. A prescindere da quella selezionata, la caratteristica da incantatore del personaggio può essere ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " o ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " per gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il lignaggio): **Gnomo delle foreste.** Il personaggio conosce il trucchetto *",
+        "type": "text"
+      },
+      {
+        "id": "illusione-minore",
+        "text": "illusione minore",
+        "type": "spell"
+      },
+      {
+        "text": "*. Inoltre, l'incantesimo *",
+        "type": "text"
+      },
+      {
+        "id": "parlare-con-gli-animali",
+        "text": "parlare con gli animali",
+        "type": "spell"
+      },
+      {
+        "text": "* è sempre considerato come preparato. Può lanciarlo senza consumare uno slot incantesimo un numero di volte pari al suo bonus di competenza e riacquista tutti gli usi spesi al termine di un riposo lungo. Può anche lanciare l'incantesimo usando uno qualsiasi degli slot incantesimo a sua disposizione. **Gnomo delle rocce.** Conosce i trucchetti *",
+        "type": "text"
+      },
+      {
+        "id": "riparare",
+        "text": "riparare",
+        "type": "spell"
+      },
+      {
+        "text": "* e *",
+        "type": "text"
+      },
+      {
+        "id": "prestidigitazione",
+        "text": "prestidigitazione",
+        "type": "spell"
+      },
+      {
+        "text": "*. Inoltre, può impiegare 10 minuti di lancio di *",
+        "type": "text"
+      },
+      {
+        "id": "prestidigitazione",
+        "text": "prestidigitazione",
+        "type": "spell"
+      },
+      {
+        "text": "* per creare un piccolo dispositivo meccanico (CA 5, 1 PF), come un giocattolo, un accendifuoco o un carillon. Una volta creato, puoi determinare il suo effetto scegliendolo fra quelli di *prestidigitazione*. Il dispositivo lo produrrà ogni volta che il personaggio o un'altra creatura utilizza un'azione bonus per attivarlo a contatto. Se l'effetto selezionato presenta ulteriori opzioni, puoi sceglierne una al momento della ",
+        "type": "text"
+      },
+      {
+        "id": "creazione",
+        "text": "creazione",
+        "type": "spell"
+      },
+      {
+        "text": " del congegno. Per esempio, puoi selezionare l'effetto di accensione o spegnimento e decidere quale dei due applicare. Il dispositivo creato non può eseguirli entrambi. Il personaggio può avere in contemporanea fino a tre oggetti del genere. Ciascuno si smantella 8 ore dopo la sua ",
+        "type": "text"
+      },
+      {
+        "id": "creazione",
+        "text": "creazione",
+        "type": "spell"
+      },
+      {
+        "text": " o finché non lo fa il personaggio stesso con un'azione di Contatto o Utilizzo.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Il personaggio ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 18 metri.",
+        "type": "text"
+      }
+    ],
     "id": "gnomo",
     "name": "Gnomo",
-    "creature_type": "umanoide",
     "size": "Piccola (altezza di circa 90-120 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Astuzia gnomesca",
         "description": [
           {
-            "type": "text",
-            "text": "Dispone di vantaggio a i tiri  salvezza su "
+            "text": "Dispone di vantaggio a i tiri salvezza su ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": ", "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "saggezza",
             "text": "Saggezza",
-            "id": "saggezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " e "
+            "text": " e ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Astuzia gnomesca"
       },
       {
-        "name": "Lignaggio gnomesco",
         "description": [
           {
-            "type": "text",
-            "text": "Come parte di un lignaggio,  è dotato di abilità soprannaturali. Scegli una delle  opzioni seguenti. A prescindere da quella selezionata, la caratteristica da incantatore del personaggio può essere "
+            "text": "Come parte di un lignaggio, è dotato di abilità soprannaturali. Scegli una delle opzioni seguenti. A prescindere da quella selezionata, la caratteristica da incantatore del personaggio può essere ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": ", "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "saggezza",
             "text": "Saggezza",
-            "id": "saggezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " o "
+            "text": " o ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " per  gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il lignaggio): **Gnomo delle foreste.** Il personaggio conosce il  trucchetto *"
+            "text": " per gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il lignaggio): **Gnomo delle foreste.** Il personaggio conosce il trucchetto *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "illusione-minore",
             "text": "illusione minore",
-            "id": "illusione-minore"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "*. Inoltre, l'incantesimo  *"
+            "text": "*. Inoltre, l'incantesimo *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "parlare-con-gli-animali",
             "text": "parlare con gli animali",
-            "id": "parlare-con-gli-animali"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "* è sempre considerato come  preparato. Può lanciarlo senza consumare uno  slot incantesimo un numero di volte pari al suo  bonus di competenza e riacquista tutti gli usi  spesi al termine di un riposo lungo. Può anche  lanciare l'incantesimo usando uno qualsiasi degli  slot incantesimo a sua disposizione. **Gnomo delle rocce.** Conosce i trucchetti *"
+            "text": "* è sempre considerato come preparato. Può lanciarlo senza consumare uno slot incantesimo un numero di volte pari al suo bonus di competenza e riacquista tutti gli usi spesi al termine di un riposo lungo. Può anche lanciare l'incantesimo usando uno qualsiasi degli slot incantesimo a sua disposizione. **Gnomo delle rocce.** Conosce i trucchetti *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "riparare",
             "text": "riparare",
-            "id": "riparare"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "* e *"
+            "text": "* e *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "prestidigitazione",
             "text": "prestidigitazione",
-            "id": "prestidigitazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "*. Inoltre, può impiegare  10 minuti di lancio di *"
+            "text": "*. Inoltre, può impiegare 10 minuti di lancio di *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "prestidigitazione",
             "text": "prestidigitazione",
-            "id": "prestidigitazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "* per  creare un piccolo dispositivo meccanico (CA 5,  1 PF), come un giocattolo, un accendifuoco o un  carillon. Una volta creato, puoi determinare il  suo effetto scegliendolo fra quelli di *prestidigitazione*. Il dispositivo lo produrrà ogni volta che il  personaggio o un'altra creatura utilizza un'azione  bonus per attivarlo a contatto. Se l'effetto selezionato presenta ulteriori opzioni, puoi sceglierne  una al momento della "
+            "text": "* per creare un piccolo dispositivo meccanico (CA 5, 1 PF), come un giocattolo, un accendifuoco o un carillon. Una volta creato, puoi determinare il suo effetto scegliendolo fra quelli di *prestidigitazione*. Il dispositivo lo produrrà ogni volta che il personaggio o un'altra creatura utilizza un'azione bonus per attivarlo a contatto. Se l'effetto selezionato presenta ulteriori opzioni, puoi sceglierne una al momento della ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "creazione",
             "text": "creazione",
-            "id": "creazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " del congegno.  Per esempio, puoi selezionare l'effetto di accensione o spegnimento e decidere quale dei due  applicare. Il dispositivo creato non può eseguirli  entrambi. Il personaggio può avere in contemporanea fino a tre oggetti del genere. Ciascuno  si smantella 8 ore dopo la sua "
+            "text": " del congegno. Per esempio, puoi selezionare l'effetto di accensione o spegnimento e decidere quale dei due applicare. Il dispositivo creato non può eseguirli entrambi. Il personaggio può avere in contemporanea fino a tre oggetti del genere. Ciascuno si smantella 8 ore dopo la sua ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "creazione",
             "text": "creazione",
-            "id": "creazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " o finché  non lo fa il personaggio stesso con un'azione di  Contatto o Utilizzo."
+            "text": " o finché non lo fa il personaggio stesso con un'azione di Contatto o Utilizzo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Lignaggio gnomesco"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio ha "
+            "text": "Il personaggio ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino  a un raggio di 18 metri."
+            "text": " fino a un raggio di 18 metri.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto gnomo, il personaggio ha i seguenti tratti  speciali. _**Astuzia gnomesca.**_ Dispone di vantaggio a i tiri  salvezza su "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ", "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " e "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": ". _**Lignaggio gnomesco.**_ Come parte di un lignaggio,  è dotato di abilità soprannaturali. Scegli una delle  opzioni seguenti. A prescindere da quella selezionata, la caratteristica da incantatore del personaggio può essere "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ", "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " per  gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il lignaggio): **Gnomo delle foreste.** Il personaggio conosce il  trucchetto *"
-      },
-      {
-        "type": "spell",
-        "text": "illusione minore",
-        "id": "illusione-minore"
-      },
-      {
-        "type": "text",
-        "text": "*. Inoltre, l'incantesimo  *"
-      },
-      {
-        "type": "spell",
-        "text": "parlare con gli animali",
-        "id": "parlare-con-gli-animali"
-      },
-      {
-        "type": "text",
-        "text": "* è sempre considerato come  preparato. Può lanciarlo senza consumare uno  slot incantesimo un numero di volte pari al suo  bonus di competenza e riacquista tutti gli usi  spesi al termine di un riposo lungo. Può anche  lanciare l'incantesimo usando uno qualsiasi degli  slot incantesimo a sua disposizione. **Gnomo delle rocce.** Conosce i trucchetti *"
-      },
-      {
-        "type": "spell",
-        "text": "riparare",
-        "id": "riparare"
-      },
-      {
-        "type": "text",
-        "text": "* e *"
-      },
-      {
-        "type": "spell",
-        "text": "prestidigitazione",
-        "id": "prestidigitazione"
-      },
-      {
-        "type": "text",
-        "text": "*. Inoltre, può impiegare  10 minuti di lancio di *"
-      },
-      {
-        "type": "spell",
-        "text": "prestidigitazione",
-        "id": "prestidigitazione"
-      },
-      {
-        "type": "text",
-        "text": "* per  creare un piccolo dispositivo meccanico (CA 5,  1 PF), come un giocattolo, un accendifuoco o un  carillon. Una volta creato, puoi determinare il  suo effetto scegliendolo fra quelli di *prestidigitazione*. Il dispositivo lo produrrà ogni volta che il  personaggio o un'altra creatura utilizza un'azione  bonus per attivarlo a contatto. Se l'effetto selezionato presenta ulteriori opzioni, puoi sceglierne  una al momento della "
-      },
-      {
-        "type": "spell",
-        "text": "creazione",
-        "id": "creazione"
-      },
-      {
-        "type": "text",
-        "text": " del congegno.  Per esempio, puoi selezionare l'effetto di accensione o spegnimento e decidere quale dei due  applicare. Il dispositivo creato non può eseguirli  entrambi. Il personaggio può avere in contemporanea fino a tre oggetti del genere. Ciascuno  si smantella 8 ore dopo la sua "
-      },
-      {
-        "type": "spell",
-        "text": "creazione",
-        "id": "creazione"
-      },
-      {
-        "type": "text",
-        "text": " o finché  non lo fa il personaggio stesso con un'azione di  Contatto o Utilizzo. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Il personaggio ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino  a un raggio di 18 metri."
+        ],
+        "name": "Scurovisione"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto goliath, il personaggio ha i seguenti tratti speciali.",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " robusta.**_ Ha vantaggio a qualsiasi prova di caratteristica effettuata per non essere ",
+        "type": "text"
+      },
+      {
+        "id": "afferrato",
+        "text": "afferrato",
+        "type": "condition"
+      },
+      {
+        "text": ". Inoltre, la capacità di trasporto del personaggio è quella di una taglia superiore. _**Discendenza gigantica.**_ Il personaggio discende dai giganti. Sceglie uno dei seguenti doni soprannaturali derivati dal suo retaggio. Il personaggio può utilizzare il beneficio un numero di volte pari al valore del suo bonus di competenza e recupera tutti gli utilizzi spesi quando completa un riposo lungo: **Brivido gelante (gigante del gelo).** Quando colpisce un bersaglio con un tiro per colpire e gli infligge dei danni, può anche infliggergli 1d6 danni da ",
+        "type": "text"
+      },
+      {
+        "id": "freddo",
+        "text": "freddo",
+        "type": "damage_type"
+      },
+      {
+        "text": " e ridurre la sua ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " di 3 metri fino all'inizio del proprio turno successivo.",
+        "type": "text"
+      },
+      {
+        "id": "forza",
+        "text": "Forza",
+        "type": "damage_type"
+      },
+      {
+        "text": " della collina (gigante delle colline).** Quando colpisce una creatura di taglia Grande o inferiore con un tiro per colpire e le infligge dei danni, quest'ultima può cadere prona.",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "Fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": " bruciante (gigante del ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": ").** Quando colpisce un bersaglio con un tiro per colpire e gli infligge dei danni, può anche infliggergli 1d10 danni da ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione per tirare 1d12. Aggiungi il suo modificatore di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " al numero ottenuto e sottrai il totale ai danni subiti. **Salta-nuvole (gigante delle nuvole).** Come azione bonus, può teletrasportarsi magicamente di un massimo di 9 metri fino a uno spazio libero che è in grado di vedere.",
+        "type": "text"
+      },
+      {
+        "id": "tuono",
+        "text": "Tuono",
+        "type": "damage_type"
+      },
+      {
+        "text": " tempestoso (gigante delle tempeste).** Quando subisce danni da una creatura entro 18 metri da sé, può usare una reazione per infliggerle 1d8 danni da ",
+        "type": "text"
+      },
+      {
+        "id": "tuono",
+        "text": "tuono",
+        "type": "damage_type"
+      },
+      {
+        "text": ". _**Forma Grande.**_ A partire dal 5º livello, come azione bonus può diventare di taglia Grande se si trova in uno spazio abbastanza ampio. La ",
+        "type": "text"
+      },
+      {
+        "id": "trasformazione",
+        "text": "trasformazione",
+        "type": "spell"
+      },
+      {
+        "text": " dura per 10 minuti o finché non la interrompe (nessuna azione richiesta). Per tutta la sua durata, ottiene vantaggio alle prove di ",
+        "type": "text"
+      },
+      {
+        "id": "forza",
+        "text": "Forza",
+        "type": "damage_type"
+      },
+      {
+        "text": " e la sua ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " aumenta di 3 metri. Dopo aver usato questo tratto, il personaggio non può riutilizzarlo prima di aver completato un riposo lungo.",
+        "type": "text"
+      }
+    ],
     "id": "goliath",
     "name": "Goliath",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 210-240 centimetri)",
     "speed": "10,5 metri",
     "traits": [
       {
-        "name": "Costituzione robusta",
         "description": [
           {
-            "type": "text",
-            "text": "Ha vantaggio a qualsiasi  prova di caratteristica effettuata per non essere  "
+            "text": "Ha vantaggio a qualsiasi prova di caratteristica effettuata per non essere ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "afferrato",
             "text": "afferrato",
-            "id": "afferrato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": ". Inoltre, la capacità di trasporto del personaggio è quella di una taglia superiore."
+            "text": ". Inoltre, la capacità di trasporto del personaggio è quella di una taglia superiore.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Costituzione robusta"
       },
       {
-        "name": "Discendenza gigantica",
         "description": [
           {
-            "type": "text",
-            "text": "Il personaggio discende  dai giganti. Sceglie uno dei seguenti doni soprannaturali derivati dal suo retaggio. Il personaggio  può utilizzare il beneficio un numero di volte pari al  valore del suo bonus di competenza e recupera tutti  gli utilizzi spesi quando completa un riposo lungo: **Brivido gelante (gigante del gelo).** Quando  colpisce un bersaglio con un tiro per colpire e  gli infligge dei danni, può anche infliggergli 1d6  danni da "
+            "text": "Il personaggio discende dai giganti. Sceglie uno dei seguenti doni soprannaturali derivati dal suo retaggio. Il personaggio può utilizzare il beneficio un numero di volte pari al valore del suo bonus di competenza e recupera tutti gli utilizzi spesi quando completa un riposo lungo: **Brivido gelante (gigante del gelo).** Quando colpisce un bersaglio con un tiro per colpire e gli infligge dei danni, può anche infliggergli 1d6 danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "freddo",
             "text": "freddo",
-            "id": "freddo"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " e ridurre la sua "
+            "text": " e ridurre la sua ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " di 3 metri  fino all'inizio del proprio turno successivo. **"
+            "text": " di 3 metri fino all'inizio del proprio turno successivo.",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "forza",
             "text": "Forza",
-            "id": "forza"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " della collina (gigante delle colline).** Quando colpisce una creatura di taglia Grande  o inferiore con un tiro per colpire e le infligge dei  danni, quest'ultima può cadere prona. **"
+            "text": " della collina (gigante delle colline).** Quando colpisce una creatura di taglia Grande o inferiore con un tiro per colpire e le infligge dei danni, quest'ultima può cadere prona.",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "Fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " bruciante (gigante del "
+            "text": " bruciante (gigante del ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": ").** Quando  colpisce un bersaglio con un tiro per colpire e gli  infligge dei danni, può anche infliggergli 1d10  danni da "
+            "text": ").** Quando colpisce un bersaglio con un tiro per colpire e gli infligge dei danni, può anche infliggergli 1d10 danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
+            "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione per tirare 1d12. Aggiungi il suo modificatore di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "costituzione",
             "text": "Costituzione",
-            "id": "costituzione"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " al numero ottenuto e sottrai il totale  ai danni subiti. **Salta-nuvole (gigante delle nuvole).** Come azione  bonus, può teletrasportarsi magicamente di un  massimo di 9 metri fino a uno spazio libero che  è in grado di vedere. **"
+            "text": " al numero ottenuto e sottrai il totale ai danni subiti. **Salta-nuvole (gigante delle nuvole).** Come azione bonus, può teletrasportarsi magicamente di un massimo di 9 metri fino a uno spazio libero che è in grado di vedere.",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "tuono",
             "text": "Tuono",
-            "id": "tuono"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " tempestoso (gigante delle tempeste).** Quando subisce danni da una creatura entro  18 metri da sé, può usare una reazione per infliggerle 1d8 danni da "
+            "text": " tempestoso (gigante delle tempeste).** Quando subisce danni da una creatura entro 18 metri da sé, può usare una reazione per infliggerle 1d8 danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "tuono",
             "text": "tuono",
-            "id": "tuono"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Discendenza gigantica"
       },
       {
-        "name": "Forma Grande",
         "description": [
           {
-            "type": "text",
-            "text": "A partire dal 5º livello, come  azione bonus può diventare di taglia Grande se si  trova in uno spazio abbastanza ampio. La "
+            "text": "A partire dal 5º livello, come azione bonus può diventare di taglia Grande se si trova in uno spazio abbastanza ampio. La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "trasformazione",
             "text": "trasformazione",
-            "id": "trasformazione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " dura per 10 minuti o finché non la interrompe (nessuna azione richiesta). Per tutta la sua  durata, ottiene vantaggio alle prove di "
+            "text": " dura per 10 minuti o finché non la interrompe (nessuna azione richiesta). Per tutta la sua durata, ottiene vantaggio alle prove di ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "forza",
             "text": "Forza",
-            "id": "forza"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " e la sua  "
+            "text": " e la sua ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " aumenta di 3 metri. Dopo aver usato questo  tratto, il personaggio non può riutilizzarlo prima di  aver completato un riposo lungo."
+            "text": " aumenta di 3 metri. Dopo aver usato questo tratto, il personaggio non può riutilizzarlo prima di aver completato un riposo lungo.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto goliath, il personaggio ha i seguenti tratti  speciali. _**"
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " robusta.**_ Ha vantaggio a qualsiasi  prova di caratteristica effettuata per non essere  "
-      },
-      {
-        "type": "condition",
-        "text": "afferrato",
-        "id": "afferrato"
-      },
-      {
-        "type": "text",
-        "text": ". Inoltre, la capacità di trasporto del personaggio è quella di una taglia superiore. _**Discendenza gigantica.**_ Il personaggio discende  dai giganti. Sceglie uno dei seguenti doni soprannaturali derivati dal suo retaggio. Il personaggio  può utilizzare il beneficio un numero di volte pari al  valore del suo bonus di competenza e recupera tutti  gli utilizzi spesi quando completa un riposo lungo: **Brivido gelante (gigante del gelo).** Quando  colpisce un bersaglio con un tiro per colpire e  gli infligge dei danni, può anche infliggergli 1d6  danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "freddo",
-        "id": "freddo"
-      },
-      {
-        "type": "text",
-        "text": " e ridurre la sua "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " di 3 metri  fino all'inizio del proprio turno successivo. **"
-      },
-      {
-        "type": "damage_type",
-        "text": "Forza",
-        "id": "forza"
-      },
-      {
-        "type": "text",
-        "text": " della collina (gigante delle colline).** Quando colpisce una creatura di taglia Grande  o inferiore con un tiro per colpire e le infligge dei  danni, quest'ultima può cadere prona. **"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": " bruciante (gigante del "
-      },
-      {
-        "type": "damage_type",
-        "text": "fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": ").** Quando  colpisce un bersaglio con un tiro per colpire e gli  infligge dei danni, può anche infliggergli 1d10  danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": ". **Resistenza della pietra (gigante delle pietre).** Quando subisce danni, può usare una reazione  per tirare 1d12. Aggiungi il suo modificatore di  "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " al numero ottenuto e sottrai il totale  ai danni subiti. **Salta-nuvole (gigante delle nuvole).** Come azione  bonus, può teletrasportarsi magicamente di un  massimo di 9 metri fino a uno spazio libero che  è in grado di vedere. **"
-      },
-      {
-        "type": "damage_type",
-        "text": "Tuono",
-        "id": "tuono"
-      },
-      {
-        "type": "text",
-        "text": " tempestoso (gigante delle tempeste).** Quando subisce danni da una creatura entro  18 metri da sé, può usare una reazione per infliggerle 1d8 danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "tuono",
-        "id": "tuono"
-      },
-      {
-        "type": "text",
-        "text": ". _**Forma Grande.**_ A partire dal 5º livello, come  azione bonus può diventare di taglia Grande se si  trova in uno spazio abbastanza ampio. La "
-      },
-      {
-        "type": "spell",
-        "text": "trasformazione",
-        "id": "trasformazione"
-      },
-      {
-        "type": "text",
-        "text": " dura per 10 minuti o finché non la interrompe (nessuna azione richiesta). Per tutta la sua  durata, ottiene vantaggio alle prove di "
-      },
-      {
-        "type": "damage_type",
-        "text": "Forza",
-        "id": "forza"
-      },
-      {
-        "type": "text",
-        "text": " e la sua  "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " aumenta di 3 metri. Dopo aver usato questo  tratto, il personaggio non può riutilizzarlo prima di  aver completato un riposo lungo."
+        ],
+        "name": "Forma Grande"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto halfling, il personaggio ha i seguenti tratti speciali. _**Agilità halfling.**_ Può attraversare lo spazio occupato da qualsiasi creatura più grande di lui, ma non può soffermarcisi. _**Coraggioso.**_ Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione ",
+        "type": "text"
+      },
+      {
+        "id": "spaventato",
+        "text": "spaventato",
+        "type": "condition"
+      },
+      {
+        "text": " su se stesso. _**Fortuna.**_ Quando effettui una prova con d20 e ottieni 1, puoi ritirare il dado e devi utilizzare il nuovo risultato.",
+        "type": "text"
+      },
+      {
+        "id": "furtivita",
+        "text": "Furtività",
+        "type": "skill"
+      },
+      {
+        "text": " innata.**_ Può effettuare l'azione di Nascondersi anche se è oscurato solo da una singola creatura, purché questa sia più grande di lui di almeno una taglia.",
+        "type": "text"
+      }
+    ],
     "id": "halfling",
     "name": "Halfling",
-    "creature_type": "umanoide",
     "size": "Piccola (altezza di circa 60-90 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Agilità halfling",
         "description": [
           {
-            "type": "text",
-            "text": "Può attraversare lo spazio occupato da qualsiasi creatura più grande di lui, ma non  può soffermarcisi."
+            "text": "Può attraversare lo spazio occupato da qualsiasi creatura più grande di lui, ma non può soffermarcisi.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Agilità halfling"
       },
       {
-        "name": "Coraggioso",
         "description": [
           {
-            "type": "text",
-            "text": "Dispone di vantaggio ai tiri salvezza  eseguiti per evitare o terminare la condizione "
+            "text": "Dispone di vantaggio ai tiri salvezza eseguiti per evitare o terminare la condizione ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "spaventato",
             "text": "spaventato",
-            "id": "spaventato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": " su se stesso."
+            "text": " su se stesso.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Coraggioso"
       },
       {
-        "name": "Fortuna",
         "description": [
           {
-            "type": "text",
-            "text": "Quando effettui una prova con d20  e ottieni 1, puoi ritirare il dado e devi utilizzare  il nuovo risultato."
+            "text": "Quando effettui una prova con d20 e ottieni 1, puoi ritirare il dado e devi utilizzare il nuovo risultato.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Fortuna"
       },
       {
-        "name": "Furtività innata",
         "description": [
           {
-            "type": "text",
-            "text": "Può effettuare l'azione di  Nascondersi anche se è oscurato solo da una singola  creatura, purché questa sia più grande di lui di  almeno una taglia."
+            "text": "Può effettuare l'azione di Nascondersi anche se è oscurato solo da una singola creatura, purché questa sia più grande di lui di almeno una taglia.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto halfling, il personaggio ha i seguenti  tratti speciali. _**Agilità halfling.**_ Può attraversare lo spazio occupato da qualsiasi creatura più grande di lui, ma non  può soffermarcisi. _**Coraggioso.**_ Dispone di vantaggio ai tiri salvezza  eseguiti per evitare o terminare la condizione "
-      },
-      {
-        "type": "condition",
-        "text": "spaventato",
-        "id": "spaventato"
-      },
-      {
-        "type": "text",
-        "text": " su se stesso. _**Fortuna.**_ Quando effettui una prova con d20  e ottieni 1, puoi ritirare il dado e devi utilizzare  il nuovo risultato. _**"
-      },
-      {
-        "type": "skill",
-        "text": "Furtività",
-        "id": "furtivita"
-      },
-      {
-        "type": "text",
-        "text": " innata.**_ Può effettuare l'azione di  Nascondersi anche se è oscurato solo da una singola  creatura, purché questa sia più grande di lui di  almeno una taglia."
+        ],
+        "name": "Furtività innata"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto nano, il personaggio ha i seguenti tratti speciali. _**Esperto minatore.**_ Come azione bonus, il personaggio ottiene ",
+        "type": "text"
+      },
+      {
+        "id": "percezione",
+        "text": "percezione",
+        "type": "skill"
+      },
+      {
+        "text": " tellurica con un raggio di 18 metri per 10 minuti. Per poterla utilizzare, deve trovarsi su una superficie di pietra o toccarla. La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus un numero di volte pari al valore del suo bonus di competenza, recuperando tutti gli utilizzi spesi quando completa un riposo lungo. _**Resilienza nanica.**_ Ha resistenza ai danni da ",
+        "type": "text"
+      },
+      {
+        "id": "veleno",
+        "text": "veleno",
+        "type": "damage_type"
+      },
+      {
+        "text": ". Dispone di vantaggio sui tiri salvezza eseguiti per evitare o terminare la condizione ",
+        "type": "text"
+      },
+      {
+        "id": "avvelenato",
+        "text": "avvelenato",
+        "type": "condition"
+      },
+      {
+        "text": " su se stesso. _**Robustezza nanica.**_ I punti ferita massimi di un nano aumentano di 1 e aumentano di nuovo di 1 ogni volta che acquisisce un livello.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 36 metri.",
+        "type": "text"
+      }
+    ],
     "id": "nano",
     "name": "Nano",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 120-150centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Esperto minatore",
         "description": [
           {
-            "type": "text",
-            "text": "Come azione bonus, il personaggio ottiene "
+            "text": "Come azione bonus, il personaggio ottiene ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "percezione",
             "text": "percezione",
-            "id": "percezione"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": " tellurica con un raggio  di 18 metri per 10 minuti. Per poterla utilizzare,  deve trovarsi su una superficie di pietra o toccarla.  La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus  un numero di volte pari al valore del suo bonus di  competenza, recuperando tutti gli utilizzi spesi  quando completa un riposo lungo."
+            "text": " tellurica con un raggio di 18 metri per 10 minuti. Per poterla utilizzare, deve trovarsi su una superficie di pietra o toccarla. La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus un numero di volte pari al valore del suo bonus di competenza, recuperando tutti gli utilizzi spesi quando completa un riposo lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Esperto minatore"
       },
       {
-        "name": "Resilienza nanica",
         "description": [
           {
-            "type": "text",
-            "text": "Ha resistenza ai danni da  "
+            "text": "Ha resistenza ai danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "veleno",
             "text": "veleno",
-            "id": "veleno"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": ". Dispone di vantaggio sui tiri salvezza  eseguiti per evitare o terminare la condizione "
+            "text": ". Dispone di vantaggio sui tiri salvezza eseguiti per evitare o terminare la condizione ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "avvelenato",
             "text": "avvelenato",
-            "id": "avvelenato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": " su se stesso."
+            "text": " su se stesso.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resilienza nanica"
       },
       {
-        "name": "Robustezza nanica",
         "description": [
           {
-            "type": "text",
-            "text": "I punti ferita massimi di un  nano aumentano di 1 e aumentano di nuovo di 1  ogni volta che acquisisce un livello."
+            "text": "I punti ferita massimi di un nano aumentano di 1 e aumentano di nuovo di 1 ogni volta che acquisisce un livello.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Robustezza nanica"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Ha "
+            "text": "Ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino a un raggio di  36 metri."
+            "text": " fino a un raggio di 36 metri.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto nano, il personaggio ha i seguenti tratti  speciali. _**Esperto minatore.**_ Come azione bonus, il personaggio ottiene "
-      },
-      {
-        "type": "skill",
-        "text": "percezione",
-        "id": "percezione"
-      },
-      {
-        "type": "text",
-        "text": " tellurica con un raggio  di 18 metri per 10 minuti. Per poterla utilizzare,  deve trovarsi su una superficie di pietra o toccarla.  La pietra deve essere naturale o lavorata. Il personaggio può utilizzare questa azione bonus  un numero di volte pari al valore del suo bonus di  competenza, recuperando tutti gli utilizzi spesi  quando completa un riposo lungo. _**Resilienza nanica.**_ Ha resistenza ai danni da  "
-      },
-      {
-        "type": "damage_type",
-        "text": "veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": ". Dispone di vantaggio sui tiri salvezza  eseguiti per evitare o terminare la condizione "
-      },
-      {
-        "type": "condition",
-        "text": "avvelenato",
-        "id": "avvelenato"
-      },
-      {
-        "type": "text",
-        "text": " su se stesso. _**Robustezza nanica.**_ I punti ferita massimi di un  nano aumentano di 1 e aumentano di nuovo di 1  ogni volta che acquisisce un livello. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino a un raggio di  36 metri."
+        ],
+        "name": "Scurovisione"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "In quanto orco, il personaggio ha i seguenti tratti speciali. Il personaggio può usare questo tratto un numero di volte pari al valore del suo bonus di competenza e recupera tutti gli utilizzi spesi quando completa un riposo breve o lungo. _**Resistenza implacabile.**_ Quando scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Dopo averlo usato, non può riutilizzare questo tratto prima di aver completato un riposo lungo. _**Scarica di adrenalina.**_L'orco può utilizzare l'azione di Scatto come azione bonus. Ogni volta che lo fa, ottiene un numero di punti ferita temporanei pari al suo bonus di competenza.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 36 metri.",
+        "type": "text"
+      }
+    ],
     "id": "orco",
     "name": "Orco",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 180-210 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Resistenza implacabile",
         "description": [
           {
-            "type": "text",
-            "text": "Quando scende a 0 punti  ferita ma non viene ucciso sul colpo, può decidere  di rimanere a 1 punto ferita. Dopo averlo usato, non  può riutilizzare questo tratto prima di aver completato un riposo lungo."
+            "text": "Quando scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Dopo averlo usato, non può riutilizzare questo tratto prima di aver completato un riposo lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resistenza implacabile"
       },
       {
-        "name": "Scarica di adrenalina",
         "description": [
           {
-            "type": "text",
-            "text": "L'orco può utilizzare  l'azione di Scatto come azione bonus. Ogni volta che  lo fa, ottiene un numero di punti ferita temporanei  pari al suo bonus di competenza."
+            "text": "L'orco può utilizzare l'azione di Scatto come azione bonus. Ogni volta che lo fa, ottiene un numero di punti ferita temporanei pari al suo bonus di competenza.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scarica di adrenalina"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Ha "
+            "text": "Ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino a un raggio di  36 metri."
+            "text": " fino a un raggio di 36 metri.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "In quanto orco, il personaggio ha i seguenti tratti  speciali. Il personaggio può usare questo tratto un numero  di volte pari al valore del suo bonus di competenza  e recupera tutti gli utilizzi spesi quando completa  un riposo breve o lungo. _**Resistenza implacabile.**_ Quando scende a 0 punti  ferita ma non viene ucciso sul colpo, può decidere  di rimanere a 1 punto ferita. Dopo averlo usato, non  può riutilizzare questo tratto prima di aver completato un riposo lungo. _**Scarica di adrenalina.**_L'orco può utilizzare  l'azione di Scatto come azione bonus. Ogni volta che  lo fa, ottiene un numero di punti ferita temporanei  pari al suo bonus di competenza. _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino a un raggio di  36 metri."
+        ],
+        "name": "Scurovisione"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "o Piccola (altezza di circa 90-120 centimetri), a tua scelta quando scegli la specie\n\nIn quanto tiefling, il personaggio ha i seguenti tratti speciali. _**Retaggio ",
+        "type": "text"
+      },
+      {
+        "id": "immondo",
+        "text": "immondo",
+        "type": "creature_type"
+      },
+      {
+        "text": ".**_ Grazie alla sua discendenza è dotato di abilità soprannaturali. Scegli un retaggio dalla tabella Retaggi immondi. Dopodiché, il personaggio otterrà il beneficio di 1º livello del retaggio selezionato. _**Presenza ultraterrena.**_ Conosce il trucchetto *",
+        "type": "text"
+      },
+      {
+        "id": "taumaturgia",
+        "text": "taumaturgia",
+        "type": "spell"
+      },
+      {
+        "text": "*. Quando lo lancia sfruttando questo tratto, l'incantesimo utilizza la stessa caratteristica da incantatore del tratto Retaggio ",
+        "type": "text"
+      },
+      {
+        "id": "immondo",
+        "text": "immondo",
+        "type": "creature_type"
+      },
+      {
+        "text": ". Quando raggiunge i livelli 3 e 5, apprenderà un incantesimo di livello superiore, come mostrato nella tabella. Tale incantesimo è sempre considerato come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio può essere ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " o ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " per gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il retaggio).",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Ha ",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": " fino a un raggio di 18 metri.\n\n| Retaggio | Livello 1 | | | | | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da ",
+        "type": "text"
+      },
+      {
+        "id": "veleno",
+        "text": "veleno",
+        "type": "damage_type"
+      },
+      {
+        "text": ". | | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "raggio-di-infermita",
+        "text": "Raggio di infermità",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "blocca-persone",
+        "text": "Blocca persone",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| | Inoltre, conosce il trucchetto | ",
+        "type": "text"
+      },
+      {
+        "id": "spruzzo-velenoso",
+        "text": "spruzzo velenoso",
+        "type": "spell"
+      },
+      {
+        "text": " | | | . | | |\n| Ctonio | Possiede resistenza ai danni necrotici. | | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "vita-falsata",
+        "text": "Vita falsata",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "raggio-di-affaticamento",
+        "text": "Raggio di affaticamento",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| | Inoltre, conosce il trucchetto | ",
+        "type": "text"
+      },
+      {
+        "id": "tocco-gelido",
+        "text": "tocco gelido",
+        "type": "spell"
+      },
+      {
+        "text": " | . | | | | |\n| Infernale | Possiede resistenza ai danni da ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": ". | | | | | ",
+        "type": "text"
+      },
+      {
+        "id": "intimorire-infernale",
+        "text": "Intimorire infernale",
+        "type": "spell"
+      },
+      {
+        "text": " | ",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "Oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " |\n| | Inoltre, conosce il trucchetto | ",
+        "type": "text"
+      },
+      {
+        "id": "dardo-di-fuoco",
+        "text": "dardo di fuoco",
+        "type": "spell"
+      },
+      {
+        "text": " | | . | | | |",
+        "type": "text"
+      }
+    ],
     "id": "tiefling",
     "name": "Tiefling",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 120-210 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Retaggio immondo",
         "description": [
           {
-            "type": "text",
-            "text": "Grazie alla sua discendenza  è dotato di abilità soprannaturali. Scegli un retaggio  dalla tabella Retaggi immondi. Dopodiché, il personaggio otterrà il beneficio di 1º livello del retaggio  selezionato."
+            "text": "Grazie alla sua discendenza è dotato di abilità soprannaturali. Scegli un retaggio dalla tabella Retaggi immondi. Dopodiché, il personaggio otterrà il beneficio di 1º livello del retaggio selezionato.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Retaggio immondo"
       },
       {
-        "name": "Presenza ultraterrena",
         "description": [
           {
-            "type": "text",
-            "text": "Conosce il trucchetto  *"
+            "text": "Conosce il trucchetto *",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "taumaturgia",
             "text": "taumaturgia",
-            "id": "taumaturgia"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "*. Quando lo lancia sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
+            "text": "*. Quando lo lancia sfruttando questo tratto, l'incantesimo utilizza la stessa caratteristica da incantatore del tratto Retaggio ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "immondo",
             "text": "immondo",
-            "id": "immondo"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": ". Quando raggiunge i livelli 3 e 5, apprenderà un  incantesimo di livello superiore, come mostrato  nella tabella. Tale incantesimo è sempre considerato  come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo  in questo modo dopo aver completato un riposo  lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio  può essere "
+            "text": ". Quando raggiunge i livelli 3 e 5, apprenderà un incantesimo di livello superiore, come mostrato nella tabella. Tale incantesimo è sempre considerato come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo in questo modo dopo aver completato un riposo lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio può essere ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": ", "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "saggezza",
             "text": "Saggezza",
-            "id": "saggezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " o "
+            "text": " o ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " per  gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il retaggio)."
+            "text": " per gli incantesimi lanciati con questo tratto (decidi l'abilità quando scegli il retaggio).",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Presenza ultraterrena"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Ha "
+            "text": "Ha ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "scurovisione",
             "text": "scurovisione",
-            "id": "scurovisione"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da "
+            "text": " fino a un raggio di 18 metri.\n\n| Retaggio | Livello 1 | | | | | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "veleno",
             "text": "veleno",
-            "id": "veleno"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": ". |  |  |  |  | "
+            "text": ". | | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "raggio-di-infermita",
             "text": "Raggio di infermità",
-            "id": "raggio-di-infermita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "blocca-persone",
             "text": "Blocca persone",
-            "id": "blocca-persone"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n|  | Inoltre, conosce il trucchetto | "
+            "text": " |\n| | Inoltre, conosce il trucchetto | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "spruzzo-velenoso",
             "text": "spruzzo velenoso",
-            "id": "spruzzo-velenoso"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |  |  | . |  |  |\n| Ctonio | Possiede resistenza ai danni necrotici. |  |  |  |  | "
+            "text": " | | | . | | |\n| Ctonio | Possiede resistenza ai danni necrotici. | | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "vita-falsata",
             "text": "Vita falsata",
-            "id": "vita-falsata"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "raggio-di-affaticamento",
             "text": "Raggio di affaticamento",
-            "id": "raggio-di-affaticamento"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n|  | Inoltre, conosce il trucchetto | "
+            "text": " |\n| | Inoltre, conosce il trucchetto | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "tocco-gelido",
             "text": "tocco gelido",
-            "id": "tocco-gelido"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | . |  |  |  |  |\n| Infernale | Possiede resistenza ai danni da "
+            "text": " | . | | | | |\n| Infernale | Possiede resistenza ai danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "fuoco",
             "text": "fuoco",
-            "id": "fuoco"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": ". |  |  |  |  | "
+            "text": ". | | | | | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "intimorire-infernale",
             "text": "Intimorire infernale",
-            "id": "intimorire-infernale"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " | "
+            "text": " | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "Oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |\n|  | Inoltre, conosce il trucchetto | "
+            "text": " |\n| | Inoltre, conosce il trucchetto | ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "dardo-di-fuoco",
             "text": "dardo di fuoco",
-            "id": "dardo-di-fuoco"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " |  | . |  |  |  |"
+            "text": " | | . | | | |",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "o Piccola (altezza di circa 90-120 centimetri), a tua  scelta quando scegli la specie\n\nIn quanto tiefling, il personaggio ha i seguenti tratti  speciali. _**Retaggio "
-      },
-      {
-        "type": "creature_type",
-        "text": "immondo",
-        "id": "immondo"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Grazie alla sua discendenza  è dotato di abilità soprannaturali. Scegli un retaggio  dalla tabella Retaggi immondi. Dopodiché, il personaggio otterrà il beneficio di 1º livello del retaggio  selezionato. _**Presenza ultraterrena.**_ Conosce il trucchetto  *"
-      },
-      {
-        "type": "spell",
-        "text": "taumaturgia",
-        "id": "taumaturgia"
-      },
-      {
-        "type": "text",
-        "text": "*. Quando lo lancia sfruttando questo  tratto, l'incantesimo utilizza la stessa caratteristica  da incantatore del tratto Retaggio "
-      },
-      {
-        "type": "creature_type",
-        "text": "immondo",
-        "id": "immondo"
-      },
-      {
-        "type": "text",
-        "text": ". Quando raggiunge i livelli 3 e 5, apprenderà un  incantesimo di livello superiore, come mostrato  nella tabella. Tale incantesimo è sempre considerato  come preparato. Può lanciarlo una volta senza consumare uno slot incantesimo e ne recupera l'utilizzo  in questo modo dopo aver completato un riposo  lungo. Può anche lanciarlo usando gli slot incantesimo a sua disposizione del livello appropriato. La caratteristica da incantatore del personaggio  può essere "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ", "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " o "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " per  gli incantesimi lanciati con questo tratto (decidi  l'abilità quando scegli il retaggio). _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Ha "
-      },
-      {
-        "type": "spell",
-        "text": "scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": " fino a un raggio di  18 metri.\n\n| Retaggio | Livello 1 |  |  |  |  | Livello 3 | Livello 5 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Abissale | Possiede resistenza ai danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": ". |  |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Raggio di infermità",
-        "id": "raggio-di-infermita"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Blocca persone",
-        "id": "blocca-persone"
-      },
-      {
-        "type": "text",
-        "text": " |\n|  | Inoltre, conosce il trucchetto | "
-      },
-      {
-        "type": "spell",
-        "text": "spruzzo velenoso",
-        "id": "spruzzo-velenoso"
-      },
-      {
-        "type": "text",
-        "text": " |  |  | . |  |  |\n| Ctonio | Possiede resistenza ai danni necrotici. |  |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Vita falsata",
-        "id": "vita-falsata"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Raggio di affaticamento",
-        "id": "raggio-di-affaticamento"
-      },
-      {
-        "type": "text",
-        "text": " |\n|  | Inoltre, conosce il trucchetto | "
-      },
-      {
-        "type": "spell",
-        "text": "tocco gelido",
-        "id": "tocco-gelido"
-      },
-      {
-        "type": "text",
-        "text": " | . |  |  |  |  |\n| Infernale | Possiede resistenza ai danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": ". |  |  |  |  | "
-      },
-      {
-        "type": "spell",
-        "text": "Intimorire infernale",
-        "id": "intimorire-infernale"
-      },
-      {
-        "type": "text",
-        "text": " | "
-      },
-      {
-        "type": "spell",
-        "text": "Oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " |\n|  | Inoltre, conosce il trucchetto | "
-      },
-      {
-        "type": "spell",
-        "text": "dardo di fuoco",
-        "id": "dardo-di-fuoco"
-      },
-      {
-        "type": "text",
-        "text": " |  | . |  |  |  |"
+        ],
+        "name": "Scurovisione"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "o Piccola (altezza di circa 60-120 centimetri), a tua scelta quando scegli la specie\n\nIn quanto umano, il personaggio ha i seguenti tratti speciali. _**Intraprendente.**_ Ottiene Ispirazione eroica ogni volta che completa un riposo lungo. _**Pluriabilità.**_ Acquisisce competenza in un'abilità a sua scelta. _**Versatile.**_ Ottiene un talento Origini a sua scelta (vedi capitolo \"Talenti\"). È consigliato il talento Abile.",
+        "type": "text"
+      }
+    ],
     "id": "umano",
     "name": "Umano",
-    "creature_type": "umanoide",
     "size": "Media (altezza di circa 120-210 centimetri)",
     "speed": "9 metri",
     "traits": [
       {
-        "name": "Intraprendente",
         "description": [
           {
-            "type": "text",
-            "text": "Ottiene Ispirazione eroica ogni  volta che completa un riposo lungo."
+            "text": "Ottiene Ispirazione eroica ogni volta che completa un riposo lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Intraprendente"
       },
       {
-        "name": "Pluriabilità",
         "description": [
           {
-            "type": "text",
-            "text": "Acquisisce competenza in un'abilità  a sua scelta."
+            "text": "Acquisisce competenza in un'abilità a sua scelta.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Pluriabilità"
       },
       {
-        "name": "Versatile",
         "description": [
           {
-            "type": "text",
-            "text": "Ottiene un talento Origini a sua scelta  (vedi capitolo \"Talenti\"). È consigliato il talento  Abile."
+            "text": "Ottiene un talento Origini a sua scelta (vedi capitolo \"Talenti\"). È consigliato il talento Abile.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "o Piccola (altezza di circa 60-120 centimetri), a tua  scelta quando scegli la specie\n\nIn quanto umano, il personaggio ha i seguenti tratti  speciali. _**Intraprendente.**_ Ottiene Ispirazione eroica ogni  volta che completa un riposo lungo. _**Pluriabilità.**_ Acquisisce competenza in un'abilità  a sua scelta. _**Versatile.**_ Ottiene un talento Origini a sua scelta  (vedi capitolo \"Talenti\"). È consigliato il talento  Abile."
+        ],
+        "name": "Versatile"
       }
     ]
   }

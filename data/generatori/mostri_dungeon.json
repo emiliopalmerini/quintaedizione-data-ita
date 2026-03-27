@@ -1,92 +1,92 @@
 {
-  "id": "mostri-dungeon",
-  "name": "Mostri del Dungeon",
   "description": "Aggiungi mostri e nemici alla tua avventura. Tira 1d8 per mostri facili, 1d12 per difficili, o 1d20 per includere anche quelli pericolosi. Per un boss, raddoppia i punti ferita e concedi un'azione extra per turno.",
   "die": "1d20",
-  "order": 14,
+  "group": "core-adventure",
+  "id": "mostri-dungeon",
   "items": [
     {
-      "text": "Topi giganti",
-      "link": "/srd/mostri/topo-gigante"
+      "link": "/srd/mostri/topo-gigante",
+      "text": "Topi giganti"
     },
     {
-      "text": "Banditi",
-      "link": "/srd/mostri/bandito"
+      "link": "/srd/mostri/bandito",
+      "text": "Banditi"
     },
     {
-      "text": "Cultisti",
-      "link": "/srd/mostri/cultista"
+      "link": "/srd/mostri/cultista",
+      "text": "Cultisti"
     },
     {
-      "text": "Accoliti",
-      "link": "/srd/mostri/sacerdote-accolito"
+      "link": "/srd/mostri/sacerdote-accolito",
+      "text": "Accoliti"
     },
     {
-      "text": "Uccelli stigei",
-      "link": "/srd/mostri/uccello-stigeo"
+      "link": "/srd/mostri/uccello-stigeo",
+      "text": "Uccelli stigei"
     },
     {
-      "text": "Guardie",
-      "link": "/srd/mostri/guardia"
+      "link": "/srd/mostri/guardia",
+      "text": "Guardie"
     },
     {
-      "text": "Scheletri",
-      "link": "/srd/mostri/scheletro"
+      "link": "/srd/mostri/scheletro",
+      "text": "Scheletri"
     },
     {
-      "text": "Melme",
-      "link": "/srd/mostri/protoplasma-nero"
+      "link": "/srd/mostri/protoplasma-nero",
+      "text": "Melme"
     },
     {
-      "text": "Ombre",
-      "link": "/srd/mostri/ombra"
+      "link": "/srd/mostri/ombra",
+      "text": "Ombre"
     },
     {
-      "text": "Spie",
-      "link": "/srd/mostri/spia"
+      "link": "/srd/mostri/spia",
+      "text": "Spie"
     },
     {
-      "text": "Ghoul",
-      "link": "/srd/mostri/ghoul"
+      "link": "/srd/mostri/ghoul",
+      "text": "Ghoul"
     },
     {
-      "text": "Spettri",
-      "link": "/srd/mostri/spettro"
+      "link": "/srd/mostri/spettro",
+      "text": "Spettri"
     },
     {
-      "text": "Cultisti fanatici",
-      "link": "/srd/mostri/cultista-fanatico"
+      "link": "/srd/mostri/cultista-fanatico",
+      "text": "Cultisti fanatici"
     },
     {
-      "text": "Cubi gelatinosi",
-      "link": "/srd/mostri/cubo-gelatinoso"
+      "link": "/srd/mostri/cubo-gelatinoso",
+      "text": "Cubi gelatinosi"
     },
     {
-      "text": "Ogre",
-      "link": "/srd/mostri/ogre"
+      "link": "/srd/mostri/ogre",
+      "text": "Ogre"
     },
     {
-      "text": "Topi mannari",
-      "link": "/srd/mostri/topo-mannaro"
+      "link": "/srd/mostri/topo-mannaro",
+      "text": "Topi mannari"
     },
     {
-      "text": "Basilischi",
-      "link": "/srd/mostri/basilisco"
+      "link": "/srd/mostri/basilisco",
+      "text": "Basilischi"
     },
     {
-      "text": "Megere verdi",
-      "link": "/srd/mostri/megera-verde"
+      "link": "/srd/mostri/megera-verde",
+      "text": "Megere verdi"
     },
     {
-      "text": "Segugi infernali",
-      "link": "/srd/mostri/segugio-infernale"
+      "link": "/srd/mostri/segugio-infernale",
+      "text": "Segugi infernali"
     },
     {
-      "text": "Mummie",
-      "link": "/srd/mostri/mummia"
+      "link": "/srd/mostri/mummia",
+      "text": "Mummie"
     }
   ],
-  "group": "core-adventure",
+  "name": "Mostri del Dungeon",
+  "order": 14,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

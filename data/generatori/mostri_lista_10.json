@@ -1,52 +1,52 @@
 {
-  "id": "mostri-lista-10",
-  "name": "Lista Mostri 10 (GS 16—24)",
   "description": "Mostri di grado sfida 16 — 24.",
   "die": "1d10",
-  "order": 100,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-10",
   "items": [
     {
-      "text": "Golem di ferro",
-      "link": "/srd/mostri/golem-di-ferro"
+      "link": "/srd/mostri/golem-di-ferro",
+      "text": "Golem di ferro"
     },
     {
-      "text": "Marilith",
-      "link": "/srd/mostri/marilith"
+      "link": "/srd/mostri/marilith",
+      "text": "Marilith"
     },
     {
-      "text": "Drago rosso adulto",
-      "link": "/srd/mostri/drago-rosso-adulto"
+      "link": "/srd/mostri/drago-rosso-adulto",
+      "text": "Drago rosso adulto"
     },
     {
-      "text": "Balor",
-      "link": "/srd/mostri/balor"
+      "link": "/srd/mostri/balor",
+      "text": "Balor"
     },
     {
-      "text": "Drago bianco antico",
-      "link": "/srd/mostri/drago-bianco-antico"
+      "link": "/srd/mostri/drago-bianco-antico",
+      "text": "Drago bianco antico"
     },
     {
-      "text": "Diavolo della fossa",
-      "link": "/srd/mostri/diavolo-della-fossa"
+      "link": "/srd/mostri/diavolo-della-fossa",
+      "text": "Diavolo della fossa"
     },
     {
-      "text": "Drago nero antico",
-      "link": "/srd/mostri/drago-nero-antico"
+      "link": "/srd/mostri/drago-nero-antico",
+      "text": "Drago nero antico"
     },
     {
-      "text": "Lich",
-      "link": "/srd/mostri/lich"
+      "link": "/srd/mostri/lich",
+      "text": "Lich"
     },
     {
-      "text": "Drago blu antico",
-      "link": "/srd/mostri/drago-blu-antico"
+      "link": "/srd/mostri/drago-blu-antico",
+      "text": "Drago blu antico"
     },
     {
-      "text": "Drago rosso antico",
-      "link": "/srd/mostri/drago-rosso-antico"
+      "link": "/srd/mostri/drago-rosso-antico",
+      "text": "Drago rosso antico"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 10 (GS 16—24)",
+  "order": 100,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

@@ -1,12 +1,6 @@
 {
-  "id": "luoghi-monumenti-oggetti",
-  "order": 3,
-  "name": "Luoghi, Monumenti e Oggetti",
-  "description": "Il luogo della missione potrebbe contenere monumenti o oggetti legati agli obiettivi dell'avventura.",
-  "die": "1d20",
   "columns": [
     {
-      "name": "Luogo",
       "items": [
         "Torre",
         "Cripte",
@@ -28,10 +22,10 @@
         "Sancta sanctorum",
         "Insenatura",
         "Castello"
-      ]
+      ],
+      "name": "Luogo"
     },
     {
-      "name": "Monumento",
       "items": [
         "Sarcofago",
         "Obelisco",
@@ -53,10 +47,10 @@
         "Arco",
         "Gabbia",
         "Braciere"
-      ]
+      ],
+      "name": "Monumento"
     },
     {
-      "name": "Oggetto",
       "items": [
         "Moneta",
         "Statuetta",
@@ -78,10 +72,16 @@
         "Teschio",
         "Maschera",
         "Collana"
-      ]
+      ],
+      "name": "Oggetto"
     }
   ],
+  "description": "Il luogo della missione potrebbe contenere monumenti o oggetti legati agli obiettivi dell'avventura.",
+  "die": "1d20",
   "group": "core-adventure",
+  "id": "luoghi-monumenti-oggetti",
+  "name": "Luoghi, Monumenti e Oggetti",
+  "order": 3,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

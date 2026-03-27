@@ -1,9 +1,8 @@
 {
-  "id": "oggetto-condizione",
-  "name": "Condizione dell'Oggetto",
   "description": "Genera una condizione casuale per il tuo oggetto.",
   "die": "1d20",
-  "order": 72,
+  "group": "random-items",
+  "id": "oggetto-condizione",
   "items": [
     "Sudicio",
     "Scheggiato",
@@ -26,7 +25,8 @@
     "Scintillante",
     "Fumante"
   ],
-  "group": "random-items",
+  "name": "Condizione dell'Oggetto",
+  "order": 72,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

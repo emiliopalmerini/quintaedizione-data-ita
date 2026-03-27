@@ -1,9 +1,8 @@
 {
-  "id": "npc-stirpe",
-  "name": "Stirpe",
   "description": "Usa la seguente tabella per scegliere una stirpe casuale per il tuo PNG.",
   "die": "1d10",
-  "order": 22,
+  "group": "npc-generator",
+  "id": "npc-stirpe",
   "items": [
     "Umano",
     "Elfo",
@@ -16,7 +15,8 @@
     "Dragonide",
     "Tiefling"
   ],
-  "group": "npc-generator",
+  "name": "Stirpe",
+  "order": 22,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

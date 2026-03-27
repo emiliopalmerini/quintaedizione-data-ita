@@ -1,9 +1,8 @@
 {
-  "id": "citta-sentimento",
-  "name": "Sentimento della Città",
   "description": "Come si sentono gli abitanti della città quando i personaggi arrivano.",
   "die": "1d20",
-  "order": 80,
+  "group": "town-events",
+  "id": "citta-sentimento",
   "items": [
     "Felici",
     "Euforici",
@@ -26,7 +25,8 @@
     "Indaffarati",
     "Sospettosi"
   ],
-  "group": "town-events",
+  "name": "Sentimento della Città",
+  "order": 80,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

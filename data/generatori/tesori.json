@@ -1,9 +1,8 @@
 {
-  "id": "tesori",
-  "name": "Tesori",
   "description": "Aggiungi tesori all'avventura dove appropriato. Tira 1d10 per tesori monetari, o 1d20 per includere anche tesori magici.",
   "die": "1d20",
-  "order": 16,
+  "group": "core-adventure",
+  "id": "tesori",
   "items": [
     "Monete",
     "Sacchetto di gemme",
@@ -16,47 +15,48 @@
     "Opera d'arte pregiata",
     "Idolo ingioiellato",
     {
-      "text": "Pozione di guarigione",
-      "link": "/srd/oggetti_magici/5e/pozione-di-guarigione"
+      "link": "/srd/oggetti_magici/5e/pozione-di-guarigione",
+      "text": "Pozione di guarigione"
     },
     {
-      "text": "Altra pozione",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Pozione"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Pozione",
+      "text": "Altra pozione"
     },
     {
-      "text": "Pergamena o pergamena degli incantesimi",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Pergamena"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Pergamena",
+      "text": "Pergamena o pergamena degli incantesimi"
     },
     {
-      "text": "Borsa conservante",
-      "link": "/srd/oggetti_magici/borsa-conservante"
+      "link": "/srd/oggetti_magici/borsa-conservante",
+      "text": "Borsa conservante"
     },
     {
-      "text": "Oggetto meraviglioso",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Oggetto+Meraviglioso"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Oggetto+Meraviglioso",
+      "text": "Oggetto meraviglioso"
     },
     {
-      "text": "Bacchetta o verga",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Bacchetta"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Bacchetta",
+      "text": "Bacchetta o verga"
     },
     {
-      "text": "Arma leggera magica",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Arma"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Arma",
+      "text": "Arma leggera magica"
     },
     {
-      "text": "Arma pesante magica",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Arma"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Arma",
+      "text": "Arma pesante magica"
     },
     {
-      "text": "Arma a distanza magica",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Arma"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Arma",
+      "text": "Arma a distanza magica"
     },
     {
-      "text": "Armatura magica",
-      "link": "/srd/oggetti_magici?tipo_oggetto=Armatura"
+      "link": "/srd/oggetti_magici?tipo_oggetto=Armatura",
+      "text": "Armatura magica"
     }
   ],
-  "group": "core-adventure",
+  "name": "Tesori",
+  "order": 16,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

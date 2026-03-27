@@ -1,9 +1,8 @@
 {
-  "id": "stanze-maniero",
-  "name": "Maniero",
   "description": "Stanze per un maniero nobiliare.",
   "die": "1d20",
-  "order": 56,
+  "group": "random-chambers",
+  "id": "stanze-maniero",
   "items": [
     "Atrio principale",
     "Camera da letto padronale",
@@ -26,7 +25,8 @@
     "Altare di famiglia",
     "Stanza sicura nascosta"
   ],
-  "group": "random-chambers",
+  "name": "Maniero",
+  "order": 56,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

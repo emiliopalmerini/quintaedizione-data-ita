@@ -1,33 +1,154 @@
 {
-  "thresholds": {
-    "1":  {"Facile": 25, "Media": 50, "Difficile": 75, "Letale": 100},
-    "2":  {"Facile": 50, "Media": 100, "Difficile": 150, "Letale": 200},
-    "3":  {"Facile": 75, "Media": 150, "Difficile": 225, "Letale": 400},
-    "4":  {"Facile": 125, "Media": 250, "Difficile": 375, "Letale": 500},
-    "5":  {"Facile": 250, "Media": 500, "Difficile": 750, "Letale": 1100},
-    "6":  {"Facile": 300, "Media": 600, "Difficile": 900, "Letale": 1400},
-    "7":  {"Facile": 350, "Media": 750, "Difficile": 1100, "Letale": 1700},
-    "8":  {"Facile": 450, "Media": 900, "Difficile": 1400, "Letale": 2100},
-    "9":  {"Facile": 550, "Media": 1100, "Difficile": 1600, "Letale": 2400},
-    "10": {"Facile": 600, "Media": 1200, "Difficile": 1900, "Letale": 2800},
-    "11": {"Facile": 800, "Media": 1600, "Difficile": 2400, "Letale": 3600},
-    "12": {"Facile": 1000, "Media": 2000, "Difficile": 3000, "Letale": 4500},
-    "13": {"Facile": 1100, "Media": 2200, "Difficile": 3400, "Letale": 5100},
-    "14": {"Facile": 1250, "Media": 2500, "Difficile": 3800, "Letale": 5700},
-    "15": {"Facile": 1400, "Media": 2800, "Difficile": 4300, "Letale": 6400},
-    "16": {"Facile": 1600, "Media": 3200, "Difficile": 4800, "Letale": 7200},
-    "17": {"Facile": 2000, "Media": 3900, "Difficile": 5900, "Letale": 8800},
-    "18": {"Facile": 2100, "Media": 4200, "Difficile": 6300, "Letale": 9500},
-    "19": {"Facile": 2400, "Media": 4900, "Difficile": 7300, "Letale": 10900},
-    "20": {"Facile": 2800, "Media": 5700, "Difficile": 8500, "Letale": 12700}
-  },
   "multipliers": [
-    {"max_monsters": 1, "multiplier": 1.0},
-    {"max_monsters": 2, "multiplier": 1.5},
-    {"max_monsters": 3, "multiplier": 2.0},
-    {"max_monsters": 7, "multiplier": 2.5},
-    {"max_monsters": 11, "multiplier": 3.0},
-    {"max_monsters": 15, "multiplier": 4.0},
-    {"max_monsters": 99, "multiplier": 5.0}
-  ]
+    {
+      "max_monsters": 1,
+      "multiplier": 1
+    },
+    {
+      "max_monsters": 2,
+      "multiplier": 1.5
+    },
+    {
+      "max_monsters": 3,
+      "multiplier": 2
+    },
+    {
+      "max_monsters": 7,
+      "multiplier": 2.5
+    },
+    {
+      "max_monsters": 11,
+      "multiplier": 3
+    },
+    {
+      "max_monsters": 15,
+      "multiplier": 4
+    },
+    {
+      "max_monsters": 99,
+      "multiplier": 5
+    }
+  ],
+  "thresholds": {
+    "1": {
+      "Difficile": 75,
+      "Facile": 25,
+      "Letale": 100,
+      "Media": 50
+    },
+    "10": {
+      "Difficile": 1900,
+      "Facile": 600,
+      "Letale": 2800,
+      "Media": 1200
+    },
+    "11": {
+      "Difficile": 2400,
+      "Facile": 800,
+      "Letale": 3600,
+      "Media": 1600
+    },
+    "12": {
+      "Difficile": 3000,
+      "Facile": 1000,
+      "Letale": 4500,
+      "Media": 2000
+    },
+    "13": {
+      "Difficile": 3400,
+      "Facile": 1100,
+      "Letale": 5100,
+      "Media": 2200
+    },
+    "14": {
+      "Difficile": 3800,
+      "Facile": 1250,
+      "Letale": 5700,
+      "Media": 2500
+    },
+    "15": {
+      "Difficile": 4300,
+      "Facile": 1400,
+      "Letale": 6400,
+      "Media": 2800
+    },
+    "16": {
+      "Difficile": 4800,
+      "Facile": 1600,
+      "Letale": 7200,
+      "Media": 3200
+    },
+    "17": {
+      "Difficile": 5900,
+      "Facile": 2000,
+      "Letale": 8800,
+      "Media": 3900
+    },
+    "18": {
+      "Difficile": 6300,
+      "Facile": 2100,
+      "Letale": 9500,
+      "Media": 4200
+    },
+    "19": {
+      "Difficile": 7300,
+      "Facile": 2400,
+      "Letale": 10900,
+      "Media": 4900
+    },
+    "2": {
+      "Difficile": 150,
+      "Facile": 50,
+      "Letale": 200,
+      "Media": 100
+    },
+    "20": {
+      "Difficile": 8500,
+      "Facile": 2800,
+      "Letale": 12700,
+      "Media": 5700
+    },
+    "3": {
+      "Difficile": 225,
+      "Facile": 75,
+      "Letale": 400,
+      "Media": 150
+    },
+    "4": {
+      "Difficile": 375,
+      "Facile": 125,
+      "Letale": 500,
+      "Media": 250
+    },
+    "5": {
+      "Difficile": 750,
+      "Facile": 250,
+      "Letale": 1100,
+      "Media": 500
+    },
+    "6": {
+      "Difficile": 900,
+      "Facile": 300,
+      "Letale": 1400,
+      "Media": 600
+    },
+    "7": {
+      "Difficile": 1100,
+      "Facile": 350,
+      "Letale": 1700,
+      "Media": 750
+    },
+    "8": {
+      "Difficile": 1400,
+      "Facile": 450,
+      "Letale": 2100,
+      "Media": 900
+    },
+    "9": {
+      "Difficile": 1600,
+      "Facile": 550,
+      "Letale": 2400,
+      "Media": 1100
+    }
+  }
 }

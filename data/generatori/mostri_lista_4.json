@@ -1,89 +1,89 @@
 {
-  "id": "mostri-lista-4",
-  "name": "Lista Mostri 4 (GS 2—3)",
   "description": "Mostri di grado sfida 2 — 3.",
   "die": "1d20",
-  "order": 94,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-4",
   "items": [
     {
-      "text": "Azer sentinella",
-      "link": "/srd/mostri/azer-sentinella"
+      "link": "/srd/mostri/azer-sentinella",
+      "text": "Azer sentinella"
     },
     {
-      "text": "Drago verde cucciolo",
-      "link": "/srd/mostri/drago-verde-cucciolo"
+      "link": "/srd/mostri/drago-verde-cucciolo",
+      "text": "Drago verde cucciolo"
     },
     {
-      "text": "Grick",
-      "link": "/srd/mostri/grick"
+      "link": "/srd/mostri/grick",
+      "text": "Grick"
     },
     {
-      "text": "Grifone",
-      "link": "/srd/mostri/grifone"
+      "link": "/srd/mostri/grifone",
+      "text": "Grifone"
     },
     {
-      "text": "Merrow",
-      "link": "/srd/mostri/merrow"
+      "link": "/srd/mostri/merrow",
+      "text": "Merrow"
     },
     {
-      "text": "Mimic",
-      "link": "/srd/mostri/mimic"
+      "link": "/srd/mostri/mimic",
+      "text": "Mimic"
     },
     {
-      "text": "Scheletro di minotauro",
-      "link": "/srd/mostri/scheletro-di-minotauro"
+      "link": "/srd/mostri/scheletro-di-minotauro",
+      "text": "Scheletro di minotauro"
     },
     "Gelatina ocra",
     {
-      "text": "Ogre",
-      "link": "/srd/mostri/ogre"
+      "link": "/srd/mostri/ogre",
+      "text": "Ogre"
     },
     {
-      "text": "Zombi ogre",
-      "link": "/srd/mostri/zombi-ogre"
+      "link": "/srd/mostri/zombi-ogre",
+      "text": "Zombi ogre"
     },
     {
-      "text": "Sacerdote",
-      "link": "/srd/mostri/sacerdote"
+      "link": "/srd/mostri/sacerdote",
+      "text": "Sacerdote"
     },
     {
-      "text": "Tappeto soffocante animato",
-      "link": "/srd/mostri/tappeto-soffocante-animato"
+      "link": "/srd/mostri/tappeto-soffocante-animato",
+      "text": "Tappeto soffocante animato"
     },
     {
-      "text": "Megera marina",
-      "link": "/srd/mostri/megera-marina"
+      "link": "/srd/mostri/megera-marina",
+      "text": "Megera marina"
     },
     {
-      "text": "Colonia di serpenti velenosi",
-      "link": "/srd/animali/colonia-di-serpenti-velenosi"
+      "link": "/srd/animali/colonia-di-serpenti-velenosi",
+      "text": "Colonia di serpenti velenosi"
     },
     {
-      "text": "Topo mannaro",
-      "link": "/srd/mostri/topo-mannaro"
+      "link": "/srd/mostri/topo-mannaro",
+      "text": "Topo mannaro"
     },
     {
-      "text": "Drago bianco cucciolo",
-      "link": "/srd/mostri/drago-bianco-cucciolo"
+      "link": "/srd/mostri/drago-bianco-cucciolo",
+      "text": "Drago bianco cucciolo"
     },
     {
-      "text": "Fuoco fatuo",
-      "link": "/srd/mostri/fuoco-fatuo"
+      "link": "/srd/mostri/fuoco-fatuo",
+      "text": "Fuoco fatuo"
     },
     {
-      "text": "Basilisco",
-      "link": "/srd/mostri/basilisco"
+      "link": "/srd/mostri/basilisco",
+      "text": "Basilisco"
     },
     {
-      "text": "Diavolo barbuto",
-      "link": "/srd/mostri/diavolo-barbuto"
+      "link": "/srd/mostri/diavolo-barbuto",
+      "text": "Diavolo barbuto"
     },
     {
-      "text": "Drago blu cucciolo",
-      "link": "/srd/mostri/drago-blu-cucciolo"
+      "link": "/srd/mostri/drago-blu-cucciolo",
+      "text": "Drago blu cucciolo"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 4 (GS 2—3)",
+  "order": 94,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

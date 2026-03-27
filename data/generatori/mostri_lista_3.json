@@ -1,92 +1,92 @@
 {
-  "id": "mostri-lista-3",
-  "name": "Lista Mostri 3 (GS 1—2)",
   "description": "Mostri di grado sfida 1 — 2.",
   "die": "1d20",
-  "order": 93,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-3",
   "items": [
     {
-      "text": "Lupo feroce",
-      "link": "/srd/animali/lupo-feroce"
+      "link": "/srd/animali/lupo-feroce",
+      "text": "Lupo feroce"
     },
     {
-      "text": "Duergar",
-      "link": "/srd/mostri/duergar"
+      "link": "/srd/mostri/duergar",
+      "text": "Duergar"
     },
     {
-      "text": "Ghoul",
-      "link": "/srd/mostri/ghoul"
+      "link": "/srd/mostri/ghoul",
+      "text": "Ghoul"
     },
     {
-      "text": "Ragno gigante",
-      "link": "/srd/animali/ragno-gigante"
+      "link": "/srd/animali/ragno-gigante",
+      "text": "Ragno gigante"
     },
     {
-      "text": "Rospo gigante",
-      "link": "/srd/animali/rospo-gigante"
+      "link": "/srd/animali/rospo-gigante",
+      "text": "Rospo gigante"
     },
     {
-      "text": "Arpia",
-      "link": "/srd/mostri/arpia"
+      "link": "/srd/mostri/arpia",
+      "text": "Arpia"
     },
     {
-      "text": "Imp",
-      "link": "/srd/mostri/imp"
+      "link": "/srd/mostri/imp",
+      "text": "Imp"
     },
     {
-      "text": "Spettro",
-      "link": "/srd/mostri/spettro"
+      "link": "/srd/mostri/spettro",
+      "text": "Spettro"
     },
     {
-      "text": "Spia",
-      "link": "/srd/mostri/spia"
+      "link": "/srd/mostri/spia",
+      "text": "Spia"
     },
     {
-      "text": "Ankheg",
-      "link": "/srd/mostri/ankheg"
+      "link": "/srd/mostri/ankheg",
+      "text": "Ankheg"
     },
     {
-      "text": "Capo dei banditi",
-      "link": "/srd/mostri/capo-dei-banditi"
+      "link": "/srd/mostri/capo-dei-banditi",
+      "text": "Capo dei banditi"
     },
     {
-      "text": "Berserker",
-      "link": "/srd/mostri/berserker"
+      "link": "/srd/mostri/berserker",
+      "text": "Berserker"
     },
     {
-      "text": "Drago nero cucciolo",
-      "link": "/srd/mostri/drago-nero-cucciolo"
+      "link": "/srd/mostri/drago-nero-cucciolo",
+      "text": "Drago nero cucciolo"
     },
     {
-      "text": "Cultista fanatico",
-      "link": "/srd/mostri/cultista-fanatico"
+      "link": "/srd/mostri/cultista-fanatico",
+      "text": "Cultista fanatico"
     },
     {
-      "text": "Ettercap",
-      "link": "/srd/mostri/ettercap"
+      "link": "/srd/mostri/ettercap",
+      "text": "Ettercap"
     },
     {
-      "text": "Gargoyle",
-      "link": "/srd/mostri/gargoyle"
+      "link": "/srd/mostri/gargoyle",
+      "text": "Gargoyle"
     },
     {
-      "text": "Cubo gelatinoso",
-      "link": "/srd/mostri/cubo-gelatinoso"
+      "link": "/srd/mostri/cubo-gelatinoso",
+      "text": "Cubo gelatinoso"
     },
     {
-      "text": "Ghast",
-      "link": "/srd/mostri/ghast"
+      "link": "/srd/mostri/ghast",
+      "text": "Ghast"
     },
     {
-      "text": "Serpente stritolatore gigante",
-      "link": "/srd/animali/serpente-stritolatore-gigante"
+      "link": "/srd/animali/serpente-stritolatore-gigante",
+      "text": "Serpente stritolatore gigante"
     },
     {
-      "text": "Fauce gorgogliante",
-      "link": "/srd/mostri/fauce-gorgogliante"
+      "link": "/srd/mostri/fauce-gorgogliante",
+      "text": "Fauce gorgogliante"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 3 (GS 1—2)",
+  "order": 93,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

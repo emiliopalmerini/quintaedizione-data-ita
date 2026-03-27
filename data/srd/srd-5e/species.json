@@ -1,2755 +1,2386 @@
 [
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un personaggio elfo è dotato di una vasta gamma di capacità naturali, affinate dal suo popolo nel corso di interi millenni. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "destrezza",
+        "text": "Destrezza",
+        "type": "ability"
+      },
+      {
+        "text": " di un elfo aumenta di 2. _**Allineamento.**_ Gli elfi amano la libertà, la varietà e l'espressione individuale, cosa che li avvicina agli aspetti più positivi del caos. Apprezzano e proteggono la libertà degli altri quanto la propria e per buona parte tendono al bene piuttosto che al male. _**Età.**_ Anche se gli elfi raggiungono la maturità fisica più o meno alla stessa età degli umani, la visione elfica della maturità trascende l'aspetto puramente biologico e comprende un'esperienza più ampia del mondo. Gli elfi generalmente si dichiarano adulti e assumono il loro nome da adulto intorno all'età di 100 anni e possono vivere fino a 750 anni. _**Taglia.**_ Un elfo ha un'altezza che va da poco meno di 1,5 a poco più 1,8 metri e una corporatura snella. È di taglia Media.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un elfo è di 9 metri.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Un elfo, abituato a muoversi nella penombra del sottobosco e alla luce della luna, beneficia di una vista superiore nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Sensi acuti.**_Un elfo ha competenza nell'abilità ",
+        "type": "text"
+      },
+      {
+        "id": "percezione",
+        "text": "Percezione",
+        "type": "skill"
+      },
+      {
+        "text": ". _**Retaggio ",
+        "type": "text"
+      },
+      {
+        "id": "fatato",
+        "text": "fatato",
+        "type": "creature_type"
+      },
+      {
+        "text": ".**_ Un elfo dispone di vantaggio ai tiri salvezza per non essere ",
+        "type": "text"
+      },
+      {
+        "id": "affascinato",
+        "text": "affascinato",
+        "type": "condition"
+      },
+      {
+        "text": " e non può essere addormentato tramite la magia. _**Trance.**_ Gli elfi non hanno bisogno di dormire. Anziché dormire entrano per 4 ore al giorno in una profonda meditazione e in uno stato semicosciente. (Il termine in Comune per tale meditazione è \"trance\".) Durante questa meditazione, l'elfo entra in una sorta di stato sognante, che in realtà non è altro che una serie di esercizi mentali che anni di pratica hanno reso automatici. Dopo tale periodo, l'elfo ottiene gli stessi benefici di 8 ore di sonno per un umano.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Gli elfi sanno parlare, leggere e scrivere in Comune e in Elfico. L'Elfico è una lingua fluida, dalle tonalità sottili e dalla grammatica complessa. La letteratura elfica è ricca e variegata: i loro canti e i loro poemi sono celebri anche presso le altre razze. Molti bardi imparano la lingua degli elfi per poter aggiungere le ballate elfiche al proprio repertorio.\n\n##### Elfo alto\n\nUn elfo alto è dotato di una mente brillante e della padronanza di alcune forme basilari di magia. In molti mondi fantasy esistono due tipologie di elfi alti. Uno, che si considera superiore alle altre razze e anche agli altri elfi, è altezzoso e si tiene a distanza da tutti gli altri. L'altro tipo è più diffuso e più amichevole, e i suoi membri si mescolano più facilmente agli umani e alle altre razze. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": " di un elfo alto aumenta di 1. _**Addestramento nelle armi elfiche.**_ Ha competenza nelle spade corte, nelle spade lunghe, negli archi corti e negli archi lunghi. _**Trucchetto.**_ Un elfo alto conosce un trucchetto scelto dalla lista degli incantesimi da mago. La caratteristica da incantatore per questo trucchetto è ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ". _**Linguaggio extra.**_Un elfo alto sa parlare, leggere e scrivere un linguaggio extra a sua scelta.\n\nSystems Reference Document 5.1 3",
+        "type": "text"
+      }
+    ],
     "id": "elfo",
     "name": "Elfo",
-    "creature_type": "umanoide",
-    "size": "Un elfo ha un'altezza che va da poco meno  di 1,5 a poco più 1,8 metri e una corporatura snella.  È di taglia Media.",
-    "speed": "La velocità base sul terreno di un elfo  è di 9 metri.",
+    "size": "Un elfo ha un'altezza che va da poco meno di 1,5 a poco più 1,8 metri e una corporatura snella. È di taglia Media.",
+    "speed": "La velocità base sul terreno di un elfo è di 9 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "destrezza",
             "text": "Destrezza",
-            "id": "destrezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di un elfo aumenta di 2."
+            "text": " di un elfo aumenta di 2.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "Gli elfi amano la libertà, la varietà  e l'espressione individuale, cosa che li avvicina  agli aspetti più positivi del caos. Apprezzano  e proteggono la libertà degli altri quanto la propria  e per buona parte tendono al bene piuttosto che al  male."
+            "text": "Gli elfi amano la libertà, la varietà e l'espressione individuale, cosa che li avvicina agli aspetti più positivi del caos. Apprezzano e proteggono la libertà degli altri quanto la propria e per buona parte tendono al bene piuttosto che al male.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "Anche se gli elfi raggiungono la maturità fisica  più o meno alla stessa età degli umani, la visione  elfica della maturità trascende l'aspetto puramente  biologico e comprende un'esperienza più ampia del  mondo. Gli elfi generalmente si dichiarano adulti  e assumono il loro nome da adulto intorno all'età  di 100 anni e possono vivere fino a 750 anni."
+            "text": "Anche se gli elfi raggiungono la maturità fisica più o meno alla stessa età degli umani, la visione elfica della maturità trascende l'aspetto puramente biologico e comprende un'esperienza più ampia del mondo. Gli elfi generalmente si dichiarano adulti e assumono il loro nome da adulto intorno all'età di 100 anni e possono vivere fino a 750 anni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "Un elfo ha un'altezza che va da poco meno  di 1,5 a poco più 1,8 metri e una corporatura snella.  È di taglia Media."
+            "text": "Un elfo ha un'altezza che va da poco meno di 1,5 a poco più 1,8 metri e una corporatura snella. È di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un elfo  è di 9 metri."
+            "text": " base sul terreno di un elfo è di 9 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Un elfo, abituato a muoversi nella  penombra del sottobosco e alla luce della luna,  beneficia di una vista superiore nell'"
+            "text": "Un elfo, abituato a muoversi nella penombra del sottobosco e alla luce della luna, beneficia di una vista superiore nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " e nelle  condizioni di luce fioca. In condizioni di luce fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di luce intensa e nell'"
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "  come se si trovasse in presenza di luce fioca.  Nell'"
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non è in grado di discernere i colori,  ma solo le tonalità di grigio."
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Sensi acuti",
         "description": [
           {
-            "type": "text",
-            "text": "Un elfo ha competenza nell'abilità  "
+            "text": "Un elfo ha competenza nell'abilità ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "percezione",
             "text": "Percezione",
-            "id": "percezione"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Sensi acuti"
       },
       {
-        "name": "Retaggio fatato",
         "description": [
           {
-            "type": "text",
-            "text": "Un elfo dispone di vantaggio ai  tiri salvezza per non essere "
+            "text": "Un elfo dispone di vantaggio ai tiri salvezza per non essere ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "affascinato",
             "text": "affascinato",
-            "id": "affascinato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": " e non può  essere addormentato tramite la magia."
+            "text": " e non può essere addormentato tramite la magia.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Retaggio fatato"
       },
       {
-        "name": "Trance",
         "description": [
           {
-            "type": "text",
-            "text": "Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di sonno per  un umano."
+            "text": "Gli elfi non hanno bisogno di dormire. Anziché dormire entrano per 4 ore al giorno in una profonda meditazione e in uno stato semicosciente. (Il termine in Comune per tale meditazione è \"trance\".) Durante questa meditazione, l'elfo entra in una sorta di stato sognante, che in realtà non è altro che una serie di esercizi mentali che anni di pratica hanno reso automatici. Dopo tale periodo, l'elfo ottiene gli stessi benefici di 8 ore di sonno per un umano.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Trance"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Gli elfi sanno parlare, leggere   e scrivere in Comune e in Elfico. L'Elfico è una lingua  fluida, dalle tonalità sottili e dalla grammatica  complessa. La letteratura elfica è ricca e variegata:   i loro canti e i loro poemi sono celebri anche presso  le altre razze. Molti bardi imparano la lingua degli  elfi per poter aggiungere le ballate elfiche al proprio  repertorio."
+            "text": "Gli elfi sanno parlare, leggere e scrivere in Comune e in Elfico. L'Elfico è una lingua fluida, dalle tonalità sottili e dalla grammatica complessa. La letteratura elfica è ricca e variegata: i loro canti e i loro poemi sono celebri anche presso le altre razze. Molti bardi imparano la lingua degli elfi per poter aggiungere le ballate elfiche al proprio repertorio.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un personaggio elfo è dotato di una vasta gamma di  capacità naturali, affinate dal suo popolo nel corso di  interi millenni.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": " di un elfo aumenta di 2.  _**Allineamento.**_ Gli elfi amano la libertà, la varietà  e l'espressione individuale, cosa che li avvicina  agli aspetti più positivi del caos. Apprezzano  e proteggono la libertà degli altri quanto la propria  e per buona parte tendono al bene piuttosto che al  male.  _**Età.**_ Anche se gli elfi raggiungono la maturità fisica  più o meno alla stessa età degli umani, la visione  elfica della maturità trascende l'aspetto puramente  biologico e comprende un'esperienza più ampia del  mondo. Gli elfi generalmente si dichiarano adulti  e assumono il loro nome da adulto intorno all'età  di 100 anni e possono vivere fino a 750 anni.  _**Taglia.**_ Un elfo ha un'altezza che va da poco meno  di 1,5 a poco più 1,8 metri e una corporatura snella.  È di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un elfo  è di 9 metri.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un elfo, abituato a muoversi nella  penombra del sottobosco e alla luce della luna,  beneficia di una vista superiore nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " e nelle  condizioni di luce fioca. In condizioni di luce fioca,  può vedere fino a una distanza di 18 metri come se si  trovasse in condizioni di luce intensa e nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": "  come se si trovasse in presenza di luce fioca.  Nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " non è in grado di discernere i colori,  ma solo le tonalità di grigio.  _**Sensi acuti.**_Un elfo ha competenza nell'abilità  "
-      },
-      {
-        "type": "skill",
-        "text": "Percezione",
-        "id": "percezione"
-      },
-      {
-        "type": "text",
-        "text": ".  _**Retaggio "
-      },
-      {
-        "type": "creature_type",
-        "text": "fatato",
-        "id": "fatato"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un elfo dispone di vantaggio ai  tiri salvezza per non essere "
-      },
-      {
-        "type": "condition",
-        "text": "affascinato",
-        "id": "affascinato"
-      },
-      {
-        "type": "text",
-        "text": " e non può  essere addormentato tramite la magia.  _**Trance.**_ Gli elfi non hanno bisogno di dormire.  Anziché dormire entrano per 4 ore al giorno in una  profonda meditazione e in uno stato semicosciente.  (Il termine in Comune per tale meditazione  è \"trance\".) Durante questa meditazione, l'elfo entra  in una sorta di stato sognante, che in realtà non  è altro che una serie di esercizi mentali che anni di  pratica hanno reso automatici. Dopo tale periodo,  l'elfo ottiene gli stessi benefici di 8 ore di sonno per  un umano.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Gli elfi sanno parlare, leggere   e scrivere in Comune e in Elfico. L'Elfico è una lingua  fluida, dalle tonalità sottili e dalla grammatica  complessa. La letteratura elfica è ricca e variegata:   i loro canti e i loro poemi sono celebri anche presso  le altre razze. Molti bardi imparano la lingua degli  elfi per poter aggiungere le ballate elfiche al proprio  repertorio.\n\n##### Elfo alto\n\nUn elfo alto è dotato di una mente brillante e della  padronanza di alcune forme basilari di magia.  In molti mondi fantasy esistono due tipologie di elfi  alti. Uno, che si considera superiore alle altre razze  e anche agli altri elfi, è altezzoso e si tiene a distanza  da tutti gli altri. L'altro tipo è più diffuso e più  amichevole, e i suoi membri si mescolano più  facilmente agli umani e alle altre razze.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": " di un elfo alto aumenta  di 1.  _**Addestramento nelle armi elfiche.**_ Ha competenza nelle spade corte, nelle spade lunghe,  negli archi corti e negli archi lunghi.  _**Trucchetto.**_ Un elfo alto conosce un trucchetto  scelto dalla lista degli incantesimi da mago.  La caratteristica da incantatore per questo  trucchetto è "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ".  _**Linguaggio extra.**_Un elfo alto sa parlare, leggere  e scrivere un linguaggio extra a sua scelta.\n\nSystems Reference Document 5.1  3"
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un personaggio halfling possiede vari tratti in comune con tutti i membri della sua razza. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "destrezza",
+        "text": "Destrezza",
+        "type": "ability"
+      },
+      {
+        "text": " di un halfling aumenta di 2. _**Allineamento.**_ Quasi tutti gli halfling sono legali buoni. Di norma sono creature gentili e di buon cuore, detestano vedere soffrire le altre creature e non sopportano la prepotenza. Sono anche molto ordinati e tradizionalisti e si affidano per ogni necessità alla loro comunità di appartenenza e alle certezze delle antiche tradizioni. _**Età.**_Un halfling raggiunge la maturità a 20 anni e generalmente vive circa fino alla metà del suo secondo secolo. _**Taglia.**_ Un halfling è alto circa 90 cm e pesa circa 20 kg. È una creatura di taglia Piccola.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un nano è di 7,5 metri. _**Fortunato.**_ Quando ottiene 1 con un d20 a un tiro per colpire, a una prova di caratteristica o a un tiro salvezza, un halfling può ripetere il tiro del dado e deve usare il nuovo risultato. _**Coraggioso.**_ Un halfling dispone di vantaggio ai tiri salvezza per non essere ",
+        "type": "text"
+      },
+      {
+        "id": "spaventato",
+        "text": "spaventato",
+        "type": "condition"
+      },
+      {
+        "text": ". _**Agilità halfling.**_Un halfling può muoversi attraverso gli spazi di qualsiasi creatura di taglia più grande.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Un halfling sa parlare, leggere e scrivere in Comune e in Halfling. La lingua Halfling non è segreta, ma gli halfling non la condividono volentieri con i membri delle altre razze. Scrivono poco, quindi la letteratura halfling non è molto ricca. Le loro tradizioni orali, invece, sono molto ricche e diffuse. Quasi tutti gli halfling usano il Comune per comunicare con gli abitanti delle regioni in cui vivono o che attraversano nei loro viaggi.\n\n##### Piedelesto\n\nUn halfling piedelesto è abile nel non farsi notare e può perfino usare le altre persone come copertura. Tende a essere sempre gentile e ad andare d'accordo con gli altri. I piedelesto sono la varietà di halfling che più ama viaggiare e spesso dimorano presso altre razze o conducono una vita da nomadi. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " di un halfling piedelesto aumenta di 1.",
+        "type": "text"
+      },
+      {
+        "id": "furtivita",
+        "text": "Furtività",
+        "type": "skill"
+      },
+      {
+        "text": " innata.**_ Un halfling piedelesto può tentare di nascondersi anche se è oscurato solo da una singola creatura, purché questa sia più grande di lui di almeno una taglia.",
+        "type": "text"
+      }
+    ],
     "id": "halfling",
     "name": "Halfling",
-    "creature_type": "umanoide",
-    "size": "Un halfling è alto circa 90 cm e pesa circa  20 kg. È una creatura di taglia Piccola.",
-    "speed": "La velocità base sul terreno di un nano  è di 7,5 metri.",
+    "size": "Un halfling è alto circa 90 cm e pesa circa 20 kg. È una creatura di taglia Piccola.",
+    "speed": "La velocità base sul terreno di un nano è di 7,5 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "destrezza",
             "text": "Destrezza",
-            "id": "destrezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di un halfling aumenta di 2."
+            "text": " di un halfling aumenta di 2.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "Quasi tutti gli halfling sono legali  buoni. Di norma sono creature gentili e di buon  cuore, detestano vedere soffrire le altre creature  e non sopportano la prepotenza. Sono anche molto  ordinati e tradizionalisti e si affidano per ogni  necessità alla loro comunità di appartenenza e alle  certezze delle antiche tradizioni."
+            "text": "Quasi tutti gli halfling sono legali buoni. Di norma sono creature gentili e di buon cuore, detestano vedere soffrire le altre creature e non sopportano la prepotenza. Sono anche molto ordinati e tradizionalisti e si affidano per ogni necessità alla loro comunità di appartenenza e alle certezze delle antiche tradizioni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "Un halfling raggiunge la maturità a 20 anni  e generalmente vive circa fino alla metà del suo  secondo secolo."
+            "text": "Un halfling raggiunge la maturità a 20 anni e generalmente vive circa fino alla metà del suo secondo secolo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "Un halfling è alto circa 90 cm e pesa circa  20 kg. È una creatura di taglia Piccola."
+            "text": "Un halfling è alto circa 90 cm e pesa circa 20 kg. È una creatura di taglia Piccola.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un nano  è di 7,5 metri."
+            "text": " base sul terreno di un nano è di 7,5 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Fortunato",
         "description": [
           {
-            "type": "text",
-            "text": "Quando ottiene 1 con un d20 a un tiro  per colpire, a una prova di caratteristica o a un tiro  salvezza, un halfling può ripetere il tiro del dado  e deve usare il nuovo risultato."
+            "text": "Quando ottiene 1 con un d20 a un tiro per colpire, a una prova di caratteristica o a un tiro salvezza, un halfling può ripetere il tiro del dado e deve usare il nuovo risultato.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Fortunato"
       },
       {
-        "name": "Coraggioso",
         "description": [
           {
-            "type": "text",
-            "text": "Un halfling dispone di vantaggio ai  tiri salvezza per non essere "
+            "text": "Un halfling dispone di vantaggio ai tiri salvezza per non essere ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "spaventato",
             "text": "spaventato",
-            "id": "spaventato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Coraggioso"
       },
       {
-        "name": "Agilità halfling",
         "description": [
           {
-            "type": "text",
-            "text": "Un halfling può muoversi  attraverso gli spazi di qualsiasi creatura di taglia più  grande."
+            "text": "Un halfling può muoversi attraverso gli spazi di qualsiasi creatura di taglia più grande.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Agilità halfling"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Un halfling sa parlare, leggere  e scrivere in Comune e in Halfling. La lingua Halfling  non è segreta, ma gli halfling non la condividono  volentieri con i membri delle altre razze. Scrivono  poco, quindi la letteratura halfling non è molto ricca.  Le loro tradizioni orali, invece, sono molto ricche  e diffuse. Quasi tutti gli halfling usano il Comune per  comunicare con gli abitanti delle regioni in cui  vivono o che attraversano nei loro viaggi."
+            "text": "Un halfling sa parlare, leggere e scrivere in Comune e in Halfling. La lingua Halfling non è segreta, ma gli halfling non la condividono volentieri con i membri delle altre razze. Scrivono poco, quindi la letteratura halfling non è molto ricca. Le loro tradizioni orali, invece, sono molto ricche e diffuse. Quasi tutti gli halfling usano il Comune per comunicare con gli abitanti delle regioni in cui vivono o che attraversano nei loro viaggi.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un personaggio halfling possiede vari tratti in  comune con tutti i membri della sua razza.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": " di un halfling aumenta di 2.  _**Allineamento.**_ Quasi tutti gli halfling sono legali  buoni. Di norma sono creature gentili e di buon  cuore, detestano vedere soffrire le altre creature  e non sopportano la prepotenza. Sono anche molto  ordinati e tradizionalisti e si affidano per ogni  necessità alla loro comunità di appartenenza e alle  certezze delle antiche tradizioni.  _**Età.**_Un halfling raggiunge la maturità a 20 anni  e generalmente vive circa fino alla metà del suo  secondo secolo.  _**Taglia.**_ Un halfling è alto circa 90 cm e pesa circa  20 kg. È una creatura di taglia Piccola.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un nano  è di 7,5 metri.  _**Fortunato.**_ Quando ottiene 1 con un d20 a un tiro  per colpire, a una prova di caratteristica o a un tiro  salvezza, un halfling può ripetere il tiro del dado  e deve usare il nuovo risultato.  _**Coraggioso.**_ Un halfling dispone di vantaggio ai  tiri salvezza per non essere "
-      },
-      {
-        "type": "condition",
-        "text": "spaventato",
-        "id": "spaventato"
-      },
-      {
-        "type": "text",
-        "text": ".  _**Agilità halfling.**_Un halfling può muoversi  attraverso gli spazi di qualsiasi creatura di taglia più  grande.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un halfling sa parlare, leggere  e scrivere in Comune e in Halfling. La lingua Halfling  non è segreta, ma gli halfling non la condividono  volentieri con i membri delle altre razze. Scrivono  poco, quindi la letteratura halfling non è molto ricca.  Le loro tradizioni orali, invece, sono molto ricche  e diffuse. Quasi tutti gli halfling usano il Comune per  comunicare con gli abitanti delle regioni in cui  vivono o che attraversano nei loro viaggi.\n\n##### Piedelesto\n\nUn halfling piedelesto è abile nel non farsi notare  e può perfino usare le altre persone come copertura.  Tende a essere sempre gentile e ad andare d'accordo  con gli altri.   I piedelesto sono la varietà di halfling che più ama  viaggiare e spesso dimorano presso altre razze  o conducono una vita da nomadi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " di un halfling piedelesto  aumenta di 1.  _**"
-      },
-      {
-        "type": "skill",
-        "text": "Furtività",
-        "id": "furtivita"
-      },
-      {
-        "type": "text",
-        "text": " innata.**_ Un halfling piedelesto può  tentare di nascondersi anche se è oscurato solo  da una singola creatura, purché questa sia più  grande di lui di almeno una taglia."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un personaggio nano dispone di varie capacità innate, intrinsecamente correlate alla sua ",
+        "type": "text"
+      },
+      {
+        "id": "natura",
+        "text": "natura",
+        "type": "skill"
+      },
+      {
+        "text": " nanica. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " di un nano aumenta di 2. _**Allineamento.**_La maggior parte dei nani è legale e crede fermamente nei benefici di una società ben ordinata. Molti nani tendono anche al bene, danno grande valore alla correttezza e credono che tutti debbano condividere i benefici concessi da un ordine equo. _**Età.**_I nani maturano allo stesso ritmo degli umani, ma sono considerati giovani fino al raggiungimento dei 50 anni. Vivono in media 350 anni. _**Taglia.**_ Un nano è alto da 1,2 a 1,5 metri e pesa circa 75 kg. È di taglia Media.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un nano è di 7,5 metri. Tale ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " non viene ridotta se il nano indossa un'armatura pesante.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Un nano è abituato a vivere sottoterra e beneficia di una vista superiore nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Resilienza nanica.**_Un nano dispone di vantaggio ai tiri salvezza contro il ",
+        "type": "text"
+      },
+      {
+        "id": "veleno",
+        "text": "veleno",
+        "type": "damage_type"
+      },
+      {
+        "text": " e di resistenza ai danni da ",
+        "type": "text"
+      },
+      {
+        "id": "veleno",
+        "text": "veleno",
+        "type": "damage_type"
+      },
+      {
+        "text": ". _**Addestramento da combattimento nanico.**_ Ha competenza nelle asce, nelle asce da battaglia, nei martelli da guerra e nei martelli leggeri. _**Competenza negli strumenti.**_ Un nano ha competenza in un gruppo di strumenti da artigiano a sua scelta: strumenti da fabbro, scorte da birraio o strumenti da costruttore. _**Esperto minatore.**_Ogni volta che un nano effettua una prova di ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": " (",
+        "type": "text"
+      },
+      {
+        "id": "storia",
+        "text": "Storia",
+        "type": "skill"
+      },
+      {
+        "text": ") relativa all'origine di una struttura in pietra, è considerato avere competenza nell'abilità ",
+        "type": "text"
+      },
+      {
+        "id": "storia",
+        "text": "Storia",
+        "type": "skill"
+      },
+      {
+        "text": " e aggiunge il doppio\n\nSystems Reference Document 5.1 4\n\ndel suo bonus di competenza alla prova anziché il suo normale bonus di competenza.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Un nano è in grado di parlare, leggere e scrivere in Comune e in Nanico. Il Nanico è una lingua ricca di aspre consonanti e di suoni gutturali, inflessioni che traspaiono anche negli altri ",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": " che il nano potrebbe parlare.\n\n##### Nano delle colline\n\nUn nano delle colline è dotato di sensi acuti, di una profonda ",
+        "type": "text"
+      },
+      {
+        "id": "intuizione",
+        "text": "intuizione",
+        "type": "skill"
+      },
+      {
+        "text": " e di una straordinaria resilienza. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " di un nano aumenta di 1. _**Robustezza nanica.**_ Il massimo dei punti ferita di un nano aumenta di 1 e aumenta di nuovo di 1 ogni volta che acquisisce un livello.",
+        "type": "text"
+      }
+    ],
     "id": "nano",
     "name": "Nano",
-    "creature_type": "umanoide",
-    "size": "Un nano è alto da 1,2 a 1,5 metri e pesa  circa 75 kg. È di taglia Media.",
-    "speed": "La velocità base sul terreno di un nano  è di 7,5 metri. Tale velocità non viene ridotta se  il nano indossa un'armatura pesante.",
+    "size": "Un nano è alto da 1,2 a 1,5 metri e pesa circa 75 kg. È di taglia Media.",
+    "speed": "La velocità base sul terreno di un nano è di 7,5 metri. Tale velocità non viene ridotta se il nano indossa un'armatura pesante.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "costituzione",
             "text": "Costituzione",
-            "id": "costituzione"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di un nano aumenta di 2."
+            "text": " di un nano aumenta di 2.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "La maggior parte dei nani è legale  e crede fermamente nei benefici di una società ben  ordinata. Molti nani tendono anche al bene, danno  grande valore alla correttezza e credono che tutti  debbano condividere i benefici concessi da un ordine  equo."
+            "text": "La maggior parte dei nani è legale e crede fermamente nei benefici di una società ben ordinata. Molti nani tendono anche al bene, danno grande valore alla correttezza e credono che tutti debbano condividere i benefici concessi da un ordine equo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "I nani maturano allo stesso ritmo degli umani,  ma sono considerati giovani fino al raggiungimento  dei 50 anni. Vivono in media 350 anni."
+            "text": "I nani maturano allo stesso ritmo degli umani, ma sono considerati giovani fino al raggiungimento dei 50 anni. Vivono in media 350 anni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "Un nano è alto da 1,2 a 1,5 metri e pesa  circa 75 kg. È di taglia Media."
+            "text": "Un nano è alto da 1,2 a 1,5 metri e pesa circa 75 kg. È di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un nano  è di 7,5 metri. Tale "
+            "text": " base sul terreno di un nano è di 7,5 metri. Tale ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non viene ridotta se  il nano indossa un'armatura pesante."
+            "text": " non viene ridotta se il nano indossa un'armatura pesante.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Un nano è abituato a vivere  sottoterra e beneficia di una vista superiore  nell'"
+            "text": "Un nano è abituato a vivere sottoterra e beneficia di una vista superiore nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio."
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Resilienza nanica",
         "description": [
           {
-            "type": "text",
-            "text": "Un nano dispone di vantaggio  ai tiri salvezza contro il "
+            "text": "Un nano dispone di vantaggio ai tiri salvezza contro il ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "veleno",
             "text": "veleno",
-            "id": "veleno"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " e di resistenza ai  danni da "
+            "text": " e di resistenza ai danni da ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "veleno",
             "text": "veleno",
-            "id": "veleno"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resilienza nanica"
       },
       {
-        "name": "Addestramento da combattimento nanico",
         "description": [
           {
-            "type": "text",
-            "text": "Ha competenza nelle asce, nelle asce da battaglia,  nei martelli da guerra e nei martelli leggeri."
+            "text": "Ha competenza nelle asce, nelle asce da battaglia, nei martelli da guerra e nei martelli leggeri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Addestramento da combattimento nanico"
       },
       {
-        "name": "Competenza negli strumenti",
         "description": [
           {
-            "type": "text",
-            "text": "Un nano ha  competenza in un gruppo di strumenti da artigiano  a sua scelta: strumenti da fabbro, scorte da birraio  o strumenti da costruttore."
+            "text": "Un nano ha competenza in un gruppo di strumenti da artigiano a sua scelta: strumenti da fabbro, scorte da birraio o strumenti da costruttore.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Competenza negli strumenti"
       },
       {
-        "name": "Esperto minatore",
         "description": [
           {
-            "type": "text",
-            "text": "Ogni volta che un nano effettua  una prova di "
+            "text": "Ogni volta che un nano effettua una prova di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " ("
+            "text": " (",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "storia",
             "text": "Storia",
-            "id": "storia"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": ") relativa all'origine  di una struttura in pietra, è considerato avere  competenza nell'abilità "
+            "text": ") relativa all'origine di una struttura in pietra, è considerato avere competenza nell'abilità ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "storia",
             "text": "Storia",
-            "id": "storia"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": " e aggiunge il doppio\n\nSystems Reference Document 5.1  4\n\ndel suo bonus di competenza alla prova anziché il  suo normale bonus di competenza."
+            "text": " e aggiunge il doppio\n\nSystems Reference Document 5.1 4\n\ndel suo bonus di competenza alla prova anziché il suo normale bonus di competenza.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Esperto minatore"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Un nano è in grado di parlare, leggere  e scrivere in Comune e in Nanico. Il Nanico è una  lingua ricca di aspre consonanti e di suoni gutturali,  inflessioni che traspaiono anche negli altri "
+            "text": "Un nano è in grado di parlare, leggere e scrivere in Comune e in Nanico. Il Nanico è una lingua ricca di aspre consonanti e di suoni gutturali, inflessioni che traspaiono anche negli altri ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "linguaggi",
             "text": "linguaggi",
-            "id": "linguaggi"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": "  che il nano potrebbe parlare."
+            "text": " che il nano potrebbe parlare.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un personaggio nano dispone di varie capacità  innate, intrinsecamente correlate alla sua "
-      },
-      {
-        "type": "skill",
-        "text": "natura",
-        "id": "natura"
-      },
-      {
-        "type": "text",
-        "text": "  nanica.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " di un nano aumenta di 2.  _**Allineamento.**_La maggior parte dei nani è legale  e crede fermamente nei benefici di una società ben  ordinata. Molti nani tendono anche al bene, danno  grande valore alla correttezza e credono che tutti  debbano condividere i benefici concessi da un ordine  equo.  _**Età.**_I nani maturano allo stesso ritmo degli umani,  ma sono considerati giovani fino al raggiungimento  dei 50 anni. Vivono in media 350 anni.  _**Taglia.**_ Un nano è alto da 1,2 a 1,5 metri e pesa  circa 75 kg. È di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un nano  è di 7,5 metri. Tale "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " non viene ridotta se  il nano indossa un'armatura pesante.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un nano è abituato a vivere  sottoterra e beneficia di una vista superiore  nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**Resilienza nanica.**_Un nano dispone di vantaggio  ai tiri salvezza contro il "
-      },
-      {
-        "type": "damage_type",
-        "text": "veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": " e di resistenza ai  danni da "
-      },
-      {
-        "type": "damage_type",
-        "text": "veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": ".  _**Addestramento da combattimento nanico.**_ Ha competenza nelle asce, nelle asce da battaglia,  nei martelli da guerra e nei martelli leggeri.  _**Competenza negli strumenti.**_ Un nano ha  competenza in un gruppo di strumenti da artigiano  a sua scelta: strumenti da fabbro, scorte da birraio  o strumenti da costruttore.  _**Esperto minatore.**_Ogni volta che un nano effettua  una prova di "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": " ("
-      },
-      {
-        "type": "skill",
-        "text": "Storia",
-        "id": "storia"
-      },
-      {
-        "type": "text",
-        "text": ") relativa all'origine  di una struttura in pietra, è considerato avere  competenza nell'abilità "
-      },
-      {
-        "type": "skill",
-        "text": "Storia",
-        "id": "storia"
-      },
-      {
-        "type": "text",
-        "text": " e aggiunge il doppio\n\nSystems Reference Document 5.1  4\n\ndel suo bonus di competenza alla prova anziché il  suo normale bonus di competenza.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un nano è in grado di parlare, leggere  e scrivere in Comune e in Nanico. Il Nanico è una  lingua ricca di aspre consonanti e di suoni gutturali,  inflessioni che traspaiono anche negli altri "
-      },
-      {
-        "type": "spell",
-        "text": "linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": "  che il nano potrebbe parlare.\n\n##### Nano delle colline\n\nUn nano delle colline è dotato di sensi acuti, di una  profonda "
-      },
-      {
-        "type": "skill",
-        "text": "intuizione",
-        "id": "intuizione"
-      },
-      {
-        "type": "text",
-        "text": " e di una straordinaria resilienza.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " di un nano aumenta di 1.  _**Robustezza nanica.**_ Il massimo dei punti ferita di  un nano aumenta di 1 e aumenta di nuovo di 1 ogni  volta che acquisisce un livello."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Anche se è difficile stabilire delle generalizzazioni sugli umani, un personaggio umano sarà dotato dei tratti seguenti. _**Incremento dei punteggi di caratteristica.**_ Ogni punteggio di caratteristica di un umano aumenta di 1. _**Allineamento.**_ Gli umani non tendono ad alcun allineamento in particolare. Presso di loro è possibile trovare il meglio e il peggio che gli esseri viventi hanno da offrire. _**Età.**_ Un umano raggiunge la maturità tra i 18 e i 20 anni e vive meno di un secolo. _**Taglia.**_ L'altezza e la corporatura possono variare drasticamente da un umano all'altro, oscillando tra 1,5 e 1,8 metri o più. A prescindere dalla sua effettiva altezza, un umano è una creatura di taglia Media.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un elfo è di 9 metri.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Gli umani parlano, leggono e scrivono in Comune e in un linguaggio extra a scelta. In genere imparano la lingua del popolo con cui hanno più contatti, anche quando si tratta di dialetti sconosciuti ai più. Amano molto impreziosire la loro parlata con parole prese da altri ",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ": imprecazioni in Orchesco, espressioni elfiche dal suono melodioso, termini militari nanici e così via.",
+        "type": "text"
+      }
+    ],
     "id": "umano",
     "name": "Umano",
-    "creature_type": "umanoide",
-    "size": "L'altezza e la corporatura possono variare  drasticamente da un umano all'altro, oscillando tra  1,5 e 1,8 metri o più. A prescindere dalla sua effettiva  altezza, un umano è una creatura di taglia Media.",
-    "speed": "La velocità base sul terreno di un elfo  è di 9 metri.",
+    "size": "L'altezza e la corporatura possono variare drasticamente da un umano all'altro, oscillando tra 1,5 e 1,8 metri o più. A prescindere dalla sua effettiva altezza, un umano è una creatura di taglia Media.",
+    "speed": "La velocità base sul terreno di un elfo è di 9 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Ogni punteggio di caratteristica di un umano  aumenta di 1."
+            "text": "Ogni punteggio di caratteristica di un umano aumenta di 1.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "Gli umani non tendono ad alcun  allineamento in particolare. Presso di loro  è possibile trovare il meglio e il peggio che gli esseri  viventi hanno da offrire."
+            "text": "Gli umani non tendono ad alcun allineamento in particolare. Presso di loro è possibile trovare il meglio e il peggio che gli esseri viventi hanno da offrire.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "Un umano raggiunge la maturità tra i 18 e i 20  anni e vive meno di un secolo."
+            "text": "Un umano raggiunge la maturità tra i 18 e i 20 anni e vive meno di un secolo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "L'altezza e la corporatura possono variare  drasticamente da un umano all'altro, oscillando tra  1,5 e 1,8 metri o più. A prescindere dalla sua effettiva  altezza, un umano è una creatura di taglia Media."
+            "text": "L'altezza e la corporatura possono variare drasticamente da un umano all'altro, oscillando tra 1,5 e 1,8 metri o più. A prescindere dalla sua effettiva altezza, un umano è una creatura di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un elfo  è di 9 metri."
+            "text": " base sul terreno di un elfo è di 9 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Gli umani parlano, leggono e scrivono  in Comune e in un linguaggio extra a scelta.  In genere imparano la lingua del popolo con cui  hanno più contatti, anche quando si tratta di dialetti  sconosciuti ai più. Amano molto impreziosire la  loro parlata con parole prese da altri "
+            "text": "Gli umani parlano, leggono e scrivono in Comune e in un linguaggio extra a scelta. In genere imparano la lingua del popolo con cui hanno più contatti, anche quando si tratta di dialetti sconosciuti ai più. Amano molto impreziosire la loro parlata con parole prese da altri ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "linguaggi",
             "text": "linguaggi",
-            "id": "linguaggi"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": ":  imprecazioni in Orchesco, espressioni elfiche dal  suono melodioso, termini militari nanici e così via."
+            "text": ": imprecazioni in Orchesco, espressioni elfiche dal suono melodioso, termini militari nanici e così via.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Anche se è difficile stabilire delle generalizzazioni  sugli umani, un personaggio umano sarà dotato dei  tratti seguenti.  _**Incremento dei punteggi di caratteristica.**_ Ogni punteggio di caratteristica di un umano  aumenta di 1.  _**Allineamento.**_ Gli umani non tendono ad alcun  allineamento in particolare. Presso di loro  è possibile trovare il meglio e il peggio che gli esseri  viventi hanno da offrire.  _**Età.**_ Un umano raggiunge la maturità tra i 18 e i 20  anni e vive meno di un secolo.  _**Taglia.**_ L'altezza e la corporatura possono variare  drasticamente da un umano all'altro, oscillando tra  1,5 e 1,8 metri o più. A prescindere dalla sua effettiva  altezza, un umano è una creatura di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un elfo  è di 9 metri.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Gli umani parlano, leggono e scrivono  in Comune e in un linguaggio extra a scelta.  In genere imparano la lingua del popolo con cui  hanno più contatti, anche quando si tratta di dialetti  sconosciuti ai più. Amano molto impreziosire la  loro parlata con parole prese da altri "
-      },
-      {
-        "type": "spell",
-        "text": "linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ":  imprecazioni in Orchesco, espressioni elfiche dal  suono melodioso, termini militari nanici e così via."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Il retaggio draconico si manifesta in una varietà di caratteristiche che il personaggio condivide con gli altri dragonidi. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "forza",
+        "text": "Forza",
+        "type": "ability"
+      },
+      {
+        "text": " di un dragonide aumenta di 2 e quello di ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " aumenta di 1. _**Allineamento.**_ I dragonidi tendono agli estremi e scelgono coscientemente da che parte stare nella guerra cosmica tra il bene e il male. La maggior parte dei dragonidi è buona, ma quelli che si schierano con il male possono rivelarsi tremendamente malvagi. _**Età.**_ I giovani dragonidi crescono velocemente. Camminano già poche ore dopo la schiusa dell'uovo, a 3 anni raggiungono le dimensioni e lo sviluppo di un bambino umano di 10 anni e a 15 anni raggiungono la maturità. Vivono all'incirca fino a 80 anni. _**Taglia.**_ I dragonidi sono più alti e pesanti degli umani: hanno un'altezza superiore a 1,8 metri e un peso medio di 125 kg. Un dragonide è una creatura di taglia Media. _**Velocità.**_ La velocità base sul terreno di un dragonide è di 9 metri.\n\n_**Discendenza draconica.**_ Un dragonide vanta una discendenza da un ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "drago",
+        "type": "creature_type"
+      },
+      {
+        "text": ". Il giocatore sceglie un tipo di ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "drago",
+        "type": "creature_type"
+      },
+      {
+        "text": " dalla tabella \"Discendenza draconica\". Il soffio del personaggio e la sua resistenza ai danni saranno determinati dalla tipologia di ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "drago",
+        "type": "creature_type"
+      },
+      {
+        "text": ", come indicato dalla tabella.\n\n| Drago | Tipo di danni | Soffio |\n|---|---|---|\n| Argento | Freddo | Cono di 4,5 m (TS Costituzione) |\n| Bianco | Freddo | Cono di 4,5 m (TS Costituzione) |\n| Blu | Fulmine | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Bronzo | Fulmine | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Nero | Acido | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Oro | Fuoco | Cono di 4,5 m (TS Destrezza) |\n| Ottone | Fuoco | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Rame | Acido | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Rosso | Fuoco | Cono di 4,5 m (TS Destrezza) |\n| Verde | Veleno | Cono di 4,5 m (TS Costituzione) |\n\n_**Soffio.**_ Un dragonide può usare la sua azione per esalare un soffio di energia distruttiva. La discendenza draconica determina la dimensione, la forma e il tipo di danno dell'esalazione. Quando il dragonide utilizza il suo soffio, ogni creatura entro l'area dell'esalazione deve effettuare un tiro salvezza determinato in base alla discendenza draconica. La CD di questo tiro salvezza è pari a 8 + il modificatore di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " del dragonide + il bonus di competenza del dragonide. Una creatura subisce 2d6 danni se il tiro salvezza fallisce. Se invece ha successo, i danni sono dimezzati. I danni aumentano a 3d6 al 6° livello, 4d6 all'11° livello e 5d6 al 16° livello. Una volta che il dragonide ha utilizzato il suo soffio, non può più utilizzarlo finché non completa un riposo breve o lungo. _**Resistenza ai danni.**_ Un dragonide dispone di resistenza ai danni del tipo associato alla sua discendenza draconica. _**Linguaggi.**_ Un dragonide sa parlare, leggere e scrivere in Comune e in Draconico. Si ritiene che il Draconico sia uno dei linguaggi più antichi e viene spesso usato nello studio della magia. Ha un suono aspro per la maggior parte delle creature e include numerose consonanti dure e sibilanti.",
+        "type": "text"
+      }
+    ],
     "id": "dragonide",
     "name": "Dragonide",
-    "creature_type": "umanoide",
-    "size": "I dragonidi sono più alti e pesanti degli  umani: hanno un'altezza superiore a 1,8 metri  e un peso medio di 125 kg. Un dragonide è una  creatura di taglia Media.",
-    "speed": "La velocità base sul terreno di un  dragonide è di 9 metri.\n\nDiscendenza draconica\n\nDrago\n\nTipo di danni\n\nSoffio\n\nArgento\n\nFreddo\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBianco\n\nFreddo\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBlu\n\nFulmine\n\nLinea di 1,5 m × 9 m\n\n(TS Destrezza)\n\nBronzo\n\nFulmine\n\nLinea di 1,5 m × 9 m\n\n(TS Destrezza)\n\nNero\n\nAcido\n\nLinea di 1,5 m × 9 m\n\n(TS Destrezza)\n\nOro\n\nFuoco\n\nCono di 4,5 m\n\n(TS Destrezza)\n\nOttone\n\nFuoco\n\nLinea di 1,5 m × 9 m\n\n(TS Destrezza)\n\nRame\n\nAcido\n\nLinea di 1,5 m × 9 m\n\n(TS Destrezza)\n\nRosso\n\nFuoco\n\nCono di 4,5 m\n\n(TS Destrezza)\n\nVerde\n\nVeleno\n\nCono di 4,5 m\n\n(TS Conoscenza)",
+    "size": "I dragonidi sono più alti e pesanti degli umani: hanno un'altezza superiore a 1,8 metri e un peso medio di 125 kg. Un dragonide è una creatura di taglia Media.",
+    "speed": "La velocità base sul terreno di un dragonide è di 9 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "forza",
             "text": "Forza",
-            "id": "forza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di un dragonide aumenta  di 2 e quello di "
+            "text": " di un dragonide aumenta di 2 e quello di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " aumenta di 1."
+            "text": " aumenta di 1.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "I dragonidi tendono agli estremi  e scelgono coscientemente da che parte stare nella  guerra cosmica tra il bene e il male. La maggior parte  dei dragonidi è buona, ma quelli che si schierano con  il male possono rivelarsi tremendamente malvagi."
+            "text": "I dragonidi tendono agli estremi e scelgono coscientemente da che parte stare nella guerra cosmica tra il bene e il male. La maggior parte dei dragonidi è buona, ma quelli che si schierano con il male possono rivelarsi tremendamente malvagi.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "I giovani dragonidi crescono velocemente.  Camminano già poche ore dopo la schiusa dell'uovo,  a 3 anni raggiungono le dimensioni e lo sviluppo  di un bambino umano di 10 anni e a 15 anni  raggiungono la maturità. Vivono all'incirca fino  a 80 anni."
+            "text": "I giovani dragonidi crescono velocemente. Camminano già poche ore dopo la schiusa dell'uovo, a 3 anni raggiungono le dimensioni e lo sviluppo di un bambino umano di 10 anni e a 15 anni raggiungono la maturità. Vivono all'incirca fino a 80 anni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "I dragonidi sono più alti e pesanti degli  umani: hanno un'altezza superiore a 1,8 metri  e un peso medio di 125 kg. Un dragonide è una  creatura di taglia Media."
+            "text": "I dragonidi sono più alti e pesanti degli umani: hanno un'altezza superiore a 1,8 metri e un peso medio di 125 kg. Un dragonide è una creatura di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
-          },
-          {
-            "type": "spell",
-            "text": "velocità",
-            "id": "velocita"
-          },
-          {
-            "type": "text",
-            "text": " base sul terreno di un  dragonide è di 9 metri.\n\nDiscendenza draconica\n\n"
-          },
-          {
-            "type": "creature_type",
-            "text": "Drago",
-            "id": "drago"
-          },
-          {
-            "type": "text",
-            "text": "\n\nTipo di danni\n\nSoffio\n\nArgento\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Freddo",
-            "id": "freddo"
-          },
-          {
-            "type": "text",
-            "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBianco\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Freddo",
-            "id": "freddo"
-          },
-          {
-            "type": "text",
-            "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBlu\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Fulmine",
-            "id": "fulmine"
-          },
-          {
-            "type": "text",
-            "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nBronzo\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Fulmine",
-            "id": "fulmine"
-          },
-          {
-            "type": "text",
-            "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nNero\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Acido",
-            "id": "acido"
-          },
-          {
-            "type": "text",
-            "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nOro\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Fuoco",
-            "id": "fuoco"
-          },
-          {
-            "type": "text",
-            "text": "\n\nCono di 4,5 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nOttone\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Fuoco",
-            "id": "fuoco"
-          },
-          {
-            "type": "text",
-            "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nRame\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Acido",
-            "id": "acido"
-          },
-          {
-            "type": "text",
-            "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nRosso\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Fuoco",
-            "id": "fuoco"
-          },
-          {
-            "type": "text",
-            "text": "\n\nCono di 4,5 m\n\n(TS "
-          },
-          {
-            "type": "ability",
-            "text": "Destrezza",
-            "id": "destrezza"
-          },
-          {
-            "type": "text",
-            "text": ")\n\nVerde\n\n"
-          },
-          {
-            "type": "damage_type",
-            "text": "Veleno",
-            "id": "veleno"
-          },
-          {
-            "type": "text",
-            "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)"
+            "text": "La velocità base sul terreno di un dragonide è di 9 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Discendenza draconica",
         "description": [
           {
-            "type": "text",
-            "text": "Un dragonide vanta una  discendenza da un "
+            "text": "Un dragonide vanta una discendenza da un ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "drago",
             "text": "drago",
-            "id": "drago"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": ". Il giocatore sceglie un tipo  di "
+            "text": ". Il giocatore sceglie un tipo di ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "drago",
             "text": "drago",
-            "id": "drago"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua resistenza ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
+            "text": " dalla tabella \"Discendenza draconica\". Il soffio del personaggio e la sua resistenza ai danni saranno determinati dalla tipologia di ",
+            "type": "text"
           },
           {
-            "type": "creature_type",
+            "id": "drago",
             "text": "drago",
-            "id": "drago"
+            "type": "creature_type"
           },
           {
-            "type": "text",
-            "text": ",  come indicato dalla tabella."
+            "text": ", come indicato dalla tabella.\n\n| Drago | Tipo di danni | Soffio |\n|---|---|---|\n| Argento | Freddo | Cono di 4,5 m (TS Costituzione) |\n| Bianco | Freddo | Cono di 4,5 m (TS Costituzione) |\n| Blu | Fulmine | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Bronzo | Fulmine | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Nero | Acido | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Oro | Fuoco | Cono di 4,5 m (TS Destrezza) |\n| Ottone | Fuoco | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Rame | Acido | Linea di 1,5 m × 9 m (TS Destrezza) |\n| Rosso | Fuoco | Cono di 4,5 m (TS Destrezza) |\n| Verde | Veleno | Cono di 4,5 m (TS Costituzione) |",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Discendenza draconica"
       },
       {
-        "name": "Soffio",
         "description": [
           {
-            "type": "text",
-            "text": "Un dragonide può usare la sua azione  per esalare un soffio di energia distruttiva.  La discendenza draconica determina la dimensione,  la forma e il tipo di danno dell'esalazione.   Quando il dragonide utilizza il suo soffio, ogni  creatura entro l'area dell'esalazione deve effettuare  un tiro salvezza determinato in base alla  discendenza draconica. La CD di questo tiro salvezza  è pari a 8 + il modificatore di "
+            "text": "Un dragonide può usare la sua azione per esalare un soffio di energia distruttiva. La discendenza draconica determina la dimensione, la forma e il tipo di danno dell'esalazione. Quando il dragonide utilizza il suo soffio, ogni creatura entro l'area dell'esalazione deve effettuare un tiro salvezza determinato in base alla discendenza draconica. La CD di questo tiro salvezza è pari a 8 + il modificatore di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "costituzione",
             "text": "Costituzione",
-            "id": "costituzione"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " del  dragonide + il bonus di competenza del dragonide.  Una creatura subisce 2d6 danni se il tiro salvezza  fallisce. Se invece ha successo, i danni sono  dimezzati. I danni aumentano a 3d6 al 6° livello,  4d6 all'11° livello e 5d6 al 16° livello.   Una volta che il dragonide ha utilizzato il suo  soffio, non può più utilizzarlo finché non completa  un riposo breve o lungo."
+            "text": " del dragonide + il bonus di competenza del dragonide. Una creatura subisce 2d6 danni se il tiro salvezza fallisce. Se invece ha successo, i danni sono dimezzati. I danni aumentano a 3d6 al 6° livello, 4d6 all'11° livello e 5d6 al 16° livello. Una volta che il dragonide ha utilizzato il suo soffio, non può più utilizzarlo finché non completa un riposo breve o lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Soffio"
       },
       {
-        "name": "Resistenza ai danni",
         "description": [
           {
-            "type": "text",
-            "text": "Un dragonide dispone  di resistenza ai danni del tipo associato alla sua  discendenza draconica."
+            "text": "Un dragonide dispone di resistenza ai danni del tipo associato alla sua discendenza draconica.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resistenza ai danni"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Un dragonide sa parlare, leggere  e scrivere in Comune e in Draconico. Si ritiene che  il Draconico sia uno dei "
+            "text": "Un dragonide sa parlare, leggere e scrivere in Comune e in Draconico. Si ritiene che il Draconico sia uno dei ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "linguaggi",
             "text": "linguaggi",
-            "id": "linguaggi"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " più antichi e viene  spesso usato nello studio della magia. Ha un suono  aspro per la maggior parte delle creature e include  numerose consonanti dure e sibilanti."
+            "text": " più antichi e viene spesso usato nello studio della magia. Ha un suono aspro per la maggior parte delle creature e include numerose consonanti dure e sibilanti.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Il retaggio draconico si manifesta in una varietà di  caratteristiche che il personaggio condivide con gli  altri dragonidi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "damage_type",
-        "text": "Forza",
-        "id": "forza"
-      },
-      {
-        "type": "text",
-        "text": " di un dragonide aumenta  di 2 e quello di "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " aumenta di 1.  _**Allineamento.**_ I dragonidi tendono agli estremi  e scelgono coscientemente da che parte stare nella  guerra cosmica tra il bene e il male. La maggior parte  dei dragonidi è buona, ma quelli che si schierano con  il male possono rivelarsi tremendamente malvagi.  _**Età.**_I giovani dragonidi crescono velocemente.  Camminano già poche ore dopo la schiusa dell'uovo,  a 3 anni raggiungono le dimensioni e lo sviluppo  di un bambino umano di 10 anni e a 15 anni  raggiungono la maturità. Vivono all'incirca fino  a 80 anni.  _**Taglia.**_ I dragonidi sono più alti e pesanti degli  umani: hanno un'altezza superiore a 1,8 metri  e un peso medio di 125 kg. Un dragonide è una  creatura di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un  dragonide è di 9 metri.\n\nDiscendenza draconica\n\n"
-      },
-      {
-        "type": "creature_type",
-        "text": "Drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": "\n\nTipo di danni\n\nSoffio\n\nArgento\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Freddo",
-        "id": "freddo"
-      },
-      {
-        "type": "text",
-        "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBianco\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Freddo",
-        "id": "freddo"
-      },
-      {
-        "type": "text",
-        "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\nBlu\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fulmine",
-        "id": "fulmine"
-      },
-      {
-        "type": "text",
-        "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nBronzo\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fulmine",
-        "id": "fulmine"
-      },
-      {
-        "type": "text",
-        "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nNero\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Acido",
-        "id": "acido"
-      },
-      {
-        "type": "text",
-        "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nOro\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": "\n\nCono di 4,5 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nOttone\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nRame\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Acido",
-        "id": "acido"
-      },
-      {
-        "type": "text",
-        "text": "\n\nLinea di 1,5 m × 9 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nRosso\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": "\n\nCono di 4,5 m\n\n(TS "
-      },
-      {
-        "type": "ability",
-        "text": "Destrezza",
-        "id": "destrezza"
-      },
-      {
-        "type": "text",
-        "text": ")\n\nVerde\n\n"
-      },
-      {
-        "type": "damage_type",
-        "text": "Veleno",
-        "id": "veleno"
-      },
-      {
-        "type": "text",
-        "text": "\n\nCono di 4,5 m\n\n(TS Conoscenza)\n\n_**Discendenza draconica.**_ Un dragonide vanta una  discendenza da un "
-      },
-      {
-        "type": "creature_type",
-        "text": "drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": ". Il giocatore sceglie un tipo  di "
-      },
-      {
-        "type": "creature_type",
-        "text": "drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": " dalla tabella \"Discendenza draconica\".  Il soffio del personaggio e la sua resistenza ai danni\n\nSystems Reference Document 5.1  5\n\nsaranno determinati dalla tipologia di "
-      },
-      {
-        "type": "creature_type",
-        "text": "drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": ",  come indicato dalla tabella.  _**Soffio.**_ Un dragonide può usare la sua azione  per esalare un soffio di energia distruttiva.  La discendenza draconica determina la dimensione,  la forma e il tipo di danno dell'esalazione.   Quando il dragonide utilizza il suo soffio, ogni  creatura entro l'area dell'esalazione deve effettuare  un tiro salvezza determinato in base alla  discendenza draconica. La CD di questo tiro salvezza  è pari a 8 + il modificatore di "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " del  dragonide + il bonus di competenza del dragonide.  Una creatura subisce 2d6 danni se il tiro salvezza  fallisce. Se invece ha successo, i danni sono  dimezzati. I danni aumentano a 3d6 al 6° livello,  4d6 all'11° livello e 5d6 al 16° livello.   Una volta che il dragonide ha utilizzato il suo  soffio, non può più utilizzarlo finché non completa  un riposo breve o lungo.  _**Resistenza ai danni.**_Un dragonide dispone  di resistenza ai danni del tipo associato alla sua  discendenza draconica.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Un dragonide sa parlare, leggere  e scrivere in Comune e in Draconico. Si ritiene che  il Draconico sia uno dei "
-      },
-      {
-        "type": "spell",
-        "text": "linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": " più antichi e viene  spesso usato nello studio della magia. Ha un suono  aspro per la maggior parte delle creature e include  numerose consonanti dure e sibilanti."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un personaggio gnomo possiede alcune caratteristiche in comune con tutti gli altri gnomi. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": " di uno gnomo aumenta di 2. _**Allineamento.**_ Gli gnomi sono spesso buoni. Quelli che tendono alla legalità sono sapienti, ingegneri, ricercatori, studiosi, investigatori o inventori. Quelli che tendono al caos sono menestrelli, imbroglioni, viandanti o eccentrici gioiellieri. Gli gnomi sono creature di buon cuore e anche quelli di indole più ingannevole sono generalmente più burloni che malvagi. _**Età.**_ Gli gnomi maturano alla stessa ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " degli umani e la maggior parte solitamente adotta la stabilità di una vita adulta attorno ai 40 anni. Uno gnomo può vivere dai 350 ai 500 anni circa. _**Taglia.**_ Uno gnomo può essere alto dai 90 ai 120 cm e pesare in media 20 kg. È una creatura di taglia Piccola.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di uno gnomo è di 7,5 metri.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Uno gnomo è abituato a vivere sottoterra e beneficia di una vista superiore nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Astuzia gnomesca.**_ Uno gnomo dispone di vantaggio a tutti i tiri salvezza su ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": ", ",
+        "type": "text"
+      },
+      {
+        "id": "saggezza",
+        "text": "Saggezza",
+        "type": "ability"
+      },
+      {
+        "text": " e ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " contro la magia.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Uno gnomo può parlare, leggere e scrivere in Comune e in Gnomesco. Lo Gnomesco, che usa l'alfabeto Nanico, è rinomato per i suoi trattati tecnici e le sue enciclopedie sul mondo naturale.\n\n##### Gnomo delle rocce\n\nUno gnomo delle rocce è dotato di una creatività innata e di una resistenza superiore a quella degli altri gnomi. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " di uno gnomo aumenta di 1. _**Conoscenze dell'artefice.**_ Ogni volta che uno gnomo delle rocce effettua una prova di ",
+        "type": "text"
+      },
+      {
+        "id": "intelligenza",
+        "text": "Intelligenza",
+        "type": "ability"
+      },
+      {
+        "text": " (",
+        "type": "text"
+      },
+      {
+        "id": "storia",
+        "text": "Storia",
+        "type": "skill"
+      },
+      {
+        "text": ") relativa a oggetti magici, alchemici o congegni tecnologici, può aggiungere il doppio del suo bonus di competenza anziché l'eventuale bonus di competenza che applicherebbe solitamente. _**Inventore.**_ Uno gnomo delle rocce ha competenza negli strumenti da artigiano (strumenti da inventore). Utilizzando questi strumenti, uno gnomo delle rocce può dedicare un'ora e una quantità di materiali pari a un valore di 10 mo per costruire un congegno meccanico Minuscolo (CA 5, 1 punto ferita). Il congegno cessa di funzionare dopo 24 ore (a meno che il personaggio non spenda 1 ora a ripararlo per mantenerlo in funzione) o quando lo gnomo delle rocce usa un'azione per smantellarlo (nel qual caso può recuperare i materiali utilizzati per crearlo). Non è possibile avere più di tre congegni attivi allo stesso tempo. Quando uno gnomo delle rocce decide di creare un congegno, deve sceglierne uno tra le opzioni seguenti:\n\nSystems Reference Document 5.1 6\n\n*Accendifuoco.*Questo congegno produce una fiamma in miniatura che un personaggio può usare per accendere una candela, una torcia o un ",
+        "type": "text"
+      },
+      {
+        "id": "fuoco",
+        "text": "fuoco",
+        "type": "damage_type"
+      },
+      {
+        "text": " da campo. Per utilizzare questo congegno è richiesta un'azione. *Carillon.*Una volta aperto, il carillon emette un'unica melodia a un volume moderato. Smette di suonare quando arriva alla fine della melodia o quando viene richiuso. *Giocattolo a molla.*Questo giocattolo meccanico ha la forma di un animale, un mostro o un individuo, come per esempio una rana, un topo, un uccello, un ",
+        "type": "text"
+      },
+      {
+        "id": "drago",
+        "text": "drago",
+        "type": "creature_type"
+      },
+      {
+        "text": " o un soldato. Quando viene posizionato per terra, il giocattolo si sposta di 1,5 metri a ogni turno del personaggio, in una direzione casuale. Il giocattolo a molla emette i tipici suoni della creatura che rappresenta.",
+        "type": "text"
+      }
+    ],
     "id": "gnomo",
     "name": "Gnomo",
-    "creature_type": "umanoide",
-    "size": "Uno gnomo può essere alto dai 90 ai  120 cm e pesare in media 20 kg. È una creatura di  taglia Piccola.",
-    "speed": "La velocità base sul terreno di uno  gnomo è di 7,5 metri.",
+    "size": "Uno gnomo può essere alto dai 90 ai 120 cm e pesare in media 20 kg. È una creatura di taglia Piccola.",
+    "speed": "La velocità base sul terreno di uno gnomo è di 7,5 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di uno gnomo aumenta  di 2."
+            "text": " di uno gnomo aumenta di 2.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "Gli gnomi sono spesso buoni. Quelli  che tendono alla legalità sono sapienti, ingegneri,  ricercatori, studiosi, investigatori o inventori. Quelli  che tendono al caos sono menestrelli, imbroglioni,  viandanti o eccentrici gioiellieri. Gli gnomi sono  creature di buon cuore e anche quelli di indole più  ingannevole sono generalmente più burloni che  malvagi."
+            "text": "Gli gnomi sono spesso buoni. Quelli che tendono alla legalità sono sapienti, ingegneri, ricercatori, studiosi, investigatori o inventori. Quelli che tendono al caos sono menestrelli, imbroglioni, viandanti o eccentrici gioiellieri. Gli gnomi sono creature di buon cuore e anche quelli di indole più ingannevole sono generalmente più burloni che malvagi.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "Gli gnomi maturano alla stessa "
+            "text": "Gli gnomi maturano alla stessa ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " degli  umani e la maggior parte solitamente adotta la  stabilità di una vita adulta attorno ai 40 anni.  Uno gnomo può vivere dai 350 ai 500 anni circa."
+            "text": " degli umani e la maggior parte solitamente adotta la stabilità di una vita adulta attorno ai 40 anni. Uno gnomo può vivere dai 350 ai 500 anni circa.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "Uno gnomo può essere alto dai 90 ai  120 cm e pesare in media 20 kg. È una creatura di  taglia Piccola."
+            "text": "Uno gnomo può essere alto dai 90 ai 120 cm e pesare in media 20 kg. È una creatura di taglia Piccola.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di uno  gnomo è di 7,5 metri."
+            "text": " base sul terreno di uno gnomo è di 7,5 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Uno gnomo è abituato a vivere  sottoterra e beneficia di una vista superiore  nell'"
+            "text": "Uno gnomo è abituato a vivere sottoterra e beneficia di una vista superiore nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio."
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Astuzia gnomesca",
         "description": [
           {
-            "type": "text",
-            "text": "Uno gnomo dispone di  vantaggio a tutti i tiri salvezza su "
+            "text": "Uno gnomo dispone di vantaggio a tutti i tiri salvezza su ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "intelligenza",
             "text": "Intelligenza",
-            "id": "intelligenza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": ",  "
+            "text": ", ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "saggezza",
             "text": "Saggezza",
-            "id": "saggezza"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " e "
+            "text": " e ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " contro la magia."
+            "text": " contro la magia.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Astuzia gnomesca"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Uno gnomo può parlare, leggere   e scrivere in Comune e in Gnomesco. Lo Gnomesco,  che usa l'alfabeto Nanico, è rinomato per i suoi  trattati tecnici e le sue enciclopedie sul mondo  naturale."
+            "text": "Uno gnomo può parlare, leggere e scrivere in Comune e in Gnomesco. Lo Gnomesco, che usa l'alfabeto Nanico, è rinomato per i suoi trattati tecnici e le sue enciclopedie sul mondo naturale.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un personaggio gnomo possiede alcune  caratteristiche in comune con tutti gli altri gnomi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": " di uno gnomo aumenta  di 2.  _**Allineamento.**_ Gli gnomi sono spesso buoni. Quelli  che tendono alla legalità sono sapienti, ingegneri,  ricercatori, studiosi, investigatori o inventori. Quelli  che tendono al caos sono menestrelli, imbroglioni,  viandanti o eccentrici gioiellieri. Gli gnomi sono  creature di buon cuore e anche quelli di indole più  ingannevole sono generalmente più burloni che  malvagi.  _**Età.**_ Gli gnomi maturano alla stessa "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " degli  umani e la maggior parte solitamente adotta la  stabilità di una vita adulta attorno ai 40 anni.  Uno gnomo può vivere dai 350 ai 500 anni circa.  _**Taglia.**_ Uno gnomo può essere alto dai 90 ai  120 cm e pesare in media 20 kg. È una creatura di  taglia Piccola.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di uno  gnomo è di 7,5 metri.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Uno gnomo è abituato a vivere  sottoterra e beneficia di una vista superiore  nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**Astuzia gnomesca.**_ Uno gnomo dispone di  vantaggio a tutti i tiri salvezza su "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": ",  "
-      },
-      {
-        "type": "ability",
-        "text": "Saggezza",
-        "id": "saggezza"
-      },
-      {
-        "type": "text",
-        "text": " e "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " contro la magia.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Uno gnomo può parlare, leggere   e scrivere in Comune e in Gnomesco. Lo Gnomesco,  che usa l'alfabeto Nanico, è rinomato per i suoi  trattati tecnici e le sue enciclopedie sul mondo  naturale.\n\n##### Gnomo delle rocce\n\nUno gnomo delle rocce è dotato di una creatività  innata e di una resistenza superiore a quella degli  altri gnomi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " di uno gnomo aumenta  di 1.  _**Conoscenze dell'artefice.**_ Ogni volta che uno  gnomo delle rocce effettua una prova di "
-      },
-      {
-        "type": "ability",
-        "text": "Intelligenza",
-        "id": "intelligenza"
-      },
-      {
-        "type": "text",
-        "text": "  ("
-      },
-      {
-        "type": "skill",
-        "text": "Storia",
-        "id": "storia"
-      },
-      {
-        "type": "text",
-        "text": ") relativa a oggetti magici, alchemici  o congegni tecnologici, può aggiungere il doppio del  suo bonus di competenza anziché l'eventuale bonus  di competenza che applicherebbe solitamente.  _**Inventore.**_ Uno gnomo delle rocce ha competenza  negli strumenti da artigiano (strumenti da  inventore). Utilizzando questi strumenti, uno gnomo  delle rocce può dedicare un'ora e una quantità di  materiali pari a un valore di 10 mo per costruire un  congegno meccanico Minuscolo (CA 5, 1 punto  ferita). Il congegno cessa di funzionare dopo 24 ore  (a meno che il personaggio non spenda 1 ora  a ripararlo per mantenerlo in funzione) o quando lo  gnomo delle rocce usa un'azione per smantellarlo  (nel qual caso può recuperare i materiali utilizzati  per crearlo). Non è possibile avere più di tre  congegni attivi allo stesso tempo.   Quando uno gnomo delle rocce decide di creare  un congegno, deve sceglierne uno tra le opzioni  seguenti:\n\nSystems Reference Document 5.1  6\n\n*Accendifuoco.*Questo congegno produce una fiamma  in miniatura che un personaggio può usare per  accendere una candela, una torcia o un "
-      },
-      {
-        "type": "damage_type",
-        "text": "fuoco",
-        "id": "fuoco"
-      },
-      {
-        "type": "text",
-        "text": " da  campo. Per utilizzare questo congegno è richiesta  un'azione.  *Carillon.*Una volta aperto, il carillon emette un'unica  melodia a un volume moderato. Smette di suonare  quando arriva alla fine della melodia o quando  viene richiuso.  *Giocattolo a molla.*Questo giocattolo meccanico ha  la forma di un animale, un mostro o un individuo,  come per esempio una rana, un topo, un uccello,  un "
-      },
-      {
-        "type": "creature_type",
-        "text": "drago",
-        "id": "drago"
-      },
-      {
-        "type": "text",
-        "text": " o un soldato. Quando viene posizionato  per terra, il giocattolo si sposta di 1,5 metri a ogni  turno del personaggio, in una direzione casuale.  Il giocattolo a molla emette i tipici suoni della  creatura che rappresenta."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un personaggio mezzelfo possiede alcune qualità in comune con gli elfi e altre uniche dei mezzelfi. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "carisma",
+        "text": "Carisma",
+        "type": "ability"
+      },
+      {
+        "text": " di un mezzelfo aumenta di 2 e altri due punteggi di caratteristica a scelta aumentano di 1. _**Allineamento.**_I mezzelfi condividono la propensione al caos insita nel loro retaggio elfico. Rispettano sia la libertà personale che l'espressione creativa, non amano troppo le figure autoritarie e non desiderano avere seguaci. Sono infastiditi dalle regole, non sopportano le pretese altrui e spesso si dimostrano inaffidabili o nel migliore dei casi imprevedibili. _**Età.**_I mezzelfi crescono agli stessi ritmi degli umani e raggiungono l'età adulta attorno ai 20 anni. Vivono comunque molto più a lungo degli umani e spesso superano i 180 anni. _**Taglia.**_Un mezzelfo ha all'incirca le stesse dimensioni di un umano e la sua altezza può variare da 1,5 a 1,8 metri. È di taglia Media.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un mezzelfo è di 9 metri.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_ Grazie al suo sangue elfico, un mezzelfo beneficia di una vista superiore nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Retaggio ",
+        "type": "text"
+      },
+      {
+        "id": "fatato",
+        "text": "fatato",
+        "type": "creature_type"
+      },
+      {
+        "text": ".**_Dispone di vantaggio ai tiri salvezza per non essere ",
+        "type": "text"
+      },
+      {
+        "id": "affascinato",
+        "text": "affascinato",
+        "type": "condition"
+      },
+      {
+        "text": " e non può essere addormentato tramite la magia. _**Versatilità nelle abilità.**_Un mezzelfo ha competenza in due abilità a sua scelta.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Un mezzelfo può parlare, leggere e scrivere in Comune, in Elfico e in un linguaggio extra a sua scelta.",
+        "type": "text"
+      }
+    ],
     "id": "mezzelfo",
     "name": "Mezzelfo",
-    "creature_type": "umanoide",
-    "size": "Un mezzelfo ha all'incirca le stesse  dimensioni di un umano e la sua altezza può variare  da 1,5 a 1,8 metri. È di taglia Media.",
-    "speed": "La velocità base sul terreno di un  mezzelfo è di 9 metri.",
+    "size": "Un mezzelfo ha all'incirca le stesse dimensioni di un umano e la sua altezza può variare da 1,5 a 1,8 metri. È di taglia Media.",
+    "speed": "La velocità base sul terreno di un mezzelfo è di 9 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "carisma",
             "text": "Carisma",
-            "id": "carisma"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di un mezzelfo aumenta  di 2 e altri due punteggi di caratteristica a scelta  aumentano di 1."
+            "text": " di un mezzelfo aumenta di 2 e altri due punteggi di caratteristica a scelta aumentano di 1.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "I mezzelfi condividono la  propensione al caos insita nel loro retaggio elfico.  Rispettano sia la libertà personale che l'espressione  creativa, non amano troppo le figure autoritarie  e non desiderano avere seguaci. Sono infastiditi dalle  regole, non sopportano le pretese altrui e spesso si  dimostrano inaffidabili o nel migliore dei casi  imprevedibili."
+            "text": "I mezzelfi condividono la propensione al caos insita nel loro retaggio elfico. Rispettano sia la libertà personale che l'espressione creativa, non amano troppo le figure autoritarie e non desiderano avere seguaci. Sono infastiditi dalle regole, non sopportano le pretese altrui e spesso si dimostrano inaffidabili o nel migliore dei casi imprevedibili.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "I mezzelfi crescono agli stessi ritmi degli  umani e raggiungono l'età adulta attorno ai 20 anni.  Vivono comunque molto più a lungo degli umani  e spesso superano i 180 anni."
+            "text": "I mezzelfi crescono agli stessi ritmi degli umani e raggiungono l'età adulta attorno ai 20 anni. Vivono comunque molto più a lungo degli umani e spesso superano i 180 anni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "Un mezzelfo ha all'incirca le stesse  dimensioni di un umano e la sua altezza può variare  da 1,5 a 1,8 metri. È di taglia Media."
+            "text": "Un mezzelfo ha all'incirca le stesse dimensioni di un umano e la sua altezza può variare da 1,5 a 1,8 metri. È di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un  mezzelfo è di 9 metri."
+            "text": " base sul terreno di un mezzelfo è di 9 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Grazie al suo sangue elfico,  un mezzelfo beneficia di una vista superiore  nell'"
+            "text": "Grazie al suo sangue elfico, un mezzelfo beneficia di una vista superiore nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio."
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Retaggio fatato",
         "description": [
           {
-            "type": "text",
-            "text": "Dispone di vantaggio ai tiri  salvezza per non essere "
+            "text": "Dispone di vantaggio ai tiri salvezza per non essere ",
+            "type": "text"
           },
           {
-            "type": "condition",
+            "id": "affascinato",
             "text": "affascinato",
-            "id": "affascinato"
+            "type": "condition"
           },
           {
-            "type": "text",
-            "text": " e non può essere  addormentato tramite la magia."
+            "text": " e non può essere addormentato tramite la magia.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Retaggio fatato"
       },
       {
-        "name": "Versatilità nelle abilità",
         "description": [
           {
-            "type": "text",
-            "text": "Un mezzelfo ha  competenza in due abilità a sua scelta."
+            "text": "Un mezzelfo ha competenza in due abilità a sua scelta.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Versatilità nelle abilità"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Un mezzelfo può parlare, leggere  e scrivere in Comune, in Elfico e in un linguaggio  extra a sua scelta."
+            "text": "Un mezzelfo può parlare, leggere e scrivere in Comune, in Elfico e in un linguaggio extra a sua scelta.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un personaggio mezzelfo possiede alcune qualità  in comune con gli elfi e altre uniche dei mezzelfi.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "ability",
-        "text": "Carisma",
-        "id": "carisma"
-      },
-      {
-        "type": "text",
-        "text": " di un mezzelfo aumenta  di 2 e altri due punteggi di caratteristica a scelta  aumentano di 1.  _**Allineamento.**_I mezzelfi condividono la  propensione al caos insita nel loro retaggio elfico.  Rispettano sia la libertà personale che l'espressione  creativa, non amano troppo le figure autoritarie  e non desiderano avere seguaci. Sono infastiditi dalle  regole, non sopportano le pretese altrui e spesso si  dimostrano inaffidabili o nel migliore dei casi  imprevedibili.  _**Età.**_I mezzelfi crescono agli stessi ritmi degli  umani e raggiungono l'età adulta attorno ai 20 anni.  Vivono comunque molto più a lungo degli umani  e spesso superano i 180 anni.  _**Taglia.**_Un mezzelfo ha all'incirca le stesse  dimensioni di un umano e la sua altezza può variare  da 1,5 a 1,8 metri. È di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_ La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un  mezzelfo è di 9 metri.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_ Grazie al suo sangue elfico,  un mezzelfo beneficia di una vista superiore  nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**Retaggio "
-      },
-      {
-        "type": "creature_type",
-        "text": "fatato",
-        "id": "fatato"
-      },
-      {
-        "type": "text",
-        "text": ".**_Dispone di vantaggio ai tiri  salvezza per non essere "
-      },
-      {
-        "type": "condition",
-        "text": "affascinato",
-        "id": "affascinato"
-      },
-      {
-        "type": "text",
-        "text": " e non può essere  addormentato tramite la magia.  _**Versatilità nelle abilità.**_Un mezzelfo ha  competenza in due abilità a sua scelta.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_Un mezzelfo può parlare, leggere  e scrivere in Comune, in Elfico e in un linguaggio  extra a sua scelta."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
+    "creature_type": "umanoide",
+    "description": [
+      {
+        "text": "Un mezzorco possiede alcuni tratti che derivano dal suo retaggio orchesco. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
+      },
+      {
+        "id": "forza",
+        "text": "Forza",
+        "type": "damage_type"
+      },
+      {
+        "text": " di un mezzorco aumenta di 2 e quello di ",
+        "type": "text"
+      },
+      {
+        "id": "costituzione",
+        "text": "Costituzione",
+        "type": "ability"
+      },
+      {
+        "text": " di 1. _**Allineamento.**_I mezzorchi tendono per ",
+        "type": "text"
+      },
+      {
+        "id": "natura",
+        "text": "natura",
+        "type": "skill"
+      },
+      {
+        "text": " al caos, un retaggio della loro metà orchesca, e difficilmente tendono al bene. I mezzorchi cresciuti fra gli orchi e disposti a vivere in mezzo a loro sono solitamente malvagi. _**Età.**_I mezzorchi maturano un po' più velocemente degli umani, raggiungendo l'età adulta attorno ai 14 anni. Invecchiano più velocemente e raramente vivono più a lungo di 75 anni. _**Taglia.**_I mezzorchi sono leggermente più grandi e robusti degli umani: la loro altezza varia da 1,8 metri a ben oltre 2 metri. Un mezzorco è una creatura di taglia Media.",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "Velocità",
+        "type": "spell"
+      },
+      {
+        "text": ".**_La ",
+        "type": "text"
+      },
+      {
+        "id": "velocita",
+        "text": "velocità",
+        "type": "spell"
+      },
+      {
+        "text": " base sul terreno di un mezzorco è di 9 metri.",
+        "type": "text"
+      },
+      {
+        "id": "scurovisione",
+        "text": "Scurovisione",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Grazie al suo sangue orchesco, un mezzorco beneficia di una vista superiore nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
+      },
+      {
+        "id": "oscurita",
+        "text": "oscurità",
+        "type": "spell"
+      },
+      {
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Minaccioso.**_Un mezzorco ha competenza nell'abilità ",
+        "type": "text"
+      },
+      {
+        "id": "intimidire",
+        "text": "Intimidire",
+        "type": "skill"
+      },
+      {
+        "text": ". _**Resistenza implacabile.**_Quando un mezzorco scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Non può più utilizzare questa capacità finché non completa un riposo lungo. _**Attacchi selvaggi.**_Quando un mezzorco mette a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1 7\n\nmischia, può tirare un dado dell'arma aggiuntivo quando determina i danni extra del colpo critico.",
+        "type": "text"
+      },
+      {
+        "id": "linguaggi",
+        "text": "Linguaggi",
+        "type": "spell"
+      },
+      {
+        "text": ".**_Un mezzorco può parlare, leggere e scrivere in Comune e in Orchesco. L'Orchesco è una lingua dura e sgradevole, dalle consonanti aspre. Non possiede un suo alfabeto, quindi per la forma scritta utilizza l'alfabeto nanico.",
+        "type": "text"
+      }
+    ],
     "id": "mezzorco",
     "name": "Mezzorco",
-    "creature_type": "umanoide",
-    "size": "I mezzorchi sono leggermente più grandi  e robusti degli umani: la loro altezza varia da  1,8 metri a ben oltre 2 metri. Un mezzorco è una  creatura di taglia Media.",
-    "speed": "La velocità base sul terreno di un  mezzorco è di 9 metri.",
+    "size": "I mezzorchi sono leggermente più grandi e robusti degli umani: la loro altezza varia da 1,8 metri a ben oltre 2 metri. Un mezzorco è una creatura di taglia Media.",
+    "speed": "La velocità base sul terreno di un mezzorco è di 9 metri.",
     "traits": [
       {
-        "name": "Incremento dei punteggi di caratteristica",
         "description": [
           {
-            "type": "text",
-            "text": "Il punteggio di "
+            "text": "Il punteggio di ",
+            "type": "text"
           },
           {
-            "type": "damage_type",
+            "id": "forza",
             "text": "Forza",
-            "id": "forza"
+            "type": "damage_type"
           },
           {
-            "type": "text",
-            "text": " di un mezzorco aumenta  di 2 e quello di "
+            "text": " di un mezzorco aumenta di 2 e quello di ",
+            "type": "text"
           },
           {
-            "type": "ability",
+            "id": "costituzione",
             "text": "Costituzione",
-            "id": "costituzione"
+            "type": "ability"
           },
           {
-            "type": "text",
-            "text": " di 1."
+            "text": " di 1.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
       },
       {
-        "name": "Allineamento",
         "description": [
           {
-            "type": "text",
-            "text": "I mezzorchi tendono per "
+            "text": "I mezzorchi tendono per ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "natura",
             "text": "natura",
-            "id": "natura"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": "  al caos, un retaggio della loro metà orchesca,  e difficilmente tendono al bene. I mezzorchi cresciuti  fra gli orchi e disposti a vivere in mezzo a loro sono  solitamente malvagi."
+            "text": " al caos, un retaggio della loro metà orchesca, e difficilmente tendono al bene. I mezzorchi cresciuti fra gli orchi e disposti a vivere in mezzo a loro sono solitamente malvagi.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Allineamento"
       },
       {
-        "name": "Età",
         "description": [
           {
-            "type": "text",
-            "text": "I mezzorchi maturano un po' più velocemente  degli umani, raggiungendo l'età adulta attorno ai  14 anni. Invecchiano più velocemente e raramente  vivono più a lungo di 75 anni."
+            "text": "I mezzorchi maturano un po' più velocemente degli umani, raggiungendo l'età adulta attorno ai 14 anni. Invecchiano più velocemente e raramente vivono più a lungo di 75 anni.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Età"
       },
       {
-        "name": "Taglia",
         "description": [
           {
-            "type": "text",
-            "text": "I mezzorchi sono leggermente più grandi  e robusti degli umani: la loro altezza varia da  1,8 metri a ben oltre 2 metri. Un mezzorco è una  creatura di taglia Media."
+            "text": "I mezzorchi sono leggermente più grandi e robusti degli umani: la loro altezza varia da 1,8 metri a ben oltre 2 metri. Un mezzorco è una creatura di taglia Media.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Taglia"
       },
       {
-        "name": "Velocità",
         "description": [
           {
-            "type": "text",
-            "text": "La "
+            "text": "La ",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "velocita",
             "text": "velocità",
-            "id": "velocita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " base sul terreno di un  mezzorco è di 9 metri."
+            "text": " base sul terreno di un mezzorco è di 9 metri.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Velocità"
       },
       {
-        "name": "Scurovisione",
         "description": [
           {
-            "type": "text",
-            "text": "Grazie al suo sangue orchesco,  un mezzorco beneficia di una vista superiore  nell'"
+            "text": "Grazie al suo sangue orchesco, un mezzorco beneficia di una vista superiore nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di luce intensa e nell'"
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " come se si trovasse in  presenza di luce fioca. Nell'"
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
           },
           {
-            "type": "spell",
+            "id": "oscurita",
             "text": "oscurità",
-            "id": "oscurita"
+            "type": "spell"
           },
           {
-            "type": "text",
-            "text": " non è in grado  di discernere i colori, ma solo le tonalità di grigio."
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Scurovisione"
       },
       {
-        "name": "Minaccioso",
         "description": [
           {
-            "type": "text",
-            "text": "Un mezzorco ha competenza  nell'abilità "
+            "text": "Un mezzorco ha competenza nell'abilità ",
+            "type": "text"
           },
           {
-            "type": "skill",
+            "id": "intimidire",
             "text": "Intimidire",
-            "id": "intimidire"
+            "type": "skill"
           },
           {
-            "type": "text",
-            "text": "."
+            "text": ".",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Minaccioso"
       },
       {
-        "name": "Resistenza implacabile",
         "description": [
           {
-            "type": "text",
-            "text": "Quando un mezzorco  scende a 0 punti ferita ma non viene ucciso sul colpo,  può decidere di rimanere a 1 punto ferita. Non può  più utilizzare questa capacità finché non completa  un riposo lungo."
+            "text": "Quando un mezzorco scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Non può più utilizzare questa capacità finché non completa un riposo lungo.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Resistenza implacabile"
       },
       {
-        "name": "Attacchi selvaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Quando un mezzorco mette  a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1  7\n\nmischia, può tirare un dado dell'arma aggiuntivo  quando determina i danni extra del colpo critico."
+            "text": "Quando un mezzorco mette a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1 7\n\nmischia, può tirare un dado dell'arma aggiuntivo quando determina i danni extra del colpo critico.",
+            "type": "text"
           }
-        ]
+        ],
+        "name": "Attacchi selvaggi"
       },
       {
-        "name": "Linguaggi",
         "description": [
           {
-            "type": "text",
-            "text": "Un mezzorco può parlare, leggere  e scrivere in Comune e in Orchesco. L'Orchesco è una  lingua dura e sgradevole, dalle consonanti aspre.  Non possiede un suo alfabeto, quindi per la forma  scritta utilizza l'alfabeto nanico."
+            "text": "Un mezzorco può parlare, leggere e scrivere in Comune e in Orchesco. L'Orchesco è una lingua dura e sgradevole, dalle consonanti aspre. Non possiede un suo alfabeto, quindi per la forma scritta utilizza l'alfabeto nanico.",
+            "type": "text"
           }
-        ]
-      }
-    ],
-    "description": [
-      {
-        "type": "text",
-        "text": "Un mezzorco possiede alcuni tratti che derivano  dal suo retaggio orchesco.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
-      },
-      {
-        "type": "damage_type",
-        "text": "Forza",
-        "id": "forza"
-      },
-      {
-        "type": "text",
-        "text": " di un mezzorco aumenta  di 2 e quello di "
-      },
-      {
-        "type": "ability",
-        "text": "Costituzione",
-        "id": "costituzione"
-      },
-      {
-        "type": "text",
-        "text": " di 1.  _**Allineamento.**_I mezzorchi tendono per "
-      },
-      {
-        "type": "skill",
-        "text": "natura",
-        "id": "natura"
-      },
-      {
-        "type": "text",
-        "text": "  al caos, un retaggio della loro metà orchesca,  e difficilmente tendono al bene. I mezzorchi cresciuti  fra gli orchi e disposti a vivere in mezzo a loro sono  solitamente malvagi.  _**Età.**_I mezzorchi maturano un po' più velocemente  degli umani, raggiungendo l'età adulta attorno ai  14 anni. Invecchiano più velocemente e raramente  vivono più a lungo di 75 anni.  _**Taglia.**_I mezzorchi sono leggermente più grandi  e robusti degli umani: la loro altezza varia da  1,8 metri a ben oltre 2 metri. Un mezzorco è una  creatura di taglia Media.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": ".**_La "
-      },
-      {
-        "type": "spell",
-        "text": "velocità",
-        "id": "velocita"
-      },
-      {
-        "type": "text",
-        "text": " base sul terreno di un  mezzorco è di 9 metri.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Scurovisione",
-        "id": "scurovisione"
-      },
-      {
-        "type": "text",
-        "text": ".**_Grazie al suo sangue orchesco,  un mezzorco beneficia di una vista superiore  nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in condizioni  di luce intensa e nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " come se si trovasse in  presenza di luce fioca. Nell'"
-      },
-      {
-        "type": "spell",
-        "text": "oscurità",
-        "id": "oscurita"
-      },
-      {
-        "type": "text",
-        "text": " non è in grado  di discernere i colori, ma solo le tonalità di grigio.  _**Minaccioso.**_Un mezzorco ha competenza  nell'abilità "
-      },
-      {
-        "type": "skill",
-        "text": "Intimidire",
-        "id": "intimidire"
-      },
-      {
-        "type": "text",
-        "text": ".  _**Resistenza implacabile.**_Quando un mezzorco  scende a 0 punti ferita ma non viene ucciso sul colpo,  può decidere di rimanere a 1 punto ferita. Non può  più utilizzare questa capacità finché non completa  un riposo lungo.  _**Attacchi selvaggi.**_Quando un mezzorco mette  a segno un colpo critico con un attacco con arma da\n\nSystems Reference Document 5.1  7\n\nmischia, può tirare un dado dell'arma aggiuntivo  quando determina i danni extra del colpo critico.  _**"
-      },
-      {
-        "type": "spell",
-        "text": "Linguaggi",
-        "id": "linguaggi"
-      },
-      {
-        "type": "text",
-        "text": ".**_Un mezzorco può parlare, leggere  e scrivere in Comune e in Orchesco. L'Orchesco è una  lingua dura e sgradevole, dalle consonanti aspre.  Non possiede un suo alfabeto, quindi per la forma  scritta utilizza l'alfabeto nanico."
+        ],
+        "name": "Linguaggi"
       }
     ]
   },
   {
-    "id": "tiefling",
-    "name": "Tiefling",
     "creature_type": "umanoide",
-    "size": "I tiefling hanno all'incirca le stesse  dimensioni e corporatura degli umani. Un tiefling  è una creatura di taglia Media.",
-    "speed": "La velocità base sul terreno di un tiefling  è di 9 metri.",
-    "traits": [
-      {
-        "name": "Incremento dei punteggi di caratteristica",
-        "description": [
-          {
-            "type": "text",
-            "text": "Il punteggio di "
-          },
-          {
-            "type": "ability",
-            "text": "Intelligenza",
-            "id": "intelligenza"
-          },
-          {
-            "type": "text",
-            "text": " di un tiefling aumenta  di 1 e quello di "
-          },
-          {
-            "type": "ability",
-            "text": "Carisma",
-            "id": "carisma"
-          },
-          {
-            "type": "text",
-            "text": " aumenta di 2."
-          }
-        ]
-      },
-      {
-        "name": "Allineamento",
-        "description": [
-          {
-            "type": "text",
-            "text": "I tiefling non tendono al male per  "
-          },
-          {
-            "type": "skill",
-            "text": "natura",
-            "id": "natura"
-          },
-          {
-            "type": "text",
-            "text": ", ma molti ne subiscono comunque il richiamo.  Malvagi o meno che siano, molti tiefling aderiscono  a un allineamento caotico a causa della loro indole  indipendente."
-          }
-        ]
-      },
-      {
-        "name": "Età",
-        "description": [
-          {
-            "type": "text",
-            "text": "I tiefling raggiungono la maturità con la stessa  "
-          },
-          {
-            "type": "spell",
-            "text": "velocità",
-            "id": "velocita"
-          },
-          {
-            "type": "text",
-            "text": " degli umani, ma vivono qualche anno in più."
-          }
-        ]
-      },
-      {
-        "name": "Taglia",
-        "description": [
-          {
-            "type": "text",
-            "text": "I tiefling hanno all'incirca le stesse  dimensioni e corporatura degli umani. Un tiefling  è una creatura di taglia Media."
-          }
-        ]
-      },
-      {
-        "name": "Velocità",
-        "description": [
-          {
-            "type": "text",
-            "text": "La "
-          },
-          {
-            "type": "spell",
-            "text": "velocità",
-            "id": "velocita"
-          },
-          {
-            "type": "text",
-            "text": " base sul terreno di un tiefling  è di 9 metri."
-          }
-        ]
-      },
-      {
-        "name": "Scurovisione",
-        "description": [
-          {
-            "type": "text",
-            "text": "Grazie al suo retaggio infernale,  un tiefling beneficia di una vista superiore  nell'"
-          },
-          {
-            "type": "spell",
-            "text": "oscurità",
-            "id": "oscurita"
-          },
-          {
-            "type": "text",
-            "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
-          },
-          {
-            "type": "spell",
-            "text": "oscurità",
-            "id": "oscurita"
-          },
-          {
-            "type": "text",
-            "text": " come se si  trovasse in presenza di luce fioca. Nell'"
-          },
-          {
-            "type": "spell",
-            "text": "oscurità",
-            "id": "oscurita"
-          },
-          {
-            "type": "text",
-            "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio."
-          }
-        ]
-      },
-      {
-        "name": "Resistenza infernale",
-        "description": [
-          {
-            "type": "text",
-            "text": "Un tiefling dispone di  resistenza ai danni da "
-          },
-          {
-            "type": "damage_type",
-            "text": "fuoco",
-            "id": "fuoco"
-          },
-          {
-            "type": "text",
-            "text": "."
-          }
-        ]
-      },
-      {
-        "name": "Eredità infernale",
-        "description": [
-          {
-            "type": "text",
-            "text": "Un tiefling conosce il trucchetto *"
-          },
-          {
-            "type": "spell",
-            "text": "taumaturgia",
-            "id": "taumaturgia"
-          },
-          {
-            "type": "text",
-            "text": "*. Quando raggiunge il 3° livello, può  lanciare l'incantesimo *"
-          },
-          {
-            "type": "spell",
-            "text": "intimorire infernale",
-            "id": "intimorire-infernale"
-          },
-          {
-            "type": "text",
-            "text": "* come  incantesimo di 2° livello una volta con questo tratto  e recuperare la capacità di farlo quando completa un  riposo lungo. Quando raggiunge il 5° livello può  lanciare l'incantesimo *"
-          },
-          {
-            "type": "spell",
-            "text": "oscurità",
-            "id": "oscurita"
-          },
-          {
-            "type": "text",
-            "text": "* una volta con questo  tratto e recuperare la capacità di farlo quando  completa un riposo lungo. La caratteristica da  incantatore per questi incantesimi è "
-          },
-          {
-            "type": "ability",
-            "text": "Carisma",
-            "id": "carisma"
-          },
-          {
-            "type": "text",
-            "text": "."
-          }
-        ]
-      },
-      {
-        "name": "Linguaggi",
-        "description": [
-          {
-            "type": "text",
-            "text": "Un tiefling può parlare, leggere  e scrivere in Comune e in Infernale."
-          }
-        ]
-      }
-    ],
     "description": [
       {
-        "type": "text",
-        "text": "I tiefling condividono alcuni tratti razziali frutto  della loro discendenza infernale.  _**Incremento dei punteggi di caratteristica.**_ Il punteggio di "
+        "text": "I tiefling condividono alcuni tratti razziali frutto della loro discendenza infernale. _**Incremento dei punteggi di caratteristica.**_ Il punteggio di ",
+        "type": "text"
       },
       {
-        "type": "ability",
+        "id": "intelligenza",
         "text": "Intelligenza",
-        "id": "intelligenza"
+        "type": "ability"
       },
       {
-        "type": "text",
-        "text": " di un tiefling aumenta  di 1 e quello di "
+        "text": " di un tiefling aumenta di 1 e quello di ",
+        "type": "text"
       },
       {
-        "type": "ability",
+        "id": "carisma",
         "text": "Carisma",
-        "id": "carisma"
+        "type": "ability"
       },
       {
-        "type": "text",
-        "text": " aumenta di 2.  _**Allineamento.**_ I tiefling non tendono al male per  "
+        "text": " aumenta di 2. _**Allineamento.**_ I tiefling non tendono al male per ",
+        "type": "text"
       },
       {
-        "type": "skill",
+        "id": "natura",
         "text": "natura",
-        "id": "natura"
+        "type": "skill"
       },
       {
-        "type": "text",
-        "text": ", ma molti ne subiscono comunque il richiamo.  Malvagi o meno che siano, molti tiefling aderiscono  a un allineamento caotico a causa della loro indole  indipendente.  _**Età.**_ I tiefling raggiungono la maturità con la stessa  "
+        "text": ", ma molti ne subiscono comunque il richiamo. Malvagi o meno che siano, molti tiefling aderiscono a un allineamento caotico a causa della loro indole indipendente. _**Età.**_ I tiefling raggiungono la maturità con la stessa ",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "velocita",
         "text": "velocità",
-        "id": "velocita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": " degli umani, ma vivono qualche anno in più.  _**Taglia.**_I tiefling hanno all'incirca le stesse  dimensioni e corporatura degli umani. Un tiefling  è una creatura di taglia Media.  _**"
+        "text": " degli umani, ma vivono qualche anno in più. _**Taglia.**_I tiefling hanno all'incirca le stesse dimensioni e corporatura degli umani. Un tiefling è una creatura di taglia Media.",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "velocita",
         "text": "Velocità",
-        "id": "velocita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": ".**_La "
+        "text": ".**_La ",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "velocita",
         "text": "velocità",
-        "id": "velocita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": " base sul terreno di un tiefling  è di 9 metri.  _**"
+        "text": " base sul terreno di un tiefling è di 9 metri.",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "scurovisione",
         "text": "Scurovisione",
-        "id": "scurovisione"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": ".**_Grazie al suo retaggio infernale,  un tiefling beneficia di una vista superiore  nell'"
+        "text": ".**_Grazie al suo retaggio infernale, un tiefling beneficia di una vista superiore nell'",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "oscurita",
         "text": "oscurità",
-        "id": "oscurita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": " e nelle condizioni di luce fioca.  In condizioni di luce fioca, può vedere fino a una  distanza di 18 metri come se si trovasse in  condizioni di luce intensa e nell'"
+        "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "oscurita",
         "text": "oscurità",
-        "id": "oscurita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": " come se si  trovasse in presenza di luce fioca. Nell'"
+        "text": " come se si trovasse in presenza di luce fioca. Nell'",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "oscurita",
         "text": "oscurità",
-        "id": "oscurita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": " non  è in grado di discernere i colori, ma solo le tonalità  di grigio.  _**Resistenza infernale.**_Un tiefling dispone di  resistenza ai danni da "
+        "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio. _**Resistenza infernale.**_Un tiefling dispone di resistenza ai danni da ",
+        "type": "text"
       },
       {
-        "type": "damage_type",
+        "id": "fuoco",
         "text": "fuoco",
-        "id": "fuoco"
+        "type": "damage_type"
       },
       {
-        "type": "text",
-        "text": ".  _**Eredità infernale.**_Un tiefling conosce il trucchetto *"
+        "text": ". _**Eredità infernale.**_Un tiefling conosce il trucchetto *",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "taumaturgia",
         "text": "taumaturgia",
-        "id": "taumaturgia"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": "*. Quando raggiunge il 3° livello, può  lanciare l'incantesimo *"
+        "text": "*. Quando raggiunge il 3° livello, può lanciare l'incantesimo *",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "intimorire-infernale",
         "text": "intimorire infernale",
-        "id": "intimorire-infernale"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": "* come  incantesimo di 2° livello una volta con questo tratto  e recuperare la capacità di farlo quando completa un  riposo lungo. Quando raggiunge il 5° livello può  lanciare l'incantesimo *"
+        "text": "* come incantesimo di 2° livello una volta con questo tratto e recuperare la capacità di farlo quando completa un riposo lungo. Quando raggiunge il 5° livello può lanciare l'incantesimo *",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "oscurita",
         "text": "oscurità",
-        "id": "oscurita"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": "* una volta con questo  tratto e recuperare la capacità di farlo quando  completa un riposo lungo. La caratteristica da  incantatore per questi incantesimi è "
+        "text": "* una volta con questo tratto e recuperare la capacità di farlo quando completa un riposo lungo. La caratteristica da incantatore per questi incantesimi è ",
+        "type": "text"
       },
       {
-        "type": "ability",
+        "id": "carisma",
         "text": "Carisma",
-        "id": "carisma"
+        "type": "ability"
       },
       {
-        "type": "text",
-        "text": ".  _**"
+        "text": ".",
+        "type": "text"
       },
       {
-        "type": "spell",
+        "id": "linguaggi",
         "text": "Linguaggi",
-        "id": "linguaggi"
+        "type": "spell"
       },
       {
-        "type": "text",
-        "text": ".**_Un tiefling può parlare, leggere  e scrivere in Comune e in Infernale."
+        "text": ".**_Un tiefling può parlare, leggere e scrivere in Comune e in Infernale.",
+        "type": "text"
+      }
+    ],
+    "id": "tiefling",
+    "name": "Tiefling",
+    "size": "I tiefling hanno all'incirca le stesse dimensioni e corporatura degli umani. Un tiefling è una creatura di taglia Media.",
+    "speed": "La velocità base sul terreno di un tiefling è di 9 metri.",
+    "traits": [
+      {
+        "description": [
+          {
+            "text": "Il punteggio di ",
+            "type": "text"
+          },
+          {
+            "id": "intelligenza",
+            "text": "Intelligenza",
+            "type": "ability"
+          },
+          {
+            "text": " di un tiefling aumenta di 1 e quello di ",
+            "type": "text"
+          },
+          {
+            "id": "carisma",
+            "text": "Carisma",
+            "type": "ability"
+          },
+          {
+            "text": " aumenta di 2.",
+            "type": "text"
+          }
+        ],
+        "name": "Incremento dei punteggi di caratteristica"
+      },
+      {
+        "description": [
+          {
+            "text": "I tiefling non tendono al male per ",
+            "type": "text"
+          },
+          {
+            "id": "natura",
+            "text": "natura",
+            "type": "skill"
+          },
+          {
+            "text": ", ma molti ne subiscono comunque il richiamo. Malvagi o meno che siano, molti tiefling aderiscono a un allineamento caotico a causa della loro indole indipendente.",
+            "type": "text"
+          }
+        ],
+        "name": "Allineamento"
+      },
+      {
+        "description": [
+          {
+            "text": "I tiefling raggiungono la maturità con la stessa ",
+            "type": "text"
+          },
+          {
+            "id": "velocita",
+            "text": "velocità",
+            "type": "spell"
+          },
+          {
+            "text": " degli umani, ma vivono qualche anno in più.",
+            "type": "text"
+          }
+        ],
+        "name": "Età"
+      },
+      {
+        "description": [
+          {
+            "text": "I tiefling hanno all'incirca le stesse dimensioni e corporatura degli umani. Un tiefling è una creatura di taglia Media.",
+            "type": "text"
+          }
+        ],
+        "name": "Taglia"
+      },
+      {
+        "description": [
+          {
+            "text": "La ",
+            "type": "text"
+          },
+          {
+            "id": "velocita",
+            "text": "velocità",
+            "type": "spell"
+          },
+          {
+            "text": " base sul terreno di un tiefling è di 9 metri.",
+            "type": "text"
+          }
+        ],
+        "name": "Velocità"
+      },
+      {
+        "description": [
+          {
+            "text": "Grazie al suo retaggio infernale, un tiefling beneficia di una vista superiore nell'",
+            "type": "text"
+          },
+          {
+            "id": "oscurita",
+            "text": "oscurità",
+            "type": "spell"
+          },
+          {
+            "text": " e nelle condizioni di luce fioca. In condizioni di luce fioca, può vedere fino a una distanza di 18 metri come se si trovasse in condizioni di luce intensa e nell'",
+            "type": "text"
+          },
+          {
+            "id": "oscurita",
+            "text": "oscurità",
+            "type": "spell"
+          },
+          {
+            "text": " come se si trovasse in presenza di luce fioca. Nell'",
+            "type": "text"
+          },
+          {
+            "id": "oscurita",
+            "text": "oscurità",
+            "type": "spell"
+          },
+          {
+            "text": " non è in grado di discernere i colori, ma solo le tonalità di grigio.",
+            "type": "text"
+          }
+        ],
+        "name": "Scurovisione"
+      },
+      {
+        "description": [
+          {
+            "text": "Un tiefling dispone di resistenza ai danni da ",
+            "type": "text"
+          },
+          {
+            "id": "fuoco",
+            "text": "fuoco",
+            "type": "damage_type"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ],
+        "name": "Resistenza infernale"
+      },
+      {
+        "description": [
+          {
+            "text": "Un tiefling conosce il trucchetto *",
+            "type": "text"
+          },
+          {
+            "id": "taumaturgia",
+            "text": "taumaturgia",
+            "type": "spell"
+          },
+          {
+            "text": "*. Quando raggiunge il 3° livello, può lanciare l'incantesimo *",
+            "type": "text"
+          },
+          {
+            "id": "intimorire-infernale",
+            "text": "intimorire infernale",
+            "type": "spell"
+          },
+          {
+            "text": "* come incantesimo di 2° livello una volta con questo tratto e recuperare la capacità di farlo quando completa un riposo lungo. Quando raggiunge il 5° livello può lanciare l'incantesimo *",
+            "type": "text"
+          },
+          {
+            "id": "oscurita",
+            "text": "oscurità",
+            "type": "spell"
+          },
+          {
+            "text": "* una volta con questo tratto e recuperare la capacità di farlo quando completa un riposo lungo. La caratteristica da incantatore per questi incantesimi è ",
+            "type": "text"
+          },
+          {
+            "id": "carisma",
+            "text": "Carisma",
+            "type": "ability"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ],
+        "name": "Eredità infernale"
+      },
+      {
+        "description": [
+          {
+            "text": "Un tiefling può parlare, leggere e scrivere in Comune e in Infernale.",
+            "type": "text"
+          }
+        ],
+        "name": "Linguaggi"
       }
     ]
   }

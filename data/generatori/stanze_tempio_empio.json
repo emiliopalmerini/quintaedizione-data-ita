@@ -1,9 +1,8 @@
 {
-  "id": "stanze-tempio-empio",
-  "name": "Tempio Empio",
   "description": "Stanze per un tempio empio.",
   "die": "1d20",
-  "order": 63,
+  "group": "random-chambers",
+  "id": "stanze-tempio-empio",
   "items": [
     "Vestiboli",
     "Sala delle udienze",
@@ -26,7 +25,8 @@
     "Ossario empio",
     "Camera del reliquiario"
   ],
-  "group": "random-chambers",
+  "name": "Tempio Empio",
+  "order": 63,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

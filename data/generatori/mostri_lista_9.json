@@ -1,60 +1,60 @@
 {
-  "id": "mostri-lista-9",
-  "name": "Lista Mostri 9 (GS 12—16)",
   "description": "Mostri di grado sfida 12 — 16.",
   "die": "1d12",
-  "order": 99,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-9",
   "items": [
     {
-      "text": "Erinni",
-      "link": "/srd/mostri/erinni"
+      "link": "/srd/mostri/erinni",
+      "text": "Erinni"
     },
     {
-      "text": "Drago bianco adulto",
-      "link": "/srd/mostri/drago-bianco-adulto"
+      "link": "/srd/mostri/drago-bianco-adulto",
+      "text": "Drago bianco adulto"
     },
     {
-      "text": "Nalfeshnee",
-      "link": "/srd/mostri/nalfeshnee"
+      "link": "/srd/mostri/nalfeshnee",
+      "text": "Nalfeshnee"
     },
     {
-      "text": "Rakshasa",
-      "link": "/srd/mostri/rakshasa"
+      "link": "/srd/mostri/rakshasa",
+      "text": "Rakshasa"
     },
     {
-      "text": "Gigante delle tempeste",
-      "link": "/srd/mostri/gigante-delle-tempeste"
+      "link": "/srd/mostri/gigante-delle-tempeste",
+      "text": "Gigante delle tempeste"
     },
     {
-      "text": "Vampiro",
-      "link": "/srd/mostri/vampiro"
+      "link": "/srd/mostri/vampiro",
+      "text": "Vampiro"
     },
     {
-      "text": "Drago nero adulto",
-      "link": "/srd/mostri/drago-nero-adulto"
+      "link": "/srd/mostri/drago-nero-adulto",
+      "text": "Drago nero adulto"
     },
     {
-      "text": "Diavolo del ghiaccio",
-      "link": "/srd/mostri/diavolo-del-ghiaccio"
+      "link": "/srd/mostri/diavolo-del-ghiaccio",
+      "text": "Diavolo del ghiaccio"
     },
     {
-      "text": "Drago verde adulto",
-      "link": "/srd/mostri/drago-verde-adulto"
+      "link": "/srd/mostri/drago-verde-adulto",
+      "text": "Drago verde adulto"
     },
     {
-      "text": "Signore delle mummie",
-      "link": "/srd/mostri/signore-delle-mummie"
+      "link": "/srd/mostri/signore-delle-mummie",
+      "text": "Signore delle mummie"
     },
     {
-      "text": "Verme purpureo",
-      "link": "/srd/mostri/verme-purpureo"
+      "link": "/srd/mostri/verme-purpureo",
+      "text": "Verme purpureo"
     },
     {
-      "text": "Drago blu adulto",
-      "link": "/srd/mostri/drago-blu-adulto"
+      "link": "/srd/mostri/drago-blu-adulto",
+      "text": "Drago blu adulto"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 9 (GS 12—16)",
+  "order": 99,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

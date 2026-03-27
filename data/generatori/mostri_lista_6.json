@@ -1,89 +1,89 @@
 {
-  "id": "mostri-lista-6",
-  "name": "Lista Mostri 6 (GS 4—5)",
   "description": "Mostri di grado sfida 4 — 5.",
   "die": "1d20",
-  "order": 96,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-6",
   "items": [
     {
-      "text": "Lamia",
-      "link": "/srd/mostri/lamia"
+      "link": "/srd/mostri/lamia",
+      "text": "Lamia"
     },
     {
-      "text": "Drago rosso cucciolo",
-      "link": "/srd/mostri/drago-rosso-cucciolo"
+      "link": "/srd/mostri/drago-rosso-cucciolo",
+      "text": "Drago rosso cucciolo"
     },
     {
-      "text": "Succube/Incubo",
-      "link": "/srd/mostri/succube"
+      "link": "/srd/mostri/succube",
+      "text": "Succube/Incubo"
     },
     {
-      "text": "Cinghiale mannaro",
-      "link": "/srd/mostri/cinghiale-mannaro"
+      "link": "/srd/mostri/cinghiale-mannaro",
+      "text": "Cinghiale mannaro"
     },
     {
-      "text": "Elementale dell'aria",
-      "link": "/srd/mostri/elementale-dellaria"
+      "link": "/srd/mostri/elementale-dellaria",
+      "text": "Elementale dell'aria"
     },
     {
-      "text": "Diavolo uncinato",
-      "link": "/srd/mostri/diavolo-uncinato"
+      "link": "/srd/mostri/diavolo-uncinato",
+      "text": "Diavolo uncinato"
     },
     {
-      "text": "Bulette",
-      "link": "/srd/mostri/bulette"
+      "link": "/srd/mostri/bulette",
+      "text": "Bulette"
     },
     {
-      "text": "Elementale della terra",
-      "link": "/srd/mostri/elementale-della-terra"
+      "link": "/srd/mostri/elementale-della-terra",
+      "text": "Elementale della terra"
     },
     {
-      "text": "Elementale del fuoco",
-      "link": "/srd/mostri/elementale-del-fuoco"
+      "link": "/srd/mostri/elementale-del-fuoco",
+      "text": "Elementale del fuoco"
     },
     {
-      "text": "Golem di carne",
-      "link": "/srd/mostri/golem-di-carne"
+      "link": "/srd/mostri/golem-di-carne",
+      "text": "Golem di carne"
     },
     {
-      "text": "Coccodrillo gigante",
-      "link": "/srd/animali/coccodrillo-gigante"
+      "link": "/srd/animali/coccodrillo-gigante",
+      "text": "Coccodrillo gigante"
     },
     {
-      "text": "Gladiatore",
-      "link": "/srd/mostri/gladiatore"
+      "link": "/srd/mostri/gladiatore",
+      "text": "Gladiatore"
     },
     {
-      "text": "Gorgone",
-      "link": "/srd/mostri/gorgone"
+      "link": "/srd/mostri/gorgone",
+      "text": "Gorgone"
     },
     {
-      "text": "Mezzodrago",
-      "link": "/srd/mostri/mezzodrago"
+      "link": "/srd/mostri/mezzodrago",
+      "text": "Mezzodrago"
     },
     {
-      "text": "Gigante delle colline",
-      "link": "/srd/mostri/gigante-delle-colline"
+      "link": "/srd/mostri/gigante-delle-colline",
+      "text": "Gigante delle colline"
     },
     {
-      "text": "Megera notturna",
-      "link": "/srd/mostri/megera-notturna"
+      "link": "/srd/mostri/megera-notturna",
+      "text": "Megera notturna"
     },
     {
-      "text": "Otyugh",
-      "link": "/srd/mostri/otyugh"
+      "link": "/srd/mostri/otyugh",
+      "text": "Otyugh"
     },
     "Roper",
     {
-      "text": "Cumulo strisciante",
-      "link": "/srd/mostri/cumulo-strisciante"
+      "link": "/srd/mostri/cumulo-strisciante",
+      "text": "Cumulo strisciante"
     },
     {
-      "text": "Troll",
-      "link": "/srd/mostri/troll"
+      "link": "/srd/mostri/troll",
+      "text": "Troll"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 6 (GS 4—5)",
+  "order": 96,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

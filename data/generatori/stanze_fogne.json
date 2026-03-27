@@ -1,9 +1,8 @@
 {
-  "id": "stanze-fogne",
-  "name": "Fogne",
   "description": "Stanze per un sistema fognario.",
   "die": "1d20",
-  "order": 60,
+  "group": "random-chambers",
+  "id": "stanze-fogne",
   "items": [
     "Chiusa viscida",
     "Detriti vorticosi",
@@ -26,7 +25,8 @@
     "Portale frantumato",
     "Tana della strega"
   ],
-  "group": "random-chambers",
+  "name": "Fogne",
+  "order": 60,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

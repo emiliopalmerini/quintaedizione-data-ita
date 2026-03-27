@@ -1,9 +1,8 @@
 {
-  "id": "npc-professione",
-  "name": "Professione",
   "description": "Assegna una professione al tuo PNG per aggiungere colore al suo blocco di statistiche. Il popolano è il blocco di statistiche predefinito per PNG di questo tipo.",
   "die": "1d20",
-  "order": 25,
+  "group": "npc-generator",
+  "id": "npc-professione",
   "items": [
     "Contadino",
     "Fabbro",
@@ -26,7 +25,8 @@
     "Cavaliere",
     "Mago"
   ],
-  "group": "npc-generator",
+  "name": "Professione",
+  "order": 25,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

@@ -1,13 +1,6 @@
 {
-  "id": "mostri-livello-dungeon",
-  "name": "Lista Mostri per Livello",
-  "description": "Tira 1d20 e incrocia il risultato con il livello del dungeon per determinare quale lista di mostri consultare.",
-  "die": "",
-  "order": 90,
-  "static": true,
   "columns": [
     {
-      "name": "Livello",
       "items": [
         "1",
         "2",
@@ -22,10 +15,10 @@
         "12—13",
         "14—15",
         "16+"
-      ]
+      ],
+      "name": "Livello"
     },
     {
-      "name": "Lista 1",
       "items": [
         "1—16",
         "1—12",
@@ -40,10 +33,10 @@
         "1",
         "1",
         "1"
-      ]
+      ],
+      "name": "Lista 1"
     },
     {
-      "name": "Lista 2",
       "items": [
         "17—19",
         "13—16",
@@ -58,10 +51,10 @@
         "2",
         "2",
         "2"
-      ]
+      ],
+      "name": "Lista 2"
     },
     {
-      "name": "Lista 3",
       "items": [
         "20",
         "17—18",
@@ -76,10 +69,10 @@
         "3",
         "3",
         "3"
-      ]
+      ],
+      "name": "Lista 3"
     },
     {
-      "name": "Lista 4",
       "items": [
         "—",
         "19",
@@ -94,10 +87,10 @@
         "4",
         "4",
         "4"
-      ]
+      ],
+      "name": "Lista 4"
     },
     {
-      "name": "Lista 5",
       "items": [
         "—",
         "20",
@@ -112,10 +105,10 @@
         "5",
         "5",
         "5"
-      ]
+      ],
+      "name": "Lista 5"
     },
     {
-      "name": "Lista 6",
       "items": [
         "—",
         "—",
@@ -130,10 +123,10 @@
         "6—7",
         "6",
         "6"
-      ]
+      ],
+      "name": "Lista 6"
     },
     {
-      "name": "Lista 7",
       "items": [
         "—",
         "—",
@@ -148,10 +141,10 @@
         "8—9",
         "7—8",
         "7"
-      ]
+      ],
+      "name": "Lista 7"
     },
     {
-      "name": "Lista 8",
       "items": [
         "—",
         "—",
@@ -166,10 +159,10 @@
         "10—12",
         "9—11",
         "8—10"
-      ]
+      ],
+      "name": "Lista 8"
     },
     {
-      "name": "Lista 9",
       "items": [
         "—",
         "—",
@@ -184,10 +177,10 @@
         "13—18",
         "12—17",
         "11—16"
-      ]
+      ],
+      "name": "Lista 9"
     },
     {
-      "name": "Lista 10",
       "items": [
         "—",
         "—",
@@ -202,12 +195,19 @@
         "19—20",
         "18—20",
         "17—20"
-      ]
+      ],
+      "name": "Lista 10"
     }
   ],
+  "description": "Tira 1d20 e incrocia il risultato con il livello del dungeon per determinare quale lista di mostri consultare.",
+  "die": "",
   "group": "dungeon-monsters",
+  "id": "mostri-livello-dungeon",
+  "name": "Lista Mostri per Livello",
+  "order": 90,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"
-  }
+  },
+  "static": true
 }

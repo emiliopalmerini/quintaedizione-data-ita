@@ -1,92 +1,92 @@
 {
-  "id": "mostri-lista-2",
-  "name": "Lista Mostri 2 (GS 1/4—1)",
   "description": "Mostri di grado sfida 1/4 — 1.",
   "die": "1d20",
-  "order": 92,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-2",
   "items": [
     {
-      "text": "Lupo",
-      "link": "/srd/animali/lupo"
+      "link": "/srd/animali/lupo",
+      "text": "Lupo"
     },
     {
-      "text": "Zombi",
-      "link": "/srd/mostri/zombi"
+      "link": "/srd/mostri/zombi",
+      "text": "Zombi"
     },
     {
-      "text": "Coccatrice",
-      "link": "/srd/mostri/coccatrice"
+      "link": "/srd/mostri/coccatrice",
+      "text": "Coccatrice"
     },
     {
-      "text": "Mantoscuro",
-      "link": "/srd/mostri/mantoscuro"
+      "link": "/srd/mostri/mantoscuro",
+      "text": "Mantoscuro"
     },
     {
-      "text": "Gnoll",
-      "link": "/srd/mostri/gnoll"
+      "link": "/srd/mostri/gnoll",
+      "text": "Gnoll"
     },
     {
-      "text": "Melmagrigia",
-      "link": "/srd/mostri/melmagrigia"
+      "link": "/srd/mostri/melmagrigia",
+      "text": "Melmagrigia"
     },
     {
-      "text": "Hobgoblin",
-      "link": "/srd/mostri/hobgoblin"
+      "link": "/srd/mostri/hobgoblin",
+      "text": "Hobgoblin"
     },
     {
-      "text": "Lucertoloide",
-      "link": "/srd/mostri/lucertoloide"
+      "link": "/srd/mostri/lucertoloide",
+      "text": "Lucertoloide"
     },
     {
-      "text": "Magmin",
-      "link": "/srd/mostri/magmin"
+      "link": "/srd/mostri/magmin",
+      "text": "Magmin"
     },
     {
-      "text": "Orco",
-      "link": "/srd/mostri/orco"
+      "link": "/srd/mostri/orco",
+      "text": "Orco"
     },
     {
-      "text": "Rugginofago",
-      "link": "/srd/mostri/rugginofago"
+      "link": "/srd/mostri/rugginofago",
+      "text": "Rugginofago"
     },
     {
-      "text": "Sahuagin",
-      "link": "/srd/mostri/sahuagin"
+      "link": "/srd/mostri/sahuagin",
+      "text": "Sahuagin"
     },
     {
-      "text": "Esploratore",
-      "link": "/srd/mostri/esploratore"
+      "link": "/srd/mostri/esploratore",
+      "text": "Esploratore"
     },
     {
-      "text": "Ombra",
-      "link": "/srd/mostri/ombra"
+      "link": "/srd/mostri/ombra",
+      "text": "Ombra"
     },
     {
-      "text": "Sciame di insetti",
-      "link": "/srd/animali/sciame-di-insetti"
+      "link": "/srd/animali/sciame-di-insetti",
+      "text": "Sciame di insetti"
     },
     {
-      "text": "Bruto",
-      "link": "/srd/mostri/bruto"
+      "link": "/srd/mostri/bruto",
+      "text": "Bruto"
     },
     {
-      "text": "Worg",
-      "link": "/srd/mostri/worg"
+      "link": "/srd/mostri/worg",
+      "text": "Worg"
     },
     {
-      "text": "Armatura animata",
-      "link": "/srd/mostri/armatura-animata"
+      "link": "/srd/mostri/armatura-animata",
+      "text": "Armatura animata"
     },
     {
-      "text": "Bugbear guerriero",
-      "link": "/srd/mostri/bugbear-guerriero"
+      "link": "/srd/mostri/bugbear-guerriero",
+      "text": "Bugbear guerriero"
     },
     {
-      "text": "Cane della morte",
-      "link": "/srd/mostri/cane-della-morte"
+      "link": "/srd/mostri/cane-della-morte",
+      "text": "Cane della morte"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 2 (GS 1/4—1)",
+  "order": 92,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

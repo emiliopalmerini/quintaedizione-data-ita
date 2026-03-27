@@ -1,12 +1,6 @@
 {
-  "id": "condizione-descrizione-origine",
-  "order": 4,
-  "name": "Condizione, Descrizione e Origine",
-  "description": "Dai carattere a luoghi, monumenti o oggetti determinandone condizione, descrizione e origine.",
-  "die": "1d20",
   "columns": [
     {
-      "name": "Condizione",
       "items": [
         "Fumante",
         "Acido",
@@ -28,10 +22,10 @@
         "Malato",
         "Cristallino",
         "Argentato"
-      ]
+      ],
+      "name": "Condizione"
     },
     {
-      "name": "Descrizione",
       "items": [
         "In rovina",
         "Fatiscente",
@@ -53,10 +47,10 @@
         "Colossale",
         "Ricoperto di vegetazione",
         "In frantumi"
-      ]
+      ],
+      "name": "Descrizione"
     },
     {
-      "name": "Origine",
       "items": [
         "Umana",
         "Elfica",
@@ -78,10 +72,16 @@
         "Umbrale",
         "Eterea",
         "Abissale"
-      ]
+      ],
+      "name": "Origine"
     }
   ],
+  "description": "Dai carattere a luoghi, monumenti o oggetti determinandone condizione, descrizione e origine.",
+  "die": "1d20",
   "group": "core-adventure",
+  "id": "condizione-descrizione-origine",
+  "name": "Condizione, Descrizione e Origine",
+  "order": 4,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

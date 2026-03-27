@@ -1,9 +1,8 @@
 {
-  "id": "stanze",
-  "name": "Stanze",
   "description": "Determina lo scopo di una stanza in un dungeon, fortino o luogo simile. Adatta la stanza al tema dell'avventura.",
   "die": "1d20",
-  "order": 11,
+  "group": "core-adventure",
+  "id": "stanze",
   "items": [
     "Armeria",
     "Prigione",
@@ -26,7 +25,8 @@
     "Ossario",
     "Camera di divinazione"
   ],
-  "group": "core-adventure",
+  "name": "Stanze",
+  "order": 11,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

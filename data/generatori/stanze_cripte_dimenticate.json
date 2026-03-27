@@ -1,9 +1,8 @@
 {
-  "id": "stanze-cripte-dimenticate",
-  "name": "Cripte Dimenticate",
   "description": "Stanze per antiche cripte dimenticate.",
   "die": "1d20",
-  "order": 55,
+  "group": "random-chambers",
+  "id": "stanze-cripte-dimenticate",
   "items": [
     "Falso tesoro",
     "Vero tesoro",
@@ -26,7 +25,8 @@
     "Cella del titano",
     "Armeria angelica"
   ],
-  "group": "random-chambers",
+  "name": "Cripte Dimenticate",
+  "order": 55,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

@@ -1,9 +1,8 @@
 {
-  "id": "trappola-variante",
-  "name": "Variante",
   "description": "Aggiungi una variante per dare un tocco unico ai danni o imporre una condizione debilitante.",
   "die": "1d20",
-  "order": 40,
+  "group": "random-traps",
+  "id": "trappola-variante",
   "items": [
     "Infuocata",
     "Gelida",
@@ -26,7 +25,8 @@
     "Alienante",
     "Confondente"
   ],
-  "group": "random-traps",
+  "name": "Variante",
+  "order": 40,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

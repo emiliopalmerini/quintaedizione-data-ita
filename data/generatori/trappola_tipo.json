@@ -1,9 +1,8 @@
 {
-  "id": "trappola-tipo",
-  "name": "Tipo",
   "description": "Scegli il tipo di meccanismo della trappola.",
   "die": "1d20",
-  "order": 41,
+  "group": "random-traps",
+  "id": "trappola-tipo",
   "items": [
     "Dardi",
     "Lance",
@@ -26,7 +25,8 @@
     "Martelli",
     "Shuriken"
   ],
-  "group": "random-traps",
+  "name": "Tipo",
+  "order": 41,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

@@ -1,9 +1,8 @@
 {
-  "id": "oggetto-origine",
-  "name": "Origine dell'Oggetto",
   "description": "Genera un'origine casuale per il tuo oggetto.",
   "die": "1d20",
-  "order": 71,
+  "group": "random-items",
+  "id": "oggetto-origine",
   "items": [
     "Draconica",
     "Nanica",
@@ -26,7 +25,8 @@
     "Elementale",
     "Gnomica"
   ],
-  "group": "random-items",
+  "name": "Origine dell'Oggetto",
+  "order": 71,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

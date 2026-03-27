@@ -1,212 +1,212 @@
 {
-  "id": "oggetto-effetto-magico",
-  "name": "Effetto Magico",
   "description": "Genera un effetto magico casuale per la tua reliquia o oggetto magico.",
   "die": "1d50",
-  "order": 75,
+  "group": "random-items",
+  "id": "oggetto-effetto-magico",
   "items": [
     {
-      "text": "Freccia acida",
-      "link": "/srd/incantesimi/freccia-acida"
+      "link": "/srd/incantesimi/freccia-acida",
+      "text": "Freccia acida"
     },
     {
-      "text": "Fiotto acido",
-      "link": "/srd/incantesimi/fiotto-acido"
+      "link": "/srd/incantesimi/fiotto-acido",
+      "text": "Fiotto acido"
     },
     {
-      "text": "Anatema",
-      "link": "/srd/incantesimi/anatema"
+      "link": "/srd/incantesimi/anatema",
+      "text": "Anatema"
     },
     {
-      "text": "Esilio",
-      "link": "/srd/incantesimi/esilio"
+      "link": "/srd/incantesimi/esilio",
+      "text": "Esilio"
     },
     {
-      "text": "Scagliare maledizione",
-      "link": "/srd/incantesimi/scagliare-maledizione"
+      "link": "/srd/incantesimi/scagliare-maledizione",
+      "text": "Scagliare maledizione"
     },
     {
-      "text": "Tentacoli neri",
-      "link": "/srd/incantesimi/tentacoli-neri"
+      "link": "/srd/incantesimi/tentacoli-neri",
+      "text": "Tentacoli neri"
     },
     {
-      "text": "Benedizione",
-      "link": "/srd/incantesimi/benedizione"
+      "link": "/srd/incantesimi/benedizione",
+      "text": "Benedizione"
     },
     {
-      "text": "Inaridire",
-      "link": "/srd/incantesimi/inaridire"
+      "link": "/srd/incantesimi/inaridire",
+      "text": "Inaridire"
     },
     {
-      "text": "Cecità/Sordità",
-      "link": "/srd/incantesimi/cecitasordita"
+      "link": "/srd/incantesimi/cecitasordita",
+      "text": "Cecità/Sordità"
     },
     {
-      "text": "Mani brucianti",
-      "link": "/srd/incantesimi/mani-brucianti"
+      "link": "/srd/incantesimi/mani-brucianti",
+      "text": "Mani brucianti"
     },
     {
-      "text": "Charme su persone",
-      "link": "/srd/incantesimi/charme-su-persone"
+      "link": "/srd/incantesimi/charme-su-persone",
+      "text": "Charme su persone"
     },
     {
-      "text": "Nube mortale",
-      "link": "/srd/incantesimi/nube-mortale"
+      "link": "/srd/incantesimi/nube-mortale",
+      "text": "Nube mortale"
     },
     {
-      "text": "Spruzzo colorato",
-      "link": "/srd/incantesimi/spruzzo-colorato"
+      "link": "/srd/incantesimi/spruzzo-colorato",
+      "text": "Spruzzo colorato"
     },
     {
-      "text": "Comprensione dei linguaggi",
-      "link": "/srd/incantesimi/comprensione-dei-linguaggi"
+      "link": "/srd/incantesimi/comprensione-dei-linguaggi",
+      "text": "Comprensione dei linguaggi"
     },
     {
-      "text": "Cono di freddo",
-      "link": "/srd/incantesimi/cono-di-freddo"
+      "link": "/srd/incantesimi/cono-di-freddo",
+      "text": "Cono di freddo"
     },
     {
-      "text": "Cura ferite",
-      "link": "/srd/incantesimi/cura-ferite"
+      "link": "/srd/incantesimi/cura-ferite",
+      "text": "Cura ferite"
     },
     {
-      "text": "Individuazione del bene e del male",
-      "link": "/srd/incantesimi/individuazione-del-bene-e-del-male"
+      "link": "/srd/incantesimi/individuazione-del-bene-e-del-male",
+      "text": "Individuazione del bene e del male"
     },
     {
-      "text": "Individuazione del magico",
-      "link": "/srd/incantesimi/individuazione-del-magico"
+      "link": "/srd/incantesimi/individuazione-del-magico",
+      "text": "Individuazione del magico"
     },
     {
-      "text": "Disintegrazione",
-      "link": "/srd/incantesimi/disintegrazione"
+      "link": "/srd/incantesimi/disintegrazione",
+      "text": "Disintegrazione"
     },
     {
-      "text": "Dissolvi magie",
-      "link": "/srd/incantesimi/dissolvi-magie"
+      "link": "/srd/incantesimi/dissolvi-magie",
+      "text": "Dissolvi magie"
     },
     {
-      "text": "Paura",
-      "link": "/srd/incantesimi/paura"
+      "link": "/srd/incantesimi/paura",
+      "text": "Paura"
     },
     {
-      "text": "Scudo di fuoco",
-      "link": "/srd/incantesimi/scudo-di-fuoco"
+      "link": "/srd/incantesimi/scudo-di-fuoco",
+      "text": "Scudo di fuoco"
     },
     {
-      "text": "Dardo di fuoco",
-      "link": "/srd/incantesimi/dardo-di-fuoco"
+      "link": "/srd/incantesimi/dardo-di-fuoco",
+      "text": "Dardo di fuoco"
     },
     {
-      "text": "Colpo infuocato",
-      "link": "/srd/incantesimi/colpo-infuocato"
+      "link": "/srd/incantesimi/colpo-infuocato",
+      "text": "Colpo infuocato"
     },
     {
-      "text": "Volare",
-      "link": "/srd/incantesimi/volare"
+      "link": "/srd/incantesimi/volare",
+      "text": "Volare"
     },
     {
-      "text": "Nube di nebbia",
-      "link": "/srd/incantesimi/nube-di-nebbia"
+      "link": "/srd/incantesimi/nube-di-nebbia",
+      "text": "Nube di nebbia"
     },
     {
-      "text": "Forma gassosa",
-      "link": "/srd/incantesimi/forma-gassosa"
+      "link": "/srd/incantesimi/forma-gassosa",
+      "text": "Forma gassosa"
     },
     {
-      "text": "Dardo tracciante",
-      "link": "/srd/incantesimi/dardo-tracciante"
+      "link": "/srd/incantesimi/dardo-tracciante",
+      "text": "Dardo tracciante"
     },
     {
-      "text": "Velocità",
-      "link": "/srd/incantesimi/velocita"
+      "link": "/srd/incantesimi/velocita",
+      "text": "Velocità"
     },
     {
-      "text": "Tempesta di ghiaccio",
-      "link": "/srd/incantesimi/tempesta-di-ghiaccio"
+      "link": "/srd/incantesimi/tempesta-di-ghiaccio",
+      "text": "Tempesta di ghiaccio"
     },
     {
-      "text": "Infliggi ferite",
-      "link": "/srd/incantesimi/infliggi-ferite"
+      "link": "/srd/incantesimi/infliggi-ferite",
+      "text": "Infliggi ferite"
     },
     {
-      "text": "Piaga degli insetti",
-      "link": "/srd/incantesimi/piaga-degli-insetti"
+      "link": "/srd/incantesimi/piaga-degli-insetti",
+      "text": "Piaga degli insetti"
     },
     {
-      "text": "Invisibilità",
-      "link": "/srd/incantesimi/invisibilita"
+      "link": "/srd/incantesimi/invisibilita",
+      "text": "Invisibilità"
     },
     {
-      "text": "Saltare",
-      "link": "/srd/incantesimi/saltare"
+      "link": "/srd/incantesimi/saltare",
+      "text": "Saltare"
     },
     {
-      "text": "Luce",
-      "link": "/srd/incantesimi/luce"
+      "link": "/srd/incantesimi/luce",
+      "text": "Luce"
     },
     {
-      "text": "Fulmine",
-      "link": "/srd/incantesimi/fulmine"
+      "link": "/srd/incantesimi/fulmine",
+      "text": "Fulmine"
     },
     {
-      "text": "Passo veloce",
-      "link": "/srd/incantesimi/passo-veloce"
+      "link": "/srd/incantesimi/passo-veloce",
+      "text": "Passo veloce"
     },
     {
-      "text": "Raggio di affaticamento",
-      "link": "/srd/incantesimi/raggio-di-affaticamento"
+      "link": "/srd/incantesimi/raggio-di-affaticamento",
+      "text": "Raggio di affaticamento"
     },
     {
-      "text": "Raggio rovente",
-      "link": "/srd/incantesimi/raggio-rovente"
+      "link": "/srd/incantesimi/raggio-rovente",
+      "text": "Raggio rovente"
     },
     {
-      "text": "Frantumare",
-      "link": "/srd/incantesimi/frantumare"
+      "link": "/srd/incantesimi/frantumare",
+      "text": "Frantumare"
     },
     {
-      "text": "Scudo della fede",
-      "link": "/srd/incantesimi/scudo-della-fede"
+      "link": "/srd/incantesimi/scudo-della-fede",
+      "text": "Scudo della fede"
     },
     {
-      "text": "Stretta folgorante",
-      "link": "/srd/incantesimi/stretta-folgorante"
+      "link": "/srd/incantesimi/stretta-folgorante",
+      "text": "Stretta folgorante"
     },
     {
-      "text": "Silenzio",
-      "link": "/srd/incantesimi/silenzio"
+      "link": "/srd/incantesimi/silenzio",
+      "text": "Silenzio"
     },
     {
-      "text": "Sonno",
-      "link": "/srd/incantesimi/sonno"
+      "link": "/srd/incantesimi/sonno",
+      "text": "Sonno"
     },
     {
-      "text": "Lentezza",
-      "link": "/srd/incantesimi/lentezza"
+      "link": "/srd/incantesimi/lentezza",
+      "text": "Lentezza"
     },
     {
-      "text": "Nube maleodorante",
-      "link": "/srd/incantesimi/nube-maleodorante"
+      "link": "/srd/incantesimi/nube-maleodorante",
+      "text": "Nube maleodorante"
     },
     {
-      "text": "Pelle di pietra",
-      "link": "/srd/incantesimi/pelle-di-pietra"
+      "link": "/srd/incantesimi/pelle-di-pietra",
+      "text": "Pelle di pietra"
     },
     {
-      "text": "Onda tonante",
-      "link": "/srd/incantesimi/onda-tonante"
+      "link": "/srd/incantesimi/onda-tonante",
+      "text": "Onda tonante"
     },
     {
-      "text": "Colpo accurato",
-      "link": "/srd/incantesimi/colpo-accurato"
+      "link": "/srd/incantesimi/colpo-accurato",
+      "text": "Colpo accurato"
     },
     {
-      "text": "Ragnatela",
-      "link": "/srd/incantesimi/ragnatela"
+      "link": "/srd/incantesimi/ragnatela",
+      "text": "Ragnatela"
     }
   ],
-  "group": "random-items",
+  "name": "Effetto Magico",
+  "order": 75,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

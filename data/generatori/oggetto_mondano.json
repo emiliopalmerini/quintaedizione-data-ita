@@ -1,9 +1,8 @@
 {
-  "id": "oggetto-mondano",
-  "name": "Oggetto Mondano",
   "description": "Genera un oggetto mondano casuale che può diventare una reliquia unica.",
   "die": "1d50",
-  "order": 74,
+  "group": "random-items",
+  "id": "oggetto-mondano",
   "items": [
     "Amuleto",
     "Punta di freccia",
@@ -56,7 +55,8 @@
     "Fiala",
     "Bacchetta"
   ],
-  "group": "random-items",
+  "name": "Oggetto Mondano",
+  "order": 74,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

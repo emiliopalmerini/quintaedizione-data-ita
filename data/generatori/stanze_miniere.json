@@ -1,9 +1,8 @@
 {
-  "id": "stanze-miniere",
-  "name": "Miniere",
   "description": "Stanze per un complesso minerario.",
   "die": "1d20",
-  "order": 57,
+  "group": "random-chambers",
+  "id": "stanze-miniere",
   "items": [
     "Pozzi profondi",
     "Macchinari pesanti",
@@ -26,7 +25,8 @@
     "Cripta dimenticata",
     "Bagno di sangue bestiale"
   ],
-  "group": "random-chambers",
+  "name": "Miniere",
+  "order": 57,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

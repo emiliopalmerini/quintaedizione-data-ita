@@ -1,172 +1,172 @@
 {
-  "id": "tesoro-magico",
-  "name": "Tesori Magici",
   "description": "Gli oggetti magici permanenti possono essere inclusi nei tesori a piacimento. Gli oggetti non comuni nella seguente tabella sono adatti a personaggi di qualsiasi livello. Scegli armi e armature specifiche in base alle competenze e ai desideri dei personaggi.",
   "die": "1d40",
-  "order": 32,
+  "group": "treasure-generator",
+  "id": "tesoro-magico",
   "items": [
     {
-      "text": "Arma +1",
-      "link": "/srd/oggetti_magici/arma-1-2-o-3"
+      "link": "/srd/oggetti_magici/arma-1-2-o-3",
+      "text": "Arma +1"
     },
     {
-      "text": "Armatura +1",
-      "link": "/srd/oggetti_magici/armatura-1-2-o-3"
+      "link": "/srd/oggetti_magici/armatura-1-2-o-3",
+      "text": "Armatura +1"
     },
     {
-      "text": "Munizione +1",
-      "link": "/srd/oggetti_magici/5e/munizione-1-2-o-3"
+      "link": "/srd/oggetti_magici/5e/munizione-1-2-o-3",
+      "text": "Munizione +1"
     },
     {
-      "text": "Amuleto anti-individuazione e localizzazione",
-      "link": "/srd/oggetti_magici/5e/amuleto-anti-individuazione-e-localizzazione"
+      "link": "/srd/oggetti_magici/5e/amuleto-anti-individuazione-e-localizzazione",
+      "text": "Amuleto anti-individuazione e localizzazione"
     },
     {
-      "text": "Borsa conservante",
-      "link": "/srd/oggetti_magici/borsa-conservante"
+      "link": "/srd/oggetti_magici/borsa-conservante",
+      "text": "Borsa conservante"
     },
     {
-      "text": "Borsa dei trucchi",
-      "link": "/srd/oggetti_magici/borsa-dei-trucchi"
+      "link": "/srd/oggetti_magici/borsa-dei-trucchi",
+      "text": "Borsa dei trucchi"
     },
     {
-      "text": "Stivali elfici",
-      "link": "/srd/oggetti_magici/5e/stivali-elfici"
+      "link": "/srd/oggetti_magici/5e/stivali-elfici",
+      "text": "Stivali elfici"
     },
     {
-      "text": "Stivali molleggiati",
-      "link": "/srd/oggetti_magici/5e/stivali-molleggiati"
+      "link": "/srd/oggetti_magici/5e/stivali-molleggiati",
+      "text": "Stivali molleggiati"
     },
     {
-      "text": "Stivali dell'inverno",
-      "link": "/srd/oggetti_magici/5e/stivali-dellinverno"
+      "link": "/srd/oggetti_magici/5e/stivali-dellinverno",
+      "text": "Stivali dell'inverno"
     },
     {
-      "text": "Bracciali dell'arciere",
-      "link": "/srd/oggetti_magici/bracciali-dellarciere"
+      "link": "/srd/oggetti_magici/bracciali-dellarciere",
+      "text": "Bracciali dell'arciere"
     },
     {
-      "text": "Fermaglio dello scudo",
-      "link": "/srd/oggetti_magici/fermaglio-dello-scudo"
+      "link": "/srd/oggetti_magici/fermaglio-dello-scudo",
+      "text": "Fermaglio dello scudo"
     },
     {
-      "text": "Scopa volante",
-      "link": "/srd/oggetti_magici/5e/scopa-volante"
+      "link": "/srd/oggetti_magici/5e/scopa-volante",
+      "text": "Scopa volante"
     },
     {
-      "text": "Diadema incandescente",
-      "link": "/srd/oggetti_magici/diadema-incandescente"
+      "link": "/srd/oggetti_magici/diadema-incandescente",
+      "text": "Diadema incandescente"
     },
     {
-      "text": "Mantello elfico",
-      "link": "/srd/oggetti_magici/mantello-elfico"
+      "link": "/srd/oggetti_magici/mantello-elfico",
+      "text": "Mantello elfico"
     },
     {
-      "text": "Mantello della protezione",
-      "link": "/srd/oggetti_magici/mantello-della-protezione"
+      "link": "/srd/oggetti_magici/mantello-della-protezione",
+      "text": "Mantello della protezione"
     },
     {
-      "text": "Mantello della manta",
-      "link": "/srd/oggetti_magici/mantello-della-manta"
+      "link": "/srd/oggetti_magici/mantello-della-manta",
+      "text": "Mantello della manta"
     },
     {
-      "text": "Bottiglia del fumo perenne",
-      "link": "/srd/oggetti_magici/bottiglia-del-fumo-perenne"
+      "link": "/srd/oggetti_magici/bottiglia-del-fumo-perenne",
+      "text": "Bottiglia del fumo perenne"
     },
     {
-      "text": "Lenti dello charme",
-      "link": "/srd/oggetti_magici/lenti-dello-charme"
+      "link": "/srd/oggetti_magici/lenti-dello-charme",
+      "text": "Lenti dello charme"
     },
     {
-      "text": "Lenti dell'aquila",
-      "link": "/srd/oggetti_magici/lenti-dellaquila"
+      "link": "/srd/oggetti_magici/lenti-dellaquila",
+      "text": "Lenti dell'aquila"
     },
     {
-      "text": "Statuina del potere meraviglioso (corvo d'argento)",
-      "link": "/srd/oggetti_magici/5e/statuina-del-potere-meraviglioso"
+      "link": "/srd/oggetti_magici/5e/statuina-del-potere-meraviglioso",
+      "text": "Statuina del potere meraviglioso (corvo d'argento)"
     },
     {
-      "text": "Guanti del potere orchesco",
-      "link": "/srd/oggetti_magici/guanti-del-potere-orchesco"
+      "link": "/srd/oggetti_magici/guanti-del-potere-orchesco",
+      "text": "Guanti del potere orchesco"
     },
     {
-      "text": "Guanti catturaproiettili",
-      "link": "/srd/oggetti_magici/guanti-catturaproiettili"
+      "link": "/srd/oggetti_magici/guanti-catturaproiettili",
+      "text": "Guanti catturaproiettili"
     },
     {
-      "text": "Guanti del nuotare e scalare",
-      "link": "/srd/oggetti_magici/guanti-del-nuotare-e-scalare"
+      "link": "/srd/oggetti_magici/guanti-del-nuotare-e-scalare",
+      "text": "Guanti del nuotare e scalare"
     },
     {
-      "text": "Occhiali della notte",
-      "link": "/srd/oggetti_magici/5e/occhiali-della-notte"
+      "link": "/srd/oggetti_magici/5e/occhiali-della-notte",
+      "text": "Occhiali della notte"
     },
     {
-      "text": "Cappello del camuffamento",
-      "link": "/srd/oggetti_magici/cappello-del-camuffamento"
+      "link": "/srd/oggetti_magici/cappello-del-camuffamento",
+      "text": "Cappello del camuffamento"
     },
     {
-      "text": "Fascia dell'intelletto",
-      "link": "/srd/oggetti_magici/fascia-dellintelletto"
+      "link": "/srd/oggetti_magici/fascia-dellintelletto",
+      "text": "Fascia dell'intelletto"
     },
     {
-      "text": "Elmo della comprensione dei linguaggi",
-      "link": "/srd/oggetti_magici/elmo-della-comprensione-dei-linguaggi"
+      "link": "/srd/oggetti_magici/elmo-della-comprensione-dei-linguaggi",
+      "text": "Elmo della comprensione dei linguaggi"
     },
     {
-      "text": "Elmo della telepatia",
-      "link": "/srd/oggetti_magici/elmo-della-telepatia"
+      "link": "/srd/oggetti_magici/elmo-della-telepatia",
+      "text": "Elmo della telepatia"
     },
     {
-      "text": "Verga inamovibile",
-      "link": "/srd/oggetti_magici/5e/verga-inamovibile"
+      "link": "/srd/oggetti_magici/5e/verga-inamovibile",
+      "text": "Verga inamovibile"
     },
     {
-      "text": "Giavellotto del fulmine",
-      "link": "/srd/oggetti_magici/giavellotto-del-fulmine"
+      "link": "/srd/oggetti_magici/giavellotto-del-fulmine",
+      "text": "Giavellotto del fulmine"
     },
     {
-      "text": "Lanterna della rivelazione",
-      "link": "/srd/oggetti_magici/lanterna-della-rivelazione"
+      "link": "/srd/oggetti_magici/lanterna-della-rivelazione",
+      "text": "Lanterna della rivelazione"
     },
     {
-      "text": "Medaglione dei pensieri",
-      "link": "/srd/oggetti_magici/5e/medaglione-dei-pensieri"
+      "link": "/srd/oggetti_magici/5e/medaglione-dei-pensieri",
+      "text": "Medaglione dei pensieri"
     },
     {
-      "text": "Collana dell'adattamento",
-      "link": "/srd/oggetti_magici/collana-delladattamento"
+      "link": "/srd/oggetti_magici/collana-delladattamento",
+      "text": "Collana dell'adattamento"
     },
     {
-      "text": "Perla del potere",
-      "link": "/srd/oggetti_magici/5e/perla-del-potere"
+      "link": "/srd/oggetti_magici/5e/perla-del-potere",
+      "text": "Perla del potere"
     },
     {
-      "text": "Anello di scudo mentale",
-      "link": "/srd/oggetti_magici/anello-di-scudo-mentale"
+      "link": "/srd/oggetti_magici/anello-di-scudo-mentale",
+      "text": "Anello di scudo mentale"
     },
     {
-      "text": "Corda per scalare",
-      "link": "/srd/oggetti_magici/corda-per-scalare"
+      "link": "/srd/oggetti_magici/corda-per-scalare",
+      "text": "Corda per scalare"
     },
     {
-      "text": "Pantofole del ragno",
-      "link": "/srd/oggetti_magici/5e/pantofole-del-ragno"
+      "link": "/srd/oggetti_magici/5e/pantofole-del-ragno",
+      "text": "Pantofole del ragno"
     },
     {
-      "text": "Pietra della buona fortuna",
-      "link": "/srd/oggetti_magici/5e/pietra-della-buona-fortuna-pietrafortuna"
+      "link": "/srd/oggetti_magici/5e/pietra-della-buona-fortuna-pietrafortuna",
+      "text": "Pietra della buona fortuna"
     },
     {
-      "text": "Bacchetta di missili magici",
-      "link": "/srd/oggetti_magici/5e/bacchetta-di-missili-magici"
+      "link": "/srd/oggetti_magici/5e/bacchetta-di-missili-magici",
+      "text": "Bacchetta di missili magici"
     },
     {
-      "text": "Bacchetta della ragnatela",
-      "link": "/srd/oggetti_magici/bacchetta-della-ragnatela"
+      "link": "/srd/oggetti_magici/bacchetta-della-ragnatela",
+      "text": "Bacchetta della ragnatela"
     }
   ],
-  "group": "treasure-generator",
+  "name": "Tesori Magici",
+  "order": 32,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

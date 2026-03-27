@@ -1,86 +1,86 @@
 {
-  "id": "mostri-lista-1",
-  "name": "Lista Mostri 1 (GS 1/8—1/4)",
   "description": "Mostri di grado sfida 1/8 — 1/4.",
   "die": "1d20",
-  "order": 91,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-1",
   "items": [
     {
-      "text": "Bandito",
-      "link": "/srd/mostri/bandito"
+      "link": "/srd/mostri/bandito",
+      "text": "Bandito"
     },
     {
-      "text": "Cultista",
-      "link": "/srd/mostri/cultista"
+      "link": "/srd/mostri/cultista",
+      "text": "Cultista"
     },
     {
-      "text": "Serpente volante",
-      "link": "/srd/animali/serpente-volante"
+      "link": "/srd/animali/serpente-volante",
+      "text": "Serpente volante"
     },
     {
-      "text": "Granchio gigante",
-      "link": "/srd/animali/granchio-gigante"
+      "link": "/srd/animali/granchio-gigante",
+      "text": "Granchio gigante"
     },
     {
-      "text": "Topo gigante",
-      "link": "/srd/animali/topo-gigante"
+      "link": "/srd/animali/topo-gigante",
+      "text": "Topo gigante"
     },
     {
-      "text": "Coboldo",
-      "link": "/srd/mostri/coboldo"
+      "link": "/srd/mostri/coboldo",
+      "text": "Coboldo"
     },
     {
-      "text": "Serpente velenoso",
-      "link": "/srd/animali/serpente-velenoso"
+      "link": "/srd/animali/serpente-velenoso",
+      "text": "Serpente velenoso"
     },
     "Stirge",
     "Guerriero tribale",
     {
-      "text": "Beccoaguzzo",
-      "link": "/srd/animali/beccoaguzzo"
+      "link": "/srd/animali/beccoaguzzo",
+      "text": "Beccoaguzzo"
     },
     {
-      "text": "Cane intermittente",
-      "link": "/srd/mostri/cane-intermittente"
+      "link": "/srd/mostri/cane-intermittente",
+      "text": "Cane intermittente"
     },
     {
-      "text": "Dretch",
-      "link": "/srd/mostri/dretch"
+      "link": "/srd/mostri/dretch",
+      "text": "Dretch"
     },
     {
-      "text": "Elfo drow",
-      "link": "/srd/mostri/elfo-drow"
+      "link": "/srd/mostri/elfo-drow",
+      "text": "Elfo drow"
     },
     {
-      "text": "Pipistrello gigante",
-      "link": "/srd/animali/pipistrello-gigante"
+      "link": "/srd/animali/pipistrello-gigante",
+      "text": "Pipistrello gigante"
     },
     {
-      "text": "Rana gigante",
-      "link": "/srd/animali/rana-gigante"
+      "link": "/srd/animali/rana-gigante",
+      "text": "Rana gigante"
     },
     {
-      "text": "Ragno-lupo gigante",
-      "link": "/srd/animali/ragno-lupo-gigante"
+      "link": "/srd/animali/ragno-lupo-gigante",
+      "text": "Ragno-lupo gigante"
     },
     {
-      "text": "Goblin",
-      "link": "/srd/mostri/goblin"
+      "link": "/srd/mostri/goblin",
+      "text": "Goblin"
     },
     {
-      "text": "Scheletro",
-      "link": "/srd/mostri/scheletro"
+      "link": "/srd/mostri/scheletro",
+      "text": "Scheletro"
     },
     {
-      "text": "Sciame di pipistrelli",
-      "link": "/srd/animali/sciame-di-pipistrelli"
+      "link": "/srd/animali/sciame-di-pipistrelli",
+      "text": "Sciame di pipistrelli"
     },
     {
-      "text": "Colonia di topi",
-      "link": "/srd/animali/colonia-di-topi"
+      "link": "/srd/animali/colonia-di-topi",
+      "text": "Colonia di topi"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 1 (GS 1/8—1/4)",
+  "order": 91,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

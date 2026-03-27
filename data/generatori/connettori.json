@@ -1,9 +1,8 @@
 {
-  "id": "connettori",
-  "order": 10,
-  "name": "Connettori Casuali",
   "description": "Connettori tra le stanze di un dungeon.",
   "die": "1d20",
+  "group": "core-adventure",
+  "id": "connettori",
   "items": [
     "Corridoio stretto",
     "Scale a spirale",
@@ -26,7 +25,8 @@
     "Corridoio ventoso",
     "Porta dimensionale"
   ],
-  "group": "core-adventure",
+  "name": "Connettori Casuali",
+  "order": 10,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

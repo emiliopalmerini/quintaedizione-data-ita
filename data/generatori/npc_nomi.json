@@ -1,9 +1,8 @@
 {
-  "id": "npc-nomi",
-  "name": "Nomi",
   "description": "Genera un nome casuale per il tuo PNG.",
   "die": "1d100",
-  "order": 20,
+  "group": "npc-generator",
+  "id": "npc-nomi",
   "items": [
     "Osborne",
     "Halstein",
@@ -106,7 +105,8 @@
     "Tantalos",
     "Wynefreede"
   ],
-  "group": "npc-generator",
+  "name": "Nomi",
+  "order": 20,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

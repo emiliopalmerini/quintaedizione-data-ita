@@ -1,9 +1,8 @@
 {
-  "id": "trappola-innesco",
-  "name": "Innesco",
   "description": "Scegli l'elemento che attiva la trappola.",
   "die": "1d20",
-  "order": 42,
+  "group": "random-traps",
+  "id": "trappola-innesco",
   "items": [
     "Porta",
     "Piastra a pavimento",
@@ -26,7 +25,8 @@
     "Arma su un altare",
     "Idolo su piedistallo"
   ],
-  "group": "random-traps",
+  "name": "Innesco",
+  "order": 42,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

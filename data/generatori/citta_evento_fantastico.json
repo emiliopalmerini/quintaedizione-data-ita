@@ -1,9 +1,8 @@
 {
-  "id": "citta-evento-fantastico",
-  "name": "Evento Fantastico",
   "description": "Un evento fantastico o soprannaturale che sta avendo luogo in città.",
   "die": "1d20",
-  "order": 83,
+  "group": "town-events",
+  "id": "citta-evento-fantastico",
   "items": [
     "Le stelle sono scomparse dal cielo",
     "Un'eclissi solare inaspettata",
@@ -26,7 +25,8 @@
     "Il confine con il reame fatato si assottiglia",
     "Il mondo delle ombre si riversa nel piano materiale"
   ],
-  "group": "town-events",
+  "name": "Evento Fantastico",
+  "order": 83,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

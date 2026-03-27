@@ -1,92 +1,92 @@
 {
-  "id": "oggetto-arma",
-  "name": "Tipo di Arma",
   "description": "Genera un tipo di arma casuale per il tuo oggetto magico.",
   "die": "1d20",
-  "order": 70,
+  "group": "random-items",
+  "id": "oggetto-arma",
   "items": [
     {
-      "text": "Pugnale",
-      "link": "/srd/armi/pugnale"
+      "link": "/srd/armi/pugnale",
+      "text": "Pugnale"
     },
     {
-      "text": "Mazza",
-      "link": "/srd/armi/mazza"
+      "link": "/srd/armi/mazza",
+      "text": "Mazza"
     },
     {
-      "text": "Bastone ferrato",
-      "link": "/srd/armi/bastone-ferrato"
+      "link": "/srd/armi/bastone-ferrato",
+      "text": "Bastone ferrato"
     },
     {
-      "text": "Lancia",
-      "link": "/srd/armi/lancia"
+      "link": "/srd/armi/lancia",
+      "text": "Lancia"
     },
     {
-      "text": "Balestra leggera",
-      "link": "/srd/armi/balestra-leggera"
+      "link": "/srd/armi/balestra-leggera",
+      "text": "Balestra leggera"
     },
     {
-      "text": "Arco corto",
-      "link": "/srd/armi/arco-corto"
+      "link": "/srd/armi/arco-corto",
+      "text": "Arco corto"
     },
     {
-      "text": "Ascia da battaglia",
-      "link": "/srd/armi/ascia-da-battaglia"
+      "link": "/srd/armi/ascia-da-battaglia",
+      "text": "Ascia da battaglia"
     },
     {
-      "text": "Mazzafrusto",
-      "link": "/srd/armi/mazzafrusto"
+      "link": "/srd/armi/mazzafrusto",
+      "text": "Mazzafrusto"
     },
     {
-      "text": "Alabarda",
-      "link": "/srd/armi/alabarda"
+      "link": "/srd/armi/alabarda",
+      "text": "Alabarda"
     },
     {
-      "text": "Ascia bipenne",
-      "link": "/srd/armi/ascia-bipenne"
+      "link": "/srd/armi/ascia-bipenne",
+      "text": "Ascia bipenne"
     },
     {
-      "text": "Spadone",
-      "link": "/srd/armi/spadone"
+      "link": "/srd/armi/spadone",
+      "text": "Spadone"
     },
     {
-      "text": "Spada lunga",
-      "link": "/srd/armi/spada-lunga"
+      "link": "/srd/armi/spada-lunga",
+      "text": "Spada lunga"
     },
     {
-      "text": "Maglio",
-      "link": "/srd/armi/maglio"
+      "link": "/srd/armi/maglio",
+      "text": "Maglio"
     },
     {
-      "text": "Mazza chiodata",
-      "link": "/srd/armi/mazza-chiodata"
+      "link": "/srd/armi/mazza-chiodata",
+      "text": "Mazza chiodata"
     },
     {
-      "text": "Stocco",
-      "link": "/srd/armi/stocco"
+      "link": "/srd/armi/stocco",
+      "text": "Stocco"
     },
     {
-      "text": "Scimitarra",
-      "link": "/srd/armi/scimitarra"
+      "link": "/srd/armi/scimitarra",
+      "text": "Scimitarra"
     },
     {
-      "text": "Spada corta",
-      "link": "/srd/armi/spada-corta"
+      "link": "/srd/armi/spada-corta",
+      "text": "Spada corta"
     },
     {
-      "text": "Martello da guerra",
-      "link": "/srd/armi/martello-da-guerra"
+      "link": "/srd/armi/martello-da-guerra",
+      "text": "Martello da guerra"
     },
     {
-      "text": "Balestra pesante",
-      "link": "/srd/armi/balestra-pesante"
+      "link": "/srd/armi/balestra-pesante",
+      "text": "Balestra pesante"
     },
     {
-      "text": "Arco lungo",
-      "link": "/srd/armi/arco-lungo"
+      "link": "/srd/armi/arco-lungo",
+      "text": "Arco lungo"
     }
   ],
-  "group": "random-items",
+  "name": "Tipo di Arma",
+  "order": 70,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

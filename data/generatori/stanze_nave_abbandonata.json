@@ -1,9 +1,8 @@
 {
-  "id": "stanze-nave-abbandonata",
-  "name": "Nave Abbandonata",
   "description": "Stanze per una nave abbandonata.",
   "die": "1d20",
-  "order": 53,
+  "group": "random-chambers",
+  "id": "stanze-nave-abbandonata",
   "items": [
     "Alloggi dell'equipaggio",
     "Cabina del capitano",
@@ -26,7 +25,8 @@
     "Stiva del capitano",
     "Stiva del tesoro"
   ],
-  "group": "random-chambers",
+  "name": "Nave Abbandonata",
+  "order": 53,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

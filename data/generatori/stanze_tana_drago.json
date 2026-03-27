@@ -1,9 +1,8 @@
 {
-  "id": "stanze-tana-drago",
-  "name": "Tana del Drago",
   "description": "Stanze per la tana di un drago.",
   "die": "1d20",
-  "order": 54,
+  "group": "random-chambers",
+  "id": "stanze-tana-drago",
   "items": [
     "Camera del sonno",
     "Camera del tesoro",
@@ -26,7 +25,8 @@
     "Camera del guardiano",
     "Sala dei trofei"
   ],
-  "group": "random-chambers",
+  "name": "Tana del Drago",
+  "order": 54,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

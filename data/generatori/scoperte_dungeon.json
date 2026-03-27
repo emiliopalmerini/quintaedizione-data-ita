@@ -1,9 +1,8 @@
 {
-  "id": "scoperte-dungeon",
-  "name": "Scoperte nel Dungeon",
   "description": "Aggiungi scoperte utili alla tua avventura per creare momenti positivi nella storia dei personaggi.",
   "die": "1d20",
-  "order": 12,
+  "group": "core-adventure",
+  "id": "scoperte-dungeon",
   "items": [
     "PNG amichevole",
     "Fontana sacra",
@@ -26,7 +25,8 @@
     "Macchinario utile",
     "Biblioteca storica"
   ],
-  "group": "core-adventure",
+  "name": "Scoperte nel Dungeon",
+  "order": 12,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

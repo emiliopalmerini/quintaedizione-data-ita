@@ -1,9 +1,8 @@
 {
-  "id": "citta-evento-mondano",
-  "name": "Evento Mondano",
   "description": "Un evento mondano che sta avendo luogo in città.",
   "die": "1d20",
-  "order": 81,
+  "group": "town-events",
+  "id": "citta-evento-mondano",
   "items": [
     "Matrimonio",
     "Funerale",
@@ -26,7 +25,8 @@
     "Cattura di bestie in fuga",
     "Festival degli aquiloni"
   ],
-  "group": "town-events",
+  "name": "Evento Mondano",
+  "order": 81,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

@@ -1,9 +1,8 @@
 {
-  "id": "stanze-caverne",
-  "name": "Caverne",
   "description": "Stanze per un sistema di caverne naturali.",
   "die": "1d20",
-  "order": 52,
+  "group": "random-chambers",
+  "id": "stanze-caverne",
   "items": [
     "Cascata",
     "Grande pozza",
@@ -26,7 +25,8 @@
     "Sala delle ossa",
     "Santuario primordiale"
   ],
-  "group": "random-chambers",
+  "name": "Caverne",
+  "order": 52,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

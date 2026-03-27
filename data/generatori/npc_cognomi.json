@@ -1,9 +1,8 @@
 {
-  "id": "npc-cognomi",
-  "name": "Cognomi",
   "description": "Genera un cognome casuale per il tuo PNG.",
   "die": "1d40",
-  "order": 21,
+  "group": "npc-generator",
+  "id": "npc-cognomi",
   "items": [
     "Brightwhisper",
     "Redspur",
@@ -46,7 +45,8 @@
     "Flamestar",
     "Millhand"
   ],
-  "group": "npc-generator",
+  "name": "Cognomi",
+  "order": 21,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

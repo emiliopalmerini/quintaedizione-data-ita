@@ -6,7 +6,7 @@ YELLOW := \033[0;33m
 BLUE := \033[0;34m
 NC := \033[0m
 
-.PHONY: help test format vet clean parse-srd pdf-convert
+.PHONY: help test quality format vet clean parse-srd pdf-convert
 
 .DEFAULT_GOAL := help
 
@@ -14,6 +14,11 @@ test: format vet
 	@echo -e "$(BLUE)Running tests...$(NC)"
 	go test -race -v ./...
 	@echo -e "$(GREEN)Tests passed!$(NC)"
+
+quality:
+	@echo -e "$(BLUE)Running data quality checks...$(NC)"
+	go test -tags=quality -race -v -run TestDataQuality ./store/
+	@echo -e "$(GREEN)Quality checks completed!$(NC)"
 
 format:
 	@echo -e "$(BLUE)Formatting Go code...$(NC)"
@@ -61,6 +66,7 @@ help:
 	@echo "  make test       # Format, vet, and run tests with race detector"
 	@echo "  make format     # Format Go code"
 	@echo "  make vet        # Run go vet"
+	@echo "  make quality    # Run data quality checks (double spaces, orphan markdown, etc.)"
 	@echo "  make clean      # Clean build artifacts"
 	@echo ""
 	@echo -e "$(YELLOW)Data Pipeline:$(NC)"

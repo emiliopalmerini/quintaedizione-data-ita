@@ -1,9 +1,8 @@
 {
-  "id": "stanze-grotta-sommersa",
-  "name": "Grotta Sommersa",
   "description": "Stanze per una grotta sommersa.",
   "die": "1d20",
-  "order": 61,
+  "group": "random-chambers",
+  "id": "stanze-grotta-sommersa",
   "items": [
     "Pozza luminescente",
     "Pilastri di corallo",
@@ -26,7 +25,8 @@
     "Tempio in rovina",
     "Trono sommerso"
   ],
-  "group": "random-chambers",
+  "name": "Grotta Sommersa",
+  "order": 61,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"

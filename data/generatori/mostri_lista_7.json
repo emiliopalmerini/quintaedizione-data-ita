@@ -1,92 +1,92 @@
 {
-  "id": "mostri-lista-7",
-  "name": "Lista Mostri 7 (GS 5—8)",
   "description": "Mostri di grado sfida 5 — 8.",
   "die": "1d20",
-  "order": 97,
+  "group": "dungeon-monsters",
+  "id": "mostri-lista-7",
   "items": [
     {
-      "text": "Salamandra",
-      "link": "/srd/mostri/salamandra"
+      "link": "/srd/mostri/salamandra",
+      "text": "Salamandra"
     },
     {
-      "text": "Progenie vampirica",
-      "link": "/srd/mostri/progenie-vampirica"
+      "link": "/srd/mostri/progenie-vampirica",
+      "text": "Progenie vampirica"
     },
     {
-      "text": "Elementale dell'acqua",
-      "link": "/srd/mostri/elementale-dellacqua"
+      "link": "/srd/mostri/elementale-dellacqua",
+      "text": "Elementale dell'acqua"
     },
     {
-      "text": "Wraith",
-      "link": "/srd/mostri/wraith"
+      "link": "/srd/mostri/wraith",
+      "text": "Wraith"
     },
     {
-      "text": "Xorn",
-      "link": "/srd/mostri/xorn"
+      "link": "/srd/mostri/xorn",
+      "text": "Xorn"
     },
     {
-      "text": "Chimera",
-      "link": "/srd/mostri/chimera"
+      "link": "/srd/mostri/chimera",
+      "text": "Chimera"
     },
     {
-      "text": "Drider",
-      "link": "/srd/mostri/drider"
+      "link": "/srd/mostri/drider",
+      "text": "Drider"
     },
     {
-      "text": "Cacciatore invisibile",
-      "link": "/srd/mostri/cacciatore-invisibile"
+      "link": "/srd/mostri/cacciatore-invisibile",
+      "text": "Cacciatore invisibile"
     },
     {
-      "text": "Mago",
-      "link": "/srd/mostri/mago"
+      "link": "/srd/mostri/mago",
+      "text": "Mago"
     },
     {
-      "text": "Medusa",
-      "link": "/srd/mostri/medusa"
+      "link": "/srd/mostri/medusa",
+      "text": "Medusa"
     },
     {
-      "text": "Vrock",
-      "link": "/srd/mostri/vrock"
+      "link": "/srd/mostri/vrock",
+      "text": "Vrock"
     },
     {
-      "text": "Viverna",
-      "link": "/srd/mostri/viverna"
+      "link": "/srd/mostri/viverna",
+      "text": "Viverna"
     },
     {
-      "text": "Drago bianco giovane",
-      "link": "/srd/mostri/drago-bianco-giovane"
+      "link": "/srd/mostri/drago-bianco-giovane",
+      "text": "Drago bianco giovane"
     },
     {
-      "text": "Oni",
-      "link": "/srd/mostri/oni"
+      "link": "/srd/mostri/oni",
+      "text": "Oni"
     },
     {
-      "text": "Guardiano protettore",
-      "link": "/srd/mostri/guardiano-protettore"
+      "link": "/srd/mostri/guardiano-protettore",
+      "text": "Guardiano protettore"
     },
     {
-      "text": "Gigante delle pietre",
-      "link": "/srd/mostri/gigante-delle-pietre"
+      "link": "/srd/mostri/gigante-delle-pietre",
+      "text": "Gigante delle pietre"
     },
     {
-      "text": "Drago nero giovane",
-      "link": "/srd/mostri/drago-nero-giovane"
+      "link": "/srd/mostri/drago-nero-giovane",
+      "text": "Drago nero giovane"
     },
     {
-      "text": "Assassino",
-      "link": "/srd/mostri/assassino"
+      "link": "/srd/mostri/assassino",
+      "text": "Assassino"
     },
     {
-      "text": "Diavolo delle catene",
-      "link": "/srd/mostri/diavolo-delle-catene"
+      "link": "/srd/mostri/diavolo-delle-catene",
+      "text": "Diavolo delle catene"
     },
     {
-      "text": "Manto assassino",
-      "link": "/srd/mostri/manto-assassino"
+      "link": "/srd/mostri/manto-assassino",
+      "text": "Manto assassino"
     }
   ],
-  "group": "dungeon-monsters",
+  "name": "Lista Mostri 7 (GS 5—8)",
+  "order": 97,
   "source": {
     "author": "Sly Flourish",
     "url": "https://slyflourish.com/"
