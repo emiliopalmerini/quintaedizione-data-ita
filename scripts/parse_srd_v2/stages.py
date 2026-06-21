@@ -16,8 +16,10 @@ from .manifest import (
     write_json,
 )
 from .normalize import normalize_extracted
+from .parsers import get_parser
 from .profiles import SRD_521_IT
-from .schema import validate_envelope
+from .schema import empty_envelope, validate_envelope
+from .sections import assign_sections
 
 
 STAGE_DIRS = ("extracted", "normalized", "sections", "v2", "reports", "compat")
@@ -72,13 +74,74 @@ def run_normalize(extracted_dir: Path, output_dir: Path) -> Path:
     return paths["normalized"] / "document.json"
 
 
-def run_parse(_normalized_dir: Path, _output_dir: Path) -> None:
-    """Placeholder for typed entity parsing."""
-
-    raise UnsupportedStage(
-        "parse stage is not implemented yet; next slice should add sectioning "
-        "and the first typed entity parser"
+def _source_from_artifact(source: dict[str, Any]) -> SourceMetadata:
+    return SourceMetadata(
+        id=str(source.get("id", "")),
+        title=str(source.get("title", "")),
+        path=str(source.get("path", "")),
+        checksum_sha256=str(source.get("checksum_sha256", "")),
+        page_count=int(source.get("page_count", 0)),
+        profile=str(source.get("profile", "")),
     )
+
+
+def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
+    """Run section assignment and implemented typed parsers."""
+
+    paths = ensure_output_tree(output_dir)
+    document = read_json(normalized_dir / "document.json")
+    sections_artifact = assign_sections(document)
+    write_json(paths["sections"] / "sections.json", sections_artifact)
+
+    source = _source_from_artifact(sections_artifact.get("source", {}))
+    generated = generated_metadata()
+    report: dict[str, Any] = {
+        "stage": "parse",
+        "collections": [],
+        "errors": [],
+        "unsupported_sections": [],
+    }
+
+    by_collection: dict[str, list[dict[str, Any]]] = {}
+    for section in sections_artifact.get("sections", []):
+        parser_name = section.get("parser")
+        parser = get_parser(str(parser_name))
+        if parser is None:
+            report["unsupported_sections"].append(
+                {
+                    "section_id": section.get("id"),
+                    "parser": parser_name,
+                    "collection": section.get("collection"),
+                }
+            )
+            continue
+
+        items = parser(section, source.id)
+        collection_id = str(section.get("collection", ""))
+        by_collection.setdefault(collection_id, []).extend(items)
+        report["collections"].append(
+            {
+                "collection": collection_id,
+                "section_id": section.get("id"),
+                "item_count": len(items),
+            }
+        )
+        if not items:
+            report["errors"].append(f"{section.get('id')}: parser produced no items")
+
+    for collection_id, items in by_collection.items():
+        envelope = empty_envelope(collection_id, source=source, generated=generated)
+        envelope["items"] = items
+        validation_errors = validate_envelope(envelope)
+        if validation_errors:
+            report["errors"].extend(
+                f"{collection_id}: {error}" for error in validation_errors
+            )
+        write_json(paths["v2"] / f"{collection_id}.json", envelope)
+
+    report_path = paths["reports"] / "parse.json"
+    write_json(report_path, report)
+    return report_path
 
 
 def run_compat(_v2_dir: Path, _output_dir: Path) -> None:
@@ -132,3 +195,4 @@ def run_build(pdf_path: Path, output_dir: Path) -> None:
     extracted = run_extract(pdf_path, output_dir)
     run_normalize(extracted.parent, output_dir)
     run_parse(output_dir / "normalized", output_dir)
+    run_compat(output_dir / "v2", output_dir / "compat")

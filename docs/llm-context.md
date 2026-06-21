@@ -43,10 +43,11 @@ nix-shell -p python313 python313Packages.pymupdf python313Packages.pytest --run 
 ```
 
 Target parser commands are defined in
-[Pipeline Contracts](pipeline-contracts.md). In the initial implementation
-slice, extraction, normalization, CLI shape, and schema validation exist; typed
-entity parsing and compatibility generation may still return explicit
-unsupported-stage errors until their slices are implemented.
+[Pipeline Contracts](pipeline-contracts.md). Current implemented slices include
+CLI shape, extraction, normalization, section assignment, schema validation, and
+the first typed parser for `origini`. The remaining typed entity parsers and
+compatibility generation may still return explicit unsupported-stage errors
+until their slices are implemented.
 
 ## Editing Rules
 

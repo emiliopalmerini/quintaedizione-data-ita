@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from scripts.parse_srd_v2.manifest import read_json, write_json
-from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_validate
+from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_parse, run_validate
 
 
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
@@ -55,3 +55,45 @@ def test_run_validate_reports_missing_collection_envelopes(tmp_path: Path) -> No
 
     assert "no v2 JSON files found" in report["errors"][0]
     assert any("missing collection envelope: incantesimi" == err for err in report["errors"])
+
+
+def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -> None:
+    normalized_dir = tmp_path / "normalized"
+    write_json(
+        normalized_dir / "document.json",
+        {
+            "schema_version": "2.0.0",
+            "stage": "normalized",
+            "source": {
+                "id": "srd-5.2.1-it",
+                "title": "System Reference Document 5.2.1 Italiano",
+                "checksum_sha256": "abc",
+                "page_count": 405,
+            },
+            "pages": [
+                {
+                    "page_number": 93,
+                    "paragraphs": [
+                        {"text": "Origini dei personaggi", "role": "heading", "page_number": 93},
+                        {"text": "Soldato", "role": "heading", "page_number": 93},
+                        {"text": "Punteggi di caratteristica: Forza, Destrezza, Costituzione", "role": "body", "page_number": 93},
+                        {"text": "Talento: Selvaggio Attaccante", "role": "body", "page_number": 93},
+                        {"text": "Competenze nelle abilit\u00e0: Atletica e Intimidire", "role": "body", "page_number": 93},
+                        {"text": "Competenza negli strumenti: Strumenti da gioco", "role": "body", "page_number": 93},
+                        {"text": "Equipaggiamento: Lancia, abito comune", "role": "body", "page_number": 93},
+                        {"text": "Hai servito in una compagnia militare.", "role": "body", "page_number": 94},
+                    ],
+                }
+            ],
+        },
+    )
+
+    report_path = run_parse(normalized_dir, tmp_path / "out")
+    report = read_json(report_path)
+    sections = read_json(tmp_path / "out" / "sections" / "sections.json")
+    envelope = read_json(tmp_path / "out" / "v2" / "origini.json")
+
+    assert report["errors"] == []
+    assert sections["sections"][3]["id"] == "origini"
+    assert envelope["collection"] == "origini"
+    assert envelope["items"][0]["id"] == "soldato"
