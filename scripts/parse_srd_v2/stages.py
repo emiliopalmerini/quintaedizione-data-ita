@@ -18,6 +18,7 @@ from .manifest import (
 from .normalize import normalize_extracted
 from .parsers import get_parser
 from .profiles import SRD_521_IT
+from .reports import build_coverage_report, build_summary_report
 from .schema import empty_envelope, validate_envelope
 from .sections import assign_sections
 
@@ -139,8 +140,17 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
             )
         write_json(paths["v2"] / f"{collection_id}.json", envelope)
 
+    report["collection_item_counts"] = {
+        collection_id: len(items) for collection_id, items in by_collection.items()
+    }
+    report["unsupported_section_count"] = len(report["unsupported_sections"])
+
     report_path = paths["reports"] / "parse.json"
     write_json(report_path, report)
+    coverage_report = build_coverage_report(sections_artifact)
+    write_json(paths["reports"] / "coverage.json", coverage_report)
+    summary_report = build_summary_report(sections_artifact, report, coverage_report)
+    write_json(paths["reports"] / "summary.json", summary_report)
     return report_path
 
 

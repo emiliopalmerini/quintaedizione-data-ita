@@ -103,11 +103,20 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     report = read_json(report_path)
     sections = read_json(tmp_path / "out" / "sections" / "sections.json")
     envelope = read_json(tmp_path / "out" / "v2" / "origini.json")
+    coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
+    summary = read_json(tmp_path / "out" / "reports" / "summary.json")
 
     assert report["errors"] == []
+    assert report["collection_item_counts"] == {"origini": 1}
+    assert report["unsupported_section_count"] == 12
     assert sections["sections"][3]["id"] == "origini"
     assert envelope["collection"] == "origini"
     assert envelope["items"][0]["id"] == "soldato"
+    assert coverage["covered_section_count"] == 2
+    assert coverage["empty_section_count"] == 11
+    assert summary["status"] == "failed"
+    assert summary["parse"]["collection_item_counts"] == {"origini": 1}
+    assert summary["parse"]["unsupported_section_count"] == 12
 
 
 def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:
