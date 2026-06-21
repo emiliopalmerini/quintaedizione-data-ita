@@ -152,10 +152,16 @@ def run_compat(_v2_dir: Path, _output_dir: Path) -> None:
     )
 
 
-def run_validate(v2_dir: Path) -> dict[str, Any]:
-    """Validate all v2 envelopes in a directory and write a report."""
+def run_validate(v2_path: Path) -> dict[str, Any]:
+    """Validate one v2 envelope file or all envelopes in a directory."""
 
-    files = sorted(v2_dir.glob("*.json"))
+    if v2_path.is_file():
+        files = [v2_path]
+        require_all_collections = False
+    else:
+        files = sorted(v2_path.glob("*.json"))
+        require_all_collections = True
+
     report: dict[str, Any] = {
         "stage": "validate",
         "files": [],
@@ -163,7 +169,7 @@ def run_validate(v2_dir: Path) -> dict[str, Any]:
     }
 
     if not files:
-        report["errors"].append(f"no v2 JSON files found in {v2_dir}")
+        report["errors"].append(f"no v2 JSON files found in {v2_path}")
 
     expected = set(collection_ids())
     seen: set[str] = set()
@@ -182,9 +188,10 @@ def run_validate(v2_dir: Path) -> dict[str, Any]:
         )
         report["errors"].extend(f"{path.name}: {err}" for err in errors)
 
-    missing = sorted(expected - seen)
-    for collection_id in missing:
-        report["errors"].append(f"missing collection envelope: {collection_id}")
+    if require_all_collections:
+        missing = sorted(expected - seen)
+        for collection_id in missing:
+            report["errors"].append(f"missing collection envelope: {collection_id}")
 
     return report
 

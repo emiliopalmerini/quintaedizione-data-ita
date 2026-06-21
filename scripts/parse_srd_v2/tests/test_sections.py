@@ -31,3 +31,34 @@ def test_assign_sections_uses_page_ranges() -> None:
     assert by_id["specie"]["coverage"] == "covered"
     assert by_id["incantesimi"]["paragraph_count"] == 1
     assert by_id["mostri"]["coverage"] == "empty"
+
+
+def test_assign_sections_splits_shared_origini_specie_pages() -> None:
+    document = {
+        "source": {"id": "srd-5.2.1-it"},
+        "pages": [
+            {
+                "page_number": 93,
+                "paragraphs": [
+                    {"text": "Background dei personaggi", "role": "heading", "page_number": 93},
+                    {"text": "Accolito", "role": "heading", "page_number": 93},
+                    {"text": "Punteggi di caratteristica: Saggezza", "role": "body", "page_number": 93},
+                    {"text": "Specie dei personaggi", "role": "heading", "page_number": 93},
+                    {"text": "Dragonide", "role": "heading", "page_number": 94},
+                ],
+            }
+        ],
+    }
+
+    artifact = assign_sections(document)
+    by_id = {section["id"]: section for section in artifact["sections"]}
+
+    assert [p["text"] for p in by_id["origini"]["paragraphs"]] == [
+        "Background dei personaggi",
+        "Accolito",
+        "Punteggi di caratteristica: Saggezza",
+    ]
+    assert [p["text"] for p in by_id["specie"]["paragraphs"]] == [
+        "Specie dei personaggi",
+        "Dragonide",
+    ]

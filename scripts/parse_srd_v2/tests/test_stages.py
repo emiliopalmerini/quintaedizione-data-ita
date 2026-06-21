@@ -29,6 +29,14 @@ def test_run_normalize_writes_document_model(tmp_path: Path) -> None:
                         {
                             "lines": [
                                 {
+                                    "bbox": [0, 0, 1, 1],
+                                    "spans": [{"text": "System Reference Document 5.2.1"}],
+                                },
+                                {
+                                    "bbox": [0, 0, 1, 1],
+                                    "spans": [{"text": "1"}],
+                                },
+                                {
                                     "bbox": [1, 2, 3, 4],
                                     "spans": [{"text": "  Incantesimi  "}],
                                 }
@@ -44,6 +52,7 @@ def test_run_normalize_writes_document_model(tmp_path: Path) -> None:
     document = read_json(out)
 
     assert document["stage"] == "normalized"
+    assert len(document["pages"][0]["paragraphs"]) == 1
     assert document["pages"][0]["paragraphs"][0]["text"] == "Incantesimi"
 
 
@@ -82,6 +91,8 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                         {"text": "Competenza negli strumenti: Strumenti da gioco", "role": "body", "page_number": 93},
                         {"text": "Equipaggiamento: Lancia, abito comune", "role": "body", "page_number": 93},
                         {"text": "Hai servito in una compagnia militare.", "role": "body", "page_number": 94},
+                        {"text": "Specie dei personaggi", "role": "heading", "page_number": 94},
+                        {"text": "Dragonide", "role": "heading", "page_number": 94},
                     ],
                 }
             ],
@@ -97,3 +108,34 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert sections["sections"][3]["id"] == "origini"
     assert envelope["collection"] == "origini"
     assert envelope["items"][0]["id"] == "soldato"
+
+
+def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:
+    envelope = {
+        "schema_version": "2.0.0",
+        "source": {
+            "id": "srd-5.2.1-it",
+            "title": "System Reference Document 5.2.1 Italiano",
+            "checksum_sha256": "abc",
+            "page_count": 405,
+        },
+        "generated": {
+            "parser": "parse_srd_v2",
+            "parser_version": "test",
+            "generated_at": "2026-01-01T00:00:00Z",
+        },
+        "collection": "origini",
+        "items": [
+            {
+                "id": "soldato",
+                "source_id": "srd-5.2.1-it",
+                "provenance": {},
+            }
+        ],
+    }
+    path = tmp_path / "origini.json"
+    write_json(path, envelope)
+
+    report = run_validate(path)
+
+    assert report["errors"] == []

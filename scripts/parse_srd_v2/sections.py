@@ -72,6 +72,29 @@ def section_ids() -> list[str]:
     return [section.id for section in SECTIONS_521]
 
 
+def _split_shared_origin_species_pages(
+    spec: SectionSpec,
+    paragraphs: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Split the shared pages 93-97 into Origini and Specie sections."""
+
+    if spec.id not in {"origini", "specie"}:
+        return paragraphs
+
+    species_start = None
+    for index, paragraph in enumerate(paragraphs):
+        text = str(paragraph.get("text", "")).strip().lower()
+        if text == "specie dei personaggi":
+            species_start = index
+            break
+
+    if species_start is None:
+        return paragraphs
+    if spec.id == "origini":
+        return paragraphs[:species_start]
+    return paragraphs[species_start:]
+
+
 def assign_sections(document: dict[str, Any]) -> dict[str, Any]:
     """Assign normalized paragraphs to expected source sections by page range."""
 
@@ -84,6 +107,7 @@ def assign_sections(document: dict[str, Any]) -> dict[str, Any]:
             if not isinstance(page_number, int) or page_number < start or page_number > end:
                 continue
             paragraphs.extend(page.get("paragraphs", []))
+        paragraphs = _split_shared_origin_species_pages(spec, paragraphs)
 
         sections.append(
             {

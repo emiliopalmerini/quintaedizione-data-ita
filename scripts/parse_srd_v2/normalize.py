@@ -31,12 +31,21 @@ def _classify_paragraph(spans: list[dict[str, Any]]) -> tuple[str, int | None]:
     return "heading", 6
 
 
+def _is_page_artifact(text: str, page_number: Any) -> bool:
+    """Return true for repeated PDF header/footer text."""
+
+    if text == "System Reference Document 5.2.1":
+        return True
+    return isinstance(page_number, int) and text == str(page_number)
+
+
 def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
     """Build a minimal normalized document model from extracted pages."""
 
     pages = []
     for page in extracted.get("pages", []):
         paragraphs = []
+        page_number = page.get("page_number")
         for block in page.get("blocks", []):
             for line in block.get("lines", []):
                 spans = line.get("spans", [])
@@ -44,13 +53,15 @@ def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
                 text = text.strip()
                 if not text:
                     continue
+                if _is_page_artifact(text, page_number):
+                    continue
                 role, heading_level = _classify_paragraph(spans)
                 paragraphs.append(
                     {
                         "text": text,
                         "role": role,
                         "heading_level": heading_level,
-                        "page_number": page.get("page_number"),
+                        "page_number": page_number,
                         "bbox": line.get("bbox", []),
                     }
                 )

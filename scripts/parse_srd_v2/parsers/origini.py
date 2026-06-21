@@ -28,6 +28,12 @@ _SKIP_HEADINGS = {
     "descrizioni delle specie",
 }
 
+_BOUNDARY_HEADINGS = {
+    "specie",
+    "specie dei personaggi",
+    "descrizioni delle specie",
+}
+
 
 def _content_segments(text: str) -> list[dict[str, str]]:
     if not text:
@@ -47,6 +53,29 @@ def _extract_meta(text: str) -> tuple[str, str] | None:
     if ":" not in text:
         return field, ""
     return field, text.split(":", 1)[1].strip()
+
+
+def _append_continuation(value: str, continuation: str) -> str:
+    continuation = continuation.strip()
+    if not value:
+        return continuation
+    value = value.strip()
+    if value.endswith(("\u00ad", "-")):
+        return value[:-1] + continuation
+    return f"{value} {continuation}"
+
+
+def _is_likely_field_continuation(value: str, text: str) -> bool:
+    value = value.strip()
+    text = text.strip()
+    if not value or not text:
+        return False
+    if value.endswith((",", " e", " capitolo", "\u00ad", "-")):
+        return True
+    if text.startswith(("\"", "(", "o (")):
+        return True
+    first = text[:1]
+    return bool(first and first.islower())
 
 
 def _is_heading(paragraph: dict[str, Any]) -> bool:
@@ -75,6 +104,15 @@ def _is_origin_heading(paragraphs: list[dict[str, Any]], index: int) -> bool:
     return _has_metadata_before_next_heading(paragraphs, index)
 
 
+def _next_boundary_index(paragraphs: list[dict[str, Any]], start_index: int) -> int:
+    for index, paragraph in enumerate(paragraphs[start_index + 1 :], start=start_index + 1):
+        if _is_heading(paragraph):
+            text = str(paragraph.get("text", "")).strip().lower()
+            if text in _BOUNDARY_HEADINGS:
+                return index
+    return len(paragraphs)
+
+
 def _build_origin(
     name: str,
     body: list[dict[str, Any]],
@@ -91,6 +129,7 @@ def _build_origin(
     }
     description_parts: list[str] = []
     pages: list[int] = []
+    current_field: str | None = None
 
     for paragraph in body:
         page_number = paragraph.get("page_number")
@@ -103,7 +142,15 @@ def _build_origin(
         if meta is not None:
             field, value = meta
             fields[field] = value
+            current_field = field
             continue
+        if current_field is not None and _is_likely_field_continuation(
+            fields[current_field],
+            text,
+        ):
+            fields[current_field] = _append_continuation(fields[current_field], text)
+            continue
+        current_field = None
         if not _is_heading(paragraph):
             description_parts.append(text)
 
@@ -137,7 +184,9 @@ def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any
 
     results: list[dict[str, Any]] = []
     for pos, index in enumerate(heading_indexes):
-        next_index = heading_indexes[pos + 1] if pos + 1 < len(heading_indexes) else len(paragraphs)
+        next_heading = heading_indexes[pos + 1] if pos + 1 < len(heading_indexes) else len(paragraphs)
+        next_boundary = _next_boundary_index(paragraphs, index)
+        next_index = min(next_heading, next_boundary)
         name = str(paragraphs[index].get("text", "")).strip()
         body = paragraphs[index + 1 : next_index]
         results.append(_build_origin(name, body, section=section, source_id=source_id))
