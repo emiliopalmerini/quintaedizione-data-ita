@@ -94,6 +94,16 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                         {"text": "Specie dei personaggi", "role": "heading", "page_number": 94},
                         {"text": "Dragonide", "role": "heading", "page_number": 94},
                     ],
+                },
+                {
+                    "page_number": 98,
+                    "paragraphs": [
+                        {"text": "Talenti", "role": "heading", "page_number": 98},
+                        {"text": "Talenti Origini", "role": "heading", "page_number": 98},
+                        {"text": "Abile", "role": "heading", "page_number": 98},
+                        {"text": "Talento Origini", "role": "body", "page_number": 98},
+                        {"text": "Il personaggio ottiene competenza.", "role": "body", "page_number": 98},
+                    ],
                 }
             ],
         },
@@ -104,22 +114,29 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     sections = read_json(tmp_path / "out" / "sections" / "sections.json")
     origin_envelope = read_json(tmp_path / "out" / "v2" / "origini.json")
     species_envelope = read_json(tmp_path / "out" / "v2" / "specie.json")
+    talent_envelope = read_json(tmp_path / "out" / "v2" / "talenti.json")
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
 
     assert report["errors"] == []
-    assert report["collection_item_counts"] == {"origini": 1, "specie": 1}
-    assert report["unsupported_section_count"] == 11
+    assert report["collection_item_counts"] == {"origini": 1, "specie": 1, "talenti": 1}
+    assert report["unsupported_section_count"] == 10
     assert sections["sections"][3]["id"] == "origini"
     assert origin_envelope["collection"] == "origini"
     assert origin_envelope["items"][0]["id"] == "soldato"
     assert species_envelope["collection"] == "specie"
     assert species_envelope["items"][0]["id"] == "dragonide"
-    assert coverage["covered_section_count"] == 2
-    assert coverage["empty_section_count"] == 11
+    assert talent_envelope["collection"] == "talenti"
+    assert talent_envelope["items"][0]["id"] == "abile"
+    assert coverage["covered_section_count"] == 3
+    assert coverage["empty_section_count"] == 10
     assert summary["status"] == "failed"
-    assert summary["parse"]["collection_item_counts"] == {"origini": 1, "specie": 1}
-    assert summary["parse"]["unsupported_section_count"] == 11
+    assert summary["parse"]["collection_item_counts"] == {
+        "origini": 1,
+        "specie": 1,
+        "talenti": 1,
+    }
+    assert summary["parse"]["unsupported_section_count"] == 10
 
 
 def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:
