@@ -5,12 +5,14 @@ from __future__ import annotations
 from typing import Any, Callable
 
 from .origini import parse_origini
+from .specie import parse_specie
 
 
 Parser = Callable[[dict[str, Any], str], list[dict[str, Any]]]
 
 PARSERS: dict[str, Parser] = {
     "origini": parse_origini,
+    "specie": parse_specie,
 }
 
 
