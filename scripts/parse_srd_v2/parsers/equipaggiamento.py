@@ -121,7 +121,10 @@ def _weapon_properties(text: str) -> tuple[list[str], list[dict[str, str]]]:
             continue
         match = re.fullmatch(r"(.+?)\s*\((.+)\)", value)
         name = match.group(1).strip() if match else value
-        property_ids.append(slugify(name))
+        property_id = slugify(name)
+        if not property_id:
+            continue
+        property_ids.append(property_id)
         if match:
             attributes.append(_attribute(f"Proprietà: {name}", match.group(2).strip()))
     return property_ids, attributes
