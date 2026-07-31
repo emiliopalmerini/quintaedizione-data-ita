@@ -355,3 +355,41 @@ def test_validate_envelope_accepts_creature_stat_block() -> None:
         "items[0].collection_id must match envelope collection"
         in validate_envelope(envelope)
     )
+
+
+def test_validate_envelope_accepts_glossary_entry() -> None:
+    envelope = empty_envelope(
+        "glossario_delle_regole", source=_source(), generated=_generated()
+    )
+    envelope["items"] = [
+        {
+            "id": "accecato-condizione",
+            "term": "Accecato [condizione]",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 202,
+                "page_end": 202,
+                "heading_path": ["Glossario delle regole", "Accecato [condizione]"],
+                "section_id": "glossario_delle_regole",
+                "parser": "glossario_delle_regole",
+            },
+            "descriptor_id": "condizione",
+            "content": [{"type": "text", "text": "Il personaggio non vede."}],
+            "related_entry_refs": [
+                {
+                    "source_id": "srd-5.2.1-it",
+                    "collection": "glossario_delle_regole",
+                    "id": "accecato-condizione",
+                    "text": "Accecato",
+                }
+            ],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["related_entry_refs"][0]["id"] = "termine-mancante"
+    assert (
+        "items[0].related_entry_refs[0].id references missing glossary entry: termine-mancante"
+        in validate_envelope(envelope)
+    )

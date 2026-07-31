@@ -98,6 +98,8 @@ _ENTITY_FIELDS = {
     },
     "regole": _BASE_ENTITY_FIELDS
     | {"title", "parent_id", "depth", "order", "content"},
+    "glossario_delle_regole": _BASE_ENTITY_FIELDS
+    | {"term", "descriptor_id", "content", "related_entry_refs"},
     "oggetti_magici": _COMMON_ENTITY_FIELDS
     | {"type_id", "type_name", "rarity_id", "attunement", "description"},
     "mostri": _CREATURE_FIELDS,
@@ -148,6 +150,7 @@ _CONTENT_FIELDS = {
     "incantesimi": {"description", "at_higher_levels"},
     "classi": {"description"},
     "regole": {"content"},
+    "glossario_delle_regole": {"content"},
     "oggetti_magici": {"description"},
 }
 
@@ -273,6 +276,20 @@ def validate_envelope(envelope: dict[str, Any]) -> list[str]:
                         if field not in item:
                             errors.append(f"items[{index}].{field} is required")
                     _validate_entity_fields(collection, item, index, errors)
+
+        if collection == "glossario_delle_regole":
+            for index, item in enumerate(items):
+                if not isinstance(item, dict):
+                    continue
+                refs = item.get("related_entry_refs", [])
+                if not isinstance(refs, list):
+                    continue
+                for ref_index, ref in enumerate(refs):
+                    if isinstance(ref, dict) and ref.get("id") not in seen_ids:
+                        errors.append(
+                            f"items[{index}].related_entry_refs[{ref_index}].id "
+                            f"references missing glossary entry: {ref.get('id')}"
+                        )
 
     return errors
 
@@ -421,6 +438,38 @@ def _validate_entity_fields(
                 errors.append(
                     f"items[{index}].{field} must be an integer >= {minimum}"
                 )
+
+    if collection == "glossario_delle_regole":
+        descriptor_id = item.get("descriptor_id")
+        if descriptor_id is not None and (
+            not isinstance(descriptor_id, str)
+            or _SLUG.fullmatch(descriptor_id) is None
+        ):
+            errors.append(
+                f"items[{index}].descriptor_id must be null or a lowercase ASCII slug"
+            )
+        refs = item.get("related_entry_refs")
+        if not isinstance(refs, list):
+            errors.append(f"items[{index}].related_entry_refs must be a list")
+        else:
+            for ref_index, ref in enumerate(refs):
+                prefix = f"items[{index}].related_entry_refs[{ref_index}]"
+                if not isinstance(ref, dict) or set(ref) != {
+                    "source_id",
+                    "collection",
+                    "id",
+                    "text",
+                }:
+                    errors.append(f"{prefix} must be a qualified glossary reference")
+                    continue
+                if ref.get("source_id") != item.get("source_id"):
+                    errors.append(f"{prefix}.source_id must match item source_id")
+                if ref.get("collection") != "glossario_delle_regole":
+                    errors.append(f"{prefix}.collection must be glossario_delle_regole")
+                if not isinstance(ref.get("id"), str) or _SLUG.fullmatch(ref["id"]) is None:
+                    errors.append(f"{prefix}.id must be a lowercase ASCII slug")
+                if not isinstance(ref.get("text"), str) or not ref["text"]:
+                    errors.append(f"{prefix}.text is required")
 
     if collection == "oggetti_magici" and "attunement" in item:
         attunement = item["attunement"]

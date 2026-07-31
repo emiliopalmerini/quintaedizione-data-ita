@@ -186,6 +186,38 @@ def _magic_item_nodes() -> list[dict]:
     ]
 
 
+def _glossary_nodes() -> list[dict]:
+    root = ["Glossario delle regole", "Definizione delle regole"]
+    return [
+        {
+            "type": "heading",
+            "heading_level": 1,
+            "text": root[0],
+            "page_number": 202,
+        },
+        {
+            "type": "heading",
+            "heading_level": 5,
+            "text": "Accecato [condizione]",
+            "page_number": 202,
+            "heading_path": [*root, "Accecato [condizione]"],
+        },
+        {
+            "type": "paragraph",
+            "text": "Il personaggio non vede. Vedi anche \"Condizione\".",
+            "page_number": 202,
+        },
+        {
+            "type": "heading",
+            "heading_level": 5,
+            "text": "Condizione",
+            "page_number": 202,
+            "heading_path": [*root, "Condizione"],
+        },
+        {"type": "paragraph", "text": "Uno stato temporaneo.", "page_number": 202},
+    ]
+
+
 def _creature_nodes(section: str, name: str, page_number: int) -> list[dict]:
     path = [section, name]
     return [
@@ -388,6 +420,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                     "page_number": 140,
                     "nodes": _spell_nodes(),
                 },
+                {"page_number": 202, "nodes": _glossary_nodes()},
                 {
                     "page_number": 220,
                     "nodes": _rule_nodes("Strumenti di gioco", 220),
@@ -419,6 +452,9 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         tmp_path / "out" / "v2" / "equipaggiamento.json"
     )
     spell_envelope = read_json(tmp_path / "out" / "v2" / "incantesimi.json")
+    glossary_envelope = read_json(
+        tmp_path / "out" / "v2" / "glossario_delle_regole.json"
+    )
     rules_envelope = read_json(tmp_path / "out" / "v2" / "regole.json")
     magic_item_envelope = read_json(
         tmp_path / "out" / "v2" / "oggetti_magici.json"
@@ -434,6 +470,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "animali": 1,
         "classi": 1,
         "equipaggiamento": 1,
+        "glossario_delle_regole": 2,
         "incantesimi": 1,
         "mostri": 1,
         "oggetti_magici": 1,
@@ -442,9 +479,9 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 1
-    assert report["node_accounting"]["consumed_node_count"] == 50
-    assert report["node_accounting"]["ignored_node_count"] == 9
+    assert report["unsupported_section_count"] == 0
+    assert report["node_accounting"]["consumed_node_count"] == 54
+    assert report["node_accounting"]["ignored_node_count"] == 10
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
@@ -457,17 +494,19 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert talent_envelope["items"][0]["id"] == "abile"
     assert equipment_envelope["items"][0]["id"] == "randello"
     assert spell_envelope["items"][0]["id"] == "allarme"
+    assert glossary_envelope["items"][0]["id"] == "accecato-condizione"
     assert len(rules_envelope["items"]) == 3
     assert magic_item_envelope["items"][0]["id"] == "ali-del-volo"
     assert monster_envelope["items"][0]["id"] == "lupo-crudele"
     assert animal_envelope["items"][0]["id"] == "lupo"
-    assert coverage["covered_section_count"] == 12
-    assert coverage["empty_section_count"] == 1
-    assert summary["status"] == "failed"
+    assert coverage["covered_section_count"] == 13
+    assert coverage["empty_section_count"] == 0
+    assert summary["status"] == "ok"
     assert summary["parse"]["collection_item_counts"] == {
         "animali": 1,
         "classi": 1,
         "equipaggiamento": 1,
+        "glossario_delle_regole": 2,
         "incantesimi": 1,
         "mostri": 1,
         "oggetti_magici": 1,
@@ -476,7 +515,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 1
+    assert summary["parse"]["unsupported_section_count"] == 0
     assert manifest["collections"] == [
         {
             "collection": "animali",
@@ -500,6 +539,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "path": "v2/equipaggiamento.json",
             "checksum_sha256": file_sha256(
                 tmp_path / "out" / "v2" / "equipaggiamento.json"
+            ),
+        },
+        {
+            "collection": "glossario_delle_regole",
+            "item_count": 2,
+            "path": "v2/glossario_delle_regole.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "glossario_delle_regole.json"
             ),
         },
         {
