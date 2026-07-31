@@ -26,7 +26,16 @@ _STATS_RE = re.compile(
     r"\(([^)]+)\)\s+Velocità\s+(.+)$",
     re.IGNORECASE,
 )
-_DETAIL_RE = re.compile(r"(Abilità|Sensi|Lingue|GS)\s+", re.IGNORECASE)
+_DETAIL_RE = re.compile(
+    r"(Abilità|Vulnerabilità|Resistenze|Immunità|Attrezzatura|Sensi|Lingue|GS)\s*:?[ \t]*",
+    re.IGNORECASE,
+)
+_CHALLENGE_RE = re.compile(
+    r"^(\S+)\s+\(PE\s+([\d.]+)"
+    r"(?:,\s*o\s*([\d.]+)\s*nella\s*tana)?"
+    r";\s*BC\s*([+−–-]?\d+)\)$",
+    re.IGNORECASE,
+)
 _CATEGORY_FIELDS = {
     "tratti": "traits",
     "azioni": "actions",
@@ -52,9 +61,22 @@ def _heading_path(node: dict[str, Any]) -> list[str]:
 
 def _details(text: str) -> dict[str, str]:
     matches = list(_DETAIL_RE.finditer(text))
-    result = {"skills": "", "senses": "", "languages": "", "challenge_rating": ""}
+    result = {
+        "skills": "",
+        "vulnerabilities": "",
+        "resistances": "",
+        "immunities": "",
+        "equipment": "",
+        "senses": "",
+        "languages": "",
+        "challenge_rating": "",
+    }
     fields = {
         "abilità": "skills",
+        "vulnerabilità": "vulnerabilities",
+        "resistenze": "resistances",
+        "immunità": "immunities",
+        "attrezzatura": "equipment",
         "sensi": "senses",
         "lingue": "languages",
         "gs": "challenge_rating",
@@ -63,21 +85,45 @@ def _details(text: str) -> dict[str, str]:
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         value = text[match.end() : end].strip()
         field = fields[match.group(1).lower()]
-        result[field] = value.split(" ", 1)[0] if field == "challenge_rating" else value
+        result[field] = value
     return result
 
 
-def _abilities(table: dict[str, Any]) -> dict[str, int]:
+def _signed_integer(value: str) -> int:
+    return int(value.replace("−", "-").replace("–", "-").lstrip("+"))
+
+
+def _abilities(
+    table: dict[str, Any],
+) -> tuple[dict[str, int], dict[str, int], dict[str, int]]:
     scores: dict[str, int] = {}
+    modifiers: dict[str, int] = {}
+    saves: dict[str, int] = {}
     for row in table.get("rows", []):
         cells = [str(cell.get("text", "")) for cell in row.get("cells", [])]
         for index in (0, 4, 8):
-            if index >= len(cells):
+            if index + 2 >= len(cells):
                 continue
             match = re.fullmatch(r"(For|Des|Cos|Int|Sag|Car)\s+(\d+)", cells[index])
             if match:
-                scores[match.group(1).lower()] = int(match.group(2))
-    return scores
+                ability_id = match.group(1).lower()
+                scores[ability_id] = int(match.group(2))
+                modifiers[ability_id] = _signed_integer(cells[index + 1])
+                saves[ability_id] = _signed_integer(cells[index + 2])
+    return scores, modifiers, saves
+
+
+def _challenge(value: str) -> tuple[str, int, int | None, int]:
+    match = _CHALLENGE_RE.fullmatch(value.strip())
+    if match is None:
+        raise ValueError(f"unsupported creature challenge metadata: {value!r}")
+    rating, experience, lair_experience, proficiency = match.groups()
+    return (
+        rating,
+        int(experience.replace(".", "")),
+        int(lair_experience.replace(".", "")) if lair_experience else None,
+        _signed_integer(proficiency),
+    )
 
 
 def _feature_parts(node: dict[str, Any], text: str) -> tuple[str, str] | None:
@@ -140,22 +186,37 @@ def _parse_stat_block(
         return None
     creature_type = " ".join(parts[:size_index])
     size = parts[size_index]
+    classification_details = " ".join(parts[size_index + 1 :])
+    alternate_match = re.search(
+        r"\bo\s+(minuscol[ao]|piccol[ao]|medi[ao]|grande|enorme|mastodontic[ao])\b",
+        classification_details,
+        re.IGNORECASE,
+    )
+    alternate_size_id = (
+        _SIZES[alternate_match.group(1).lower()] if alternate_match else None
+    )
 
     stats_match = _STATS_RE.search(str(nodes[2].get("text", "")))
     if stats_match is None:
         return None
     ac, initiative, hp_average, hp_formula, speed = stats_match.groups()
     ability_table = next((node for node in nodes if node.get("type") == "table"), {})
-    detail_node = next(
-        (
-            node
-            for node in nodes[3:]
-            if node.get("type") == "paragraph"
-            and "GS " in str(node.get("text", ""))
-        ),
-        {},
+    ability_scores, ability_modifiers, saving_throw_bonuses = _abilities(
+        ability_table
     )
-    details = _details(str(detail_node.get("text", "")))
+    table_index = nodes.index(ability_table) if ability_table else 3
+    metadata_nodes = []
+    for node in nodes[table_index + 1 :]:
+        if node.get("type") == "heading" and node.get("heading_level") == 6:
+            break
+        if node.get("type") == "paragraph":
+            metadata_nodes.append(node)
+    details = _details(
+        " ".join(str(node.get("text", "")).strip() for node in metadata_nodes)
+    )
+    challenge_rating, experience_points, lair_experience_points, proficiency_bonus = (
+        _challenge(details.pop("challenge_rating"))
+    )
     feature_data = _features(nodes[3:])
     pages: list[int] = []
     for node in nodes:
@@ -179,12 +240,20 @@ def _parse_stat_block(
         "group": path[-2] if len(path) > 1 else "",
         "creature_type_id": slugify(creature_type),
         "size_id": _SIZES[size.lower()],
+        "classification_details": classification_details,
+        "alternate_size_id": alternate_size_id,
         "alignment": alignment.strip(),
         "ac": int(ac),
         "initiative": initiative.strip(),
         "hp": {"average": int(hp_average), "formula": hp_formula.strip()},
         "speed": speed.strip(),
-        "ability_scores": _abilities(ability_table),
+        "ability_scores": ability_scores,
+        "ability_modifiers": ability_modifiers,
+        "saving_throw_bonuses": saving_throw_bonuses,
+        "challenge_rating": challenge_rating,
+        "experience_points": experience_points,
+        "lair_experience_points": lair_experience_points,
+        "proficiency_bonus": proficiency_bonus,
         **details,
         **feature_data,
     }

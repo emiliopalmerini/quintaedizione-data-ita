@@ -37,10 +37,21 @@ _CREATURE_FIELDS = _COMMON_ENTITY_FIELDS | {
     "hp",
     "speed",
     "ability_scores",
+    "ability_modifiers",
+    "saving_throw_bonuses",
     "skills",
+    "vulnerabilities",
+    "resistances",
+    "immunities",
+    "equipment",
     "senses",
     "languages",
     "challenge_rating",
+    "experience_points",
+    "lair_experience_points",
+    "proficiency_bonus",
+    "classification_details",
+    "alternate_size_id",
     "traits",
     "actions",
     "bonus_actions",
@@ -503,9 +514,27 @@ def _validate_creature(
             or _SLUG.fullmatch(item[field]) is None
         ):
             errors.append(f"{prefix}.{field} must be a lowercase ASCII slug")
-    for field in ("group", "skills", "senses", "languages"):
+    for field in (
+        "group",
+        "skills",
+        "vulnerabilities",
+        "resistances",
+        "immunities",
+        "equipment",
+        "senses",
+        "languages",
+        "classification_details",
+    ):
         if not isinstance(item.get(field), str):
             errors.append(f"{prefix}.{field} must be a string")
+    alternate_size_id = item.get("alternate_size_id")
+    if alternate_size_id is not None and (
+        not isinstance(alternate_size_id, str)
+        or _SLUG.fullmatch(alternate_size_id) is None
+    ):
+        errors.append(
+            f"{prefix}.alternate_size_id must be null or a lowercase ASCII slug"
+        )
     if not isinstance(item.get("ac"), int) or isinstance(item.get("ac"), bool):
         errors.append(f"{prefix}.ac must be an integer")
     hp = item.get("hp")
@@ -529,6 +558,40 @@ def _validate_creature(
         )
     ):
         errors.append(f"{prefix}.ability_scores must contain six integer scores")
+    for field in ("ability_modifiers", "saving_throw_bonuses"):
+        values = item.get(field)
+        if (
+            not isinstance(values, dict)
+            or set(values) != ability_ids
+            or not all(
+                isinstance(value, int) and not isinstance(value, bool)
+                for value in values.values()
+            )
+        ):
+            errors.append(f"{prefix}.{field} must contain six integer values")
+    experience = item.get("experience_points")
+    if (
+        not isinstance(experience, int)
+        or isinstance(experience, bool)
+        or experience < 0
+    ):
+        errors.append(f"{prefix}.experience_points must be a non-negative integer")
+    proficiency = item.get("proficiency_bonus")
+    if (
+        not isinstance(proficiency, int)
+        or isinstance(proficiency, bool)
+        or proficiency <= 0
+    ):
+        errors.append(f"{prefix}.proficiency_bonus must be a positive integer")
+    lair_experience = item.get("lair_experience_points")
+    if lair_experience is not None and (
+        not isinstance(lair_experience, int)
+        or isinstance(lair_experience, bool)
+        or lair_experience < 0
+    ):
+        errors.append(
+            f"{prefix}.lair_experience_points must be null or a non-negative integer"
+        )
     for field in (
         "traits",
         "actions",

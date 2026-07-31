@@ -185,6 +185,31 @@ segments. Class headings are discovered structurally from regions containing a
 valid level-progression table; a hard-coded inventory of class names may only be
 used as an acceptance baseline.
 
+### Creatures
+
+Monster and animal records preserve the complete source stat block. In addition
+to identity, provenance, armor class, initiative, hit points, speed, alignment,
+and challenge rating, every record contains:
+
+- `ability_scores`, `ability_modifiers`, and `saving_throw_bonuses`, each keyed
+  by the six controlled Italian ability IDs;
+- `skills`, `senses`, and `languages` as normalized source display text;
+- `vulnerabilities`, `resistances`, `immunities`, and `equipment` as lossless
+  source display text, using an empty string when the source field is absent;
+- `experience_points`, optional `lair_experience_points`, and
+  `proficiency_bonus` as integers;
+- `classification_details` for subtype, swarm, or alternate-size text that
+  follows the primary creature type and size;
+- optional `alternate_size_id` when the subtitle explicitly permits a second
+  size;
+- structured traits, actions, bonus actions, reactions, and legendary actions.
+
+The display fields for defenses and equipment remain lossless until qualified
+values, conditional defenses, quantities, and controlled references can all be
+represented without discarding source qualifiers. Saving throws are never
+inferred from ability scores because the source values include proficiency and
+other bonuses.
+
 ### Rules
 
 Rules are flat, addressable records rather than nested anonymous children. Every
