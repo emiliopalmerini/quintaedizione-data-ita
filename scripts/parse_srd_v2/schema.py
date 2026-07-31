@@ -311,6 +311,8 @@ def _validate_entity_fields(
     if collection == "equipaggiamento":
         for field in ("cost", "weight"):
             if field in item:
+                if field == "weight" and item[field] is None:
+                    continue
                 _validate_measure(item[field], f"items[{index}].{field}", errors)
         if "damage" in item:
             _validate_damage(item["damage"], f"items[{index}].damage", errors)
@@ -494,7 +496,7 @@ def _validate_damage(value: Any, prefix: str, errors: list[str]) -> None:
     if unknown:
         errors.append(f"{prefix} has unknown fields: {', '.join(unknown)}")
     dice = value.get("dice")
-    if not isinstance(dice, str) or re.fullmatch(r"\d+d\d+", dice) is None:
+    if not isinstance(dice, str) or re.fullmatch(r"\d+(?:d\d+)?", dice) is None:
         errors.append(f"{prefix}.dice must be dice notation")
     type_id = value.get("type_id")
     if not isinstance(type_id, str) or _SLUG.fullmatch(type_id) is None:

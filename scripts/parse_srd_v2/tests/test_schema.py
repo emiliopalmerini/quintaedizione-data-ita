@@ -142,6 +142,10 @@ def test_validate_envelope_accepts_typed_weapon_equipment() -> None:
 
     assert validate_envelope(envelope) == []
 
+    envelope["items"][0]["weight"] = None
+    assert validate_envelope(envelope) == []
+    envelope["items"][0]["weight"] = {"quantity": 1, "unit": "kg"}
+
     envelope["items"][0]["cost"] = {"quantity": "1", "unit": "ma", "extra": True}
     errors = validate_envelope(envelope)
     assert "items[0].cost has unknown fields: extra" in errors

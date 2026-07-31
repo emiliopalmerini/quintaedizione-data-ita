@@ -88,3 +88,80 @@ def test_parse_weapon_table_into_typed_equipment() -> None:
     assert result.ignored_nodes == [
         {"node_id": "p0101-n0001", "reason": "section_preamble"}
     ]
+
+
+def test_parse_real_weapon_table_without_header_and_collapsed_rows() -> None:
+    section = {
+        "id": "equipaggiamento",
+        "title": "Equipaggiamento",
+        "page_start": 101,
+        "page_end": 117,
+        "nodes": [
+            {
+                "id": "p0103-n0008",
+                "type": "table",
+                "page_number": 103,
+                "heading_path": ["Equipaggiamento", "Armi"],
+                "rows": [
+                    {
+                        "cells": [
+                            {"text": "Armi da mischia semplici"},
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {"text": "Randello"},
+                            {"text": "1d4 contundenti"},
+                            {"text": "Leggera"},
+                            {"text": "Lentezza"},
+                            {"text": "1 kg"},
+                            {"text": "1 mo"},
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "text": (
+                                    "Pugnale 1d4 perforanti Accurata, leggera "
+                                    "Vessazione 0,5 kg 2 mo"
+                                )
+                            },
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                            {"text": ""},
+                        ]
+                    },
+                ],
+            },
+            {
+                "id": "p0103-n0009",
+                "type": "paragraph",
+                "page_number": 103,
+                "heading_path": ["Equipaggiamento", "Armi"],
+                "text": (
+                    "Spada lunga 1d8 taglienti Versatile (1d10) "
+                    "Fiaccare 1,5 kg 15 mo"
+                ),
+            },
+        ],
+    }
+
+    result = parse_equipaggiamento(section, "srd-5.2.1-it")
+
+    assert [item["id"] for item in result.items] == [
+        "randello",
+        "pugnale",
+        "spada-lunga",
+    ]
+    assert result.items[1]["damage"] == {"dice": "1d4", "type_id": "perforanti"}
+    assert result.items[1]["property_ids"] == ["accurata", "leggera"]
+    assert result.items[1]["mastery_id"] == "vessazione"
+    assert result.items[1]["weight"] == {"quantity": 0.5, "unit": "kg"}
+    assert result.items[1]["cost"] == {"quantity": 2, "unit": "mo"}
