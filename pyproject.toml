@@ -15,3 +15,6 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["scripts/parse_srd_v2/tests"]
 addopts = "-q"
+markers = [
+    "full_pdf: release acceptance tests requiring SRD_521_IT_PDF",
+]

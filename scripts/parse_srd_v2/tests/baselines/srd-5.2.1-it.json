@@ -1,0 +1,43 @@
+{
+  "source_id": "srd-5.2.1-it",
+  "checksum_sha256": "a7b88b0cd4f6424624cf5046c96755652985a27a2d405e30948e44b1f5e1f718",
+  "page_count": 405,
+  "schema_version": "2.0.0",
+  "collection_item_counts": {
+    "animali": 95,
+    "classi": 12,
+    "equipaggiamento": 189,
+    "glossario_delle_regole": 154,
+    "incantesimi": 339,
+    "mostri": 235,
+    "oggetti_magici": 245,
+    "origini": 4,
+    "regole": 229,
+    "specie": 9,
+    "talenti": 17
+  },
+  "class_semantics": {
+    "progression_rows": 240,
+    "subclasses": 12,
+    "subclass_features": 58,
+    "spell_memberships": 875
+  },
+  "equipment_category_counts": {
+    "arma": 38,
+    "armatura": 13,
+    "cavalcatura": 8,
+    "equipaggiamento-d-avventura": 81,
+    "finimento": 10,
+    "servizio": 7,
+    "strumento": 25,
+    "veicolo": 7
+  },
+  "creature_field_counts": {
+    "equipment": 45,
+    "immunities": 147,
+    "lair_experience_points": 27,
+    "resistances": 70,
+    "saving_throw_bonuses": 330,
+    "vulnerabilities": 15
+  }
+}

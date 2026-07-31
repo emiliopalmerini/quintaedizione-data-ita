@@ -118,9 +118,13 @@ def extract_pdf(
 
         pages.append(page_entry)
 
-    validate_source_profile(profile, page_count=len(doc), font_names=font_names)
-
     metadata = source_metadata(pdf_path, profile=profile, page_count=len(doc))
+    validate_source_profile(
+        profile,
+        page_count=len(doc),
+        font_names=font_names,
+        checksum_sha256=metadata.checksum_sha256,
+    )
     artifact = {
         "stage": "extracted",
         "source": {

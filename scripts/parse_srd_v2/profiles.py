@@ -16,6 +16,7 @@ class SourceProfile:
     title: str
     expected_page_count: int
     required_font_markers: tuple[str, ...]
+    accepted_checksum_sha256: str | None = None
 
 
 SRD_521_IT = SourceProfile(
@@ -24,6 +25,9 @@ SRD_521_IT = SourceProfile(
     title="System Reference Document 5.2.1 Italiano",
     expected_page_count=405,
     required_font_markers=("GillSans", "Cambria", "Optima"),
+    accepted_checksum_sha256=(
+        "a7b88b0cd4f6424624cf5046c96755652985a27a2d405e30948e44b1f5e1f718"
+    ),
 )
 
 
@@ -32,6 +36,7 @@ def validate_source_profile(
     *,
     page_count: int,
     font_names: set[str],
+    checksum_sha256: str | None = None,
 ) -> None:
     """Validate the basic source identity against a profile."""
 
@@ -39,6 +44,13 @@ def validate_source_profile(
         raise SourceIdentityError(
             f"{profile.name} expects {profile.expected_page_count} pages, got {page_count}"
         )
+
+    if (
+        profile.accepted_checksum_sha256 is not None
+        and checksum_sha256 is not None
+        and checksum_sha256 != profile.accepted_checksum_sha256
+    ):
+        raise SourceIdentityError(f"{profile.name} checksum mismatch")
 
     missing = [
         marker

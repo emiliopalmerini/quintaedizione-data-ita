@@ -55,6 +55,20 @@ Required fixture categories:
 
 Full-PDF tests should be reserved for integration validation.
 
+The accepted SRD 5.2.1 checksum and reviewed semantic counts are versioned in
+`scripts/parse_srd_v2/tests/baselines/srd-5.2.1-it.json`. Release qualification
+must provide the source explicitly and run the full-PDF marker:
+
+```bash
+SRD_521_IT_PDF="$PWD/source/srd-5.2.1-it.pdf" \
+  uv run pytest -m full_pdf scripts/parse_srd_v2/tests/test_full_pdf.py
+```
+
+The full-PDF test performs two builds in fresh directories, validates reviewed
+collection and semantic counts, and compares every generated JSON artifact by
+SHA-256. A missing source path skips this expensive test in ordinary fixture CI
+but is not acceptable for release qualification.
+
 ## Regression Tests
 
 Unit tests validate stage behavior in isolation:
