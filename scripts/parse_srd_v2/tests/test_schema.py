@@ -146,3 +146,45 @@ def test_validate_envelope_accepts_typed_weapon_equipment() -> None:
     errors = validate_envelope(envelope)
     assert "items[0].cost has unknown fields: extra" in errors
     assert "items[0].cost.quantity must be a number" in errors
+
+
+def test_validate_envelope_accepts_typed_spell() -> None:
+    envelope = empty_envelope("incantesimi", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "allarme",
+            "name": "Allarme",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 140,
+                "page_end": 140,
+                "heading_path": ["Incantesimi", "Descrizioni", "Allarme"],
+                "section_id": "incantesimi",
+                "parser": "incantesimi",
+            },
+            "level": 1,
+            "school_id": "abiurazione",
+            "class_ids": ["mago", "ranger"],
+            "casting_time": "1 minuto o rituale",
+            "range": "9 metri",
+            "components": {
+                "verbal": True,
+                "somatic": True,
+                "material": True,
+                "material_text": "una campanella",
+            },
+            "duration": "8 ore",
+            "ritual": True,
+            "concentration": False,
+            "description": [{"type": "text", "text": "Descrizione."}],
+            "at_higher_levels": [],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["class_ids"] = ["Mago"]
+    assert (
+        "items[0].class_ids must be a lowercase ASCII slug list"
+        in validate_envelope(envelope)
+    )

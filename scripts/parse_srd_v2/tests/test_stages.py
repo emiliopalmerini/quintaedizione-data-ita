@@ -67,6 +67,30 @@ def _weapon_table_node() -> dict:
     }
 
 
+def _spell_nodes() -> list[dict]:
+    description_path = ["Incantesimi", "Descrizioni degli incantesimi"]
+    values = [
+        ("heading", "Descrizioni degli incantesimi"),
+        ("heading", "Allarme"),
+        ("paragraph", "Abiurazione di 1\u00ba livello (Mago, Ranger)"),
+        ("paragraph", "Tempo di lancio: 1 minuto o rituale"),
+        ("paragraph", "Gittata: 9 metri"),
+        ("paragraph", "Componenti: V, S"),
+        ("paragraph", "Durata: 8 ore"),
+        ("paragraph", "L'incantatore predispone un allarme."),
+    ]
+    nodes = []
+    for index, (node_type, text) in enumerate(values):
+        node = {"type": node_type, "text": text, "page_number": 140}
+        if node_type == "heading":
+            node["heading_level"] = 2 if index == 0 else 5
+            node["heading_path"] = (
+                description_path if index == 0 else [*description_path, text]
+            )
+        nodes.append(node)
+    return nodes
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -180,6 +204,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                         },
                         _weapon_table_node(),
                     ],
+                },
+                {
+                    "page_number": 140,
+                    "nodes": _spell_nodes(),
                 }
             ],
         }),
@@ -194,6 +222,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     equipment_envelope = read_json(
         tmp_path / "out" / "v2" / "equipaggiamento.json"
     )
+    spell_envelope = read_json(tmp_path / "out" / "v2" / "incantesimi.json")
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
     manifest = read_json(tmp_path / "out" / "manifest.json")
@@ -201,13 +230,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert report["errors"] == []
     assert report["collection_item_counts"] == {
         "equipaggiamento": 1,
+        "incantesimi": 1,
         "origini": 1,
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 9
-    assert report["node_accounting"]["consumed_node_count"] == 15
-    assert report["node_accounting"]["ignored_node_count"] == 5
+    assert report["unsupported_section_count"] == 8
+    assert report["node_accounting"]["consumed_node_count"] == 22
+    assert report["node_accounting"]["ignored_node_count"] == 6
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
@@ -218,16 +248,18 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert talent_envelope["collection"] == "talenti"
     assert talent_envelope["items"][0]["id"] == "abile"
     assert equipment_envelope["items"][0]["id"] == "randello"
-    assert coverage["covered_section_count"] == 4
-    assert coverage["empty_section_count"] == 9
+    assert spell_envelope["items"][0]["id"] == "allarme"
+    assert coverage["covered_section_count"] == 5
+    assert coverage["empty_section_count"] == 8
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
         "equipaggiamento": 1,
+        "incantesimi": 1,
         "origini": 1,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 9
+    assert summary["parse"]["unsupported_section_count"] == 8
     assert manifest["collections"] == [
         {
             "collection": "equipaggiamento",
@@ -235,6 +267,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "path": "v2/equipaggiamento.json",
             "checksum_sha256": file_sha256(
                 tmp_path / "out" / "v2" / "equipaggiamento.json"
+            ),
+        },
+        {
+            "collection": "incantesimi",
+            "item_count": 1,
+            "path": "v2/incantesimi.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "incantesimi.json"
             ),
         },
         {

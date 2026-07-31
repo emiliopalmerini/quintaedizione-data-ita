@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, Callable
 
 from .equipaggiamento import parse_equipaggiamento
+from .incantesimi import parse_incantesimi
 from .origini import parse_origini
 from .result import ParseResult
 from .specie import parse_specie
@@ -18,6 +19,7 @@ PARSERS: dict[str, Parser] = {
     "specie": parse_specie,
     "talenti": parse_talenti,
     "equipaggiamento": parse_equipaggiamento,
+    "incantesimi": parse_incantesimi,
 }
 
 

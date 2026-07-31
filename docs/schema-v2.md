@@ -157,3 +157,17 @@ rows, and ordered cells. Every cell contains text and its source bounding box.
 Header and subcategory rows remain explicit rows until a typed collection parser
 consumes them. Table content is not converted to markdown and is not also emitted
 as duplicate paragraph nodes.
+
+### Spells
+
+Spell records include `level`, `school_id`, and `class_ids` as typed builder
+fields. Casting time, range, and duration retain normalized display text until
+their complete SRD expression grammar is implemented. Components use an object
+with `verbal`, `somatic`, and `material` booleans plus optional `material_text`.
+`ritual` and `concentration` are explicit booleans.
+
+Spell entries are discovered from level-5 headings beneath the structural
+`Descrizioni degli incantesimi` heading path, never from a hard-coded spell-name
+inventory. `description` and `at_higher_levels` are separate content segment
+lists. Spell-list tables are separate structured inputs that later resolve class
+spell-list references; they are not spell definitions.

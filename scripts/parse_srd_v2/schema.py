@@ -50,6 +50,20 @@ _ENTITY_FIELDS = {
         "mastery_id",
         "description",
     },
+    "incantesimi": _COMMON_ENTITY_FIELDS
+    | {
+        "level",
+        "school_id",
+        "class_ids",
+        "casting_time",
+        "range",
+        "components",
+        "duration",
+        "ritual",
+        "concentration",
+        "description",
+        "at_higher_levels",
+    },
 }
 _OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
@@ -67,12 +81,14 @@ _STRING_FIELDS = {
         "subcategory_id",
         "subcategory_name",
     },
+    "incantesimi": {"school_id", "casting_time", "range", "duration"},
 }
 _CONTENT_FIELDS = {
     "origini": {"description"},
     "specie": {"description"},
     "talenti": {"benefit"},
     "equipaggiamento": {"description"},
+    "incantesimi": {"description", "at_higher_levels"},
 }
 
 
@@ -291,6 +307,34 @@ def _validate_entity_fields(
         ):
             errors.append(f"items[{index}].mastery_id must be a lowercase ASCII slug")
 
+    if collection == "incantesimi":
+        level = item.get("level")
+        if "level" in item and (
+            not isinstance(level, int) or isinstance(level, bool) or not 0 <= level <= 9
+        ):
+            errors.append(f"items[{index}].level must be an integer from 0 to 9")
+        for field in ("school_id",):
+            if field in item and _SLUG.fullmatch(str(item[field])) is None:
+                errors.append(f"items[{index}].{field} must be a lowercase ASCII slug")
+        if "class_ids" in item:
+            class_ids = item["class_ids"]
+            if not isinstance(class_ids, list) or not all(
+                isinstance(value, str) and _SLUG.fullmatch(value)
+                for value in class_ids
+            ):
+                errors.append(
+                    f"items[{index}].class_ids must be a lowercase ASCII slug list"
+                )
+        for field in ("ritual", "concentration"):
+            if field in item and not isinstance(item[field], bool):
+                errors.append(f"items[{index}].{field} must be a boolean")
+        if "components" in item:
+            _validate_components(
+                item["components"],
+                f"items[{index}].components",
+                errors,
+            )
+
 
 def _validate_measure(value: Any, prefix: str, errors: list[str]) -> None:
     if not isinstance(value, dict):
@@ -320,6 +364,21 @@ def _validate_damage(value: Any, prefix: str, errors: list[str]) -> None:
     type_id = value.get("type_id")
     if not isinstance(type_id, str) or _SLUG.fullmatch(type_id) is None:
         errors.append(f"{prefix}.type_id must be a lowercase ASCII slug")
+
+
+def _validate_components(value: Any, prefix: str, errors: list[str]) -> None:
+    if not isinstance(value, dict):
+        errors.append(f"{prefix} must be an object")
+        return
+    fields = {"verbal", "somatic", "material", "material_text"}
+    unknown = sorted(set(value) - fields)
+    if unknown:
+        errors.append(f"{prefix} has unknown fields: {', '.join(unknown)}")
+    for field in ("verbal", "somatic", "material"):
+        if not isinstance(value.get(field), bool):
+            errors.append(f"{prefix}.{field} must be a boolean")
+    if not isinstance(value.get("material_text"), str):
+        errors.append(f"{prefix}.material_text must be a string")
 
 
 def _validate_content(value: Any, prefix: str, errors: list[str]) -> None:
