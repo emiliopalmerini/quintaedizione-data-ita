@@ -398,8 +398,8 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                     "page_number": 98,
                     "nodes": [
                         {"text": "Talenti", "type": "heading", "page_number": 98},
-                        {"text": "Talenti Origini", "type": "heading", "page_number": 98},
-                        {"text": "Abile", "type": "heading", "page_number": 98},
+                        {"text": "Talenti Origini", "type": "heading", "heading_level": 4, "page_number": 98},
+                        {"text": "Abile", "type": "heading", "heading_level": 5, "page_number": 98, "heading_path": ["Talenti", "Descrizioni dei talenti", "Talenti Origini", "Abile"]},
                         {"text": "Talento Origini", "type": "paragraph", "page_number": 98},
                         {"text": "Il personaggio ottiene competenza.", "type": "paragraph", "page_number": 98},
                     ],
@@ -601,8 +601,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         },
     ]
     assert [report["path"] for report in manifest["reports"]] == [
+        "reports/confidence.json",
         "reports/coverage.json",
         "reports/parse.json",
+        "reports/references.json",
         "reports/summary.json",
     ]
     assert all(report["checksum_sha256"] for report in manifest["reports"])
@@ -694,6 +696,15 @@ def test_run_build_stops_after_canonical_parse(monkeypatch, tmp_path: Path) -> N
     assert calls == ["extract", "normalize", "parse", "validate"]
     validation = read_json(tmp_path / "output" / "reports" / "validation.json")
     assert validation["errors"] == []
+
+
+def test_run_build_rejects_nonempty_output_directory(tmp_path: Path) -> None:
+    output_dir = tmp_path / "output"
+    output_dir.mkdir()
+    (output_dir / "stale.json").write_text("{}", encoding="utf-8")
+
+    with pytest.raises(BuildValidationError, match="output directory must be empty"):
+        stages.run_build(tmp_path / "source.pdf", output_dir)
 
 
 def test_run_build_fails_when_validation_is_incomplete(monkeypatch, tmp_path: Path) -> None:

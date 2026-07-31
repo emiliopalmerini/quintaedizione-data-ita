@@ -16,16 +16,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
         with:
-          go-version: '1.25.2'
+          version: latest
+          enable-cache: true
 
-      - name: Format check
-        run: test -z "$(gofmt -l .)"
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
 
-      - name: Vet
-        run: go vet ./...
+      - name: Install locked dependencies
+        run: uv sync --frozen --dev
 
-      - name: Run tests
-        run: go test -race -v ./...
+      - name: Run parser tests
+        run: uv run pytest

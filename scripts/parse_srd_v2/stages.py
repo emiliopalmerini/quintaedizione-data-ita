@@ -19,10 +19,16 @@ from .manifest import (
 from .normalize import normalize_extracted
 from .parsers import get_parser
 from .profiles import SRD_521_IT
-from .reports import build_coverage_report, build_summary_report
+from .reports import (
+    build_confidence_report,
+    build_coverage_report,
+    build_references_report,
+    build_summary_report,
+)
 from .references import resolve_class_spell_lists
 from .schema import empty_envelope, validate_envelope
 from .sections import assign_sections
+from .version import DATASET_VERSION
 
 
 STAGE_DIRS = ("extracted", "normalized", "sections", "v2", "reports")
@@ -56,7 +62,7 @@ def write_manifest(
 
     manifest = Manifest(
         schema_version="2.0.0",
-        dataset_version="0.1.0",
+        dataset_version=DATASET_VERSION,
         locale="it",
         source=source,
         generated=generated_metadata(),
@@ -241,6 +247,8 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
             by_collection.get("incantesimi", []),
         )
     )
+    references_report = build_references_report(by_collection)
+    report["errors"].extend(references_report["errors"])
 
     for collection_id, items in by_collection.items():
         envelope = empty_envelope(collection_id, source=source, generated=generated)
@@ -263,6 +271,8 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
 
     report_path = paths["reports"] / "parse.json"
     write_json(report_path, report)
+    write_json(paths["reports"] / "confidence.json", build_confidence_report(report))
+    write_json(paths["reports"] / "references.json", references_report)
     coverage_report = build_coverage_report(sections_artifact)
     write_json(paths["reports"] / "coverage.json", coverage_report)
     summary_report = build_summary_report(sections_artifact, report, coverage_report)
@@ -319,6 +329,12 @@ def run_validate(v2_path: Path) -> dict[str, Any]:
 def run_build(pdf_path: Path, output_dir: Path) -> None:
     """Build canonical artifacts and enforce all implemented quality gates."""
 
+    if output_dir.exists() and (
+        not output_dir.is_dir() or any(output_dir.iterdir())
+    ):
+        raise BuildValidationError(
+            f"output directory must be empty: {output_dir}"
+        )
     extracted = run_extract(pdf_path, output_dir)
     normalized = run_normalize(extracted.parent, output_dir)
     run_parse(output_dir / "normalized", output_dir)

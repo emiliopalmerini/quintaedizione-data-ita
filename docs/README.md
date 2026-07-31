@@ -16,6 +16,7 @@ For maintainers:
 1. Read [Vision](vision.md) to understand goals, non-goals, and constraints.
 2. Read [Architecture](architecture.md) for subsystem boundaries.
 3. Read [Quality and Testing](quality-and-testing.md) for acceptance gates.
+4. Read [Releasing](releasing.md) before publishing a dataset.
 
 For parser implementers:
 
@@ -45,6 +46,7 @@ For LLM agents:
 - [Quality and Testing](quality-and-testing.md): validation, fixtures, and
   regression policy.
 - [LLM Context](llm-context.md): concise implementation guidance for agents.
+- [Releasing](releasing.md): qualification, versioning, and archive publication.
 - [Glossary](glossary.md): shared vocabulary.
 
 ## Documentation Rules

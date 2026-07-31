@@ -15,7 +15,8 @@ The parser must record:
 - Page count.
 - Parser version.
 - Profile name.
-- Run timestamp.
+- Optional operational run timestamp, written only to noncanonical metadata
+  excluded from manifests, checksums, and reproducibility comparisons.
 
 The parser must refuse to continue if the source profile does not match the
 expected page count and recognizable font/layout markers.

@@ -1,6 +1,11 @@
 from __future__ import annotations
 
-from scripts.parse_srd_v2.reports import build_coverage_report, build_summary_report
+from scripts.parse_srd_v2.reports import (
+    build_confidence_report,
+    build_coverage_report,
+    build_references_report,
+    build_summary_report,
+)
 
 
 def test_build_coverage_report_flags_empty_required_sections() -> None:
@@ -100,3 +105,48 @@ def test_build_summary_report_marks_coverage_errors_failed() -> None:
 
     assert report["status"] == "failed"
     assert report["errors"] == ["required section has no normalized nodes: mostri"]
+
+
+def test_build_confidence_report_counts_ignored_reasons() -> None:
+    report = build_confidence_report(
+        {
+            "node_accounting": {
+                "ignored_nodes": [
+                    {"node_id": "n1", "reason": "section_preamble"},
+                    {"node_id": "n2", "reason": "unsupported_table"},
+                ]
+            }
+        }
+    )
+
+    assert report["ignored_reason_counts"] == {
+        "section_preamble": 1,
+        "unsupported_table": 1,
+    }
+    assert report["warnings"] == ["1 nodes ignored as unsupported_table"]
+
+
+def test_build_references_report_tracks_disagreements_and_broken_refs() -> None:
+    report = build_references_report(
+        {
+            "classi": [{"id": "mago", "spell_ids": ["allarme"]}],
+            "incantesimi": [
+                {"id": "allarme", "class_ids": ["mago"]},
+                {"id": "scudo", "class_ids": ["mago"]},
+            ],
+            "glossario_delle_regole": [
+                {
+                    "id": "azione",
+                    "related_entry_refs": [{"id": "termine-mancante"}],
+                }
+            ],
+        }
+    )
+
+    assert report["class_spell_membership_count"] == 1
+    assert report["subtitle_only_class_spells"] == [
+        {"class_id": "mago", "spell_id": "scudo"}
+    ]
+    assert report["errors"] == [
+        "glossario_delle_regole: azione references missing entry termine-mancante"
+    ]

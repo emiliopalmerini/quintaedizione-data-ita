@@ -1,10 +1,10 @@
 [project]
 name = "quintaedizione-data-ita"
-version = "0.1.0"
+version = "1.0.0"
 description = "Italian SRD 5.2.1 PDF data compiler"
 requires-python = ">=3.12"
 dependencies = [
-    "pymupdf>=1.24,<2",
+    "pymupdf==1.27.2.3",
 ]
 
 [dependency-groups]

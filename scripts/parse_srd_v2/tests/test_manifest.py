@@ -39,7 +39,7 @@ def test_source_metadata_uses_profile_identity(tmp_path: Path) -> None:
 def test_generated_metadata_is_canonical() -> None:
     assert to_jsonable(generated_metadata()) == {
         "parser": "parse_srd_v2",
-        "parser_version": "0.1.0",
+        "parser_version": "1.0.0",
     }
 
 
@@ -52,7 +52,7 @@ def test_manifest_contains_only_canonical_relative_paths(tmp_path: Path) -> None
     manifest = read_json(tmp_path / "output" / "manifest.json")
 
     assert manifest["schema_version"] == "2.0.0"
-    assert manifest["dataset_version"] == "0.1.0"
+    assert manifest["dataset_version"] == "1.0.0"
     assert manifest["locale"] == "it"
     assert "path" not in manifest["source"]
     assert manifest["collections"] == []

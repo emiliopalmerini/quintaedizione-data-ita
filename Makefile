@@ -1,74 +1,42 @@
 SHELL := /bin/sh
 
-RED := \033[0;31m
-GREEN := \033[0;32m
-YELLOW := \033[0;33m
-BLUE := \033[0;34m
-NC := \033[0m
-
-.PHONY: help test quality format vet clean parse-srd pdf-convert
+.PHONY: help test quality parse-srd release clean
 
 .DEFAULT_GOAL := help
 
-test: format vet
-	@echo -e "$(BLUE)Running tests...$(NC)"
-	go test -race -v ./...
-	@echo -e "$(GREEN)Tests passed!$(NC)"
+test:
+	uv run pytest
 
 quality:
-	@echo -e "$(BLUE)Running data quality checks...$(NC)"
-	go test -tags=quality -race -v -run TestDataQuality ./store/
-	@echo -e "$(GREEN)Quality checks completed!$(NC)"
-
-format:
-	@echo -e "$(BLUE)Formatting Go code...$(NC)"
-	go fmt ./...
-	@echo -e "$(GREEN)Code formatted!$(NC)"
-
-vet:
-	@echo -e "$(BLUE)Running vet...$(NC)"
-	go vet ./...
-	@echo -e "$(GREEN)Vet passed!$(NC)"
+	@test -n "$(PDF)" || (printf '%s\n' 'Usage: make quality PDF=path/to/srd-5.2.1-it.pdf' && exit 1)
+	docker build -f Dockerfile.Parser -t quintaedizione-parser:1.0.0 .
+	docker run --rm --entrypoint uv \
+		-e SRD_521_IT_PDF=/input.pdf \
+		-v "$(abspath $(PDF)):/input.pdf:ro" \
+		quintaedizione-parser:1.0.0 \
+		run pytest -m full_pdf scripts/parse_srd_v2/tests/test_full_pdf.py
 
 clean:
-	@echo -e "$(BLUE)Cleaning build artifacts...$(NC)"
-	go clean
-	@echo -e "$(GREEN)Cleanup completed!$(NC)"
+	rm -rf output dist
 
 parse-srd:
-	@if [ -z "$(PDF)" ]; then \
-		echo -e "$(RED)Error: PDF argument required. Usage: make parse-srd PDF=path/to/file.pdf$(NC)"; \
-		exit 1; \
-	fi
-	@echo -e "$(BLUE)Building parser image...$(NC)"
-	docker build -f Dockerfile.Parser -t srd-parser .
-	@echo -e "$(BLUE)Running SRD parser...$(NC)"
+	@test -n "$(PDF)" || (printf '%s\n' 'Usage: make parse-srd PDF=path/to/srd-5.2.1-it.pdf' && exit 1)
+	docker build -f Dockerfile.Parser -t quintaedizione-parser:1.0.0 .
+	rm -rf output/srd-5.2.1
+	mkdir -p output/srd-5.2.1
 	docker run --rm \
-		-v $(CURDIR)/data/srd:/app/output \
-		-v $(abspath $(PDF)):/app/input.pdf:ro \
-		srd-parser /app/input.pdf --output-dir /app/output
-	@echo -e "$(GREEN)SRD parsing completed!$(NC)"
+		-v "$(abspath $(PDF)):/input.pdf:ro" \
+		-v "$(CURDIR)/output/srd-5.2.1:/output" \
+		quintaedizione-parser:1.0.0 \
+		build /input.pdf --output-dir /output
 
-pdf-convert:
-	@if [ -z "$(PDF)" ]; then \
-		echo -e "$(RED)Error: PDF argument required. Usage: make pdf-convert PDF=path/to/file.pdf$(NC)"; \
-		exit 1; \
-	fi
-	@command -v uv >/dev/null 2>&1 || (echo -e "$(RED)Error: uv is not installed. Visit https://docs.astral.sh/uv/$(NC)" && exit 1)
-	@echo -e "$(BLUE)Running PDF conversion...$(NC)"
-	uv run scripts/pdf-to-markdown.py $(PDF)
-	@echo -e "$(GREEN)PDF conversion completed!$(NC)"
+release: parse-srd
+	uv run python -m scripts.parse_srd_v2.release output/srd-5.2.1 --dist-dir dist
 
 help:
-	@echo -e "$(BLUE) quintaedizione-data-ita - Available Commands:$(NC)"
-	@echo ""
-	@echo -e "$(YELLOW)Go Development:$(NC)"
-	@echo "  make test       # Format, vet, and run tests with race detector"
-	@echo "  make format     # Format Go code"
-	@echo "  make vet        # Run go vet"
-	@echo "  make quality    # Run data quality checks (double spaces, orphan markdown, etc.)"
-	@echo "  make clean      # Clean build artifacts"
-	@echo ""
-	@echo -e "$(YELLOW)Data Pipeline:$(NC)"
-	@echo "  make parse-srd PDF=<path>   # Parse SRD PDF into JSON (via Docker)"
-	@echo "  make pdf-convert PDF=<path> # Convert PDF to per-collection markdown files"
+	@printf '%s\n' \
+		'make test' \
+		'make quality PDF=path/to/srd-5.2.1-it.pdf' \
+		'make parse-srd PDF=path/to/srd-5.2.1-it.pdf' \
+		'make release PDF=path/to/srd-5.2.1-it.pdf' \
+		'make clean'

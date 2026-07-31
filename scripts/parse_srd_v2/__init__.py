@@ -2,4 +2,6 @@
 
 from __future__ import annotations
 
-__version__ = "0.1.0"
+from .version import PARSER_VERSION
+
+__version__ = PARSER_VERSION

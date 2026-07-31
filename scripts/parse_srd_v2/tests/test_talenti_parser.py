@@ -10,8 +10,8 @@ def test_parse_talenti_extracts_origin_talent_and_repeatable_flag() -> None:
         "page_start": 98,
         "page_end": 100,
         "nodes": [
-            {"text": "Talenti Origini", "type": "heading", "page_number": 98},
-            {"text": "Abile", "type": "heading", "page_number": 98},
+            {"text": "Talenti Origini", "type": "heading", "heading_level": 4, "page_number": 98},
+            {"text": "Abile", "type": "heading", "heading_level": 5, "page_number": 98, "heading_path": ["Talenti", "Descrizioni dei talenti", "Talenti Origini", "Abile"]},
             {"text": "Talento Origini", "type": "paragraph", "page_number": 98},
             {
                 "text": "Il personaggio ottiene competenza in una combina\u00ad",
@@ -61,7 +61,7 @@ def test_parse_talenti_handles_wrapped_prerequisite_and_multiple_talents() -> No
         "page_start": 98,
         "page_end": 100,
         "nodes": [
-            {"text": "Lottatore", "type": "heading", "page_number": 98},
+            {"text": "Lottatore", "type": "heading", "heading_level": 5, "page_number": 98, "heading_path": ["Talenti", "Descrizioni dei talenti", "Talenti Generali", "Lottatore"]},
             {
                 "text": "Talento Generale (prerequisito: 4\u00ba livello o superiore,",
                 "type": "paragraph",
@@ -75,7 +75,7 @@ def test_parse_talenti_handles_wrapped_prerequisite_and_multiple_talents() -> No
                 "page_number": 98,
             },
             {"text": "punteggio di Forza aumenta di 1.", "type": "paragraph", "page_number": 98},
-            {"text": "Dono del richiamo degli incantesimi", "type": "heading", "page_number": 100},
+            {"text": "Dono del richiamo degli incantesimi", "type": "heading", "heading_level": 5, "page_number": 100, "heading_path": ["Talenti", "Descrizioni dei talenti", "Talenti Dono epico", "Dono del richiamo degli incantesimi"]},
             {
                 "text": "Talento Dono epico (prerequisito: 19\u00ba livello",
                 "type": "paragraph",

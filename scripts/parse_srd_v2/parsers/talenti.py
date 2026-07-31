@@ -9,29 +9,6 @@ from ..slugify import slugify
 from .result import ParseResult, ignored_node_entries, node_ids
 
 
-TALENT_NAMES = (
-    "Abile",
-    "Aggressore selvaggio",
-    "Allerta",
-    "Iniziato alla magia",
-    "Aumento dei punteggi di caratteristica",
-    "Lottatore",
-    "Combattere con armi possenti",
-    "Combattere con due armi",
-    "Difesa",
-    "Tiro",
-    "Dono del fato",
-    "Dono della vista pura",
-    "Dono delle abilità di combattimento",
-    "Dono dell'offensiva irresistibile",
-    "Dono dello spirito notturno",
-    "Dono del richiamo degli incantesimi",
-    "Dono del viaggio dimensionale",
-)
-
-_TALENT_NAME_SET = set(TALENT_NAMES)
-
-
 def _content_segments(text: str) -> list[dict[str, str]]:
     text = _output_text(text)
     if not text:
@@ -65,8 +42,13 @@ def _is_heading(node: dict[str, Any]) -> bool:
 
 
 def _is_talent_heading(paragraph: dict[str, Any]) -> bool:
-    text = str(paragraph.get("text", "")).strip()
-    return _is_heading(paragraph) and text in _TALENT_NAME_SET
+    path = [str(part) for part in paragraph.get("heading_path", [])]
+    return (
+        _is_heading(paragraph)
+        and paragraph.get("heading_level") == 5
+        and "Descrizioni dei talenti" in path
+        and len(path) >= 4
+    )
 
 
 def _has_open_parenthesis(text: str) -> bool:
@@ -131,6 +113,15 @@ def _build_talent(
 ) -> dict[str, Any]:
     metadata_parts, benefit, pages = _collect_metadata_and_benefit(body)
     category, prerequisite = _parse_metadata(metadata_parts)
+    if not category:
+        path = [str(part) for part in heading.get("heading_path", [])]
+        if len(path) >= 2 and path[-2].startswith("Talenti "):
+            category = path[-2].removeprefix("Talenti ")
+        prerequisite_match = re.search(
+            r"Talento\s+.+?\(\s*prerequisito:\s*(.*?)\s*\)", benefit
+        )
+        if prerequisite_match is not None:
+            prerequisite = prerequisite_match.group(1)
 
     heading_page = heading.get("page_number")
     if isinstance(heading_page, int):

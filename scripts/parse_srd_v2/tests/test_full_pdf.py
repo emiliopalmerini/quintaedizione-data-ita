@@ -41,6 +41,14 @@ def test_real_pdf_matches_release_baseline_and_rebuilds_deterministically(
     assert summary["parse"]["collection_item_counts"] == baseline[
         "collection_item_counts"
     ]
+    assert sorted(path.name for path in (first / "reports").glob("*.json")) == baseline[
+        "required_reports"
+    ]
+    references = read_json(first / "reports" / "references.json")
+    assert references["errors"] == []
+    assert references["class_spell_membership_count"] == baseline[
+        "class_semantics"
+    ]["spell_memberships"]
 
     equipment = read_json(first / "v2" / "equipaggiamento.json")["items"]
     assert Counter(item["category_id"] for item in equipment) == baseline[

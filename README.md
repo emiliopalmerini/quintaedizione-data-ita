@@ -8,19 +8,22 @@ The parser rebuild is documented in the repo wiki:
 - [Wiki index](docs/README.md)
 - [Target vision](docs/vision.md)
 - [Schema v2](docs/schema-v2.md)
+- [Release process](docs/releasing.md)
 - [LLM context](docs/llm-context.md)
 
 ## Current Status
 
-The `v2` branch is rebuilding the parser around loss-preserving intermediate
-artifacts and strict typed output. Existing Go packages and embedded JSON remain
-temporarily as migration references; they are not the target runtime.
+The Python compiler covers all required SRD 5.2.1 sections and produces the
+stable schema-v2 dataset. Existing Go packages and embedded JSON are retained
+only as migration references; they are not release gates or runtime dependencies.
 
 ## Parser Command
 
 ```bash
 uv run python -m scripts.parse_srd_v2 build path/to/srd-5.2.1.pdf --output-dir output/srd-5.2.1
 uv run pytest
+make quality PDF=path/to/srd-5.2.1.pdf
+make release PDF=path/to/srd-5.2.1.pdf
 ```
 
 The published data contract is a bundle containing `manifest.json`, typed JSON

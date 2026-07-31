@@ -5,6 +5,83 @@ from __future__ import annotations
 from typing import Any
 
 
+def build_confidence_report(parse_report: dict[str, Any]) -> dict[str, Any]:
+    """Summarize explicit ignored-node reasons and review warnings."""
+
+    counts: dict[str, int] = {}
+    for entry in parse_report.get("node_accounting", {}).get("ignored_nodes", []):
+        reason = str(entry.get("reason", "unknown"))
+        counts[reason] = counts.get(reason, 0) + 1
+    warning_reasons = {
+        reason: count
+        for reason, count in counts.items()
+        if reason.startswith("unsupported") or reason.startswith("unrecognized")
+    }
+    return {
+        "schema_version": "2.0.0",
+        "stage": "confidence",
+        "ignored_reason_counts": dict(sorted(counts.items())),
+        "warnings": [
+            f"{count} nodes ignored as {reason}"
+            for reason, count in sorted(warning_reasons.items())
+        ],
+        "warning_count": sum(warning_reasons.values()),
+        "errors": [],
+    }
+
+
+def build_references_report(
+    by_collection: dict[str, list[dict[str, Any]]],
+) -> dict[str, Any]:
+    """Report resolved references, editorial disagreements, and broken targets."""
+
+    classes = by_collection.get("classi", [])
+    spells = by_collection.get("incantesimi", [])
+    class_pairs = {
+        (str(class_item.get("id", "")), str(spell_id))
+        for class_item in classes
+        for spell_id in class_item.get("spell_ids", [])
+    }
+    subtitle_pairs = {
+        (str(class_id), str(spell.get("id", "")))
+        for spell in spells
+        for class_id in spell.get("class_ids", [])
+    }
+    subtitle_only = [
+        {"class_id": class_id, "spell_id": spell_id}
+        for class_id, spell_id in sorted(subtitle_pairs - class_pairs)
+    ]
+    list_only = [
+        {"class_id": class_id, "spell_id": spell_id}
+        for class_id, spell_id in sorted(class_pairs - subtitle_pairs)
+    ]
+
+    glossary = by_collection.get("glossario_delle_regole", [])
+    glossary_ids = {str(item.get("id", "")) for item in glossary}
+    glossary_reference_count = 0
+    errors: list[str] = []
+    for item in glossary:
+        for reference in item.get("related_entry_refs", []):
+            glossary_reference_count += 1
+            target_id = str(reference.get("id", ""))
+            if target_id not in glossary_ids:
+                errors.append(
+                    "glossario_delle_regole: "
+                    f"{item.get('id')} references missing entry {target_id}"
+                )
+
+    return {
+        "schema_version": "2.0.0",
+        "stage": "references",
+        "class_spell_membership_count": len(class_pairs),
+        "glossary_reference_count": glossary_reference_count,
+        "subtitle_only_class_spells": subtitle_only,
+        "spell_list_only_class_spells": list_only,
+        "warning_count": len(subtitle_only) + len(list_only),
+        "errors": errors,
+    }
+
+
 def _section_entry(section: dict[str, Any]) -> dict[str, Any]:
     node_count = int(section.get("node_count", 0))
     coverage = str(section.get("coverage", "empty"))
