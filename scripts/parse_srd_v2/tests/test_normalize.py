@@ -311,3 +311,32 @@ def test_normalize_splits_semibold_metadata_lines() -> None:
         "Componenti: S",
         "Durata: 1 ora",
     ]
+
+
+def test_normalize_merges_lowercase_wrapped_heading() -> None:
+    first = _span("Amuleto anti-individuazione")
+    second = _span("e localizzazione")
+    for span in (first, second):
+        span.update({"font": "GillSans-SemiBold", "size": 12.0, "color": 0x8C2220})
+    extracted = {
+        "source": {"id": "fixture"},
+        "pages": [
+            {
+                "page_number": 238,
+                "width": 600.0,
+                "height": 800.0,
+                "words": [],
+                "blocks": [
+                    {"bbox": [20.0, 20.0, 250.0, 32.0], "lines": [{"bbox": [20.0, 20.0, 250.0, 32.0], "spans": [first]}]},
+                    {"bbox": [20.0, 32.0, 160.0, 44.0], "lines": [{"bbox": [20.0, 32.0, 160.0, 44.0], "spans": [second]}]},
+                ],
+            }
+        ],
+    }
+
+    document = normalize_extracted(extracted)
+
+    nodes = document["pages"][0]["nodes"]
+    assert len(nodes) == 1
+    assert nodes[0]["text"] == "Amuleto anti-individuazione e localizzazione"
+    assert nodes[0]["bbox"] == [20.0, 20.0, 250.0, 44.0]

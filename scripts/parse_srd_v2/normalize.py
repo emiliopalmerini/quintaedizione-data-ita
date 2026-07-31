@@ -164,6 +164,30 @@ def _assign_heading_paths(pages: list[dict[str, Any]]) -> None:
             node["heading_path"] = [title for _, title in stack]
 
 
+def _merge_wrapped_headings(nodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: list[dict[str, Any]] = []
+    for node in nodes:
+        text = str(node.get("text", "")).strip()
+        continuation = (
+            merged
+            and node.get("type") == "heading"
+            and merged[-1].get("type") == "heading"
+            and node.get("heading_level") == merged[-1].get("heading_level")
+            and text[:1].islower()
+        )
+        if not continuation:
+            merged.append(node)
+            continue
+        previous = merged[-1]
+        previous["text"] = f"{previous['text']} {text}"
+        previous["bbox"] = _union_bbox(
+            [{"bbox": previous.get("bbox", [])}, {"bbox": node.get("bbox", [])}]
+        )
+        previous["spans"] = [*previous.get("spans", []), *node.get("spans", [])]
+        previous["words"] = [*previous.get("words", []), *node.get("words", [])]
+    return merged
+
+
 def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
     """Build ordered structural nodes while retaining source layout evidence."""
 
@@ -226,6 +250,7 @@ def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
         nodes.sort(
             key=lambda node: _reading_order_key(node, page_width, spanning_y)
         )
+        nodes = _merge_wrapped_headings(nodes)
         for node_index, node in enumerate(nodes, start=1):
             node["id"] = f"p{int(page_number):04d}-n{node_index:04d}"
         pages.append(
