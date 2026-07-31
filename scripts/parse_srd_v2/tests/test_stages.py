@@ -2,7 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
 from scripts.parse_srd_v2 import stages
+from scripts.parse_srd_v2.errors import BuildValidationError
 from scripts.parse_srd_v2.manifest import file_sha256, read_json, write_json
 from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_parse, run_validate
 
@@ -222,16 +225,81 @@ def test_run_build_stops_after_canonical_parse(monkeypatch, tmp_path: Path) -> N
 
     def fake_normalize(_extracted_dir: Path, output_dir: Path) -> Path:
         calls.append("normalize")
-        return output_dir / "normalized" / "document.json"
+        path = output_dir / "normalized" / "document.json"
+        write_json(
+            path,
+            {
+                "source": {
+                    "id": "fixture",
+                    "title": "Fixture",
+                    "checksum_sha256": "abc",
+                    "page_count": 1,
+                    "profile": "fixture",
+                }
+            },
+        )
+        return path
 
     def fake_parse(_normalized_dir: Path, output_dir: Path) -> Path:
         calls.append("parse")
+        write_json(output_dir / "reports" / "summary.json", {"status": "ok"})
         return output_dir / "reports" / "parse.json"
+
+    def fake_validate(_v2_dir: Path) -> dict:
+        calls.append("validate")
+        return {"stage": "validate", "files": [], "errors": []}
 
     monkeypatch.setattr(stages, "run_extract", fake_extract)
     monkeypatch.setattr(stages, "run_normalize", fake_normalize)
     monkeypatch.setattr(stages, "run_parse", fake_parse)
+    monkeypatch.setattr(stages, "run_validate", fake_validate)
 
     stages.run_build(tmp_path / "source.pdf", tmp_path / "output")
 
-    assert calls == ["extract", "normalize", "parse"]
+    assert calls == ["extract", "normalize", "parse", "validate"]
+    validation = read_json(tmp_path / "output" / "reports" / "validation.json")
+    assert validation["errors"] == []
+
+
+def test_run_build_fails_when_validation_is_incomplete(monkeypatch, tmp_path: Path) -> None:
+    output_dir = tmp_path / "output"
+
+    monkeypatch.setattr(
+        stages,
+        "run_extract",
+        lambda _pdf, output: output / "extracted" / "pages.json",
+    )
+
+    def fake_normalize(_extracted_dir: Path, output: Path) -> Path:
+        path = output / "normalized" / "document.json"
+        write_json(
+            path,
+            {
+                "source": {
+                    "id": "fixture",
+                    "title": "Fixture",
+                    "checksum_sha256": "abc",
+                    "page_count": 1,
+                    "profile": "fixture",
+                }
+            },
+        )
+        return path
+
+    def fake_parse(_normalized_dir: Path, output: Path) -> Path:
+        write_json(output / "reports" / "summary.json", {"status": "partial"})
+        return output / "reports" / "parse.json"
+
+    monkeypatch.setattr(stages, "run_normalize", fake_normalize)
+    monkeypatch.setattr(stages, "run_parse", fake_parse)
+    monkeypatch.setattr(
+        stages,
+        "run_validate",
+        lambda _v2: {"stage": "validate", "files": [], "errors": ["missing classi"]},
+    )
+
+    with pytest.raises(BuildValidationError, match="partial.*missing classi"):
+        stages.run_build(tmp_path / "source.pdf", output_dir)
+
+    assert (output_dir / "reports" / "validation.json").is_file()
+    assert (output_dir / "manifest.json").is_file()

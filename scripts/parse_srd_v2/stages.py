@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .collections import collection_ids
+from .errors import BuildValidationError
 from .extract import extract_pdf
 from .manifest import (
     Manifest,
@@ -103,6 +104,31 @@ def _artifact_entry(path: Path, output_dir: Path) -> dict[str, Any]:
     }
 
 
+def finalize_manifest(output_dir: Path, source: SourceMetadata) -> Manifest:
+    """Describe all canonical collection and report artifacts."""
+
+    collections = []
+    for path in sorted((output_dir / "v2").glob("*.json")):
+        envelope = read_json(path)
+        collections.append(
+            {
+                "collection": envelope.get("collection"),
+                "item_count": len(envelope.get("items", [])),
+                **_artifact_entry(path, output_dir),
+            }
+        )
+    reports = [
+        _artifact_entry(path, output_dir)
+        for path in sorted((output_dir / "reports").glob("*.json"))
+    ]
+    return write_manifest(
+        output_dir,
+        source,
+        collections=collections,
+        reports=reports,
+    )
+
+
 def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
     """Run section assignment and implemented typed parsers."""
 
@@ -169,26 +195,7 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
     summary_report = build_summary_report(sections_artifact, report, coverage_report)
     write_json(paths["reports"] / "summary.json", summary_report)
 
-    collections = []
-    for collection_id, items in by_collection.items():
-        path = paths["v2"] / f"{collection_id}.json"
-        collections.append(
-            {
-                "collection": collection_id,
-                "item_count": len(items),
-                **_artifact_entry(path, output_dir),
-            }
-        )
-    reports = [
-        _artifact_entry(path, output_dir)
-        for path in sorted(paths["reports"].glob("*.json"))
-    ]
-    write_manifest(
-        output_dir,
-        source,
-        collections=collections,
-        reports=reports,
-    )
+    finalize_manifest(output_dir, source)
     return report_path
 
 
@@ -221,7 +228,7 @@ def run_validate(v2_path: Path) -> dict[str, Any]:
             seen.add(collection)
         report["files"].append(
             {
-                "path": str(path),
+                "path": path.name,
                 "collection": collection,
                 "errors": errors,
             }
@@ -237,8 +244,22 @@ def run_validate(v2_path: Path) -> dict[str, Any]:
 
 
 def run_build(pdf_path: Path, output_dir: Path) -> None:
-    """Build canonical parser artifacts through typed parsing."""
+    """Build canonical artifacts and enforce all implemented quality gates."""
 
     extracted = run_extract(pdf_path, output_dir)
-    run_normalize(extracted.parent, output_dir)
+    normalized = run_normalize(extracted.parent, output_dir)
     run_parse(output_dir / "normalized", output_dir)
+    validation = run_validate(output_dir / "v2")
+    write_json(output_dir / "reports" / "validation.json", validation)
+
+    document = read_json(normalized)
+    source = _source_from_artifact(document.get("source", {}))
+    finalize_manifest(output_dir, source)
+
+    summary = read_json(output_dir / "reports" / "summary.json")
+    failures = []
+    if summary.get("status") != "ok":
+        failures.append(f"summary status {summary.get('status', 'missing')}")
+    failures.extend(str(error) for error in validation.get("errors", []))
+    if failures:
+        raise BuildValidationError(f"build failed: {'; '.join(failures)}")
