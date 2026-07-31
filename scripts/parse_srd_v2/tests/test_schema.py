@@ -295,3 +295,63 @@ def test_validate_envelope_accepts_magic_item() -> None:
     ]
 
     assert validate_envelope(envelope) == []
+
+
+def test_validate_envelope_accepts_creature_stat_block() -> None:
+    envelope = empty_envelope("mostri", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "aboleth",
+            "name": "Aboleth",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 294,
+                "page_end": 294,
+                "heading_path": ["Mostri A-Z", "Aboleth"],
+                "section_id": "mostri",
+                "parser": "mostri",
+            },
+            "collection_id": "mostri",
+            "group": "Mostri A-Z",
+            "creature_type_id": "aberrazione",
+            "size_id": "grande",
+            "alignment": "legale malvagio",
+            "ac": 17,
+            "initiative": "+7 (17)",
+            "hp": {"average": 150, "formula": "20d10 + 40"},
+            "speed": "3 m, nuoto 12 m",
+            "ability_scores": {
+                "for": 21,
+                "des": 9,
+                "cos": 15,
+                "int": 18,
+                "sag": 15,
+                "car": 18,
+            },
+            "skills": "Percezione +10",
+            "senses": "Percezione passiva 20",
+            "languages": "telepatia 36 m",
+            "challenge_rating": "10",
+            "traits": [
+                {
+                    "id": "anfibio",
+                    "name": "Anfibio",
+                    "description": [
+                        {"type": "text", "text": "Respira in aria e acqua."}
+                    ],
+                }
+            ],
+            "actions": [],
+            "bonus_actions": [],
+            "reactions": [],
+            "legendary_actions": [],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["collection_id"] = "animali"
+    assert (
+        "items[0].collection_id must match envelope collection"
+        in validate_envelope(envelope)
+    )

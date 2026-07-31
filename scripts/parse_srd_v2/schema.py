@@ -26,6 +26,27 @@ _PROVENANCE_FIELDS = _PROVENANCE_REQUIRED_FIELDS | {"bbox_page", "bbox"}
 _BASE_ENTITY_FIELDS = {"id", "source_id", "provenance"}
 _COMMON_ENTITY_FIELDS = _BASE_ENTITY_FIELDS | {"name"}
 _LABEL_FIELDS = {"regole": "title", "glossario_delle_regole": "term"}
+_CREATURE_FIELDS = _COMMON_ENTITY_FIELDS | {
+    "collection_id",
+    "group",
+    "creature_type_id",
+    "size_id",
+    "alignment",
+    "ac",
+    "initiative",
+    "hp",
+    "speed",
+    "ability_scores",
+    "skills",
+    "senses",
+    "languages",
+    "challenge_rating",
+    "traits",
+    "actions",
+    "bonus_actions",
+    "reactions",
+    "legendary_actions",
+}
 _ENTITY_FIELDS = {
     "origini": _COMMON_ENTITY_FIELDS
     | {
@@ -79,6 +100,8 @@ _ENTITY_FIELDS = {
     | {"title", "parent_id", "depth", "order", "content"},
     "oggetti_magici": _COMMON_ENTITY_FIELDS
     | {"type_id", "type_name", "rarity_id", "attunement", "description"},
+    "mostri": _CREATURE_FIELDS,
+    "animali": _CREATURE_FIELDS,
 }
 _OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
@@ -98,6 +121,24 @@ _STRING_FIELDS = {
     },
     "incantesimi": {"school_id", "casting_time", "range", "duration"},
     "oggetti_magici": {"type_id", "type_name", "rarity_id"},
+    "mostri": {
+        "collection_id",
+        "creature_type_id",
+        "size_id",
+        "alignment",
+        "initiative",
+        "speed",
+        "challenge_rating",
+    },
+    "animali": {
+        "collection_id",
+        "creature_type_id",
+        "size_id",
+        "alignment",
+        "initiative",
+        "speed",
+        "challenge_rating",
+    },
 }
 _CONTENT_FIELDS = {
     "origini": {"description"},
@@ -396,6 +437,77 @@ def _validate_entity_fields(
         for field in ("type_id", "rarity_id"):
             if not isinstance(item.get(field), str) or _SLUG.fullmatch(item[field]) is None:
                 errors.append(f"items[{index}].{field} must be a lowercase ASCII slug")
+
+    if collection in {"mostri", "animali"}:
+        _validate_creature(item, index, collection, errors)
+
+
+def _validate_creature(
+    item: dict[str, Any], index: int, collection: str, errors: list[str]
+) -> None:
+    prefix = f"items[{index}]"
+    if item.get("collection_id") != collection:
+        errors.append(f"{prefix}.collection_id must match envelope collection")
+    for field in ("collection_id", "creature_type_id", "size_id"):
+        if (
+            not isinstance(item.get(field), str)
+            or _SLUG.fullmatch(item[field]) is None
+        ):
+            errors.append(f"{prefix}.{field} must be a lowercase ASCII slug")
+    for field in ("group", "skills", "senses", "languages"):
+        if not isinstance(item.get(field), str):
+            errors.append(f"{prefix}.{field} must be a string")
+    if not isinstance(item.get("ac"), int) or isinstance(item.get("ac"), bool):
+        errors.append(f"{prefix}.ac must be an integer")
+    hp = item.get("hp")
+    if not isinstance(hp, dict) or set(hp) != {"average", "formula"}:
+        errors.append(f"{prefix}.hp must contain average and formula")
+    elif (
+        not isinstance(hp.get("average"), int)
+        or isinstance(hp.get("average"), bool)
+        or not isinstance(hp.get("formula"), str)
+        or not hp.get("formula")
+    ):
+        errors.append(f"{prefix}.hp has invalid values")
+    scores = item.get("ability_scores")
+    ability_ids = {"for", "des", "cos", "int", "sag", "car"}
+    if (
+        not isinstance(scores, dict)
+        or set(scores) != ability_ids
+        or not all(
+            isinstance(value, int) and not isinstance(value, bool)
+            for value in scores.values()
+        )
+    ):
+        errors.append(f"{prefix}.ability_scores must contain six integer scores")
+    for field in (
+        "traits",
+        "actions",
+        "bonus_actions",
+        "reactions",
+        "legendary_actions",
+    ):
+        features = item.get(field)
+        if not isinstance(features, list):
+            errors.append(f"{prefix}.{field} must be a list")
+            continue
+        for feature_index, feature in enumerate(features):
+            feature_prefix = f"{prefix}.{field}[{feature_index}]"
+            if not isinstance(feature, dict) or set(feature) != {
+                "id",
+                "name",
+                "description",
+            }:
+                errors.append(f"{feature_prefix} must contain id, name, and description")
+                continue
+            if (
+                not isinstance(feature.get("id"), str)
+                or _SLUG.fullmatch(feature["id"]) is None
+            ):
+                errors.append(f"{feature_prefix}.id must be a lowercase ASCII slug")
+            if not isinstance(feature.get("name"), str) or not feature["name"]:
+                errors.append(f"{feature_prefix}.name is required")
+            _validate_content(feature.get("description"), f"{feature_prefix}.description", errors)
 
 
 def _slug_list(value: Any) -> bool:

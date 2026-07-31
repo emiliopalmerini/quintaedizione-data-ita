@@ -186,6 +186,81 @@ def _magic_item_nodes() -> list[dict]:
     ]
 
 
+def _creature_nodes(section: str, name: str, page_number: int) -> list[dict]:
+    path = [section, name]
+    return [
+        {
+            "type": "heading",
+            "heading_level": 2,
+            "text": section,
+            "page_number": page_number,
+            "heading_path": [section],
+        },
+        {
+            "type": "heading",
+            "heading_level": 3,
+            "text": name,
+            "page_number": page_number,
+            "heading_path": path,
+        },
+        {
+            "type": "paragraph",
+            "text": "Bestia Media, senza allineamento",
+            "page_number": page_number,
+        },
+        {
+            "type": "paragraph",
+            "text": "CA 12 Iniziativa +1 (11) PF 11 (2d8 + 2) Velocità 9 m",
+            "page_number": page_number,
+        },
+        {
+            "type": "table",
+            "page_number": page_number,
+            "heading_path": path,
+            "rows": [
+                {
+                    "cells": [
+                        {"text": value}
+                        for value in (
+                            "For 14", "+2", "+2", "", "Des 12", "+1",
+                            "+1", "", "Cos 12", "+1", "+1",
+                        )
+                    ]
+                },
+                {
+                    "cells": [
+                        {"text": value}
+                        for value in (
+                            "Int 3", "−4", "−4", "", "Sag 12", "+1",
+                            "+3", "", "Car 6", "−2", "−2",
+                        )
+                    ]
+                },
+            ],
+        },
+        {
+            "type": "paragraph",
+            "text": (
+                "Abilità Percezione +3 Sensi Percezione passiva 13 "
+                "Lingue — GS 1/4 (PE 50; BC +2)"
+            ),
+            "page_number": page_number,
+        },
+        {
+            "type": "heading",
+            "heading_level": 6,
+            "text": "Azioni",
+            "page_number": page_number,
+            "heading_path": [*path, "Azioni"],
+        },
+        {
+            "type": "paragraph",
+            "text": "Morso. Attacco con arma da mischia.",
+            "page_number": page_number,
+        },
+    ]
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -320,7 +395,15 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                 {
                     "page_number": 237,
                     "nodes": _magic_item_nodes(),
-                }
+                },
+                {
+                    "page_number": 294,
+                    "nodes": _creature_nodes("Mostri", "Lupo crudele", 294),
+                },
+                {
+                    "page_number": 385,
+                    "nodes": _creature_nodes("Animali", "Lupo", 385),
+                },
             ],
         }),
     )
@@ -340,24 +423,28 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     magic_item_envelope = read_json(
         tmp_path / "out" / "v2" / "oggetti_magici.json"
     )
+    monster_envelope = read_json(tmp_path / "out" / "v2" / "mostri.json")
+    animal_envelope = read_json(tmp_path / "out" / "v2" / "animali.json")
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
     manifest = read_json(tmp_path / "out" / "manifest.json")
 
     assert report["errors"] == []
     assert report["collection_item_counts"] == {
+        "animali": 1,
         "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
+        "mostri": 1,
         "oggetti_magici": 1,
         "origini": 1,
         "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 3
-    assert report["node_accounting"]["consumed_node_count"] == 36
-    assert report["node_accounting"]["ignored_node_count"] == 7
+    assert report["unsupported_section_count"] == 1
+    assert report["node_accounting"]["consumed_node_count"] == 50
+    assert report["node_accounting"]["ignored_node_count"] == 9
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
@@ -372,21 +459,33 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert spell_envelope["items"][0]["id"] == "allarme"
     assert len(rules_envelope["items"]) == 3
     assert magic_item_envelope["items"][0]["id"] == "ali-del-volo"
-    assert coverage["covered_section_count"] == 10
-    assert coverage["empty_section_count"] == 3
+    assert monster_envelope["items"][0]["id"] == "lupo-crudele"
+    assert animal_envelope["items"][0]["id"] == "lupo"
+    assert coverage["covered_section_count"] == 12
+    assert coverage["empty_section_count"] == 1
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
+        "animali": 1,
         "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
+        "mostri": 1,
         "oggetti_magici": 1,
         "origini": 1,
         "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 3
+    assert summary["parse"]["unsupported_section_count"] == 1
     assert manifest["collections"] == [
+        {
+            "collection": "animali",
+            "item_count": 1,
+            "path": "v2/animali.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "animali.json"
+            ),
+        },
         {
             "collection": "classi",
             "item_count": 1,
@@ -409,6 +508,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "path": "v2/incantesimi.json",
             "checksum_sha256": file_sha256(
                 tmp_path / "out" / "v2" / "incantesimi.json"
+            ),
+        },
+        {
+            "collection": "mostri",
+            "item_count": 1,
+            "path": "v2/mostri.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "mostri.json"
             ),
         },
         {

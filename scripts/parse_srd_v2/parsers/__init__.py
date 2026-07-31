@@ -7,6 +7,7 @@ from typing import Any, Callable
 from .classi import parse_classi
 from .equipaggiamento import parse_equipaggiamento
 from .incantesimi import parse_incantesimi
+from .mostri import parse_animali, parse_mostri
 from .origini import parse_origini
 from .oggetti_magici import parse_oggetti_magici
 from .regole import parse_regole
@@ -26,6 +27,8 @@ PARSERS: dict[str, Parser] = {
     "talenti": parse_talenti,
     "equipaggiamento": parse_equipaggiamento,
     "incantesimi": parse_incantesimi,
+    "mostri": parse_mostri,
+    "animali": parse_animali,
 }
 
 
