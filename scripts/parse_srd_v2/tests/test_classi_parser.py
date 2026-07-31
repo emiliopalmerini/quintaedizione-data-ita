@@ -1,6 +1,58 @@
 from __future__ import annotations
 
-from scripts.parse_srd_v2.parsers.classi import parse_classi
+from scripts.parse_srd_v2.parsers.classi import _parse_progression, parse_classi
+
+
+def test_parse_progression_without_header_and_with_collapsed_row() -> None:
+    table = {
+        "rows": [
+            {
+                "cells": [
+                    {"text": "1"},
+                    {"text": "+2"},
+                    {"text": "Ira"},
+                    {"text": "2"},
+                    {"text": "+2"},
+                    {"text": "2"},
+                ]
+            },
+            {
+                "cells": [
+                    {"text": "2 +2 Attacco irruento, Percezione del pericolo 2 +2 2"},
+                    {"text": ""},
+                    {"text": ""},
+                    {"text": ""},
+                    {"text": ""},
+                    {"text": ""},
+                ]
+            },
+            {
+                "cells": [
+                    {"text": "3"},
+                    {"text": "+2"},
+                    {"text": "—"},
+                    {"text": "3"},
+                    {"text": "+2"},
+                    {"text": "2"},
+                ]
+            },
+        ]
+    }
+
+    progression, levels = _parse_progression(table, "barbaro")
+
+    assert [row["level"] for row in progression] == [1, 2, 3]
+    assert progression[1]["feature_ids"] == [
+        "barbaro-attacco-irruento",
+        "barbaro-percezione-del-pericolo",
+    ]
+    assert progression[1]["resources"] == [
+        {"id": "resource-1", "value": "2"},
+        {"id": "resource-2", "value": "+2"},
+        {"id": "resource-3", "value": "2"},
+    ]
+    assert progression[2]["feature_ids"] == []
+    assert levels["attacco-irruento"] == 2
 
 
 def test_parse_class_with_progression_and_feature() -> None:

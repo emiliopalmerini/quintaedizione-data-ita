@@ -9,7 +9,7 @@ from ..slugify import slugify
 from .result import ParseResult, ignored_node_entries, node_ids
 
 
-_HIT_DIE_RE = re.compile(r"Dado vita:\s*d(\d+)", re.IGNORECASE)
+_HIT_DIE_RE = re.compile(r"Dado vita:?\s*d(\d+)", re.IGNORECASE)
 
 
 def _cell_texts(row: dict[str, Any]) -> list[str]:
@@ -21,11 +21,16 @@ def _is_progression_table(node: dict[str, Any]) -> bool:
     if node.get("type") != "table" or not rows:
         return False
     headers = [slugify(value) for value in _cell_texts(rows[0])]
-    return len(headers) >= 3 and headers[:3] == [
-        "livello",
-        "bonus-di-competenza",
-        "privilegi",
+    has_headers = len(headers) >= 3 and headers[:3] == [
+        "livello", "bonus-di-competenza", "privilegi"
     ]
+    cells = _cell_texts(rows[0])
+    has_level_row = (
+        len(cells) >= 3
+        and cells[0].isdigit()
+        and re.fullmatch(r"\+?\d+", cells[1]) is not None
+    )
+    return has_headers or has_level_row
 
 
 def _class_ranges(nodes: list[dict[str, Any]]) -> list[tuple[int, int]]:
@@ -47,20 +52,44 @@ def _parse_progression(
     class_id: str,
 ) -> tuple[list[dict[str, Any]], dict[str, int]]:
     rows = table.get("rows", [])
-    headers = _cell_texts(rows[0])
+    first_cells = _cell_texts(rows[0])
+    has_headers = [slugify(value) for value in first_cells[:3]] == [
+        "livello", "bonus-di-competenza", "privilegi"
+    ]
+    column_count = len(first_cells)
+    headers = (
+        first_cells
+        if has_headers
+        else ["Livello", "Bonus di competenza", "Privilegi"]
+        + [f"resource-{index}" for index in range(1, column_count - 2)]
+    )
     progression = []
     feature_levels: dict[str, int] = {}
-    for row in rows[1:]:
+    for row in rows[1:] if has_headers else rows:
         cells = _cell_texts(row)
+        populated = [value for value in cells if value]
+        if len(populated) == 1 and column_count > 3:
+            parts = populated[0].split()
+            resource_count = column_count - 3
+            if len(parts) >= resource_count + 3:
+                cells = [
+                    parts[0],
+                    parts[1],
+                    " ".join(parts[2:-resource_count]),
+                    *parts[-resource_count:],
+                ]
         if len(cells) < 3 or not cells[0].isdigit():
             continue
         level = int(cells[0])
         feature_names = [value.strip() for value in cells[2].split(",") if value.strip()]
         feature_ids = []
         for name in feature_names:
-            feature_id = f"{class_id}-{slugify(name)}"
+            feature_slug = slugify(name)
+            if not feature_slug:
+                continue
+            feature_id = f"{class_id}-{feature_slug}"
             feature_ids.append(feature_id)
-            feature_levels.setdefault(slugify(name), level)
+            feature_levels.setdefault(feature_slug, level)
         progression.append(
             {
                 "level": level,
@@ -100,7 +129,9 @@ def _parse_features(
     for position, index in enumerate(indexes):
         end = indexes[position + 1] if position + 1 < len(indexes) else len(nodes)
         heading = nodes[index]
-        name = str(heading.get("text", "")).strip()
+        raw_name = str(heading.get("text", "")).strip()
+        level_match = re.match(r"Livello\s+(\d+):\s*(.+)", raw_name, re.IGNORECASE)
+        name = level_match.group(2).strip() if level_match else raw_name
         body = nodes[index + 1 : end]
         pages = [
             page
@@ -111,7 +142,11 @@ def _parse_features(
             {
                 "id": f"{class_id}-{slugify(name)}",
                 "name": name,
-                "level": feature_levels.get(slugify(name), 0),
+                "level": (
+                    int(level_match.group(1))
+                    if level_match
+                    else feature_levels.get(slugify(name), 0)
+                ),
                 "provenance": {
                     "page_start": min(pages) if pages else section.get("page_start"),
                     "page_end": max(pages) if pages else section.get("page_end"),
@@ -137,10 +172,17 @@ def _parse_class(
     progression: list[dict[str, Any]] = []
     feature_levels: dict[str, int] = {}
     for node in nodes[1:]:
-        match = _HIT_DIE_RE.search(str(node.get("text", "")))
+        node_text = str(node.get("text", ""))
+        if node.get("type") == "table":
+            node_text = " ".join(
+                text
+                for row in node.get("rows", [])
+                for text in _cell_texts(row)
+            )
+        match = _HIT_DIE_RE.search(node_text)
         if match is not None:
             hit_die = int(match.group(1))
-        if _is_progression_table(node):
+        if _is_progression_table(node) and not progression:
             progression, feature_levels = _parse_progression(node, class_id)
 
     pages: list[int] = []
