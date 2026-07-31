@@ -42,6 +42,8 @@ class Manifest:
     source: SourceMetadata
     generated: GeneratedMetadata
     paths: dict[str, str]
+    collections: list[dict[str, Any]]
+    reports: list[dict[str, Any]]
 
 
 def file_sha256(path: Path) -> str:

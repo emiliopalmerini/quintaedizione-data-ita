@@ -10,6 +10,7 @@ from .extract import extract_pdf
 from .manifest import (
     Manifest,
     SourceMetadata,
+    file_sha256,
     generated_metadata,
     read_json,
     write_json,
@@ -42,7 +43,13 @@ def _manifest_paths(output_dir: Path) -> dict[str, str]:
     }
 
 
-def write_manifest(output_dir: Path, source: SourceMetadata) -> Manifest:
+def write_manifest(
+    output_dir: Path,
+    source: SourceMetadata,
+    *,
+    collections: list[dict[str, Any]] | None = None,
+    reports: list[dict[str, Any]] | None = None,
+) -> Manifest:
     """Write the top-level manifest for a parser run."""
 
     manifest = Manifest(
@@ -52,6 +59,8 @@ def write_manifest(output_dir: Path, source: SourceMetadata) -> Manifest:
         source=source,
         generated=generated_metadata(),
         paths=_manifest_paths(output_dir),
+        collections=collections or [],
+        reports=reports or [],
     )
     write_json(output_dir / "manifest.json", manifest)
     return manifest
@@ -85,6 +94,13 @@ def _source_from_artifact(source: dict[str, Any]) -> SourceMetadata:
         page_count=int(source.get("page_count", 0)),
         profile=str(source.get("profile", "")),
     )
+
+
+def _artifact_entry(path: Path, output_dir: Path) -> dict[str, Any]:
+    return {
+        "path": path.relative_to(output_dir).as_posix(),
+        "checksum_sha256": file_sha256(path),
+    }
 
 
 def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
@@ -152,6 +168,27 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
     write_json(paths["reports"] / "coverage.json", coverage_report)
     summary_report = build_summary_report(sections_artifact, report, coverage_report)
     write_json(paths["reports"] / "summary.json", summary_report)
+
+    collections = []
+    for collection_id, items in by_collection.items():
+        path = paths["v2"] / f"{collection_id}.json"
+        collections.append(
+            {
+                "collection": collection_id,
+                "item_count": len(items),
+                **_artifact_entry(path, output_dir),
+            }
+        )
+    reports = [
+        _artifact_entry(path, output_dir)
+        for path in sorted(paths["reports"].glob("*.json"))
+    ]
+    write_manifest(
+        output_dir,
+        source,
+        collections=collections,
+        reports=reports,
+    )
     return report_path
 
 

@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from scripts.parse_srd_v2 import stages
-from scripts.parse_srd_v2.manifest import read_json, write_json
+from scripts.parse_srd_v2.manifest import file_sha256, read_json, write_json
 from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_parse, run_validate
 
 
@@ -121,6 +121,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     talent_envelope = read_json(tmp_path / "out" / "v2" / "talenti.json")
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
+    manifest = read_json(tmp_path / "out" / "manifest.json")
 
     assert report["errors"] == []
     assert report["collection_item_counts"] == {"origini": 1, "specie": 1, "talenti": 1}
@@ -141,6 +142,32 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "talenti": 1,
     }
     assert summary["parse"]["unsupported_section_count"] == 10
+    assert manifest["collections"] == [
+        {
+            "collection": "origini",
+            "item_count": 1,
+            "path": "v2/origini.json",
+            "checksum_sha256": file_sha256(tmp_path / "out" / "v2" / "origini.json"),
+        },
+        {
+            "collection": "specie",
+            "item_count": 1,
+            "path": "v2/specie.json",
+            "checksum_sha256": file_sha256(tmp_path / "out" / "v2" / "specie.json"),
+        },
+        {
+            "collection": "talenti",
+            "item_count": 1,
+            "path": "v2/talenti.json",
+            "checksum_sha256": file_sha256(tmp_path / "out" / "v2" / "talenti.json"),
+        },
+    ]
+    assert [report["path"] for report in manifest["reports"]] == [
+        "reports/coverage.json",
+        "reports/parse.json",
+        "reports/summary.json",
+    ]
+    assert all(report["checksum_sha256"] for report in manifest["reports"])
 
 
 def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:

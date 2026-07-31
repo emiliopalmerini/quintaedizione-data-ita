@@ -55,6 +55,8 @@ def test_manifest_contains_only_canonical_relative_paths(tmp_path: Path) -> None
     assert manifest["dataset_version"] == "0.1.0"
     assert manifest["locale"] == "it"
     assert "path" not in manifest["source"]
+    assert manifest["collections"] == []
+    assert manifest["reports"] == []
     assert manifest["paths"] == {
         "extracted": "extracted",
         "manifest": "manifest.json",
