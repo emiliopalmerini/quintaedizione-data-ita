@@ -136,3 +136,56 @@ def test_normalize_orders_spanning_heading_before_columns() -> None:
     assert [node["text"] for node in nodes] == ["Capitolo", "Sinistra", "Destra"]
     assert nodes[0]["type"] == "heading"
     assert nodes[0]["heading_level"] == 1
+
+
+def test_normalize_tracks_heading_paths_across_pages() -> None:
+    chapter_span = _span("Capitolo")
+    chapter_span.update({"font": "GillSans-Bold", "size": 23.0, "color": 0x8C2220})
+    topic_span = _span("Argomento")
+    topic_span.update({"font": "GillSans-Bold", "size": 16.0, "color": 0x8C2220})
+    extracted = {
+        "source": {"id": "fixture"},
+        "pages": [
+            {
+                "page_number": 1,
+                "width": 600.0,
+                "height": 800.0,
+                "words": [],
+                "blocks": [
+                    {
+                        "bbox": [20.0, 20.0, 580.0, 45.0],
+                        "lines": [{"bbox": [20.0, 20.0, 580.0, 45.0], "spans": [chapter_span]}],
+                    },
+                    {
+                        "bbox": [20.0, 60.0, 200.0, 72.0],
+                        "lines": [{"bbox": [20.0, 60.0, 200.0, 72.0], "spans": [_span("Introduzione")]}],
+                    },
+                ],
+            },
+            {
+                "page_number": 2,
+                "width": 600.0,
+                "height": 800.0,
+                "words": [],
+                "blocks": [
+                    {
+                        "bbox": [20.0, 20.0, 200.0, 40.0],
+                        "lines": [{"bbox": [20.0, 20.0, 200.0, 40.0], "spans": [topic_span]}],
+                    },
+                    {
+                        "bbox": [20.0, 50.0, 200.0, 62.0],
+                        "lines": [{"bbox": [20.0, 50.0, 200.0, 62.0], "spans": [_span("Dettagli")]}],
+                    },
+                ],
+            },
+        ],
+    }
+
+    document = normalize_extracted(extracted)
+
+    page_one_nodes = document["pages"][0]["nodes"]
+    page_two_nodes = document["pages"][1]["nodes"]
+    assert page_one_nodes[0]["heading_path"] == ["Capitolo"]
+    assert page_one_nodes[1]["heading_path"] == ["Capitolo"]
+    assert page_two_nodes[0]["heading_path"] == ["Capitolo", "Argomento"]
+    assert page_two_nodes[1]["heading_path"] == ["Capitolo", "Argomento"]

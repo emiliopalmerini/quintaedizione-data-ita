@@ -115,6 +115,7 @@ def _next_boundary_index(paragraphs: list[dict[str, Any]], start_index: int) -> 
 
 def _build_origin(
     name: str,
+    heading: dict[str, Any],
     body: list[dict[str, Any]],
     *,
     section: dict[str, Any],
@@ -130,6 +131,10 @@ def _build_origin(
     description_parts: list[str] = []
     pages: list[int] = []
     current_field: str | None = None
+
+    heading_page = heading.get("page_number")
+    if isinstance(heading_page, int):
+        pages.append(heading_page)
 
     for paragraph in body:
         page_number = paragraph.get("page_number")
@@ -165,7 +170,8 @@ def _build_origin(
         "provenance": {
             "page_start": page_start,
             "page_end": page_end,
-            "heading_path": [section.get("title", ""), name],
+            "heading_path": heading.get("heading_path")
+            or [section.get("title", ""), name],
             "section_id": section.get("id", ""),
             "parser": "origini",
         },
@@ -189,6 +195,14 @@ def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any
         next_index = min(next_heading, next_boundary)
         name = str(paragraphs[index].get("text", "")).strip()
         body = paragraphs[index + 1 : next_index]
-        results.append(_build_origin(name, body, section=section, source_id=source_id))
+        results.append(
+            _build_origin(
+                name,
+                paragraphs[index],
+                body,
+                section=section,
+                source_id=source_id,
+            )
+        )
 
     return results

@@ -120,6 +120,18 @@ def _reading_order_key(
     return (band, column, y, float(bbox[0]))
 
 
+def _assign_heading_paths(pages: list[dict[str, Any]]) -> None:
+    stack: list[tuple[int, str]] = []
+    for page in pages:
+        for node in page.get("nodes", []):
+            if node.get("type") == "heading":
+                level = int(node.get("heading_level") or 6)
+                while stack and stack[-1][0] >= level:
+                    stack.pop()
+                stack.append((level, str(node.get("text", ""))))
+            node["heading_path"] = [title for _, title in stack]
+
+
 def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
     """Build ordered structural nodes while retaining source layout evidence."""
 
@@ -176,6 +188,8 @@ def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
                 "nodes": nodes,
             }
         )
+
+    _assign_heading_paths(pages)
 
     return {
         "schema_version": "2.0.0",

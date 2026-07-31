@@ -11,7 +11,12 @@ def test_parse_origini_extracts_origin_entities() -> None:
         "page_end": 97,
         "nodes": [
             {"text": "Origini dei personaggi", "type": "heading", "page_number": 93},
-            {"text": "Accolito", "type": "heading", "page_number": 93},
+            {
+                "text": "Accolito",
+                "type": "heading",
+                "page_number": 93,
+                "heading_path": ["Creazione del personaggio", "Origini", "Accolito"],
+            },
             {
                 "text": "Punteggi di caratteristica: Intelligenza, Saggezza, Carisma",
                 "type": "paragraph",
@@ -56,6 +61,11 @@ def test_parse_origini_extracts_origin_entities() -> None:
     assert item["description"][0]["text"] == "Hai trascorso la vita al servizio di un tempio."
     assert item["provenance"]["page_start"] == 93
     assert item["provenance"]["page_end"] == 94
+    assert item["provenance"]["heading_path"] == [
+        "Creazione del personaggio",
+        "Origini",
+        "Accolito",
+    ]
 
 
 def test_parse_origini_stops_at_species_boundary() -> None:

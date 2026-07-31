@@ -145,7 +145,8 @@ def _build_talent(
         "provenance": {
             "page_start": page_start,
             "page_end": page_end,
-            "heading_path": [section.get("title", ""), name],
+            "heading_path": heading.get("heading_path")
+            or [section.get("title", ""), name],
             "section_id": section.get("id", ""),
             "parser": "talenti",
         },
