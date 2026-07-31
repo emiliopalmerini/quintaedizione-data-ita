@@ -19,16 +19,23 @@ def _classify_paragraph(spans: list[dict[str, Any]]) -> tuple[str, int | None]:
     if not heading_spans:
         return "body", None
 
-    max_size = max(float(span.get("size", 0)) for span in heading_spans)
+    primary = max(heading_spans, key=lambda span: float(span.get("size", 0)))
+    max_size = float(primary.get("size", 0))
+    font = str(primary.get("font", ""))
+    emphasized = any(weight in font for weight in ("SemiBold", "Semibold", "Bold"))
+    if not emphasized:
+        return "heading", 6
     if max_size >= 23:
         return "heading", 1
     if max_size >= 16:
         return "heading", 2
-    if max_size >= 14:
+    if max_size >= 14.5:
         return "heading", 3
-    if max_size >= 12:
+    if max_size >= 13:
+        return "heading", 4
+    if max_size >= 11:
         return "heading", 5
-    return "heading", 6
+    return "heading", 5
 
 
 def _is_page_artifact(text: str, page_number: Any) -> bool:

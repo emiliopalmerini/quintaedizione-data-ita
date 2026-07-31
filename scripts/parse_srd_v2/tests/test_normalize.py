@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from scripts.parse_srd_v2.normalize import normalize_extracted
+from scripts.parse_srd_v2.normalize import _classify_paragraph, normalize_extracted
 
 
 def _span(text: str) -> dict:
@@ -12,6 +12,20 @@ def _span(text: str) -> dict:
         "flags": 0,
         "bbox": [0.0, 0.0, 0.0, 0.0],
     }
+
+
+def test_classify_all_heading_levels_used_by_srd_521() -> None:
+    def heading_span(size: float, font: str = "GillSans-SemiBold") -> dict:
+        span = _span("Titolo")
+        span.update({"font": font, "size": size, "color": 0x8C2220})
+        return span
+
+    assert _classify_paragraph([heading_span(23.0)]) == ("heading", 1)
+    assert _classify_paragraph([heading_span(16.0)]) == ("heading", 2)
+    assert _classify_paragraph([heading_span(14.8)]) == ("heading", 3)
+    assert _classify_paragraph([heading_span(14.0)]) == ("heading", 4)
+    assert _classify_paragraph([heading_span(12.0)]) == ("heading", 5)
+    assert _classify_paragraph([heading_span(12.0, "GillSans")]) == ("heading", 6)
 
 
 def test_normalize_builds_ordered_structural_nodes() -> None:
