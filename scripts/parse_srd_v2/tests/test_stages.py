@@ -10,6 +10,14 @@ from scripts.parse_srd_v2.manifest import file_sha256, read_json, write_json
 from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_parse, run_validate
 
 
+def _with_node_ids(document: dict) -> dict:
+    for page in document.get("pages", []):
+        page_number = int(page["page_number"])
+        for index, node in enumerate(page.get("nodes", []), start=1):
+            node["id"] = f"p{page_number:04d}-n{index:04d}"
+    return document
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -74,7 +82,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     normalized_dir = tmp_path / "normalized"
     write_json(
         normalized_dir / "document.json",
-        {
+        _with_node_ids({
             "schema_version": "2.0.0",
             "stage": "normalized",
             "source": {
@@ -113,7 +121,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                     ],
                 }
             ],
-        },
+        }),
     )
 
     report_path = run_parse(normalized_dir, tmp_path / "out")
@@ -129,6 +137,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert report["errors"] == []
     assert report["collection_item_counts"] == {"origini": 1, "specie": 1, "talenti": 1}
     assert report["unsupported_section_count"] == 10
+    assert report["node_accounting"]["consumed_node_count"] == 14
+    assert report["node_accounting"]["ignored_node_count"] == 4
+    assert report["node_accounting"]["unassigned_node_count"] == 0
+    assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
     assert origin_envelope["collection"] == "origini"
     assert origin_envelope["items"][0]["id"] == "soldato"

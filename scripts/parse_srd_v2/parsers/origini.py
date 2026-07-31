@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any
 
 from ..slugify import slugify
+from .result import ParseResult, ignored_node_entries, node_ids
 
 
 _META_LABELS = {
@@ -180,7 +181,7 @@ def _build_origin(
     }
 
 
-def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any]]:
+def parse_origini(section: dict[str, Any], source_id: str) -> ParseResult:
     """Parse Origini entities from one assigned section."""
 
     paragraphs = list(section.get("nodes", []))
@@ -189,10 +190,12 @@ def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any
     ]
 
     results: list[dict[str, Any]] = []
+    consumed_indexes: set[int] = set()
     for pos, index in enumerate(heading_indexes):
         next_heading = heading_indexes[pos + 1] if pos + 1 < len(heading_indexes) else len(paragraphs)
         next_boundary = _next_boundary_index(paragraphs, index)
         next_index = min(next_heading, next_boundary)
+        consumed_indexes.update(range(index, next_index))
         name = str(paragraphs[index].get("text", "")).strip()
         body = paragraphs[index + 1 : next_index]
         results.append(
@@ -205,4 +208,26 @@ def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any
             )
         )
 
-    return results
+    consumed_nodes = [
+        node for index, node in enumerate(paragraphs) if index in consumed_indexes
+    ]
+    preamble_end = heading_indexes[0] if heading_indexes else len(paragraphs)
+    ignored_nodes = ignored_node_entries(
+        paragraphs[:preamble_end],
+        "section_preamble",
+    )
+    ignored_nodes.extend(
+        ignored_node_entries(
+            [
+                node
+                for index, node in enumerate(paragraphs)
+                if index >= preamble_end and index not in consumed_indexes
+            ],
+            "outside_entity_boundary",
+        )
+    )
+    return ParseResult(
+        items=results,
+        consumed_node_ids=node_ids(consumed_nodes),
+        ignored_nodes=ignored_nodes,
+    )

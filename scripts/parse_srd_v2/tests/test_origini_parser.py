@@ -46,7 +46,11 @@ def test_parse_origini_extracts_origin_entities() -> None:
         ],
     }
 
-    items = parse_origini(section, "srd-5.2.1-it")
+    for index, node in enumerate(section["nodes"], start=1):
+        node["id"] = f"node-{index}"
+
+    result = parse_origini(section, "srd-5.2.1-it")
+    items = result.items
 
     assert len(items) == 1
     item = items[0]
@@ -65,6 +69,12 @@ def test_parse_origini_extracts_origin_entities() -> None:
         "Creazione del personaggio",
         "Origini",
         "Accolito",
+    ]
+    assert result.consumed_node_ids == [
+        f"node-{index}" for index in range(2, len(section["nodes"]) + 1)
+    ]
+    assert result.ignored_nodes == [
+        {"node_id": "node-1", "reason": "section_preamble"}
     ]
 
 
@@ -89,7 +99,8 @@ def test_parse_origini_stops_at_species_boundary() -> None:
         ],
     }
 
-    items = parse_origini(section, "srd-5.2.1-it")
+    result = parse_origini(section, "srd-5.2.1-it")
+    items = result.items
 
     assert len(items) == 1
     item = items[0]

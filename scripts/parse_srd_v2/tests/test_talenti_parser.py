@@ -32,7 +32,7 @@ def test_parse_talenti_extracts_origin_talent_and_repeatable_flag() -> None:
         ],
     }
 
-    items = parse_talenti(section, "srd-5.2.1-it")
+    items = parse_talenti(section, "srd-5.2.1-it").items
 
     assert len(items) == 1
     item = items[0]
@@ -86,7 +86,7 @@ def test_parse_talenti_handles_wrapped_prerequisite_and_multiple_talents() -> No
         ],
     }
 
-    items = parse_talenti(section, "srd-5.2.1-it")
+    items = parse_talenti(section, "srd-5.2.1-it").items
 
     assert [item["id"] for item in items] == [
         "lottatore",

@@ -52,7 +52,7 @@ def test_parse_specie_extracts_species_entities_and_traits() -> None:
         ],
     }
 
-    items = parse_specie(section, "srd-5.2.1-it")
+    items = parse_specie(section, "srd-5.2.1-it").items
 
     assert len(items) == 1
     item = items[0]
@@ -141,7 +141,7 @@ def test_parse_specie_handles_multiline_size_and_multiple_species() -> None:
         ],
     }
 
-    items = parse_specie(section, "srd-5.2.1-it")
+    items = parse_specie(section, "srd-5.2.1-it").items
 
     assert [item["id"] for item in items] == ["tiefling", "umano"]
     assert items[0]["size"] == (

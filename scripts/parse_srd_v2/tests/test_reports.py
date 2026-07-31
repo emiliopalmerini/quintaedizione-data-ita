@@ -57,6 +57,12 @@ def test_build_summary_report_marks_prefix_build_partial_for_unsupported_section
         "unsupported_sections": [
             {"section_id": "classi", "parser": "classi", "collection": "classi"},
         ],
+        "node_accounting": {
+            "consumed_node_count": 12,
+            "ignored_node_count": 2,
+            "unassigned_node_count": 5,
+            "missing_node_id_count": 0,
+        },
     }
     coverage_report = {
         "section_count": 13,
@@ -71,6 +77,12 @@ def test_build_summary_report_marks_prefix_build_partial_for_unsupported_section
     assert report["coverage"]["covered_section_count"] == 13
     assert report["parse"]["collection_item_counts"] == {"origini": 4, "regole": 3}
     assert report["parse"]["unsupported_section_count"] == 1
+    assert report["node_accounting"] == {
+        "consumed_node_count": 12,
+        "ignored_node_count": 2,
+        "unassigned_node_count": 5,
+        "missing_node_id_count": 0,
+    }
     assert report["errors"] == []
 
 

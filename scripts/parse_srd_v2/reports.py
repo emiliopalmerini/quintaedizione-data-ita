@@ -74,6 +74,7 @@ def build_summary_report(
     parse_errors = [str(error) for error in parse_report.get("errors", [])]
     coverage_errors = [str(error) for error in coverage_report.get("errors", [])]
     unsupported_sections = parse_report.get("unsupported_sections", [])
+    node_accounting = parse_report.get("node_accounting", {})
 
     if parse_errors or coverage_errors:
         status = "failed"
@@ -96,6 +97,12 @@ def build_summary_report(
             "collection_item_counts": collection_item_counts,
             "unsupported_section_count": len(unsupported_sections),
             "error_count": len(parse_errors),
+        },
+        "node_accounting": {
+            "consumed_node_count": node_accounting.get("consumed_node_count", 0),
+            "ignored_node_count": node_accounting.get("ignored_node_count", 0),
+            "unassigned_node_count": node_accounting.get("unassigned_node_count", 0),
+            "missing_node_id_count": node_accounting.get("missing_node_id_count", 0),
         },
         "errors": coverage_errors + parse_errors,
     }

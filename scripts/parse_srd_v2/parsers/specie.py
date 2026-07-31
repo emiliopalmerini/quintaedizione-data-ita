@@ -6,6 +6,7 @@ import re
 from typing import Any
 
 from ..slugify import slugify
+from .result import ParseResult, ignored_node_entries, node_ids
 
 
 SPECIES_NAMES = (
@@ -221,7 +222,7 @@ def _build_species(
     }
 
 
-def parse_specie(section: dict[str, Any], source_id: str) -> list[dict[str, Any]]:
+def parse_specie(section: dict[str, Any], source_id: str) -> ParseResult:
     """Parse Specie entities from one assigned section."""
 
     paragraphs = list(section.get("nodes", []))
@@ -246,4 +247,12 @@ def parse_specie(section: dict[str, Any], source_id: str) -> list[dict[str, Any]
             )
         )
 
-    return results
+    first_heading = heading_indexes[0] if heading_indexes else len(paragraphs)
+    return ParseResult(
+        items=results,
+        consumed_node_ids=node_ids(paragraphs[first_heading:]),
+        ignored_nodes=ignored_node_entries(
+            paragraphs[:first_heading],
+            "section_preamble",
+        ),
+    )

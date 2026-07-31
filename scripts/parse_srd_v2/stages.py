@@ -144,10 +144,30 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
         "collections": [],
         "errors": [],
         "unsupported_sections": [],
+        "node_accounting": {
+            "consumed_node_ids": [],
+            "ignored_nodes": [],
+            "unassigned_nodes": [],
+            "missing_node_id_count": 0,
+        },
     }
 
     by_collection: dict[str, list[dict[str, Any]]] = {}
     for section in sections_artifact.get("sections", []):
+        section_id = str(section.get("id", ""))
+        section_nodes = section.get("nodes", [])
+        section_node_ids = {
+            node["id"]
+            for node in section_nodes
+            if isinstance(node.get("id"), str)
+        }
+        missing_node_ids = len(section_nodes) - len(section_node_ids)
+        if missing_node_ids:
+            report["node_accounting"]["missing_node_id_count"] += missing_node_ids
+            report["errors"].append(
+                f"{section_id}: {missing_node_ids} normalized nodes have no id"
+            )
+
         parser_name = section.get("parser")
         parser = get_parser(str(parser_name))
         if parser is None:
@@ -158,9 +178,50 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
                     "collection": section.get("collection"),
                 }
             )
+            report["node_accounting"]["unassigned_nodes"].extend(
+                {
+                    "node_id": node_id,
+                    "section_id": section_id,
+                    "reason": "unsupported_parser",
+                }
+                for node_id in sorted(section_node_ids)
+            )
             continue
 
-        items = parser(section, source.id)
+        result = parser(section, source.id)
+        items = result.items
+        consumed_ids = set(result.consumed_node_ids)
+        ignored_ids = {entry["node_id"] for entry in result.ignored_nodes}
+        overlap = consumed_ids & ignored_ids
+        if overlap:
+            report["errors"].append(
+                f"{section_id}: nodes have multiple dispositions: {', '.join(sorted(overlap))}"
+            )
+        unknown_ids = (consumed_ids | ignored_ids) - section_node_ids
+        if unknown_ids:
+            report["errors"].append(
+                f"{section_id}: parser reported unknown node ids: "
+                f"{', '.join(sorted(unknown_ids))}"
+            )
+        report["node_accounting"]["consumed_node_ids"].extend(
+            result.consumed_node_ids
+        )
+        report["node_accounting"]["ignored_nodes"].extend(
+            {**entry, "section_id": section_id} for entry in result.ignored_nodes
+        )
+        unassigned_ids = section_node_ids - consumed_ids - ignored_ids
+        report["node_accounting"]["unassigned_nodes"].extend(
+            {
+                "node_id": node_id,
+                "section_id": section_id,
+                "reason": "parser_did_not_report_disposition",
+            }
+            for node_id in sorted(unassigned_ids)
+        )
+        if unassigned_ids:
+            report["errors"].append(
+                f"{section_id}: parser left {len(unassigned_ids)} nodes unassigned"
+            )
         collection_id = str(section.get("collection", ""))
         by_collection.setdefault(collection_id, []).extend(items)
         report["collections"].append(
@@ -187,6 +248,10 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
         collection_id: len(items) for collection_id, items in by_collection.items()
     }
     report["unsupported_section_count"] = len(report["unsupported_sections"])
+    accounting = report["node_accounting"]
+    accounting["consumed_node_count"] = len(accounting["consumed_node_ids"])
+    accounting["ignored_node_count"] = len(accounting["ignored_nodes"])
+    accounting["unassigned_node_count"] = len(accounting["unassigned_nodes"])
 
     report_path = paths["reports"] / "parse.json"
     write_json(report_path, report)
