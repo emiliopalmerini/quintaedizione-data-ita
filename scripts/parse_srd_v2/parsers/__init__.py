@@ -8,6 +8,7 @@ from .classi import parse_classi
 from .equipaggiamento import parse_equipaggiamento
 from .incantesimi import parse_incantesimi
 from .origini import parse_origini
+from .regole import parse_regole
 from .result import ParseResult
 from .specie import parse_specie
 from .talenti import parse_talenti
@@ -18,6 +19,7 @@ Parser = Callable[[dict[str, Any], str], ParseResult]
 PARSERS: dict[str, Parser] = {
     "classi": parse_classi,
     "origini": parse_origini,
+    "regole": parse_regole,
     "specie": parse_specie,
     "talenti": parse_talenti,
     "equipaggiamento": parse_equipaggiamento,

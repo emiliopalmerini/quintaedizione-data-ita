@@ -139,6 +139,23 @@ def _class_nodes() -> list[dict]:
     ]
 
 
+def _rule_nodes(title: str, page_number: int) -> list[dict]:
+    return [
+        {
+            "type": "heading",
+            "heading_level": 1,
+            "text": title,
+            "page_number": page_number,
+            "heading_path": [title],
+        },
+        {
+            "type": "paragraph",
+            "text": f"Contenuto di {title}.",
+            "page_number": page_number,
+        },
+    ]
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -213,6 +230,11 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                 "page_count": 405,
             },
             "pages": [
+                {"page_number": 5, "nodes": _rule_nodes("Come si gioca", 5)},
+                {
+                    "page_number": 21,
+                    "nodes": _rule_nodes("Creazione del personaggio", 21),
+                },
                 {
                     "page_number": 33,
                     "nodes": _class_nodes(),
@@ -260,6 +282,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                 {
                     "page_number": 140,
                     "nodes": _spell_nodes(),
+                },
+                {
+                    "page_number": 220,
+                    "nodes": _rule_nodes("Strumenti di gioco", 220),
                 }
             ],
         }),
@@ -276,6 +302,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         tmp_path / "out" / "v2" / "equipaggiamento.json"
     )
     spell_envelope = read_json(tmp_path / "out" / "v2" / "incantesimi.json")
+    rules_envelope = read_json(tmp_path / "out" / "v2" / "regole.json")
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
     manifest = read_json(tmp_path / "out" / "manifest.json")
@@ -286,11 +313,12 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "equipaggiamento": 1,
         "incantesimi": 1,
         "origini": 1,
+        "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 7
-    assert report["node_accounting"]["consumed_node_count"] == 27
+    assert report["unsupported_section_count"] == 4
+    assert report["node_accounting"]["consumed_node_count"] == 33
     assert report["node_accounting"]["ignored_node_count"] == 6
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
@@ -304,18 +332,20 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert talent_envelope["items"][0]["id"] == "abile"
     assert equipment_envelope["items"][0]["id"] == "randello"
     assert spell_envelope["items"][0]["id"] == "allarme"
-    assert coverage["covered_section_count"] == 6
-    assert coverage["empty_section_count"] == 7
+    assert len(rules_envelope["items"]) == 3
+    assert coverage["covered_section_count"] == 9
+    assert coverage["empty_section_count"] == 4
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
         "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
         "origini": 1,
+        "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 7
+    assert summary["parse"]["unsupported_section_count"] == 4
     assert manifest["collections"] == [
         {
             "collection": "classi",
@@ -346,6 +376,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "item_count": 1,
             "path": "v2/origini.json",
             "checksum_sha256": file_sha256(tmp_path / "out" / "v2" / "origini.json"),
+        },
+        {
+            "collection": "regole",
+            "item_count": 3,
+            "path": "v2/regole.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "regole.json"
+            ),
         },
         {
             "collection": "specie",

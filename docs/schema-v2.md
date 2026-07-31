@@ -184,3 +184,15 @@ Features and subclasses have deterministic IDs, source provenance, and content
 segments. Class headings are discovered structurally from regions containing a
 valid level-progression table; a hard-coded inventory of class names may only be
 used as an acceptance baseline.
+
+### Rules
+
+Rules are flat, addressable records rather than nested anonymous children. Every
+record has a path-aware ID, `title`, nullable `parent_id`, heading `depth`,
+zero-based sibling `order`, provenance, and content segments. Parent IDs and
+ordering allow exact reconstruction of the source tree while avoiding collisions
+between repeated titles in different contexts or source sections.
+
+Paragraph nodes following a heading belong to that rule until the next heading.
+Lists and tables must either be represented in rule content structurally or be
+reported with an explicit ignored-node reason; they cannot disappear silently.

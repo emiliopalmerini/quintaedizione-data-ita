@@ -236,3 +236,33 @@ def test_validate_envelope_accepts_class_progression() -> None:
         "items[0].progression[0].feature_ids must be a lowercase ASCII slug list"
         in validate_envelope(envelope)
     )
+
+
+def test_validate_envelope_accepts_flat_rule() -> None:
+    envelope = empty_envelope("regole", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "come-si-gioca-prove",
+            "title": "Prove",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 5,
+                "page_end": 6,
+                "heading_path": ["Come si gioca", "Prove"],
+                "section_id": "come_si_gioca",
+                "parser": "regole",
+            },
+            "parent_id": "come-si-gioca",
+            "depth": 2,
+            "order": 0,
+            "content": [{"type": "text", "text": "Una prova."}],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["parent_id"] = "Come si gioca"
+    assert (
+        "items[0].parent_id must be null or a lowercase ASCII slug"
+        in validate_envelope(envelope)
+    )

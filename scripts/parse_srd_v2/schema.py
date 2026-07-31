@@ -23,7 +23,9 @@ _PROVENANCE_REQUIRED_FIELDS = {
     "parser",
 }
 _PROVENANCE_FIELDS = _PROVENANCE_REQUIRED_FIELDS | {"bbox_page", "bbox"}
-_COMMON_ENTITY_FIELDS = {"id", "name", "source_id", "provenance"}
+_BASE_ENTITY_FIELDS = {"id", "source_id", "provenance"}
+_COMMON_ENTITY_FIELDS = _BASE_ENTITY_FIELDS | {"name"}
+_LABEL_FIELDS = {"regole": "title", "glossario_delle_regole": "term"}
 _ENTITY_FIELDS = {
     "origini": _COMMON_ENTITY_FIELDS
     | {
@@ -73,6 +75,8 @@ _ENTITY_FIELDS = {
         "spell_ids",
         "description",
     },
+    "regole": _BASE_ENTITY_FIELDS
+    | {"title", "parent_id", "depth", "order", "content"},
 }
 _OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
@@ -99,6 +103,7 @@ _CONTENT_FIELDS = {
     "equipaggiamento": {"description"},
     "incantesimi": {"description", "at_higher_levels"},
     "classi": {"description"},
+    "regole": {"content"},
 }
 
 
@@ -189,8 +194,9 @@ def validate_envelope(envelope: dict[str, Any]) -> list[str]:
             else:
                 seen_ids.add(entity_id)
 
-            if not isinstance(item.get("name"), str) or not item.get("name"):
-                errors.append(f"items[{index}].name is required")
+            label_field = _LABEL_FIELDS.get(str(collection), "name")
+            if not isinstance(item.get(label_field), str) or not item.get(label_field):
+                errors.append(f"items[{index}].{label_field} is required")
 
             source_id = item.get("source_id")
             if not isinstance(source_id, str) or not source_id:
@@ -353,6 +359,21 @@ def _validate_entity_fields(
 
     if collection == "classi":
         _validate_class(item, index, errors)
+
+    if collection == "regole":
+        parent_id = item.get("parent_id")
+        if parent_id is not None and (
+            not isinstance(parent_id, str) or _SLUG.fullmatch(parent_id) is None
+        ):
+            errors.append(
+                f"items[{index}].parent_id must be null or a lowercase ASCII slug"
+            )
+        for field, minimum in (("depth", 1), ("order", 0)):
+            value = item.get(field)
+            if not isinstance(value, int) or isinstance(value, bool) or value < minimum:
+                errors.append(
+                    f"items[{index}].{field} must be an integer >= {minimum}"
+                )
 
 
 def _slug_list(value: Any) -> bool:
