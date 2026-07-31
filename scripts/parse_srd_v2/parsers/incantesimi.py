@@ -22,6 +22,10 @@ _FIELD_LABELS = {
     "componente": "components",
     "durata": "duration",
 }
+_FIELD_RE = re.compile(
+    r"(Tempo di lancio|Gittata|Componenti|Componente|Durata):\s*",
+    re.IGNORECASE,
+)
 
 
 def _content(texts: list[str]) -> list[dict[str, str]]:
@@ -51,12 +55,33 @@ def _parse_subtitle(text: str) -> tuple[int, str, list[str]] | None:
     return int(level), slugify(school), [slugify(value) for value in classes.split(",")]
 
 
-def _metadata_field(text: str) -> tuple[str, str] | None:
-    if ":" not in text:
-        return None
-    label, value = text.split(":", 1)
-    field = _FIELD_LABELS.get(label.strip().lower())
-    return (field, value.strip()) if field is not None else None
+def _metadata_fields(text: str) -> dict[str, str]:
+    matches = list(_FIELD_RE.finditer(text))
+    fields: dict[str, str] = {}
+    for index, match in enumerate(matches):
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        field = _FIELD_LABELS[match.group(1).lower()]
+        fields[field] = text[match.end() : end].strip()
+    return fields
+
+
+def _extract_metadata(
+    nodes: list[dict[str, Any]],
+) -> tuple[dict[str, str], list[dict[str, Any]]]:
+    fields = {"casting_time": "", "range": "", "components": "", "duration": ""}
+    last_field: str | None = None
+    for index, node in enumerate(nodes):
+        text = str(node.get("text", "")).strip()
+        metadata = _metadata_fields(text)
+        if metadata:
+            fields.update(metadata)
+            last_field = next(reversed(metadata))
+            continue
+        if all(fields.values()):
+            return fields, nodes[index:]
+        if last_field is not None and text:
+            fields[last_field] = f"{fields[last_field]} {text}".strip()
+    return fields, []
 
 
 def _components(text: str) -> dict[str, Any]:
@@ -83,19 +108,13 @@ def _build_spell(
         return None
     level, school_id, class_ids = subtitle
 
-    fields = {"casting_time": "", "range": "", "components": "", "duration": ""}
+    fields, content_nodes = _extract_metadata(body[1:])
     description_parts: list[str] = []
     higher_parts: list[str] = []
     in_higher_levels = False
-    pages = [heading.get("page_number")]
-    for node in body[1:]:
-        pages.append(node.get("page_number"))
+    pages = [heading.get("page_number"), *(node.get("page_number") for node in body)]
+    for node in content_nodes:
         text = str(node.get("text", "")).strip()
-        metadata = _metadata_field(text)
-        if metadata is not None and not description_parts:
-            field, value = metadata
-            fields[field] = value
-            continue
         if text.startswith(_HIGHER_LEVELS_MARKER):
             in_higher_levels = True
             remainder = text.removeprefix(_HIGHER_LEVELS_MARKER).strip()

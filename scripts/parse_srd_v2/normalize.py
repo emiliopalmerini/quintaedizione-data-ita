@@ -100,8 +100,15 @@ def _line_groups(
         if not text or _is_page_artifact(text, page_number):
             continue
         role, heading_level = _classify_paragraph(spans)
+        first_span = spans[0] if spans else {}
+        first_font = str(first_span.get("font", ""))
+        starts_metadata_label = (
+            str(first_span.get("text", "")).strip().endswith(":")
+            and any(weight in first_font for weight in ("SemiBold", "Semibold", "Bold"))
+        )
         can_extend = (
             role == "body"
+            and not starts_metadata_label
             and groups
             and groups[-1]["role"] == role
             and groups[-1]["heading_level"] == heading_level

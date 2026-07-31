@@ -269,3 +269,45 @@ def test_normalize_emits_table_node_without_duplicate_paragraphs() -> None:
         "heading_path": [],
         "rows": extracted["pages"][0]["tables"][0]["rows"],
     }
+
+
+def test_normalize_splits_semibold_metadata_lines() -> None:
+    def metadata_line(label: str, value: str, y: float) -> dict:
+        label_span = _span(label)
+        label_span.update({"font": "GillSans-SemiBold", "size": 9.5})
+        return {
+            "bbox": [20.0, y, 300.0, y + 11.0],
+            "spans": [label_span, _span(f" {value}")],
+        }
+
+    extracted = {
+        "source": {"id": "fixture"},
+        "pages": [
+            {
+                "page_number": 121,
+                "width": 600.0,
+                "height": 800.0,
+                "words": [],
+                "blocks": [
+                    {
+                        "bbox": [20.0, 100.0, 300.0, 150.0],
+                        "lines": [
+                            metadata_line("Tempo di lancio:", "azione", 100.0),
+                            metadata_line("Gittata:", "36 metri", 112.0),
+                            metadata_line("Componenti:", "S", 124.0),
+                            metadata_line("Durata:", "1 ora", 136.0),
+                        ],
+                    }
+                ],
+            }
+        ],
+    }
+
+    document = normalize_extracted(extracted)
+
+    assert [node["text"] for node in document["pages"][0]["nodes"]] == [
+        "Tempo di lancio: azione",
+        "Gittata: 36 metri",
+        "Componenti: S",
+        "Durata: 1 ora",
+    ]

@@ -1,6 +1,44 @@
 from __future__ import annotations
 
-from scripts.parse_srd_v2.parsers.incantesimi import parse_incantesimi
+from scripts.parse_srd_v2.parsers.incantesimi import (
+    _extract_metadata,
+    _metadata_fields,
+    parse_incantesimi,
+)
+
+
+def test_extract_all_fields_from_merged_metadata_node() -> None:
+    assert _metadata_fields(
+        "Tempo di lancio: azione Gittata: 36 metri Componenti: S "
+        "Durata: concentrazione, fino a 1 ora"
+    ) == {
+        "casting_time": "azione",
+        "range": "36 metri",
+        "components": "S",
+        "duration": "concentrazione, fino a 1 ora",
+    }
+
+
+def test_extract_metadata_appends_wrapped_values() -> None:
+    fields, remaining = _extract_metadata(
+        [
+            {"text": "Tempo di lancio: reazione che l'incantatore può"},
+            {"text": "effettuare quando una creatura cade"},
+            {"text": "Gittata: 18 metri"},
+            {"text": "Componenti: V, M (una piccola"},
+            {"text": "piuma)"},
+            {"text": "Durata: 1 minuto"},
+            {"text": "Descrizione dell'incantesimo."},
+        ]
+    )
+
+    assert fields == {
+        "casting_time": "reazione che l'incantatore può effettuare quando una creatura cade",
+        "range": "18 metri",
+        "components": "V, M (una piccola piuma)",
+        "duration": "1 minuto",
+    }
+    assert remaining == [{"text": "Descrizione dell'incantesimo."}]
 
 
 def test_parse_structurally_discovered_spell() -> None:
