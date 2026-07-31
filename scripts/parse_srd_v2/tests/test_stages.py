@@ -18,6 +18,55 @@ def _with_node_ids(document: dict) -> dict:
     return document
 
 
+def _weapon_table_node() -> dict:
+    return {
+        "type": "table",
+        "page_number": 101,
+        "heading_path": ["Equipaggiamento", "Armi"],
+        "rows": [
+            {
+                "cells": [
+                    {"text": value}
+                    for value in (
+                        "Nome",
+                        "Costo",
+                        "Danni",
+                        "Peso",
+                        "Propriet\u00e0",
+                        "Padronanza",
+                    )
+                ]
+            },
+            {
+                "cells": [
+                    {"text": value}
+                    for value in (
+                        "Armi da mischia semplici",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                    )
+                ]
+            },
+            {
+                "cells": [
+                    {"text": value}
+                    for value in (
+                        "Randello",
+                        "1 MA",
+                        "1d4 contundenti",
+                        "1 kg",
+                        "Leggera",
+                        "Rallentare",
+                    )
+                ]
+            },
+        ],
+    }
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -119,6 +168,18 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                         {"text": "Talento Origini", "type": "paragraph", "page_number": 98},
                         {"text": "Il personaggio ottiene competenza.", "type": "paragraph", "page_number": 98},
                     ],
+                },
+                {
+                    "page_number": 101,
+                    "nodes": [
+                        {
+                            "text": "Armi",
+                            "type": "heading",
+                            "page_number": 101,
+                            "heading_path": ["Equipaggiamento", "Armi"],
+                        },
+                        _weapon_table_node(),
+                    ],
                 }
             ],
         }),
@@ -130,15 +191,23 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     origin_envelope = read_json(tmp_path / "out" / "v2" / "origini.json")
     species_envelope = read_json(tmp_path / "out" / "v2" / "specie.json")
     talent_envelope = read_json(tmp_path / "out" / "v2" / "talenti.json")
+    equipment_envelope = read_json(
+        tmp_path / "out" / "v2" / "equipaggiamento.json"
+    )
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
     manifest = read_json(tmp_path / "out" / "manifest.json")
 
     assert report["errors"] == []
-    assert report["collection_item_counts"] == {"origini": 1, "specie": 1, "talenti": 1}
-    assert report["unsupported_section_count"] == 10
-    assert report["node_accounting"]["consumed_node_count"] == 14
-    assert report["node_accounting"]["ignored_node_count"] == 4
+    assert report["collection_item_counts"] == {
+        "equipaggiamento": 1,
+        "origini": 1,
+        "specie": 1,
+        "talenti": 1,
+    }
+    assert report["unsupported_section_count"] == 9
+    assert report["node_accounting"]["consumed_node_count"] == 15
+    assert report["node_accounting"]["ignored_node_count"] == 5
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
@@ -148,16 +217,26 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert species_envelope["items"][0]["id"] == "dragonide"
     assert talent_envelope["collection"] == "talenti"
     assert talent_envelope["items"][0]["id"] == "abile"
-    assert coverage["covered_section_count"] == 3
-    assert coverage["empty_section_count"] == 10
+    assert equipment_envelope["items"][0]["id"] == "randello"
+    assert coverage["covered_section_count"] == 4
+    assert coverage["empty_section_count"] == 9
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
+        "equipaggiamento": 1,
         "origini": 1,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 10
+    assert summary["parse"]["unsupported_section_count"] == 9
     assert manifest["collections"] == [
+        {
+            "collection": "equipaggiamento",
+            "item_count": 1,
+            "path": "v2/equipaggiamento.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "equipaggiamento.json"
+            ),
+        },
         {
             "collection": "origini",
             "item_count": 1,

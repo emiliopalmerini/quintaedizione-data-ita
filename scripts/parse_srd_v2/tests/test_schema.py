@@ -108,3 +108,41 @@ def test_validate_envelope_rejects_invalid_collection_field_types() -> None:
     assert "items[0].provenance.section_id must be a non-empty string" in errors
     assert "items[0].ability_scores must be a non-empty string" in errors
     assert "items[0].description must be a content segment list" in errors
+
+
+def test_validate_envelope_accepts_typed_weapon_equipment() -> None:
+    envelope = empty_envelope(
+        "equipaggiamento",
+        source=_source(),
+        generated=_generated(),
+    )
+    envelope["items"] = [
+        {
+            "id": "randello",
+            "name": "Randello",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 101,
+                "page_end": 101,
+                "heading_path": ["Equipaggiamento", "Armi", "Randello"],
+                "section_id": "equipaggiamento",
+                "parser": "equipaggiamento",
+            },
+            "category_id": "arma",
+            "subcategory_id": "armi-da-mischia-semplici",
+            "subcategory_name": "Armi da mischia semplici",
+            "cost": {"quantity": 1, "unit": "ma"},
+            "weight": {"quantity": 1, "unit": "kg"},
+            "damage": {"dice": "1d4", "type_id": "contundenti"},
+            "property_ids": ["leggera"],
+            "mastery_id": "rallentare",
+            "description": [],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["cost"] = {"quantity": "1", "unit": "ma", "extra": True}
+    errors = validate_envelope(envelope)
+    assert "items[0].cost has unknown fields: extra" in errors
+    assert "items[0].cost.quantity must be a number" in errors

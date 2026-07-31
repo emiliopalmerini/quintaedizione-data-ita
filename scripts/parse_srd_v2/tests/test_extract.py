@@ -46,6 +46,17 @@ class _FakePage:
             }
         raise AssertionError(f"unexpected text kind: {kind}")
 
+    def find_tables(self):
+        table = SimpleNamespace(
+            bbox=(10.0, 100.0, 300.0, 140.0),
+            rows=[
+                SimpleNamespace(cells=[(10.0, 100.0, 100.0, 120.0), (100.0, 100.0, 300.0, 120.0)]),
+                SimpleNamespace(cells=[(10.0, 120.0, 100.0, 140.0), (100.0, 120.0, 300.0, 140.0)]),
+            ],
+            extract=lambda: [["Nome", "Costo"], ["Randello", "1 MA"]],
+        )
+        return SimpleNamespace(tables=[table])
+
 
 class _FakeDocument:
     def __iter__(self):
@@ -90,3 +101,22 @@ def test_extract_preserves_words_and_line_metadata(monkeypatch, tmp_path: Path) 
     assert line["spans"][0]["ascender"] == 1.0
     assert line["spans"][0]["descender"] == -0.25
     assert line["spans"][0]["origin"] == [10.0, 30.0]
+    assert page["tables"] == [
+        {
+            "bbox": [10.0, 100.0, 300.0, 140.0],
+            "rows": [
+                {
+                    "cells": [
+                        {"bbox": [10.0, 100.0, 100.0, 120.0], "text": "Nome"},
+                        {"bbox": [100.0, 100.0, 300.0, 120.0], "text": "Costo"},
+                    ]
+                },
+                {
+                    "cells": [
+                        {"bbox": [10.0, 120.0, 100.0, 140.0], "text": "Randello"},
+                        {"bbox": [100.0, 120.0, 300.0, 140.0], "text": "1 MA"},
+                    ]
+                },
+            ],
+        }
+    ]

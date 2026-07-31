@@ -67,9 +67,27 @@ def _union_bbox(lines: list[dict[str, Any]]) -> list[float]:
     ]
 
 
-def _line_groups(block: dict[str, Any], page_number: Any) -> list[dict[str, Any]]:
+def _bbox_center_inside(bbox: Any, regions: list[list[float]]) -> bool:
+    if not isinstance(bbox, list) or len(bbox) != 4:
+        return False
+    center_x = (float(bbox[0]) + float(bbox[2])) / 2
+    center_y = (float(bbox[1]) + float(bbox[3])) / 2
+    return any(
+        region[0] <= center_x <= region[2] and region[1] <= center_y <= region[3]
+        for region in regions
+        if len(region) == 4
+    )
+
+
+def _line_groups(
+    block: dict[str, Any],
+    page_number: Any,
+    excluded_regions: list[list[float]],
+) -> list[dict[str, Any]]:
     groups: list[dict[str, Any]] = []
     for line_index, line in enumerate(block.get("lines", [])):
+        if _bbox_center_inside(line.get("bbox"), excluded_regions):
+            continue
         spans = line.get("spans", [])
         text = "".join(str(span.get("text", "")) for span in spans).strip()
         if not text or _is_page_artifact(text, page_number):
@@ -140,9 +158,14 @@ def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
         page_number = page.get("page_number")
         page_width = float(page.get("width") or 0)
         nodes: list[dict[str, Any]] = []
+        table_regions = [
+            [float(value) for value in table.get("bbox", [])]
+            for table in page.get("tables", [])
+            if len(table.get("bbox", [])) == 4
+        ]
         for fallback_block_index, block in enumerate(page.get("blocks", [])):
             block_index = int(block.get("block_index", fallback_block_index))
-            for group in _line_groups(block, page_number):
+            for group in _line_groups(block, page_number, table_regions):
                 lines = group["lines"]
                 line_indexes = group["line_indexes"]
                 spans = [span for line in lines for span in line.get("spans", [])]
@@ -169,6 +192,17 @@ def normalize_extracted(extracted: dict[str, Any]) -> dict[str, Any]:
                         "words": words,
                     }
                 )
+
+        for table_index, table in enumerate(page.get("tables", [])):
+            nodes.append(
+                {
+                    "type": "table",
+                    "page_number": page_number,
+                    "bbox": table.get("bbox", []),
+                    "source_table_index": table_index,
+                    "rows": table.get("rows", []),
+                }
+            )
 
         spanning_y = sorted(
             float(node["bbox"][1])

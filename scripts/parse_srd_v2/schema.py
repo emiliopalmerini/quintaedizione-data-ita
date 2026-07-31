@@ -38,7 +38,20 @@ _ENTITY_FIELDS = {
     | {"creature_type", "size", "speed", "description", "traits"},
     "talenti": _COMMON_ENTITY_FIELDS
     | {"category", "prerequisite", "repeatable", "benefit"},
+    "equipaggiamento": _COMMON_ENTITY_FIELDS
+    | {
+        "category_id",
+        "subcategory_id",
+        "subcategory_name",
+        "cost",
+        "weight",
+        "damage",
+        "property_ids",
+        "mastery_id",
+        "description",
+    },
 }
+_OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
     "origini": {
         "ability_scores",
@@ -49,11 +62,17 @@ _STRING_FIELDS = {
     },
     "specie": {"creature_type", "size", "speed"},
     "talenti": {"category"},
+    "equipaggiamento": {
+        "category_id",
+        "subcategory_id",
+        "subcategory_name",
+    },
 }
 _CONTENT_FIELDS = {
     "origini": {"description"},
     "specie": {"description"},
     "talenti": {"benefit"},
+    "equipaggiamento": {"description"},
 }
 
 
@@ -168,7 +187,12 @@ def validate_envelope(envelope: dict[str, Any]) -> list[str]:
                             f"items[{index}] has unknown fields: "
                             f"{', '.join(unknown_item_fields)}"
                         )
-                    for field in sorted(allowed_fields - _COMMON_ENTITY_FIELDS):
+                    required_fields = (
+                        allowed_fields
+                        - _COMMON_ENTITY_FIELDS
+                        - _OPTIONAL_ENTITY_FIELDS.get(collection, set())
+                    )
+                    for field in sorted(required_fields):
                         if field not in item:
                             errors.append(f"items[{index}].{field} is required")
                     _validate_entity_fields(collection, item, index, errors)
@@ -245,6 +269,57 @@ def _validate_entity_fields(
                 if not isinstance(trait.get("name"), str) or not trait.get("name"):
                     errors.append(f"{prefix}.name is required")
                 _validate_content(trait.get("description"), f"{prefix}.description", errors)
+
+    if collection == "equipaggiamento":
+        for field in ("cost", "weight"):
+            if field in item:
+                _validate_measure(item[field], f"items[{index}].{field}", errors)
+        if "damage" in item:
+            _validate_damage(item["damage"], f"items[{index}].damage", errors)
+        if "property_ids" in item:
+            property_ids = item["property_ids"]
+            if not isinstance(property_ids, list) or not all(
+                isinstance(value, str) and _SLUG.fullmatch(value)
+                for value in property_ids
+            ):
+                errors.append(
+                    f"items[{index}].property_ids must be a lowercase ASCII slug list"
+                )
+        if "mastery_id" in item and (
+            not isinstance(item["mastery_id"], str)
+            or _SLUG.fullmatch(item["mastery_id"]) is None
+        ):
+            errors.append(f"items[{index}].mastery_id must be a lowercase ASCII slug")
+
+
+def _validate_measure(value: Any, prefix: str, errors: list[str]) -> None:
+    if not isinstance(value, dict):
+        errors.append(f"{prefix} must be an object")
+        return
+    unknown = sorted(set(value) - {"quantity", "unit"})
+    if unknown:
+        errors.append(f"{prefix} has unknown fields: {', '.join(unknown)}")
+    quantity = value.get("quantity")
+    if not isinstance(quantity, (int, float)) or isinstance(quantity, bool):
+        errors.append(f"{prefix}.quantity must be a number")
+    unit = value.get("unit")
+    if not isinstance(unit, str) or _SLUG.fullmatch(unit) is None:
+        errors.append(f"{prefix}.unit must be a lowercase ASCII slug")
+
+
+def _validate_damage(value: Any, prefix: str, errors: list[str]) -> None:
+    if not isinstance(value, dict):
+        errors.append(f"{prefix} must be an object")
+        return
+    unknown = sorted(set(value) - {"dice", "type_id"})
+    if unknown:
+        errors.append(f"{prefix} has unknown fields: {', '.join(unknown)}")
+    dice = value.get("dice")
+    if not isinstance(dice, str) or re.fullmatch(r"\d+d\d+", dice) is None:
+        errors.append(f"{prefix}.dice must be dice notation")
+    type_id = value.get("type_id")
+    if not isinstance(type_id, str) or _SLUG.fullmatch(type_id) is None:
+        errors.append(f"{prefix}.type_id must be a lowercase ASCII slug")
 
 
 def _validate_content(value: Any, prefix: str, errors: list[str]) -> None:

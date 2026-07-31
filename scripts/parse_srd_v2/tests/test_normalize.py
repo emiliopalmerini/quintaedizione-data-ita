@@ -189,3 +189,69 @@ def test_normalize_tracks_heading_paths_across_pages() -> None:
     assert page_one_nodes[1]["heading_path"] == ["Capitolo"]
     assert page_two_nodes[0]["heading_path"] == ["Capitolo", "Argomento"]
     assert page_two_nodes[1]["heading_path"] == ["Capitolo", "Argomento"]
+
+
+def test_normalize_emits_table_node_without_duplicate_paragraphs() -> None:
+    extracted = {
+        "source": {"id": "fixture"},
+        "pages": [
+            {
+                "page_number": 101,
+                "width": 600.0,
+                "height": 800.0,
+                "words": [],
+                "tables": [
+                    {
+                        "bbox": [20.0, 100.0, 580.0, 160.0],
+                        "rows": [
+                            {
+                                "cells": [
+                                    {"text": "Nome", "bbox": [20.0, 100.0, 140.0, 120.0]},
+                                    {"text": "Costo", "bbox": [140.0, 100.0, 220.0, 120.0]},
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "text": "Armi da mischia semplici",
+                                        "bbox": [20.0, 120.0, 140.0, 140.0],
+                                    },
+                                    {"text": "", "bbox": [140.0, 120.0, 220.0, 140.0]},
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {"text": "Randello", "bbox": [20.0, 140.0, 140.0, 160.0]},
+                                    {"text": "1 MA", "bbox": [140.0, 140.0, 220.0, 160.0]},
+                                ]
+                            },
+                        ],
+                    }
+                ],
+                "blocks": [
+                    {
+                        "bbox": [20.0, 105.0, 220.0, 155.0],
+                        "lines": [
+                            {"bbox": [20.0, 105.0, 220.0, 115.0], "spans": [_span("Nome Costo")]},
+                            {"bbox": [20.0, 125.0, 220.0, 135.0], "spans": [_span("Armi da mischia semplici")]},
+                            {"bbox": [20.0, 145.0, 220.0, 155.0], "spans": [_span("Randello 1 MA")]},
+                        ],
+                    }
+                ],
+            }
+        ],
+    }
+
+    document = normalize_extracted(extracted)
+
+    nodes = document["pages"][0]["nodes"]
+    assert len(nodes) == 1
+    assert nodes[0] == {
+        "id": "p0101-n0001",
+        "type": "table",
+        "page_number": 101,
+        "bbox": [20.0, 100.0, 580.0, 160.0],
+        "source_table_index": 0,
+        "heading_path": [],
+        "rows": extracted["pages"][0]["tables"][0]["rows"],
+    }

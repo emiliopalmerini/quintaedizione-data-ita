@@ -132,3 +132,28 @@ statistics, monster actions and spellcasting, and rule hierarchy.
 Choice and prerequisite expressions use a shared recursive representation with
 explicit `all`, `any`, `one_of`, `reference`, and scalar requirement nodes.
 Display text may accompany the expression but cannot be its only representation.
+
+### Equipment
+
+Every equipment record has `category_id` and category-specific typed fields.
+Weapon records include:
+
+- `subcategory_id` and `subcategory_name`;
+- `cost` as `{quantity, unit}`;
+- `weight` as `{quantity, unit}`;
+- `damage` as `{dice, type_id}`;
+- `property_ids` in source order;
+- optional `mastery_id`;
+- rich-text `description`.
+
+The parser preserves display labels where controlled IDs normalize spelling or
+grammar. It must not publish an arbitrary string-to-string property map as the
+canonical representation.
+
+### Table Nodes
+
+Normalized table nodes preserve the table bounding box, source page, ordered
+rows, and ordered cells. Every cell contains text and its source bounding box.
+Header and subcategory rows remain explicit rows until a typed collection parser
+consumes them. Table content is not converted to markdown and is not also emitted
+as duplicate paragraph nodes.

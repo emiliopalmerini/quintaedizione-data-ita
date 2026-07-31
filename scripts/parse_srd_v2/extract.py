@@ -45,6 +45,24 @@ def _word_to_json(word: tuple[Any, ...]) -> dict[str, Any]:
     }
 
 
+def _table_to_json(table: Any) -> dict[str, Any]:
+    extracted_rows = table.extract()
+    rows = []
+    for row_index, row in enumerate(table.rows):
+        texts = extracted_rows[row_index] if row_index < len(extracted_rows) else []
+        cells = []
+        for cell_index, bbox in enumerate(row.cells):
+            text = texts[cell_index] if cell_index < len(texts) else ""
+            cells.append(
+                {
+                    "bbox": list(bbox) if bbox is not None else [],
+                    "text": str(text or "").strip(),
+                }
+            )
+        rows.append({"cells": cells})
+    return {"bbox": list(table.bbox), "rows": rows}
+
+
 def extract_pdf(
     pdf_path: Path,
     *,
@@ -66,6 +84,7 @@ def extract_pdf(
             "height": page.rect.height,
             "text": page.get_text("text"),
             "words": [_word_to_json(word) for word in page.get_text("words")],
+            "tables": [_table_to_json(table) for table in page.find_tables().tables],
             "blocks": [],
         }
 
