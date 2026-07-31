@@ -171,3 +171,16 @@ Spell entries are discovered from level-5 headings beneath the structural
 inventory. `description` and `at_higher_levels` are separate content segment
 lists. Spell-list tables are separate structured inputs that later resolve class
 spell-list references; they are not spell definitions.
+
+### Classes
+
+Class records contain a numeric `hit_die`, typed `progression` rows,
+addressable `features`, `subclasses`, and resolved `spell_ids`. A progression row
+contains `level`, `proficiency_bonus`, ordered `feature_ids`, and ordered
+class-specific resources as `{id, value}` records. This preserves variable class
+tables without reducing them to markdown or an untyped property object.
+
+Features and subclasses have deterministic IDs, source provenance, and content
+segments. Class headings are discovered structurally from regions containing a
+valid level-progression table; a hard-coded inventory of class names may only be
+used as an acceptance baseline.

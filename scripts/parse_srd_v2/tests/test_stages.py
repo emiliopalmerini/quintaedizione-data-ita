@@ -91,6 +91,54 @@ def _spell_nodes() -> list[dict]:
     return nodes
 
 
+def _class_nodes() -> list[dict]:
+    return [
+        {
+            "type": "heading",
+            "heading_level": 2,
+            "text": "Barbaro",
+            "page_number": 33,
+            "heading_path": ["Classi", "Barbaro"],
+        },
+        {"type": "paragraph", "text": "Dado vita: d12", "page_number": 33},
+        {
+            "type": "table",
+            "page_number": 34,
+            "heading_path": ["Classi", "Barbaro"],
+            "rows": [
+                {
+                    "cells": [
+                        {"text": value}
+                        for value in (
+                            "Livello",
+                            "Bonus di competenza",
+                            "Privilegi",
+                            "Ira",
+                        )
+                    ]
+                },
+                {
+                    "cells": [
+                        {"text": value} for value in ("1", "+2", "Ira", "2")
+                    ]
+                },
+            ],
+        },
+        {
+            "type": "heading",
+            "heading_level": 5,
+            "text": "Ira",
+            "page_number": 35,
+            "heading_path": ["Classi", "Barbaro", "Ira"],
+        },
+        {
+            "type": "paragraph",
+            "text": "Il barbaro combatte con furia primordiale.",
+            "page_number": 35,
+        },
+    ]
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -166,6 +214,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             },
             "pages": [
                 {
+                    "page_number": 33,
+                    "nodes": _class_nodes(),
+                },
+                {
                     "page_number": 93,
                     "nodes": [
                         {"text": "Origini dei personaggi", "type": "heading", "page_number": 93},
@@ -216,6 +268,7 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     report_path = run_parse(normalized_dir, tmp_path / "out")
     report = read_json(report_path)
     sections = read_json(tmp_path / "out" / "sections" / "sections.json")
+    class_envelope = read_json(tmp_path / "out" / "v2" / "classi.json")
     origin_envelope = read_json(tmp_path / "out" / "v2" / "origini.json")
     species_envelope = read_json(tmp_path / "out" / "v2" / "specie.json")
     talent_envelope = read_json(tmp_path / "out" / "v2" / "talenti.json")
@@ -229,18 +282,20 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
 
     assert report["errors"] == []
     assert report["collection_item_counts"] == {
+        "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
         "origini": 1,
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 8
-    assert report["node_accounting"]["consumed_node_count"] == 22
+    assert report["unsupported_section_count"] == 7
+    assert report["node_accounting"]["consumed_node_count"] == 27
     assert report["node_accounting"]["ignored_node_count"] == 6
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
+    assert class_envelope["items"][0]["id"] == "barbaro"
     assert origin_envelope["collection"] == "origini"
     assert origin_envelope["items"][0]["id"] == "soldato"
     assert species_envelope["collection"] == "specie"
@@ -249,18 +304,27 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert talent_envelope["items"][0]["id"] == "abile"
     assert equipment_envelope["items"][0]["id"] == "randello"
     assert spell_envelope["items"][0]["id"] == "allarme"
-    assert coverage["covered_section_count"] == 5
-    assert coverage["empty_section_count"] == 8
+    assert coverage["covered_section_count"] == 6
+    assert coverage["empty_section_count"] == 7
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
+        "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
         "origini": 1,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 8
+    assert summary["parse"]["unsupported_section_count"] == 7
     assert manifest["collections"] == [
+        {
+            "collection": "classi",
+            "item_count": 1,
+            "path": "v2/classi.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "classi.json"
+            ),
+        },
         {
             "collection": "equipaggiamento",
             "item_count": 1,

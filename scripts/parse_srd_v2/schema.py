@@ -64,6 +64,15 @@ _ENTITY_FIELDS = {
         "description",
         "at_higher_levels",
     },
+    "classi": _COMMON_ENTITY_FIELDS
+    | {
+        "hit_die",
+        "progression",
+        "features",
+        "subclasses",
+        "spell_ids",
+        "description",
+    },
 }
 _OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
@@ -89,6 +98,7 @@ _CONTENT_FIELDS = {
     "talenti": {"benefit"},
     "equipaggiamento": {"description"},
     "incantesimi": {"description", "at_higher_levels"},
+    "classi": {"description"},
 }
 
 
@@ -216,8 +226,14 @@ def validate_envelope(envelope: dict[str, Any]) -> list[str]:
     return errors
 
 
-def _validate_provenance(value: Any, index: int, errors: list[str]) -> None:
-    prefix = f"items[{index}].provenance"
+def _validate_provenance(
+    value: Any,
+    index: int,
+    errors: list[str],
+    *,
+    prefix: str | None = None,
+) -> None:
+    prefix = prefix or f"items[{index}].provenance"
     if not isinstance(value, dict):
         errors.append(f"{prefix} is required")
         return
@@ -334,6 +350,104 @@ def _validate_entity_fields(
                 f"items[{index}].components",
                 errors,
             )
+
+    if collection == "classi":
+        _validate_class(item, index, errors)
+
+
+def _slug_list(value: Any) -> bool:
+    return isinstance(value, list) and all(
+        isinstance(entry, str) and _SLUG.fullmatch(entry) for entry in value
+    )
+
+
+def _validate_class(item: dict[str, Any], index: int, errors: list[str]) -> None:
+    prefix = f"items[{index}]"
+    hit_die = item.get("hit_die")
+    if not isinstance(hit_die, int) or isinstance(hit_die, bool) or hit_die <= 0:
+        errors.append(f"{prefix}.hit_die must be a positive integer")
+
+    progression = item.get("progression")
+    if not isinstance(progression, list) or not progression:
+        errors.append(f"{prefix}.progression must be a non-empty list")
+    else:
+        for row_index, row in enumerate(progression):
+            row_prefix = f"{prefix}.progression[{row_index}]"
+            if not isinstance(row, dict):
+                errors.append(f"{row_prefix} must be an object")
+                continue
+            unknown = sorted(
+                set(row) - {"level", "proficiency_bonus", "feature_ids", "resources"}
+            )
+            if unknown:
+                errors.append(f"{row_prefix} has unknown fields: {', '.join(unknown)}")
+            level = row.get("level")
+            if not isinstance(level, int) or isinstance(level, bool) or not 1 <= level <= 20:
+                errors.append(f"{row_prefix}.level must be an integer from 1 to 20")
+            bonus = row.get("proficiency_bonus")
+            if not isinstance(bonus, int) or isinstance(bonus, bool):
+                errors.append(f"{row_prefix}.proficiency_bonus must be an integer")
+            if not _slug_list(row.get("feature_ids")):
+                errors.append(
+                    f"{row_prefix}.feature_ids must be a lowercase ASCII slug list"
+                )
+            resources = row.get("resources")
+            if not isinstance(resources, list):
+                errors.append(f"{row_prefix}.resources must be a list")
+            else:
+                for resource_index, resource in enumerate(resources):
+                    resource_prefix = f"{row_prefix}.resources[{resource_index}]"
+                    if not isinstance(resource, dict):
+                        errors.append(f"{resource_prefix} must be an object")
+                        continue
+                    if set(resource) != {"id", "value"}:
+                        errors.append(f"{resource_prefix} must contain id and value")
+                    if not isinstance(resource.get("id"), str) or _SLUG.fullmatch(
+                        resource["id"]
+                    ) is None:
+                        errors.append(f"{resource_prefix}.id must be a lowercase ASCII slug")
+                    if not isinstance(resource.get("value"), str):
+                        errors.append(f"{resource_prefix}.value must be a string")
+
+    features = item.get("features")
+    if not isinstance(features, list):
+        errors.append(f"{prefix}.features must be a list")
+    else:
+        for feature_index, feature in enumerate(features):
+            feature_prefix = f"{prefix}.features[{feature_index}]"
+            if not isinstance(feature, dict):
+                errors.append(f"{feature_prefix} must be an object")
+                continue
+            unknown = sorted(
+                set(feature) - {"id", "name", "level", "provenance", "description"}
+            )
+            if unknown:
+                errors.append(f"{feature_prefix} has unknown fields: {', '.join(unknown)}")
+            if not isinstance(feature.get("id"), str) or _SLUG.fullmatch(
+                feature["id"]
+            ) is None:
+                errors.append(f"{feature_prefix}.id must be a lowercase ASCII slug")
+            if not isinstance(feature.get("name"), str) or not feature["name"]:
+                errors.append(f"{feature_prefix}.name is required")
+            level = feature.get("level")
+            if not isinstance(level, int) or isinstance(level, bool) or not 0 <= level <= 20:
+                errors.append(f"{feature_prefix}.level must be an integer from 0 to 20")
+            _validate_provenance(
+                feature.get("provenance"),
+                index,
+                errors,
+                prefix=f"{feature_prefix}.provenance",
+            )
+            _validate_content(
+                feature.get("description"),
+                f"{feature_prefix}.description",
+                errors,
+            )
+
+    if not isinstance(item.get("subclasses"), list):
+        errors.append(f"{prefix}.subclasses must be a list")
+    if not _slug_list(item.get("spell_ids")):
+        errors.append(f"{prefix}.spell_ids must be a lowercase ASCII slug list")
 
 
 def _validate_measure(value: Any, prefix: str, errors: list[str]) -> None:

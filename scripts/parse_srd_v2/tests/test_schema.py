@@ -188,3 +188,51 @@ def test_validate_envelope_accepts_typed_spell() -> None:
         "items[0].class_ids must be a lowercase ASCII slug list"
         in validate_envelope(envelope)
     )
+
+
+def test_validate_envelope_accepts_class_progression() -> None:
+    envelope = empty_envelope("classi", source=_source(), generated=_generated())
+    provenance = {
+        "page_start": 33,
+        "page_end": 35,
+        "heading_path": ["Classi", "Barbaro"],
+        "section_id": "classi",
+        "parser": "classi",
+    }
+    envelope["items"] = [
+        {
+            "id": "barbaro",
+            "name": "Barbaro",
+            "source_id": "srd-5.2.1-it",
+            "provenance": provenance,
+            "hit_die": 12,
+            "progression": [
+                {
+                    "level": 1,
+                    "proficiency_bonus": 2,
+                    "feature_ids": ["barbaro-ira"],
+                    "resources": [{"id": "ira", "value": "2"}],
+                }
+            ],
+            "features": [
+                {
+                    "id": "barbaro-ira",
+                    "name": "Ira",
+                    "level": 1,
+                    "provenance": provenance,
+                    "description": [{"type": "text", "text": "Descrizione."}],
+                }
+            ],
+            "subclasses": [],
+            "spell_ids": [],
+            "description": [],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+    envelope["items"][0]["progression"][0]["feature_ids"] = ["Ira"]
+    assert (
+        "items[0].progression[0].feature_ids must be a lowercase ASCII slug list"
+        in validate_envelope(envelope)
+    )
