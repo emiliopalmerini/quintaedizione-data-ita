@@ -6,7 +6,6 @@ from pathlib import Path
 from typing import Any
 
 from .collections import collection_ids
-from .errors import UnsupportedStage
 from .extract import extract_pdf
 from .manifest import (
     Manifest,
@@ -23,7 +22,7 @@ from .schema import empty_envelope, validate_envelope
 from .sections import assign_sections
 
 
-STAGE_DIRS = ("extracted", "normalized", "sections", "v2", "reports", "compat")
+STAGE_DIRS = ("extracted", "normalized", "sections", "v2", "reports")
 
 
 def ensure_output_tree(output_dir: Path) -> dict[str, Path]:
@@ -38,8 +37,8 @@ def ensure_output_tree(output_dir: Path) -> dict[str, Path]:
 
 def _manifest_paths(output_dir: Path) -> dict[str, str]:
     return {
-        "manifest": str(output_dir / "manifest.json"),
-        **{name: str(output_dir / name) for name in STAGE_DIRS},
+        "manifest": "manifest.json",
+        **{name: name for name in STAGE_DIRS},
     }
 
 
@@ -47,6 +46,9 @@ def write_manifest(output_dir: Path, source: SourceMetadata) -> Manifest:
     """Write the top-level manifest for a parser run."""
 
     manifest = Manifest(
+        schema_version="2.0.0",
+        dataset_version="0.1.0",
+        locale="it",
         source=source,
         generated=generated_metadata(),
         paths=_manifest_paths(output_dir),
@@ -79,7 +81,6 @@ def _source_from_artifact(source: dict[str, Any]) -> SourceMetadata:
     return SourceMetadata(
         id=str(source.get("id", "")),
         title=str(source.get("title", "")),
-        path=str(source.get("path", "")),
         checksum_sha256=str(source.get("checksum_sha256", "")),
         page_count=int(source.get("page_count", 0)),
         profile=str(source.get("profile", "")),
@@ -154,14 +155,6 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
     return report_path
 
 
-def run_compat(_v2_dir: Path, _output_dir: Path) -> None:
-    """Placeholder for compatibility JSON generation."""
-
-    raise UnsupportedStage(
-        "compat stage is not implemented yet; implement after schema v2 entities exist"
-    )
-
-
 def run_validate(v2_path: Path) -> dict[str, Any]:
     """Validate one v2 envelope file or all envelopes in a directory."""
 
@@ -207,9 +200,8 @@ def run_validate(v2_path: Path) -> dict[str, Any]:
 
 
 def run_build(pdf_path: Path, output_dir: Path) -> None:
-    """Run the implemented prefix of the full build pipeline."""
+    """Build canonical parser artifacts through typed parsing."""
 
     extracted = run_extract(pdf_path, output_dir)
     run_normalize(extracted.parent, output_dir)
     run_parse(output_dir / "normalized", output_dir)
-    run_compat(output_dir / "v2", output_dir / "compat")

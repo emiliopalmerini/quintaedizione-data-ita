@@ -1,0 +1,17 @@
+[project]
+name = "quintaedizione-data-ita"
+version = "0.1.0"
+description = "Italian SRD 5.2.1 PDF data compiler"
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.24,<2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["scripts/parse_srd_v2/tests"]
+addopts = "-q"

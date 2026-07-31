@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from scripts.parse_srd_v2 import stages
 from scripts.parse_srd_v2.manifest import read_json, write_json
 from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_parse, run_validate
 
@@ -9,7 +10,7 @@ from scripts.parse_srd_v2.stages import ensure_output_tree, run_normalize, run_p
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
-    assert sorted(paths) == ["compat", "extracted", "normalized", "reports", "sections", "v2"]
+    assert sorted(paths) == ["extracted", "normalized", "reports", "sections", "v2"]
     for path in paths.values():
         assert path.is_dir()
 
@@ -93,6 +94,9 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                         {"text": "Hai servito in una compagnia militare.", "role": "body", "page_number": 94},
                         {"text": "Specie dei personaggi", "role": "heading", "page_number": 94},
                         {"text": "Dragonide", "role": "heading", "page_number": 94},
+                        {"text": "Tipo di creatura: umanoide", "role": "body", "page_number": 94},
+                        {"text": "Taglia: Media", "role": "body", "page_number": 94},
+                        {"text": "Velocit\u00e0: 9 metri", "role": "body", "page_number": 94},
                     ],
                 },
                 {
@@ -151,14 +155,26 @@ def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:
         "generated": {
             "parser": "parse_srd_v2",
             "parser_version": "test",
-            "generated_at": "2026-01-01T00:00:00Z",
         },
         "collection": "origini",
         "items": [
             {
                 "id": "soldato",
+                "name": "Soldato",
                 "source_id": "srd-5.2.1-it",
-                "provenance": {},
+                "provenance": {
+                    "page_start": 93,
+                    "page_end": 93,
+                    "heading_path": ["Origini", "Soldato"],
+                    "section_id": "origini",
+                    "parser": "origini",
+                },
+                "ability_scores": "Forza, Destrezza, Costituzione",
+                "feat": "Aggressore selvaggio",
+                "skill_proficiencies": "Atletica e Intimidire",
+                "tool_proficiency": "Strumenti da gioco",
+                "equipment": "Lancia e abito comune",
+                "description": [],
             }
         ],
     }
@@ -168,3 +184,27 @@ def test_run_validate_accepts_single_envelope_file(tmp_path: Path) -> None:
     report = run_validate(path)
 
     assert report["errors"] == []
+
+
+def test_run_build_stops_after_canonical_parse(monkeypatch, tmp_path: Path) -> None:
+    calls: list[str] = []
+
+    def fake_extract(_pdf_path: Path, output_dir: Path) -> Path:
+        calls.append("extract")
+        return output_dir / "extracted" / "pages.json"
+
+    def fake_normalize(_extracted_dir: Path, output_dir: Path) -> Path:
+        calls.append("normalize")
+        return output_dir / "normalized" / "document.json"
+
+    def fake_parse(_normalized_dir: Path, output_dir: Path) -> Path:
+        calls.append("parse")
+        return output_dir / "reports" / "parse.json"
+
+    monkeypatch.setattr(stages, "run_extract", fake_extract)
+    monkeypatch.setattr(stages, "run_normalize", fake_normalize)
+    monkeypatch.setattr(stages, "run_parse", fake_parse)
+
+    stages.run_build(tmp_path / "source.pdf", tmp_path / "output")
+
+    assert calls == ["extract", "normalize", "parse"]

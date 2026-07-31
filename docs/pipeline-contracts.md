@@ -11,7 +11,6 @@ The v1 parser accepts one source PDF: the Italian SRD 5.2.1 document.
 
 The parser must record:
 
-- Source file path supplied by the caller.
 - SHA-256 checksum.
 - Page count.
 - Parser version.
@@ -36,7 +35,6 @@ python -m scripts.parse_srd_v2 extract path/to/srd-5.2.1.pdf --output-dir output
 python -m scripts.parse_srd_v2 normalize output/srd-5.2.1/extracted --output-dir output/srd-5.2.1
 python -m scripts.parse_srd_v2 parse output/srd-5.2.1/normalized --output-dir output/srd-5.2.1
 python -m scripts.parse_srd_v2 validate output/srd-5.2.1/v2
-python -m scripts.parse_srd_v2 compat output/srd-5.2.1/v2 --output-dir output/srd-5.2.1/compat
 ```
 
 The command names are the contract; module layout can change during
@@ -54,11 +52,11 @@ output/srd-5.2.1/
   sections/
   v2/
   reports/
-  compat/
 ```
 
-`manifest.json` records input metadata, parser version, stage checksums, and
-generated file paths.
+`manifest.json` records input metadata, parser and schema versions, locale,
+collection record counts, relative generated file paths, and SHA-256 checksums.
+It must not contain absolute source or output paths.
 
 `extracted/` stores raw page and layout artifacts.
 
@@ -70,8 +68,6 @@ and block normalization.
 `v2/` stores canonical schema v2 JSON.
 
 `reports/` stores validation, confidence, coverage, and diff reports.
-
-`compat/` stores current Go-compatible JSON files.
 
 ## Section Contract
 
@@ -102,3 +98,25 @@ Parser diagnostics must include:
 
 Parsers must not write final files directly. File writing belongs to the
 orchestrator.
+
+Every normalized node in a required section must end in one of these states:
+
+- consumed by an entity parser;
+- retained as section-level content;
+- explicitly ignored with a machine-readable reason;
+- reported as an error.
+
+## Build Contract
+
+`build` runs extraction, normalization, sectioning, typed parsing, reference
+resolution, validation, report generation, and manifest finalization. It returns
+non-zero and does not present the bundle as complete when any hard gate fails.
+
+Collection files are written in registry order and entities in deterministic ID
+order unless source order is a documented semantic field. Canonical files do
+not contain wall-clock timestamps. If operational run timing is needed, it is
+written to a non-canonical report excluded from artifact checksums.
+
+The first complete release targets only the Italian SRD 5.2.1 PDF. Supporting a
+new source requires a new source profile, section map, fixtures, and acceptance
+baseline; it must not weaken the 5.2.1 contracts.

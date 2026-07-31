@@ -12,7 +12,6 @@ def test_parser_exposes_contracted_commands() -> None:
         ("normalize", ["normalize", "extracted", "--output-dir", "out"]),
         ("parse", ["parse", "normalized", "--output-dir", "out"]),
         ("validate", ["validate", "v2"]),
-        ("compat", ["compat", "v2", "--output-dir", "out"]),
     ]
 
     for command, argv in cases:

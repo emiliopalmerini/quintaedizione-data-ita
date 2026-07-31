@@ -8,7 +8,6 @@ def _source() -> SourceMetadata:
     return SourceMetadata(
         id="srd-5.2.1-it",
         title="System Reference Document 5.2.1 Italiano",
-        path="source.pdf",
         checksum_sha256="abc",
         page_count=405,
         profile="srd-5.2.1-it",
@@ -19,7 +18,6 @@ def _generated() -> GeneratedMetadata:
     return GeneratedMetadata(
         parser="parse_srd_v2",
         parser_version="test",
-        generated_at="2026-01-01T00:00:00Z",
     )
 
 
@@ -47,3 +45,66 @@ def test_validate_envelope_rejects_unknown_collection() -> None:
     envelope["collection"] = "spells"
 
     assert "unknown collection: spells" in validate_envelope(envelope)
+
+
+def test_validate_envelope_rejects_incomplete_entity_contract() -> None:
+    envelope = empty_envelope("origini", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "Soldato",
+            "source_id": "another-source",
+            "provenance": {},
+            "unknown": True,
+        }
+    ]
+
+    errors = validate_envelope(envelope)
+
+    assert "items[0].id must be a lowercase ASCII slug" in errors
+    assert "items[0].name is required" in errors
+    assert "items[0].source_id must match source.id" in errors
+    assert "items[0].provenance.page_start is required" in errors
+    assert "items[0].provenance.page_end is required" in errors
+    assert "items[0].provenance.heading_path is required" in errors
+    assert "items[0].provenance.section_id is required" in errors
+    assert "items[0].provenance.parser is required" in errors
+    assert "items[0] has unknown fields: unknown" in errors
+
+
+def test_validate_envelope_rejects_unknown_envelope_fields() -> None:
+    envelope = empty_envelope("origini", source=_source(), generated=_generated())
+    envelope["generated_at"] = "2026-01-01T00:00:00Z"
+
+    assert "envelope has unknown fields: generated_at" in validate_envelope(envelope)
+
+
+def test_validate_envelope_rejects_invalid_collection_field_types() -> None:
+    envelope = empty_envelope("origini", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "soldato",
+            "name": "Soldato",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": "93",
+                "page_end": 92,
+                "heading_path": [],
+                "section_id": "",
+                "parser": "origini",
+            },
+            "ability_scores": [],
+            "feat": "Aggressore selvaggio",
+            "skill_proficiencies": "Atletica e Intimidire",
+            "tool_proficiency": "Strumenti da gioco",
+            "equipment": "Lancia e abito comune",
+            "description": "testo",
+        }
+    ]
+
+    errors = validate_envelope(envelope)
+
+    assert "items[0].provenance.page_start must be an integer" in errors
+    assert "items[0].provenance.heading_path must be a non-empty string list" in errors
+    assert "items[0].provenance.section_id must be a non-empty string" in errors
+    assert "items[0].ability_scores must be a non-empty string" in errors
+    assert "items[0].description must be a content segment list" in errors

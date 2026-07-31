@@ -1,7 +1,7 @@
 # quintaedizione-data-ita
 
-Go module that provides Italian D&D SRD data as typed structs backed by embedded
-JSON.
+Python data compiler for producing a complete, validated, versioned JSON bundle
+from the Italian D&D SRD 5.2.1 PDF.
 
 The parser rebuild is documented in the repo wiki:
 
@@ -10,33 +10,28 @@ The parser rebuild is documented in the repo wiki:
 - [Schema v2](docs/schema-v2.md)
 - [LLM context](docs/llm-context.md)
 
-## Requirements
+## Current Status
 
-- Go 1.25.7
+The `v2` branch is rebuilding the parser around loss-preserving intermediate
+artifacts and strict typed output. Existing Go packages and embedded JSON remain
+temporarily as migration references; they are not the target runtime.
 
-## Common Commands
+## Parser Command
 
 ```bash
-make test
-make quality
-go test ./...
-nix-shell -p python313 python313Packages.pymupdf python313Packages.pytest --run 'pytest scripts/parse_srd_v2/tests -q'
+uv run python -m scripts.parse_srd_v2 build path/to/srd-5.2.1.pdf --output-dir output/srd-5.2.1
+uv run pytest
 ```
 
-## Current Runtime Shape
+The published data contract is a bundle containing `manifest.json`, typed JSON
+collection files, intermediate artifacts, and machine-readable quality reports.
+
+## Target Pipeline
 
 ```text
-embedded JSON -> Go structs -> in-memory store -> typed accessors/search
+SRD PDF -> extraction -> normalized document -> sections -> typed entities
+        -> reference resolution -> validation -> versioned JSON bundle
 ```
-
-Main packages:
-
-- `srd`: typed SRD entities and content segments.
-- `store`: embedded data loading, indexes, typed accessors, and search entry
-  point.
-- `search` and `filters`: helper packages for consumers.
-- `encounter`, `maps`, and `generators`: additional embedded data domains.
-- `scripts`: parser and data tooling.
 
 ## License
 

@@ -89,7 +89,6 @@ def extract_pdf(
         "source": {
             "id": metadata.id,
             "title": metadata.title,
-            "path": metadata.path,
             "checksum_sha256": metadata.checksum_sha256,
             "page_count": metadata.page_count,
             "profile": metadata.profile,

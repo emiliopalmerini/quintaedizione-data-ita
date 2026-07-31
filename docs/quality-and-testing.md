@@ -16,8 +16,9 @@ The parser output is unacceptable if any required gate fails:
 - Duplicate ID validation.
 - Reference integrity validation.
 - Content segment validation.
-- Compatibility JSON generation.
-- Go store load and test validation.
+- Collection-specific semantic validation.
+- Normalized-node accounting.
+- Deterministic bundle reproduction.
 
 Warnings may be emitted for optional enrichment and review hints, but warnings
 must be counted and reported.
@@ -71,17 +72,17 @@ Integration tests validate:
 
 - Build command completes for the SRD 5.2.1 PDF.
 - Canonical v2 JSON passes validation.
-- Compatibility JSON loads through the Go store.
-- `go test ./...` passes.
 - Quality checks pass with zero errors.
+- A second equivalent build produces identical canonical bytes.
+- Every required normalized node is consumed, retained, or intentionally
+  ignored with a reason.
 
 ## Duplicate-ID Policy
 
 Duplicate IDs are errors unless a documented compatibility rule explicitly
 handles them.
 
-Nested rules must use path-aware IDs in v2. Legacy compatibility output must
-avoid silently overwriting one rule with another in the Go store.
+Nested rules must use path-aware IDs in v2.
 
 ## Manual Review
 
@@ -95,3 +96,25 @@ Manual review should focus on:
 
 Manual edits to generated JSON are not the source of truth. Fix parser logic,
 profiles, schemas, or source fixtures instead.
+
+## Test Delivery Order
+
+Each implementation slice follows red/green TDD:
+
+1. Add the smallest extraction or normalized-document fixture that demonstrates
+   the source structure.
+2. Add a failing unit test for the stage contract or typed output.
+3. Implement the narrow behavior needed by the fixture.
+4. Add malformed and boundary fixtures before broadening the parser.
+5. Run the affected unit tests, then the complete parser suite.
+
+Full-PDF acceptance tests are added once the source PDF is available in the
+developer environment. The PDF itself is not committed; its accepted checksum
+and expected collection counts are versioned as test configuration.
+
+## Schema Gates
+
+Validation rejects unknown fields, wrong scalar types, invalid ID syntax, empty
+required strings, incomplete provenance, source-ID mismatches, duplicate IDs,
+invalid controlled vocabulary IDs, malformed choices, and broken references.
+Validating only the common envelope is insufficient.

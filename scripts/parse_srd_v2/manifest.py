@@ -6,7 +6,6 @@ import dataclasses
 import hashlib
 import json
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -20,7 +19,6 @@ class SourceMetadata:
 
     id: str
     title: str
-    path: str
     checksum_sha256: str
     page_count: int
     profile: str
@@ -32,22 +30,18 @@ class GeneratedMetadata:
 
     parser: str
     parser_version: str
-    generated_at: str
 
 
 @dataclass(frozen=True, slots=True)
 class Manifest:
     """Top-level run manifest."""
 
+    schema_version: str
+    dataset_version: str
+    locale: str
     source: SourceMetadata
     generated: GeneratedMetadata
     paths: dict[str, str]
-
-
-def utc_now_iso() -> str:
-    """Return an ISO-8601 UTC timestamp."""
-
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def file_sha256(path: Path) -> str:
@@ -71,7 +65,6 @@ def source_metadata(
     return SourceMetadata(
         id=profile.source_id,
         title=profile.title,
-        path=str(pdf_path),
         checksum_sha256=file_sha256(pdf_path),
         page_count=page_count,
         profile=profile.name,
@@ -84,14 +77,13 @@ def generated_metadata() -> GeneratedMetadata:
     return GeneratedMetadata(
         parser="parse_srd_v2",
         parser_version=__version__,
-        generated_at=utc_now_iso(),
     )
 
 
 def to_jsonable(value: Any) -> Any:
     """Convert dataclasses and paths to JSON-compatible values."""
 
-    if dataclasses.is_dataclass(value):
+    if dataclasses.is_dataclass(value) and not isinstance(value, type):
         return {k: to_jsonable(v) for k, v in dataclasses.asdict(value).items()}
     if isinstance(value, Path):
         return str(value)

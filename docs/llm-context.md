@@ -16,38 +16,36 @@ Canonical for: agent orientation before parser or documentation edits.
 
 ## Current Objective
 
-The target is a clean Python parser pipeline for the Italian SRD 5.2.1 PDF,
-generating canonical schema v2 JSON and compatibility JSON for the current Go
-module.
+The target is a clean Python data compiler for the Italian SRD 5.2.1 PDF,
+generating a complete canonical schema v2 bundle as a manifest plus typed JSON
+collection files.
 
 Do not treat existing parser code as the final architecture. Use it as context
 only unless a task explicitly asks to preserve or modify legacy behavior.
 
 ## Implementation Boundaries
 
-- Python owns PDF extraction and parsing.
-- Go owns the embedded runtime data library.
+- Python owns PDF extraction, normalization, parsing, validation, and bundle
+  publication.
 - Canonical generated data is schema v2.
-- Current Go-compatible JSON is generated compatibility output.
 - Source PDF identity, section coverage, schema validity, ID uniqueness, and
   reference integrity are hard gates.
+- Existing Go code and JSON are migration references until v2 reaches complete
+  coverage; they are not target contracts.
 
 ## Commands
 
-Existing repo checks:
+Parser checks:
 
 ```bash
-go test ./...
-go test -tags=quality ./store/
-nix-shell -p python313 python313Packages.pymupdf python313Packages.pytest --run 'pytest scripts/parse_srd_v2/tests -q'
+uv run pytest
 ```
 
-Target parser commands are defined in
-[Pipeline Contracts](pipeline-contracts.md). Current implemented slices include
-CLI shape, extraction, normalization, section assignment, schema validation, and
-the first typed parser for `origini`. The remaining typed entity parsers and
-compatibility generation may still return explicit unsupported-stage errors
-until their slices are implemented.
+Target parser commands are defined in [Pipeline Contracts](pipeline-contracts.md).
+The current implementation is an early scaffold: CLI shape and extraction are
+reusable, while normalization, sectioning, schema validation, and the first typed
+parsers require alignment with the structural contracts before more collections
+are added.
 
 ## Editing Rules
 

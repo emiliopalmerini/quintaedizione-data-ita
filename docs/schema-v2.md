@@ -20,16 +20,19 @@ Every canonical v2 JSON file uses an envelope:
   },
   "generated": {
     "parser": "parse_srd_v2",
-    "parser_version": "...",
-    "generated_at": "..."
+    "parser_version": "..."
   },
   "collection": "incantesimi",
   "items": []
 }
 ```
 
-The envelope is canonical for v2. Compatibility JSON may omit the envelope when
-generating the current Go-store format.
+The envelope is canonical for v2. Collection files are independently usable but
+are published together through the bundle manifest.
+
+Unknown envelope and entity fields are validation errors. Collection-specific
+schemas define required fields, value types, controlled vocabulary references,
+and whether empty values are permitted.
 
 ## Shared Entity Fields
 
@@ -61,9 +64,8 @@ the source edition and collection.
 Nested rules use path-aware IDs. A child rule ID must include enough parent
 context to avoid colliding with another rule that has the same title.
 
-Compatibility generation may emit legacy IDs only when they do not collide in
-the legacy collection. If legacy IDs collide, the compatibility generator must
-fail or apply a documented deterministic disambiguator.
+References use the target collection and ID. Cross-source references additionally
+include `source_id`; unqualified cross-source resolution is not permitted.
 
 ## Content Segments
 
@@ -90,32 +92,43 @@ Rules:
 The v1 rebuild uses Italian canonical collection IDs. IDs are lowercase
 ASCII-compatible slugs; display labels preserve the SRD nomenclature.
 
-| v2 collection ID | Display label | Notes | Compatibility output |
-| --- | --- | --- | --- |
-| `incantesimi` | Incantesimi | Spell entities. | `spells.json` |
-| `mostri` | Mostri | Monster stat blocks from the `Mostri` source section. | `monsters.json` |
-| `animali` | Animali | Animal stat blocks from the `Animali` source section. | Merged into `monsters.json` |
-| `classi` | Classi | Player classes and subclasses. | `classes.json` |
-| `origini` | Origini | Character origins; replaces the legacy `backgrounds` naming used by older output. | `backgrounds.json` |
-| `specie` | Specie | Playable species. | `species.json` |
-| `talenti` | Talenti | Feat entities. | `feats.json` |
-| `equipaggiamento` | Equipaggiamento | Equipment domain; item categories distinguish armi, armature, strumenti, servizi, cavalcature, and veicoli. | `equipment.json` |
-| `oggetti_magici` | Oggetti Magici | Magic item entities. | `magic_items.json` |
-| `regole` | Regole | Rule entries from `Come si gioca`, `Creazione del personaggio`, and `Strumenti di gioco`. | `rules_*.json` |
-| `glossario_delle_regole` | Glossario delle regole | Glossary entries from the SRD rules glossary. | `glossary.json` |
+| v2 collection ID | Display label | Notes |
+| --- | --- | --- |
+| `incantesimi` | Incantesimi | Spell entities. |
+| `mostri` | Mostri | Monster stat blocks from the `Mostri` source section. |
+| `animali` | Animali | Animal stat blocks from the `Animali` source section. |
+| `classi` | Classi | Classes, subclasses, features, and level progression. |
+| `origini` | Origini | Character origins, proficiencies, and equipment choices. |
+| `specie` | Specie | Playable species and structured traits. |
+| `talenti` | Talenti | Feats with structured categories and prerequisites. |
+| `equipaggiamento` | Equipaggiamento | Equipment with category-specific fields for weapons, armor, tools, services, mounts, and vehicles. |
+| `oggetti_magici` | Oggetti Magici | Magic item entities. |
+| `regole` | Regole | Addressable rule records with parent IDs and source order. |
+| `glossario_delle_regole` | Glossario delle regole | Glossary entries and explicit related-entry references. |
 
 Collection-specific fields are defined by implementation schemas, but all
 collections must follow the envelope, shared entity, ID, and provenance rules.
 
-## Compatibility Output
+## Bundle Manifest
 
-Compatibility JSON converts v2 data into the current Go module shape.
+The root manifest includes:
 
-Compatibility generation must:
+- `schema_version` and `dataset_version`;
+- locale and source identity, checksum, title, and page count;
+- parser name and version;
+- one entry per collection with relative path, SHA-256 checksum, and item count;
+- relative paths and checksums for required quality reports.
 
-- Preserve current filenames expected by `data/srd/srd-5.5e`.
-- Preserve current field names required by Go structs.
-- Convert envelopes away from final compatibility files.
-- Convert content segments into the current `Content` array format.
-- Preserve deterministic ordering.
-- Run Go store tests after generation.
+Canonical manifests and collection envelopes exclude wall-clock timestamps and
+absolute filesystem paths so equivalent builds are byte-for-byte reproducible.
+
+## Structured Builder Data
+
+Collection schemas must expose values needed for builder logic without requiring
+consumers to parse prose. This includes class levels and features, spell lists,
+origin equipment alternatives, feat prerequisites, species choices, equipment
+statistics, monster actions and spellcasting, and rule hierarchy.
+
+Choice and prerequisite expressions use a shared recursive representation with
+explicit `all`, `any`, `one_of`, `reference`, and scalar requirement nodes.
+Display text may accompany the expression but cannot be its only representation.

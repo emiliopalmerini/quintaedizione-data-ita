@@ -11,7 +11,6 @@ from .errors import ParseSRDError
 from .manifest import to_jsonable, write_json
 from .stages import (
     run_build,
-    run_compat,
     run_extract,
     run_normalize,
     run_parse,
@@ -48,10 +47,6 @@ def build_parser() -> argparse.ArgumentParser:
     validate.add_argument("v2_dir", type=Path)
     validate.add_argument("--report", type=Path)
 
-    compat = sub.add_parser("compat", help="Generate legacy compatibility JSON")
-    compat.add_argument("v2_dir", type=Path)
-    compat.add_argument("--output-dir", type=Path, required=True)
-
     return parser
 
 
@@ -81,9 +76,6 @@ def main(argv: list[str] | None = None) -> int:
             else:
                 print(json.dumps(to_jsonable(report), ensure_ascii=False, indent=2, sort_keys=True))
             return 1 if report["errors"] else 0
-        if args.command == "compat":
-            run_compat(args.v2_dir, args.output_dir)
-            return 0
     except ParseSRDError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
