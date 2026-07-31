@@ -20,6 +20,7 @@ from .normalize import normalize_extracted
 from .parsers import get_parser
 from .profiles import SRD_521_IT
 from .reports import build_coverage_report, build_summary_report
+from .references import resolve_class_spell_lists
 from .schema import empty_envelope, validate_envelope
 from .sections import assign_sections
 
@@ -233,6 +234,13 @@ def run_parse(normalized_dir: Path, output_dir: Path) -> Path:
         )
         if not items:
             report["errors"].append(f"{section.get('id')}: parser produced no items")
+
+    report["errors"].extend(
+        resolve_class_spell_lists(
+            by_collection.get("classi", []),
+            by_collection.get("incantesimi", []),
+        )
+    )
 
     for collection_id, items in by_collection.items():
         envelope = empty_envelope(collection_id, source=source, generated=generated)

@@ -1,6 +1,12 @@
 from __future__ import annotations
 
-from scripts.parse_srd_v2.parsers.classi import _parse_progression, parse_classi
+from scripts.parse_srd_v2.parsers.classi import (
+    _parse_progression,
+    _parse_subclasses,
+    _progression_headers,
+    _spell_list_names,
+    parse_classi,
+)
 
 
 def test_parse_progression_without_header_and_with_collapsed_row() -> None:
@@ -195,3 +201,93 @@ def test_parse_class_with_progression_and_feature() -> None:
     assert result.ignored_nodes == [
         {"node_id": "p0032-n0001", "reason": "section_preamble"}
     ]
+
+
+def test_progression_headers_follow_table_column_geometry() -> None:
+    nodes = [
+        {
+            "type": "paragraph",
+            "page_number": 32,
+            "spans": [
+                {"text": "Livello", "bbox": [65, 406, 96, 417]},
+                {"text": "Ire", "bbox": [399, 406, 411, 417]},
+                {"text": "Danni dell'ira", "bbox": [442, 395, 471, 417]},
+            ],
+        },
+        {
+            "type": "table",
+            "page_number": 32,
+            "bbox": [63, 418, 540, 706],
+            "rows": [
+                {
+                    "cells": [
+                        {"text": "1", "bbox": [63, 418, 101, 433]},
+                        {"text": "+2", "bbox": [101, 418, 166, 433]},
+                        {"text": "Ira", "bbox": [166, 418, 380, 433]},
+                        {"text": "2", "bbox": [380, 418, 429, 433]},
+                        {"text": "+2", "bbox": [429, 418, 483, 433]},
+                    ]
+                }
+            ],
+        },
+    ]
+
+    assert _progression_headers(nodes, 1) == [
+        "Livello",
+        "Bonus di competenza",
+        "Privilegi",
+        "Ire",
+        "Danni dell'ira",
+    ]
+
+
+def test_parse_both_subclass_heading_forms() -> None:
+    nodes = [
+        {"type": "heading", "heading_level": 4, "text": "Sottoclasse del barbaro:", "page_number": 34},
+        {"type": "heading", "heading_level": 4, "text": "Cammino del berserker", "page_number": 34},
+        {"type": "heading", "heading_level": 5, "text": "Livello 3: Frenesia", "page_number": 34},
+        {"type": "paragraph", "text": "Il barbaro entra in frenesia.", "page_number": 34},
+    ]
+
+    subclasses = _parse_subclasses(nodes, "barbaro", {"id": "classi"})
+
+    assert subclasses[0]["id"] == "barbaro-cammino-del-berserker"
+    assert subclasses[0]["features"][0]["id"] == (
+        "barbaro-cammino-del-berserker-frenesia"
+    )
+    assert subclasses[0]["features"][0]["level"] == 3
+
+    inline = [
+        {"type": "heading", "heading_level": 4, "text": "Sottoclasse del chierico: Dominio della Vita", "page_number": 45},
+        {"type": "heading", "heading_level": 5, "text": "Livello 3: Preservare vita", "page_number": 45},
+    ]
+    assert _parse_subclasses(inline, "chierico", {"id": "classi"})[0]["name"] == (
+        "Dominio della Vita"
+    )
+
+
+def test_parse_spell_list_rows_with_interleaved_school_text() -> None:
+    nodes = [
+        {
+            "type": "table",
+            "heading_path": ["Classi", "Mago", "Lista degli incantesimi da mago"],
+            "rows": [
+                {
+                    "cells": [
+                        {"text": "Protezione dal bene e dal Abiurazione C, M\nmale"},
+                        {"text": ""},
+                        {"text": ""},
+                    ]
+                },
+                {
+                    "cells": [
+                        {"text": "Allarme"},
+                        {"text": "Abiurazione"},
+                        {"text": "R"},
+                    ]
+                },
+            ],
+        }
+    ]
+
+    assert _spell_list_names(nodes) == ["Protezione dal bene e dal male", "Allarme"]

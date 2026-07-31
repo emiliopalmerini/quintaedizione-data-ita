@@ -757,8 +757,92 @@ def _validate_class(item: dict[str, Any], index: int, errors: list[str]) -> None
                 errors,
             )
 
-    if not isinstance(item.get("subclasses"), list):
+    known_feature_ids = {
+        feature.get("id")
+        for feature in features
+        if isinstance(feature, dict) and isinstance(feature.get("id"), str)
+    } if isinstance(features, list) else set()
+    subclasses = item.get("subclasses")
+    if not isinstance(subclasses, list):
         errors.append(f"{prefix}.subclasses must be a list")
+    else:
+        seen_subclass_ids: set[str] = set()
+        for subclass_index, subclass in enumerate(subclasses):
+            subclass_prefix = f"{prefix}.subclasses[{subclass_index}]"
+            if not isinstance(subclass, dict) or set(subclass) != {
+                "id",
+                "name",
+                "provenance",
+                "description",
+                "features",
+            }:
+                errors.append(
+                    f"{subclass_prefix} must contain id, name, provenance, description, and features"
+                )
+                continue
+            subclass_id = subclass.get("id")
+            if not isinstance(subclass_id, str) or _SLUG.fullmatch(subclass_id) is None:
+                errors.append(f"{subclass_prefix}.id must be a lowercase ASCII slug")
+            elif subclass_id in seen_subclass_ids:
+                errors.append(f"{subclass_prefix}.id is duplicated")
+            else:
+                seen_subclass_ids.add(subclass_id)
+            if not isinstance(subclass.get("name"), str) or not subclass["name"]:
+                errors.append(f"{subclass_prefix}.name is required")
+            _validate_provenance(
+                subclass.get("provenance"),
+                index,
+                errors,
+                prefix=f"{subclass_prefix}.provenance",
+            )
+            _validate_content(
+                subclass.get("description"),
+                f"{subclass_prefix}.description",
+                errors,
+            )
+            subclass_features = subclass.get("features")
+            if not isinstance(subclass_features, list):
+                errors.append(f"{subclass_prefix}.features must be a list")
+                continue
+            for feature_index, feature in enumerate(subclass_features):
+                feature_prefix = f"{subclass_prefix}.features[{feature_index}]"
+                if not isinstance(feature, dict) or set(feature) != {
+                    "id",
+                    "name",
+                    "level",
+                    "provenance",
+                    "description",
+                }:
+                    errors.append(f"{feature_prefix} has invalid fields")
+                    continue
+                feature_id = feature.get("id")
+                if not isinstance(feature_id, str) or _SLUG.fullmatch(feature_id) is None:
+                    errors.append(f"{feature_prefix}.id must be a lowercase ASCII slug")
+                elif feature_id in known_feature_ids:
+                    errors.append(f"{feature_prefix}.id is duplicated")
+                else:
+                    known_feature_ids.add(feature_id)
+                if not isinstance(feature.get("name"), str) or not feature["name"]:
+                    errors.append(f"{feature_prefix}.name is required")
+                level = feature.get("level")
+                if not isinstance(level, int) or isinstance(level, bool) or not 1 <= level <= 20:
+                    errors.append(f"{feature_prefix}.level must be an integer from 1 to 20")
+                _validate_provenance(
+                    feature.get("provenance"), index, errors, prefix=f"{feature_prefix}.provenance"
+                )
+                _validate_content(
+                    feature.get("description"), f"{feature_prefix}.description", errors
+                )
+    if isinstance(progression, list):
+        for row_index, row in enumerate(progression):
+            if not isinstance(row, dict) or not isinstance(row.get("feature_ids"), list):
+                continue
+            for feature_id in row["feature_ids"]:
+                if isinstance(feature_id, str) and _SLUG.fullmatch(feature_id) and feature_id not in known_feature_ids:
+                    errors.append(
+                        f"{prefix}.progression[{row_index}].feature_ids "
+                        f"references missing feature: {feature_id}"
+                    )
     if not _slug_list(item.get("spell_ids")):
         errors.append(f"{prefix}.spell_ids must be a lowercase ASCII slug list")
 

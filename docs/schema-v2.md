@@ -200,6 +200,22 @@ segments. Class headings are discovered structurally from regions containing a
 valid level-progression table; a hard-coded inventory of class names may only be
 used as an acceptance baseline.
 
+Every class has exactly one progression row for each level from 1 through 20.
+Progression `feature_ids` resolve to either a top-level class feature or the
+level's explicit subclass placeholder. Resource IDs come from the source table
+headers; synthetic positional IDs are invalid in a published bundle.
+
+Each subclass record contains `id`, `name`, provenance, description, and typed
+features. Subclass feature records contain `id`, `name`, `level`, provenance,
+and description. Subclass context is part of nested feature IDs so equal feature
+names in different subclasses cannot collide.
+
+`spell_ids` contains references resolved from the eight source class spell-list
+regions. The source spell-list tables are authoritative for class membership;
+spell subtitle class labels are cross-checked and disagreements are reported,
+not silently unioned. Resolution uses exact normalized names plus versioned,
+source-specific aliases for known editorial name differences.
+
 ### Creatures
 
 Monster and animal records preserve the complete source stat block. In addition

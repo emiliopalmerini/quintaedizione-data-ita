@@ -262,7 +262,23 @@ def test_validate_envelope_accepts_class_progression() -> None:
                     "description": [{"type": "text", "text": "Descrizione."}],
                 }
             ],
-            "subclasses": [],
+            "subclasses": [
+                {
+                    "id": "barbaro-cammino-del-berserker",
+                    "name": "Cammino del berserker",
+                    "provenance": provenance,
+                    "description": [],
+                    "features": [
+                        {
+                            "id": "barbaro-cammino-del-berserker-frenesia",
+                            "name": "Frenesia",
+                            "level": 3,
+                            "provenance": provenance,
+                            "description": [],
+                        }
+                    ],
+                }
+            ],
             "spell_ids": [],
             "description": [],
         }
@@ -273,6 +289,17 @@ def test_validate_envelope_accepts_class_progression() -> None:
     envelope["items"][0]["progression"][0]["feature_ids"] = ["Ira"]
     assert (
         "items[0].progression[0].feature_ids must be a lowercase ASCII slug list"
+        in validate_envelope(envelope)
+    )
+    envelope["items"][0]["progression"][0]["feature_ids"] = ["barbaro-ignoto"]
+    assert (
+        "items[0].progression[0].feature_ids references missing feature: barbaro-ignoto"
+        in validate_envelope(envelope)
+    )
+    envelope["items"][0]["progression"][0]["feature_ids"] = ["barbaro-ira"]
+    envelope["items"][0]["subclasses"][0]["features"][0]["id"] = "Frenesia"
+    assert (
+        "items[0].subclasses[0].features[0].id must be a lowercase ASCII slug"
         in validate_envelope(envelope)
     )
 
