@@ -16,8 +16,8 @@ def test_build_coverage_report_flags_empty_required_sections() -> None:
                 "parser": "origini",
                 "collection": "origini",
                 "coverage": "covered",
-                "paragraph_count": 2,
-                "paragraphs": [
+                "node_count": 2,
+                "nodes": [
                     {"text": "Accolito", "page_number": 93},
                     {"text": "Soldato", "page_number": 94},
                 ],
@@ -31,8 +31,8 @@ def test_build_coverage_report_flags_empty_required_sections() -> None:
                 "parser": "mostri",
                 "collection": "mostri",
                 "coverage": "empty",
-                "paragraph_count": 0,
-                "paragraphs": [],
+                "node_count": 0,
+                "nodes": [],
             },
         ],
     }
@@ -43,7 +43,7 @@ def test_build_coverage_report_flags_empty_required_sections() -> None:
     assert report["covered_section_count"] == 1
     assert report["empty_section_count"] == 1
     assert report["sections"][0]["page_numbers"] == [93, 94]
-    assert report["errors"] == ["required section has no normalized paragraphs: mostri"]
+    assert report["errors"] == ["required section has no normalized nodes: mostri"]
 
 
 def test_build_summary_report_marks_prefix_build_partial_for_unsupported_sections() -> None:
@@ -82,9 +82,9 @@ def test_build_summary_report_marks_coverage_errors_failed() -> None:
             "section_count": 13,
             "covered_section_count": 12,
             "empty_section_count": 1,
-            "errors": ["required section has no normalized paragraphs: mostri"],
+            "errors": ["required section has no normalized nodes: mostri"],
         },
     )
 
     assert report["status"] == "failed"
-    assert report["errors"] == ["required section has no normalized paragraphs: mostri"]
+    assert report["errors"] == ["required section has no normalized nodes: mostri"]

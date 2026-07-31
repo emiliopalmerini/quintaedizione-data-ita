@@ -6,13 +6,13 @@ from typing import Any
 
 
 def _section_entry(section: dict[str, Any]) -> dict[str, Any]:
-    paragraph_count = int(section.get("paragraph_count", 0))
+    node_count = int(section.get("node_count", 0))
     coverage = str(section.get("coverage", "empty"))
     page_numbers = sorted(
         {
-            paragraph.get("page_number")
-            for paragraph in section.get("paragraphs", [])
-            if isinstance(paragraph.get("page_number"), int)
+            node.get("page_number")
+            for node in section.get("nodes", [])
+            if isinstance(node.get("page_number"), int)
         }
     )
 
@@ -25,7 +25,7 @@ def _section_entry(section: dict[str, Any]) -> dict[str, Any]:
         "parser": section.get("parser"),
         "collection": section.get("collection"),
         "coverage": coverage,
-        "paragraph_count": paragraph_count,
+        "node_count": node_count,
         "page_numbers": page_numbers,
     }
 
@@ -37,7 +37,7 @@ def build_coverage_report(sections_artifact: dict[str, Any]) -> dict[str, Any]:
     empty_sections = [
         str(section["section_id"])
         for section in sections
-        if section["coverage"] != "covered" or section["paragraph_count"] <= 0
+        if section["coverage"] != "covered" or section["node_count"] <= 0
     ]
 
     return {
@@ -49,7 +49,7 @@ def build_coverage_report(sections_artifact: dict[str, Any]) -> dict[str, Any]:
         "empty_section_count": len(empty_sections),
         "sections": sections,
         "errors": [
-            f"required section has no normalized paragraphs: {section_id}"
+            f"required section has no normalized nodes: {section_id}"
             for section_id in empty_sections
         ],
     }

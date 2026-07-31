@@ -53,8 +53,8 @@ def test_run_normalize_writes_document_model(tmp_path: Path) -> None:
     document = read_json(out)
 
     assert document["stage"] == "normalized"
-    assert len(document["pages"][0]["paragraphs"]) == 1
-    assert document["pages"][0]["paragraphs"][0]["text"] == "Incantesimi"
+    assert len(document["pages"][0]["nodes"]) == 1
+    assert document["pages"][0]["nodes"][0]["text"] == "Incantesimi"
 
 
 def test_run_validate_reports_missing_collection_envelopes(tmp_path: Path) -> None:
@@ -83,30 +83,30 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "pages": [
                 {
                     "page_number": 93,
-                    "paragraphs": [
-                        {"text": "Origini dei personaggi", "role": "heading", "page_number": 93},
-                        {"text": "Soldato", "role": "heading", "page_number": 93},
-                        {"text": "Punteggi di caratteristica: Forza, Destrezza, Costituzione", "role": "body", "page_number": 93},
-                        {"text": "Talento: Selvaggio Attaccante", "role": "body", "page_number": 93},
-                        {"text": "Competenze nelle abilit\u00e0: Atletica e Intimidire", "role": "body", "page_number": 93},
-                        {"text": "Competenza negli strumenti: Strumenti da gioco", "role": "body", "page_number": 93},
-                        {"text": "Equipaggiamento: Lancia, abito comune", "role": "body", "page_number": 93},
-                        {"text": "Hai servito in una compagnia militare.", "role": "body", "page_number": 94},
-                        {"text": "Specie dei personaggi", "role": "heading", "page_number": 94},
-                        {"text": "Dragonide", "role": "heading", "page_number": 94},
-                        {"text": "Tipo di creatura: umanoide", "role": "body", "page_number": 94},
-                        {"text": "Taglia: Media", "role": "body", "page_number": 94},
-                        {"text": "Velocit\u00e0: 9 metri", "role": "body", "page_number": 94},
+                    "nodes": [
+                        {"text": "Origini dei personaggi", "type": "heading", "page_number": 93},
+                        {"text": "Soldato", "type": "heading", "page_number": 93},
+                        {"text": "Punteggi di caratteristica: Forza, Destrezza, Costituzione", "type": "paragraph", "page_number": 93},
+                        {"text": "Talento: Selvaggio Attaccante", "type": "paragraph", "page_number": 93},
+                        {"text": "Competenze nelle abilit\u00e0: Atletica e Intimidire", "type": "paragraph", "page_number": 93},
+                        {"text": "Competenza negli strumenti: Strumenti da gioco", "type": "paragraph", "page_number": 93},
+                        {"text": "Equipaggiamento: Lancia, abito comune", "type": "paragraph", "page_number": 93},
+                        {"text": "Hai servito in una compagnia militare.", "type": "paragraph", "page_number": 94},
+                        {"text": "Specie dei personaggi", "type": "heading", "page_number": 94},
+                        {"text": "Dragonide", "type": "heading", "page_number": 94},
+                        {"text": "Tipo di creatura: umanoide", "type": "paragraph", "page_number": 94},
+                        {"text": "Taglia: Media", "type": "paragraph", "page_number": 94},
+                        {"text": "Velocit\u00e0: 9 metri", "type": "paragraph", "page_number": 94},
                     ],
                 },
                 {
                     "page_number": 98,
-                    "paragraphs": [
-                        {"text": "Talenti", "role": "heading", "page_number": 98},
-                        {"text": "Talenti Origini", "role": "heading", "page_number": 98},
-                        {"text": "Abile", "role": "heading", "page_number": 98},
-                        {"text": "Talento Origini", "role": "body", "page_number": 98},
-                        {"text": "Il personaggio ottiene competenza.", "role": "body", "page_number": 98},
+                    "nodes": [
+                        {"text": "Talenti", "type": "heading", "page_number": 98},
+                        {"text": "Talenti Origini", "type": "heading", "page_number": 98},
+                        {"text": "Abile", "type": "heading", "page_number": 98},
+                        {"text": "Talento Origini", "type": "paragraph", "page_number": 98},
+                        {"text": "Il personaggio ottiene competenza.", "type": "paragraph", "page_number": 98},
                     ],
                 }
             ],

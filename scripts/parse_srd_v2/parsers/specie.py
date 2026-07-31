@@ -67,8 +67,8 @@ def _content_segments(text: str) -> list[dict[str, str]]:
     return [{"type": "text", "text": text}]
 
 
-def _is_heading(paragraph: dict[str, Any]) -> bool:
-    return paragraph.get("role") == "heading"
+def _is_heading(node: dict[str, Any]) -> bool:
+    return node.get("type") == "heading"
 
 
 def _is_species_heading(paragraph: dict[str, Any]) -> bool:
@@ -223,7 +223,7 @@ def _build_species(
 def parse_specie(section: dict[str, Any], source_id: str) -> list[dict[str, Any]]:
     """Parse Specie entities from one assigned section."""
 
-    paragraphs = list(section.get("paragraphs", []))
+    paragraphs = list(section.get("nodes", []))
     heading_indexes = [
         index for index, paragraph in enumerate(paragraphs) if _is_species_heading(paragraph)
     ]

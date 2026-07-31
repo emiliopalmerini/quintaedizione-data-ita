@@ -27,7 +27,21 @@ def _span_to_json(span: dict[str, Any]) -> dict[str, Any]:
         "font": span.get("font", ""),
         "size": round(float(span.get("size", 0)), 2),
         "color": span.get("color", 0),
+        "flags": span.get("flags", 0),
+        "ascender": span.get("ascender"),
+        "descender": span.get("descender"),
+        "origin": list(span.get("origin", ())),
         "bbox": list(span.get("bbox", ())),
+    }
+
+
+def _word_to_json(word: tuple[Any, ...]) -> dict[str, Any]:
+    return {
+        "text": str(word[4]),
+        "bbox": [float(value) for value in word[:4]],
+        "block_index": int(word[5]),
+        "line_index": int(word[6]),
+        "word_index": int(word[7]),
     }
 
 
@@ -51,19 +65,23 @@ def extract_pdf(
             "width": page.rect.width,
             "height": page.rect.height,
             "text": page.get_text("text"),
+            "words": [_word_to_json(word) for word in page.get_text("words")],
             "blocks": [],
         }
 
-        for block in page_dict.get("blocks", []):
+        for block_index, block in enumerate(page_dict.get("blocks", [])):
             if block.get("type") != 0:
                 continue
             block_entry: dict[str, Any] = {
+                "block_index": block_index,
                 "bbox": list(block.get("bbox", ())),
                 "lines": [],
             }
             for line in block.get("lines", []):
                 line_entry: dict[str, Any] = {
                     "bbox": list(line.get("bbox", ())),
+                    "writing_mode": line.get("wmode", 0),
+                    "direction": list(line.get("dir", (1.0, 0.0))),
                     "spans": [],
                 }
                 for span in line.get("spans", []):

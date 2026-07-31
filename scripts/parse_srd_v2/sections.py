@@ -74,40 +74,40 @@ def section_ids() -> list[str]:
 
 def _split_shared_origin_species_pages(
     spec: SectionSpec,
-    paragraphs: list[dict[str, Any]],
+    nodes: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     """Split the shared pages 93-97 into Origini and Specie sections."""
 
     if spec.id not in {"origini", "specie"}:
-        return paragraphs
+        return nodes
 
     species_start = None
-    for index, paragraph in enumerate(paragraphs):
-        text = str(paragraph.get("text", "")).strip().lower()
+    for index, node in enumerate(nodes):
+        text = str(node.get("text", "")).strip().lower()
         if text == "specie dei personaggi":
             species_start = index
             break
 
     if species_start is None:
-        return paragraphs
+        return nodes
     if spec.id == "origini":
-        return paragraphs[:species_start]
-    return paragraphs[species_start:]
+        return nodes[:species_start]
+    return nodes[species_start:]
 
 
 def assign_sections(document: dict[str, Any]) -> dict[str, Any]:
-    """Assign normalized paragraphs to expected source sections by page range."""
+    """Assign normalized nodes to expected source sections by page range."""
 
     sections: list[dict[str, Any]] = []
     for spec in SECTIONS_521:
         start, end = spec.pages
-        paragraphs: list[dict[str, Any]] = []
+        nodes: list[dict[str, Any]] = []
         for page in document.get("pages", []):
             page_number = page.get("page_number")
             if not isinstance(page_number, int) or page_number < start or page_number > end:
                 continue
-            paragraphs.extend(page.get("paragraphs", []))
-        paragraphs = _split_shared_origin_species_pages(spec, paragraphs)
+            nodes.extend(page.get("nodes", []))
+        nodes = _split_shared_origin_species_pages(spec, nodes)
 
         sections.append(
             {
@@ -118,9 +118,9 @@ def assign_sections(document: dict[str, Any]) -> dict[str, Any]:
                 "heading_path": [spec.title],
                 "parser": spec.parser,
                 "collection": spec.collection,
-                "coverage": "covered" if paragraphs else "empty",
-                "paragraph_count": len(paragraphs),
-                "paragraphs": paragraphs,
+                "coverage": "covered" if nodes else "empty",
+                "node_count": len(nodes),
+                "nodes": nodes,
             }
         )
 

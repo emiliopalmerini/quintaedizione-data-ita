@@ -78,8 +78,8 @@ def _is_likely_field_continuation(value: str, text: str) -> bool:
     return bool(first and first.islower())
 
 
-def _is_heading(paragraph: dict[str, Any]) -> bool:
-    return paragraph.get("role") == "heading"
+def _is_heading(node: dict[str, Any]) -> bool:
+    return node.get("type") == "heading"
 
 
 def _has_metadata_before_next_heading(
@@ -177,7 +177,7 @@ def _build_origin(
 def parse_origini(section: dict[str, Any], source_id: str) -> list[dict[str, Any]]:
     """Parse Origini entities from one assigned section."""
 
-    paragraphs = list(section.get("paragraphs", []))
+    paragraphs = list(section.get("nodes", []))
     heading_indexes = [
         index for index, paragraph in enumerate(paragraphs) if _is_origin_heading(paragraphs, index)
     ]

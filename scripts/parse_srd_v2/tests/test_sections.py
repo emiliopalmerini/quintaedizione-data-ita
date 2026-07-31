@@ -18,8 +18,8 @@ def test_assign_sections_uses_page_ranges() -> None:
     document = {
         "source": {"id": "srd-5.2.1-it"},
         "pages": [
-            {"page_number": 93, "paragraphs": [{"text": "Accolito", "page_number": 93}]},
-            {"page_number": 118, "paragraphs": [{"text": "Aiuto", "page_number": 118}]},
+            {"page_number": 93, "nodes": [{"text": "Accolito", "page_number": 93}]},
+            {"page_number": 118, "nodes": [{"text": "Aiuto", "page_number": 118}]},
         ],
     }
 
@@ -27,9 +27,9 @@ def test_assign_sections_uses_page_ranges() -> None:
     by_id = {section["id"]: section for section in artifact["sections"]}
 
     assert by_id["origini"]["coverage"] == "covered"
-    assert by_id["origini"]["paragraph_count"] == 1
+    assert by_id["origini"]["node_count"] == 1
     assert by_id["specie"]["coverage"] == "covered"
-    assert by_id["incantesimi"]["paragraph_count"] == 1
+    assert by_id["incantesimi"]["node_count"] == 1
     assert by_id["mostri"]["coverage"] == "empty"
 
 
@@ -39,12 +39,12 @@ def test_assign_sections_splits_shared_origini_specie_pages() -> None:
         "pages": [
             {
                 "page_number": 93,
-                "paragraphs": [
-                    {"text": "Background dei personaggi", "role": "heading", "page_number": 93},
-                    {"text": "Accolito", "role": "heading", "page_number": 93},
-                    {"text": "Punteggi di caratteristica: Saggezza", "role": "body", "page_number": 93},
-                    {"text": "Specie dei personaggi", "role": "heading", "page_number": 93},
-                    {"text": "Dragonide", "role": "heading", "page_number": 94},
+                "nodes": [
+                    {"text": "Background dei personaggi", "type": "heading", "page_number": 93},
+                    {"text": "Accolito", "type": "heading", "page_number": 93},
+                    {"text": "Punteggi di caratteristica: Saggezza", "type": "paragraph", "page_number": 93},
+                    {"text": "Specie dei personaggi", "type": "heading", "page_number": 93},
+                    {"text": "Dragonide", "type": "heading", "page_number": 94},
                 ],
             }
         ],
@@ -53,12 +53,12 @@ def test_assign_sections_splits_shared_origini_specie_pages() -> None:
     artifact = assign_sections(document)
     by_id = {section["id"]: section for section in artifact["sections"]}
 
-    assert [p["text"] for p in by_id["origini"]["paragraphs"]] == [
+    assert [node["text"] for node in by_id["origini"]["nodes"]] == [
         "Background dei personaggi",
         "Accolito",
         "Punteggi di caratteristica: Saggezza",
     ]
-    assert [p["text"] for p in by_id["specie"]["paragraphs"]] == [
+    assert [node["text"] for node in by_id["specie"]["nodes"]] == [
         "Specie dei personaggi",
         "Dragonide",
     ]

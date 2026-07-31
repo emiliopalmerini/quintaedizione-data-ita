@@ -9,26 +9,26 @@ def test_parse_talenti_extracts_origin_talent_and_repeatable_flag() -> None:
         "title": "Talenti",
         "page_start": 98,
         "page_end": 100,
-        "paragraphs": [
-            {"text": "Talenti Origini", "role": "heading", "page_number": 98},
-            {"text": "Abile", "role": "heading", "page_number": 98},
-            {"text": "Talento Origini", "role": "body", "page_number": 98},
+        "nodes": [
+            {"text": "Talenti Origini", "type": "heading", "page_number": 98},
+            {"text": "Abile", "type": "heading", "page_number": 98},
+            {"text": "Talento Origini", "type": "paragraph", "page_number": 98},
             {
                 "text": "Il personaggio ottiene competenza in una combina\u00ad",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 98,
             },
             {
                 "text": "zione di tre abilit\u00e0 o strumenti a scelta.",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 98,
             },
             {
                 "text": "Ripetibile. Questo talento \u00e8 ottenibile pi\u00f9 di una",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 98,
             },
-            {"text": "volta.", "role": "body", "page_number": 98},
+            {"text": "volta.", "type": "paragraph", "page_number": 98},
         ],
     }
 
@@ -60,29 +60,29 @@ def test_parse_talenti_handles_wrapped_prerequisite_and_multiple_talents() -> No
         "title": "Talenti",
         "page_start": 98,
         "page_end": 100,
-        "paragraphs": [
-            {"text": "Lottatore", "role": "heading", "page_number": 98},
+        "nodes": [
+            {"text": "Lottatore", "type": "heading", "page_number": 98},
             {
                 "text": "Talento Generale (prerequisito: 4\u00ba livello o superiore,",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 98,
             },
-            {"text": "Forza o Destrezza 13 o superiore)", "role": "body", "page_number": 98},
-            {"text": "Il personaggio ottiene i seguenti benefici.", "role": "body", "page_number": 98},
+            {"text": "Forza o Destrezza 13 o superiore)", "type": "paragraph", "page_number": 98},
+            {"text": "Il personaggio ottiene i seguenti benefici.", "type": "paragraph", "page_number": 98},
             {
                 "text": "Incremento dei punteggi di caratteristica. Il suo",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 98,
             },
-            {"text": "punteggio di Forza aumenta di 1.", "role": "body", "page_number": 98},
-            {"text": "Dono del richiamo degli incantesimi", "role": "heading", "page_number": 100},
+            {"text": "punteggio di Forza aumenta di 1.", "type": "paragraph", "page_number": 98},
+            {"text": "Dono del richiamo degli incantesimi", "type": "heading", "page_number": 100},
             {
                 "text": "Talento Dono epico (prerequisito: 19\u00ba livello",
-                "role": "body",
+                "type": "paragraph",
                 "page_number": 100,
             },
-            {"text": "o superiore, privilegio Incantesimi)", "role": "body", "page_number": 100},
-            {"text": "Il personaggio ottiene i seguenti benefici.", "role": "body", "page_number": 100},
+            {"text": "o superiore, privilegio Incantesimi)", "type": "paragraph", "page_number": 100},
+            {"text": "Il personaggio ottiene i seguenti benefici.", "type": "paragraph", "page_number": 100},
         ],
     }
 
