@@ -77,6 +77,8 @@ _ENTITY_FIELDS = {
     },
     "regole": _BASE_ENTITY_FIELDS
     | {"title", "parent_id", "depth", "order", "content"},
+    "oggetti_magici": _COMMON_ENTITY_FIELDS
+    | {"type_id", "type_name", "rarity_id", "attunement", "description"},
 }
 _OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
 _STRING_FIELDS = {
@@ -95,6 +97,7 @@ _STRING_FIELDS = {
         "subcategory_name",
     },
     "incantesimi": {"school_id", "casting_time", "range", "duration"},
+    "oggetti_magici": {"type_id", "type_name", "rarity_id"},
 }
 _CONTENT_FIELDS = {
     "origini": {"description"},
@@ -104,6 +107,7 @@ _CONTENT_FIELDS = {
     "incantesimi": {"description", "at_higher_levels"},
     "classi": {"description"},
     "regole": {"content"},
+    "oggetti_magici": {"description"},
 }
 
 
@@ -376,6 +380,22 @@ def _validate_entity_fields(
                 errors.append(
                     f"items[{index}].{field} must be an integer >= {minimum}"
                 )
+
+    if collection == "oggetti_magici" and "attunement" in item:
+        attunement = item["attunement"]
+        prefix = f"items[{index}].attunement"
+        if not isinstance(attunement, dict):
+            errors.append(f"{prefix} must be an object")
+        else:
+            if set(attunement) != {"required", "requirement_text"}:
+                errors.append(f"{prefix} must contain required and requirement_text")
+            if not isinstance(attunement.get("required"), bool):
+                errors.append(f"{prefix}.required must be a boolean")
+            if not isinstance(attunement.get("requirement_text"), str):
+                errors.append(f"{prefix}.requirement_text must be a string")
+        for field in ("type_id", "rarity_id"):
+            if not isinstance(item.get(field), str) or _SLUG.fullmatch(item[field]) is None:
+                errors.append(f"items[{index}].{field} must be a lowercase ASCII slug")
 
 
 def _slug_list(value: Any) -> bool:

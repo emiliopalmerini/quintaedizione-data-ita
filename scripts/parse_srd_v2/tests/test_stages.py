@@ -156,6 +156,36 @@ def _rule_nodes(title: str, page_number: int) -> list[dict]:
     ]
 
 
+def _magic_item_nodes() -> list[dict]:
+    root_path = ["Oggetti magici", "Oggetti magici A–Z"]
+    return [
+        {
+            "type": "heading",
+            "heading_level": 2,
+            "text": "Oggetti magici A–Z",
+            "page_number": 237,
+            "heading_path": root_path,
+        },
+        {
+            "type": "heading",
+            "heading_level": 5,
+            "text": "Ali del volo",
+            "page_number": 237,
+            "heading_path": [*root_path, "Ali del volo"],
+        },
+        {
+            "type": "paragraph",
+            "text": "Oggetto meraviglioso, raro (richiede sintonia)",
+            "page_number": 237,
+        },
+        {
+            "type": "paragraph",
+            "text": "Il mantello si trasforma in ali.",
+            "page_number": 237,
+        },
+    ]
+
+
 def test_ensure_output_tree_creates_contracted_directories(tmp_path: Path) -> None:
     paths = ensure_output_tree(tmp_path)
 
@@ -286,6 +316,10 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
                 {
                     "page_number": 220,
                     "nodes": _rule_nodes("Strumenti di gioco", 220),
+                },
+                {
+                    "page_number": 237,
+                    "nodes": _magic_item_nodes(),
                 }
             ],
         }),
@@ -303,6 +337,9 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     )
     spell_envelope = read_json(tmp_path / "out" / "v2" / "incantesimi.json")
     rules_envelope = read_json(tmp_path / "out" / "v2" / "regole.json")
+    magic_item_envelope = read_json(
+        tmp_path / "out" / "v2" / "oggetti_magici.json"
+    )
     coverage = read_json(tmp_path / "out" / "reports" / "coverage.json")
     summary = read_json(tmp_path / "out" / "reports" / "summary.json")
     manifest = read_json(tmp_path / "out" / "manifest.json")
@@ -312,14 +349,15 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
         "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
+        "oggetti_magici": 1,
         "origini": 1,
         "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert report["unsupported_section_count"] == 4
-    assert report["node_accounting"]["consumed_node_count"] == 33
-    assert report["node_accounting"]["ignored_node_count"] == 6
+    assert report["unsupported_section_count"] == 3
+    assert report["node_accounting"]["consumed_node_count"] == 36
+    assert report["node_accounting"]["ignored_node_count"] == 7
     assert report["node_accounting"]["unassigned_node_count"] == 0
     assert report["node_accounting"]["missing_node_id_count"] == 0
     assert sections["sections"][3]["id"] == "origini"
@@ -333,19 +371,21 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
     assert equipment_envelope["items"][0]["id"] == "randello"
     assert spell_envelope["items"][0]["id"] == "allarme"
     assert len(rules_envelope["items"]) == 3
-    assert coverage["covered_section_count"] == 9
-    assert coverage["empty_section_count"] == 4
+    assert magic_item_envelope["items"][0]["id"] == "ali-del-volo"
+    assert coverage["covered_section_count"] == 10
+    assert coverage["empty_section_count"] == 3
     assert summary["status"] == "failed"
     assert summary["parse"]["collection_item_counts"] == {
         "classi": 1,
         "equipaggiamento": 1,
         "incantesimi": 1,
+        "oggetti_magici": 1,
         "origini": 1,
         "regole": 3,
         "specie": 1,
         "talenti": 1,
     }
-    assert summary["parse"]["unsupported_section_count"] == 4
+    assert summary["parse"]["unsupported_section_count"] == 3
     assert manifest["collections"] == [
         {
             "collection": "classi",
@@ -369,6 +409,14 @@ def test_run_parse_writes_sections_origini_envelope_and_report(tmp_path: Path) -
             "path": "v2/incantesimi.json",
             "checksum_sha256": file_sha256(
                 tmp_path / "out" / "v2" / "incantesimi.json"
+            ),
+        },
+        {
+            "collection": "oggetti_magici",
+            "item_count": 1,
+            "path": "v2/oggetti_magici.json",
+            "checksum_sha256": file_sha256(
+                tmp_path / "out" / "v2" / "oggetti_magici.json"
             ),
         },
         {

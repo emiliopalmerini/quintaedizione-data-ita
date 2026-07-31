@@ -270,3 +270,28 @@ def test_validate_envelope_accepts_flat_rule() -> None:
         "items[0].parent_id must be null or a lowercase ASCII slug"
         in validate_envelope(envelope)
     )
+
+
+def test_validate_envelope_accepts_magic_item() -> None:
+    envelope = empty_envelope("oggetti_magici", source=_source(), generated=_generated())
+    envelope["items"] = [
+        {
+            "id": "ali-del-volo",
+            "name": "Ali del volo",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 237,
+                "page_end": 237,
+                "heading_path": ["Oggetti magici", "Oggetti magici A–Z", "Ali del volo"],
+                "section_id": "oggetti_magici",
+                "parser": "oggetti_magici",
+            },
+            "type_id": "oggetto-meraviglioso",
+            "type_name": "Oggetto meraviglioso",
+            "rarity_id": "raro",
+            "attunement": {"required": True, "requirement_text": ""},
+            "description": [{"type": "text", "text": "Descrizione."}],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
