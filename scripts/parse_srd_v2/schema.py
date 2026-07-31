@@ -82,6 +82,7 @@ _ENTITY_FIELDS = {
         "damage",
         "property_ids",
         "mastery_id",
+        "attributes",
         "description",
     },
     "incantesimi": _COMMON_ENTITY_FIELDS
@@ -116,7 +117,9 @@ _ENTITY_FIELDS = {
     "mostri": _CREATURE_FIELDS,
     "animali": _CREATURE_FIELDS,
 }
-_OPTIONAL_ENTITY_FIELDS = {"equipaggiamento": {"mastery_id"}}
+_OPTIONAL_ENTITY_FIELDS = {
+    "equipaggiamento": {"damage", "property_ids", "mastery_id", "attributes"}
+}
 _STRING_FIELDS = {
     "origini": {
         "ability_scores",
@@ -384,9 +387,30 @@ def _validate_entity_fields(
     if collection == "equipaggiamento":
         for field in ("cost", "weight"):
             if field in item:
-                if field == "weight" and item[field] is None:
+                if item[field] is None:
                     continue
                 _validate_measure(item[field], f"items[{index}].{field}", errors)
+        category_id = item.get("category_id")
+        equipment_categories = {
+            "arma",
+            "armatura",
+            "strumento",
+            "equipaggiamento-d-avventura",
+            "cavalcatura",
+            "veicolo",
+            "finimento",
+            "servizio",
+        }
+        if category_id not in equipment_categories:
+            errors.append(f"items[{index}].category_id is not a supported category")
+        if category_id == "arma" and item.get("cost") is None:
+            errors.append(f"items[{index}].cost is required for weapons")
+        if category_id == "arma" and "damage" not in item:
+            errors.append(f"items[{index}].damage is required for weapons")
+        if category_id == "arma" and "property_ids" not in item:
+            errors.append(f"items[{index}].property_ids is required for weapons")
+        if category_id != "arma" and "attributes" not in item:
+            errors.append(f"items[{index}].attributes is required for non-weapons")
         if "damage" in item:
             _validate_damage(item["damage"], f"items[{index}].damage", errors)
         if "property_ids" in item:
@@ -403,6 +427,28 @@ def _validate_entity_fields(
             or _SLUG.fullmatch(item["mastery_id"]) is None
         ):
             errors.append(f"items[{index}].mastery_id must be a lowercase ASCII slug")
+        if "attributes" in item:
+            attributes = item["attributes"]
+            if not isinstance(attributes, list):
+                errors.append(f"items[{index}].attributes must be a list")
+            else:
+                for attribute_index, attribute in enumerate(attributes):
+                    prefix = f"items[{index}].attributes[{attribute_index}]"
+                    if not isinstance(attribute, dict) or set(attribute) != {
+                        "id",
+                        "name",
+                        "value",
+                    }:
+                        errors.append(f"{prefix} must contain id, name, and value")
+                        continue
+                    if (
+                        not isinstance(attribute.get("id"), str)
+                        or _SLUG.fullmatch(attribute["id"]) is None
+                    ):
+                        errors.append(f"{prefix}.id must be a lowercase ASCII slug")
+                    for field in ("name", "value"):
+                        if not isinstance(attribute.get(field), str) or not attribute[field]:
+                            errors.append(f"{prefix}.{field} is required")
 
     if collection == "incantesimi":
         level = item.get("level")

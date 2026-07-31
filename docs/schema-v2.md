@@ -136,6 +136,11 @@ Display text may accompany the expression but cannot be its only representation.
 ### Equipment
 
 Every equipment record has `category_id` and category-specific typed fields.
+The stable SRD 5.2.1 categories are `arma`, `armatura`, `strumento`,
+`equipaggiamento-d-avventura`, `cavalcatura`, `veicolo`, `finimento`, and
+`servizio`. All records retain `subcategory_id`, `subcategory_name`, typed
+`cost` and `weight` measures when present, and rich-text `description`.
+
 Weapon records include:
 
 - `subcategory_id` and `subcategory_name`;
@@ -145,6 +150,16 @@ Weapon records include:
 - `property_ids` in source order;
 - optional `mastery_id`;
 - rich-text `description`.
+
+Non-weapon records expose source columns and labeled builder values as ordered
+`attributes` records with `{id, name, value}`. Attribute IDs are controlled per
+source category, including armor class, strength requirement, stealth,
+donning/doffing, carrying capacity, speed, crew, passengers, cargo, hit points,
+and damage threshold. Ordered typed records are used instead of an arbitrary
+string-to-string property map so consumers can query stable IDs while retaining
+source display values. Heading-based tools and adventuring gear retain labeled
+paragraph fields in the same representation. Variable prices use `null` for
+`cost` and preserve the source expression in an attribute.
 
 The parser preserves display labels where controlled IDs normalize spelling or
 grammar. It must not publish an arbitrary string-to-string property map as the

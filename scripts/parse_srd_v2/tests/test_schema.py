@@ -152,6 +152,41 @@ def test_validate_envelope_accepts_typed_weapon_equipment() -> None:
     assert "items[0].cost.quantity must be a number" in errors
 
 
+def test_validate_envelope_accepts_non_weapon_equipment() -> None:
+    envelope = empty_envelope(
+        "equipaggiamento", source=_source(), generated=_generated()
+    )
+    envelope["items"] = [
+        {
+            "id": "scorte-da-alchimista",
+            "name": "Scorte da alchimista",
+            "source_id": "srd-5.2.1-it",
+            "provenance": {
+                "page_start": 105,
+                "page_end": 105,
+                "heading_path": ["Equipaggiamento", "Strumenti", "Scorte da alchimista"],
+                "section_id": "equipaggiamento",
+                "parser": "equipaggiamento",
+            },
+            "category_id": "strumento",
+            "subcategory_id": "strumenti-da-artigiano",
+            "subcategory_name": "Strumenti da artigiano",
+            "cost": {"quantity": 50, "unit": "mo"},
+            "weight": {"quantity": 4, "unit": "kg"},
+            "attributes": [
+                {
+                    "id": "caratteristica",
+                    "name": "Caratteristica",
+                    "value": "Intelligenza",
+                }
+            ],
+            "description": [],
+        }
+    ]
+
+    assert validate_envelope(envelope) == []
+
+
 def test_validate_envelope_accepts_typed_spell() -> None:
     envelope = empty_envelope("incantesimi", source=_source(), generated=_generated())
     envelope["items"] = [
